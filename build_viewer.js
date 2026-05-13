@@ -4,6 +4,10 @@ const path = require("path");
 
 const ROOT = __dirname;
 const tickers = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "tickers.json"), "utf-8"));
+const relPath = path.join(ROOT, "data", "relationships.json");
+const relationships = fs.existsSync(relPath)
+  ? JSON.parse(fs.readFileSync(relPath, "utf-8"))
+  : { edges: {} };
 
 // Embed per-ticker financials + prices summary (compact form to keep HTML reasonable)
 const embedded = {};
@@ -60,6 +64,27 @@ const html = `<!doctype html>
   .pill-link { cursor: pointer; }
   .pill-link:hover { background: #2a3a55; }
   .pill-extern { color: #97a3b6; background: #15171c; }
+  #tip { position: fixed; max-width: 360px; background: #1d2129; border: 1px solid #3a4150;
+         border-radius: 6px; padding: 10px 12px; font-size: 12px; line-height: 1.45;
+         pointer-events: none; display: none; z-index: 100; box-shadow: 0 6px 18px rgba(0,0,0,0.5); }
+  #tip .tip-head { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+  #tip .tip-from { color: #4ec9b0; }
+  #tip .tip-to { color: #ff8c42; }
+  #tip .tip-arrow { color: #97a3b6; margin: 0 6px; }
+  #tip .tip-row { margin: 3px 0; }
+  #tip .tip-label { color: #97a3b6; display: inline-block; min-width: 80px; }
+  #tip .tip-tag { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 10.5px; font-weight: 600; }
+  #tip .tag-critical { background: #5c1a22; color: #f08080; }
+  #tip .tag-major    { background: #4a3a14; color: #e6b450; }
+  #tip .tag-meaningful { background: #1a3a4a; color: #67b5d8; }
+  #tip .tag-tangential { background: #2a2f38; color: #97a3b6; }
+  #tip .tag-risk-high   { background: #5c1a22; color: #f08080; }
+  #tip .tag-risk-medium { background: #4a3a14; color: #e6b450; }
+  #tip .tag-risk-low    { background: #1a4a2e; color: #80e080; }
+  #tip .tag-risk-none   { background: #2a2f38; color: #97a3b6; }
+  #tip .tip-section { color: #c5cad3; font-size: 11.5px; margin-top: 6px; }
+  #tip .tip-event { color: #8ab4f8; font-size: 11.5px; margin-top: 6px; font-style: italic; }
+  #tip .tip-basis { color: #7a8395; font-size: 11px; margin-top: 6px; }
   table { border-collapse: collapse; width: 100%; font-size: 12px; margin: 4px 0; }
   th { text-align: right; padding: 4px 8px; color: #97a3b6; font-weight: 500; border-bottom: 1px solid #2a2f38; }
   td { text-align: right; padding: 3px 8px; border-bottom: 1px solid #1d2129; }
@@ -89,6 +114,7 @@ const html = `<!doctype html>
     <div id="graph" style="height: calc(100vh - 84px)"></div>
     <div class="legend" id="legend"></div>
   </div>
+  <div id="tip"></div>
   <div id="side">
     <h1>AI / Quantum / Photonics Supply Chain</h1>
     <p class="meta">Click a node to inspect. Drag to pan, scroll to zoom.<br>
@@ -99,6 +125,7 @@ const html = `<!doctype html>
 
 <script>
 const DATA = ${JSON.stringify(embedded)};
+const RELATIONSHIPS = ${JSON.stringify(relationships)};
 const tierColor = {
   "U5": "#a5673f", "U4": "#bf8a3e", "U3": "#c9b449", "U2": "#a7c44a",
   "U1": "#4ec9b0", "AI core": "#ff8c42",
@@ -247,15 +274,29 @@ function draw(filter) {
   for (const l of links) {
     const s = nodeMap[l.source]; const t = nodeMap[l.target];
     if (!s || !t) continue;
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
     const mid = (s.x + t.x) / 2;
-    line.setAttribute("d", \`M\${s.x},\${s.y} C\${mid},\${s.y} \${mid},\${t.y} \${t.x},\${t.y}\`);
+    const d = \`M\${s.x},\${s.y} C\${mid},\${s.y} \${mid},\${t.y} \${t.x},\${t.y}\`;
+    // Visible thin line
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    line.setAttribute("d", d);
     line.setAttribute("fill", "none");
     line.setAttribute("stroke", "#2a2f38");
     line.setAttribute("stroke-width", "0.6");
     line.setAttribute("opacity", "0.5");
+    line.setAttribute("pointer-events", "none");
     linkG.appendChild(line);
-    renderState.linkEls.push({ el: line, source: l.source, target: l.target });
+    // Invisible thick hit area for hovering
+    const hit = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    hit.setAttribute("d", d);
+    hit.setAttribute("fill", "none");
+    hit.setAttribute("stroke", "transparent");
+    hit.setAttribute("stroke-width", "10");
+    hit.style.cursor = "help";
+    hit.addEventListener("mouseenter", e => showEdgeTip(l.source, l.target, e));
+    hit.addEventListener("mousemove", e => moveTip(e));
+    hit.addEventListener("mouseleave", () => hideTip());
+    linkG.appendChild(hit);
+    renderState.linkEls.push({ el: line, hit, source: l.source, target: l.target });
   }
   // Render nodes
   for (const n of nodes) {
@@ -359,6 +400,90 @@ function applyHighlight() {
       el.setAttribute("opacity", "0.15");
     }
   }
+}
+
+// === Edge tooltip ===
+
+function findEdgeData(source, target) {
+  const key = source + "->" + target;
+  const e = RELATIONSHIPS.edges && RELATIONSHIPS.edges[key];
+  if (e) return { ...e, curated: true, source, target };
+  // Synthesized fallback for un-curated edges
+  const s = DATA[source], t = DATA[target];
+  if (!s || !t) return null;
+  return {
+    curated: false,
+    source, target,
+    what_flows: \`\${s.info.role_in_chain || s.info.segment} → \${t.info.role_in_chain || t.info.segment}\`,
+    importance: null,
+    annual_usd_billions: null,
+    single_source_risk: null,
+    trend: null
+  };
+}
+
+function showEdgeTip(source, target, e) {
+  const data = findEdgeData(source, target);
+  if (!data) return;
+  const tip = document.getElementById("tip");
+  const s = DATA[source]; const t = DATA[target];
+  let h = '<div class="tip-head"><span class="tip-from">'+source+'</span>';
+  h += '<span class="tip-arrow">→</span><span class="tip-to">'+target+'</span></div>';
+  h += '<div class="meta" style="font-size:11px; margin-bottom:6px">';
+  h += (s ? s.info.name : source) + ' &nbsp;&rarr;&nbsp; ' + (t ? t.info.name : target);
+  h += '</div>';
+
+  if (data.importance) {
+    h += '<div class="tip-row"><span class="tip-label">Importance:</span> ';
+    h += '<span class="tip-tag tag-'+data.importance+'">'+data.importance+'</span></div>';
+  }
+  if (data.single_source_risk) {
+    h += '<div class="tip-row"><span class="tip-label">Single-source risk:</span> ';
+    h += '<span class="tip-tag tag-risk-'+data.single_source_risk+'">'+data.single_source_risk+'</span></div>';
+  }
+  if (data.annual_usd_billions) {
+    h += '<div class="tip-row"><span class="tip-label">Est. annual flow:</span> <b>$' + data.annual_usd_billions + 'B</b></div>';
+  }
+  if (data.trend) {
+    h += '<div class="tip-row"><span class="tip-label">Trend:</span> ' + data.trend + '</div>';
+  }
+
+  h += '<div class="tip-section">' + data.what_flows + '</div>';
+
+  if (data.alternatives) {
+    h += '<div class="tip-row" style="margin-top:6px"><span class="tip-label">Alternatives:</span> ' + data.alternatives + '</div>';
+  }
+  if (data.deal_basis) {
+    h += '<div class="tip-basis"><b>Basis:</b> ' + data.deal_basis + '</div>';
+  }
+  if (data.key_event) {
+    h += '<div class="tip-event">⚑ ' + data.key_event + '</div>';
+  }
+  if (!data.curated) {
+    h += '<div class="tip-basis" style="margin-top:6px; font-style:italic">No curated detail for this edge — synthesized from tier roles. See REPORT.md for full segment context.</div>';
+  }
+
+  tip.innerHTML = h;
+  tip.style.display = "block";
+  moveTip(e);
+}
+
+function moveTip(e) {
+  const tip = document.getElementById("tip");
+  if (tip.style.display === "none") return;
+  const pad = 14;
+  const w = tip.offsetWidth || 340;
+  const h = tip.offsetHeight || 200;
+  let x = e.clientX + pad;
+  let y = e.clientY + pad;
+  if (x + w > window.innerWidth) x = e.clientX - w - pad;
+  if (y + h > window.innerHeight) y = e.clientY - h - pad;
+  tip.style.left = x + "px";
+  tip.style.top = y + "px";
+}
+
+function hideTip() {
+  document.getElementById("tip").style.display = "none";
 }
 
 function showDetail(ticker) {

@@ -1,0 +1,519 @@
+{
+  "as_of": "2026-05-11",
+  "schema": {
+    "importance": {
+      "critical": "Near-monopoly / single-source / breaking this link breaks the chain",
+      "major": "Large $$ flow + few alternatives; meaningful slowdown if disrupted",
+      "meaningful": "Real revenue exposure but with substitutes available",
+      "tangential": "Real but small / highly diversified on at least one side"
+    },
+    "single_source_risk": {
+      "high": "1 dominant supplier, no near-term substitute (multi-year + multi-billion to replicate)",
+      "medium": "2-3 viable suppliers; switching cost real but bounded",
+      "low": "Many suppliers; commoditized or easily dual-sourced",
+      "none": "Buyer has internal alternative or true commodity"
+    },
+    "annual_usd_billions_note": "Rough estimates based on disclosed segment revenue, IR commentary, analyst consensus, and PPA disclosures. Specific contract values are seldom public; ranges given where precision is uncertain. Treat as order-of-magnitude, not contract value."
+  },
+  "edges": {
+    "TSM->NVDA": {
+      "what_flows": "Advanced-node foundry capacity (4N/3nm/2nm) + CoWoS-L/S advanced packaging for Hopper/Blackwell/Rubin AI GPUs",
+      "importance": "critical",
+      "annual_usd_billions": "30-40",
+      "deal_basis": "Est. NVDA spent ~$25-30B at TSM in 2024, growing toward ~$40-50B in 2026 as Blackwell ramps; TSM HPC segment ~58% of total revenue and NVDA is its largest HPC customer.",
+      "single_source_risk": "high",
+      "alternatives": "Samsung Foundry (3nm yields uncompetitive for HPC), Intel Foundry (18A unproven for AI workloads). No production alternative for CoWoS at scale.",
+      "trend": "Growing fast; CoWoS-L packaging capacity is the hard bottleneck on NVDA shipments through 2026.",
+      "key_event": "TSM Arizona Fab 2 expected to begin Blackwell production H2 2026 — first NVDA US-fabbed AI GPUs."
+    },
+    "TSM->AMD": {
+      "what_flows": "3nm/4nm foundry + CoWoS packaging for MI300/MI325/MI350 + EPYC CPUs",
+      "importance": "critical",
+      "annual_usd_billions": "10-15",
+      "deal_basis": "AMD second-largest HPC customer at TSM after NVDA; CDNA/Zen 5 fabbed exclusively on TSM.",
+      "single_source_risk": "high",
+      "trend": "Growing with MI350 ramp; AMD competing with NVDA for limited CoWoS capacity."
+    },
+    "TSM->AAPL": {
+      "what_flows": "Apple Silicon (M-series + A-series) on TSM's most advanced node every year",
+      "importance": "critical",
+      "annual_usd_billions": "20-25",
+      "deal_basis": "Apple historically takes the entire first run of TSM's leading node (N3, N2). ~20-25% of TSM revenue.",
+      "single_source_risk": "high",
+      "trend": "Stable; Apple commits to N2 in 2025-26."
+    },
+    "TSM->AVGO": {
+      "what_flows": "Custom AI ASICs for hyperscalers (GOOG TPU, META MTIA), networking ASICs (Tomahawk/Jericho), VMware compute",
+      "importance": "critical",
+      "annual_usd_billions": "8-12",
+      "deal_basis": "AVGO's AI segment (~$20B+ FY25) is mostly custom ASIC silicon fabbed at TSM N3/N5.",
+      "single_source_risk": "high",
+      "trend": "Growing fast on TPU + custom AI ASIC volume."
+    },
+    "TSM->QCOM": {
+      "what_flows": "Snapdragon mobile + auto silicon on N3/N4",
+      "importance": "major",
+      "annual_usd_billions": "5-8",
+      "single_source_risk": "medium",
+      "trend": "Stable; Samsung Foundry occasionally dual-sourced."
+    },
+    "TSM->MRVL": {
+      "what_flows": "Custom AI ASICs (AMZN Trainium, MSFT Maia successors), DSPs for optical interconnect",
+      "importance": "major",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "high",
+      "trend": "Growing with hyperscaler custom silicon."
+    },
+    "ASML->TSM": {
+      "what_flows": "EUV scanners (NXE:3800E, NXE:3600D) + high-NA EUV (EXE:5000) for sub-7nm logic. ~$200M per scanner, ~$300M+ for high-NA.",
+      "importance": "critical",
+      "annual_usd_billions": "8-12",
+      "deal_basis": "TSM is ASML's largest customer. ~30-35% of ASML system revenue.",
+      "single_source_risk": "high",
+      "alternatives": "None. ASML has 100% global EUV monopoly. No substitute exists.",
+      "trend": "Growing with high-NA EUV adoption for 2nm/A14 nodes.",
+      "key_event": "TSM took delivery of first high-NA EUV in 2024 for A14 development."
+    },
+    "ASML->SSNLF": {
+      "what_flows": "EUV scanners for Samsung Foundry advanced nodes + memory (DRAM 1z/1a)",
+      "importance": "critical",
+      "annual_usd_billions": "4-6",
+      "single_source_risk": "high",
+      "trend": "Stable but constrained by Samsung's logic foundry yield issues."
+    },
+    "ASML->INTC": {
+      "what_flows": "EUV + high-NA EUV for Intel 18A and A14P (foundry strategy)",
+      "importance": "critical",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "high",
+      "trend": "Largest high-NA orders to date; INTC was ASML's first high-NA EUV customer."
+    },
+    "AMAT->TSM": {
+      "what_flows": "Deposition (CVD/PVD/epi), ion implant, CMP, advanced packaging tools",
+      "importance": "critical",
+      "annual_usd_billions": "5-7",
+      "single_source_risk": "medium",
+      "alternatives": "LRCX (etch+CVD overlap), TEL (Tokyo Electron, foreign-listed only)",
+      "trend": "Growing with HBM stacking demand."
+    },
+    "LRCX->TSM": {
+      "what_flows": "Plasma etch + ALD/CVD for advanced logic and 3D NAND",
+      "importance": "critical",
+      "annual_usd_billions": "4-6",
+      "single_source_risk": "medium",
+      "alternatives": "AMAT (overlap on dep), TEL (etch)",
+      "trend": "Growing with advanced packaging + NAND layer counts."
+    },
+    "KLAC->TSM": {
+      "what_flows": "Wafer & reticle inspection + metrology — near-monopoly in process control",
+      "importance": "critical",
+      "annual_usd_billions": "2-3",
+      "single_source_risk": "high",
+      "alternatives": "Limited (ONTO Innovation for some metrology niches)",
+      "trend": "Growing with high-NA EUV yield management complexity."
+    },
+    "SHECY->TSM": {
+      "what_flows": "Silicon wafers (300mm) — bare wafer supply",
+      "importance": "critical",
+      "annual_usd_billions": "2-3",
+      "single_source_risk": "high",
+      "alternatives": "SUMCO (SUOPY) is the only meaningful #2; combined SHECY+SUMCO = ~60% global supply.",
+      "trend": "Stable; capacity constrained but new fabs (Yamaguchi expansion) in 2026."
+    },
+    "LIN->TSM": {
+      "what_flows": "On-site industrial gases — neon (excimer laser fuel), helium, ultra-pure N2/H2/O2",
+      "importance": "critical",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "medium",
+      "alternatives": "APD on-site at some fabs; AIQUY (Air Liquide) in Europe.",
+      "trend": "Stable; helium supply diversified post-2022 Russia/Ukraine shock that hit neon."
+    },
+    "APD->TSM": {
+      "what_flows": "On-site industrial gases — same role as LIN at other fabs",
+      "importance": "major",
+      "annual_usd_billions": "0.4-0.8",
+      "single_source_risk": "medium",
+      "trend": "Stable."
+    },
+    "SNPS->NVDA": {
+      "what_flows": "EDA tools (design + verification) + IP cores (USB/PCIe/DDR/HBM/UCIe)",
+      "importance": "critical",
+      "annual_usd_billions": "0.3-0.5",
+      "single_source_risk": "low",
+      "alternatives": "CDNS (Cadence) head-to-head competitor; most chip design teams use both.",
+      "trend": "Growing with chip complexity + AI-assisted design (Synopsys.ai)."
+    },
+    "CDNS->NVDA": {
+      "what_flows": "EDA tools + IP (HBM controllers, advanced node sign-off)",
+      "importance": "critical",
+      "annual_usd_billions": "0.2-0.4",
+      "single_source_risk": "low",
+      "alternatives": "SNPS (Synopsys)",
+      "trend": "Growing with AI workloads + Cadence.ai stack."
+    },
+    "ARM->AAPL": {
+      "what_flows": "CPU architecture license (perpetual, fixed-fee) + royalties on M-series + A-series",
+      "importance": "critical",
+      "annual_usd_billions": "0.5-1.0",
+      "single_source_risk": "high",
+      "alternatives": "Apple has architecture license; could theoretically switch to RISC-V but committed to ARM ISA.",
+      "trend": "Stable; ARM v9 royalty rate is higher."
+    },
+    "ARM->QCOM": {
+      "what_flows": "Architecture license (under dispute) + chip royalties for Snapdragon",
+      "importance": "critical",
+      "annual_usd_billions": "0.3-0.5",
+      "single_source_risk": "high",
+      "key_event": "Nuvia-related licensing dispute mostly resolved 2024-25; royalties stable."
+    },
+    "ARM->NVDA": {
+      "what_flows": "ARM v9 architecture for Grace CPU + Cosmos CPU + ARM Neoverse-based DPU",
+      "importance": "major",
+      "annual_usd_billions": "0.1-0.3",
+      "single_source_risk": "high",
+      "trend": "Growing as NVDA platform includes more CPU+GPU integrated systems."
+    },
+    "MU->NVDA": {
+      "what_flows": "HBM3E + HBM4 for AI GPUs — Micron is the #3 HBM supplier (after SK Hynix + Samsung)",
+      "importance": "critical",
+      "annual_usd_billions": "8-12",
+      "deal_basis": "MU has multi-year HBM3E/HBM4 supply agreements with NVDA. ~$10-12B of MU FY26 revenue attributable to AI HBM.",
+      "single_source_risk": "medium",
+      "alternatives": "SK Hynix (#1, KRX-only public), Samsung (SSNLF OTC).",
+      "trend": "Growing fast; MU gaining share in HBM4. Sold-out through 2026.",
+      "key_event": "MU first to qualify HBM3E 12-Hi for B200 in early 2025."
+    },
+    "MU->AMD": {
+      "what_flows": "HBM3E + DDR5 for MI300/MI350 + EPYC servers",
+      "importance": "major",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "medium",
+      "trend": "Growing."
+    },
+    "NVDA->SMCI": {
+      "what_flows": "H100/H200/B100/B200/B300 GPUs as system components in SMCI's GPU server SKUs",
+      "importance": "critical",
+      "annual_usd_billions": "20-25",
+      "deal_basis": "SMCI FY25 (Jun 2025) revenue ~$22B; ~85% of that is GPU systems, of which most is NVDA-based. xAI Colossus + CoreWeave + hyperscalers.",
+      "single_source_risk": "high",
+      "alternatives": "AMD MI300 for ~10% of SMCI's GPU revenue.",
+      "trend": "Volatile (Q4 FY25 supply timing); structural demand intact."
+    },
+    "NVDA->DELL": {
+      "what_flows": "H100/H200/B100 GPUs as PowerEdge XE9680/XE9712 components for enterprise + hyperscaler",
+      "importance": "critical",
+      "annual_usd_billions": "12-18",
+      "deal_basis": "DELL ISG AI server revenue ran ~$5B/qtr in late FY25, ~70% NVDA GPU pass-through.",
+      "single_source_risk": "high",
+      "trend": "Growing fast; DELL is NVDA's largest enterprise channel."
+    },
+    "NVDA->HPE": {
+      "what_flows": "GPUs for Cray AI supercomputers + ProLiant",
+      "importance": "major",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "high",
+      "trend": "Growing with HPE Cray supercomputer wins (Aurora, etc.)."
+    },
+    "NVDA->MSFT": {
+      "what_flows": "Direct + via DELL/SMCI: H100/H200/B100/B200/B300 for Azure AI clusters supporting OpenAI",
+      "importance": "critical",
+      "annual_usd_billions": "20-30",
+      "deal_basis": "MSFT estimated $20B+/yr in NVDA purchases through 2026; largest hyperscaler buyer.",
+      "single_source_risk": "high",
+      "alternatives": "Maia 100/200 (MSFT internal silicon via TSM); AMD MI300 small share.",
+      "trend": "Growing.",
+      "key_event": "Stargate $500B AI infra commitment announced Jan 2025."
+    },
+    "NVDA->META": {
+      "what_flows": "H100/H200/B100/B200/B300 GPUs for Llama training + GenAI infra",
+      "importance": "critical",
+      "annual_usd_billions": "15-20",
+      "deal_basis": "META disclosed plans for ~350K-400K H100s by end-2024; capex run-rate ~$60-70B in 2025-26 with majority on AI infra.",
+      "single_source_risk": "high",
+      "alternatives": "MTIA (Meta's custom AI silicon via TSM); slow ramp.",
+      "trend": "Growing."
+    },
+    "NVDA->GOOGL": {
+      "what_flows": "H100/H200/B100/B200 for GCP customer-facing AI + Gemini training (alongside Google TPU)",
+      "importance": "major",
+      "annual_usd_billions": "8-12",
+      "single_source_risk": "medium",
+      "alternatives": "Google TPU v5/v6 (via AVGO + TSM) — internal alternative.",
+      "trend": "Mixed; GOOGL increasingly TPU-first for Gemini."
+    },
+    "NVDA->AMZN": {
+      "what_flows": "H100/H200/B100/B200 for AWS customer-facing AI (Bedrock, P5/P6 instances) alongside Trainium",
+      "importance": "major",
+      "annual_usd_billions": "10-15",
+      "single_source_risk": "medium",
+      "alternatives": "Trainium2/3 (AMZN custom silicon, via MRVL + TSM).",
+      "trend": "Growing on NVDA side and on Trainium side."
+    },
+    "NVDA->TSLA": {
+      "what_flows": "H100 cluster for FSD model training (Cortex datacenter)",
+      "importance": "major",
+      "annual_usd_billions": "1-3",
+      "single_source_risk": "high",
+      "alternatives": "Dojo (TSLA custom silicon — repeatedly delayed).",
+      "trend": "Stable; TSLA had ~35K H100s and growing."
+    },
+    "NVDA->ORCL": {
+      "what_flows": "Massive GPU clusters for OCI; OpenAI partnership in 2025 (~$30B compute deal)",
+      "importance": "major",
+      "annual_usd_billions": "8-12",
+      "deal_basis": "ORCL-OpenAI deal Sep 2025: $30B in compute commitments over 5yr, requiring large NVDA buildouts.",
+      "single_source_risk": "high",
+      "trend": "Growing fast; ORCL was a structural ramp story 2025-26."
+    },
+    "COHR->NVDA": {
+      "what_flows": "800G + 1.6T optical transceivers for NVDA Spectrum-X AI fabrics + Mellanox-derived networking",
+      "importance": "major",
+      "annual_usd_billions": "1-2",
+      "single_source_risk": "medium",
+      "alternatives": "LITE (Lumentum), MRVL (DSPs), foreign suppliers.",
+      "trend": "Growing fast; AI fabric is COHR's #1 growth driver."
+    },
+    "COHR->ASML": {
+      "what_flows": "CO2 laser amplifier modules for ASML EUV light source (made by COHR/II-VI fab)",
+      "importance": "critical",
+      "annual_usd_billions": "0.3-0.5",
+      "single_source_risk": "high",
+      "alternatives": "Limited — TRUMPF (German private) makes the seed CO2; COHR/II-VI dominate amplifier specialty optics.",
+      "trend": "Growing with high-NA EUV deployment."
+    },
+    "LITE->NVDA": {
+      "what_flows": "Optical transceivers + Cloudlight laser modules for AI interconnect",
+      "importance": "major",
+      "annual_usd_billions": "0.4-0.8",
+      "single_source_risk": "medium",
+      "trend": "Growing fast with 800G+ AI fabric deployments."
+    },
+    "LITE->AAPL": {
+      "what_flows": "VCSELs (Face ID, LiDAR) — long-running customer",
+      "importance": "major",
+      "annual_usd_billions": "0.5-0.8",
+      "single_source_risk": "medium",
+      "trend": "Stable."
+    },
+    "SMCI->MSFT": {
+      "what_flows": "Built-to-order GPU server racks for Azure",
+      "importance": "major",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "medium",
+      "alternatives": "DELL is parallel supplier; MSFT also designs own racks (Project Forge).",
+      "trend": "Mixed (SMCI accounting issues delayed orders in 2024-25)."
+    },
+    "SMCI->META": {
+      "what_flows": "Custom GPU server racks for Llama training clusters",
+      "importance": "major",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "medium",
+      "trend": "Growing."
+    },
+    "DELL->MSFT": {
+      "what_flows": "PowerEdge XE9680/XE9712 GPU servers for Azure",
+      "importance": "major",
+      "annual_usd_billions": "3-6",
+      "single_source_risk": "medium",
+      "trend": "Growing."
+    },
+    "CEG->MSFT": {
+      "what_flows": "20-year nuclear PPA from restarted Three Mile Island Unit 1 (renamed Crane Clean Energy Center). 835 MW carbon-free baseload exclusively for Azure.",
+      "importance": "critical",
+      "annual_usd_billions": "0.4-0.5",
+      "deal_basis": "Total contract value est. $8-10B over 20 years; first US nuclear restart for an AI buyer.",
+      "single_source_risk": "high",
+      "alternatives": "None for this site; MSFT signed parallel PPAs with NEE, CEG New York fleet, etc.",
+      "trend": "Sets template for hyperscaler-nuclear PPAs.",
+      "key_event": "Deal signed Sep 2024; restart targeted 2028."
+    },
+    "VST->MSFT": {
+      "what_flows": "Comanche Peak nuclear PPA + Texas gas-fired generation for Azure Texas region",
+      "importance": "major",
+      "annual_usd_billions": "0.2-0.4",
+      "deal_basis": "Several multi-hundred-MW PPAs in 2024-25.",
+      "single_source_risk": "medium",
+      "trend": "Growing."
+    },
+    "TLN->AMZN": {
+      "what_flows": "Cumulus AI data-center campus next to Susquehanna nuclear plant (sold to AMZN $650M, AMZN takes 960 MW of nuclear PPA)",
+      "importance": "critical",
+      "annual_usd_billions": "0.3-0.5",
+      "deal_basis": "Mar 2024 sale: $650M cash for the campus + long-term direct-from-nuclear PPA. Subject to ongoing FERC review.",
+      "single_source_risk": "high",
+      "trend": "Stable.",
+      "key_event": "Site visit + interconnection FERC ruling expected 2025-26."
+    },
+    "GEV->Utilities": {
+      "what_flows": "Gas turbines (H-class for combined cycle), grid transformers, BWRX-300 SMR, control systems",
+      "importance": "major",
+      "annual_usd_billions": "20-25 across all customers",
+      "deal_basis": "GEV total FY25 revenue ~$36B across power + grid + onshore wind; AI-data-center pipeline ~$10B+ in disclosed backlog.",
+      "single_source_risk": "medium",
+      "alternatives": "Siemens Energy, Mitsubishi Heavy.",
+      "trend": "Massive backlog growth in gas turbines as data centers shift toward dedicated gas plants."
+    },
+    "BWX->OKLO": {
+      "what_flows": "HALEU (high-assay low-enriched uranium) fuel + reactor pressure-vessel components for Aurora SMR",
+      "importance": "critical",
+      "annual_usd_billions": "<0.1 today, ramping",
+      "deal_basis": "Pre-revenue stage; OKLO INL Aurora targeted COD 2027-28.",
+      "single_source_risk": "high",
+      "alternatives": "Centrus Energy (LEU), Urenco (limited HALEU).",
+      "trend": "Growing as SMR fleet builds."
+    },
+    "BWX->SMR": {
+      "what_flows": "Reactor module manufacturing + HALEU fuel for NuScale VOYGR",
+      "importance": "critical",
+      "annual_usd_billions": "<0.1 today",
+      "single_source_risk": "high",
+      "trend": "Slower than expected (UAMPS deal cancelled 2023)."
+    },
+    "WOLF->ON": {
+      "what_flows": "150mm + 200mm SiC wafers for ON power devices (auto + AI server power)",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.5",
+      "single_source_risk": "medium",
+      "alternatives": "ROHM, Coherent (II-VI), Infineon internal.",
+      "trend": "Volatile — WOLF restructuring 2025 + auto SiC demand soft."
+    },
+    "MP->Defense": {
+      "what_flows": "NdPr permanent-magnet feedstock for DOD-aligned magnet supply chain (motors, missiles, drives)",
+      "importance": "critical",
+      "annual_usd_billions": "0.1-0.3",
+      "deal_basis": "MP has $35M DOD grant for magnet plant + DoD off-take agreements.",
+      "single_source_risk": "high",
+      "alternatives": "Lynas (LYSDY) outside US; China dominates downstream processing.",
+      "trend": "Growing on US strategic decoupling."
+    },
+    "AVGO->GOOGL": {
+      "what_flows": "Custom AI ASICs (Google TPU v5 + v6 silicon design + manufacturing partnership with TSM)",
+      "importance": "critical",
+      "annual_usd_billions": "8-12",
+      "deal_basis": "AVGO's largest custom AI ASIC customer; disclosed in AVGO commentary.",
+      "single_source_risk": "high",
+      "trend": "Growing fast with TPU v6 ramp."
+    },
+    "AVGO->META": {
+      "what_flows": "Custom AI ASICs (MTIA silicon — Meta Training & Inference Accelerator)",
+      "importance": "major",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "high",
+      "trend": "Growing as MTIA shifts inference off NVDA."
+    },
+    "MRVL->AMZN": {
+      "what_flows": "Custom silicon for Trainium2/3 (AWS AI accelerators) + Nitro infrastructure",
+      "importance": "critical",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "high",
+      "trend": "Growing fast."
+    },
+    "MRVL->MSFT": {
+      "what_flows": "Custom AI silicon for Maia successors + cloud DPU",
+      "importance": "major",
+      "annual_usd_billions": "1-2",
+      "single_source_risk": "high",
+      "trend": "Growing."
+    },
+    "VRT->SMCI": {
+      "what_flows": "Liquid CDUs (Coolant Distribution Units) for NVDA GB200/GB300 NVL72 racks, busbars, rack-level power",
+      "importance": "critical",
+      "annual_usd_billions": "0.8-1.5",
+      "deal_basis": "VRT is the #1 CDU supplier; NVDA reference designs feature VRT extensively.",
+      "single_source_risk": "medium",
+      "alternatives": "MOD (Modine), NVT, Schneider Motivair.",
+      "trend": "Growing fast with B200 → Rubin liquid cooling adoption."
+    },
+    "VRT->DLR": {
+      "what_flows": "Data-center UPS + thermal systems for large multi-tenant builds",
+      "importance": "major",
+      "annual_usd_billions": "0.5-0.8",
+      "single_source_risk": "low",
+      "trend": "Growing."
+    },
+    "ETN->DLR": {
+      "what_flows": "Switchgear + UPS + busway + power distribution for hyperscale data-center campuses",
+      "importance": "major",
+      "annual_usd_billions": "1-2",
+      "single_source_risk": "low",
+      "trend": "Growing fast."
+    },
+    "PWR->Utilities": {
+      "what_flows": "Transmission lines + substation builds + data-center grid interconnections",
+      "importance": "critical",
+      "annual_usd_billions": "15-20 (across customer base)",
+      "deal_basis": "PWR FY25 revenue ~$24B; ~70% from electric power infrastructure work for utilities + hyperscalers.",
+      "single_source_risk": "medium",
+      "alternatives": "MTZ, Primoris, EMCOR for mechanical.",
+      "trend": "Largest backlog in company history; data-center connection waits in PJM/MISO/ERCOT extending 4-7 years."
+    },
+    "GLW->Hyperscalers": {
+      "what_flows": "Optical fiber + glass for high-density data-center interconnect; recent multi-year hyperscaler fiber deal",
+      "importance": "major",
+      "annual_usd_billions": "1-2",
+      "deal_basis": "Corning disclosed multi-billion-dollar hyperscaler fiber contracts in 2024-25 (un-named hyperscaler).",
+      "single_source_risk": "low",
+      "trend": "Growing."
+    },
+    "WM->Hyperscalers": {
+      "what_flows": "Hauling + disposal of construction debris + decommissioned IT hardware",
+      "importance": "tangential",
+      "annual_usd_billions": "<0.5",
+      "single_source_risk": "none",
+      "trend": "Stable; growing slightly with data-center build pace."
+    },
+    "SMSMY->Hyperscalers": {
+      "what_flows": "E-waste recycling + precious-metal recovery from decommissioned servers + GPUs",
+      "importance": "tangential",
+      "annual_usd_billions": "<0.5",
+      "single_source_risk": "none",
+      "trend": "Growing as AI server refresh cycles shorten (~3 yr)."
+    },
+    "EME->Hyperscalers": {
+      "what_flows": "Mechanical + electrical contracting for data-center builds (busbars, cooling pipework)",
+      "importance": "major",
+      "annual_usd_billions": "2-3",
+      "single_source_risk": "low",
+      "trend": "Growing fast; #1 data-center mechanical contractor."
+    },
+    "DLR->Hyperscalers": {
+      "what_flows": "Wholesale + hyperscale data-center capacity (lease-based) for MSFT/AMZN/GOOG/META/ORCL",
+      "importance": "critical",
+      "annual_usd_billions": "4-6",
+      "deal_basis": "DLR top-20 customers are mostly hyperscalers; ~$3-4B of annual revenue from this cohort.",
+      "single_source_risk": "low",
+      "alternatives": "EQIX, IRM, build-to-suit by hyperscaler internally.",
+      "trend": "Capacity constrained; pricing power increasing."
+    },
+    "EQIX->Hyperscalers": {
+      "what_flows": "Colocation + cross-connects + xScale hyperscale capacity (JV with PIF/CPPIB)",
+      "importance": "critical",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "low",
+      "trend": "Growing."
+    },
+    "IPGP->Quantum": {
+      "what_flows": "Specialty fiber lasers for trapped-ion + neutral-atom quantum systems",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "medium",
+      "alternatives": "LASR (nLIGHT), COHR specialty lasers.",
+      "trend": "Small but growing."
+    },
+    "LASR->Defense": {
+      "what_flows": "Directed-energy laser modules + manufacturing lasers for DOD programs",
+      "importance": "major",
+      "annual_usd_billions": "0.1-0.2",
+      "single_source_risk": "medium",
+      "trend": "Growing with DE-SR + similar programs."
+    },
+    "COHR->Quantum": {
+      "what_flows": "Trapped-ion ionizer + 369nm + 411nm + 935nm lasers for IONQ + Quantinuum (HON)",
+      "importance": "critical",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "high",
+      "alternatives": "Very few — specialty laser physics expertise concentrated at COHR/II-VI + a handful of private suppliers.",
+      "trend": "Growing slowly; small absolute $ but mission-critical."
+    }
+  }
+}
