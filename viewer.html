@@ -3,7 +3,27 @@
 <title>AI Supply Chain Explorer</title>
 <style>
   body { font: 14px/1.4 -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #0e1116; color: #e3e7ed; }
-  #app { display: grid; grid-template-columns: 1fr 420px; height: 100vh; }
+  :root { --side-width: 560px; }
+  #app { display: grid; grid-template-columns: 1fr var(--side-width); height: 100vh; }
+  #side-resize {
+    position: fixed; top: 0; bottom: 0;
+    width: 8px;
+    /* sits straddling the grid divider */
+    right: calc(var(--side-width) - 4px);
+    cursor: ew-resize;
+    background: transparent;
+    z-index: 100;
+    transition: background 0.15s;
+  }
+  #side-resize::before {
+    content: ""; position: absolute; left: 3px; top: 50%;
+    width: 2px; height: 32px; background: #2a3a4a;
+    transform: translateY(-50%);
+    border-radius: 1px;
+    transition: background 0.15s, height 0.15s;
+  }
+  #side-resize:hover::before, #side-resize.dragging::before { background: #67b5d8; height: 60px; }
+  body.resizing { cursor: ew-resize !important; user-select: none; }
   #graph { background: #0a0d12; }
   #side { padding: 20px; overflow-y: auto; border-left: 1px solid #2a2f38; display: flex; flex-direction: column; min-height: 100vh; }
   #detail { flex: 1; }
@@ -166,6 +186,7 @@
     <div class="legend" id="legend"></div>
   </div>
   <div id="tip"></div>
+  <div id="side-resize" title="Drag to resize"></div>
   <div id="compare-bin">
     <div class="bin-head">
       <strong style="color:#8ab4f8">Compare</strong>
@@ -2086,6 +2107,52 @@ document.getElementById("search").addEventListener("input", e => {
   }
   updateUrl();
 });
+
+// === Resizable side panel ===
+(function initSideResize() {
+  const handle = document.getElementById("side-resize");
+  if (!handle) return;
+  // Restore from localStorage
+  try {
+    const saved = localStorage.getItem("aiSC_sideWidth");
+    if (saved) {
+      const w = parseFloat(saved);
+      if (!isNaN(w) && w >= 320 && w <= 1200) {
+        document.documentElement.style.setProperty("--side-width", w + "px");
+      }
+    }
+  } catch (e) {}
+  let resizing = false;
+  handle.addEventListener("mousedown", e => {
+    resizing = true;
+    handle.classList.add("dragging");
+    document.body.classList.add("resizing");
+    e.preventDefault();
+  });
+  document.addEventListener("mousemove", e => {
+    if (!resizing) return;
+    const newWidth = window.innerWidth - e.clientX;
+    const min = 320;
+    const max = Math.max(min + 100, window.innerWidth * 0.7);
+    const clamped = Math.max(min, Math.min(max, newWidth));
+    document.documentElement.style.setProperty("--side-width", clamped + "px");
+  });
+  document.addEventListener("mouseup", () => {
+    if (!resizing) return;
+    resizing = false;
+    handle.classList.remove("dragging");
+    document.body.classList.remove("resizing");
+    try {
+      const cur = getComputedStyle(document.documentElement).getPropertyValue("--side-width").trim();
+      localStorage.setItem("aiSC_sideWidth", cur.replace("px", ""));
+    } catch (e) {}
+  });
+  // Double-click to reset to default
+  handle.addEventListener("dblclick", () => {
+    document.documentElement.style.removeProperty("--side-width");
+    try { localStorage.removeItem("aiSC_sideWidth"); } catch (e) {}
+  });
+})();
 
 // Initial render + restore-from-URL on load
 draw();
