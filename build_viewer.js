@@ -134,6 +134,10 @@ const html = `<!doctype html>
   .legend span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
   #sparkbox { background: #1d2129; padding: 8px; border-radius: 4px; margin-top: 8px; }
   a { color: #8ab4f8; }
+  .gf-link { color: #8ab4f8; text-decoration: none; border-bottom: 1px dashed #3a4150; }
+  .gf-link:hover { color: #b1ceff; border-bottom-color: #8ab4f8; }
+  .gf-link .gf-arrow { font-size: 0.75em; opacity: 0.7; margin-left: 2px; }
+  .gf-link:hover .gf-arrow { opacity: 1; }
 </style>
 </head>
 <body>
@@ -686,7 +690,14 @@ function showDetail(ticker) {
   const d = DATA[ticker];
   if (!d) return;
   const info = d.info;
-  let h = '<h1>'+ticker+' &mdash; '+info.name+'</h1>';
+  // Build a Google Finance URL. Exchange "OTC" needs to become "OTCMKTS".
+  const exch = info.exchange === "OTC" ? "OTCMKTS" : info.exchange;
+  const gfUrl = exch
+    ? \`https://www.google.com/finance/quote/\${ticker}:\${exch}\`
+    : \`https://www.google.com/finance/quote/\${ticker}\`;
+  let h = '<h1><a href="'+gfUrl+'" target="_blank" rel="noopener noreferrer" '
+        + 'class="gf-link" title="Open in Google Finance">'+ticker+' <span class="gf-arrow">↗</span></a> '
+        + '&mdash; '+info.name+'</h1>';
   h += '<p class="meta"><span class="pill">'+info.tier+' / '+info.segment+'</span>';
   if (d.mcap) {
     const mcapDisplay = d.mcap >= 1e6 ? '$' + (d.mcap/1e6).toFixed(2) + 'T'
