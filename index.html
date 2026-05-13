@@ -123,7 +123,7 @@
       <button id="screen-toggle" onclick="toggleScreenPanel()">Screen ▾</button>
       <button id="ew-toggle" onclick="toggleEdgeWeight()">Edges: uniform</button>
       <button onclick="showTierDashboard()" title="Tier-level aggregates (total mcap, weighted CAGR, etc.)">Tier dashboard</button>
-      <button onclick="clearSelection(); document.getElementById('search').value=''; resetView()">Reset</button>
+      <button onclick="resetAll()" title="Clear ticker selection, compare, search, screen, segment, edge mode, viewport — and the URL">Reset</button>
       <span id="screen-status"></span>
     </div>
     <div id="screen-panel">
@@ -685,6 +685,57 @@ function clearSelection() {
   highlightSet = null;
   applyHighlight();
   updateUrl();
+}
+
+// Full reset — wired to the toolbar Reset button. Clears every piece of
+// state that's meaningful to the URL + the detail panel + the screens.
+function resetAll() {
+  restoringFromUrl = true;
+  try {
+    // Selection + highlight
+    selectedTicker = null;
+    highlightSet = null;
+    // Compare bin
+    if (compareSet && typeof compareSet.clear === "function") compareSet.clear();
+    if (typeof renderCompareBin === "function") renderCompareBin();
+    // Search
+    const s = document.getElementById("search");
+    if (s) s.value = "";
+    // Segment dropdown
+    const seg = document.getElementById("filter");
+    if (seg) seg.value = "";
+    // Screen panel — clear inputs + active preset chips + status text
+    activeScreen = null;
+    document.querySelectorAll(".preset-chip").forEach(el => el.classList.remove("active"));
+    [
+      "f-minMcap","f-maxMcap","f-minCagr","f-maxCagr","f-minRet","f-maxRet",
+      "f-minYtd","f-maxYtd","f-minPe","f-maxPe","f-minPs","f-maxPs",
+      "f-minPeg","f-maxPeg","f-minNm","f-maxNm","f-minDcp","f-maxDcp",
+      "f-minErn","f-maxErn","f-minIns","f-maxIns","f-tier"
+    ].forEach(id => { const el = document.getElementById(id); if (el) el.value = ""; });
+    const st = document.getElementById("screen-status");
+    if (st) st.innerHTML = "";
+    const sp = document.getElementById("screen-panel");
+    if (sp) sp.classList.remove("open");
+    const stog = document.getElementById("screen-toggle");
+    if (stog) stog.classList.remove("active");
+    // Edge mode -> uniform
+    edgeWeightMode = "uniform";
+    const ew = document.getElementById("ew-toggle");
+    if (ew) ew.textContent = "Edges: uniform";
+    // Viewport pan/zoom
+    viewState = { tx: 0, ty: 0, k: 1 };
+    applyViewport();
+    // Redraw graph (clears segment filter)
+    draw();
+    // Detail panel back to empty hint
+    const det = document.getElementById("detail");
+    if (det) det.innerHTML = '<p class="meta"><em>Hover a ticker for a quick view, click for the full detail panel. Hover an edge for relationship context.</em></p>';
+  } finally {
+    restoringFromUrl = false;
+  }
+  // Strip URL of all params (replaceState, no history entry)
+  history.replaceState(null, "", window.location.pathname + window.location.hash);
 }
 
 // Highlight tickers where a given person has insider trades
