@@ -1,12 +1,233 @@
 {
   "ticker": "AMZN",
   "leadership": [
-    {"role": "President & CEO", "name": "Andy Jassy"},
-    {"role": "SVP & CFO", "name": "Brian Olsavsky"},
-    {"role": "CEO, AWS", "name": "Matt Garman", "note": "promoted Jun 2024"},
-    {"role": "SVP, Devices & Services", "name": "Panos Panay"},
-    {"role": "Founder & Executive Chair", "name": "Jeff Bezos"}
+    {
+      "role": "President & CEO",
+      "name": "Andy Jassy"
+    },
+    {
+      "role": "SVP & CFO",
+      "name": "Brian Olsavsky"
+    },
+    {
+      "role": "CEO, AWS",
+      "name": "Matt Garman",
+      "note": "promoted Jun 2024"
+    },
+    {
+      "role": "SVP, Devices & Services",
+      "name": "Panos Panay"
+    },
+    {
+      "role": "Founder & Executive Chair",
+      "name": "Jeff Bezos"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=AMZN"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-04",
+      "name": "Jassy Andrew R",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 275,
+      "shares": 31352,
+      "value_usd": 8621800,
+      "post_holding": 2175766
+    },
+    {
+      "date": "2026-05-04",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 275,
+      "shares": 27500,
+      "value_usd": 7562500,
+      "post_holding": 471361
+    },
+    {
+      "date": "2026-05-01",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 265.65,
+      "shares": 1000,
+      "value_usd": 265650,
+      "post_holding": 498861
+    },
+    {
+      "date": "2026-04-30",
+      "name": "RUBINSTEIN JONATHAN",
+      "role": "Director",
+      "type": "Sale",
+      "price": 273.02,
+      "shares": 3706,
+      "value_usd": 1011812,
+      "post_holding": 74948
+    },
+    {
+      "date": "2026-04-24",
+      "name": "RUBINSTEIN JONATHAN",
+      "role": "Director",
+      "type": "Sale",
+      "price": 260,
+      "shares": 3849,
+      "value_usd": 1000740,
+      "post_holding": 78654
+    },
+    {
+      "date": "2026-04-17",
+      "name": "Jassy Andrew R",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 255,
+      "shares": 31000,
+      "value_usd": 7905000,
+      "post_holding": 2207118
+    },
+    {
+      "date": "2026-04-14",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 245,
+      "shares": 20500,
+      "value_usd": 5022500,
+      "post_holding": 499861
+    },
+    {
+      "date": "2026-04-01",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 210.5,
+      "shares": 1000,
+      "value_usd": 210500,
+      "post_holding": 520361
+    },
+    {
+      "date": "2026-03-02",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 204.25,
+      "shares": 1000,
+      "value_usd": 204250,
+      "post_holding": 521361
+    },
+    {
+      "date": "2026-02-24",
+      "name": "Zapolsky David",
+      "role": "Senior Vice President",
+      "type": "Sale",
+      "price": 205.43,
+      "shares": 10649,
+      "value_usd": 2187624,
+      "post_holding": 41190
+    },
+    {
+      "date": "2026-02-23",
+      "name": "Jassy Andrew R",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 205.18,
+      "shares": 19872,
+      "value_usd": 4077378,
+      "post_holding": 2238118
+    },
+    {
+      "date": "2026-02-23",
+      "name": "Garman Matthew S",
+      "role": "CEO Amazon Web Services",
+      "type": "Sale",
+      "price": 205.22,
+      "shares": 17751,
+      "value_usd": 3642842,
+      "post_holding": 9405
+    },
+    {
+      "date": "2026-02-23",
+      "name": "Zapolsky David",
+      "role": "Senior Vice President",
+      "type": "Sale",
+      "price": 205.35,
+      "shares": 7100,
+      "value_usd": 1457990,
+      "post_holding": 51839
+    },
+    {
+      "date": "2026-02-23",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 205.82,
+      "shares": 6835,
+      "value_usd": 1406785,
+      "post_holding": 522361
+    },
+    {
+      "date": "2026-02-21",
+      "name": "Jassy Andrew R",
+      "role": "President and CEO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 49680,
+      "value_usd": 0,
+      "post_holding": 2257990
+    },
+    {
+      "date": "2026-02-21",
+      "name": "Garman Matthew S",
+      "role": "CEO Amazon Web Services",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 20883,
+      "value_usd": 0,
+      "post_holding": 27156
+    },
+    {
+      "date": "2026-02-21",
+      "name": "Zapolsky David",
+      "role": "Senior Vice President",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 17749,
+      "value_usd": 0,
+      "post_holding": 58939
+    },
+    {
+      "date": "2026-02-21",
+      "name": "Olsavsky Brian T",
+      "role": "Senior Vice President and CFO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 17749,
+      "value_usd": 0,
+      "post_holding": 84499
+    },
+    {
+      "date": "2026-02-21",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 17087,
+      "value_usd": 0,
+      "post_holding": 529196
+    },
+    {
+      "date": "2026-02-21",
+      "name": "Reynolds Shelley",
+      "role": "Vice President",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2695,
+      "value_usd": 0,
+      "post_holding": 122475
+    }
+  ]
 }

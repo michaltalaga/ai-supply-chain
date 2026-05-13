@@ -1283,7 +1283,7 @@ function showDetail(ticker) {
     h += '</div>';
   }
 
-  // People section (leadership, executives, founders)
+  // People section (leadership + insider activity)
   const pp = PEOPLE[ticker];
   if (pp && pp.leadership && pp.leadership.length) {
     h += '<h2>👥 Leadership</h2>';
@@ -1296,6 +1296,64 @@ function showDetail(ticker) {
     h += '</table>';
     if (pp.note) {
       h += '<p class="meta" style="font-size:11px; margin-top:4px"><i>'+escapeHtml(pp.note)+'</i></p>';
+    }
+  }
+
+  // Insider trades (last 30 from finviz, refreshed weekly via GH Action)
+  if (pp && pp.insider_trades && pp.insider_trades.length) {
+    const trades = pp.insider_trades;
+    h += '<h2>Recent insider activity <span style="font-size:11px; color:#7a8395; font-weight:400">· last '+trades.length+' transactions</span></h2>';
+
+    // Compute 30-day net flow + 90-day net flow (USD)
+    const now = new Date();
+    const dayMs = 86400000;
+    let net30 = 0, net90 = 0, count30 = 0, count90 = 0;
+    for (const t of trades) {
+      const d = new Date(t.date);
+      if (isNaN(d.getTime())) continue;
+      const age = (now - d) / dayMs;
+      const v = t.value_usd || 0;
+      const signed = /buy/i.test(t.type) ? v : /sale/i.test(t.type) ? -v : 0;
+      if (age <= 30) { net30 += signed; count30++; }
+      if (age <= 90) { net90 += signed; count90++; }
+    }
+    const fmtUsd = (v) => {
+      const a = Math.abs(v);
+      const sign = v < 0 ? "−" : v > 0 ? "+" : "";
+      if (a >= 1e9) return sign + "$" + (a/1e9).toFixed(2) + "B";
+      if (a >= 1e6) return sign + "$" + (a/1e6).toFixed(1) + "M";
+      if (a >= 1e3) return sign + "$" + (a/1e3).toFixed(0) + "K";
+      return sign + "$" + a.toFixed(0);
+    };
+    const flag = (net) => {
+      if (Math.abs(net) < 1e5) return { txt: "≈ flat", cls: "" };
+      if (net < -1e7) return { txt: "⚠ heavy selling", cls: "neg" };
+      if (net > 1e6)  return { txt: "✓ insider buying", cls: "pos" };
+      if (net < 0)    return { txt: "net selling", cls: "neg" };
+      return { txt: "net buying", cls: "pos" };
+    };
+    const f30 = flag(net30), f90 = flag(net90);
+    h += '<p style="font-size:12px; margin:2px 0 6px">';
+    h += 'Net 30d: <b class="'+f30.cls+'">'+fmtUsd(net30)+'</b> ('+count30+' txns · <span class="'+f30.cls+'">'+f30.txt+'</span>) ';
+    h += ' · Net 90d: <b class="'+f90.cls+'">'+fmtUsd(net90)+'</b> ('+count90+' txns · <span class="'+f90.cls+'">'+f90.txt+'</span>)';
+    h += '</p>';
+
+    h += '<table style="font-size:11.5px"><tr><th style="text-align:left">Date</th><th style="text-align:left">Name</th><th style="text-align:left">Role</th><th style="text-align:left">Type</th><th style="text-align:right">Shares</th><th style="text-align:right">$</th></tr>';
+    for (const t of trades.slice(0, 15)) {
+      const isBuy = /buy/i.test(t.type);
+      const isSale = /sale/i.test(t.type);
+      const cls = isBuy ? "pos" : isSale ? "neg" : "";
+      h += '<tr><td>'+t.date+'</td>';
+      h += '<td>'+escapeHtml(t.name)+'</td>';
+      h += '<td style="color:#7a8395; font-size:10.5px">'+escapeHtml(t.role || "")+'</td>';
+      h += '<td class="'+cls+'">'+escapeHtml(t.type)+'</td>';
+      h += '<td style="text-align:right">'+(t.shares != null ? t.shares.toLocaleString() : '—')+'</td>';
+      h += '<td style="text-align:right" class="'+cls+'">'+(t.value_usd != null ? fmtUsd(isBuy ? t.value_usd : -t.value_usd) : '—')+'</td>';
+      h += '</tr>';
+    }
+    h += '</table>';
+    if (trades.length > 15) {
+      h += '<p class="meta" style="font-size:11px">'+(trades.length - 15)+' older transactions in data file. Source: finviz.com (Form 4 filings).</p>';
     }
   }
 

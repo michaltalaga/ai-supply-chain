@@ -1,13 +1,210 @@
 {
   "ticker": "META",
   "leadership": [
-    {"role": "Founder, Chairman & CEO", "name": "Mark Zuckerberg", "note": "controlling supervoting"},
-    {"role": "CFO", "name": "Susan Li"},
-    {"role": "CTO", "name": "Andrew Bosworth", "note": "head of Reality Labs"},
-    {"role": "Chief AI Scientist", "name": "Yann LeCun", "note": "Turing Award 2018"},
-    {"role": "President, Global Affairs", "name": "Joel Kaplan", "note": "replaced Nick Clegg Jan 2025"},
-    {"role": "Chief Product Officer", "name": "Chris Cox"}
+    {
+      "role": "Founder, Chairman & CEO",
+      "name": "Mark Zuckerberg",
+      "note": "controlling supervoting"
+    },
+    {
+      "role": "CFO",
+      "name": "Susan Li"
+    },
+    {
+      "role": "CTO",
+      "name": "Andrew Bosworth",
+      "note": "head of Reality Labs"
+    },
+    {
+      "role": "Chief AI Scientist",
+      "name": "Yann LeCun",
+      "note": "Turing Award 2018"
+    },
+    {
+      "role": "President, Global Affairs",
+      "name": "Joel Kaplan",
+      "note": "replaced Nick Clegg Jan 2025"
+    },
+    {
+      "role": "Chief Product Officer",
+      "name": "Chris Cox"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=META"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-04",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 607.74,
+      "shares": 926,
+      "value_usd": 562767,
+      "post_holding": 7779
+    },
+    {
+      "date": "2026-05-04",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 607.74,
+      "shares": 629,
+      "value_usd": 382268,
+      "post_holding": 2315
+    },
+    {
+      "date": "2026-05-01",
+      "name": "Alford Peggy",
+      "role": "Director",
+      "type": "Sale",
+      "price": 614.53,
+      "shares": 409,
+      "value_usd": 251343,
+      "post_holding": 2704
+    },
+    {
+      "date": "2026-04-27",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 670.84,
+      "shares": 926,
+      "value_usd": 621198,
+      "post_holding": 8705
+    },
+    {
+      "date": "2026-04-27",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 670.84,
+      "shares": 629,
+      "value_usd": 421958,
+      "post_holding": 2372
+    },
+    {
+      "date": "2026-04-20",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 680.09,
+      "shares": 926,
+      "value_usd": 629763,
+      "post_holding": 9631
+    },
+    {
+      "date": "2026-04-20",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 680.09,
+      "shares": 629,
+      "value_usd": 427777,
+      "post_holding": 2429
+    },
+    {
+      "date": "2026-04-15",
+      "name": "KIMMITT ROBERT M",
+      "role": "Director",
+      "type": "Sale",
+      "price": 667,
+      "shares": 580,
+      "value_usd": 386860,
+      "post_holding": 3847
+    },
+    {
+      "date": "2026-04-13",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 629.45,
+      "shares": 2778,
+      "value_usd": 1748599,
+      "post_holding": 10557
+    },
+    {
+      "date": "2026-04-13",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 629.55,
+      "shares": 1887,
+      "value_usd": 1187960,
+      "post_holding": 2486
+    },
+    {
+      "date": "2026-03-23",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 605.38,
+      "shares": 926,
+      "value_usd": 560582,
+      "post_holding": 13335
+    },
+    {
+      "date": "2026-03-23",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 605.38,
+      "shares": 629,
+      "value_usd": 380784,
+      "post_holding": 2657
+    },
+    {
+      "date": "2026-03-16",
+      "name": "KIMMITT ROBERT M",
+      "role": "Director",
+      "type": "Sale",
+      "price": 632.02,
+      "shares": 580,
+      "value_usd": 366572,
+      "post_holding": 4427
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 632.02,
+      "shares": 926,
+      "value_usd": 585251,
+      "post_holding": 14261
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 632.02,
+      "shares": 629,
+      "value_usd": 397541,
+      "post_holding": 2714
+    },
+    {
+      "date": "2026-03-09",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 634.94,
+      "shares": 926,
+      "value_usd": 587954,
+      "post_holding": 15187
+    },
+    {
+      "date": "2026-03-09",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 634.94,
+      "shares": 629,
+      "value_usd": 399377,
+      "post_holding": 2771
+    }
+  ]
 }

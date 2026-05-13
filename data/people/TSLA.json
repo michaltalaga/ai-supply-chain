@@ -1,12 +1,214 @@
 {
   "ticker": "TSLA",
   "leadership": [
-    {"role": "Founder, CEO & Product Architect", "name": "Elon Musk"},
-    {"role": "CFO", "name": "Vaibhav Taneja"},
-    {"role": "SVP, Powertrain & Energy Engineering", "name": "Drew Baglino", "note": "left Apr 2024 — replacement evolving"},
-    {"role": "SVP, Vehicle Engineering", "name": "Lars Moravy"},
-    {"role": "VP, Autopilot/AI", "name": "Ashok Elluswamy", "note": "leads FSD"}
+    {
+      "role": "Founder, CEO & Product Architect",
+      "name": "Elon Musk"
+    },
+    {
+      "role": "CFO",
+      "name": "Vaibhav Taneja"
+    },
+    {
+      "role": "SVP, Powertrain & Energy Engineering",
+      "name": "Drew Baglino",
+      "note": "left Apr 2024 — replacement evolving"
+    },
+    {
+      "role": "SVP, Vehicle Engineering",
+      "name": "Lars Moravy"
+    },
+    {
+      "role": "VP, Autopilot/AI",
+      "name": "Ashok Elluswamy",
+      "note": "leads FSD"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=TSLA"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-04-30",
+      "name": "Wilson-Thompson Kathleen",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 14.99,
+      "shares": 40948,
+      "value_usd": 613811,
+      "post_holding": 74808
+    },
+    {
+      "date": "2026-04-30",
+      "name": "Wilson-Thompson Kathleen",
+      "role": "Director",
+      "type": "Sale",
+      "price": 378.11,
+      "shares": 26409,
+      "value_usd": 9985390,
+      "post_holding": 48399
+    },
+    {
+      "date": "2026-03-31",
+      "name": "Zhu Xiaotong",
+      "role": "SVP",
+      "type": "Option Exercise",
+      "price": 20.57,
+      "shares": 20000,
+      "value_usd": 411400,
+      "post_holding": 20000
+    },
+    {
+      "date": "2026-03-30",
+      "name": "Wilson-Thompson Kathleen",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 14.99,
+      "shares": 40000,
+      "value_usd": 599600,
+      "post_holding": 59669
+    },
+    {
+      "date": "2026-03-30",
+      "name": "Wilson-Thompson Kathleen",
+      "role": "Director",
+      "type": "Sale",
+      "price": 359.33,
+      "shares": 25809,
+      "value_usd": 9273888,
+      "post_holding": 33860
+    },
+    {
+      "date": "2026-03-06",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 397.03,
+      "shares": 2264,
+      "value_usd": 899077,
+      "post_holding": 18106
+    },
+    {
+      "date": "2026-03-05",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 6538,
+      "value_usd": 0,
+      "post_holding": 20371
+    },
+    {
+      "date": "2026-02-25",
+      "name": "Wilson-Thompson Kathleen",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 14.99,
+      "shares": 40000,
+      "value_usd": 599600,
+      "post_holding": 45400
+    },
+    {
+      "date": "2026-02-25",
+      "name": "Wilson-Thompson Kathleen",
+      "role": "Director",
+      "type": "Sale",
+      "price": 415.56,
+      "shares": 25731,
+      "value_usd": 10692814,
+      "post_holding": 19669
+    },
+    {
+      "date": "2026-01-02",
+      "name": "MURDOCH JAMES R",
+      "role": "Director",
+      "type": "Sale",
+      "price": 445.4,
+      "shares": 60000,
+      "value_usd": 26723781,
+      "post_holding": 577031
+    },
+    {
+      "date": "2025-12-09",
+      "name": "Musk Kimbal",
+      "role": "Director",
+      "type": "Sale",
+      "price": 450.66,
+      "shares": 56820,
+      "value_usd": 25606501,
+      "post_holding": 1391615
+    },
+    {
+      "date": "2025-12-08",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 443.93,
+      "shares": 2637,
+      "value_usd": 1170635,
+      "post_holding": 13757
+    },
+    {
+      "date": "2025-12-05",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 6538,
+      "value_usd": 0,
+      "post_holding": 16394
+    },
+    {
+      "date": "2025-09-15",
+      "name": "MURDOCH JAMES R",
+      "role": "Director",
+      "type": "Sale",
+      "price": 422.68,
+      "shares": 60000,
+      "value_usd": 25360800,
+      "post_holding": 637031
+    },
+    {
+      "date": "2025-09-12",
+      "name": "Musk Elon",
+      "role": "CEO",
+      "type": "Buy",
+      "price": 389.28,
+      "shares": 2568732,
+      "value_usd": 999959042,
+      "post_holding": 413362808
+    },
+    {
+      "date": "2025-09-11",
+      "name": "Zhu Xiaotong",
+      "role": "SVP, APAC and",
+      "type": "Sale",
+      "price": 363.75,
+      "shares": 20000,
+      "value_usd": 7275100,
+      "post_holding": 47600
+    },
+    {
+      "date": "2025-09-08",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 352.38,
+      "shares": 2606,
+      "value_usd": 918137,
+      "post_holding": 9856
+    },
+    {
+      "date": "2025-09-05",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 6538,
+      "value_usd": 0,
+      "post_holding": 12462
+    }
+  ]
 }

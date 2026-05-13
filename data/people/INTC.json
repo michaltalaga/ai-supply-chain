@@ -1,12 +1,70 @@
 {
   "ticker": "INTC",
   "leadership": [
-    {"role": "CEO", "name": "Lip-Bu Tan", "note": "named CEO Mar 2025; former Cadence CEO"},
-    {"role": "EVP & CFO", "name": "David Zinsner"},
-    {"role": "EVP & GM, Foundry Manufacturing", "name": "Naga Chandrasekaran"},
-    {"role": "Independent Chair", "name": "Frank Yeary"}
+    {
+      "role": "CEO",
+      "name": "Lip-Bu Tan",
+      "note": "named CEO Mar 2025; former Cadence CEO"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "David Zinsner"
+    },
+    {
+      "role": "EVP & GM, Foundry Manufacturing",
+      "name": "Naga Chandrasekaran"
+    },
+    {
+      "role": "Independent Chair",
+      "name": "Frank Yeary"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" },
-  "note": "Pat Gelsinger out Dec 2024 amid foundry losses; Lip-Bu Tan named CEO Mar 2025"
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=INTC"
+  },
+  "note": "Pat Gelsinger out Dec 2024 amid foundry losses; Lip-Bu Tan named CEO Mar 2025",
+  "insider_trades": [
+    {
+      "date": "2026-05-01",
+      "name": "Miller Boise April",
+      "role": "EVP and Chief Legal Officer",
+      "type": "Sale",
+      "price": 99.53,
+      "shares": 40256,
+      "value_usd": 4006519,
+      "post_holding": 105077
+    },
+    {
+      "date": "2026-02-02",
+      "name": "Miller Boise April",
+      "role": "EVP and Chief Legal Officer",
+      "type": "Sale",
+      "price": 49.05,
+      "shares": 20000,
+      "value_usd": 981000,
+      "post_holding": 113060
+    },
+    {
+      "date": "2026-01-26",
+      "name": "Zinsner David",
+      "role": "EVP, CFO",
+      "type": "Buy",
+      "price": 42.5,
+      "shares": 5882,
+      "value_usd": 249985,
+      "post_holding": 247392
+    },
+    {
+      "date": "2025-07-11",
+      "name": "INTEL CORP",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 16.05,
+      "shares": 63731985,
+      "value_usd": 1022662551,
+      "post_holding": 50000000
+    }
+  ]
 }

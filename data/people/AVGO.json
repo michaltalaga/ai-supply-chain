@@ -1,10 +1,175 @@
 {
   "ticker": "AVGO",
   "leadership": [
-    {"role": "President & CEO", "name": "Hock Tan", "note": "since 2006"},
-    {"role": "CFO", "name": "Kirsten Spears"},
-    {"role": "EVP & CTO", "name": "Charlie Kawwas"}
+    {
+      "role": "President & CEO",
+      "name": "Hock Tan",
+      "note": "since 2006"
+    },
+    {
+      "role": "CFO",
+      "name": "Kirsten Spears"
+    },
+    {
+      "role": "EVP & CTO",
+      "name": "Charlie Kawwas"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=AVGO"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-04-10",
+      "name": "Velaga S. Ram",
+      "role": "President, ISG",
+      "type": "Sale",
+      "price": 370.52,
+      "shares": 8000,
+      "value_usd": 2964178,
+      "post_holding": 57932
+    },
+    {
+      "date": "2026-04-09",
+      "name": "DELLY GAYLA J",
+      "role": "Director",
+      "type": "Sale",
+      "price": 358.31,
+      "shares": 1000,
+      "value_usd": 358310,
+      "post_holding": 32352
+    },
+    {
+      "date": "2026-04-09",
+      "name": "Velaga S. Ram",
+      "role": "President, ISG",
+      "type": "Sale",
+      "price": 352.12,
+      "shares": 17260,
+      "value_usd": 6077564,
+      "post_holding": 65932
+    },
+    {
+      "date": "2026-04-08",
+      "name": "Velaga S. Ram",
+      "role": "President, ISG",
+      "type": "Sale",
+      "price": 352.02,
+      "shares": 12955,
+      "value_usd": 4560449,
+      "post_holding": 83192
+    },
+    {
+      "date": "2026-04-08",
+      "name": "PAGE JUSTINE",
+      "role": "Director",
+      "type": "Sale",
+      "price": 353,
+      "shares": 2018,
+      "value_usd": 712354,
+      "post_holding": 18164
+    },
+    {
+      "date": "2026-04-08",
+      "name": "Kawwas Charlie B",
+      "role": "President, SSG",
+      "type": "Sale",
+      "price": 345.23,
+      "shares": 10000,
+      "value_usd": 3452270,
+      "post_holding": 787184
+    },
+    {
+      "date": "2026-03-25",
+      "name": "SAMUELI HENRY",
+      "role": "Director",
+      "type": "Sale",
+      "price": 319.71,
+      "shares": 781967,
+      "value_usd": 250000302,
+      "post_holding": 30897799
+    },
+    {
+      "date": "2026-03-17",
+      "name": "Velaga S. Ram",
+      "role": "President, ISG",
+      "type": "Sale",
+      "price": 321.6,
+      "shares": 38841,
+      "value_usd": 12491272,
+      "post_holding": 96147
+    },
+    {
+      "date": "2026-03-17",
+      "name": "Spears Kirsten M.",
+      "role": "CFO & Chief Accounting Officer",
+      "type": "Sale",
+      "price": 321.6,
+      "shares": 36292,
+      "value_usd": 11671572,
+      "post_holding": 327760
+    },
+    {
+      "date": "2026-03-17",
+      "name": "Kawwas Charlie B",
+      "role": "President, SSG",
+      "type": "Sale",
+      "price": 321.61,
+      "shares": 39116,
+      "value_usd": 12579953,
+      "post_holding": 74626
+    },
+    {
+      "date": "2026-03-17",
+      "name": "Brazeal Mark David",
+      "role": "Chief Legal & Corp Affairs Ofc",
+      "type": "Sale",
+      "price": 321.6,
+      "shares": 50488,
+      "value_usd": 16236990,
+      "post_holding": 278141
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Velaga S. Ram",
+      "role": "President, ISG",
+      "type": "Sale",
+      "price": 326.1,
+      "shares": 25538,
+      "value_usd": 8327831,
+      "post_holding": 134988
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Spears Kirsten M.",
+      "role": "CFO & Chief Accounting Officer",
+      "type": "Sale",
+      "price": 326.09,
+      "shares": 23862,
+      "value_usd": 7781144,
+      "post_holding": 364052
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Kawwas Charlie B",
+      "role": "President, SSG",
+      "type": "Sale",
+      "price": 326.1,
+      "shares": 25718,
+      "value_usd": 8386722,
+      "post_holding": 113742
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Brazeal Mark David",
+      "role": "Chief Legal & Corp Affairs Ofc",
+      "type": "Sale",
+      "price": 326.1,
+      "shares": 33194,
+      "value_usd": 10824704,
+      "post_holding": 328629
+    }
+  ]
 }

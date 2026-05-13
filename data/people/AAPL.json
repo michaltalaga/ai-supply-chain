@@ -1,14 +1,162 @@
 {
   "ticker": "AAPL",
   "leadership": [
-    {"role": "CEO", "name": "Tim Cook"},
-    {"role": "CFO", "name": "Kevan Parekh", "note": "promoted Jan 2025 succeeding Luca Maestri"},
-    {"role": "COO", "name": "Jeff Williams"},
-    {"role": "SVP, Hardware Technologies", "name": "Johny Srouji", "note": "leads Apple Silicon"},
-    {"role": "SVP, Software Engineering", "name": "Craig Federighi"},
-    {"role": "SVP, Services", "name": "Eddy Cue"},
-    {"role": "SVP, Machine Learning & AI Strategy", "name": "John Giannandrea"}
+    {
+      "role": "CEO",
+      "name": "Tim Cook"
+    },
+    {
+      "role": "CFO",
+      "name": "Kevan Parekh",
+      "note": "promoted Jan 2025 succeeding Luca Maestri"
+    },
+    {
+      "role": "COO",
+      "name": "Jeff Williams"
+    },
+    {
+      "role": "SVP, Hardware Technologies",
+      "name": "Johny Srouji",
+      "note": "leads Apple Silicon"
+    },
+    {
+      "role": "SVP, Software Engineering",
+      "name": "Craig Federighi"
+    },
+    {
+      "role": "SVP, Services",
+      "name": "Eddy Cue"
+    },
+    {
+      "role": "SVP, Machine Learning & AI Strategy",
+      "name": "John Giannandrea"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=AAPL"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-08",
+      "name": "Borders Ben",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 290,
+      "shares": 1274,
+      "value_usd": 369460,
+      "post_holding": 38713
+    },
+    {
+      "date": "2026-05-06",
+      "name": "LEVINSON ARTHUR D",
+      "role": "Director",
+      "type": "Sale",
+      "price": 284.76,
+      "shares": 250000,
+      "value_usd": 71189722,
+      "post_holding": 3819576
+    },
+    {
+      "date": "2026-04-23",
+      "name": "Parekh Kevan",
+      "role": "Senior Vice President, CFO",
+      "type": "Sale",
+      "price": 275,
+      "shares": 1534,
+      "value_usd": 421850,
+      "post_holding": 13366
+    },
+    {
+      "date": "2026-04-02",
+      "name": "O'BRIEN DEIRDRE",
+      "role": "Senior Vice President",
+      "type": "Sale",
+      "price": 255.35,
+      "shares": 30002,
+      "value_usd": 7660875,
+      "post_holding": 136810
+    },
+    {
+      "date": "2026-04-02",
+      "name": "COOK TIMOTHY D",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 254.23,
+      "shares": 64949,
+      "value_usd": 16512198,
+      "post_holding": 3280418
+    },
+    {
+      "date": "2025-11-07",
+      "name": "KONDO CHRIS",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 271.23,
+      "shares": 3752,
+      "value_usd": 1017655,
+      "post_holding": 15098
+    },
+    {
+      "date": "2025-10-16",
+      "name": "Parekh Kevan",
+      "role": "Senior Vice President, CFO",
+      "type": "Sale",
+      "price": 247.39,
+      "shares": 4199,
+      "value_usd": 1038787,
+      "post_holding": 8765
+    },
+    {
+      "date": "2025-10-02",
+      "name": "COOK TIMOTHY D",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 256.81,
+      "shares": 129963,
+      "value_usd": 33375723,
+      "post_holding": 3280295
+    },
+    {
+      "date": "2025-10-02",
+      "name": "O'BRIEN DEIRDRE",
+      "role": "Senior Vice President",
+      "type": "Sale",
+      "price": 257.39,
+      "shares": 43013,
+      "value_usd": 11071078,
+      "post_holding": 136687
+    },
+    {
+      "date": "2025-10-02",
+      "name": "Adams Katherine L.",
+      "role": "SVP, GC and Secretary",
+      "type": "Sale",
+      "price": 256.79,
+      "shares": 47125,
+      "value_usd": 12101154,
+      "post_holding": 179158
+    },
+    {
+      "date": "2025-08-28",
+      "name": "LEVINSON ARTHUR D",
+      "role": "Director",
+      "type": "Sale",
+      "price": 232.07,
+      "shares": 90000,
+      "value_usd": 20886300,
+      "post_holding": 4069576
+    },
+    {
+      "date": "2025-08-08",
+      "name": "O'BRIEN DEIRDRE",
+      "role": "Senior Vice President",
+      "type": "Sale",
+      "price": 223.2,
+      "shares": 34821,
+      "value_usd": 7772047,
+      "post_holding": 136687
+    }
+  ]
 }

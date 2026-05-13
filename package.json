@@ -9,6 +9,7 @@
     "audit": "node audit-tickers.js",
     "fetch:quarterly": "node fetch-quarterly.js",
     "fetch:earnings": "node fetch-earnings.js",
+    "fetch:insiders": "node fetch-insiders.js",
     "build:data": "node aggregate.js",
     "build:report": "node report.js",
     "build:viewer": "node build_viewer.js",

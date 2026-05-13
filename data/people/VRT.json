@@ -1,10 +1,145 @@
 {
   "ticker": "VRT",
   "leadership": [
-    {"role": "Executive Chair", "name": "Dave Cote", "note": "former Honeywell CEO"},
-    {"role": "CEO", "name": "Giordano Albertazzi"},
-    {"role": "CFO", "name": "David Fallon"}
+    {
+      "role": "Executive Chair",
+      "name": "Dave Cote",
+      "note": "former Honeywell CEO"
+    },
+    {
+      "role": "CEO",
+      "name": "Giordano Albertazzi"
+    },
+    {
+      "role": "CFO",
+      "name": "David Fallon"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=VRT"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-03-06",
+      "name": "MONSER EDWARD L",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 16.3,
+      "shares": 77294,
+      "value_usd": 1260279,
+      "post_holding": 93794
+    },
+    {
+      "date": "2026-03-06",
+      "name": "MONSER EDWARD L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 245.49,
+      "shares": 77294,
+      "value_usd": 18974827,
+      "post_holding": 16500
+    },
+    {
+      "date": "2026-02-27",
+      "name": "FRADIN ROGER",
+      "role": "Director",
+      "type": "Sale",
+      "price": 252.13,
+      "shares": 101666,
+      "value_usd": 25633105,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-02-26",
+      "name": "REINEMUND STEVEN",
+      "role": "Director",
+      "type": "Sale",
+      "price": 253.95,
+      "shares": 65000,
+      "value_usd": 16506441,
+      "post_holding": 68333
+    },
+    {
+      "date": "2026-02-26",
+      "name": "REINEMUND STEVEN",
+      "role": "Director",
+      "type": "Sale",
+      "price": 253.95,
+      "shares": 35000,
+      "value_usd": 8888083,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-02-26",
+      "name": "Karlborg Anders",
+      "role": "EVP, Man., Logistics and Op Ex",
+      "type": "Option Exercise",
+      "price": 25.96,
+      "shares": 30487,
+      "value_usd": 791576,
+      "post_holding": 65233
+    },
+    {
+      "date": "2026-02-26",
+      "name": "Karlborg Anders",
+      "role": "EVP, Man., Logistics and Op Ex",
+      "type": "Sale",
+      "price": 246.92,
+      "shares": 30487,
+      "value_usd": 7527885,
+      "post_holding": 34746
+    },
+    {
+      "date": "2026-02-26",
+      "name": "FRADIN ROGER",
+      "role": "Director",
+      "type": "Sale",
+      "price": 253.42,
+      "shares": 101667,
+      "value_usd": 25764486,
+      "post_holding": 40000
+    },
+    {
+      "date": "2026-02-26",
+      "name": "DOKKUM JAN VAN",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 20.56,
+      "shares": 38647,
+      "value_usd": 794582,
+      "post_holding": 63647
+    },
+    {
+      "date": "2026-02-26",
+      "name": "DOKKUM JAN VAN",
+      "role": "Director",
+      "type": "Sale",
+      "price": 254.87,
+      "shares": 38647,
+      "value_usd": 9849837,
+      "post_holding": 25000
+    },
+    {
+      "date": "2026-02-26",
+      "name": "COTE DAVID M",
+      "role": "Executive Chairman",
+      "type": "Sale",
+      "price": 255.29,
+      "shares": 40000,
+      "value_usd": 10211592,
+      "post_holding": 22258
+    },
+    {
+      "date": "2025-11-24",
+      "name": "Liang Stephen",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 170.48,
+      "shares": 5501,
+      "value_usd": 937810,
+      "post_holding": 4050
+    }
+  ]
 }

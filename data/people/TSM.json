@@ -1,11 +1,100 @@
 {
   "ticker": "TSM",
   "leadership": [
-    {"role": "Chairman & CEO", "name": "C.C. Wei"},
-    {"role": "Founder & Honorary Chair", "name": "Morris Chang", "note": "founded 1987"},
-    {"role": "SVP & CFO", "name": "Wendell Huang"},
-    {"role": "VP, Senior R&D Director", "name": "Y.J. Mii", "note": "leads N2/N1.4 nodes"}
+    {
+      "role": "Chairman & CEO",
+      "name": "C.C. Wei"
+    },
+    {
+      "role": "Founder & Honorary Chair",
+      "name": "Morris Chang",
+      "note": "founded 1987"
+    },
+    {
+      "role": "SVP & CFO",
+      "name": "Wendell Huang"
+    },
+    {
+      "role": "VP, Senior R&D Director",
+      "name": "Y.J. Mii",
+      "note": "leads N2/N1.4 nodes"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=TSM"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-08",
+      "name": "Wei Che-Chia",
+      "role": "Chairman and CEO",
+      "type": "Buy",
+      "price": 71.82,
+      "shares": 160,
+      "value_usd": 11491,
+      "post_holding": 17539
+    },
+    {
+      "date": "2026-04-09",
+      "name": "Wei Che-Chia",
+      "role": "Chairman and CEO",
+      "type": "Buy",
+      "price": 57.87,
+      "shares": 186,
+      "value_usd": 10764,
+      "post_holding": 17379
+    },
+    {
+      "date": "2026-03-31",
+      "name": "BURNS URSULA M",
+      "role": "Director",
+      "type": "Buy",
+      "price": 322.05,
+      "shares": 1000,
+      "value_usd": 322050,
+      "post_holding": 3000
+    },
+    {
+      "date": "2026-03-30",
+      "name": "Lin Shyue-Shyh",
+      "role": "VP",
+      "type": "Buy",
+      "price": 54.72,
+      "shares": 3000,
+      "value_usd": 164160,
+      "post_holding": 26269
+    },
+    {
+      "date": "2026-03-29",
+      "name": "Lin Shyue-Shyh",
+      "role": "VP",
+      "type": "Buy",
+      "price": 55.63,
+      "shares": 2000,
+      "value_usd": 111260,
+      "post_holding": 23269
+    },
+    {
+      "date": "2026-03-22",
+      "name": "Yeap Choh Fei",
+      "role": "SVP",
+      "type": "Buy",
+      "price": 55.78,
+      "shares": 1000,
+      "value_usd": 55780,
+      "post_holding": 213375
+    },
+    {
+      "date": "2026-03-22",
+      "name": "Tien Bor-Zen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 55.93,
+      "shares": 1000,
+      "value_usd": 55930,
+      "post_holding": 9051
+    }
+  ]
 }

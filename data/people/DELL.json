@@ -1,11 +1,159 @@
 {
   "ticker": "DELL",
   "leadership": [
-    {"role": "Founder, Chairman & CEO", "name": "Michael Dell", "note": "founded 1984"},
-    {"role": "Vice Chair & COO", "name": "Jeff Clarke"},
-    {"role": "CFO", "name": "Yvonne McGill"},
-    {"role": "Chief Customer Officer", "name": "Bill Scannell"}
+    {
+      "role": "Founder, Chairman & CEO",
+      "name": "Michael Dell",
+      "note": "founded 1984"
+    },
+    {
+      "role": "Vice Chair & COO",
+      "name": "Jeff Clarke"
+    },
+    {
+      "role": "CFO",
+      "name": "Yvonne McGill"
+    },
+    {
+      "role": "Chief Customer Officer",
+      "name": "Bill Scannell"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=DELL"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-04-16",
+      "name": "SLTA V (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 176.81,
+      "shares": 382000,
+      "value_usd": 67542560,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-04-16",
+      "name": "SLTA IV (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 176.81,
+      "shares": 382000,
+      "value_usd": 67542560,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-04-15",
+      "name": "SLTA V (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 177.24,
+      "shares": 458666,
+      "value_usd": 81293378,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-04-15",
+      "name": "SLTA IV (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 177.24,
+      "shares": 458666,
+      "value_usd": 81293378,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-04-15",
+      "name": "CLARKE JEFFREY W",
+      "role": "COO & Vice Chairman",
+      "type": "Sale",
+      "price": 182.48,
+      "shares": 116000,
+      "value_usd": 21167680,
+      "post_holding": 1687414
+    },
+    {
+      "date": "2026-04-09",
+      "name": "Kennedy David Alan",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 182.53,
+      "shares": 19500,
+      "value_usd": 3559335,
+      "post_holding": 183097
+    },
+    {
+      "date": "2026-03-23",
+      "name": "Scannell William F",
+      "role": "Chief Customer Officer",
+      "type": "Sale",
+      "price": 165,
+      "shares": 143067,
+      "value_usd": 23606055,
+      "post_holding": 21779
+    },
+    {
+      "date": "2026-03-23",
+      "name": "SLTA V (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 162.25,
+      "shares": 459999,
+      "value_usd": 74635870,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-23",
+      "name": "SLTA IV (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 162.25,
+      "shares": 459999,
+      "value_usd": 74635870,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-20",
+      "name": "SLTA V (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 166.96,
+      "shares": 150022,
+      "value_usd": 25047217,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-20",
+      "name": "SLTA IV (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 166.96,
+      "shares": 150022,
+      "value_usd": 25047217,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-20",
+      "name": "SLTA V (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 164.54,
+      "shares": 299979,
+      "value_usd": 49357590,
+      "post_holding": 538
+    },
+    {
+      "date": "2026-03-20",
+      "name": "SLTA IV (GP), L.L.C.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 164.54,
+      "shares": 299979,
+      "value_usd": 49357590,
+      "post_holding": 538
+    }
+  ]
 }

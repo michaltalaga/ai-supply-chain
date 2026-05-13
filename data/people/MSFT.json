@@ -1,13 +1,156 @@
 {
   "ticker": "MSFT",
   "leadership": [
-    {"role": "Chairman & CEO", "name": "Satya Nadella"},
-    {"role": "EVP & CFO", "name": "Amy Hood"},
-    {"role": "Vice Chair & President", "name": "Brad Smith"},
-    {"role": "EVP & CTO", "name": "Kevin Scott"},
-    {"role": "EVP, Cloud + AI", "name": "Scott Guthrie"},
-    {"role": "EVP, Experiences & Devices", "name": "Rajesh Jha"}
+    {
+      "role": "Chairman & CEO",
+      "name": "Satya Nadella"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Amy Hood"
+    },
+    {
+      "role": "Vice Chair & President",
+      "name": "Brad Smith"
+    },
+    {
+      "role": "EVP & CTO",
+      "name": "Kevin Scott"
+    },
+    {
+      "role": "EVP, Cloud + AI",
+      "name": "Scott Guthrie"
+    },
+    {
+      "role": "EVP, Experiences & Devices",
+      "name": "Rajesh Jha"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=MSFT"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-03-06",
+      "name": "Hogan Kathleen T",
+      "role": "EVP, Strategy",
+      "type": "Sale",
+      "price": 409.52,
+      "shares": 12321,
+      "value_usd": 5045643,
+      "post_holding": 137933
+    },
+    {
+      "date": "2026-02-18",
+      "name": "STANTON JOHN W",
+      "role": "Director",
+      "type": "Buy",
+      "price": 397.35,
+      "shares": 5000,
+      "value_usd": 1986750,
+      "post_holding": 83905
+    },
+    {
+      "date": "2025-12-04",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 478.72,
+      "shares": 2850,
+      "value_usd": 1364352,
+      "post_holding": 55782
+    },
+    {
+      "date": "2025-12-02",
+      "name": "Althoff Judson",
+      "role": "CEO Microsoft Commercial",
+      "type": "Sale",
+      "price": 491.52,
+      "shares": 12750,
+      "value_usd": 6266829,
+      "post_holding": 129349
+    },
+    {
+      "date": "2025-11-03",
+      "name": "SMITH BRADFORD L",
+      "role": "Vice Chair and President",
+      "type": "Sale",
+      "price": 518.64,
+      "shares": 38500,
+      "value_usd": 19967707,
+      "post_holding": 461597
+    },
+    {
+      "date": "2025-09-03",
+      "name": "Nadella Satya",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 504.78,
+      "shares": 149205,
+      "value_usd": 75315121,
+      "post_holding": 790852
+    },
+    {
+      "date": "2025-08-12",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 527.32,
+      "shares": 4850,
+      "value_usd": 2557506,
+      "post_holding": 39111
+    },
+    {
+      "date": "2025-06-03",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 463,
+      "shares": 3000,
+      "value_usd": 1389000,
+      "post_holding": 43930
+    },
+    {
+      "date": "2025-05-30",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 460.01,
+      "shares": 1000,
+      "value_usd": 460008,
+      "post_holding": 47058
+    },
+    {
+      "date": "2025-05-21",
+      "name": "Hogan Kathleen T",
+      "role": "EVP, Strategy",
+      "type": "Sale",
+      "price": 453.77,
+      "shares": 21500,
+      "value_usd": 9756152,
+      "post_holding": 134888
+    },
+    {
+      "date": "2025-05-19",
+      "name": "Althoff Judson",
+      "role": "EVP, Chief Commercial Officer",
+      "type": "Sale",
+      "price": 458.18,
+      "shares": 16000,
+      "value_usd": 7330817,
+      "post_holding": 98010
+    },
+    {
+      "date": "2025-05-15",
+      "name": "Coleman Amy",
+      "role": "EVP, Chief Human Resources Off",
+      "type": "Sale",
+      "price": 452.01,
+      "shares": 13243,
+      "value_usd": 5985886,
+      "post_holding": 43100
+    }
+  ]
 }

@@ -1,10 +1,176 @@
 {
   "ticker": "COHR",
   "leadership": [
-    {"role": "President & CEO", "name": "Jim Anderson", "note": "joined Jun 2024 from Lattice Semi"},
-    {"role": "EVP & CFO", "name": "Sherri Luther"},
-    {"role": "Executive Chair", "name": "Vincent D. Mattera Jr.", "note": "former CEO; led II-VI/COHR merger 2022"}
+    {
+      "role": "President & CEO",
+      "name": "Jim Anderson",
+      "note": "joined Jun 2024 from Lattice Semi"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Sherri Luther"
+    },
+    {
+      "role": "Executive Chair",
+      "name": "Vincent D. Mattera Jr.",
+      "note": "former CEO; led II-VI/COHR merger 2022"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=COHR"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-04-22",
+      "name": "Luther Sherri R",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 351,
+      "shares": 2000,
+      "value_usd": 702000,
+      "post_holding": 70475
+    },
+    {
+      "date": "2026-03-17",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 21.67,
+      "shares": 3240,
+      "value_usd": 70211,
+      "post_holding": 53538
+    },
+    {
+      "date": "2026-03-17",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 241.65,
+      "shares": 3240,
+      "value_usd": 782943,
+      "post_holding": 50298
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 21.67,
+      "shares": 1000,
+      "value_usd": 21670,
+      "post_holding": 51298
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 258,
+      "shares": 1000,
+      "value_usd": 258000,
+      "post_holding": 50298
+    },
+    {
+      "date": "2026-03-10",
+      "name": "Eng Julie Sheridan",
+      "role": "Chief Technology Officer",
+      "type": "Sale",
+      "price": 258.18,
+      "shares": 1454,
+      "value_usd": 375394,
+      "post_holding": 49436
+    },
+    {
+      "date": "2026-03-09",
+      "name": "SKAGGS STEPHEN A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 243.13,
+      "shares": 3523,
+      "value_usd": 856550,
+      "post_holding": 16864
+    },
+    {
+      "date": "2026-03-06",
+      "name": "Digirolomo Enrico",
+      "role": "Director",
+      "type": "Sale",
+      "price": 241.5,
+      "shares": 3911,
+      "value_usd": 944506,
+      "post_holding": 17446
+    },
+    {
+      "date": "2026-03-02",
+      "name": "Eng Julie Sheridan",
+      "role": "Chief Technology Officer",
+      "type": "Sale",
+      "price": 291.42,
+      "shares": 2792,
+      "value_usd": 813646,
+      "post_holding": 50890
+    },
+    {
+      "date": "2026-02-12",
+      "name": "Luther Sherri R",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 217.74,
+      "shares": 4000,
+      "value_usd": 870954,
+      "post_holding": 72475
+    },
+    {
+      "date": "2025-12-10",
+      "name": "CORASANTI JOSEPH J",
+      "role": "Director",
+      "type": "Sale",
+      "price": 196.74,
+      "shares": 15000,
+      "value_usd": 2951100,
+      "post_holding": 79914
+    },
+    {
+      "date": "2025-12-03",
+      "name": "STERLING MICHELLE M",
+      "role": "Director",
+      "type": "Sale",
+      "price": 164.51,
+      "shares": 2000,
+      "value_usd": 329022,
+      "post_holding": 8645
+    },
+    {
+      "date": "2025-12-02",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 21.67,
+      "shares": 2000,
+      "value_usd": 43340,
+      "post_holding": 52019
+    },
+    {
+      "date": "2025-12-02",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 170,
+      "shares": 2000,
+      "value_usd": 340000,
+      "post_holding": 50019
+    },
+    {
+      "date": "2025-12-01",
+      "name": "Mocciaro Ilaria",
+      "role": "SVP, Finance",
+      "type": "Sale",
+      "price": 162.71,
+      "shares": 1377,
+      "value_usd": 224052,
+      "post_holding": 24033
+    }
+  ]
 }

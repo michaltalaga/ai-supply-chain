@@ -1,10 +1,175 @@
 {
   "ticker": "QCOM",
   "leadership": [
-    {"role": "President & CEO", "name": "Cristiano Amon", "note": "since 2021"},
-    {"role": "CFO & COO", "name": "Akash Palkhiwala"},
-    {"role": "GM, Mobile Compute & XR", "name": "Alex Katouzian"}
+    {
+      "role": "President & CEO",
+      "name": "Cristiano Amon",
+      "note": "since 2021"
+    },
+    {
+      "role": "CFO & COO",
+      "name": "Akash Palkhiwala"
+    },
+    {
+      "role": "GM, Mobile Compute & XR",
+      "name": "Alex Katouzian"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=QCOM"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-05",
+      "name": "AMON CRISTIANO R",
+      "role": "President & CEO",
+      "type": "Sale",
+      "price": 185,
+      "shares": 10000,
+      "value_usd": 1850000,
+      "post_holding": 197568
+    },
+    {
+      "date": "2026-05-04",
+      "name": "AMON CRISTIANO R",
+      "role": "President & CEO",
+      "type": "Sale",
+      "price": 180,
+      "shares": 10000,
+      "value_usd": 1800000,
+      "post_holding": 207568
+    },
+    {
+      "date": "2026-05-04",
+      "name": "ACE HEATHER S",
+      "role": "EVP, Chief HR Officer",
+      "type": "Sale",
+      "price": 177.82,
+      "shares": 3200,
+      "value_usd": 569024,
+      "post_holding": 39735
+    },
+    {
+      "date": "2026-04-30",
+      "name": "Grech Patricia Y",
+      "role": "SVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 172,
+      "shares": 192,
+      "value_usd": 33024,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-04-13",
+      "name": "Palkhiwala Akash J.",
+      "role": "EVP, CFO & COO",
+      "type": "Sale",
+      "price": 130.34,
+      "shares": 2500,
+      "value_usd": 325854,
+      "post_holding": 30684
+    },
+    {
+      "date": "2026-04-02",
+      "name": "Grech Patricia Y",
+      "role": "SVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 125.5,
+      "shares": 85,
+      "value_usd": 10668,
+      "post_holding": 192
+    },
+    {
+      "date": "2026-03-12",
+      "name": "Grech Patricia Y",
+      "role": "SVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 133.5,
+      "shares": 581,
+      "value_usd": 77564,
+      "post_holding": 192
+    },
+    {
+      "date": "2026-03-12",
+      "name": "Palkhiwala Akash J.",
+      "role": "EVP, CFO & COO",
+      "type": "Sale",
+      "price": 132.33,
+      "shares": 2500,
+      "value_usd": 330815,
+      "post_holding": 33099
+    },
+    {
+      "date": "2026-03-08",
+      "name": "ACEVEDO SYLVIA",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2355,
+      "value_usd": 0,
+      "post_holding": 6445
+    },
+    {
+      "date": "2026-03-08",
+      "name": "Henderson Jeffrey William",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2355,
+      "value_usd": 0,
+      "post_holding": 12795
+    },
+    {
+      "date": "2026-03-08",
+      "name": "LIVERMORE ANN M",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2355,
+      "value_usd": 0,
+      "post_holding": 37129
+    },
+    {
+      "date": "2026-03-08",
+      "name": "MCLAUGHLIN MARK D",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2355,
+      "value_usd": 0,
+      "post_holding": 30337
+    },
+    {
+      "date": "2026-03-08",
+      "name": "Miller Jamie S",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2355,
+      "value_usd": 0,
+      "post_holding": 8373
+    },
+    {
+      "date": "2026-02-20",
+      "name": "Grech Patricia Y",
+      "role": "SVP, Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 1261,
+      "value_usd": 0,
+      "post_holding": 1261
+    },
+    {
+      "date": "2026-02-09",
+      "name": "ACE HEATHER S",
+      "role": "EVP, Chief HR Officer",
+      "type": "Sale",
+      "price": 137,
+      "shares": 3200,
+      "value_usd": 438400,
+      "post_holding": 16393
+    }
+  ]
 }

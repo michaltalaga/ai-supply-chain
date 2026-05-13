@@ -1,12 +1,313 @@
 {
   "ticker": "NVDA",
   "leadership": [
-    {"role": "Founder, President & CEO", "name": "Jensen Huang", "note": "co-founder 1993"},
-    {"role": "EVP & CFO", "name": "Colette Kress"},
-    {"role": "EVP, Worldwide Operations", "name": "Debora Shoquist"},
-    {"role": "Chief Scientist & SVP Research", "name": "Bill Dally"},
-    {"role": "EVP, Enterprise Products", "name": "Manuvir Das"}
+    {
+      "role": "Founder, President & CEO",
+      "name": "Jensen Huang",
+      "note": "co-founder 1993"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Colette Kress"
+    },
+    {
+      "role": "EVP, Worldwide Operations",
+      "name": "Debora Shoquist"
+    },
+    {
+      "role": "Chief Scientist & SVP Research",
+      "name": "Bill Dally"
+    },
+    {
+      "role": "EVP, Enterprise Products",
+      "name": "Manuvir Das"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/" }
+  "sources": {
+    "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/",
+    "insider_trades": "https://finviz.com/quote.ashx?t=NVDA"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-03-20",
+      "name": "STEVENS MARK A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 173.68,
+      "shares": 221682,
+      "value_usd": 38502524,
+      "post_holding": 7399771
+    },
+    {
+      "date": "2026-03-19",
+      "name": "Shah Aarti S.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 176.71,
+      "shares": 19000,
+      "value_usd": 3357549,
+      "post_holding": 36007
+    },
+    {
+      "date": "2026-03-20",
+      "name": "Robertson Donald F Jr",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 174.75,
+      "shares": 5396,
+      "value_usd": 942944,
+      "post_holding": 337120
+    },
+    {
+      "date": "2026-03-18",
+      "name": "Puri Ajay K",
+      "role": "EVP, Worldwide Field Ops",
+      "type": "Sale",
+      "price": 182.25,
+      "shares": 300000,
+      "value_usd": 54676140,
+      "post_holding": 3018547
+    },
+    {
+      "date": "2026-03-20",
+      "name": "Kress Colette",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "price": 174.89,
+      "shares": 42650,
+      "value_usd": 7458954,
+      "post_holding": 881387
+    },
+    {
+      "date": "2026-03-20",
+      "name": "Kress Colette",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "price": 174.89,
+      "shares": 20000,
+      "value_usd": 3497752,
+      "post_holding": 83060
+    },
+    {
+      "date": "2026-03-20",
+      "name": "MARK A STEVENS",
+      "role": "Director",
+      "type": "Proposed Sale",
+      "price": 178.56,
+      "shares": 1700000,
+      "value_usd": 303552000,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-20",
+      "name": "Colette Kress",
+      "role": "Officer",
+      "type": "Proposed Sale",
+      "price": 172.7,
+      "shares": 62650,
+      "value_usd": 10819655,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-20",
+      "name": "DONALD ROBERTSON",
+      "role": "Officer",
+      "type": "Proposed Sale",
+      "price": 178.56,
+      "shares": 5396,
+      "value_usd": 963510,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-19",
+      "name": "Shah Aarti S.",
+      "role": "Director",
+      "type": "Proposed Sale",
+      "price": 176.71,
+      "shares": 19000,
+      "value_usd": 3357549,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-18",
+      "name": "Puri Ajay K",
+      "role": "Officer",
+      "type": "Proposed Sale",
+      "price": 182.25,
+      "shares": 300000,
+      "value_usd": 54676153,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-13",
+      "name": "Dabiri John",
+      "role": "Director",
+      "type": "Sale",
+      "price": 184.9,
+      "shares": 3004,
+      "value_usd": 555440,
+      "post_holding": 14788
+    },
+    {
+      "date": "2026-03-13",
+      "name": "Dabiri John",
+      "role": "Director",
+      "type": "Proposed Sale",
+      "price": 184.9,
+      "shares": 3004,
+      "value_usd": 555440,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-03-10",
+      "name": "Puri Ajay K",
+      "role": "EVP, Worldwide Field Ops",
+      "type": "Sale",
+      "price": 182.52,
+      "shares": 300000,
+      "value_usd": 54756044,
+      "post_holding": 3318547
+    },
+    {
+      "date": "2026-03-10",
+      "name": "Puri Ajay K",
+      "role": "Officer",
+      "type": "Proposed Sale",
+      "price": 182.52,
+      "shares": 300000,
+      "value_usd": 54756038,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-02-04",
+      "name": "Kress Colette",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "price": 175.72,
+      "shares": 27640,
+      "value_usd": 4856861,
+      "post_holding": 846772
+    },
+    {
+      "date": "2026-02-04",
+      "name": "Kress Colette",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "price": 175.72,
+      "shares": 20000,
+      "value_usd": 3514372,
+      "post_holding": 93060
+    },
+    {
+      "date": "2026-01-21",
+      "name": "Puri Ajay K",
+      "role": "EVP, Worldwide Field Ops",
+      "type": "Sale",
+      "price": 180.04,
+      "shares": 200000,
+      "value_usd": 36007160,
+      "post_holding": 3618547
+    },
+    {
+      "date": "2026-01-21",
+      "name": "Puri Ajay K",
+      "role": "Officer",
+      "type": "Proposed Sale",
+      "price": 180.04,
+      "shares": 200000,
+      "value_usd": 36007159,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-01-13",
+      "name": "Kress Colette",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "price": 184.92,
+      "shares": 27640,
+      "value_usd": 5111185,
+      "post_holding": 874412
+    },
+    {
+      "date": "2026-01-13",
+      "name": "Kress Colette",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "price": 184.92,
+      "shares": 20000,
+      "value_usd": 3698397,
+      "post_holding": 103060
+    },
+    {
+      "date": "2026-01-07",
+      "name": "Puri Ajay K",
+      "role": "EVP, Worldwide Field Ops",
+      "type": "Sale",
+      "price": 187.82,
+      "shares": 200000,
+      "value_usd": 37563619,
+      "post_holding": 3818547
+    },
+    {
+      "date": "2026-01-07",
+      "name": "Puri Ajay K",
+      "role": "Officer",
+      "type": "Proposed Sale",
+      "price": 187.82,
+      "shares": 200000,
+      "value_usd": 37563625,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-01-02",
+      "name": "Robertson Donald F Jr",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 189.85,
+      "shares": 80000,
+      "value_usd": 15187742,
+      "post_holding": 346860
+    },
+    {
+      "date": "2026-01-02",
+      "name": "DONALD ROBERTSON",
+      "role": "Officer",
+      "type": "Proposed Sale",
+      "price": 186.5,
+      "shares": 80000,
+      "value_usd": 14920000,
+      "post_holding": 0
+    },
+    {
+      "date": "2025-12-19",
+      "name": "STEVENS MARK A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 180.17,
+      "shares": 222500,
+      "value_usd": 40087380,
+      "post_holding": 7621453
+    },
+    {
+      "date": "2025-12-19",
+      "name": "Robertson Donald F Jr",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 179.98,
+      "shares": 24590,
+      "value_usd": 4425727,
+      "post_holding": 426860
+    },
+    {
+      "date": "2025-12-19",
+      "name": "MARK A STEVENS",
+      "role": "Director",
+      "type": "Proposed Sale",
+      "price": 181,
+      "shares": 1700000,
+      "value_usd": 307700000,
+      "post_holding": 0
+    }
+  ]
 }

@@ -1,11 +1,80 @@
 {
   "ticker": "ARM",
   "leadership": [
-    {"role": "CEO", "name": "Rene Haas", "note": "since 2022"},
-    {"role": "CFO", "name": "Jason Child"},
-    {"role": "SVP & GM, Infrastructure Line of Business", "name": "Mohamed Awad"},
-    {"role": "Chairman, SoftBank Group (parent)", "name": "Masayoshi Son", "note": "SoftBank owns ~90%"}
+    {
+      "role": "CEO",
+      "name": "Rene Haas",
+      "note": "since 2022"
+    },
+    {
+      "role": "CFO",
+      "name": "Jason Child"
+    },
+    {
+      "role": "SVP & GM, Infrastructure Line of Business",
+      "name": "Mohamed Awad"
+    },
+    {
+      "role": "Chairman, SoftBank Group (parent)",
+      "name": "Masayoshi Son",
+      "note": "SoftBank owns ~90%"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=ARM"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-04-22",
+      "name": "Child Jason",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 180,
+      "shares": 21280,
+      "value_usd": 3830400,
+      "post_holding": 153426
+    },
+    {
+      "date": "2026-04-14",
+      "name": "Haas Rene A.",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 160.85,
+      "shares": 9299,
+      "value_usd": 1495783,
+      "post_holding": 273680
+    },
+    {
+      "date": "2026-03-26",
+      "name": "Haas Rene A.",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 160.86,
+      "shares": 7986,
+      "value_usd": 1284603,
+      "post_holding": 282979
+    },
+    {
+      "date": "2026-03-25",
+      "name": "Haas Rene A.",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 161.17,
+      "shares": 23867,
+      "value_usd": 3846726,
+      "post_holding": 290965
+    },
+    {
+      "date": "2026-03-25",
+      "name": "Child Jason",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 148.37,
+      "shares": 21280,
+      "value_usd": 3157314,
+      "post_holding": 174706
+    }
+  ]
 }

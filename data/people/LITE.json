@@ -1,9 +1,151 @@
 {
   "ticker": "LITE",
   "leadership": [
-    {"role": "President & CEO", "name": "Michael Hurlston", "note": "since 2024 from Synaptics"},
-    {"role": "EVP & CFO", "name": "Wajid Ali"}
+    {
+      "role": "President & CEO",
+      "name": "Michael Hurlston",
+      "note": "since 2024 from Synaptics"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Wajid Ali"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=LITE"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-11",
+      "name": "Lillie Brian",
+      "role": "Director",
+      "type": "Sale",
+      "price": 1004.34,
+      "shares": 49,
+      "value_usd": 49212,
+      "post_holding": 13910
+    },
+    {
+      "date": "2026-05-11",
+      "name": "Lillie Brian",
+      "role": "Director",
+      "type": "Sale",
+      "price": 981.64,
+      "shares": 11951,
+      "value_usd": 11731562,
+      "post_holding": 13959
+    },
+    {
+      "date": "2026-05-11",
+      "name": "Kim Jae",
+      "role": "SVP, GENERAL COUNSEL",
+      "type": "Sale",
+      "price": 950.99,
+      "shares": 1933,
+      "value_usd": 1838264,
+      "post_holding": 35114
+    },
+    {
+      "date": "2026-05-08",
+      "name": "Small Ian",
+      "role": "Director",
+      "type": "Sale",
+      "price": 911.17,
+      "shares": 3500,
+      "value_usd": 3189108,
+      "post_holding": 25962
+    },
+    {
+      "date": "2026-02-27",
+      "name": "Ali Wajid",
+      "role": "EVP & CHIEF FINANCIAL OFFICER",
+      "type": "Sale",
+      "price": 691.13,
+      "shares": 5302,
+      "value_usd": 3664387,
+      "post_holding": 66287
+    },
+    {
+      "date": "2026-02-17",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 538,
+      "shares": 3157,
+      "value_usd": 1698466,
+      "post_holding": 88439
+    },
+    {
+      "date": "2026-02-17",
+      "name": "Retort Vincent",
+      "role": "SEE REMARKS",
+      "type": "Sale",
+      "price": 545.78,
+      "shares": 3441,
+      "value_usd": 1878025,
+      "post_holding": 95975
+    },
+    {
+      "date": "2026-02-12",
+      "name": "Retort Vincent",
+      "role": "SEE REMARKS",
+      "type": "Sale",
+      "price": 591.32,
+      "shares": 45026,
+      "value_usd": 26624903,
+      "post_holding": 102455
+    },
+    {
+      "date": "2026-02-12",
+      "name": "HERSCHER PENNY",
+      "role": "Director",
+      "type": "Sale",
+      "price": 597.29,
+      "shares": 4000,
+      "value_usd": 2389180,
+      "post_holding": 2057
+    },
+    {
+      "date": "2026-02-06",
+      "name": "HERSCHER PENNY",
+      "role": "Director",
+      "type": "Sale",
+      "price": 535.48,
+      "shares": 4849,
+      "value_usd": 2596542,
+      "post_holding": 6057
+    },
+    {
+      "date": "2025-11-19",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 258.96,
+      "shares": 822,
+      "value_usd": 212865,
+      "post_holding": 95077
+    },
+    {
+      "date": "2025-11-19",
+      "name": "Fletcher Pamela",
+      "role": "Director",
+      "type": "Sale",
+      "price": 273.53,
+      "shares": 3421,
+      "value_usd": 935762,
+      "post_holding": 10561
+    },
+    {
+      "date": "2025-11-18",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 246,
+      "shares": 821,
+      "value_usd": 201966,
+      "post_holding": 95899
+    }
+  ]
 }

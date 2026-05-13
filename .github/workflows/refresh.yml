@@ -24,6 +24,10 @@ jobs:
       - name: Refresh earnings dates
         run: node fetch-earnings.js
 
+      - name: Refresh insider trades (anchor tickers)
+        run: node fetch-insiders.js
+        continue-on-error: true     # finviz can rate-limit; partial coverage acceptable
+
       - name: Rebuild aggregates + report + viewer
         run: |
           node aggregate.js

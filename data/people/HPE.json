@@ -1,10 +1,245 @@
 {
   "ticker": "HPE",
   "leadership": [
-    {"role": "President & CEO", "name": "Antonio Neri", "note": "since 2018"},
-    {"role": "EVP & CFO", "name": "Marie Myers"},
-    {"role": "EVP, Hybrid Cloud", "name": "Fidelma Russo"}
+    {
+      "role": "President & CEO",
+      "name": "Antonio Neri",
+      "note": "since 2018"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Marie Myers"
+    },
+    {
+      "role": "EVP, Hybrid Cloud",
+      "name": "Fidelma Russo"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=HPE"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-05",
+      "name": "MYERS MARIE",
+      "role": "EVP & CFO",
+      "type": "Sale",
+      "price": 30.01,
+      "shares": 93583,
+      "value_usd": 2808136,
+      "post_holding": 204754
+    },
+    {
+      "date": "2026-05-05",
+      "name": "Mayer Bethany",
+      "role": "Director",
+      "type": "Sale",
+      "price": 29.1,
+      "shares": 6482,
+      "value_usd": 188626,
+      "post_holding": 8018
+    },
+    {
+      "date": "2026-04-21",
+      "name": "RUSSO FIDELMA",
+      "role": "EVP, GM, Hybrid Cloud & CTO",
+      "type": "Sale",
+      "price": 27.97,
+      "shares": 17001,
+      "value_usd": 475518,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-04-20",
+      "name": "MacDonald Neil B",
+      "role": "EVP, GM, Server",
+      "type": "Sale",
+      "price": 27.01,
+      "shares": 24251,
+      "value_usd": 654976,
+      "post_holding": 32243
+    },
+    {
+      "date": "2026-04-17",
+      "name": "Neri Antonio F",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 26.5,
+      "shares": 150000,
+      "value_usd": 3974475,
+      "post_holding": 1687329
+    },
+    {
+      "date": "2026-04-01",
+      "name": "RUSSO PATRICIA F",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14499,
+      "value_usd": 347687,
+      "post_holding": 364842
+    },
+    {
+      "date": "2026-04-01",
+      "name": "REINER GARY M",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14500,
+      "value_usd": 347710,
+      "post_holding": 16295
+    },
+    {
+      "date": "2026-04-01",
+      "name": "NOSKI CHARLES H",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14499,
+      "value_usd": 347687,
+      "post_holding": 79945
+    },
+    {
+      "date": "2026-04-01",
+      "name": "Hobby Jean M.",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14499,
+      "value_usd": 347687,
+      "post_holding": 47491
+    },
+    {
+      "date": "2026-04-01",
+      "name": "DAMELIO FRANK A",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14499,
+      "value_usd": 347687,
+      "post_holding": 47491
+    },
+    {
+      "date": "2026-04-01",
+      "name": "LIVERMORE ANN M",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14500,
+      "value_usd": 347710,
+      "post_holding": 36810
+    },
+    {
+      "date": "2026-04-01",
+      "name": "Carter Pamela L",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14500,
+      "value_usd": 347710,
+      "post_holding": 132170
+    },
+    {
+      "date": "2026-04-01",
+      "name": "CALDERONI ROBERT",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 8008,
+      "value_usd": 192032,
+      "post_holding": 8008
+    },
+    {
+      "date": "2026-04-01",
+      "name": "DUGAN REGINA E",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14500,
+      "value_usd": 347710,
+      "post_holding": 55850
+    },
+    {
+      "date": "2026-04-01",
+      "name": "Mayer Bethany",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14500,
+      "value_usd": 347710,
+      "post_holding": 14500
+    },
+    {
+      "date": "2026-04-01",
+      "name": "Ozzie Raymond E",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 23.98,
+      "shares": 14500,
+      "value_usd": 347710,
+      "post_holding": 176400
+    },
+    {
+      "date": "2026-03-25",
+      "name": "RUSSO FIDELMA",
+      "role": "EVP, GM, Hybrid Cloud & CTO",
+      "type": "Sale",
+      "price": 25.08,
+      "shares": 34001,
+      "value_usd": 852746,
+      "post_holding": 17001
+    },
+    {
+      "date": "2026-03-25",
+      "name": "Neri Antonio F",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 25.18,
+      "shares": 264432,
+      "value_usd": 6658629,
+      "post_holding": 1837329
+    },
+    {
+      "date": "2026-03-25",
+      "name": "MacDonald Neil B",
+      "role": "EVP, GM, Server",
+      "type": "Sale",
+      "price": 25.09,
+      "shares": 112652,
+      "value_usd": 2826604,
+      "post_holding": 56494
+    },
+    {
+      "date": "2026-02-20",
+      "name": "rahim rami",
+      "role": "EVP, Pres GM Networking",
+      "type": "Option Exercise",
+      "price": 21.37,
+      "shares": 177858,
+      "value_usd": 3800825,
+      "post_holding": 156016
+    },
+    {
+      "date": "2026-01-20",
+      "name": "MYERS MARIE",
+      "role": "EVP & CFO",
+      "type": "Option Exercise",
+      "price": 20.39,
+      "shares": 158391,
+      "value_usd": 3229592,
+      "post_holding": 333713
+    },
+    {
+      "date": "2025-12-29",
+      "name": "Neri Antonio F",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 24.49,
+      "shares": 26457,
+      "value_usd": 647853,
+      "post_holding": 2101761
+    }
+  ]
 }

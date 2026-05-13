@@ -1,10 +1,221 @@
 {
   "ticker": "SMCI",
   "leadership": [
-    {"role": "Founder, President & CEO", "name": "Charles Liang"},
-    {"role": "CFO", "name": "David Weigand"}
+    {
+      "role": "Founder, President & CEO",
+      "name": "Charles Liang"
+    },
+    {
+      "role": "CFO",
+      "name": "David Weigand"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" },
-  "note": "Resolved 2024 accounting scandal; Ernst & Young resigned as auditor; replaced with BDO USA"
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=SMCI"
+  },
+  "note": "Resolved 2024 accounting scandal; Ernst & Young resigned as auditor; replaced with BDO USA",
+  "insider_trades": [
+    {
+      "date": "2026-02-27",
+      "name": "Liang Charles",
+      "role": "President and CEO",
+      "type": "Option Exercise",
+      "price": 4.24,
+      "shares": 20980,
+      "value_usd": 88850,
+      "post_holding": 630780
+    },
+    {
+      "date": "2026-02-27",
+      "name": "Liu Liang Chiu-Chu Sara",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 4.24,
+      "shares": 20980,
+      "value_usd": 88850,
+      "post_holding": 630780
+    },
+    {
+      "date": "2025-11-26",
+      "name": "TUAN SHERMAN",
+      "role": "Director",
+      "type": "Sale",
+      "price": 33,
+      "shares": 48630,
+      "value_usd": 1604790,
+      "post_holding": 207156
+    },
+    {
+      "date": "2025-11-24",
+      "name": "KAO GEORGE",
+      "role": "SVP, OPERATIONS",
+      "type": "Option Exercise",
+      "price": 10.08,
+      "shares": 56904,
+      "value_usd": 573507,
+      "post_holding": 191595
+    },
+    {
+      "date": "2025-11-24",
+      "name": "KAO GEORGE",
+      "role": "SVP, OPERATIONS",
+      "type": "Sale",
+      "price": 32.83,
+      "shares": 56904,
+      "value_usd": 1868221,
+      "post_holding": 134691
+    },
+    {
+      "date": "2025-11-13",
+      "name": "KAO GEORGE",
+      "role": "SVP, OPERATIONS",
+      "type": "Option Exercise",
+      "price": 2.56,
+      "shares": 107700,
+      "value_usd": 276103,
+      "post_holding": 134691
+    },
+    {
+      "date": "2025-09-15",
+      "name": "WEIGAND DAVID E",
+      "role": "SVP, Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 5.3,
+      "shares": 25000,
+      "value_usd": 132600,
+      "post_holding": 125188
+    },
+    {
+      "date": "2025-09-15",
+      "name": "WEIGAND DAVID E",
+      "role": "SVP, Chief Financial Officer",
+      "type": "Sale",
+      "price": 45.14,
+      "shares": 25000,
+      "value_usd": 1128500,
+      "post_holding": 100188
+    },
+    {
+      "date": "2025-09-03",
+      "name": "WEIGAND DAVID E",
+      "role": "SVP, Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 5.3,
+      "shares": 25000,
+      "value_usd": 132600,
+      "post_holding": 125188
+    },
+    {
+      "date": "2025-09-03",
+      "name": "WEIGAND DAVID E",
+      "role": "SVP, Chief Financial Officer",
+      "type": "Sale",
+      "price": 40.29,
+      "shares": 25000,
+      "value_usd": 1007281,
+      "post_holding": 100188
+    },
+    {
+      "date": "2025-08-22",
+      "name": "KAO GEORGE",
+      "role": "SVP, OPERATIONS",
+      "type": "Option Exercise",
+      "price": 2.69,
+      "shares": 40000,
+      "value_usd": 107800,
+      "post_holding": 61820
+    },
+    {
+      "date": "2025-08-22",
+      "name": "KAO GEORGE",
+      "role": "SVP, OPERATIONS",
+      "type": "Sale",
+      "price": 43.88,
+      "shares": 40000,
+      "value_usd": 1755200,
+      "post_holding": 21820
+    },
+    {
+      "date": "2025-07-28",
+      "name": "Liu Liang Chiu-Chu Sara",
+      "role": "Director",
+      "type": "Sale",
+      "price": 60,
+      "shares": 200000,
+      "value_usd": 12000000,
+      "post_holding": 40426120
+    },
+    {
+      "date": "2025-07-28",
+      "name": "Liang Charles",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 60,
+      "shares": 200000,
+      "value_usd": 12000000,
+      "post_holding": 40426120
+    },
+    {
+      "date": "2025-06-18",
+      "name": "Liang Charles",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 45,
+      "shares": 300000,
+      "value_usd": 13500000,
+      "post_holding": 66903640
+    },
+    {
+      "date": "2025-06-18",
+      "name": "Liu Liang Chiu-Chu Sara",
+      "role": "Director",
+      "type": "Sale",
+      "price": 45,
+      "shares": 300000,
+      "value_usd": 13500000,
+      "post_holding": 66903640
+    },
+    {
+      "date": "2025-05-20",
+      "name": "WEIGAND DAVID E",
+      "role": "SVP, Chief Financial Officer",
+      "type": "Sale",
+      "price": 44.02,
+      "shares": 67000,
+      "value_usd": 2949494,
+      "post_holding": 88599
+    },
+    {
+      "date": "2025-05-14",
+      "name": "Liang Charles",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 44.95,
+      "shares": 200000,
+      "value_usd": 8989316,
+      "post_holding": 67203640
+    },
+    {
+      "date": "2025-05-14",
+      "name": "Liu Liang Chiu-Chu Sara",
+      "role": "Director",
+      "type": "Sale",
+      "price": 45.02,
+      "shares": 200000,
+      "value_usd": 9004622,
+      "post_holding": 67203640
+    },
+    {
+      "date": "2025-05-14",
+      "name": "KAO GEORGE",
+      "role": "SVP, OPERATIONS",
+      "type": "Option Exercise",
+      "price": 2.69,
+      "shares": 28400,
+      "value_usd": 76538,
+      "post_holding": 49024
+    }
+  ]
 }

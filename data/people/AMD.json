@@ -1,12 +1,213 @@
 {
   "ticker": "AMD",
   "leadership": [
-    {"role": "Chair, President & CEO", "name": "Lisa Su", "note": "since 2014; Turing Award 2025 (industry)"},
-    {"role": "EVP & CFO", "name": "Jean Hu"},
-    {"role": "EVP & CTO", "name": "Mark Papermaster"},
-    {"role": "EVP & GM, Data Center Solutions", "name": "Forrest Norrod"},
-    {"role": "EVP & Chief Commercial Officer", "name": "Phil Guido"}
+    {
+      "role": "Chair, President & CEO",
+      "name": "Lisa Su",
+      "note": "since 2014; Turing Award 2025 (industry)"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Jean Hu"
+    },
+    {
+      "role": "EVP & CTO",
+      "name": "Mark Papermaster"
+    },
+    {
+      "role": "EVP & GM, Data Center Solutions",
+      "name": "Forrest Norrod"
+    },
+    {
+      "role": "EVP & Chief Commercial Officer",
+      "name": "Phil Guido"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=AMD"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-08",
+      "name": "GRASBY PAUL DARREN",
+      "role": "EVP & CSO",
+      "type": "Sale",
+      "price": 444.39,
+      "shares": 24376,
+      "value_usd": 10832451,
+      "post_holding": 105222
+    },
+    {
+      "date": "2026-04-24",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 350,
+      "shares": 31320,
+      "value_usd": 10962000,
+      "post_holding": 1236037
+    },
+    {
+      "date": "2026-04-16",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 275,
+      "shares": 27109,
+      "value_usd": 7454975,
+      "post_holding": 1267357
+    },
+    {
+      "date": "2026-04-15",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Option Exercise",
+      "price": 84.85,
+      "shares": 6000,
+      "value_usd": 509100,
+      "post_holding": 1300466
+    },
+    {
+      "date": "2026-04-15",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 255.54,
+      "shares": 6000,
+      "value_usd": 1533240,
+      "post_holding": 1294466
+    },
+    {
+      "date": "2026-04-06",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 225,
+      "shares": 3293,
+      "value_usd": 740925,
+      "post_holding": 1294466
+    },
+    {
+      "date": "2026-03-12",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Sale",
+      "price": 198.77,
+      "shares": 85000,
+      "value_usd": 16895157,
+      "post_holding": 3146006
+    },
+    {
+      "date": "2026-03-11",
+      "name": "GRASBY PAUL DARREN",
+      "role": "EVP & CSO",
+      "type": "Sale",
+      "price": 204.87,
+      "shares": 7500,
+      "value_usd": 1536525,
+      "post_holding": 129598
+    },
+    {
+      "date": "2026-03-04",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 200,
+      "shares": 3034,
+      "value_usd": 606800,
+      "post_holding": 1297759
+    },
+    {
+      "date": "2026-03-01",
+      "name": "Hu Jean X.",
+      "role": "EVP, CFO and Treasurer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 131942,
+      "value_usd": 0,
+      "post_holding": 156890
+    },
+    {
+      "date": "2026-02-18",
+      "name": "Hahn Ava",
+      "role": "SVP, GC & Corporate Secretary",
+      "type": "Sale",
+      "price": 198.65,
+      "shares": 286,
+      "value_usd": 56814,
+      "post_holding": 17216
+    },
+    {
+      "date": "2026-02-17",
+      "name": "Hu Jean X.",
+      "role": "EVP, CFO and Treasurer",
+      "type": "Sale",
+      "price": 201.62,
+      "shares": 19956,
+      "value_usd": 4023581,
+      "post_holding": 24948
+    },
+    {
+      "date": "2026-02-15",
+      "name": "Hu Jean X.",
+      "role": "EVP, CFO and Treasurer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 30788,
+      "value_usd": 0,
+      "post_holding": 56320
+    },
+    {
+      "date": "2026-02-15",
+      "name": "HUYNH JACK M",
+      "role": "SVP & GM, Computing & Graphics",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 39044,
+      "value_usd": 0,
+      "post_holding": 475644
+    },
+    {
+      "date": "2026-02-15",
+      "name": "GRASBY PAUL DARREN",
+      "role": "EVP & CSO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 7084,
+      "value_usd": 0,
+      "post_holding": 140428
+    },
+    {
+      "date": "2026-02-15",
+      "name": "Hahn Ava",
+      "role": "SVP, GC & Corporate Secretary",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2268,
+      "value_usd": 0,
+      "post_holding": 18627
+    },
+    {
+      "date": "2026-02-15",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DESG",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 76966,
+      "value_usd": 0,
+      "post_holding": 366064
+    },
+    {
+      "date": "2026-02-11",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DESG",
+      "type": "Option Exercise",
+      "price": 34.19,
+      "shares": 8200,
+      "value_usd": 280358,
+      "post_holding": 308548
+    }
+  ]
 }

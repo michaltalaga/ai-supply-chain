@@ -1,10 +1,94 @@
 {
   "ticker": "DLR",
   "leadership": [
-    {"role": "President & CEO", "name": "Andy Power"},
-    {"role": "CFO", "name": "Matt Mercier"},
-    {"role": "Chief Investment Officer", "name": "Greg Wright"}
+    {
+      "role": "President & CEO",
+      "name": "Andy Power"
+    },
+    {
+      "role": "CFO",
+      "name": "Matt Mercier"
+    },
+    {
+      "role": "Chief Investment Officer",
+      "name": "Greg Wright"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=DLR"
+  },
+  "insider_trades": [
+    {
+      "date": "2025-12-01",
+      "name": "Preusse Mary Hogan",
+      "role": "Director",
+      "type": "Sale",
+      "price": 157.42,
+      "shares": 4166,
+      "value_usd": 655812,
+      "post_holding": 0
+    },
+    {
+      "date": "2025-11-26",
+      "name": "Preusse Mary Hogan",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 4166,
+      "value_usd": 0,
+      "post_holding": 4166
+    },
+    {
+      "date": "2025-09-15",
+      "name": "Power Andrew",
+      "role": "PRESIDENT AND CEO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 53269,
+      "value_usd": 0,
+      "post_holding": 53269
+    },
+    {
+      "date": "2025-09-15",
+      "name": "Power Andrew",
+      "role": "PRESIDENT AND CEO",
+      "type": "Sale",
+      "price": 175.16,
+      "shares": 53269,
+      "value_usd": 9330598,
+      "post_holding": 0
+    },
+    {
+      "date": "2025-09-12",
+      "name": "Power Andrew",
+      "role": "PRESIDENT AND CEO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 4731,
+      "value_usd": 0,
+      "post_holding": 4731
+    },
+    {
+      "date": "2025-09-12",
+      "name": "Power Andrew",
+      "role": "PRESIDENT AND CEO",
+      "type": "Sale",
+      "price": 175.1,
+      "shares": 4731,
+      "value_usd": 828398,
+      "post_holding": 0
+    },
+    {
+      "date": "2025-06-05",
+      "name": "Patterson Mark R",
+      "role": "Director",
+      "type": "Sale",
+      "price": 176.5,
+      "shares": 175,
+      "value_usd": 30888,
+      "post_holding": 6522
+    }
+  ]
 }

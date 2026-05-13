@@ -1,10 +1,176 @@
 {
   "ticker": "MU",
   "leadership": [
-    {"role": "President & CEO", "name": "Sanjay Mehrotra", "note": "since 2017; SanDisk co-founder"},
-    {"role": "EVP & CFO", "name": "Mark Murphy"},
-    {"role": "SVP & GM, Cloud Memory BU", "name": "Sumit Sadana", "note": "leads HBM strategy"}
+    {
+      "role": "President & CEO",
+      "name": "Sanjay Mehrotra",
+      "note": "since 2017; SanDisk co-founder"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Mark Murphy"
+    },
+    {
+      "role": "SVP & GM, Cloud Memory BU",
+      "name": "Sumit Sadana",
+      "note": "leads HBM strategy"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "insider_trades": "https://finviz.com/quote.ashx?t=MU"
+  },
+  "insider_trades": [
+    {
+      "date": "2026-05-01",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 536.26,
+      "shares": 40000,
+      "value_usd": 21450555,
+      "post_holding": 424503
+    },
+    {
+      "date": "2026-05-01",
+      "name": "RAY MICHAEL CHARLES",
+      "role": "SVP, Chief Legal Officer",
+      "type": "Sale",
+      "price": 534.3,
+      "shares": 7601,
+      "value_usd": 4061207,
+      "post_holding": 67227
+    },
+    {
+      "date": "2026-04-14",
+      "name": "CORDANO MICHAEL D",
+      "role": "EVP, Worldwide Sales",
+      "type": "Sale",
+      "price": 435,
+      "shares": 3407,
+      "value_usd": 1482045,
+      "post_holding": 44059
+    },
+    {
+      "date": "2026-04-10",
+      "name": "Sadana Sumit",
+      "role": "EVP and Chief Business Officer",
+      "type": "Sale",
+      "price": 421.35,
+      "shares": 24000,
+      "value_usd": 10112400,
+      "post_holding": 224021
+    },
+    {
+      "date": "2026-04-09",
+      "name": "CORDANO MICHAEL D",
+      "role": "EVP, Worldwide Sales",
+      "type": "Sale",
+      "price": 420.81,
+      "shares": 3407,
+      "value_usd": 1433700,
+      "post_holding": 47466
+    },
+    {
+      "date": "2026-04-01",
+      "name": "ARNZEN APRIL S",
+      "role": "EVP and Chief People Officer",
+      "type": "Sale",
+      "price": 347.39,
+      "shares": 40000,
+      "value_usd": 13895762,
+      "post_holding": 125737
+    },
+    {
+      "date": "2026-02-02",
+      "name": "Sadana Sumit",
+      "role": "EVP and Chief Business Officer",
+      "type": "Sale",
+      "price": 429.89,
+      "shares": 25000,
+      "value_usd": 10747266,
+      "post_holding": 248021
+    },
+    {
+      "date": "2026-01-27",
+      "name": "RAY MICHAEL CHARLES",
+      "role": "SVP, Chief Legal Officer",
+      "type": "Sale",
+      "price": 409.68,
+      "shares": 12268,
+      "value_usd": 5025987,
+      "post_holding": 74675
+    },
+    {
+      "date": "2026-01-22",
+      "name": "BHATIA MANISH H",
+      "role": "EVP, Global Operations",
+      "type": "Sale",
+      "price": 391.04,
+      "shares": 26623,
+      "value_usd": 10410771,
+      "post_holding": 323486
+    },
+    {
+      "date": "2026-01-19",
+      "name": "ALLEN SCOTT R.",
+      "role": "CVP, Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 269,
+      "value_usd": 0,
+      "post_holding": 37569
+    },
+    {
+      "date": "2026-01-14",
+      "name": "Liu Teyin M",
+      "role": "Director",
+      "type": "Buy",
+      "price": 337.22,
+      "shares": 11600,
+      "value_usd": 3911711,
+      "post_holding": 25910
+    },
+    {
+      "date": "2026-01-13",
+      "name": "Liu Teyin M",
+      "role": "Director",
+      "type": "Buy",
+      "price": 337.07,
+      "shares": 11600,
+      "value_usd": 3910012,
+      "post_holding": 14310
+    },
+    {
+      "date": "2026-01-06",
+      "name": "ALLEN SCOTT R.",
+      "role": "CVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 337.5,
+      "shares": 2000,
+      "value_usd": 675000,
+      "post_holding": 38237
+    },
+    {
+      "date": "2025-12-22",
+      "name": "ARNZEN APRIL S",
+      "role": "EVP and Chief People Officer",
+      "type": "Sale",
+      "price": 277.09,
+      "shares": 15000,
+      "value_usd": 4156350,
+      "post_holding": 165618
+    },
+    {
+      "date": "2025-12-19",
+      "name": "GOMO STEVEN J",
+      "role": "Director",
+      "type": "Sale",
+      "price": 263.63,
+      "shares": 5000,
+      "value_usd": 1318150,
+      "post_holding": 19139
+    }
+  ]
 }
