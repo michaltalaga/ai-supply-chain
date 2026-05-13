@@ -1,0 +1,17 @@
+{
+  "ticker": "UMC",
+  "currency_native": "TWD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 61038, "net_income_native": 16172, "eps_diluted_native": 6.45},
+    {"q": "Q4_2025", "revenue_native": 61810, "net_income_native": 9999, "eps_diluted_native": 4.05},
+    {"q": "Q3_2025", "revenue_native": 59127, "net_income_native": 14982, "eps_diluted_native": 5.95},
+    {"q": "Q2_2025", "revenue_native": 58758, "net_income_native": 8903, "eps_diluted_native": 3.55},
+    {"q": "Q1_2025", "revenue_native": 57859, "net_income_native": 7777, "eps_diluted_native": 3.10},
+    {"q": "Q4_2024", "revenue_native": 60386, "net_income_native": 10028, "eps_diluted_native": 3.40},
+    {"q": "Q3_2024", "revenue_native": 60485, "net_income_native": 14472, "eps_diluted_native": 5.75},
+    {"q": "Q2_2024", "revenue_native": 56799, "net_income_native": 13786, "eps_diluted_native": 5.50}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/umc/financials/?p=quarterly"
+}

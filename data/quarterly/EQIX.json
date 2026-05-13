@@ -1,0 +1,17 @@
+{
+  "ticker": "EQIX",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 2444, "net_income_native": 415, "eps_diluted_native": 4.20},
+    {"q": "Q4_2025", "revenue_native": 2420, "net_income_native": 265, "eps_diluted_native": 2.69},
+    {"q": "Q3_2025", "revenue_native": 2316, "net_income_native": 374, "eps_diluted_native": 3.81},
+    {"q": "Q2_2025", "revenue_native": 2256, "net_income_native": 368, "eps_diluted_native": 3.75},
+    {"q": "Q1_2025", "revenue_native": 2225, "net_income_native": 343, "eps_diluted_native": 3.50},
+    {"q": "Q4_2024", "revenue_native": 2261, "net_income_native": -14, "eps_diluted_native": -0.14},
+    {"q": "Q3_2024", "revenue_native": 2201, "net_income_native": 297, "eps_diluted_native": 3.10},
+    {"q": "Q2_2024", "revenue_native": 2159, "net_income_native": 301, "eps_diluted_native": 3.16}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/eqix/financials/?p=quarterly"
+}

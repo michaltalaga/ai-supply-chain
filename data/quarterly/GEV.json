@@ -1,0 +1,17 @@
+{
+  "ticker": "GEV",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 9339, "net_income_native": 4745, "eps_diluted_native": 17.44},
+    {"q": "Q4_2025", "revenue_native": 10956, "net_income_native": 3664, "eps_diluted_native": 13.39},
+    {"q": "Q3_2025", "revenue_native": 9969, "net_income_native": 452, "eps_diluted_native": 1.64},
+    {"q": "Q2_2025", "revenue_native": 9111, "net_income_native": 514, "eps_diluted_native": 1.86},
+    {"q": "Q1_2025", "revenue_native": 8032, "net_income_native": 254, "eps_diluted_native": 0.91},
+    {"q": "Q4_2024", "revenue_native": 10559, "net_income_native": 484, "eps_diluted_native": 1.73},
+    {"q": "Q3_2024", "revenue_native": 8913, "net_income_native": -96, "eps_diluted_native": -0.35},
+    {"q": "Q2_2024", "revenue_native": 8204, "net_income_native": 1294, "eps_diluted_native": 4.65}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/gev/financials/?p=quarterly"
+}

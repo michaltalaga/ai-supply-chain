@@ -1,0 +1,17 @@
+{
+  "ticker": "COHR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 1806, "net_income_native": 191.4, "eps_diluted_native": 0.97},
+    {"q": "Q2_FY2026", "revenue_native": 1686, "net_income_native": 145.09, "eps_diluted_native": 0.76},
+    {"q": "Q1_FY2026", "revenue_native": 1581, "net_income_native": 192.87, "eps_diluted_native": 1.19},
+    {"q": "Q4_FY2025", "revenue_native": 1529, "net_income_native": -114.32, "eps_diluted_native": -0.83},
+    {"q": "Q3_FY2025", "revenue_native": 1498, "net_income_native": -16.98, "eps_diluted_native": -0.11},
+    {"q": "Q2_FY2025", "revenue_native": 1435, "net_income_native": 71.12, "eps_diluted_native": 0.44},
+    {"q": "Q1_FY2025", "revenue_native": 1348, "net_income_native": -5.95, "eps_diluted_native": -0.04},
+    {"q": "Q4_FY2024", "revenue_native": 1314, "net_income_native": -79.85, "eps_diluted_native": -0.52}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/cohr/financials/?p=quarterly"
+}

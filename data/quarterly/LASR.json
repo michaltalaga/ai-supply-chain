@@ -1,0 +1,17 @@
+{
+  "ticker": "LASR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 80.18, "net_income_native": 0.65, "eps_diluted_native": 0.01},
+    {"q": "Q4_2025", "revenue_native": 81.19, "net_income_native": -4.91, "eps_diluted_native": -0.10},
+    {"q": "Q3_2025", "revenue_native": 66.74, "net_income_native": -6.87, "eps_diluted_native": -0.14},
+    {"q": "Q2_2025", "revenue_native": 61.74, "net_income_native": -3.59, "eps_diluted_native": -0.07},
+    {"q": "Q1_2025", "revenue_native": 51.67, "net_income_native": -8.09, "eps_diluted_native": -0.16},
+    {"q": "Q4_2024", "revenue_native": 47.38, "net_income_native": -24.96, "eps_diluted_native": -0.51},
+    {"q": "Q3_2024", "revenue_native": 56.13, "net_income_native": -10.34, "eps_diluted_native": -0.21},
+    {"q": "Q2_2024", "revenue_native": 50.51, "net_income_native": -11.73, "eps_diluted_native": -0.25}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/lasr/financials/?p=quarterly"
+}

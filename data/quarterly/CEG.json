@@ -1,0 +1,17 @@
+{
+  "ticker": "CEG",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 11122, "net_income_native": 1590, "eps_diluted_native": 4.49},
+    {"q": "Q4_2025", "revenue_native": 6074, "net_income_native": 432, "eps_diluted_native": 1.38},
+    {"q": "Q3_2025", "revenue_native": 6570, "net_income_native": 930, "eps_diluted_native": 2.97},
+    {"q": "Q2_2025", "revenue_native": 6101, "net_income_native": 839, "eps_diluted_native": 2.67},
+    {"q": "Q1_2025", "revenue_native": 6788, "net_income_native": 118, "eps_diluted_native": 0.38},
+    {"q": "Q4_2024", "revenue_native": 5382, "net_income_native": 852, "eps_diluted_native": 2.71},
+    {"q": "Q3_2024", "revenue_native": 6550, "net_income_native": 1200, "eps_diluted_native": 3.82},
+    {"q": "Q2_2024", "revenue_native": 5475, "net_income_native": 814, "eps_diluted_native": 2.58}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/ceg/financials/?p=quarterly"
+}

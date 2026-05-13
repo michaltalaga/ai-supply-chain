@@ -1,0 +1,17 @@
+{
+  "ticker": "MBLY",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 558, "net_income_native": -3818, "eps_diluted_native": -4.68},
+    {"q": "Q4_2025", "revenue_native": 446, "net_income_native": -127, "eps_diluted_native": -0.16},
+    {"q": "Q3_2025", "revenue_native": 504, "net_income_native": -96, "eps_diluted_native": -0.12},
+    {"q": "Q2_2025", "revenue_native": 506, "net_income_native": -67, "eps_diluted_native": -0.08},
+    {"q": "Q1_2025", "revenue_native": 438, "net_income_native": -102, "eps_diluted_native": -0.13},
+    {"q": "Q4_2024", "revenue_native": 490, "net_income_native": -71, "eps_diluted_native": -0.09},
+    {"q": "Q3_2024", "revenue_native": 486, "net_income_native": -2715, "eps_diluted_native": -3.35},
+    {"q": "Q2_2024", "revenue_native": 439, "net_income_native": -86, "eps_diluted_native": -0.11}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/mbly/financials/?p=quarterly"
+}

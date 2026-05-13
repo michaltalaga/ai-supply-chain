@@ -1,0 +1,17 @@
+{
+  "ticker": "ETN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 7451, "net_income_native": 866, "eps_diluted_native": 2.22},
+    {"q": "Q4_2025", "revenue_native": 7055, "net_income_native": 1132, "eps_diluted_native": 2.91},
+    {"q": "Q3_2025", "revenue_native": 6988, "net_income_native": 1010, "eps_diluted_native": 2.59},
+    {"q": "Q2_2025", "revenue_native": 7028, "net_income_native": 982, "eps_diluted_native": 2.51},
+    {"q": "Q1_2025", "revenue_native": 6377, "net_income_native": 964, "eps_diluted_native": 2.45},
+    {"q": "Q4_2024", "revenue_native": 6240, "net_income_native": 971, "eps_diluted_native": 2.45},
+    {"q": "Q3_2024", "revenue_native": 6345, "net_income_native": 1009, "eps_diluted_native": 2.53},
+    {"q": "Q2_2024", "revenue_native": 6350, "net_income_native": 993, "eps_diluted_native": 2.48}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/etn/financials/?p=quarterly"
+}

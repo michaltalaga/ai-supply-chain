@@ -1,0 +1,17 @@
+{
+  "ticker": "QCOM",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q2_FY2026", "revenue_native": 10599, "net_income_native": 7370, "eps_diluted_native": 6.88},
+    {"q": "Q1_FY2026", "revenue_native": 12252, "net_income_native": 3004, "eps_diluted_native": 2.78},
+    {"q": "Q4_FY2025", "revenue_native": 11271, "net_income_native": -3117, "eps_diluted_native": -2.89},
+    {"q": "Q3_FY2025", "revenue_native": 10365, "net_income_native": 2666, "eps_diluted_native": 2.43},
+    {"q": "Q2_FY2025", "revenue_native": 10979, "net_income_native": 2812, "eps_diluted_native": 2.52},
+    {"q": "Q1_FY2025", "revenue_native": 11669, "net_income_native": 3180, "eps_diluted_native": 2.83},
+    {"q": "Q4_FY2024", "revenue_native": 10244, "net_income_native": 2920, "eps_diluted_native": 2.59},
+    {"q": "Q3_FY2024", "revenue_native": 9393, "net_income_native": 2129, "eps_diluted_native": 1.88}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/qcom/financials/?p=quarterly"
+}

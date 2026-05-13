@@ -1,0 +1,17 @@
+{
+  "ticker": "LITE",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 808.4, "net_income_native": 142.5, "eps_diluted_native": 1.50},
+    {"q": "Q2_FY2026", "revenue_native": 665.5, "net_income_native": 78.2, "eps_diluted_native": 0.89},
+    {"q": "Q1_FY2026", "revenue_native": 533.8, "net_income_native": 4.2, "eps_diluted_native": 0.05},
+    {"q": "Q4_FY2025", "revenue_native": 480.7, "net_income_native": 213.3, "eps_diluted_native": 2.96},
+    {"q": "Q3_FY2025", "revenue_native": 425.2, "net_income_native": -44.1, "eps_diluted_native": -0.64},
+    {"q": "Q2_FY2025", "revenue_native": 402.2, "net_income_native": -60.9, "eps_diluted_native": -0.88},
+    {"q": "Q1_FY2025", "revenue_native": 336.9, "net_income_native": -82.4, "eps_diluted_native": -1.21},
+    {"q": "Q4_FY2024", "revenue_native": 308.3, "net_income_native": -252.5, "eps_diluted_native": -3.72}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/lite/financials/?p=quarterly"
+}

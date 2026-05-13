@@ -1,0 +1,17 @@
+{
+  "ticker": "PLTR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 1633, "net_income_native": 870.53, "eps_diluted_native": 0.34},
+    {"q": "Q4_2025", "revenue_native": 1407, "net_income_native": 608.68, "eps_diluted_native": 0.24},
+    {"q": "Q3_2025", "revenue_native": 1181, "net_income_native": 475.6, "eps_diluted_native": 0.18},
+    {"q": "Q2_2025", "revenue_native": 1004, "net_income_native": 326.73, "eps_diluted_native": 0.13},
+    {"q": "Q1_2025", "revenue_native": 883.86, "net_income_native": 214.03, "eps_diluted_native": 0.08},
+    {"q": "Q4_2024", "revenue_native": 827.52, "net_income_native": 79.01, "eps_diluted_native": 0.03},
+    {"q": "Q3_2024", "revenue_native": 725.52, "net_income_native": 143.53, "eps_diluted_native": 0.06},
+    {"q": "Q2_2024", "revenue_native": 678.13, "net_income_native": 134.13, "eps_diluted_native": 0.06}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/pltr/financials/?p=quarterly"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "MTSI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q2_FY2026", "revenue_native": 288.96, "net_income_native": 46.33, "eps_diluted_native": 0.60},
+    {"q": "Q1_FY2026", "revenue_native": 271.61, "net_income_native": 48.77, "eps_diluted_native": 0.64},
+    {"q": "Q4_FY2025", "revenue_native": 261.17, "net_income_native": 45.12, "eps_diluted_native": 0.59},
+    {"q": "Q3_FY2025", "revenue_native": 252.08, "net_income_native": 36.53, "eps_diluted_native": 0.48},
+    {"q": "Q2_FY2025", "revenue_native": 235.89, "net_income_native": 31.67, "eps_diluted_native": 0.42},
+    {"q": "Q1_FY2025", "revenue_native": 218.12, "net_income_native": -167.53, "eps_diluted_native": -2.30},
+    {"q": "Q4_FY2024", "revenue_native": 200.71, "net_income_native": 29.41, "eps_diluted_native": 0.39},
+    {"q": "Q3_FY2024", "revenue_native": 190.49, "net_income_native": 19.94, "eps_diluted_native": 0.27}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/mtsi/financials/?p=quarterly"
+}

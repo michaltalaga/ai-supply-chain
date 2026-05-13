@@ -1,0 +1,17 @@
+{
+  "ticker": "LRCX",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 5841, "net_income_native": 1825, "eps_diluted_native": 1.45},
+    {"q": "Q2_FY2026", "revenue_native": 5345, "net_income_native": 1594, "eps_diluted_native": 1.26},
+    {"q": "Q1_FY2026", "revenue_native": 5324, "net_income_native": 1569, "eps_diluted_native": 1.24},
+    {"q": "Q4_FY2025", "revenue_native": 5171, "net_income_native": 1720, "eps_diluted_native": 1.35},
+    {"q": "Q3_FY2025", "revenue_native": 4720, "net_income_native": 1331, "eps_diluted_native": 1.03},
+    {"q": "Q2_FY2025", "revenue_native": 4376, "net_income_native": 1191, "eps_diluted_native": 0.92},
+    {"q": "Q1_FY2025", "revenue_native": 4168, "net_income_native": 1116, "eps_diluted_native": 0.86},
+    {"q": "Q4_FY2024", "revenue_native": 3872, "net_income_native": 1020, "eps_diluted_native": 0.78}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/lrcx/financials/?p=quarterly"
+}

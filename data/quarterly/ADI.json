@@ -1,0 +1,17 @@
+{
+  "ticker": "ADI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_FY2026", "revenue_native": 3160, "net_income_native": 830.83, "eps_diluted_native": 1.69},
+    {"q": "Q4_FY2025", "revenue_native": 3076, "net_income_native": 787.74, "eps_diluted_native": 1.60},
+    {"q": "Q3_FY2025", "revenue_native": 2880, "net_income_native": 518.52, "eps_diluted_native": 1.04},
+    {"q": "Q2_FY2025", "revenue_native": 2640, "net_income_native": 569.77, "eps_diluted_native": 1.14},
+    {"q": "Q1_FY2025", "revenue_native": 2423, "net_income_native": 391.32, "eps_diluted_native": 0.78},
+    {"q": "Q4_FY2024", "revenue_native": 2443, "net_income_native": 478.07, "eps_diluted_native": 0.96},
+    {"q": "Q3_FY2024", "revenue_native": 2312, "net_income_native": 392.23, "eps_diluted_native": 0.79},
+    {"q": "Q2_FY2024", "revenue_native": 2159, "net_income_native": 302.24, "eps_diluted_native": 0.61}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/adi/financials/?p=quarterly"
+}

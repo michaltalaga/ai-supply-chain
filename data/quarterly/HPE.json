@@ -1,0 +1,17 @@
+{
+  "ticker": "HPE",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_FY2026", "revenue_native": 9301, "net_income_native": 423, "eps_diluted_native": 0.31},
+    {"q": "Q4_FY2025", "revenue_native": 9679, "net_income_native": 146, "eps_diluted_native": 0.11},
+    {"q": "Q3_FY2025", "revenue_native": 9136, "net_income_native": 276, "eps_diluted_native": 0.21},
+    {"q": "Q2_FY2025", "revenue_native": 7627, "net_income_native": -1079, "eps_diluted_native": -0.82},
+    {"q": "Q1_FY2025", "revenue_native": 7854, "net_income_native": 598, "eps_diluted_native": 0.44},
+    {"q": "Q4_FY2024", "revenue_native": 8458, "net_income_native": 1341, "eps_diluted_native": 0.99},
+    {"q": "Q3_FY2024", "revenue_native": 7710, "net_income_native": 512, "eps_diluted_native": 0.38},
+    {"q": "Q2_FY2024", "revenue_native": 7204, "net_income_native": 314, "eps_diluted_native": 0.24}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/hpe/financials/?p=quarterly"
+}

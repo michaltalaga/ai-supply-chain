@@ -1,0 +1,17 @@
+{
+  "ticker": "GFS",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 1634, "net_income_native": 103, "eps_diluted_native": 0.18},
+    {"q": "Q4_2025", "revenue_native": 1830, "net_income_native": 199, "eps_diluted_native": 0.36},
+    {"q": "Q3_2025", "revenue_native": 1688, "net_income_native": 248, "eps_diluted_native": 0.44},
+    {"q": "Q2_2025", "revenue_native": 1688, "net_income_native": 228, "eps_diluted_native": 0.41},
+    {"q": "Q1_2025", "revenue_native": 1585, "net_income_native": 210, "eps_diluted_native": 0.38},
+    {"q": "Q4_2024", "revenue_native": 1830, "net_income_native": -730, "eps_diluted_native": -1.32},
+    {"q": "Q3_2024", "revenue_native": 1739, "net_income_native": 177, "eps_diluted_native": 0.32},
+    {"q": "Q2_2024", "revenue_native": 1632, "net_income_native": 155, "eps_diluted_native": 0.28}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/gfs/financials/?p=quarterly"
+}

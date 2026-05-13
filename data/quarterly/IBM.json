@@ -1,0 +1,17 @@
+{
+  "ticker": "IBM",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 15917, "net_income_native": 1216, "eps_diluted_native": 1.28},
+    {"q": "Q4_2025", "revenue_native": 19686, "net_income_native": 5600, "eps_diluted_native": 5.88},
+    {"q": "Q3_2025", "revenue_native": 16331, "net_income_native": 1744, "eps_diluted_native": 1.84},
+    {"q": "Q2_2025", "revenue_native": 16977, "net_income_native": 2194, "eps_diluted_native": 2.31},
+    {"q": "Q1_2025", "revenue_native": 14541, "net_income_native": 1055, "eps_diluted_native": 1.12},
+    {"q": "Q4_2024", "revenue_native": 17554, "net_income_native": 2914, "eps_diluted_native": 3.09},
+    {"q": "Q3_2024", "revenue_native": 14968, "net_income_native": -330, "eps_diluted_native": -0.34},
+    {"q": "Q2_2024", "revenue_native": 15770, "net_income_native": 1834, "eps_diluted_native": 1.96}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/ibm/financials/?p=quarterly"
+}

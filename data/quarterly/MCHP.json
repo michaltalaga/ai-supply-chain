@@ -1,0 +1,17 @@
+{
+  "ticker": "MCHP",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q4_FY2026", "revenue_native": 1311, "net_income_native": 116.4, "eps_diluted_native": 0.21},
+    {"q": "Q3_FY2026", "revenue_native": 1186, "net_income_native": 34.9, "eps_diluted_native": 0.06},
+    {"q": "Q2_FY2026", "revenue_native": 1140, "net_income_native": 13.9, "eps_diluted_native": 0.03},
+    {"q": "Q1_FY2026", "revenue_native": 1076, "net_income_native": -46.4, "eps_diluted_native": -0.09},
+    {"q": "Q4_FY2025", "revenue_native": 970.5, "net_income_native": -156.8, "eps_diluted_native": -0.29},
+    {"q": "Q3_FY2025", "revenue_native": 1026, "net_income_native": -53.6, "eps_diluted_native": -0.10},
+    {"q": "Q2_FY2025", "revenue_native": 1164, "net_income_native": 78.4, "eps_diluted_native": 0.14},
+    {"q": "Q1_FY2025", "revenue_native": 1241, "net_income_native": 129.3, "eps_diluted_native": 0.24}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/mchp/financials/?p=quarterly"
+}

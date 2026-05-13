@@ -1,0 +1,17 @@
+{
+  "ticker": "KLAC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 3415, "net_income_native": 1201, "eps_diluted_native": 9.12},
+    {"q": "Q2_FY2026", "revenue_native": 3297, "net_income_native": 1146, "eps_diluted_native": 8.68},
+    {"q": "Q1_FY2026", "revenue_native": 3210, "net_income_native": 1121, "eps_diluted_native": 8.47},
+    {"q": "Q4_FY2025", "revenue_native": 3175, "net_income_native": 1203, "eps_diluted_native": 9.06},
+    {"q": "Q3_FY2025", "revenue_native": 3063, "net_income_native": 1088, "eps_diluted_native": 8.16},
+    {"q": "Q2_FY2025", "revenue_native": 3077, "net_income_native": 824.53, "eps_diluted_native": 6.16},
+    {"q": "Q1_FY2025", "revenue_native": 2842, "net_income_native": 945.85, "eps_diluted_native": 7.01},
+    {"q": "Q4_FY2024", "revenue_native": 2569, "net_income_native": 836.45, "eps_diluted_native": 6.18}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/klac/financials/?p=quarterly"
+}

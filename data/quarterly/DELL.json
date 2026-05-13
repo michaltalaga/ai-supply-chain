@@ -1,0 +1,17 @@
+{
+  "ticker": "DELL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q4_FY2026", "revenue_native": 33379, "net_income_native": 2259, "eps_diluted_native": 3.37},
+    {"q": "Q3_FY2026", "revenue_native": 27005, "net_income_native": 1548, "eps_diluted_native": 2.28},
+    {"q": "Q2_FY2026", "revenue_native": 29776, "net_income_native": 1164, "eps_diluted_native": 1.70},
+    {"q": "Q1_FY2026", "revenue_native": 23378, "net_income_native": 965, "eps_diluted_native": 1.37},
+    {"q": "Q4_FY2025", "revenue_native": 23931, "net_income_native": 1654, "eps_diluted_native": 2.15},
+    {"q": "Q3_FY2025", "revenue_native": 24366, "net_income_native": 1175, "eps_diluted_native": 1.64},
+    {"q": "Q2_FY2025", "revenue_native": 25026, "net_income_native": 887, "eps_diluted_native": 1.23},
+    {"q": "Q1_FY2025", "revenue_native": 22244, "net_income_native": 997, "eps_diluted_native": 1.37}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/dell/financials/?p=quarterly"
+}

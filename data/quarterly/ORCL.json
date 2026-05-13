@@ -1,0 +1,17 @@
+{
+  "ticker": "ORCL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 17190, "net_income_native": 3699, "eps_diluted_native": 1.27},
+    {"q": "Q2_FY2026", "revenue_native": 16058, "net_income_native": 6135, "eps_diluted_native": 2.10},
+    {"q": "Q1_FY2026", "revenue_native": 14926, "net_income_native": 2927, "eps_diluted_native": 1.01},
+    {"q": "Q4_FY2025", "revenue_native": 15903, "net_income_native": 3427, "eps_diluted_native": 1.19},
+    {"q": "Q3_FY2025", "revenue_native": 14130, "net_income_native": 2936, "eps_diluted_native": 1.02},
+    {"q": "Q2_FY2025", "revenue_native": 14059, "net_income_native": 3151, "eps_diluted_native": 1.10},
+    {"q": "Q1_FY2025", "revenue_native": 13307, "net_income_native": 2929, "eps_diluted_native": 1.03},
+    {"q": "Q4_FY2024", "revenue_native": 14287, "net_income_native": 3144, "eps_diluted_native": 1.11}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/orcl/financials/?p=quarterly"
+}

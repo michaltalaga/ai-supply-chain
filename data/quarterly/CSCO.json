@@ -1,0 +1,17 @@
+{
+  "ticker": "CSCO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q2_FY2026", "revenue_native": 15349, "net_income_native": 3175, "eps_diluted_native": 0.80},
+    {"q": "Q1_FY2026", "revenue_native": 14883, "net_income_native": 2860, "eps_diluted_native": 0.72},
+    {"q": "Q4_FY2025", "revenue_native": 14673, "net_income_native": 2550, "eps_diluted_native": 0.71},
+    {"q": "Q3_FY2025", "revenue_native": 14149, "net_income_native": 2491, "eps_diluted_native": 0.62},
+    {"q": "Q2_FY2025", "revenue_native": 13991, "net_income_native": 2428, "eps_diluted_native": 0.61},
+    {"q": "Q1_FY2025", "revenue_native": 13841, "net_income_native": 2711, "eps_diluted_native": 0.68},
+    {"q": "Q4_FY2024", "revenue_native": 13642, "net_income_native": 2162, "eps_diluted_native": 0.54},
+    {"q": "Q3_FY2024", "revenue_native": 12702, "net_income_native": 1886, "eps_diluted_native": 0.46}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/csco/financials/?p=quarterly"
+}

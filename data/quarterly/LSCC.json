@@ -1,0 +1,17 @@
+{
+  "ticker": "LSCC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 170.9, "net_income_native": 21.82, "eps_diluted_native": 0.16},
+    {"q": "Q4_2025", "revenue_native": 145.79, "net_income_native": -7.65, "eps_diluted_native": -0.06},
+    {"q": "Q3_2025", "revenue_native": 133.35, "net_income_native": 2.79, "eps_diluted_native": 0.02},
+    {"q": "Q2_2025", "revenue_native": 123.97, "net_income_native": 2.91, "eps_diluted_native": 0.02},
+    {"q": "Q1_2025", "revenue_native": 120.15, "net_income_native": 5.02, "eps_diluted_native": 0.04},
+    {"q": "Q4_2024", "revenue_native": 117.42, "net_income_native": 16.51, "eps_diluted_native": 0.12},
+    {"q": "Q3_2024", "revenue_native": 127.09, "net_income_native": 7.19, "eps_diluted_native": 0.05},
+    {"q": "Q2_2024", "revenue_native": 124.08, "net_income_native": 22.63, "eps_diluted_native": 0.16}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/lscc/financials/?p=quarterly"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "VST",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 5640, "net_income_native": 980, "eps_diluted_native": 2.87},
+    {"q": "Q4_2025", "revenue_native": 4584, "net_income_native": 185, "eps_diluted_native": 0.54},
+    {"q": "Q3_2025", "revenue_native": 4971, "net_income_native": 604, "eps_diluted_native": 1.75},
+    {"q": "Q2_2025", "revenue_native": 4250, "net_income_native": 280, "eps_diluted_native": 0.81},
+    {"q": "Q1_2025", "revenue_native": 3933, "net_income_native": -317, "eps_diluted_native": -0.93},
+    {"q": "Q4_2024", "revenue_native": 4037, "net_income_native": 393, "eps_diluted_native": 1.14},
+    {"q": "Q3_2024", "revenue_native": 6288, "net_income_native": 1840, "eps_diluted_native": 5.25},
+    {"q": "Q2_2024", "revenue_native": 3845, "net_income_native": 318, "eps_diluted_native": 0.90}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/vst/financials/?p=quarterly"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "TER",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 1282, "net_income_native": 398.91, "eps_diluted_native": 2.53},
+    {"q": "Q4_2025", "revenue_native": 1083, "net_income_native": 257.22, "eps_diluted_native": 1.63},
+    {"q": "Q3_2025", "revenue_native": 769.21, "net_income_native": 119.56, "eps_diluted_native": 0.75},
+    {"q": "Q2_2025", "revenue_native": 651.8, "net_income_native": 78.37, "eps_diluted_native": 0.49},
+    {"q": "Q1_2025", "revenue_native": 685.68, "net_income_native": 98.9, "eps_diluted_native": 0.61},
+    {"q": "Q4_2024", "revenue_native": 752.88, "net_income_native": 146.25, "eps_diluted_native": 0.90},
+    {"q": "Q3_2024", "revenue_native": 737.3, "net_income_native": 145.65, "eps_diluted_native": 0.89},
+    {"q": "Q2_2024", "revenue_native": 729.88, "net_income_native": 186.27, "eps_diluted_native": 1.14}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/ter/financials/?p=quarterly"
+}

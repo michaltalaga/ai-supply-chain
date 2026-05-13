@@ -1,0 +1,17 @@
+{
+  "ticker": "DLR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 1635, "net_income_native": 169.09, "eps_diluted_native": 0.46},
+    {"q": "Q4_2025", "revenue_native": 1635, "net_income_native": 88.47, "eps_diluted_native": 0.24},
+    {"q": "Q3_2025", "revenue_native": 1577, "net_income_native": 57.63, "eps_diluted_native": 0.15},
+    {"q": "Q2_2025", "revenue_native": 1493, "net_income_native": 1022, "eps_diluted_native": 2.94},
+    {"q": "Q1_2025", "revenue_native": 1408, "net_income_native": 99.79, "eps_diluted_native": 0.27},
+    {"q": "Q4_2024", "revenue_native": 1436, "net_income_native": 179.39, "eps_diluted_native": 0.51},
+    {"q": "Q3_2024", "revenue_native": 1431, "net_income_native": 41.01, "eps_diluted_native": 0.09},
+    {"q": "Q2_2024", "revenue_native": 1357, "net_income_native": 70.04, "eps_diluted_native": 0.20}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/dlr/financials/?p=quarterly"
+}

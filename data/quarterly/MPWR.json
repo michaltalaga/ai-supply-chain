@@ -1,0 +1,17 @@
+{
+  "ticker": "MPWR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 804.19, "net_income_native": 193.23, "eps_diluted_native": 3.92},
+    {"q": "Q4_2025", "revenue_native": 751.16, "net_income_native": 175.69, "eps_diluted_native": 3.46},
+    {"q": "Q3_2025", "revenue_native": 737.18, "net_income_native": 178.27, "eps_diluted_native": 3.74},
+    {"q": "Q2_2025", "revenue_native": 664.57, "net_income_native": 133.73, "eps_diluted_native": 2.81},
+    {"q": "Q1_2025", "revenue_native": 637.55, "net_income_native": 135.05, "eps_diluted_native": 2.81},
+    {"q": "Q4_2024", "revenue_native": 621.67, "net_income_native": 1449, "eps_diluted_native": 25.87},
+    {"q": "Q3_2024", "revenue_native": 620.12, "net_income_native": 144.43, "eps_diluted_native": 2.95},
+    {"q": "Q2_2024", "revenue_native": 507.43, "net_income_native": 100.37, "eps_diluted_native": 2.05}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/mpwr/financials/?p=quarterly"
+}

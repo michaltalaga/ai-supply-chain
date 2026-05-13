@@ -1,0 +1,17 @@
+{
+  "ticker": "VRT",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 2650, "net_income_native": 390.1, "eps_diluted_native": 0.99},
+    {"q": "Q4_2025", "revenue_native": 2880, "net_income_native": 445.6, "eps_diluted_native": 1.14},
+    {"q": "Q3_2025", "revenue_native": 2676, "net_income_native": 398.5, "eps_diluted_native": 1.02},
+    {"q": "Q2_2025", "revenue_native": 2638, "net_income_native": 324.2, "eps_diluted_native": 0.83},
+    {"q": "Q1_2025", "revenue_native": 2036, "net_income_native": 164.5, "eps_diluted_native": 0.42},
+    {"q": "Q4_2024", "revenue_native": 2346, "net_income_native": 147, "eps_diluted_native": 0.38},
+    {"q": "Q3_2024", "revenue_native": 2074, "net_income_native": 176.6, "eps_diluted_native": 0.46},
+    {"q": "Q2_2024", "revenue_native": 1953, "net_income_native": 178.1, "eps_diluted_native": 0.46}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/vrt/financials/?p=quarterly"
+}

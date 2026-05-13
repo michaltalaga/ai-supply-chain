@@ -1,0 +1,17 @@
+{
+  "ticker": "ON",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 1513, "net_income_native": -33.4, "eps_diluted_native": -0.08},
+    {"q": "Q4_2025", "revenue_native": 1530, "net_income_native": 181.8, "eps_diluted_native": 0.45},
+    {"q": "Q3_2025", "revenue_native": 1551, "net_income_native": 255, "eps_diluted_native": 0.63},
+    {"q": "Q2_2025", "revenue_native": 1469, "net_income_native": 170.3, "eps_diluted_native": 0.41},
+    {"q": "Q1_2025", "revenue_native": 1446, "net_income_native": -486.1, "eps_diluted_native": -1.15},
+    {"q": "Q4_2024", "revenue_native": 1723, "net_income_native": 379.9, "eps_diluted_native": 0.88},
+    {"q": "Q3_2024", "revenue_native": 1762, "net_income_native": 401.7, "eps_diluted_native": 0.93},
+    {"q": "Q2_2024", "revenue_native": 1735, "net_income_native": 338.2, "eps_diluted_native": 0.79}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/on/financials/?p=quarterly"
+}

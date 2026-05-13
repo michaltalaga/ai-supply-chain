@@ -1,0 +1,17 @@
+{
+  "ticker": "ASX",
+  "currency_native": "TWD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 173662, "net_income_native": 14148, "eps_diluted_native": 6.16},
+    {"q": "Q4_2025", "revenue_native": 177915, "net_income_native": 14714, "eps_diluted_native": 6.48},
+    {"q": "Q3_2025", "revenue_native": 168569, "net_income_native": 10870, "eps_diluted_native": 4.82},
+    {"q": "Q2_2025", "revenue_native": 150750, "net_income_native": 7521, "eps_diluted_native": 3.40},
+    {"q": "Q1_2025", "revenue_native": 148153, "net_income_native": 7554, "eps_diluted_native": 3.28},
+    {"q": "Q4_2024", "revenue_native": 162264, "net_income_native": 9470, "eps_diluted_native": 4.14},
+    {"q": "Q3_2024", "revenue_native": 160105, "net_income_native": 9733, "eps_diluted_native": 4.36},
+    {"q": "Q2_2024", "revenue_native": 140238, "net_income_native": 7778, "eps_diluted_native": 3.50}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/asx/financials/?p=quarterly"
+}

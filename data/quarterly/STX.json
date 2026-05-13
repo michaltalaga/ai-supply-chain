@@ -1,0 +1,17 @@
+{
+  "ticker": "STX",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 3112, "net_income_native": 748, "eps_diluted_native": 3.27},
+    {"q": "Q2_FY2026", "revenue_native": 2825, "net_income_native": 593, "eps_diluted_native": 2.60},
+    {"q": "Q1_FY2026", "revenue_native": 2629, "net_income_native": 549, "eps_diluted_native": 2.43},
+    {"q": "Q4_FY2025", "revenue_native": 2444, "net_income_native": 488, "eps_diluted_native": 2.24},
+    {"q": "Q3_FY2025", "revenue_native": 2160, "net_income_native": 340, "eps_diluted_native": 1.57},
+    {"q": "Q2_FY2025", "revenue_native": 2325, "net_income_native": 336, "eps_diluted_native": 1.55},
+    {"q": "Q1_FY2025", "revenue_native": 2168, "net_income_native": 305, "eps_diluted_native": 1.41},
+    {"q": "Q4_FY2024", "revenue_native": 1887, "net_income_native": 513, "eps_diluted_native": 2.39}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/stx/financials/?p=quarterly"
+}

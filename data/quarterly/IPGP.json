@@ -1,0 +1,17 @@
+{
+  "ticker": "IPGP",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 265.5, "net_income_native": 1.58, "eps_diluted_native": 0.04},
+    {"q": "Q4_2025", "revenue_native": 274.47, "net_income_native": 13.27, "eps_diluted_native": 0.31},
+    {"q": "Q3_2025", "revenue_native": 250.79, "net_income_native": 7.46, "eps_diluted_native": 0.18},
+    {"q": "Q2_2025", "revenue_native": 250.72, "net_income_native": 6.61, "eps_diluted_native": 0.16},
+    {"q": "Q1_2025", "revenue_native": 227.79, "net_income_native": 3.76, "eps_diluted_native": 0.09},
+    {"q": "Q4_2024", "revenue_native": 234.34, "net_income_native": 7.82, "eps_diluted_native": 0.18},
+    {"q": "Q3_2024", "revenue_native": 233.14, "net_income_native": -233.59, "eps_diluted_native": -5.33},
+    {"q": "Q2_2024", "revenue_native": 257.65, "net_income_native": 20.15, "eps_diluted_native": 0.45}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/ipgp/financials/?p=quarterly"
+}

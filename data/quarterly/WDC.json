@@ -1,0 +1,17 @@
+{
+  "ticker": "WDC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 3337, "net_income_native": 3205, "eps_diluted_native": 8.20},
+    {"q": "Q2_FY2026", "revenue_native": 3017, "net_income_native": 1842, "eps_diluted_native": 4.73},
+    {"q": "Q1_FY2026", "revenue_native": 2818, "net_income_native": 1182, "eps_diluted_native": 3.07},
+    {"q": "Q4_FY2025", "revenue_native": 2605, "net_income_native": 282, "eps_diluted_native": 0.67},
+    {"q": "Q3_FY2025", "revenue_native": 2294, "net_income_native": 520, "eps_diluted_native": 1.42},
+    {"q": "Q2_FY2025", "revenue_native": 2409, "net_income_native": 594, "eps_diluted_native": 1.63},
+    {"q": "Q1_FY2025", "revenue_native": 2212, "net_income_native": 493, "eps_diluted_native": 1.35},
+    {"q": "Q4_FY2024", "revenue_native": 2004, "net_income_native": 39, "eps_diluted_native": -0.77}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/wdc/financials/?p=quarterly"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "VICR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 112.97, "net_income_native": 20.66, "eps_diluted_native": 0.44},
+    {"q": "Q4_2025", "revenue_native": 362.7, "net_income_native": 46.53, "eps_diluted_native": 1.01},
+    {"q": "Q3_2025", "revenue_native": 110.42, "net_income_native": 28.29, "eps_diluted_native": 0.63},
+    {"q": "Q2_2025", "revenue_native": 186.05, "net_income_native": 41.19, "eps_diluted_native": 0.91},
+    {"q": "Q1_2025", "revenue_native": 93.97, "net_income_native": 2.54, "eps_diluted_native": 0.06},
+    {"q": "Q4_2024", "revenue_native": 359.06, "net_income_native": 10.25, "eps_diluted_native": 0.23},
+    {"q": "Q3_2024", "revenue_native": 93.17, "net_income_native": 11.55, "eps_diluted_native": 0.26},
+    {"q": "Q2_2024", "revenue_native": 85.85, "net_income_native": -1.2, "eps_diluted_native": -0.03}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/vicr/financials/?p=quarterly"
+}

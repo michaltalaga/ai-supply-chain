@@ -1,0 +1,17 @@
+{
+  "ticker": "TSLA",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 22387, "net_income_native": 477, "eps_diluted_native": 0.13},
+    {"q": "Q4_2025", "revenue_native": 24901, "net_income_native": 840, "eps_diluted_native": 0.24},
+    {"q": "Q3_2025", "revenue_native": 28095, "net_income_native": 1373, "eps_diluted_native": 0.39},
+    {"q": "Q2_2025", "revenue_native": 22496, "net_income_native": 1172, "eps_diluted_native": 0.33},
+    {"q": "Q1_2025", "revenue_native": 19335, "net_income_native": 409, "eps_diluted_native": 0.12},
+    {"q": "Q4_2024", "revenue_native": 25707, "net_income_native": 2317, "eps_diluted_native": 0.60},
+    {"q": "Q3_2024", "revenue_native": 25182, "net_income_native": 2173, "eps_diluted_native": 0.62},
+    {"q": "Q2_2024", "revenue_native": 25500, "net_income_native": 1400, "eps_diluted_native": 0.40}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/tsla/financials/?p=quarterly"
+}

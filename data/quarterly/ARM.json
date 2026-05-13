@@ -1,0 +1,17 @@
+{
+  "ticker": "ARM",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q4_FY2026", "revenue_native": 1490, "net_income_native": 313, "eps_diluted_native": 0.29},
+    {"q": "Q3_FY2026", "revenue_native": 1242, "net_income_native": 223, "eps_diluted_native": 0.21},
+    {"q": "Q2_FY2026", "revenue_native": 1135, "net_income_native": 238, "eps_diluted_native": 0.22},
+    {"q": "Q1_FY2026", "revenue_native": 1053, "net_income_native": 130, "eps_diluted_native": 0.12},
+    {"q": "Q4_FY2025", "revenue_native": 1241, "net_income_native": 210, "eps_diluted_native": 0.20},
+    {"q": "Q3_FY2025", "revenue_native": 983, "net_income_native": 252, "eps_diluted_native": 0.24},
+    {"q": "Q2_FY2025", "revenue_native": 844, "net_income_native": 107, "eps_diluted_native": 0.10},
+    {"q": "Q1_FY2025", "revenue_native": 939, "net_income_native": 223, "eps_diluted_native": 0.21}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/arm/financials/?p=quarterly"
+}

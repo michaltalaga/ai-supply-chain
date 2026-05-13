@@ -1,0 +1,17 @@
+{
+  "ticker": "POET",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q4_2025", "revenue_native": 0.34, "net_income_native": -26.02, "eps_diluted_native": -0.32},
+    {"q": "Q3_2025", "revenue_native": 0.3, "net_income_native": -11.01, "eps_diluted_native": -0.10},
+    {"q": "Q2_2025", "revenue_native": 0.27, "net_income_native": -17.26, "eps_diluted_native": -0.21},
+    {"q": "Q1_2025", "revenue_native": 0.17, "net_income_native": 6.34, "eps_diluted_native": null},
+    {"q": "Q4_2024", "revenue_native": 0.03, "net_income_native": -21.5, "eps_diluted_native": -0.50},
+    {"q": "Q3_2024", "revenue_native": 0, "net_income_native": -12.74, "eps_diluted_native": -0.20},
+    {"q": "Q2_2024", "revenue_native": null, "net_income_native": -7.98, "eps_diluted_native": -0.14},
+    {"q": "Q1_2024", "revenue_native": 0.01, "net_income_native": -5.72, "eps_diluted_native": -0.12}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/poet/financials/?p=quarterly"
+}

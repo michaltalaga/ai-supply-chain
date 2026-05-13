@@ -1,0 +1,17 @@
+{
+  "ticker": "NVTS",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 8.6, "net_income_native": -33.79, "eps_diluted_native": -0.15},
+    {"q": "Q4_2025", "revenue_native": 7.3, "net_income_native": -32.11, "eps_diluted_native": -0.14},
+    {"q": "Q3_2025", "revenue_native": 10.11, "net_income_native": -19.56, "eps_diluted_native": -0.09},
+    {"q": "Q2_2025", "revenue_native": 14.49, "net_income_native": -49.3, "eps_diluted_native": -0.25},
+    {"q": "Q1_2025", "revenue_native": 14.02, "net_income_native": -17.11, "eps_diluted_native": -0.09},
+    {"q": "Q4_2024", "revenue_native": 17.98, "net_income_native": -35.96, "eps_diluted_native": -0.21},
+    {"q": "Q3_2024", "revenue_native": 21.68, "net_income_native": -18.73, "eps_diluted_native": -0.10},
+    {"q": "Q2_2024", "revenue_native": 20.47, "net_income_native": -22.33, "eps_diluted_native": -0.12}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/nvts/financials/?p=quarterly"
+}

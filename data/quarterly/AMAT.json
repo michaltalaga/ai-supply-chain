@@ -1,0 +1,17 @@
+{
+  "ticker": "AMAT",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_FY2026", "revenue_native": 7012, "net_income_native": 2026, "eps_diluted_native": 2.54},
+    {"q": "Q4_FY2025", "revenue_native": 6800, "net_income_native": 1897, "eps_diluted_native": 2.38},
+    {"q": "Q3_FY2025", "revenue_native": 7302, "net_income_native": 1779, "eps_diluted_native": 2.22},
+    {"q": "Q2_FY2025", "revenue_native": 7100, "net_income_native": 2137, "eps_diluted_native": 2.63},
+    {"q": "Q1_FY2025", "revenue_native": 7166, "net_income_native": 1185, "eps_diluted_native": 1.45},
+    {"q": "Q4_FY2024", "revenue_native": 7045, "net_income_native": 1731, "eps_diluted_native": 2.09},
+    {"q": "Q3_FY2024", "revenue_native": 6778, "net_income_native": 1705, "eps_diluted_native": 2.05},
+    {"q": "Q2_FY2024", "revenue_native": 6646, "net_income_native": 1722, "eps_diluted_native": 2.06}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/amat/financials/?p=quarterly"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "ONTO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 291.95, "net_income_native": 33.75, "eps_diluted_native": 0.67},
+    {"q": "Q4_2025", "revenue_native": 266.87, "net_income_native": 10.53, "eps_diluted_native": 0.21},
+    {"q": "Q3_2025", "revenue_native": 218.19, "net_income_native": 28.22, "eps_diluted_native": 0.57},
+    {"q": "Q2_2025", "revenue_native": 253.6, "net_income_native": 33.91, "eps_diluted_native": 0.69},
+    {"q": "Q1_2025", "revenue_native": 266.61, "net_income_native": 64.1, "eps_diluted_native": 1.30},
+    {"q": "Q4_2024", "revenue_native": 263.94, "net_income_native": 48.82, "eps_diluted_native": 0.98},
+    {"q": "Q3_2024", "revenue_native": 252.21, "net_income_native": 53.05, "eps_diluted_native": 1.07},
+    {"q": "Q2_2024", "revenue_native": 242.33, "net_income_native": 52.95, "eps_diluted_native": 1.07}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/onto/financials/?p=quarterly"
+}

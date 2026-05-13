@@ -1,0 +1,17 @@
+{
+  "ticker": "CIEN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_FY2026", "revenue_native": 1427, "net_income_native": 150.28, "eps_diluted_native": 1.03},
+    {"q": "Q4_FY2025", "revenue_native": 1352, "net_income_native": 19.49, "eps_diluted_native": 0.13},
+    {"q": "Q3_FY2025", "revenue_native": 1219, "net_income_native": 50.31, "eps_diluted_native": 0.35},
+    {"q": "Q2_FY2025", "revenue_native": 1126, "net_income_native": 8.97, "eps_diluted_native": 0.06},
+    {"q": "Q1_FY2025", "revenue_native": 1072, "net_income_native": 44.57, "eps_diluted_native": 0.31},
+    {"q": "Q4_FY2024", "revenue_native": 1124, "net_income_native": 37.03, "eps_diluted_native": 0.26},
+    {"q": "Q3_FY2024", "revenue_native": 942.31, "net_income_native": 14.23, "eps_diluted_native": 0.10},
+    {"q": "Q2_FY2024", "revenue_native": 910.83, "net_income_native": -16.85, "eps_diluted_native": -0.12}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/cien/financials/?p=quarterly"
+}

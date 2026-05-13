@@ -1,0 +1,17 @@
+{
+  "ticker": "ANET",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 2709, "net_income_native": 1023, "eps_diluted_native": 0.80},
+    {"q": "Q4_2025", "revenue_native": 2488, "net_income_native": 955.8, "eps_diluted_native": 0.75},
+    {"q": "Q3_2025", "revenue_native": 2308, "net_income_native": 853, "eps_diluted_native": 0.67},
+    {"q": "Q2_2025", "revenue_native": 2205, "net_income_native": 888.8, "eps_diluted_native": 0.70},
+    {"q": "Q1_2025", "revenue_native": 2005, "net_income_native": 813.8, "eps_diluted_native": 0.64},
+    {"q": "Q4_2024", "revenue_native": 1930, "net_income_native": 801, "eps_diluted_native": 0.62},
+    {"q": "Q3_2024", "revenue_native": 1811, "net_income_native": 748, "eps_diluted_native": 0.58},
+    {"q": "Q2_2024", "revenue_native": 1690, "net_income_native": 665.4, "eps_diluted_native": 0.52}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/anet/financials/?p=quarterly"
+}

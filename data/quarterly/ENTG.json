@@ -1,0 +1,17 @@
+{
+  "ticker": "ENTG",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 811.9, "net_income_native": 92.2, "eps_diluted_native": 0.60},
+    {"q": "Q4_2025", "revenue_native": 823.9, "net_income_native": 49.6, "eps_diluted_native": 0.32},
+    {"q": "Q3_2025", "revenue_native": 807.1, "net_income_native": 70.8, "eps_diluted_native": 0.46},
+    {"q": "Q2_2025", "revenue_native": 792.4, "net_income_native": 53, "eps_diluted_native": 0.35},
+    {"q": "Q1_2025", "revenue_native": 773.2, "net_income_native": 63.2, "eps_diluted_native": 0.41},
+    {"q": "Q4_2024", "revenue_native": 849.8, "net_income_native": 102.55, "eps_diluted_native": 0.67},
+    {"q": "Q3_2024", "revenue_native": 807.7, "net_income_native": 77.8, "eps_diluted_native": 0.51},
+    {"q": "Q2_2024", "revenue_native": 812.7, "net_income_native": 67.9, "eps_diluted_native": 0.45}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/entg/financials/?p=quarterly"
+}

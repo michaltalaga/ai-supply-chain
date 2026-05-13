@@ -1,0 +1,18 @@
+{
+  "ticker": "JNPR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2025", "revenue_native": 1280, "net_income_native": 64.1, "eps_diluted_native": 0.19},
+    {"q": "Q4_2024", "revenue_native": 1404, "net_income_native": 162, "eps_diluted_native": 0.48},
+    {"q": "Q3_2024", "revenue_native": 1331, "net_income_native": 92.6, "eps_diluted_native": 0.28},
+    {"q": "Q2_2024", "revenue_native": 1190, "net_income_native": 34.1, "eps_diluted_native": 0.10},
+    {"q": "Q1_2024", "revenue_native": 1149, "net_income_native": -0.8, "eps_diluted_native": null},
+    {"q": "Q4_2023", "revenue_native": 1365, "net_income_native": 124.3, "eps_diluted_native": 0.38},
+    {"q": "Q3_2023", "revenue_native": 1398, "net_income_native": 76.1, "eps_diluted_native": 0.24},
+    {"q": "Q2_2023", "revenue_native": 1430, "net_income_native": 24.4, "eps_diluted_native": 0.07}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/jnpr/financials/?p=quarterly",
+  "notes": "Data ends Q1 2025; JNPR was acquired by HPE in 2025"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "POWI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 108.31, "net_income_native": 3.3, "eps_diluted_native": 0.06},
+    {"q": "Q4_2025", "revenue_native": 103.2, "net_income_native": 13.29, "eps_diluted_native": 0.24},
+    {"q": "Q3_2025", "revenue_native": 118.92, "net_income_native": -1.36, "eps_diluted_native": -0.02},
+    {"q": "Q2_2025", "revenue_native": 115.85, "net_income_native": 1.37, "eps_diluted_native": 0.02},
+    {"q": "Q1_2025", "revenue_native": 105.53, "net_income_native": 8.79, "eps_diluted_native": 0.15},
+    {"q": "Q4_2024", "revenue_native": 105.25, "net_income_native": 9.14, "eps_diluted_native": 0.16},
+    {"q": "Q3_2024", "revenue_native": 115.84, "net_income_native": 14.29, "eps_diluted_native": 0.25},
+    {"q": "Q2_2024", "revenue_native": 106.2, "net_income_native": 4.85, "eps_diluted_native": 0.09}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/powi/financials/?p=quarterly"
+}

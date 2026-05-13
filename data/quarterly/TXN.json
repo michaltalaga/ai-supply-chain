@@ -1,0 +1,17 @@
+{
+  "ticker": "TXN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 4825, "net_income_native": 1545, "eps_diluted_native": 1.68},
+    {"q": "Q4_2025", "revenue_native": 4423, "net_income_native": 1163, "eps_diluted_native": 1.27},
+    {"q": "Q3_2025", "revenue_native": 4742, "net_income_native": 1364, "eps_diluted_native": 1.48},
+    {"q": "Q2_2025", "revenue_native": 4448, "net_income_native": 1295, "eps_diluted_native": 1.41},
+    {"q": "Q1_2025", "revenue_native": 4069, "net_income_native": 1179, "eps_diluted_native": 1.28},
+    {"q": "Q4_2024", "revenue_native": 4007, "net_income_native": 1205, "eps_diluted_native": 1.30},
+    {"q": "Q3_2024", "revenue_native": 4151, "net_income_native": 1362, "eps_diluted_native": 1.47},
+    {"q": "Q2_2024", "revenue_native": 3822, "net_income_native": 1127, "eps_diluted_native": 1.22}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/txn/financials/?p=quarterly"
+}
