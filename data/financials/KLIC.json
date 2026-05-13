@@ -1,0 +1,14 @@
+{
+  "ticker": "KLIC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-01-03", "revenue_native": 687.58, "net_income_native": -64.63, "eps_diluted_native": -1.21},
+    {"fy": 2025, "fye": "2025-10-04", "revenue_native": 654.08, "net_income_native": 0.21, "eps_diluted_native": 0.00},
+    {"fy": 2024, "fye": "2024-09-28", "revenue_native": 706.23, "net_income_native": -69.01, "eps_diluted_native": -1.24},
+    {"fy": 2023, "fye": "2023-09-30", "revenue_native": 742.49, "net_income_native": 57.15, "eps_diluted_native": 0.99},
+    {"fy": 2022, "fye": "2022-10-01", "revenue_native": 1504.0, "net_income_native": 433.55, "eps_diluted_native": 7.09}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/klic/financials/"
+}

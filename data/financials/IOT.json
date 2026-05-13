@@ -1,0 +1,14 @@
+{
+  "ticker": "IOT",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-01-31", "revenue_native": 1619, "net_income_native": -9.12, "eps_diluted_native": -0.02},
+    {"fy": 2025, "fye": "2025-02-01", "revenue_native": 1249, "net_income_native": -154.91, "eps_diluted_native": -0.28},
+    {"fy": 2024, "fye": "2024-02-03", "revenue_native": 937.39, "net_income_native": -286.73, "eps_diluted_native": -0.54},
+    {"fy": 2023, "fye": "2023-01-28", "revenue_native": 652.55, "net_income_native": -247.42, "eps_diluted_native": -0.48},
+    {"fy": 2022, "fye": "2022-01-29", "revenue_native": 428.35, "net_income_native": -355.02, "eps_diluted_native": -1.28}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/iot/financials/"
+}

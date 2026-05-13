@@ -1,0 +1,38 @@
+[
+  {
+    "ticker": "AIQUY",
+    "reason": "stockanalysis.com 404 on /stocks/ and /quote/otc/ — OTC ADR (Air Liquide) not covered"
+  },
+  {
+    "ticker": "AKZOY",
+    "reason": "stockanalysis.com 404 on /stocks/ — OTC ADR (Akzo Nobel) not covered"
+  },
+  {
+    "ticker": "ASMIY",
+    "reason": "stockanalysis.com returned 404 for both /stocks/asmiy/ and /quote/otc/ASMIY/ — OTC ADR not covered"
+  },
+  {
+    "ticker": "BESIY",
+    "reason": "stockanalysis.com returned 404 for both /stocks/besiy/ and /quote/otc/BESIY/ — OTC ADR not covered"
+  },
+  {
+    "ticker": "LNVGY",
+    "reason": "stockanalysis.com returned 404 for both /stocks/lnvgy/ and /quote/otc/lnvgy/ — OTC unsponsored ADR not covered"
+  },
+  {
+    "ticker": "LYSDY",
+    "reason": "stockanalysis.com 404 on /stocks/ — OTC ADR (Lynas Rare Earths) not covered"
+  },
+  {
+    "ticker": "SHECY",
+    "reason": "stockanalysis.com 404 on /stocks/ and /quote/otc/ — OTC ADR (Shin-Etsu Chemical) not covered"
+  },
+  {
+    "ticker": "SOIGY",
+    "reason": "stockanalysis.com 404 on /stocks/ and /quote/otc/ — OTC ADR (Soitec) not covered"
+  },
+  {
+    "ticker": "SUOPY",
+    "reason": "stockanalysis.com 404 on /stocks/ and /quote/otc/ — OTC ADR (Sumco) not covered"
+  }
+]

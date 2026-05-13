@@ -1,0 +1,14 @@
+{
+  "ticker": "VST",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 17738, "net_income_native": 752, "eps_diluted_native": 2.18},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 17224, "net_income_native": 2467, "eps_diluted_native": 7.00},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 14779, "net_income_native": 1343, "eps_diluted_native": 3.58},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 13728, "net_income_native": -1377, "eps_diluted_native": -3.26},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 12077, "net_income_native": -1295, "eps_diluted_native": -2.69}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/vst/financials/"
+}

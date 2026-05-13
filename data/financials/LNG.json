@@ -1,0 +1,14 @@
+{
+  "ticker": "LNG",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 19976, "net_income_native": 5330, "eps_diluted_native": 24.13},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 15703, "net_income_native": 3252, "eps_diluted_native": 14.20},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 20394, "net_income_native": 9881, "eps_diluted_native": 40.72},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 33428, "net_income_native": 1428, "eps_diluted_native": 5.64},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 15864, "net_income_native": -2343, "eps_diluted_native": -9.25}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/lng/financials/"
+}

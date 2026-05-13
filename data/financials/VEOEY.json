@@ -1,0 +1,15 @@
+{
+  "ticker": "VEOEY",
+  "currency_native": "EUR",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 44396, "net_income_native": 1217, "eps_diluted_native": 1.54},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 44692, "net_income_native": 1098, "eps_diluted_native": 1.40},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 45351, "net_income_native": 937, "eps_diluted_native": 1.28},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 42885, "net_income_native": 716, "eps_diluted_native": 1.00},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 28508, "net_income_native": 404, "eps_diluted_native": 0.65}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/quote/epa/VIE/financials/",
+  "note": "VEOEY (OTC ADR) not found; data fetched from primary listing VIE.PA (Veolia Environnement, EUR)"
+}

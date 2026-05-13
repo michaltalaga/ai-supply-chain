@@ -1,0 +1,14 @@
+{
+  "ticker": "PWR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 28480, "net_income_native": 1028, "eps_diluted_native": 6.80},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 23673, "net_income_native": 904.82, "eps_diluted_native": 6.03},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 20882, "net_income_native": 744.69, "eps_diluted_native": 5.00},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 17074, "net_income_native": 491.19, "eps_diluted_native": 3.32},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 12980, "net_income_native": 485.96, "eps_diluted_native": 3.34}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/pwr/financials/"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "SCCO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 13420, "net_income_native": 4335, "eps_diluted_native": 5.24},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 11433, "net_income_native": 3377, "eps_diluted_native": 4.21},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 9896, "net_income_native": 2425, "eps_diluted_native": 3.05},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 10048, "net_income_native": 2639, "eps_diluted_native": 3.25},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 10934, "net_income_native": 3397, "eps_diluted_native": 3.95}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/scco/financials/"
+}

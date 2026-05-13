@@ -1,0 +1,14 @@
+{
+  "ticker": "TLN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 2581, "net_income_native": -219, "eps_diluted_native": -4.79},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2115, "net_income_native": 998, "eps_diluted_native": 17.67},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2554, "net_income_native": 613, "eps_diluted_native": 2.26},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 3089, "net_income_native": -1289, "eps_diluted_native": null},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 928, "net_income_native": -977, "eps_diluted_native": null}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/tln/financials/"
+}

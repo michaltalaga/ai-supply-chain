@@ -1,0 +1,14 @@
+{
+  "ticker": "NET",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 2168, "net_income_native": -102.27, "eps_diluted_native": -0.29},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 1670, "net_income_native": -78.8, "eps_diluted_native": -0.23},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 1297, "net_income_native": -183.95, "eps_diluted_native": -0.55},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 975.24, "net_income_native": -193.38, "eps_diluted_native": -0.59},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 656.43, "net_income_native": -260.31, "eps_diluted_native": -0.83}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/net/financials/"
+}

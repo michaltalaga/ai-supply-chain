@@ -1,0 +1,14 @@
+{
+  "ticker": "NVT",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 3893, "net_income_native": 710.2, "eps_diluted_native": 4.31},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 3006, "net_income_native": 331.8, "eps_diluted_native": 1.97},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2669, "net_income_native": 567.1, "eps_diluted_native": 3.37},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 2295, "net_income_native": 399.8, "eps_diluted_native": 2.38},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 2462, "net_income_native": 272.9, "eps_diluted_native": 1.61}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/nvt/financials/"
+}

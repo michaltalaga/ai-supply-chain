@@ -1,0 +1,14 @@
+{
+  "ticker": "POWI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 443.5, "net_income_native": 22.09, "eps_diluted_native": 0.39},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 418.97, "net_income_native": 32.23, "eps_diluted_native": 0.56},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 444.54, "net_income_native": 55.74, "eps_diluted_native": 0.97},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 651.14, "net_income_native": 170.85, "eps_diluted_native": 2.93},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 703.28, "net_income_native": 164.41, "eps_diluted_native": 2.67}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/powi/financials/"
+}

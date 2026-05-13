@@ -1,0 +1,14 @@
+{
+  "ticker": "AAON",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 1442, "net_income_native": 108, "eps_diluted_native": 1.29},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 1201, "net_income_native": 169, "eps_diluted_native": 2.02},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 1169, "net_income_native": 178, "eps_diluted_native": 2.13},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 889, "net_income_native": 100, "eps_diluted_native": 1.24},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 535, "net_income_native": 59, "eps_diluted_native": 0.73}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/aaon/financials/"
+}

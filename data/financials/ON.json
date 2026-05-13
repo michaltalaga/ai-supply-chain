@@ -1,0 +1,14 @@
+{
+  "ticker": "ON",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 5995, "net_income_native": 121, "eps_diluted_native": 0.29},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 7082, "net_income_native": 1573, "eps_diluted_native": 3.63},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 8253, "net_income_native": 2184, "eps_diluted_native": 4.89},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 8326, "net_income_native": 1902, "eps_diluted_native": 4.25},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 6740, "net_income_native": 1010, "eps_diluted_native": 2.27}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/on/financials/"
+}

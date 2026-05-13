@@ -1,0 +1,14 @@
+{
+  "ticker": "JCI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-03-31", "revenue_native": 24433, "net_income_native": 3531, "eps_diluted_native": 5.59},
+    {"fy": 2025, "fye": "2025-09-30", "revenue_native": 23596, "net_income_native": 3291, "eps_diluted_native": 5.03},
+    {"fy": 2024, "fye": "2024-09-30", "revenue_native": 22952, "net_income_native": 1705, "eps_diluted_native": 2.52},
+    {"fy": 2023, "fye": "2023-09-30", "revenue_native": 22331, "net_income_native": 1849, "eps_diluted_native": 2.69},
+    {"fy": 2022, "fye": "2022-09-30", "revenue_native": 20637, "net_income_native": 1532, "eps_diluted_native": 2.19}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/jci/financials/"
+}

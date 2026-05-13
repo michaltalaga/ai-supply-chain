@@ -1,0 +1,14 @@
+{
+  "ticker": "PRIM",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 7575, "net_income_native": 274.9, "eps_diluted_native": 5.02},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 6367, "net_income_native": 180.9, "eps_diluted_native": 3.31},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 5715, "net_income_native": 126.1, "eps_diluted_native": 2.33},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 4421, "net_income_native": 133.02, "eps_diluted_native": 2.47},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 3498, "net_income_native": 115.74, "eps_diluted_native": 2.17}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/prim/financials/"
+}

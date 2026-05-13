@@ -1,0 +1,14 @@
+{
+  "ticker": "DDOG",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 3427, "net_income_native": 107.74, "eps_diluted_native": 0.31},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2684, "net_income_native": 183.75, "eps_diluted_native": 0.52},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2128, "net_income_native": 48.57, "eps_diluted_native": 0.14},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 1675, "net_income_native": -50.16, "eps_diluted_native": -0.16},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 1029, "net_income_native": -20.75, "eps_diluted_native": -0.07}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/ddog/financials/"
+}

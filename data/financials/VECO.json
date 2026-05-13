@@ -1,0 +1,14 @@
+{
+  "ticker": "VECO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 664.29, "net_income_native": 35.39, "eps_diluted_native": 0.59},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 717.3, "net_income_native": 73.71, "eps_diluted_native": 1.23},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 666.44, "net_income_native": -30.37, "eps_diluted_native": -0.56},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 646.14, "net_income_native": 166.94, "eps_diluted_native": 2.71},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 583.28, "net_income_native": 26.04, "eps_diluted_native": 0.49}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/veco/financials/"
+}

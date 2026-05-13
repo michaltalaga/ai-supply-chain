@@ -1,0 +1,14 @@
+{
+  "ticker": "JNPR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 5074, "net_income_native": 287.9, "eps_diluted_native": 0.86},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 5565, "net_income_native": 310.2, "eps_diluted_native": 0.95},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 5301, "net_income_native": 471, "eps_diluted_native": 1.43},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 4735, "net_income_native": 252.7, "eps_diluted_native": 0.76},
+    {"fy": 2020, "fye": "2020-12-31", "revenue_native": 4445, "net_income_native": 257.8, "eps_diluted_native": 0.77}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/jnpr/financials/"
+}

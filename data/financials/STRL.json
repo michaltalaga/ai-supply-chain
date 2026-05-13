@@ -1,0 +1,14 @@
+{
+  "ticker": "STRL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 2490, "net_income_native": 290, "eps_diluted_native": 9.38},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2116, "net_income_native": 257, "eps_diluted_native": 8.27},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 1972, "net_income_native": 139, "eps_diluted_native": 4.44},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 1769, "net_income_native": 106, "eps_diluted_native": 3.48},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 1414, "net_income_native": 63, "eps_diluted_native": 2.15}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/strl/financials/"
+}

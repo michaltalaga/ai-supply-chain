@@ -1,0 +1,14 @@
+{
+  "ticker": "AGX",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-01-31", "revenue_native": 944.61, "net_income_native": 137.77, "eps_diluted_native": 9.74},
+    {"fy": 2025, "fye": "2025-01-31", "revenue_native": 874.18, "net_income_native": 85.46, "eps_diluted_native": 6.15},
+    {"fy": 2024, "fye": "2024-01-31", "revenue_native": 573.33, "net_income_native": 32.36, "eps_diluted_native": 2.39},
+    {"fy": 2023, "fye": "2023-01-31", "revenue_native": 455.04, "net_income_native": 33.1, "eps_diluted_native": 2.33},
+    {"fy": 2022, "fye": "2022-01-31", "revenue_native": 509.37, "net_income_native": 38.24, "eps_diluted_native": 2.4}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/agx/financials/"
+}

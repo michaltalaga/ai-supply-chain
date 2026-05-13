@@ -1,0 +1,14 @@
+{
+  "ticker": "POWL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-09-30", "revenue_native": 1104, "net_income_native": 180.75, "eps_diluted_native": 4.95},
+    {"fy": 2024, "fye": "2024-09-30", "revenue_native": 1012, "net_income_native": 149.85, "eps_diluted_native": 4.10},
+    {"fy": 2023, "fye": "2023-09-30", "revenue_native": 699.31, "net_income_native": 54.53, "eps_diluted_native": 1.50},
+    {"fy": 2022, "fye": "2022-09-30", "revenue_native": 532.58, "net_income_native": 13.74, "eps_diluted_native": 0.38},
+    {"fy": 2021, "fye": "2021-09-30", "revenue_native": 470.56, "net_income_native": 0.63, "eps_diluted_native": 0.02}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/powl/financials/"
+}

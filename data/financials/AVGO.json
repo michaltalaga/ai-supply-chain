@@ -1,0 +1,14 @@
+{
+  "ticker": "AVGO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-02-01", "revenue_native": 68282, "net_income_native": 24972, "eps_diluted_native": 5.12},
+    {"fy": 2025, "fye": "2025-11-02", "revenue_native": 63887, "net_income_native": 23126, "eps_diluted_native": 4.77},
+    {"fy": 2024, "fye": "2024-11-03", "revenue_native": 51574, "net_income_native": 5895, "eps_diluted_native": 1.23},
+    {"fy": 2023, "fye": "2023-10-29", "revenue_native": 35819, "net_income_native": 14082, "eps_diluted_native": 3.30},
+    {"fy": 2022, "fye": "2022-10-30", "revenue_native": 33203, "net_income_native": 11223, "eps_diluted_native": 2.65}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/avgo/financials/"
+}

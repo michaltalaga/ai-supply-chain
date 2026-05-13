@@ -1,0 +1,14 @@
+{
+  "ticker": "KMI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 16937, "net_income_native": 3056, "eps_diluted_native": 1.37},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 15100, "net_income_native": 2613, "eps_diluted_native": 1.17},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 15334, "net_income_native": 2391, "eps_diluted_native": 1.06},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 19200, "net_income_native": 2548, "eps_diluted_native": 1.12},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 16610, "net_income_native": 1784, "eps_diluted_native": 0.78}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/kmi/financials/"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ECL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 16081, "net_income_native": 2076, "eps_diluted_native": 7.28},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 15741, "net_income_native": 2112, "eps_diluted_native": 7.37},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 15320, "net_income_native": 1372, "eps_diluted_native": 4.79},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 14188, "net_income_native": 1092, "eps_diluted_native": 3.81},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 12733, "net_income_native": 1130, "eps_diluted_native": 3.91}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/ecl/financials/"
+}

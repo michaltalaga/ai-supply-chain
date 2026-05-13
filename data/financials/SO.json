@@ -1,0 +1,14 @@
+{
+  "ticker": "SO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 29553, "net_income_native": 4341, "eps_diluted_native": 3.92},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 26724, "net_income_native": 4401, "eps_diluted_native": 3.99},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 25253, "net_income_native": 3976, "eps_diluted_native": 3.62},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 29279, "net_income_native": 3524, "eps_diluted_native": 3.26},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 23113, "net_income_native": 2393, "eps_diluted_native": 2.24}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/so/financials/"
+}

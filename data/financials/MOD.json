@@ -1,0 +1,13 @@
+{
+  "ticker": "MOD",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-03-31", "revenue_native": 2584, "net_income_native": 184, "eps_diluted_native": 3.42},
+    {"fy": 2024, "fye": "2024-03-31", "revenue_native": 2408, "net_income_native": 161.5, "eps_diluted_native": 3.03},
+    {"fy": 2023, "fye": "2023-03-31", "revenue_native": 2298, "net_income_native": 153.1, "eps_diluted_native": 2.90},
+    {"fy": 2022, "fye": "2022-03-31", "revenue_native": 2050, "net_income_native": 85.2, "eps_diluted_native": 1.62}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/mod/financials/"
+}

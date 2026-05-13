@@ -1,0 +1,14 @@
+{
+  "ticker": "ACMR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 901.31, "net_income_native": 94.08, "eps_diluted_native": 1.37},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 782.12, "net_income_native": 103.63, "eps_diluted_native": 1.53},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 557.72, "net_income_native": 77.35, "eps_diluted_native": 1.16},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 388.83, "net_income_native": 39.26, "eps_diluted_native": 0.59},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 259.75, "net_income_native": 37.76, "eps_diluted_native": 0.58}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/acmr/financials/"
+}

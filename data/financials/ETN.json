@@ -1,0 +1,14 @@
+{
+  "ticker": "ETN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 27448, "net_income_native": 4087, "eps_diluted_native": 10.45},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 24878, "net_income_native": 3794, "eps_diluted_native": 9.50},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 23196, "net_income_native": 3218, "eps_diluted_native": 8.02},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 20752, "net_income_native": 2462, "eps_diluted_native": 6.14},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 19628, "net_income_native": 2144, "eps_diluted_native": 5.34}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/etn/financials/"
+}

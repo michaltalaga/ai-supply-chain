@@ -1,0 +1,14 @@
+{
+  "ticker": "SSNLF",
+  "currency_native": "KRW",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 333605938, "net_income_native": 44260956, "eps_diluted_native": 6603.40},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 300870903, "net_income_native": 33621363, "eps_diluted_native": 4949.75},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 258935494, "net_income_native": 14473401, "eps_diluted_native": 2130.74},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 302231360, "net_income_native": 54730018, "eps_diluted_native": 8057.22},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 279604799, "net_income_native": 39243791, "eps_diluted_native": 5777.37}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/ssnlf/financials/"
+}

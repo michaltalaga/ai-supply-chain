@@ -1,0 +1,14 @@
+{
+  "ticker": "GFS",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 6791, "net_income_native": 885, "eps_diluted_native": 1.59},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 6750, "net_income_native": -265, "eps_diluted_native": -0.48},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 7392, "net_income_native": 1020, "eps_diluted_native": 1.83},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 8108, "net_income_native": 1448, "eps_diluted_native": 2.62},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 6585, "net_income_native": -250, "eps_diluted_native": -0.49}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/gfs/financials/"
+}

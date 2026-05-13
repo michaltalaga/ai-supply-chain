@@ -1,0 +1,14 @@
+{
+  "ticker": "LII",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 5195, "net_income_native": 805.8, "eps_diluted_native": 22.79},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 5341, "net_income_native": 811.1, "eps_diluted_native": 22.66},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 4982, "net_income_native": 591.2, "eps_diluted_native": 16.58},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 4718, "net_income_native": 497.1, "eps_diluted_native": 13.88},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 4194, "net_income_native": 464, "eps_diluted_native": 12.39}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/lii/financials/"
+}

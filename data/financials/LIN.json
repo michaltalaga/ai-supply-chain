@@ -1,0 +1,14 @@
+{
+  "ticker": "LIN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 33986, "net_income_native": 6898, "eps_diluted_native": 14.61},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 33005, "net_income_native": 6565, "eps_diluted_native": 13.62},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 32854, "net_income_native": 6199, "eps_diluted_native": 12.59},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 33364, "net_income_native": 4147, "eps_diluted_native": 8.23},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 30793, "net_income_native": 3821, "eps_diluted_native": 7.33}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/lin/financials/"
+}

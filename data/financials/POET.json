@@ -1,0 +1,14 @@
+{
+  "ticker": "POET",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 1.07, "net_income_native": -62.96, "eps_diluted_native": -0.68},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 0.04, "net_income_native": -56.7, "eps_diluted_native": -0.94},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 0.47, "net_income_native": -20.27, "eps_diluted_native": -0.51},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 0.55, "net_income_native": -21.04, "eps_diluted_native": -0.57},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 0.21, "net_income_native": -15.67, "eps_diluted_native": -0.45}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/poet/financials/"
+}

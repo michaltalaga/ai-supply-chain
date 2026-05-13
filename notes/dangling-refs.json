@@ -1,0 +1,355 @@
+{
+  "Automakers": [
+    "MBLY.key_downstream",
+    "LSCC.key_downstream",
+    "ON.key_downstream"
+  ],
+  "5G OEMs": [
+    "LSCC.key_downstream"
+  ],
+  "in-house fab": [
+    "TXN.key_upstream"
+  ],
+  "Automotive": [
+    "TXN.key_downstream"
+  ],
+  "industrial": [
+    "TXN.key_downstream",
+    "WMB.key_downstream",
+    "TRGP.key_downstream",
+    "WTS.key_downstream",
+    "SMSMY.key_downstream"
+  ],
+  "in-house+TSM": [
+    "MCHP.key_upstream"
+  ],
+  "Industrial": [
+    "MCHP.key_downstream",
+    "IPGP.key_downstream",
+    "LASR.key_downstream",
+    "AKZOY.key_downstream",
+    "IOT.key_downstream",
+    "ENS.key_downstream",
+    "VST.key_downstream",
+    "ETR.key_downstream",
+    "SO.key_downstream",
+    "DUK.key_downstream",
+    "AEP.key_downstream",
+    "NNE.key_downstream",
+    "KBR.key_downstream",
+    "FLR.key_downstream",
+    "J.key_downstream",
+    "BEL.key_downstream",
+    "GFL.key_downstream",
+    "HON.key_downstream"
+  ],
+  "auto": [
+    "MCHP.key_downstream"
+  ],
+  "Defense": [
+    "MTSI.key_downstream",
+    "IPGP.key_downstream",
+    "LASR.key_downstream",
+    "LYSDY.key_downstream",
+    "NNE.key_downstream",
+    "ARQQ.key_downstream"
+  ],
+  "xAI": [
+    "SMCI.key_downstream",
+    "DELL.key_downstream"
+  ],
+  "CoreWeave": [
+    "SMCI.key_downstream"
+  ],
+  "Enterprise": [
+    "DELL.key_downstream",
+    "HPE.key_downstream",
+    "LNVGY.key_downstream",
+    "CSCO.key_downstream",
+    "AI.key_downstream",
+    "SNOW.key_downstream",
+    "DDOG.key_downstream",
+    "MDB.key_downstream",
+    "ESTC.key_downstream",
+    "NET.key_downstream",
+    "NOW.key_downstream",
+    "CRM.key_downstream",
+    "ADBE.key_downstream",
+    "SAP.key_downstream",
+    "CRWD.key_downstream",
+    "PANW.key_downstream",
+    "ZS.key_downstream",
+    "PATH.key_downstream",
+    "EQIX.key_downstream",
+    "IRM.key_downstream",
+    "QBTS.key_downstream"
+  ],
+  "Hyperscalers": [
+    "DELL.key_downstream",
+    "LNVGY.key_downstream",
+    "JNPR.key_downstream",
+    "CIEN.key_downstream",
+    "LITE.key_downstream",
+    "WDC.key_downstream",
+    "STX.key_downstream",
+    "IRM.key_downstream",
+    "SBGSY.key_downstream",
+    "CEG.key_downstream",
+    "VST.key_downstream",
+    "TLN.key_downstream",
+    "NEE.key_downstream",
+    "ETR.key_downstream",
+    "SO.key_downstream",
+    "DUK.key_downstream",
+    "D.key_downstream",
+    "AEP.key_downstream",
+    "OKLO.key_downstream",
+    "JCI.key_downstream",
+    "PWR.key_downstream",
+    "ACM.key_downstream",
+    "DY.key_downstream",
+    "STRL.key_downstream",
+    "GLW.key_downstream",
+    "COMM.key_downstream",
+    "SMSMY.key_downstream"
+  ],
+  "Government": [
+    "HPE.key_downstream",
+    "KBR.key_downstream",
+    "J.key_downstream",
+    "ACM.key_downstream",
+    "STRL.key_downstream",
+    "IONQ.key_downstream",
+    "RGTI.key_downstream",
+    "QBTS.key_downstream"
+  ],
+  "Telcos": [
+    "CSCO.key_downstream",
+    "CIEN.key_downstream",
+    "KEYS.key_downstream",
+    "MTZ.key_downstream",
+    "DY.key_downstream",
+    "PRIM.key_downstream",
+    "COMM.key_downstream",
+    "BEL.key_downstream",
+    "ARQQ.key_downstream"
+  ],
+  "Quantum": [
+    "COHR.key_downstream",
+    "IPGP.key_downstream",
+    "LASR.key_downstream"
+  ],
+  "AI server makers": [
+    "POET.key_downstream"
+  ],
+  "Hyper-scaler suppliers": [
+    "VECO.key_downstream"
+  ],
+  "SK Hynix (KRX-only)": [
+    "RMBS.key_downstream",
+    "ASML.key_downstream"
+  ],
+  "Various fabless": [
+    "GFS.key_downstream"
+  ],
+  "auto OEMs": [
+    "GFS.key_downstream"
+  ],
+  "Auto": [
+    "UMC.key_downstream",
+    "ANSS.key_downstream",
+    "CE.key_downstream"
+  ],
+  "IoT": [
+    "UMC.key_downstream"
+  ],
+  "analog fabless": [
+    "UMC.key_downstream"
+  ],
+  "substrates": [
+    "ASX.key_upstream",
+    "AMKR.key_upstream"
+  ],
+  "Fabless": [
+    "ASX.key_downstream"
+  ],
+  "TSM customers": [
+    "ASX.key_downstream"
+  ],
+  "Zeiss (private)": [
+    "ASML.key_upstream"
+  ],
+  "TRUMPF (private)": [
+    "ASML.key_upstream"
+  ],
+  "SK Hynix": [
+    "AMAT.key_downstream",
+    "LRCX.key_downstream"
+  ],
+  "SMIC": [
+    "ACMR.key_downstream"
+  ],
+  "YMTC": [
+    "ACMR.key_downstream"
+  ],
+  "CXMT": [
+    "ACMR.key_downstream"
+  ],
+  "Aerospace": [
+    "ANSS.key_downstream"
+  ],
+  "Auto OEMs": [
+    "WOLF.key_downstream",
+    "MP.key_downstream"
+  ],
+  "ST": [
+    "SOIGY.key_downstream"
+  ],
+  "WFE makers": [
+    "DOW.key_downstream"
+  ],
+  "EV OEMs": [
+    "DOW.key_downstream",
+    "ALB.key_downstream"
+  ],
+  "data centers": [
+    "ECL.key_downstream",
+    "ALB.key_downstream",
+    "AAON.key_downstream",
+    "EME.key_downstream"
+  ],
+  "electronics": [
+    "CE.key_downstream"
+  ],
+  "Consumer": [
+    "IFF.key_downstream"
+  ],
+  "pharma": [
+    "IFF.key_downstream"
+  ],
+  "wire makers": [
+    "FCX.key_downstream"
+  ],
+  "cabling": [
+    "SCCO.key_downstream"
+  ],
+  "DOD": [
+    "MP.key_downstream",
+    "AI.key_downstream"
+  ],
+  "magnets": [
+    "MP.key_downstream"
+  ],
+  "Magnets": [
+    "LYSDY.key_downstream"
+  ],
+  "SMR builders": [
+    "UUUU.key_downstream"
+  ],
+  "rare-earth processors": [
+    "UUUU.key_downstream"
+  ],
+  "All industrial": [
+    "BHP.key_downstream",
+    "RIO.key_downstream"
+  ],
+  "Developers": [
+    "MDB.key_downstream"
+  ],
+  "SMB": [
+    "NET.key_downstream"
+  ],
+  "Creators": [
+    "ADBE.key_downstream"
+  ],
+  "fleets": [
+    "IOT.key_downstream"
+  ],
+  "Consumer brands": [
+    "BRZE.key_downstream"
+  ],
+  "Utilities": [
+    "GEV.key_downstream",
+    "HUBB.key_downstream",
+    "ABBNY.key_downstream",
+    "POWL.key_downstream",
+    "SMR.key_downstream",
+    "OKE.key_downstream",
+    "WMB.key_downstream",
+    "TRGP.key_downstream",
+    "PWR.key_downstream",
+    "MTZ.key_downstream",
+    "FLR.key_downstream",
+    "PRIM.key_downstream",
+    "AGX.key_downstream",
+    "VMI.key_downstream"
+  ],
+  "LNG operators": [
+    "POWL.key_downstream"
+  ],
+  "Residential": [
+    "NEE.key_downstream",
+    "D.key_downstream"
+  ],
+  "Navy": [
+    "BWX.key_downstream"
+  ],
+  "Gas plants": [
+    "LNG.key_downstream"
+  ],
+  "LNG exporters": [
+    "KMI.key_downstream"
+  ],
+  "utilities": [
+    "KMI.key_downstream"
+  ],
+  "data center gas turbines": [
+    "OKE.key_downstream"
+  ],
+  "commercial": [
+    "TT.key_downstream"
+  ],
+  "Commercial": [
+    "AAON.key_downstream",
+    "LII.key_downstream",
+    "WTS.key_downstream",
+    "EME.key_downstream",
+    "WM.key_downstream",
+    "RSG.key_downstream",
+    "WCN.key_downstream",
+    "CWST.key_downstream"
+  ],
+  "residential": [
+    "LII.key_downstream"
+  ],
+  "Manufacturers": [
+    "ROK.key_downstream"
+  ],
+  "data center builders": [
+    "ROK.key_downstream"
+  ],
+  "IPP": [
+    "AGX.key_downstream"
+  ],
+  "Municipal": [
+    "WM.key_downstream",
+    "RSG.key_downstream",
+    "WCN.key_downstream",
+    "CWST.key_downstream",
+    "GFL.key_downstream"
+  ],
+  "fabs": [
+    "VEOEY.key_downstream"
+  ],
+  "Research": [
+    "IONQ.key_downstream",
+    "RGTI.key_downstream",
+    "QUBT.key_downstream"
+  ],
+  "DOE": [
+    "RGTI.key_downstream"
+  ],
+  "Quantum customers": [
+    "HON.key_downstream"
+  ]
+}

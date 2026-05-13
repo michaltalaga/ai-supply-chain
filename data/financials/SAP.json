@@ -1,0 +1,14 @@
+{
+  "ticker": "SAP",
+  "currency_native": "EUR",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 36800, "net_income_native": 7161, "eps_diluted_native": 6.10},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 34176, "net_income_native": 3124, "eps_diluted_native": 2.65},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 31207, "net_income_native": 3634, "eps_diluted_native": 5.20},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 29519, "net_income_native": 3277, "eps_diluted_native": 1.94},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 26953, "net_income_native": 6429, "eps_diluted_native": 4.46}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/sap/financials/"
+}

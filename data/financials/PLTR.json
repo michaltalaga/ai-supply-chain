@@ -1,0 +1,14 @@
+{
+  "ticker": "PLTR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 4475, "net_income_native": 1625, "eps_diluted_native": 0.63},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2866, "net_income_native": 462, "eps_diluted_native": 0.19},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2225, "net_income_native": 210, "eps_diluted_native": 0.09},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 1906, "net_income_native": -374, "eps_diluted_native": -0.18},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 1542, "net_income_native": -520, "eps_diluted_native": -0.27}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/pltr/financials/"
+}

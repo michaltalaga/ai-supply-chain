@@ -1,0 +1,14 @@
+{
+  "ticker": "ABBNY",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 33220, "net_income_native": 4734, "eps_diluted_native": 2.59},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 32850, "net_income_native": 3935, "eps_diluted_native": 2.13},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 32235, "net_income_native": 3745, "eps_diluted_native": 2.01},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 29446, "net_income_native": 2475, "eps_diluted_native": 1.30},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 28945, "net_income_native": 4546, "eps_diluted_native": 2.25}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/abbny/financials/"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TER",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 3190, "net_income_native": 554, "eps_diluted_native": 3.47},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2820, "net_income_native": 542, "eps_diluted_native": 3.32},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2676, "net_income_native": 449, "eps_diluted_native": 2.73},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 3155, "net_income_native": 716, "eps_diluted_native": 4.22},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 3703, "net_income_native": 1015, "eps_diluted_native": 5.53}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/ter/financials/"
+}

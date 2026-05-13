@@ -1,0 +1,14 @@
+{
+  "ticker": "SMR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 31.48, "net_income_native": -355.79, "eps_diluted_native": -2.17},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 37.05, "net_income_native": -136.62, "eps_diluted_native": -1.47},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 22.81, "net_income_native": -58.36, "eps_diluted_native": -0.80},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 11.8, "net_income_native": -25.91, "eps_diluted_native": -0.51},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 2.86, "net_income_native": -102.49, "eps_diluted_native": 0.11}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/smr/financials/"
+}

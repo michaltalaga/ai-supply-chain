@@ -1,0 +1,14 @@
+{
+  "ticker": "DELL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-01-30", "revenue_native": 113538, "net_income_native": 5936, "eps_diluted_native": 8.68},
+    {"fy": 2025, "fye": "2025-01-31", "revenue_native": 95567, "net_income_native": 4592, "eps_diluted_native": 6.38},
+    {"fy": 2024, "fye": "2024-02-02", "revenue_native": 88425, "net_income_native": 3388, "eps_diluted_native": 4.60},
+    {"fy": 2023, "fye": "2023-02-03", "revenue_native": 102301, "net_income_native": 2442, "eps_diluted_native": 3.24},
+    {"fy": 2022, "fye": "2022-01-28", "revenue_native": 101197, "net_income_native": 5563, "eps_diluted_native": 6.26}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/dell/financials/"
+}

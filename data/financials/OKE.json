@@ -1,0 +1,14 @@
+{
+  "ticker": "OKE",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 33629, "net_income_native": 3393, "eps_diluted_native": 5.42},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 21698, "net_income_native": 3034, "eps_diluted_native": 5.17},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 17677, "net_income_native": 2658, "eps_diluted_native": 5.48},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 22387, "net_income_native": 1721, "eps_diluted_native": 3.84},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 16540, "net_income_native": 1499, "eps_diluted_native": 3.35}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/oke/financials/"
+}

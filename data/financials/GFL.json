@@ -1,0 +1,14 @@
+{
+  "ticker": "GFL",
+  "currency_native": "CAD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 6616, "net_income_native": 3834, "eps_diluted_native": 13.71},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 6139, "net_income_native": -722.7, "eps_diluted_native": -3.03},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 7516, "net_income_native": 45.4, "eps_diluted_native": -0.13},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 6761, "net_income_native": -311.8, "eps_diluted_native": -1.08},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 5137, "net_income_native": -606.8, "eps_diluted_native": -1.83}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/gfl/financials/"
+}

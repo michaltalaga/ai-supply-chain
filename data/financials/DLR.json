@@ -1,0 +1,14 @@
+{
+  "ticker": "DLR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 6113, "net_income_native": 1268, "eps_diluted_native": 3.58},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 5555, "net_income_native": 561.77, "eps_diluted_native": 1.61},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 5477, "net_income_native": 908.11, "eps_diluted_native": 2.88},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 4692, "net_income_native": 336.96, "eps_diluted_native": 1.11},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 4428, "net_income_native": 1682, "eps_diluted_native": 5.94}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/dlr/financials/"
+}

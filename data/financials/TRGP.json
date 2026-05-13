@@ -1,0 +1,14 @@
+{
+  "ticker": "TRGP",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 17028, "net_income_native": 1853, "eps_diluted_native": 8.49},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 16382, "net_income_native": 1279, "eps_diluted_native": 5.74},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 16060, "net_income_native": 835.8, "eps_diluted_native": 3.66},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 20930, "net_income_native": 1142, "eps_diluted_native": 3.88},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 16950, "net_income_native": 71.2, "eps_diluted_native": -0.07}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/trgp/financials/"
+}

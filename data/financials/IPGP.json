@@ -1,0 +1,14 @@
+{
+  "ticker": "IPGP",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 1004, "net_income_native": 31.1, "eps_diluted_native": 0.73},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 977.13, "net_income_native": -181.53, "eps_diluted_native": -4.09},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 1287, "net_income_native": 218.88, "eps_diluted_native": 4.63},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 1430, "net_income_native": 109.91, "eps_diluted_native": 2.16},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 1461, "net_income_native": 278.42, "eps_diluted_native": 5.16}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/ipgp/financials/"
+}

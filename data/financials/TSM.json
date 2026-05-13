@@ -1,0 +1,15 @@
+{
+  "ticker": "TSM",
+  "currency_native": "TWD",
+  "units_fetched": "millions",
+  "note_adr_ratio": "1 ADR = 5 ordinary; EPS reported is per-ADR-equivalent in TWD",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 3809050, "net_income_native": 1697600, "eps_diluted_native": 327.35},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2894310, "net_income_native": 1158380, "eps_diluted_native": 223.35},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2161740, "net_income_native": 851740, "eps_diluted_native": 164.25},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 2263890, "net_income_native": 992923, "eps_diluted_native": 191.45},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 1587420, "net_income_native": 592359, "eps_diluted_native": 114.20}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/tsm/financials/"
+}

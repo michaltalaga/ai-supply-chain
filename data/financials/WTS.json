@@ -1,0 +1,14 @@
+{
+  "ticker": "WTS",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 2439, "net_income_native": 340.8, "eps_diluted_native": 10.17},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2252, "net_income_native": 291.2, "eps_diluted_native": 8.69},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2056, "net_income_native": 262.1, "eps_diluted_native": 7.82},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 1980, "net_income_native": 251.5, "eps_diluted_native": 7.48},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 1809, "net_income_native": 165.7, "eps_diluted_native": 4.88}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/wts/financials/"
+}

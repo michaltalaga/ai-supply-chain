@@ -1,0 +1,14 @@
+{
+  "ticker": "ETR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 12947, "net_income_native": 1758, "eps_diluted_native": 3.91},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 11880, "net_income_native": 1056, "eps_diluted_native": 2.45},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 12147, "net_income_native": 2357, "eps_diluted_native": 5.55},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 13764, "net_income_native": 1103, "eps_diluted_native": 2.68},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 11743, "net_income_native": 1118, "eps_diluted_native": 2.77}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/etr/financials/"
+}

@@ -1,0 +1,6 @@
+{
+  "ticker": "LNVGY",
+  "status": "no_data",
+  "reason": "stockanalysis.com returned 404 for both /stocks/lnvgy/ and /quote/otc/lnvgy/ — OTC unsponsored ADR not covered",
+  "as_of": "2026-05-11"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "AEP",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 21876, "net_income_native": 3580, "eps_diluted_native": 6.62},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 19721, "net_income_native": 2967, "eps_diluted_native": 5.58},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 18982, "net_income_native": 2208, "eps_diluted_native": 4.24},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 19640, "net_income_native": 2307, "eps_diluted_native": 4.49},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 16792, "net_income_native": 2488, "eps_diluted_native": 4.96}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/aep/financials/"
+}

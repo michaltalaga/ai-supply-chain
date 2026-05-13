@@ -1,0 +1,14 @@
+{
+  "ticker": "IFF",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 10890, "net_income_native": -361, "eps_diluted_native": -1.41},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 11484, "net_income_native": 263, "eps_diluted_native": 1.04},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 11479, "net_income_native": -2591, "eps_diluted_native": -10.14},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 12440, "net_income_native": -1871, "eps_diluted_native": -7.32},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 11656, "net_income_native": 270, "eps_diluted_native": 1.10}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/iff/financials/"
+}

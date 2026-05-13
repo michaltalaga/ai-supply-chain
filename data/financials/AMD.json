@@ -1,0 +1,14 @@
+{
+  "ticker": "AMD",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 34639, "net_income_native": 4335, "eps_diluted_native": 2.67},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 25785, "net_income_native": 1641, "eps_diluted_native": 1.01},
+    {"fy": 2023, "fye": "2023-12-30", "revenue_native": 22680, "net_income_native": 854, "eps_diluted_native": 0.53},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 23601, "net_income_native": 1320, "eps_diluted_native": 0.84},
+    {"fy": 2021, "fye": "2021-12-25", "revenue_native": 16434, "net_income_native": 3162, "eps_diluted_native": 2.57}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/amd/financials/"
+}

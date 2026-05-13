@@ -1,0 +1,14 @@
+{
+  "ticker": "MP",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 224.44, "net_income_native": -85.87, "eps_diluted_native": -0.50},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 203.86, "net_income_native": -65.42, "eps_diluted_native": -0.57},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 253.45, "net_income_native": 24.31, "eps_diluted_native": 0.14},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 527.51, "net_income_native": 289.0, "eps_diluted_native": 1.52},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 331.95, "net_income_native": 135.04, "eps_diluted_native": 0.73}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/mp/financials/"
+}

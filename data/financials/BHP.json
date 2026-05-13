@@ -1,0 +1,15 @@
+{
+  "ticker": "BHP",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 53988, "net_income_native": 10243, "eps_diluted_native": 4.03},
+    {"fy": 2025, "fye": "2025-06-30", "revenue_native": 51262, "net_income_native": 9019, "eps_diluted_native": 3.55},
+    {"fy": 2024, "fye": "2024-06-30", "revenue_native": 55658, "net_income_native": 7897, "eps_diluted_native": 3.11},
+    {"fy": 2023, "fye": "2023-06-30", "revenue_native": 53817, "net_income_native": 12921, "eps_diluted_native": 5.09},
+    {"fy": 2022, "fye": "2022-06-30", "revenue_native": 65098, "net_income_native": 30900, "eps_diluted_native": 12.19}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/bhp/financials/",
+  "note": "Source returned two FY2025 rows (interim + full-year); recorded as fetched"
+}

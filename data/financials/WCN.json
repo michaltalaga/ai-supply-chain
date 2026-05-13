@@ -1,0 +1,14 @@
+{
+  "ticker": "WCN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 9467, "net_income_native": 1077, "eps_diluted_native": 4.17},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 8920, "net_income_native": 617.57, "eps_diluted_native": 2.39},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 8022, "net_income_native": 762.8, "eps_diluted_native": 2.95},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 7212, "net_income_native": 835.66, "eps_diluted_native": 3.24},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 6151, "net_income_native": 618.05, "eps_diluted_native": 2.36}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/wcn/financials/"
+}

@@ -1,0 +1,6 @@
+{
+  "ticker": "BESIY",
+  "status": "no_data",
+  "reason": "stockanalysis.com returned 404 for both /stocks/besiy/ and /quote/otc/BESIY/ — OTC ADR not covered",
+  "as_of": "2026-05-11"
+}

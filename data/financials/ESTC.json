@@ -1,0 +1,14 @@
+{
+  "ticker": "ESTC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-01-31", "revenue_native": 1677, "net_income_native": -84.52, "eps_diluted_native": -0.80},
+    {"fy": 2025, "fye": "2025-04-30", "revenue_native": 1483, "net_income_native": -108.11, "eps_diluted_native": -1.04},
+    {"fy": 2024, "fye": "2024-04-30", "revenue_native": 1267, "net_income_native": 61.72, "eps_diluted_native": 0.59},
+    {"fy": 2023, "fye": "2023-04-30", "revenue_native": 1069, "net_income_native": -236.16, "eps_diluted_native": -2.47},
+    {"fy": 2022, "fye": "2022-04-30", "revenue_native": 862.37, "net_income_native": -203.85, "eps_diluted_native": -2.20}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/estc/financials/"
+}

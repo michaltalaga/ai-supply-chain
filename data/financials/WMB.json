@@ -1,0 +1,14 @@
+{
+  "ticker": "WMB",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 11950, "net_income_native": 2615, "eps_diluted_native": 2.14},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 10503, "net_income_native": 2222, "eps_diluted_native": 1.82},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 10907, "net_income_native": 3176, "eps_diluted_native": 2.60},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 10965, "net_income_native": 2046, "eps_diluted_native": 1.67},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 10627, "net_income_native": 1514, "eps_diluted_native": 1.24}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/wmb/financials/"
+}

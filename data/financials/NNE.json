@@ -1,0 +1,14 @@
+{
+  "ticker": "NNE",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": null, "net_income_native": -43.47, "eps_diluted_native": -1.08},
+    {"fy": 2025, "fye": "2025-09-30", "revenue_native": null, "net_income_native": -40.07, "eps_diluted_native": -0.96},
+    {"fy": 2024, "fye": "2024-09-30", "revenue_native": null, "net_income_native": -10.15, "eps_diluted_native": -0.39},
+    {"fy": 2023, "fye": "2023-09-30", "revenue_native": null, "net_income_native": -6.25, "eps_diluted_native": -0.28}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/nne/financials/",
+  "notes": "Pre-revenue, recent IPO; fiscal year transition in 2025"
+}

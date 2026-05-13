@@ -1,0 +1,14 @@
+{
+  "ticker": "ENTG",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 3197, "net_income_native": 236.6, "eps_diluted_native": 1.55},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 3241, "net_income_native": 293.7, "eps_diluted_native": 1.93},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 3524, "net_income_native": 181.1, "eps_diluted_native": 1.20},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 3282, "net_income_native": 208.92, "eps_diluted_native": 1.46},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 2299, "net_income_native": 409.13, "eps_diluted_native": 3.00}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/entg/financials/"
+}

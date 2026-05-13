@@ -1,0 +1,14 @@
+{
+  "ticker": "NOW",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 13278, "net_income_native": 1748, "eps_diluted_native": 1.67},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 10984, "net_income_native": 1425, "eps_diluted_native": 1.37},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 8971, "net_income_native": 1731, "eps_diluted_native": 1.68},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 7245, "net_income_native": 325, "eps_diluted_native": 0.32},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 5896, "net_income_native": 230, "eps_diluted_native": 0.23}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/now/financials/"
+}

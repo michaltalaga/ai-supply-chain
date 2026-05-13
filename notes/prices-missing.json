@@ -1,0 +1,62 @@
+[
+  {
+    "ticker": "ABBNY",
+    "reason": "stockanalysis.com API endpoint returned 400/500 for OTC ADR ticker"
+  },
+  {
+    "ticker": "AIQUY",
+    "reason": "stockanalysis.com API endpoint returned 400/500 for OTC ADR ticker"
+  },
+  {
+    "ticker": "AKZOY",
+    "reason": "stockanalysis.com API endpoint returned 400/500 for OTC ADR ticker"
+  },
+  {
+    "ticker": "ASMIY",
+    "reason": "stockanalysis.com API endpoint returned 400/500 for OTC ADR ticker"
+  },
+  {
+    "ticker": "BESIY",
+    "reason": "stockanalysis.com API endpoint returned 400/500 for OTC ADR ticker"
+  },
+  {
+    "ticker": "COMM",
+    "reason": "stockanalysis.com API returned 400; CommScope restructured 2024 — listing may be problematic. Manually check NYSE."
+  },
+  {
+    "ticker": "JNPR",
+    "reason": "404 on Yahoo (JNPR delisted following HPE acquisition closed 2025)"
+  },
+  {
+    "ticker": "LYSDY",
+    "reason": "stockanalysis.com API returned 500/404 for both /s/ and /o/ endpoints"
+  },
+  {
+    "ticker": "SBGSY",
+    "reason": "OTC unsponsored ADR - stockanalysis.com API returned 400"
+  },
+  {
+    "ticker": "SHECY",
+    "reason": "OTC unsponsored ADR - stockanalysis.com API returned 400"
+  },
+  {
+    "ticker": "SMSMY",
+    "reason": "OTC unsponsored ADR - stockanalysis.com API returned 400"
+  },
+  {
+    "ticker": "SOIGY",
+    "reason": "OTC unsponsored ADR - stockanalysis.com API returned 400"
+  },
+  {
+    "ticker": "SSNLF",
+    "reason": "OTC unsponsored ADR - stockanalysis.com API returned 400"
+  },
+  {
+    "ticker": "SUOPY",
+    "reason": "OTC unsponsored ADR - stockanalysis.com API returned 400"
+  },
+  {
+    "ticker": "VEOEY",
+    "reason": "OTC unsponsored ADR - stockanalysis.com API returned 400"
+  }
+]

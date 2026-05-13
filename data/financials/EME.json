@@ -1,0 +1,14 @@
+{
+  "ticker": "EME",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 16986, "net_income_native": 1273, "eps_diluted_native": 28.19},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 14566, "net_income_native": 1007, "eps_diluted_native": 21.52},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 12583, "net_income_native": 632.99, "eps_diluted_native": 13.31},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 11076, "net_income_native": 406.12, "eps_diluted_native": 8.10},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 9904, "net_income_native": 383.53, "eps_diluted_native": 7.06}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/eme/financials/"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "INTC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-27", "revenue_native": 52853, "net_income_native": -267, "eps_diluted_native": -0.06},
+    {"fy": 2024, "fye": "2024-12-28", "revenue_native": 53101, "net_income_native": -18756, "eps_diluted_native": -4.38},
+    {"fy": 2023, "fye": "2023-12-30", "revenue_native": 54228, "net_income_native": 1689, "eps_diluted_native": 0.40},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 63054, "net_income_native": 8014, "eps_diluted_native": 1.94},
+    {"fy": 2021, "fye": "2021-12-25", "revenue_native": 79024, "net_income_native": 19868, "eps_diluted_native": 4.86}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/intc/financials/"
+}

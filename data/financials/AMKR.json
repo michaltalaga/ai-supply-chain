@@ -1,0 +1,14 @@
+{
+  "ticker": "AMKR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 6708, "net_income_native": 373.9, "eps_diluted_native": 1.50},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 6318, "net_income_native": 354.01, "eps_diluted_native": 1.43},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 6503, "net_income_native": 359.81, "eps_diluted_native": 1.46},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 7092, "net_income_native": 765.82, "eps_diluted_native": 3.11},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 6138, "net_income_native": 643, "eps_diluted_native": 2.62}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/amkr/financials/"
+}

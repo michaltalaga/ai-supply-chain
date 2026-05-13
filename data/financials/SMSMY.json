@@ -1,0 +1,14 @@
+{
+  "ticker": "SMSMY",
+  "currency_native": "AUD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-06-30", "revenue_native": 7525, "net_income_native": -19.0, "eps_diluted_native": -0.10},
+    {"fy": 2024, "fye": "2024-06-30", "revenue_native": 7224, "net_income_native": -57.8, "eps_diluted_native": -0.29},
+    {"fy": 2023, "fye": "2023-06-30", "revenue_native": 6659, "net_income_native": 181.1, "eps_diluted_native": 0.92},
+    {"fy": 2022, "fye": "2022-06-30", "revenue_native": 9277, "net_income_native": 599.3, "eps_diluted_native": 2.96}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/quote/asx/SGM/financials/",
+  "note": "SMSMY (OTC ADR) not found; data fetched from primary listing SGM.AX (Sims Limited, AUD)"
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "ANSS",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2545, "net_income_native": 575.69, "eps_diluted_native": 6.55},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2270, "net_income_native": 500.41, "eps_diluted_native": 5.73},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 2066, "net_income_native": 523.71, "eps_diluted_native": 5.99},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 1907, "net_income_native": 454.63, "eps_diluted_native": 5.16},
+    {"fy": 2020, "fye": "2020-12-31", "revenue_native": 1681, "net_income_native": 433.89, "eps_diluted_native": 4.97}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/anss/financials/"
+}

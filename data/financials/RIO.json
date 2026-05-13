@@ -1,0 +1,14 @@
+{
+  "ticker": "RIO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 57638, "net_income_native": 10249, "eps_diluted_native": 6.08},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 53658, "net_income_native": 11574, "eps_diluted_native": 7.07},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 54041, "net_income_native": 9953, "eps_diluted_native": 6.17},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 55554, "net_income_native": 13048, "eps_diluted_native": 7.60},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 63495, "net_income_native": 22597, "eps_diluted_native": 12.96}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/rio/financials/"
+}

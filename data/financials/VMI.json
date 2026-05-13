@@ -1,0 +1,14 @@
+{
+  "ticker": "VMI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-27", "revenue_native": 4104, "net_income_native": 350, "eps_diluted_native": 16.79},
+    {"fy": 2024, "fye": "2024-12-28", "revenue_native": 4075, "net_income_native": 348, "eps_diluted_native": 17.19},
+    {"fy": 2023, "fye": "2023-12-30", "revenue_native": 4175, "net_income_native": 151, "eps_diluted_native": 6.78},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 4345, "net_income_native": 251, "eps_diluted_native": 11.62},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 3502, "net_income_native": 196, "eps_diluted_native": 9.21}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/vmi/financials/"
+}

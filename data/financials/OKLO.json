@@ -1,0 +1,15 @@
+{
+  "ticker": "OKLO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": null, "net_income_native": -105.66, "eps_diluted_native": -0.72},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": null, "net_income_native": -73.62, "eps_diluted_native": -0.74},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": null, "net_income_native": -32.17, "eps_diluted_native": -0.47},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": null, "net_income_native": 3.93, "eps_diluted_native": -0.15},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": null, "net_income_native": -1.06, "eps_diluted_native": -0.03}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/oklo/financials/",
+  "notes": "Pre-revenue; revenue is null/zero across all years"
+}

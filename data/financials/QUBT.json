@@ -1,0 +1,14 @@
+{
+  "ticker": "QUBT",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 0.68, "net_income_native": -18.67, "eps_diluted_native": -0.11},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 0.37, "net_income_native": -68.54, "eps_diluted_native": -0.73},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 0.36, "net_income_native": -27.88, "eps_diluted_native": -0.42},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 0.14, "net_income_native": -26.87, "eps_diluted_native": -0.73},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": null, "net_income_native": -28.02, "eps_diluted_native": -0.96}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/qubt/financials/"
+}

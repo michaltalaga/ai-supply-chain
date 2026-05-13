@@ -1,0 +1,15 @@
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,2757 @@
+{
+  "as_of": "2026-05-11",
+  "tickers": {
+    "MSFT": {
+      "name": "Microsoft Corp",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Hyperscaler / end-user",
+      "tier": "D1",
+      "role_in_chain": "Azure cloud + OpenAI investor; largest AI training buyer of NVDA GPUs",
+      "key_upstream": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "SMCI",
+        "DELL",
+        "CEG",
+        "VST",
+        "DLR"
+      ],
+      "key_downstream": [],
+      "notes": "Calendar FY ends Jun"
+    },
+    "GOOGL": {
+      "name": "Alphabet Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Hyperscaler / end-user",
+      "tier": "D1",
+      "role_in_chain": "Google Cloud + DeepMind + Quantum AI (Willow); also designs own TPU fabbed by TSM",
+      "key_upstream": [
+        "TSM",
+        "AVGO",
+        "NVDA",
+        "CEG",
+        "VST",
+        "DLR"
+      ],
+      "key_downstream": [],
+      "notes": "Quantum AI is research-only revenue"
+    },
+    "AMZN": {
+      "name": "Amazon.com Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Hyperscaler / end-user",
+      "tier": "D1",
+      "role_in_chain": "AWS hyperscaler + Trainium/Inferentia silicon fabbed by TSM; Anthropic investor",
+      "key_upstream": [
+        "NVDA",
+        "TSM",
+        "SMCI",
+        "DELL",
+        "CEG",
+        "DLR"
+      ],
+      "key_downstream": [],
+      "notes": ""
+    },
+    "META": {
+      "name": "Meta Platforms Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Hyperscaler / end-user",
+      "tier": "D1",
+      "role_in_chain": "AI infrastructure for Llama; largest NVDA H100/H200 buyer 2023-25 outside hyperscalers",
+      "key_upstream": [
+        "NVDA",
+        "TSM",
+        "SMCI",
+        "CEG",
+        "DLR",
+        "EQIX"
+      ],
+      "key_downstream": [],
+      "notes": ""
+    },
+    "ORCL": {
+      "name": "Oracle Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Hyperscaler / end-user",
+      "tier": "D1",
+      "role_in_chain": "OCI cloud; large NVDA buildouts for AI clusters; close OpenAI partnership 2025",
+      "key_upstream": [
+        "NVDA",
+        "TSM",
+        "SMCI",
+        "DELL"
+      ],
+      "key_downstream": [],
+      "notes": "FY ends May"
+    },
+    "AAPL": {
+      "name": "Apple Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Hyperscaler / end-user",
+      "tier": "D1",
+      "role_in_chain": "Apple Silicon designed in-house fabbed by TSM; on-device AI; Private Compute Cloud",
+      "key_upstream": [
+        "TSM",
+        "ARM",
+        "SNPS",
+        "CDNS"
+      ],
+      "key_downstream": [],
+      "notes": "FY ends Sep"
+    },
+    "TSLA": {
+      "name": "Tesla Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Hyperscaler / end-user",
+      "tier": "D1",
+      "role_in_chain": "Dojo training silicon + FSD inference chips; large NVDA H100 cluster for FSD training",
+      "key_upstream": [
+        "NVDA",
+        "TSM",
+        "SMCI"
+      ],
+      "key_downstream": [],
+      "notes": ""
+    },
+    "IBM": {
+      "name": "International Business Machines",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Quantum + AI",
+      "tier": "D1",
+      "role_in_chain": "watsonx AI platform + IBM Quantum (Heron/Condor chips); Telum AI accelerator",
+      "key_upstream": [
+        "TSM",
+        "GFS",
+        "SNPS"
+      ],
+      "key_downstream": [],
+      "notes": "Cross-cuts AI + quantum"
+    },
+    "PLTR": {
+      "name": "Palantir Technologies",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI software",
+      "tier": "D1",
+      "role_in_chain": "AIP enterprise AI platform; runs on customer compute + commercial cloud",
+      "key_upstream": [
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "key_downstream": [],
+      "notes": ""
+    },
+    "NVDA": {
+      "name": "NVIDIA Corp",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI chip design",
+      "tier": "U1",
+      "role_in_chain": "Dominant AI GPU designer (H100/H200/B100/B200/B300/Rubin); ~90% AI training share",
+      "key_upstream": [
+        "TSM",
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SNPS",
+        "CDNS",
+        "MU",
+        "COHR"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "META",
+        "GOOGL",
+        "AMZN",
+        "ORCL",
+        "TSLA",
+        "SMCI",
+        "DELL",
+        "HPE"
+      ],
+      "notes": "FY ends Jan"
+    },
+    "AMD": {
+      "name": "Advanced Micro Devices",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI chip design",
+      "tier": "U1",
+      "role_in_chain": "MI300/MI325/MI350 AI accelerators + EPYC CPUs; #2 AI GPU; fabbed by TSM",
+      "key_upstream": [
+        "TSM",
+        "ASML",
+        "SNPS",
+        "CDNS",
+        "MU"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "META",
+        "ORCL",
+        "SMCI",
+        "DELL",
+        "HPE"
+      ],
+      "notes": ""
+    },
+    "INTC": {
+      "name": "Intel Corp",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI chip design + foundry",
+      "tier": "U1",
+      "role_in_chain": "Xeon CPUs + Gaudi AI accelerators + Intel Foundry (18A node); also silicon photonics",
+      "key_upstream": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "SNPS",
+        "CDNS",
+        "ENTG"
+      ],
+      "key_downstream": [
+        "DELL",
+        "HPE",
+        "CSCO",
+        "ANET"
+      ],
+      "notes": "IDM; also foundry tier"
+    },
+    "AVGO": {
+      "name": "Broadcom Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI chip design + networking ASICs",
+      "tier": "U1",
+      "role_in_chain": "Custom AI ASICs for GOOG/META; Tomahawk/Jericho switches; VMware",
+      "key_upstream": [
+        "TSM",
+        "ASML",
+        "SNPS",
+        "CDNS"
+      ],
+      "key_downstream": [
+        "GOOGL",
+        "META",
+        "CSCO",
+        "ANET"
+      ],
+      "notes": "FY ends Oct/Nov"
+    },
+    "MRVL": {
+      "name": "Marvell Technology",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI networking + photonics",
+      "tier": "U1",
+      "role_in_chain": "Custom AI silicon for AMZN/MSFT; DSPs for optical interconnect; Inphi unit",
+      "key_upstream": [
+        "TSM",
+        "SNPS",
+        "CDNS"
+      ],
+      "key_downstream": [
+        "AMZN",
+        "MSFT",
+        "CSCO",
+        "ANET",
+        "CIEN"
+      ],
+      "notes": "FY ends Feb"
+    },
+    "QCOM": {
+      "name": "Qualcomm Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI chip design (edge)",
+      "tier": "U1",
+      "role_in_chain": "Snapdragon X mobile + auto AI silicon; NPUs for on-device AI",
+      "key_upstream": [
+        "TSM",
+        "ARM",
+        "SNPS"
+      ],
+      "key_downstream": [
+        "AAPL",
+        "SSNLF"
+      ],
+      "notes": "FY ends Sep"
+    },
+    "ARM": {
+      "name": "ARM Holdings PLC",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Chip IP",
+      "tier": "U3",
+      "role_in_chain": "CPU core IP licensed to AAPL/QCOM/MSFT/NVDA; royalty-based model",
+      "key_upstream": [],
+      "key_downstream": [
+        "AAPL",
+        "QCOM",
+        "NVDA",
+        "MSFT",
+        "MRVL",
+        "AVGO"
+      ],
+      "notes": "UK firm; reports in USD"
+    },
+    "MBLY": {
+      "name": "Mobileye Global",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Auto AI silicon",
+      "tier": "U1",
+      "role_in_chain": "EyeQ ADAS chips fabbed by INTC/STMicro; auto AI vision",
+      "key_upstream": [
+        "INTC",
+        "TSM"
+      ],
+      "key_downstream": [
+        "Automakers"
+      ],
+      "notes": ""
+    },
+    "LSCC": {
+      "name": "Lattice Semiconductor",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "FPGA",
+      "tier": "U1",
+      "role_in_chain": "Low-power FPGAs for AI edge + sensor fusion",
+      "key_upstream": [
+        "TSM",
+        "UMC",
+        "SNPS"
+      ],
+      "key_downstream": [
+        "Automakers",
+        "5G OEMs"
+      ],
+      "notes": ""
+    },
+    "MPWR": {
+      "name": "Monolithic Power Systems",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI power management ICs",
+      "tier": "U1",
+      "role_in_chain": "Vertical power modules for NVDA GPU boards; key AI server PMIC supplier",
+      "key_upstream": [
+        "TSM"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "SMCI",
+        "DELL",
+        "HPE"
+      ],
+      "notes": ""
+    },
+    "ON": {
+      "name": "ON Semiconductor",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Analog/power semis",
+      "tier": "U1",
+      "role_in_chain": "SiC + image sensors for auto/industrial; also AI power conversion",
+      "key_upstream": [
+        "TSM",
+        "WOLF"
+      ],
+      "key_downstream": [
+        "Automakers",
+        "DELL",
+        "HPE"
+      ],
+      "notes": ""
+    },
+    "ADI": {
+      "name": "Analog Devices",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Analog semis",
+      "tier": "U1",
+      "role_in_chain": "Precision analog + power for AI servers + comm; Maxim merger",
+      "key_upstream": [
+        "TSM",
+        "GFS"
+      ],
+      "key_downstream": [
+        "DELL",
+        "HPE",
+        "ANET"
+      ],
+      "notes": ""
+    },
+    "TXN": {
+      "name": "Texas Instruments",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Analog semis",
+      "tier": "U1",
+      "role_in_chain": "Largest analog manufacturer; AI server power management",
+      "key_upstream": [
+        "in-house fab"
+      ],
+      "key_downstream": [
+        "Automotive",
+        "industrial"
+      ],
+      "notes": ""
+    },
+    "MCHP": {
+      "name": "Microchip Technology",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Microcontrollers + analog",
+      "tier": "U1",
+      "role_in_chain": "MCUs + FPGAs for industrial automation + AI edge",
+      "key_upstream": [
+        "in-house+TSM"
+      ],
+      "key_downstream": [
+        "Industrial",
+        "auto"
+      ],
+      "notes": ""
+    },
+    "MTSI": {
+      "name": "MACOM Technology Solutions",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "RF + analog photonics",
+      "tier": "U1",
+      "role_in_chain": "RF + analog ICs for 5G + optical interconnect; LRD photonics",
+      "key_upstream": [
+        "TSM"
+      ],
+      "key_downstream": [
+        "CIEN",
+        "ANET",
+        "Defense"
+      ],
+      "notes": ""
+    },
+    "POWI": {
+      "name": "Power Integrations",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Power conversion ICs",
+      "tier": "U1",
+      "role_in_chain": "GaN/SiC AC-DC power for AI servers; small but key supplier",
+      "key_upstream": [
+        "TSM"
+      ],
+      "key_downstream": [
+        "SMCI",
+        "DELL"
+      ],
+      "notes": ""
+    },
+    "VICR": {
+      "name": "Vicor Corp",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI power modules",
+      "tier": "U1",
+      "role_in_chain": "Factorized power modules for NVDA GPU boards; high-density 48V→1V",
+      "key_upstream": [],
+      "key_downstream": [
+        "NVDA",
+        "SMCI",
+        "DELL",
+        "HPE"
+      ],
+      "notes": ""
+    },
+    "NVTS": {
+      "name": "Navitas Semiconductor",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "GaN semis",
+      "tier": "U1",
+      "role_in_chain": "GaN power ICs for data-center AI server power supplies",
+      "key_upstream": [
+        "TSM"
+      ],
+      "key_downstream": [
+        "SMCI",
+        "DELL"
+      ],
+      "notes": ""
+    },
+    "SMCI": {
+      "name": "Super Micro Computer",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI server builder",
+      "tier": "AI core",
+      "role_in_chain": "Build-to-order GPU servers; xAI Colossus + AWS/Azure deployments",
+      "key_upstream": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MU",
+        "COHR",
+        "LITE",
+        "VRT"
+      ],
+      "key_downstream": [
+        "xAI",
+        "MSFT",
+        "META",
+        "CoreWeave",
+        "ORCL"
+      ],
+      "notes": "FY ends Jun; accounting scandal 2024"
+    },
+    "DELL": {
+      "name": "Dell Technologies",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "AI server builder",
+      "tier": "AI core",
+      "role_in_chain": "PowerEdge XE9680/XE9712 AI servers for hyperscalers + enterprise",
+      "key_upstream": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MU",
+        "COHR",
+        "LITE"
+      ],
+      "key_downstream": [
+        "xAI",
+        "Enterprise",
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Jan/Feb"
+    },
+    "HPE": {
+      "name": "Hewlett Packard Enterprise",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "AI server builder",
+      "tier": "AI core",
+      "role_in_chain": "Cray AI supercomputers + ProLiant; acquired JNPR for AI networking 2025",
+      "key_upstream": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MU",
+        "GLW"
+      ],
+      "key_downstream": [
+        "Government",
+        "Enterprise"
+      ],
+      "notes": "FY ends Oct"
+    },
+    "LNVGY": {
+      "name": "Lenovo Group Ltd",
+      "exchange": "OTC",
+      "currency_native": "USD",
+      "segment": "AI server builder",
+      "tier": "AI core",
+      "role_in_chain": "ThinkSystem AI servers; major China + global enterprise share",
+      "key_upstream": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ],
+      "key_downstream": [
+        "Enterprise",
+        "Hyperscalers"
+      ],
+      "notes": "Unsponsored ADR; reports in USD; FY ends Mar"
+    },
+    "ANET": {
+      "name": "Arista Networks",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "AI networking",
+      "tier": "U1",
+      "role_in_chain": "800G/1600G switches for AI fabrics; key NVDA Spectrum-X competitor",
+      "key_upstream": [
+        "AVGO",
+        "MRVL",
+        "TSM"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "META",
+        "ORCL"
+      ],
+      "notes": ""
+    },
+    "CSCO": {
+      "name": "Cisco Systems",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Networking",
+      "tier": "U1",
+      "role_in_chain": "Silicon One AI fabric + Splunk security; broad enterprise",
+      "key_upstream": [
+        "AVGO",
+        "MRVL",
+        "TSM"
+      ],
+      "key_downstream": [
+        "Enterprise",
+        "Telcos"
+      ],
+      "notes": "FY ends Jul"
+    },
+    "JNPR": {
+      "name": "Juniper Networks",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Networking",
+      "tier": "U1",
+      "role_in_chain": "AI-Native Networking platform; being acquired by HPE",
+      "key_upstream": [
+        "AVGO",
+        "TSM"
+      ],
+      "key_downstream": [
+        "HPE",
+        "Hyperscalers"
+      ],
+      "notes": "Acquisition by HPE closed 2025"
+    },
+    "CIEN": {
+      "name": "Ciena Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Optical networking",
+      "tier": "U1",
+      "role_in_chain": "WaveLogic 800G/1600G coherent DSPs for DCI",
+      "key_upstream": [
+        "MRVL",
+        "COHR",
+        "LITE",
+        "MTSI"
+      ],
+      "key_downstream": [
+        "Hyperscalers",
+        "Telcos"
+      ],
+      "notes": "FY ends Oct"
+    },
+    "COHR": {
+      "name": "Coherent Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Photonics + lasers",
+      "tier": "U1",
+      "role_in_chain": "800G/1.6T optical transceivers + EUV CO2 lasers for ASML + SiC for power",
+      "key_upstream": [
+        "WOLF",
+        "TSM"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "ANET",
+        "CIEN",
+        "ASML",
+        "Quantum"
+      ],
+      "notes": "Merged with II-VI 2022; FY ends Jun"
+    },
+    "LITE": {
+      "name": "Lumentum Holdings",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Photonics",
+      "tier": "U1",
+      "role_in_chain": "Optical transceivers + Cloudlight (laser) for AI interconnect + iPhone VCSELs",
+      "key_upstream": [
+        "WOLF",
+        "TSM"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "AAPL",
+        "ANET",
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Jun"
+    },
+    "IPGP": {
+      "name": "IPG Photonics",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Fiber lasers",
+      "tier": "U1",
+      "role_in_chain": "High-power industrial fiber lasers; some quantum + medical",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial",
+        "Defense",
+        "Quantum"
+      ],
+      "notes": ""
+    },
+    "LASR": {
+      "name": "nLIGHT Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Lasers",
+      "tier": "U1",
+      "role_in_chain": "Defense (DOD directed-energy) + industrial + quantum lasers",
+      "key_upstream": [],
+      "key_downstream": [
+        "Defense",
+        "Industrial",
+        "Quantum"
+      ],
+      "notes": ""
+    },
+    "POET": {
+      "name": "POET Technologies",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Silicon photonics",
+      "tier": "U1",
+      "role_in_chain": "Optical Interposer for AI interconnect; pre-revenue startup",
+      "key_upstream": [],
+      "key_downstream": [
+        "AI server makers"
+      ],
+      "notes": "Pre-revenue 2024-25"
+    },
+    "VECO": {
+      "name": "Veeco Instruments",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - MOCVD",
+      "tier": "U3",
+      "role_in_chain": "MOCVD + atomic layer etch for LED + HBM + advanced packaging",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "MU",
+        "Hyper-scaler suppliers"
+      ],
+      "notes": ""
+    },
+    "AOSL": {
+      "name": "Alpha & Omega Semi",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Power semis",
+      "tier": "U1",
+      "role_in_chain": "MOSFET + power discrete for AI server power supplies",
+      "key_upstream": [],
+      "key_downstream": [
+        "SMCI",
+        "DELL",
+        "HPE"
+      ],
+      "notes": ""
+    },
+    "RMBS": {
+      "name": "Rambus Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Memory IP + security",
+      "tier": "U3",
+      "role_in_chain": "DDR5/HBM memory interface IP + chiplet interconnect; security",
+      "key_upstream": [],
+      "key_downstream": [
+        "MU",
+        "SSNLF",
+        "SK Hynix (KRX-only)"
+      ],
+      "notes": ""
+    },
+    "MU": {
+      "name": "Micron Technology",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Memory (DRAM/HBM/NAND)",
+      "tier": "U2",
+      "role_in_chain": "HBM3E + DDR5 + NAND; #3 DRAM but rapidly gaining HBM share for NVDA",
+      "key_upstream": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ENTG",
+        "LIN"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "AMD",
+        "SMCI",
+        "DELL",
+        "HPE"
+      ],
+      "notes": "FY ends Aug/Sep"
+    },
+    "SSNLF": {
+      "name": "Samsung Electronics Co Ltd",
+      "exchange": "OTC",
+      "currency_native": "KRW",
+      "segment": "Memory + foundry + consumer",
+      "tier": "U2",
+      "role_in_chain": "#1 DRAM + #1 NAND + foundry (3nm); making HBM for NVDA",
+      "key_upstream": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "ENTG"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "AMD",
+        "AAPL"
+      ],
+      "notes": "Unsponsored ADR — illiquid; native KRX 005930"
+    },
+    "WDC": {
+      "name": "Western Digital",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Storage (HDD + flash post-spin)",
+      "tier": "U2",
+      "role_in_chain": "HDD for hyperscaler nearline; SanDisk NAND split off as SDDXD in 2025",
+      "key_upstream": [],
+      "key_downstream": [
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Jun; split 2025"
+    },
+    "STX": {
+      "name": "Seagate Technology",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Storage (HDD)",
+      "tier": "U2",
+      "role_in_chain": "30TB+ HAMR nearline drives for AI data lakes",
+      "key_upstream": [],
+      "key_downstream": [
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Jul"
+    },
+    "TSM": {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "exchange": "NYSE",
+      "currency_native": "TWD",
+      "segment": "Foundry",
+      "tier": "U2",
+      "role_in_chain": "Dominant advanced foundry (3nm/2nm) fabbing NVDA/AMD/AAPL/AVGO/MRVL/QCOM",
+      "key_upstream": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ENTG",
+        "LIN",
+        "APD",
+        "SHECY",
+        "SUOPY",
+        "SOIGY"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "AAPL",
+        "MRVL",
+        "QCOM",
+        "MBLY"
+      ],
+      "notes": "ADR"
+    },
+    "GFS": {
+      "name": "GlobalFoundries",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Foundry",
+      "tier": "U2",
+      "role_in_chain": "Specialty foundry (12nm/22nm/45nm RF/auto/photonics); silicon photonics platform",
+      "key_upstream": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "KLAC",
+        "ENTG"
+      ],
+      "key_downstream": [
+        "Various fabless",
+        "auto OEMs"
+      ],
+      "notes": ""
+    },
+    "UMC": {
+      "name": "United Microelectronics",
+      "exchange": "NYSE",
+      "currency_native": "TWD",
+      "segment": "Foundry",
+      "tier": "U2",
+      "role_in_chain": "Mature-node foundry (14nm/22nm/28nm); auto/IoT/RF",
+      "key_upstream": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "ENTG"
+      ],
+      "key_downstream": [
+        "Auto",
+        "IoT",
+        "analog fabless"
+      ],
+      "notes": "ADR"
+    },
+    "ASX": {
+      "name": "ASE Technology Holding",
+      "exchange": "NYSE",
+      "currency_native": "TWD",
+      "segment": "OSAT (back-end)",
+      "tier": "U2",
+      "role_in_chain": "#1 outsourced assembly + test; CoWoS substrate competition with TSM in-house",
+      "key_upstream": [
+        "TSM",
+        "substrates"
+      ],
+      "key_downstream": [
+        "Fabless",
+        "TSM customers"
+      ],
+      "notes": "ADR"
+    },
+    "AMKR": {
+      "name": "Amkor Technology",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "OSAT (back-end)",
+      "tier": "U2",
+      "role_in_chain": "#2 OSAT; advanced packaging for NVDA/AMD/Apple; building AZ facility",
+      "key_upstream": [
+        "substrates"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "AMD",
+        "AAPL",
+        "QCOM"
+      ],
+      "notes": ""
+    },
+    "ASML": {
+      "name": "ASML Holding NV",
+      "exchange": "NASDAQ",
+      "currency_native": "EUR",
+      "segment": "WFE - EUV/DUV lithography",
+      "tier": "U3",
+      "role_in_chain": "Monopoly EUV lithography + high-NA EUV; critical for sub-7nm",
+      "key_upstream": [
+        "COHR",
+        "Zeiss (private)",
+        "TRUMPF (private)"
+      ],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU",
+        "SK Hynix (KRX-only)"
+      ],
+      "notes": "ADR; reports EUR"
+    },
+    "AMAT": {
+      "name": "Applied Materials",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - deposition/etch",
+      "tier": "U3",
+      "role_in_chain": "Broadest WFE portfolio: CVD/PVD/etch/CMP/ion implant + advanced packaging tools",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU",
+        "SK Hynix"
+      ],
+      "notes": "FY ends Oct"
+    },
+    "LRCX": {
+      "name": "Lam Research",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - etch + deposition",
+      "tier": "U3",
+      "role_in_chain": "Plasma etch + ALD/CVD; critical for 3D NAND + advanced logic",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU",
+        "SK Hynix"
+      ],
+      "notes": "FY ends Jun"
+    },
+    "KLAC": {
+      "name": "KLA Corp",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - process control",
+      "tier": "U3",
+      "role_in_chain": "Wafer + reticle inspection + metrology; near-monopoly in fab process control",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU"
+      ],
+      "notes": "FY ends Jun"
+    },
+    "TER": {
+      "name": "Teradyne Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - test equipment",
+      "tier": "U3",
+      "role_in_chain": "ATE for SoCs + memory + RF; Universal Robots collaborative robots",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "AAPL",
+        "QCOM"
+      ],
+      "notes": ""
+    },
+    "ONTO": {
+      "name": "Onto Innovation",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "WFE - metrology",
+      "tier": "U3",
+      "role_in_chain": "Advanced packaging + macro defect inspection; HBM stacking metrology",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "MU",
+        "SSNLF"
+      ],
+      "notes": ""
+    },
+    "ENTG": {
+      "name": "Entegris Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - process materials",
+      "tier": "U3",
+      "role_in_chain": "Specialty filters + fluid handling + advanced packaging materials",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU"
+      ],
+      "notes": ""
+    },
+    "ICHR": {
+      "name": "Ichor Holdings",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - gas/fluid subsystems",
+      "tier": "U3",
+      "role_in_chain": "Gas + fluid delivery subsystems built for ASML/AMAT/LRCX",
+      "key_upstream": [],
+      "key_downstream": [
+        "ASML",
+        "AMAT",
+        "LRCX"
+      ],
+      "notes": ""
+    },
+    "UCTT": {
+      "name": "Ultra Clean Holdings",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - subsystems",
+      "tier": "U3",
+      "role_in_chain": "Critical subsystems + ultra-clean assemblies for AMAT/LRCX/ASML",
+      "key_upstream": [],
+      "key_downstream": [
+        "AMAT",
+        "LRCX",
+        "ASML"
+      ],
+      "notes": ""
+    },
+    "ACMR": {
+      "name": "ACM Research",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - wet processing",
+      "tier": "U3",
+      "role_in_chain": "Wet cleaning + ECP; growing China share; on US sanctions watch",
+      "key_upstream": [],
+      "key_downstream": [
+        "SMIC",
+        "YMTC",
+        "CXMT"
+      ],
+      "notes": "Chinese-exposed"
+    },
+    "KLIC": {
+      "name": "Kulicke & Soffa Industries",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - bonding",
+      "tier": "U3",
+      "role_in_chain": "Wire + thermo-compression bonders for OSAT + advanced packaging",
+      "key_upstream": [],
+      "key_downstream": [
+        "ASX",
+        "AMKR",
+        "SSNLF"
+      ],
+      "notes": "FY ends Sep"
+    },
+    "AEHR": {
+      "name": "Aehr Test Systems",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "WFE - burn-in test",
+      "tier": "U3",
+      "role_in_chain": "Wafer-level burn-in for SiC + silicon photonics; small but exposed",
+      "key_upstream": [],
+      "key_downstream": [
+        "WOLF",
+        "ON"
+      ],
+      "notes": "FY ends May"
+    },
+    "ASMIY": {
+      "name": "ASM International",
+      "exchange": "OTC",
+      "currency_native": "EUR",
+      "segment": "WFE - ALD",
+      "tier": "U3",
+      "role_in_chain": "Atomic layer deposition leader; high-k metal gate critical for advanced logic",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "BESIY": {
+      "name": "BE Semiconductor Industries",
+      "exchange": "OTC",
+      "currency_native": "EUR",
+      "segment": "WFE - hybrid bonding",
+      "tier": "U3",
+      "role_in_chain": "Hybrid bonding + die-attach for HBM + advanced packaging; CoWoS supplier",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "ASX"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "SNPS": {
+      "name": "Synopsys Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "EDA",
+      "tier": "U3",
+      "role_in_chain": "#1 EDA tools + chip IP; acquired ANSS for system simulation",
+      "key_upstream": [],
+      "key_downstream": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "MRVL",
+        "QCOM"
+      ],
+      "notes": "FY ends Oct"
+    },
+    "CDNS": {
+      "name": "Cadence Design Systems",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "EDA",
+      "tier": "U3",
+      "role_in_chain": "#2 EDA tools + chip IP + system design; HBM/UCIe IP",
+      "key_upstream": [],
+      "key_downstream": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "MRVL",
+        "QCOM"
+      ],
+      "notes": ""
+    },
+    "ANSS": {
+      "name": "Ansys Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Simulation software",
+      "tier": "U3",
+      "role_in_chain": "Multi-physics simulation for chip + thermal + mechanical; acquired by SNPS 2025",
+      "key_upstream": [],
+      "key_downstream": [
+        "SNPS",
+        "Aerospace",
+        "Auto"
+      ],
+      "notes": "Deal closed"
+    },
+    "KEYS": {
+      "name": "Keysight Technologies",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Test + measurement",
+      "tier": "U3",
+      "role_in_chain": "RF/microwave test + signal-integrity instruments for chip + comms",
+      "key_upstream": [],
+      "key_downstream": [
+        "NVDA",
+        "AMD",
+        "AAPL",
+        "Telcos"
+      ],
+      "notes": "FY ends Oct"
+    },
+    "WOLF": {
+      "name": "Wolfspeed Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "SiC materials + power semis",
+      "tier": "U4",
+      "role_in_chain": "SiC wafer manufacturer + power devices for EV + AI server power",
+      "key_upstream": [],
+      "key_downstream": [
+        "ON",
+        "AOSL",
+        "Auto OEMs"
+      ],
+      "notes": "Distressed; restructuring 2025"
+    },
+    "SHECY": {
+      "name": "Shin-Etsu Chemical",
+      "exchange": "OTC",
+      "currency_native": "JPY",
+      "segment": "Wafer materials",
+      "tier": "U4",
+      "role_in_chain": "#1 silicon wafer supplier + photoresist + rare-earth magnets",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "SUOPY": {
+      "name": "SUMCO Corp",
+      "exchange": "OTC",
+      "currency_native": "JPY",
+      "segment": "Wafer materials",
+      "tier": "U4",
+      "role_in_chain": "#2 silicon wafer supplier",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "SOIGY": {
+      "name": "Soitec SA",
+      "exchange": "OTC",
+      "currency_native": "EUR",
+      "segment": "SOI wafers",
+      "tier": "U4",
+      "role_in_chain": "Silicon-on-insulator wafers for RF + photonics + automotive",
+      "key_upstream": [],
+      "key_downstream": [
+        "GFS",
+        "TSM",
+        "ST"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "LIN": {
+      "name": "Linde plc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Industrial gases",
+      "tier": "U4",
+      "role_in_chain": "#1 industrial gas; neon (laser litho) + helium + ultra-pure gases for fabs",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU",
+        "ASML"
+      ],
+      "notes": "Reports in USD"
+    },
+    "APD": {
+      "name": "Air Products & Chemicals",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Industrial gases",
+      "tier": "U4",
+      "role_in_chain": "#2 industrial gas; on-site fab gas supply; hydrogen + helium",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "MU"
+      ],
+      "notes": "FY ends Sep"
+    },
+    "AIQUY": {
+      "name": "Air Liquide SA",
+      "exchange": "OTC",
+      "currency_native": "EUR",
+      "segment": "Industrial gases",
+      "tier": "U4",
+      "role_in_chain": "#3 industrial gas; large fab gas presence + helium reserves",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "DD": {
+      "name": "DuPont de Nemours",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Specialty chemicals",
+      "tier": "U4",
+      "role_in_chain": "Photoresist + advanced materials + electronics; split announced 2024",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC"
+      ],
+      "notes": "Splitting into 3"
+    },
+    "DOW": {
+      "name": "Dow Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Chemicals",
+      "tier": "U4",
+      "role_in_chain": "Performance materials + silicones for electronics + EV",
+      "key_upstream": [],
+      "key_downstream": [
+        "WFE makers",
+        "EV OEMs"
+      ],
+      "notes": ""
+    },
+    "ECL": {
+      "name": "Ecolab Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Water + sanitation",
+      "tier": "U4",
+      "role_in_chain": "Ultra-pure water + cleaning chemicals for fabs",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "INTC",
+        "data centers"
+      ],
+      "notes": ""
+    },
+    "CE": {
+      "name": "Celanese Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Chemicals",
+      "tier": "U4",
+      "role_in_chain": "Engineered materials + polymers for EV + electronics",
+      "key_upstream": [],
+      "key_downstream": [
+        "Auto",
+        "electronics"
+      ],
+      "notes": ""
+    },
+    "IFF": {
+      "name": "International Flavors & Fragrances",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Specialty chemicals",
+      "tier": "U4",
+      "role_in_chain": "Pharma + electronics specialty (less direct AI exposure; included as broad SC proxy)",
+      "key_upstream": [],
+      "key_downstream": [
+        "Consumer",
+        "pharma"
+      ],
+      "notes": "Lower AI exposure"
+    },
+    "AKZOY": {
+      "name": "Akzo Nobel NV",
+      "exchange": "OTC",
+      "currency_native": "EUR",
+      "segment": "Coatings",
+      "tier": "U4",
+      "role_in_chain": "Specialty coatings incl. some semis (less direct exposure)",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "ALB": {
+      "name": "Albemarle Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Lithium + bromine + catalysts",
+      "tier": "U4",
+      "role_in_chain": "Lithium for EV/grid batteries + bromine for fab fire-suppression",
+      "key_upstream": [],
+      "key_downstream": [
+        "EV OEMs",
+        "data centers"
+      ],
+      "notes": ""
+    },
+    "FCX": {
+      "name": "Freeport-McMoRan",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Copper mining",
+      "tier": "U5",
+      "role_in_chain": "Largest US copper miner; copper essential for cabling + transformers",
+      "key_upstream": [],
+      "key_downstream": [
+        "GEV",
+        "ETN",
+        "HUBB",
+        "wire makers"
+      ],
+      "notes": ""
+    },
+    "SCCO": {
+      "name": "Southern Copper",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Copper mining",
+      "tier": "U5",
+      "role_in_chain": "Mexico/Peru copper; key transmission + DC bus supplier",
+      "key_upstream": [],
+      "key_downstream": [
+        "GEV",
+        "ETN",
+        "cabling"
+      ],
+      "notes": ""
+    },
+    "MP": {
+      "name": "MP Materials",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Rare earths",
+      "tier": "U5",
+      "role_in_chain": "Only operating US rare-earth mine (Mountain Pass); NdPr for magnets",
+      "key_upstream": [],
+      "key_downstream": [
+        "Auto OEMs",
+        "DOD",
+        "magnets"
+      ],
+      "notes": ""
+    },
+    "LYSDY": {
+      "name": "Lynas Rare Earths",
+      "exchange": "OTC",
+      "currency_native": "AUD",
+      "segment": "Rare earths",
+      "tier": "U5",
+      "role_in_chain": "#1 non-China rare-earth processor (Australia + Malaysia)",
+      "key_upstream": [],
+      "key_downstream": [
+        "Magnets",
+        "Defense"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "UUUU": {
+      "name": "Energy Fuels",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Uranium + rare earths",
+      "tier": "U5",
+      "role_in_chain": "Uranium + monazite rare-earth processing; SMR fuel supplier",
+      "key_upstream": [],
+      "key_downstream": [
+        "SMR builders",
+        "rare-earth processors"
+      ],
+      "notes": ""
+    },
+    "BHP": {
+      "name": "BHP Group Ltd",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Mining (diversified)",
+      "tier": "U5",
+      "role_in_chain": "Copper + iron ore + nickel; largest miner by mkt cap",
+      "key_upstream": [],
+      "key_downstream": [
+        "All industrial"
+      ],
+      "notes": "Reports in USD"
+    },
+    "RIO": {
+      "name": "Rio Tinto plc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Mining (diversified)",
+      "tier": "U5",
+      "role_in_chain": "Copper + iron ore + lithium + aluminum",
+      "key_upstream": [],
+      "key_downstream": [
+        "All industrial"
+      ],
+      "notes": "Reports in USD"
+    },
+    "AI": {
+      "name": "C3.ai Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "AI software",
+      "tier": "D1",
+      "role_in_chain": "Enterprise AI applications; large DoD presence",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise",
+        "DOD"
+      ],
+      "notes": "FY ends Apr"
+    },
+    "SNOW": {
+      "name": "Snowflake Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Data warehouse",
+      "tier": "D1",
+      "role_in_chain": "Data cloud + Cortex AI; enterprise AI inference",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "FY ends Jan"
+    },
+    "DDOG": {
+      "name": "Datadog Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Observability",
+      "tier": "D1",
+      "role_in_chain": "Monitors AI infrastructure + LLM observability product",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": ""
+    },
+    "MDB": {
+      "name": "MongoDB Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Database",
+      "tier": "D1",
+      "role_in_chain": "Document DB + vector search for AI/RAG",
+      "key_upstream": [],
+      "key_downstream": [
+        "Developers",
+        "Enterprise"
+      ],
+      "notes": "FY ends Jan"
+    },
+    "ESTC": {
+      "name": "Elastic NV",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Search + observability",
+      "tier": "D1",
+      "role_in_chain": "Search + vector + observability; ES|QL for AI",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "FY ends Apr"
+    },
+    "NET": {
+      "name": "Cloudflare Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Edge cloud + AI inference",
+      "tier": "D1",
+      "role_in_chain": "Workers AI + R2; runs models at edge; security",
+      "key_upstream": [],
+      "key_downstream": [
+        "SMB",
+        "Enterprise"
+      ],
+      "notes": ""
+    },
+    "NOW": {
+      "name": "ServiceNow Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Enterprise SaaS",
+      "tier": "D1",
+      "role_in_chain": "Now Assist GenAI; ITSM AI agents",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": ""
+    },
+    "CRM": {
+      "name": "Salesforce Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "CRM SaaS",
+      "tier": "D1",
+      "role_in_chain": "Agentforce AI agents; Einstein",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "FY ends Jan"
+    },
+    "ADBE": {
+      "name": "Adobe Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Creative + DX",
+      "tier": "D1",
+      "role_in_chain": "Firefly GenAI; Sensei; bundle with Creative Cloud",
+      "key_upstream": [],
+      "key_downstream": [
+        "Creators",
+        "Enterprise"
+      ],
+      "notes": "FY ends Nov/Dec"
+    },
+    "SAP": {
+      "name": "SAP SE",
+      "exchange": "NYSE",
+      "currency_native": "EUR",
+      "segment": "ERP SaaS",
+      "tier": "D1",
+      "role_in_chain": "Joule AI + Datasphere; large enterprise GenAI deals",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "ADR; FY calendar"
+    },
+    "CRWD": {
+      "name": "CrowdStrike Holdings",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Security",
+      "tier": "D1",
+      "role_in_chain": "Falcon platform secures AI + endpoint; Charlotte AI agent",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "FY ends Jan"
+    },
+    "PANW": {
+      "name": "Palo Alto Networks",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Security",
+      "tier": "D1",
+      "role_in_chain": "Precision AI for SOC + Prisma AIRS for AI workloads",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "FY ends Jul"
+    },
+    "ZS": {
+      "name": "Zscaler Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Security (SASE)",
+      "tier": "D1",
+      "role_in_chain": "Zero-trust + AI-driven SOC; growing AI workload exposure",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "FY ends Jul"
+    },
+    "IOT": {
+      "name": "Samsara Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Connected ops",
+      "tier": "D1",
+      "role_in_chain": "IoT + AI for fleet + industrial; growing AI-Vision dash cam",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial",
+        "fleets"
+      ],
+      "notes": "FY ends Jan/Feb"
+    },
+    "PATH": {
+      "name": "UiPath Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Automation",
+      "tier": "D1",
+      "role_in_chain": "RPA + agentic automation; integrating GenAI",
+      "key_upstream": [],
+      "key_downstream": [
+        "Enterprise"
+      ],
+      "notes": "FY ends Jan/Feb"
+    },
+    "BRZE": {
+      "name": "Braze Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Customer engagement",
+      "tier": "D1",
+      "role_in_chain": "Marketing automation; growing AI-powered personalization",
+      "key_upstream": [],
+      "key_downstream": [
+        "Consumer brands"
+      ],
+      "notes": "FY ends Jan/Feb"
+    },
+    "DLR": {
+      "name": "Digital Realty Trust",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Data-center REIT",
+      "tier": "D2",
+      "role_in_chain": "#1 US data-center REIT; large AI/hyperscaler campuses",
+      "key_upstream": [
+        "CEG",
+        "VST",
+        "ETN",
+        "VRT"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "META",
+        "GOOGL",
+        "AMZN",
+        "ORCL"
+      ],
+      "notes": ""
+    },
+    "EQIX": {
+      "name": "Equinix Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Data-center REIT",
+      "tier": "D2",
+      "role_in_chain": "#1 colo + cross-connect; xScale AI hyperscaler JV with PIF/CPPIB",
+      "key_upstream": [
+        "CEG",
+        "ETN",
+        "VRT"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "Enterprise"
+      ],
+      "notes": ""
+    },
+    "IRM": {
+      "name": "Iron Mountain Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Data-center + storage",
+      "tier": "D2",
+      "role_in_chain": "Records storage + ALR data-center expansion + asset disposition",
+      "key_upstream": [
+        "CEG",
+        "ETN",
+        "VRT"
+      ],
+      "key_downstream": [
+        "Enterprise",
+        "Hyperscalers"
+      ],
+      "notes": ""
+    },
+    "GEV": {
+      "name": "GE Vernova",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Power equipment + nuclear",
+      "tier": "D2",
+      "role_in_chain": "Gas turbines + grid + nuclear (BWRX-300 SMR); huge AI data-center backlog",
+      "key_upstream": [],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "CEG",
+        "Utilities"
+      ],
+      "notes": "Spun from GE Apr-2024"
+    },
+    "ETN": {
+      "name": "Eaton Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Power management",
+      "tier": "D2",
+      "role_in_chain": "Switchgear + UPS + busbar for hyperscale data centers",
+      "key_upstream": [],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "SMCI",
+        "DELL",
+        "HPE"
+      ],
+      "notes": ""
+    },
+    "HUBB": {
+      "name": "Hubbell Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Electrical products",
+      "tier": "D2",
+      "role_in_chain": "Utility transmission + commercial electrical; AI grid buildout exposure",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "DLR",
+        "EQIX"
+      ],
+      "notes": ""
+    },
+    "SBGSY": {
+      "name": "Schneider Electric SE",
+      "exchange": "OTC",
+      "currency_native": "EUR",
+      "segment": "Power + automation",
+      "tier": "D2",
+      "role_in_chain": "EcoStruxure DC infra; UPS + switchgear; bought Motivair liquid cooling 2024",
+      "key_upstream": [],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "Hyperscalers"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "ABBNY": {
+      "name": "ABB Ltd",
+      "exchange": "OTC",
+      "currency_native": "USD",
+      "segment": "Power + automation",
+      "tier": "D2",
+      "role_in_chain": "Transformers + drives + motors; data-center + grid",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "DLR",
+        "EQIX"
+      ],
+      "notes": "Unsponsored ADR; reports USD"
+    },
+    "VRT": {
+      "name": "Vertiv Holdings",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Thermal + power infra",
+      "tier": "D2",
+      "role_in_chain": "#1 data-center thermal + UPS; CDU liquid cooling for NVDA GB200 racks",
+      "key_upstream": [],
+      "key_downstream": [
+        "SMCI",
+        "DELL",
+        "HPE",
+        "DLR",
+        "EQIX"
+      ],
+      "notes": ""
+    },
+    "ENS": {
+      "name": "EnerSys",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Stored energy / UPS batteries",
+      "tier": "D2",
+      "role_in_chain": "Industrial UPS batteries; data-center backup",
+      "key_upstream": [],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "Industrial"
+      ],
+      "notes": "FY ends Mar"
+    },
+    "POWL": {
+      "name": "Powell Industries",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Switchgear",
+      "tier": "D2",
+      "role_in_chain": "Custom medium-voltage switchgear for data-center + LNG",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "DLR",
+        "LNG operators"
+      ],
+      "notes": "FY ends Sep"
+    },
+    "NVT": {
+      "name": "nVent Electric plc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Electrical enclosures + cooling",
+      "tier": "D2",
+      "role_in_chain": "Liquid cooling (acquired Trachte) + busbars + enclosures",
+      "key_upstream": [],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "SMCI"
+      ],
+      "notes": ""
+    },
+    "CEG": {
+      "name": "Constellation Energy",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Nuclear IPP",
+      "tier": "D2",
+      "role_in_chain": "Largest US nuclear fleet; Three Mile Island restart for MSFT 20-yr PPA",
+      "key_upstream": [
+        "FCX",
+        "ETN",
+        "BWX"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "META",
+        "Hyperscalers"
+      ],
+      "notes": ""
+    },
+    "VST": {
+      "name": "Vistra Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "IPP - nuclear + gas",
+      "tier": "D2",
+      "role_in_chain": "Texas + Comanche Peak nuclear; large AI PPA pipeline",
+      "key_upstream": [
+        "LNG",
+        "FCX",
+        "ETN"
+      ],
+      "key_downstream": [
+        "Hyperscalers",
+        "Industrial"
+      ],
+      "notes": ""
+    },
+    "TLN": {
+      "name": "Talen Energy",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Nuclear IPP",
+      "tier": "D2",
+      "role_in_chain": "Susquehanna nuclear + Cumulus AI data-center campus (sold to AMZN)",
+      "key_upstream": [],
+      "key_downstream": [
+        "AMZN",
+        "Hyperscalers"
+      ],
+      "notes": "Relisted 2023"
+    },
+    "NEE": {
+      "name": "NextEra Energy",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Renewables + nuclear utility",
+      "tier": "D2",
+      "role_in_chain": "#1 renewables developer + FPL; selling to data centers",
+      "key_upstream": [],
+      "key_downstream": [
+        "Hyperscalers",
+        "Residential"
+      ],
+      "notes": ""
+    },
+    "ETR": {
+      "name": "Entergy Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Regulated utility",
+      "tier": "D2",
+      "role_in_chain": "South-central utility incl. Louisiana; large data-center pipeline",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial",
+        "Hyperscalers"
+      ],
+      "notes": ""
+    },
+    "SO": {
+      "name": "Southern Co",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Regulated utility",
+      "tier": "D2",
+      "role_in_chain": "Georgia/Alabama; Vogtle 3+4 nuclear COD 2023/24; AI load growth",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial",
+        "Hyperscalers"
+      ],
+      "notes": ""
+    },
+    "DUK": {
+      "name": "Duke Energy",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Regulated utility",
+      "tier": "D2",
+      "role_in_chain": "Carolinas/Florida/Indiana; large data-center pipeline + SMR consideration",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial",
+        "Hyperscalers"
+      ],
+      "notes": ""
+    },
+    "D": {
+      "name": "Dominion Energy",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Regulated utility",
+      "tier": "D2",
+      "role_in_chain": "VA data-center alley; ~70% of N.Va. data-center demand",
+      "key_upstream": [],
+      "key_downstream": [
+        "Hyperscalers",
+        "Residential"
+      ],
+      "notes": ""
+    },
+    "AEP": {
+      "name": "American Electric Power",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Regulated utility",
+      "tier": "D2",
+      "role_in_chain": "Ohio/Texas; ERCOT AI load + ETF announced 2025",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial",
+        "Hyperscalers"
+      ],
+      "notes": ""
+    },
+    "OKLO": {
+      "name": "Oklo Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "SMR developer",
+      "tier": "D2",
+      "role_in_chain": "Aurora SMR (15-50 MW); Sam Altman-chaired; planning Idaho fab",
+      "key_upstream": [
+        "BWX",
+        "UUUU"
+      ],
+      "key_downstream": [
+        "Hyperscalers"
+      ],
+      "notes": "IPO May-2024; pre-revenue"
+    },
+    "SMR": {
+      "name": "NuScale Power",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "SMR developer",
+      "tier": "D2",
+      "role_in_chain": "77 MW LWR SMR; UAMPS deal cancelled 2023; some pilot still alive",
+      "key_upstream": [
+        "BWX"
+      ],
+      "key_downstream": [
+        "Utilities"
+      ],
+      "notes": "Pre-revenue"
+    },
+    "NNE": {
+      "name": "Nano Nuclear Energy",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Micro-reactor developer",
+      "tier": "D2",
+      "role_in_chain": "Mobile micro-reactors (KRONOS/ZEUS); early stage",
+      "key_upstream": [
+        "BWX"
+      ],
+      "key_downstream": [
+        "Defense",
+        "Industrial"
+      ],
+      "notes": "IPO 2024"
+    },
+    "BWX": {
+      "name": "BWX Technologies",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Nuclear fuel + components",
+      "tier": "D2",
+      "role_in_chain": "HALEU fuel + Navy reactors; sole supplier for many SMR designs",
+      "key_upstream": [
+        "UUUU"
+      ],
+      "key_downstream": [
+        "OKLO",
+        "SMR",
+        "NNE",
+        "Navy"
+      ],
+      "notes": ""
+    },
+    "LNG": {
+      "name": "Cheniere Energy",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "LNG export",
+      "tier": "D2",
+      "role_in_chain": "#1 US LNG exporter; AI power generation fuels gas plant buildout",
+      "key_upstream": [
+        "FCX",
+        "KMI"
+      ],
+      "key_downstream": [
+        "VST",
+        "NEE",
+        "Gas plants"
+      ],
+      "notes": ""
+    },
+    "KMI": {
+      "name": "Kinder Morgan",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Gas pipelines",
+      "tier": "D2",
+      "role_in_chain": "#1 US gas pipeline operator; serves data-center gas plants",
+      "key_upstream": [],
+      "key_downstream": [
+        "LNG exporters",
+        "utilities"
+      ],
+      "notes": ""
+    },
+    "OKE": {
+      "name": "ONEOK Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Gas pipelines",
+      "tier": "D2",
+      "role_in_chain": "Gas + NGL midstream; powering Permian gas-fired data centers",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "data center gas turbines"
+      ],
+      "notes": ""
+    },
+    "WMB": {
+      "name": "Williams Companies",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Gas pipelines",
+      "tier": "D2",
+      "role_in_chain": "Transco mainline serving Atlantic data-center clusters",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "industrial"
+      ],
+      "notes": ""
+    },
+    "TRGP": {
+      "name": "Targa Resources",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Gas midstream",
+      "tier": "D2",
+      "role_in_chain": "Permian + Bakken gas + NGL; gas to power AI campuses",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "industrial"
+      ],
+      "notes": ""
+    },
+    "JCI": {
+      "name": "Johnson Controls",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Cooling + building tech",
+      "tier": "D2",
+      "role_in_chain": "YORK chillers + Silent-Aire (data-center cooling); divesting non-HVAC",
+      "key_upstream": [],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Sep"
+    },
+    "TT": {
+      "name": "Trane Technologies",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "HVAC + thermal",
+      "tier": "D2",
+      "role_in_chain": "Trane data-center chillers + Thermo King; AI cooling exposure",
+      "key_upstream": [],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "commercial"
+      ],
+      "notes": ""
+    },
+    "MOD": {
+      "name": "Modine Manufacturing",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Thermal management",
+      "tier": "D2",
+      "role_in_chain": "Coolant Distribution Units + Airedale heat-rejection for AI servers",
+      "key_upstream": [],
+      "key_downstream": [
+        "SMCI",
+        "DELL",
+        "DLR",
+        "EQIX"
+      ],
+      "notes": "FY ends Mar"
+    },
+    "AAON": {
+      "name": "AAON Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "HVAC",
+      "tier": "D2",
+      "role_in_chain": "Custom rooftop + chiller; growing data-center backlog",
+      "key_upstream": [],
+      "key_downstream": [
+        "Commercial",
+        "data centers"
+      ],
+      "notes": ""
+    },
+    "LII": {
+      "name": "Lennox International",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "HVAC",
+      "tier": "D2",
+      "role_in_chain": "Residential + commercial HVAC; modest data-center exposure",
+      "key_upstream": [],
+      "key_downstream": [
+        "Commercial",
+        "residential"
+      ],
+      "notes": ""
+    },
+    "WTS": {
+      "name": "Watts Water Technologies",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Water tech",
+      "tier": "D2",
+      "role_in_chain": "Plumbing + water-quality + heat-transfer products",
+      "key_upstream": [],
+      "key_downstream": [
+        "Commercial",
+        "industrial"
+      ],
+      "notes": ""
+    },
+    "ROK": {
+      "name": "Rockwell Automation",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Industrial automation",
+      "tier": "D2",
+      "role_in_chain": "PLCs + drives + MES; growing data-center build automation",
+      "key_upstream": [],
+      "key_downstream": [
+        "Manufacturers",
+        "data center builders"
+      ],
+      "notes": "FY ends Sep"
+    },
+    "PWR": {
+      "name": "Quanta Services",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC - utility",
+      "tier": "D3",
+      "role_in_chain": "#1 US utility transmission builder + data-center buildouts",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "Hyperscalers"
+      ],
+      "notes": ""
+    },
+    "MTZ": {
+      "name": "MasTec Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC - utility + comm",
+      "tier": "D3",
+      "role_in_chain": "Transmission + fiber + pipelines; AI data-center connectivity",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "Telcos"
+      ],
+      "notes": ""
+    },
+    "KBR": {
+      "name": "KBR Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC - tech + gov",
+      "tier": "D3",
+      "role_in_chain": "Government services + tech engineering; data-center support",
+      "key_upstream": [],
+      "key_downstream": [
+        "Government",
+        "Industrial"
+      ],
+      "notes": ""
+    },
+    "FLR": {
+      "name": "Fluor Corp",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC - global",
+      "tier": "D3",
+      "role_in_chain": "Major nuclear + advanced manufacturing EPC; SMR/Vogtle exposure",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "Industrial"
+      ],
+      "notes": ""
+    },
+    "J": {
+      "name": "Jacobs Solutions",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC + advisory",
+      "tier": "D3",
+      "role_in_chain": "Critical mission tech + facilities; data-center planning + builds",
+      "key_upstream": [],
+      "key_downstream": [
+        "Government",
+        "Industrial"
+      ],
+      "notes": "FY ends Sep/Oct"
+    },
+    "ACM": {
+      "name": "AECOM",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC - infra",
+      "tier": "D3",
+      "role_in_chain": "Engineering + construction mgmt; data-center site selection + builds",
+      "key_upstream": [],
+      "key_downstream": [
+        "Government",
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Sep"
+    },
+    "EME": {
+      "name": "EMCOR Group",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Mechanical contractor",
+      "tier": "D3",
+      "role_in_chain": "Largest US mech contractor; data-center electrical + mechanical",
+      "key_upstream": [],
+      "key_downstream": [
+        "Commercial",
+        "data centers"
+      ],
+      "notes": ""
+    },
+    "DY": {
+      "name": "Dycom Industries",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Telecom infra",
+      "tier": "D3",
+      "role_in_chain": "Fiber-to-the-home + DC interconnect builds for telcos",
+      "key_upstream": [],
+      "key_downstream": [
+        "Telcos",
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Jan"
+    },
+    "PRIM": {
+      "name": "Primoris Services",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC - energy + comm",
+      "tier": "D3",
+      "role_in_chain": "Pipeline + power + telecom builds for utilities + data centers",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities",
+        "Telcos"
+      ],
+      "notes": ""
+    },
+    "STRL": {
+      "name": "Sterling Infrastructure",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "EPC - site",
+      "tier": "D3",
+      "role_in_chain": "E-Infrastructure data-center site prep; large 2024-25 backlog",
+      "key_upstream": [],
+      "key_downstream": [
+        "Hyperscalers",
+        "Government"
+      ],
+      "notes": ""
+    },
+    "AGX": {
+      "name": "Argan Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "EPC - power plants",
+      "tier": "D3",
+      "role_in_chain": "Builds gas + renewable power plants for AI campus demand",
+      "key_upstream": [],
+      "key_downstream": [
+        "IPP",
+        "Utilities"
+      ],
+      "notes": "FY ends Jan"
+    },
+    "VMI": {
+      "name": "Valmont Industries",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Infrastructure - utility structures",
+      "tier": "D3",
+      "role_in_chain": "Utility transmission poles + irrigation",
+      "key_upstream": [],
+      "key_downstream": [
+        "Utilities"
+      ],
+      "notes": ""
+    },
+    "GLW": {
+      "name": "Corning Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Glass + fiber",
+      "tier": "D3",
+      "role_in_chain": "#1 optical fiber + Gorilla Glass + ceramic display; AI data-center fiber",
+      "key_upstream": [],
+      "key_downstream": [
+        "Hyperscalers",
+        "CSCO",
+        "ANET"
+      ],
+      "notes": ""
+    },
+    "COMM": {
+      "name": "CommScope Holding",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Fiber + cabling",
+      "tier": "D3",
+      "role_in_chain": "Fiber + connectors + small cells; debt restructuring 2024",
+      "key_upstream": [],
+      "key_downstream": [
+        "Telcos",
+        "Hyperscalers"
+      ],
+      "notes": "Restructured"
+    },
+    "BEL": {
+      "name": "Belden Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Cabling",
+      "tier": "D3",
+      "role_in_chain": "Industrial + broadcast cabling + connectivity",
+      "key_upstream": [],
+      "key_downstream": [
+        "Industrial",
+        "Telcos"
+      ],
+      "notes": ""
+    },
+    "WM": {
+      "name": "Waste Management",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Waste + recycling",
+      "tier": "D4",
+      "role_in_chain": "#1 US solid waste + landfill gas; growing recycling",
+      "key_upstream": [],
+      "key_downstream": [
+        "Municipal",
+        "Commercial"
+      ],
+      "notes": ""
+    },
+    "RSG": {
+      "name": "Republic Services",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Waste + recycling",
+      "tier": "D4",
+      "role_in_chain": "#2 US solid waste; circular economy programs",
+      "key_upstream": [],
+      "key_downstream": [
+        "Municipal",
+        "Commercial"
+      ],
+      "notes": ""
+    },
+    "WCN": {
+      "name": "Waste Connections",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Waste",
+      "tier": "D4",
+      "role_in_chain": "#3 US solid waste; mid-market focus",
+      "key_upstream": [],
+      "key_downstream": [
+        "Municipal",
+        "Commercial"
+      ],
+      "notes": ""
+    },
+    "CWST": {
+      "name": "Casella Waste",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Waste + recycling",
+      "tier": "D4",
+      "role_in_chain": "Northeast US waste + recycling roll-up",
+      "key_upstream": [],
+      "key_downstream": [
+        "Municipal",
+        "Commercial"
+      ],
+      "notes": ""
+    },
+    "GFL": {
+      "name": "GFL Environmental",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Waste + environmental services",
+      "tier": "D4",
+      "role_in_chain": "Canada+US waste + soil remediation",
+      "key_upstream": [],
+      "key_downstream": [
+        "Municipal",
+        "Industrial"
+      ],
+      "notes": ""
+    },
+    "VEOEY": {
+      "name": "Veolia Environnement",
+      "exchange": "OTC",
+      "currency_native": "EUR",
+      "segment": "Water + waste",
+      "tier": "D4",
+      "role_in_chain": "Global water + waste; large fab wastewater treatment exposure",
+      "key_upstream": [],
+      "key_downstream": [
+        "TSM",
+        "SSNLF",
+        "fabs"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "SMSMY": {
+      "name": "Sims Metal Management",
+      "exchange": "OTC",
+      "currency_native": "AUD",
+      "segment": "Metal recycling + e-waste",
+      "tier": "D4",
+      "role_in_chain": "#1 e-waste recycler; data-center decommissioning streams",
+      "key_upstream": [],
+      "key_downstream": [
+        "Hyperscalers",
+        "industrial"
+      ],
+      "notes": "Unsponsored ADR"
+    },
+    "IONQ": {
+      "name": "IonQ Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Quantum (trapped ion)",
+      "tier": "Q",
+      "role_in_chain": "Trapped-ion quantum computer; key US public quantum pure-play",
+      "key_upstream": [
+        "COHR",
+        "IPGP",
+        "LASR",
+        "LIN"
+      ],
+      "key_downstream": [
+        "Research",
+        "Government"
+      ],
+      "notes": "Pre-meaningful-revenue"
+    },
+    "RGTI": {
+      "name": "Rigetti Computing",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Quantum (superconducting)",
+      "tier": "Q",
+      "role_in_chain": "Superconducting qubit; fabs at Fremont + DOE labs",
+      "key_upstream": [
+        "LIN",
+        "APD",
+        "ENTG"
+      ],
+      "key_downstream": [
+        "DOE",
+        "Research",
+        "Government"
+      ],
+      "notes": "Pre-meaningful-revenue"
+    },
+    "QUBT": {
+      "name": "Quantum Computing Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Quantum (photonic)",
+      "tier": "Q",
+      "role_in_chain": "Photonic + Dirac annealing; thin-film LiNbO3 chip",
+      "key_upstream": [
+        "COHR",
+        "LITE"
+      ],
+      "key_downstream": [
+        "Research"
+      ],
+      "notes": "Pre-meaningful-revenue"
+    },
+    "QBTS": {
+      "name": "D-Wave Quantum",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Quantum (annealing)",
+      "tier": "Q",
+      "role_in_chain": "Quantum annealer; first commercial revenue from commercial customers",
+      "key_upstream": [
+        "LIN",
+        "APD"
+      ],
+      "key_downstream": [
+        "Government",
+        "Enterprise"
+      ],
+      "notes": "Pre-meaningful-revenue"
+    },
+    "ARQQ": {
+      "name": "Arqit Quantum",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Quantum-secure encryption",
+      "tier": "Q",
+      "role_in_chain": "Symmetric-key delivery for post-quantum security",
+      "key_upstream": [],
+      "key_downstream": [
+        "Defense",
+        "Telcos"
+      ],
+      "notes": "Pre-revenue"
+    },
+    "HON": {
+      "name": "Honeywell International",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "Quantum + industrial",
+      "tier": "Q",
+      "role_in_chain": "Majority Quantinuum (trapped ion merger H1Q/Cambridge); avionics; PMT",
+      "key_upstream": [
+        "COHR",
+        "LIN"
+      ],
+      "key_downstream": [
+        "Quantum customers",
+        "Industrial"
+      ],
+      "notes": "Quantinuum stake"
+    }
+  }
+}

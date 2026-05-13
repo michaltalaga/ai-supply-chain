@@ -1,0 +1,14 @@
+{
+  "ticker": "LASR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 261.33, "net_income_native": -23.47, "eps_diluted_native": -0.47},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 198.55, "net_income_native": -60.79, "eps_diluted_native": -1.27},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 209.92, "net_income_native": -41.67, "eps_diluted_native": -0.90},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 242.06, "net_income_native": -54.58, "eps_diluted_native": -1.23},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 270.15, "net_income_native": -29.67, "eps_diluted_native": -0.70}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/lasr/financials/"
+}

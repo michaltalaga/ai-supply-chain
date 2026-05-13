@@ -1,0 +1,14 @@
+{
+  "ticker": "LSCC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-04-04", "revenue_native": 574.01, "net_income_native": 19.88, "eps_diluted_native": 0.14},
+    {"fy": 2025, "fye": "2026-01-03", "revenue_native": 523.26, "net_income_native": 3.08, "eps_diluted_native": 0.02},
+    {"fy": 2024, "fye": "2024-12-28", "revenue_native": 509.4, "net_income_native": 61.13, "eps_diluted_native": 0.44},
+    {"fy": 2023, "fye": "2023-12-30", "revenue_native": 737.15, "net_income_native": 259.06, "eps_diluted_native": 1.85},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 660.36, "net_income_native": 178.88, "eps_diluted_native": 1.27}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/lscc/financials/"
+}

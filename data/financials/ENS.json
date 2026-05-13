@@ -1,0 +1,14 @@
+{
+  "ticker": "ENS",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-28", "revenue_native": 3738, "net_income_native": 312.78, "eps_diluted_native": 8.07},
+    {"fy": 2025, "fye": "2025-03-31", "revenue_native": 3618, "net_income_native": 363.74, "eps_diluted_native": 8.99},
+    {"fy": 2024, "fye": "2024-03-31", "revenue_native": 3582, "net_income_native": 269.1, "eps_diluted_native": 6.50},
+    {"fy": 2023, "fye": "2023-03-31", "revenue_native": 3709, "net_income_native": 175.81, "eps_diluted_native": 4.25},
+    {"fy": 2022, "fye": "2022-03-31", "revenue_native": 3357, "net_income_native": 143.91, "eps_diluted_native": 3.36}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/ens/financials/"
+}

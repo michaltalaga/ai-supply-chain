@@ -1,0 +1,14 @@
+{
+  "ticker": "ASX",
+  "currency_native": "TWD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 645388, "net_income_native": 40016, "eps_diluted_native": 17.50},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 595410, "net_income_native": 32379, "eps_diluted_native": 14.40},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 581914, "net_income_native": 35458, "eps_diluted_native": 16.08},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 670873, "net_income_native": 61502, "eps_diluted_native": 27.62},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 569997, "net_income_native": 60150, "eps_diluted_native": 27.08}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/asx/financials/"
+}

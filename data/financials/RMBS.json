@@ -1,0 +1,14 @@
+{
+  "ticker": "RMBS",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 707.63, "net_income_native": 230.46, "eps_diluted_native": 2.11},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 556.62, "net_income_native": 179.82, "eps_diluted_native": 1.65},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 461.12, "net_income_native": 333.9, "eps_diluted_native": 3.01},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 454.79, "net_income_native": -14.31, "eps_diluted_native": -0.13},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 328.3, "net_income_native": 18.33, "eps_diluted_native": 0.16}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/rmbs/financials/"
+}

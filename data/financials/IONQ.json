@@ -1,0 +1,14 @@
+{
+  "ticker": "IONQ",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 130.02, "net_income_native": -510.38, "eps_diluted_native": -1.82},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 43.07, "net_income_native": -331.65, "eps_diluted_native": -1.56},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 22.04, "net_income_native": -157.77, "eps_diluted_native": -0.78},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 11.13, "net_income_native": -48.51, "eps_diluted_native": -0.25},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 2.1, "net_income_native": -106.19, "eps_diluted_native": -0.77}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/ionq/financials/"
+}

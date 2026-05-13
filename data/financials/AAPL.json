@@ -1,0 +1,14 @@
+{
+  "ticker": "AAPL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-03-28", "revenue_native": 451442, "net_income_native": 122575, "eps_diluted_native": 8.27},
+    {"fy": 2025, "fye": "2025-09-27", "revenue_native": 416161, "net_income_native": 112010, "eps_diluted_native": 7.46},
+    {"fy": 2024, "fye": "2024-09-28", "revenue_native": 391035, "net_income_native": 93736, "eps_diluted_native": 6.09},
+    {"fy": 2023, "fye": "2023-09-30", "revenue_native": 383285, "net_income_native": 96995, "eps_diluted_native": 6.13},
+    {"fy": 2022, "fye": "2022-09-24", "revenue_native": 394328, "net_income_native": 99803, "eps_diluted_native": 6.11}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/aapl/financials/"
+}

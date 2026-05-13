@@ -1,0 +1,14 @@
+{
+  "ticker": "ADI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-01-31", "revenue_native": 11757, "net_income_native": 2707, "eps_diluted_native": 5.47},
+    {"fy": 2025, "fye": "2025-11-01", "revenue_native": 11020, "net_income_native": 2267, "eps_diluted_native": 4.56},
+    {"fy": 2024, "fye": "2024-11-02", "revenue_native": 9427, "net_income_native": 1635, "eps_diluted_native": 3.28},
+    {"fy": 2023, "fye": "2023-10-28", "revenue_native": 12306, "net_income_native": 3315, "eps_diluted_native": 6.55},
+    {"fy": 2022, "fye": "2022-10-29", "revenue_native": 12014, "net_income_native": 2749, "eps_diluted_native": 5.25}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/adi/financials/"
+}

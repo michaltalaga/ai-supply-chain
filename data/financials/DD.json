@@ -1,0 +1,14 @@
+{
+  "ticker": "DD",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 6849, "net_income_native": -779, "eps_diluted_native": -1.86},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 6719, "net_income_native": 703, "eps_diluted_native": 1.68},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 6614, "net_income_native": 423, "eps_diluted_native": 0.94},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 13017, "net_income_native": 5868, "eps_diluted_native": 2.02},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 12566, "net_income_native": 6467, "eps_diluted_native": 2.16}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/dd/financials/"
+}

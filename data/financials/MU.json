@@ -1,0 +1,14 @@
+{
+  "ticker": "MU",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2026, "fye": "2026-02-26", "revenue_native": 58119, "net_income_native": 24111, "eps_diluted_native": 21.39},
+    {"fy": 2025, "fye": "2025-08-28", "revenue_native": 37378, "net_income_native": 8539, "eps_diluted_native": 7.59},
+    {"fy": 2024, "fye": "2024-08-29", "revenue_native": 25111, "net_income_native": 778, "eps_diluted_native": 0.70},
+    {"fy": 2023, "fye": "2023-08-31", "revenue_native": 15540, "net_income_native": -5833, "eps_diluted_native": -5.34},
+    {"fy": 2022, "fye": "2022-09-01", "revenue_native": 30758, "net_income_native": 8687, "eps_diluted_native": 7.75}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/mu/financials/"
+}

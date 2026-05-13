@@ -1,0 +1,14 @@
+{
+  "ticker": "BWX",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 3198, "net_income_native": 328.95, "eps_diluted_native": 3.58},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 2704, "net_income_native": 281.94, "eps_diluted_native": 3.07},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 2496, "net_income_native": 245.85, "eps_diluted_native": 2.68},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 2233, "net_income_native": 238.19, "eps_diluted_native": 2.60},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 2124, "net_income_native": 305.87, "eps_diluted_native": 3.24}
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/bwxt/financials/"
+}
