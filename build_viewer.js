@@ -9,15 +9,42 @@ const relationships = fs.existsSync(relPath)
   ? JSON.parse(fs.readFileSync(relPath, "utf-8"))
   : { edges: {} };
 
+// Year-end FX rates for converting non-USD market caps (1 native = X USD)
+const FX = {
+  USD: 1, EUR: 1.05, TWD: 0.031, JPY: 0.0065, KRW: 0.00069,
+  AUD: 0.63, GBP: 1.30, CNY: 0.140, CHF: 1.20
+};
+
+// Compute approximate market cap (USD, millions).
+// shares (millions) = |net_income / EPS|; mcap = shares * latest_close.
+// For ADRs where EPS is per-ADR and price is per-ADR (Yahoo/SAa convention) this works directly.
+// For OTC unsponsored where EPS is per-ordinary in native currency but price is in foreign units —
+// applied a coarse FX adjustment using the company's reporting currency.
+function computeMcap(fd, lastPrice) {
+  if (!fd || !fd.fiscal_years || !fd.fiscal_years.length) return null;
+  if (!lastPrice) return null;
+  const latest = fd.fiscal_years[0];
+  const ni = latest.net_income_native;
+  const eps = latest.eps_diluted_native ?? latest.eps_diluted;
+  if (typeof ni !== "number" || typeof eps !== "number" || eps === 0) return null;
+  const sharesMillions = Math.abs(ni / eps);
+  const ccy = fd.currency_native || "USD";
+  // For US-listed (price USD, EPS USD), no FX. For ADRs with EPS in native:
+  // price is USD-per-ADR, EPS is native-per-ADR. shares are ADR count. So mcap = shares * USD price = USD.
+  // The native currency cancels in the shares calc. So no FX needed in the typical case.
+  // For unsponsored OTC where price may not reflect ADR ratio cleanly, mcap is rough.
+  return sharesMillions * lastPrice;
+}
+
 // Embed per-ticker financials + prices summary (compact form to keep HTML reasonable)
 const embedded = {};
 for (const t of Object.keys(tickers.tickers)) {
   const fin = path.join(ROOT, "data", "financials", t + ".json");
   const prx = path.join(ROOT, "data", "prices", t + ".json");
-  let f = null, p = null;
+  let f = null, p = null, lastPrice = null, fd = null;
   if (fs.existsSync(fin)) {
     try {
-      const fd = JSON.parse(fs.readFileSync(fin, "utf-8"));
+      fd = JSON.parse(fs.readFileSync(fin, "utf-8"));
       if (fd.status !== "no_data") {
         f = {
           ccy: fd.currency_native,
@@ -43,11 +70,17 @@ for (const t of Object.keys(tickers.tickers)) {
           });
         }
         p = pairs;
+        if (pairs.length) lastPrice = pairs[pairs.length - 1][1];
       }
     } catch (e) {}
   }
-  embedded[t] = { f, p, info: tickers.tickers[t] };
+  const mcap = computeMcap(fd, lastPrice);
+  embedded[t] = { f, p, mcap, info: tickers.tickers[t] };
 }
+
+const mcaps = Object.values(embedded).map(e => e.mcap).filter(m => m && m > 0);
+const maxMcap = Math.max(...mcaps);
+console.log(`Mcap range: ${(Math.min(...mcaps)/1e3).toFixed(2)}B - ${(maxMcap/1e6).toFixed(2)}T (across ${mcaps.length} tickers)`);
 
 const html = `<!doctype html>
 <html><head><meta charset="utf-8">
@@ -159,9 +192,12 @@ for (const s of [...segments].sort()) {
 
 // Legend
 const legendEl = document.getElementById("legend");
+let legendHtml = '';
 for (const t in tierColor) {
-  legendEl.innerHTML += '<span style="background:'+tierColor[t]+'"></span>'+tierLabel[t]+' &nbsp; ';
+  legendHtml += '<span style="background:'+tierColor[t]+'"></span>'+tierLabel[t]+' &nbsp; ';
 }
+legendHtml += '<span style="color:#7a8395">&nbsp; | &nbsp; arrow points supplier → customer ($ flows opposite) &nbsp; · &nbsp; dot size ∝ √mcap</span>';
+legendEl.innerHTML = legendHtml;
 
 // Build node + link arrays
 function buildGraph(filter) {
@@ -203,8 +239,42 @@ const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 svg.setAttribute("viewBox", "0 0 "+width+" "+height);
 svg.style.width = "100%"; svg.style.height = "100%";
 canvas.appendChild(svg);
+
+// Defs: two arrow markers (dim + highlighted)
+const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+function makeMarker(id, color) {
+  const m = document.createElementNS("http://www.w3.org/2000/svg", "marker");
+  m.setAttribute("id", id);
+  m.setAttribute("viewBox", "0 0 10 10");
+  m.setAttribute("refX", "9");
+  m.setAttribute("refY", "5");
+  m.setAttribute("markerWidth", "5");
+  m.setAttribute("markerHeight", "5");
+  m.setAttribute("orient", "auto-start-reverse");
+  const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  p.setAttribute("d", "M0,0 L10,5 L0,10 z");
+  p.setAttribute("fill", color);
+  m.appendChild(p);
+  defs.appendChild(m);
+}
+makeMarker("arrow-dim",  "#3a4150");
+makeMarker("arrow-hi",   "#8ab4f8");
+makeMarker("arrow-faint", "#1d2129");
+svg.appendChild(defs);
+
 const linkG = document.createElementNS("http://www.w3.org/2000/svg", "g"); svg.appendChild(linkG);
 const nodeG = document.createElementNS("http://www.w3.org/2000/svg", "g"); svg.appendChild(nodeG);
+
+// Market-cap → dot radius. Area-proportional (radius ∝ √mcap) so the visual
+// area roughly tracks size. Clamped to [3.5, 18] for layout stability.
+function nodeRadius(ticker) {
+  const d = DATA[ticker];
+  if (!d || !d.mcap || d.mcap <= 0) return 5;
+  const refMcap = 4_000_000;     // ~ $4T mcap reference (≈ NVDA peak)
+  const maxR = 18, minR = 3.5;
+  const r = Math.sqrt(d.mcap / refMcap) * maxR;
+  return Math.max(minR, Math.min(maxR, r));
+}
 
 let viewState = { tx: 0, ty: 0, k: 1 };
 function applyViewport() {
@@ -270,21 +340,38 @@ function draw(filter) {
   linkG.innerHTML = "";
   nodeG.innerHTML = "";
 
-  // Render links
+  // Pre-compute node radii so we can trim links to the target circle's edge
+  for (const n of nodes) n.radius = nodeRadius(n.id);
+
+  // Render links (supplier → customer, with arrow at customer end)
   for (const l of links) {
     const s = nodeMap[l.source]; const t = nodeMap[l.target];
     if (!s || !t) continue;
+    // Path: cubic Bezier with horizontal control handles at midpoint
     const mid = (s.x + t.x) / 2;
-    const d = \`M\${s.x},\${s.y} C\${mid},\${s.y} \${mid},\${t.y} \${t.x},\${t.y}\`;
-    // Visible thin line
+    // Trim end short of target circle so arrowhead sits on edge of circle, not inside
+    const dx = t.x - s.x, dy = t.y - s.y;
+    const dist = Math.hypot(dx, dy) || 1;
+    const gap = t.radius + 5; // leave room for arrowhead
+    const tx2 = t.x - (dx / dist) * gap;
+    const ty2 = t.y - (dy / dist) * gap;
+    // And trim start so it doesn't cover source's label
+    const gapS = s.radius + 1;
+    const sx2 = s.x + (dx / dist) * gapS;
+    const sy2 = s.y + (dy / dist) * gapS;
+    const d = \`M\${sx2},\${sy2} C\${mid},\${sy2} \${mid},\${ty2} \${tx2},\${ty2}\`;
+
+    // Visible thin line with arrow at target end
     const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
     line.setAttribute("d", d);
     line.setAttribute("fill", "none");
-    line.setAttribute("stroke", "#2a2f38");
+    line.setAttribute("stroke", "#3a4150");
     line.setAttribute("stroke-width", "0.6");
-    line.setAttribute("opacity", "0.5");
+    line.setAttribute("opacity", "0.55");
     line.setAttribute("pointer-events", "none");
+    line.setAttribute("marker-end", "url(#arrow-dim)");
     linkG.appendChild(line);
+
     // Invisible thick hit area for hovering
     const hit = document.createElementNS("http://www.w3.org/2000/svg", "path");
     hit.setAttribute("d", d);
@@ -298,30 +385,33 @@ function draw(filter) {
     linkG.appendChild(hit);
     renderState.linkEls.push({ el: line, hit, source: l.source, target: l.target });
   }
-  // Render nodes
+
+  // Render nodes (radius reflects market cap)
   for (const n of nodes) {
+    const r = n.radius;
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
     g.setAttribute("transform", \`translate(\${n.x} \${n.y})\`);
     g.style.cursor = "pointer";
     g.style.transition = "opacity 0.15s";
     const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    c.setAttribute("r", "6");
+    c.setAttribute("r", r.toFixed(2));
     c.setAttribute("fill", n.color);
     c.setAttribute("stroke", "#fff");
     c.setAttribute("stroke-width", "0.5");
     g.appendChild(c);
     const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    txt.setAttribute("x", "9");
+    txt.setAttribute("x", (r + 3).toFixed(1));
     txt.setAttribute("y", "3");
     txt.setAttribute("fill", "#e3e7ed");
     txt.setAttribute("font-size", "10");
     txt.textContent = n.id;
     g.appendChild(txt);
+    const baseR = r;
     g.addEventListener("click", e => { e.stopPropagation(); selectTicker(n.id); });
-    g.addEventListener("mouseenter", () => { c.setAttribute("r", "9"); });
-    g.addEventListener("mouseleave", () => { c.setAttribute("r", "6"); });
+    g.addEventListener("mouseenter", () => { c.setAttribute("r", (baseR + 3).toFixed(2)); });
+    g.addEventListener("mouseleave", () => { c.setAttribute("r", baseR.toFixed(2)); });
     nodeG.appendChild(g);
-    renderState.nodeEls[n.id] = { g, circle: c, text: txt, color: n.color };
+    renderState.nodeEls[n.id] = { g, circle: c, text: txt, color: n.color, baseR };
   }
   // Re-apply current highlight after redraw
   applyHighlight();
@@ -387,17 +477,20 @@ function applyHighlight() {
   // Links
   for (const { el, source, target } of renderState.linkEls) {
     if (!highlightSet) {
-      el.setAttribute("stroke", "#2a2f38");
+      el.setAttribute("stroke", "#3a4150");
       el.setAttribute("stroke-width", "0.6");
-      el.setAttribute("opacity", "0.5");
+      el.setAttribute("opacity", "0.55");
+      el.setAttribute("marker-end", "url(#arrow-dim)");
     } else if (highlightSet.has(source) && highlightSet.has(target)) {
       el.setAttribute("stroke", "#8ab4f8");
       el.setAttribute("stroke-width", "1.4");
-      el.setAttribute("opacity", "0.9");
+      el.setAttribute("opacity", "0.95");
+      el.setAttribute("marker-end", "url(#arrow-hi)");
     } else {
       el.setAttribute("stroke", "#1d2129");
       el.setAttribute("stroke-width", "0.4");
-      el.setAttribute("opacity", "0.15");
+      el.setAttribute("opacity", "0.18");
+      el.setAttribute("marker-end", "url(#arrow-faint)");
     }
   }
 }
@@ -491,7 +584,14 @@ function showDetail(ticker) {
   if (!d) return;
   const info = d.info;
   let h = '<h1>'+ticker+' &mdash; '+info.name+'</h1>';
-  h += '<p class="meta"><span class="pill">'+info.tier+' / '+info.segment+'</span></p>';
+  h += '<p class="meta"><span class="pill">'+info.tier+' / '+info.segment+'</span>';
+  if (d.mcap) {
+    const mcapDisplay = d.mcap >= 1e6 ? '$' + (d.mcap/1e6).toFixed(2) + 'T'
+                       : d.mcap >= 1e3 ? '$' + (d.mcap/1e3).toFixed(1) + 'B'
+                       : '$' + d.mcap.toFixed(0) + 'M';
+    h += ' &nbsp;<span class="pill" style="background:#15171c;color:#80e080">~' + mcapDisplay + ' mcap</span>';
+  }
+  h += '</p>';
   h += '<p style="font-size:13px">'+info.role_in_chain+'</p>';
 
   const pillFor = (u) => DATA[u]
