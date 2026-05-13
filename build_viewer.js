@@ -132,7 +132,24 @@ const html = `<!doctype html>
   td:first-child, th:first-child { text-align: left; }
   .neg { color: #f08080; }
   .pos { color: #80e080; }
-  #controls { padding: 12px; border-bottom: 1px solid #2a2f38; background: #0a0d12; }
+  #controls { padding: 10px 12px; border-bottom: 1px solid #2a2f38; background: #0a0d12; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  #controls > * { flex-shrink: 0; }
+  #screen-toggle { background: #1d2129; color: #97a3b6; border: 1px solid #2a2f38; padding: 4px 10px; border-radius: 4px; cursor: pointer; font: inherit; }
+  #screen-toggle.active, #screen-toggle:hover { color: #8ab4f8; border-color: #3a4150; }
+  #screen-panel { display: none; padding: 10px 12px; border-bottom: 1px solid #2a2f38; background: #0a0d12; font-size: 12px; color: #97a3b6; }
+  #screen-panel.open { display: block; }
+  #screen-panel label { display: inline-block; margin-right: 14px; margin-bottom: 4px; }
+  #screen-panel input[type=number] { width: 70px; padding: 2px 6px; }
+  #screen-status { color: #7a8395; margin-left: 10px; }
+  #compare-bin { position: fixed; bottom: 16px; left: 16px; max-width: calc(100vw - 460px); background: #1d2129; border: 1px solid #3a4150; border-radius: 6px; padding: 10px 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.4); display: none; z-index: 50; font-size: 13px; }
+  #compare-bin.open { display: block; }
+  #compare-bin .bin-head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+  #compare-bin .bin-pills { display: flex; flex-wrap: wrap; gap: 4px; max-width: 60ch; }
+  #compare-bin .bin-pill { background: #15171c; color: #8ab4f8; padding: 2px 8px; border-radius: 10px; cursor: pointer; font-size: 11px; }
+  #compare-bin .bin-pill:hover { background: #2a3a55; }
+  #compare-bin button { background: #1a3a4a; color: #67b5d8; border: 1px solid #2a4a5a; padding: 4px 10px; border-radius: 4px; cursor: pointer; font: inherit; font-size: 12px; }
+  #compare-bin button:hover { background: #2a4a5a; color: #b1ceff; }
+  #compare-bin button.clear { background: transparent; color: #97a3b6; border-color: #2a2f38; }
   input, select { background: #1d2129; color: #e3e7ed; border: 1px solid #2a2f38; padding: 4px 8px; border-radius: 4px; font: inherit; }
   .legend { font-size: 11px; padding: 8px 12px; background: #0a0d12; border-top: 1px solid #2a2f38; }
   .legend span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
@@ -148,18 +165,53 @@ const html = `<!doctype html>
 <div id="app">
   <div>
     <div id="controls">
-      <input id="search" placeholder="search ticker or name..." style="width: 300px">
-      &nbsp;&nbsp;
+      <input id="search" placeholder="search ticker or name..." style="width: 260px">
       <select id="filter">
         <option value="">All segments</option>
       </select>
-      &nbsp;&nbsp;
+      <button id="screen-toggle" onclick="toggleScreenPanel()">Screen ▾</button>
       <button onclick="clearSelection(); document.getElementById('search').value=''; resetView()">Reset</button>
+      <span id="screen-status"></span>
+    </div>
+    <div id="screen-panel">
+      <label>Min mcap ($B): <input type="number" id="f-minMcap" min="0" step="1" placeholder="any"></label>
+      <label>Min 5yr CAGR (%): <input type="number" id="f-minCagr" step="5" placeholder="any"></label>
+      <label>Min 5yr return (%): <input type="number" id="f-minRet" step="50" placeholder="any"></label>
+      <label>Max P/E: <input type="number" id="f-maxPe" step="5" placeholder="any"></label>
+      <label>Max P/S: <input type="number" id="f-maxPs" step="2" placeholder="any"></label>
+      <label>Min net margin (%): <input type="number" id="f-minNm" step="5" placeholder="any"></label>
+      <label>Tier:
+        <select id="f-tier">
+          <option value="">any</option>
+          <option value="U5">U5 Mining</option>
+          <option value="U4">U4 Gases/Wafers</option>
+          <option value="U3">U3 WFE/EDA</option>
+          <option value="U2">U2 Foundry/Memory</option>
+          <option value="U1">U1 Chips/Photonics</option>
+          <option value="AI core">AI server</option>
+          <option value="D1">D1 Hyperscalers/SW</option>
+          <option value="D2">D2 Power/Cooling/REIT</option>
+          <option value="D3">D3 EPC/Fiber</option>
+          <option value="D4">D4 Waste</option>
+          <option value="Q">Q Quantum</option>
+        </select>
+      </label>
+      &nbsp;<button onclick="applyScreen()">Apply</button>
+      <button class="clear" onclick="clearScreen()">Clear screen</button>
     </div>
     <div id="graph" style="height: calc(100vh - 84px)"></div>
     <div class="legend" id="legend"></div>
   </div>
   <div id="tip"></div>
+  <div id="compare-bin">
+    <div class="bin-head">
+      <strong style="color:#8ab4f8">Compare</strong>
+      <div class="bin-pills" id="bin-pills"></div>
+      <button onclick="openCompare()">Open</button>
+      <button class="clear" onclick="clearCompare()">Clear</button>
+    </div>
+    <div style="color:#7a8395; font-size:11px">Shift-click a ticker to add it · max 5</div>
+  </div>
   <div id="side">
     <div id="detail"><p class="meta"><em>Hover a ticker for a quick view, click for the full detail panel. Hover an edge for relationship context.</em></p></div>
     <div id="footer-meta">
@@ -471,7 +523,12 @@ function draw(filter) {
     const baseR = r;
     g.addEventListener("click", e => {
       e.stopPropagation();
-      if (!n.isGhost) selectTicker(n.id);
+      if (n.isGhost) return;
+      if (e.shiftKey || e.metaKey || e.ctrlKey) {
+        toggleCompare(n.id);
+      } else {
+        selectTicker(n.id);
+      }
     });
     g.addEventListener("mouseenter", e => {
       c.setAttribute("r", (baseR + 3).toFixed(2));
@@ -851,6 +908,9 @@ function showDetail(ticker) {
   }
   h += '</p>';
   h += '<p style="font-size:13px">'+info.role_in_chain+'</p>';
+  h += '<p><button class="gf-link" style="cursor:pointer; background:#1d2129; color:#8ab4f8; border:1px solid #2a2f38; padding:3px 10px; border-radius:4px; font-size:12px" onclick="toggleCompare(\\''+ticker+'\\')">'
+     + (compareSet && compareSet.has(ticker) ? '− Remove from compare' : '+ Add to compare')
+     + '</button></p>';
 
   const pillFor = (u) => DATA[u]
     ? '<span class="pill pill-link" onclick="selectTicker(\\''+u+'\\')">'+u+'</span>'
@@ -928,6 +988,230 @@ function showDetail(ticker) {
     }).join(" ");
     spark.innerHTML = '<polyline points="'+pts+'" fill="none" stroke="#8ab4f8" stroke-width="1.5"/>';
   }
+}
+
+// === Screen / filter by metric ===
+let activeScreen = null;
+
+function toggleScreenPanel() {
+  document.getElementById("screen-panel").classList.toggle("open");
+  document.getElementById("screen-toggle").classList.toggle("active");
+}
+function readNum(id) {
+  const v = document.getElementById(id).value;
+  return v === "" ? null : Number(v);
+}
+function applyScreen() {
+  const filter = {
+    minMcap: readNum("f-minMcap"),
+    minCagr: readNum("f-minCagr"),
+    minRet:  readNum("f-minRet"),
+    maxPe:   readNum("f-maxPe"),
+    maxPs:   readNum("f-maxPs"),
+    minNm:   readNum("f-minNm"),
+    tier:    document.getElementById("f-tier").value || null,
+  };
+  const anyActive = Object.values(filter).some(v => v != null && v !== "");
+  activeScreen = anyActive ? filter : null;
+  const matches = matchingTickers();
+  const status = activeScreen
+    ? \`screening \${matches.size} of \${Object.keys(DATA).length} tickers\`
+    : "";
+  document.getElementById("screen-status").textContent = status;
+  // Apply as highlight set (consistent with search/select UI)
+  if (activeScreen) {
+    highlightSet = matches;
+    selectedTicker = null;
+    applyHighlight();
+  } else {
+    clearSelection();
+  }
+}
+function clearScreen() {
+  ["f-minMcap","f-minCagr","f-minRet","f-maxPe","f-maxPs","f-minNm","f-tier"].forEach(id => {
+    document.getElementById(id).value = "";
+  });
+  activeScreen = null;
+  document.getElementById("screen-status").textContent = "";
+  clearSelection();
+}
+function matchingTickers() {
+  if (!activeScreen) return new Set(Object.keys(DATA));
+  const out = new Set();
+  for (const t in DATA) {
+    if (!screenMatch(t, activeScreen)) continue;
+    out.add(t);
+  }
+  return out;
+}
+function screenMatch(t, f) {
+  const d = DATA[t];
+  const info = d.info;
+  const m = deriveMetrics(t);
+  if (f.minMcap != null && (!d.mcap || d.mcap / 1000 < f.minMcap)) return false;
+  if (f.minCagr != null && (m.revCagr == null || m.revCagr < f.minCagr)) return false;
+  if (f.minRet != null && (m.priceRet == null || m.priceRet < f.minRet)) return false;
+  if (f.maxPe != null && (m.pe == null || m.pe > f.maxPe)) return false;
+  if (f.maxPs != null && (m.ps == null || m.ps > f.maxPs)) return false;
+  if (f.minNm != null && (m.netMargin == null || m.netMargin < f.minNm)) return false;
+  if (f.tier && info.tier !== f.tier) return false;
+  return true;
+}
+
+// === Compare mode ===
+const compareSet = new Set();
+const COMPARE_MAX = 5;
+
+function toggleCompare(ticker) {
+  if (compareSet.has(ticker)) compareSet.delete(ticker);
+  else {
+    if (compareSet.size >= COMPARE_MAX) return false;
+    compareSet.add(ticker);
+  }
+  renderCompareBin();
+  return true;
+}
+function renderCompareBin() {
+  const bin = document.getElementById("compare-bin");
+  const pills = document.getElementById("bin-pills");
+  if (compareSet.size === 0) {
+    bin.classList.remove("open");
+    pills.innerHTML = "";
+    return;
+  }
+  bin.classList.add("open");
+  pills.innerHTML = [...compareSet].map(t =>
+    '<span class="bin-pill" onclick="toggleCompare(\\''+t+'\\')" title="Remove">'+t+' ×</span>'
+  ).join("");
+}
+function clearCompare() {
+  compareSet.clear();
+  renderCompareBin();
+}
+function openCompare() {
+  if (compareSet.size === 0) return;
+  showCompareDetail([...compareSet]);
+}
+
+function showCompareDetail(tickers) {
+  const d = (t) => DATA[t];
+  let h = '<h1 style="border:0; padding:0">Comparing '+tickers.length+' tickers</h1>';
+  h += '<p class="meta">'+tickers.map(t => '<span class="pill">'+t+'</span>').join(' ')+'</p>';
+
+  // Headline metrics table
+  h += '<h2>Headline financials (latest FY)</h2>';
+  h += '<table><tr><th>Metric</th>';
+  for (const t of tickers) h += '<th>'+t+'</th>';
+  h += '</tr>';
+
+  const rows = [
+    { label: 'Name', getter: t => d(t).info.name },
+    { label: 'Tier / segment', getter: t => d(t).info.tier+' · '+d(t).info.segment },
+    { label: 'Market cap', getter: t => {
+        const mc = d(t).mcap;
+        return mc == null ? '—' : (mc >= 1e6 ? '$'+(mc/1e6).toFixed(1)+'T' : mc >= 1e3 ? '$'+(mc/1e3).toFixed(1)+'B' : '$'+mc.toFixed(0)+'M');
+    }},
+    { label: 'Latest revenue', getter: t => {
+        const f = d(t).f, latest = f && f.yr && f.yr[0];
+        return latest ? fmtNative(latest.rev, f.ccy) : '—';
+    }},
+    { label: 'Net income', getter: t => {
+        const f = d(t).f, latest = f && f.yr && f.yr[0];
+        return latest ? fmtNative(latest.ni, f.ccy) : '—';
+    }},
+    { label: 'EPS', getter: t => {
+        const f = d(t).f, latest = f && f.yr && f.yr[0];
+        return latest && latest.eps != null ? latest.eps.toFixed(2) : '—';
+    }},
+    { label: '5yr rev CAGR', getter: t => fmtPct1(deriveMetrics(t).revCagr) },
+    { label: '5yr price return', getter: t => fmtPct1(deriveMetrics(t).priceRet) },
+    { label: 'Net margin', getter: t => fmtPct1(deriveMetrics(t).netMargin) },
+    { label: 'P/E', getter: t => fmtPe(deriveMetrics(t).pe) },
+    { label: 'P/S', getter: t => fmtPs(deriveMetrics(t).ps) },
+    { label: 'PEG', getter: t => {const v=deriveMetrics(t).peg; return v==null?'—':v.toFixed(2);} },
+    { label: 'Decoupling', getter: t => {const v=deriveMetrics(t).decoupling; return v==null?'—':v.toFixed(1)+'×';} },
+  ];
+  for (const row of rows) {
+    h += '<tr><td><b>'+row.label+'</b></td>';
+    for (const t of tickers) h += '<td>'+row.getter(t)+'</td>';
+    h += '</tr>';
+  }
+  h += '</table>';
+
+  // Sparkline comparison: normalize each ticker to its 2021-05 start = 100
+  h += '<h2>Price (rebased to 100 at 2021-05)</h2>';
+  h += '<div style="background:#1d2129; padding:10px; border-radius:4px"><svg id="cmpchart" width="100%" viewBox="0 0 600 200" preserveAspectRatio="none" style="display:block"></svg></div>';
+  h += '<p class="meta" style="font-size:11px">Each ticker rebased to 100 on its first available month — lets you see relative performance.</p>';
+
+  // Supplier-customer overlap
+  const upstreamCounts = {}, downstreamCounts = {};
+  for (const t of tickers) {
+    for (const u of d(t).info.key_upstream || []) if (DATA[u]) upstreamCounts[u] = (upstreamCounts[u]||0) + 1;
+    for (const dn of d(t).info.key_downstream || []) if (DATA[dn]) downstreamCounts[dn] = (downstreamCounts[dn]||0) + 1;
+  }
+  const sharedUp = Object.entries(upstreamCounts).filter(([,c]) => c >= 2).sort((a,b)=>b[1]-a[1]);
+  const sharedDn = Object.entries(downstreamCounts).filter(([,c]) => c >= 2).sort((a,b)=>b[1]-a[1]);
+  if (sharedUp.length || sharedDn.length) {
+    h += '<h2>Shared supply-chain connections</h2>';
+    if (sharedUp.length) {
+      h += '<p><b>Common upstream suppliers</b> (used by 2+ of these): ';
+      h += sharedUp.map(([t,c]) => '<span class="pill pill-link" onclick="selectTicker(\\''+t+'\\')">'+t+' ('+c+')</span>').join(' ');
+      h += '</p>';
+    }
+    if (sharedDn.length) {
+      h += '<p><b>Common downstream customers</b> (selling to 2+ of these): ';
+      h += sharedDn.map(([t,c]) => '<span class="pill pill-link" onclick="selectTicker(\\''+t+'\\')">'+t+' ('+c+')</span>').join(' ');
+      h += '</p>';
+    }
+  }
+
+  document.getElementById("detail").innerHTML = h;
+
+  // Render rebased chart
+  drawCompareChart(tickers);
+}
+
+function drawCompareChart(tickers) {
+  const svg = document.getElementById("cmpchart");
+  if (!svg) return;
+  const W = 600, H = 200, P = 14;
+  const palette = ["#8ab4f8","#80e080","#e6b450","#67b5d8","#f08080"];
+  // Build normalized series
+  const series = tickers.map((t, i) => {
+    const p = DATA[t] && DATA[t].p;
+    if (!p || p.length === 0) return null;
+    const base = p[0][1];
+    return { t, color: palette[i % palette.length], data: p.map(([m, c]) => [m, (c/base)*100]) };
+  }).filter(Boolean);
+  if (series.length === 0) { svg.innerHTML = '<text x="20" y="100" fill="#7a8395">No price data</text>'; return; }
+  // x: month index across longest series
+  const maxLen = Math.max(...series.map(s => s.data.length));
+  const allVals = series.flatMap(s => s.data.map(d => d[1]));
+  const min = Math.min(...allVals), max = Math.max(...allVals);
+  const range = max - min || 1;
+  let svgInner = '';
+  // y-axis gridlines at 100, peak, trough
+  const grid = [100, Math.round(max), Math.round(min)];
+  for (const yv of grid) {
+    const y = H - P - (H - 2*P) * (yv - min) / range;
+    svgInner += '<line x1="'+P+'" y1="'+y.toFixed(1)+'" x2="'+(W-P)+'" y2="'+y.toFixed(1)+'" stroke="#2a2f38" stroke-width="0.5"/>';
+    svgInner += '<text x="'+(W-P-2)+'" y="'+(y-2)+'" fill="#7a8395" font-size="9" text-anchor="end">'+yv+'</text>';
+  }
+  // Series lines
+  for (const s of series) {
+    const pts = s.data.map((d, j) => {
+      const x = P + (W - 2*P) * j / Math.max(1, maxLen - 1);
+      const y = H - P - (H - 2*P) * (d[1] - min) / range;
+      return x.toFixed(1) + "," + y.toFixed(1);
+    }).join(" ");
+    svgInner += '<polyline points="'+pts+'" fill="none" stroke="'+s.color+'" stroke-width="1.4" opacity="0.9"/>';
+  }
+  // Legend
+  series.forEach((s, i) => {
+    svgInner += '<rect x="'+(P+i*100)+'" y="4" width="10" height="10" fill="'+s.color+'"/>';
+    svgInner += '<text x="'+(P+i*100+14)+'" y="12" fill="#e3e7ed" font-size="10">'+s.t+'</text>';
+  });
+  svg.innerHTML = svgInner;
 }
 
 document.getElementById("filter").addEventListener("change", e => {
