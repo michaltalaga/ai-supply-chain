@@ -510,11 +510,12 @@
       "trend": "Growing as AI server refresh cycles shorten (~3 yr)."
     },
     "EME->Hyperscalers": {
-      "what_flows": "Mechanical + electrical contracting for data-center builds (busbars, cooling pipework)",
-      "importance": "major",
+      "what_flows": "Mechanical + electrical contracting for data-center builds — busbar/cable tray/cooling pipework. EME is the #1 US data-center mech contractor.",
+      "importance": "critical",
       "annual_usd_billions": "2-3",
+      "deal_basis": "EME's network-and-comms segment grew >40% YoY in 2024-25 on data-center demand",
       "single_source_risk": "low",
-      "trend": "Growing fast; #1 data-center mechanical contractor."
+      "trend": "Growing fast"
     },
     "DLR->Hyperscalers": {
       "what_flows": "Wholesale + hyperscale data-center capacity (lease-based) for MSFT/AMZN/GOOG/META/ORCL",
@@ -555,7 +556,6 @@
       "alternatives": "Very few — specialty laser physics expertise concentrated at COHR/II-VI + a handful of private suppliers.",
       "trend": "Growing slowly; small absolute $ but mission-critical."
     },
-
     "MU->MSFT": {
       "what_flows": "HBM + DDR5 server memory for Azure AI fleet",
       "importance": "major",
@@ -608,7 +608,6 @@
       "single_source_risk": "low",
       "trend": "Growing"
     },
-
     "AVGO->AAPL": {
       "what_flows": "Custom wireless silicon (FBAR filters, RF front-end), WiFi/BT chips, integrated optics. Multi-year supply agreement renewed/extended through 2027.",
       "importance": "critical",
@@ -648,7 +647,6 @@
       "single_source_risk": "low",
       "trend": "Declining"
     },
-
     "ANET->MSFT": {
       "what_flows": "800G/1600G Ethernet switches for Azure AI fabrics (alternative to NVDA Spectrum-X / Infiniband)",
       "importance": "critical",
@@ -672,7 +670,6 @@
       "single_source_risk": "high",
       "trend": "Growing with Trainium ramp"
     },
-
     "ETN->META": {
       "what_flows": "Switchgear + UPS + busway for hyperscale data-center campuses",
       "importance": "major",
@@ -716,7 +713,6 @@
       "single_source_risk": "medium",
       "trend": "Growing"
     },
-
     "D->Hyperscalers": {
       "what_flows": "Virginia data-center alley electricity supply — D powers ~70%+ of North Virginia's hyperscaler load",
       "importance": "critical",
@@ -746,7 +742,6 @@
       "single_source_risk": "high",
       "trend": "Growing fast; AEP forecast ~15 GW of new AI load in Ohio service territory"
     },
-
     "MOD->SMCI": {
       "what_flows": "Coolant Distribution Units (CDUs) + Airedale heat-rejection for GPU server racks",
       "importance": "critical",
@@ -776,7 +771,6 @@
       "single_source_risk": "low",
       "trend": "Growing"
     },
-
     "ALB->TSLA": {
       "what_flows": "Lithium hydroxide for EV traction batteries (long-term supply agreement)",
       "importance": "major",
@@ -809,7 +803,6 @@
       "single_source_risk": "high",
       "trend": "Stable"
     },
-
     "LITE->MSFT": {
       "what_flows": "Optical transceivers + Cloudlight lasers for Azure AI fabrics",
       "importance": "major",
@@ -824,7 +817,6 @@
       "single_source_risk": "medium",
       "trend": "Growing"
     },
-
     "PWR->Hyperscalers": {
       "what_flows": "Substations + transmission interconnections + on-site power delivery for hyperscaler campuses",
       "importance": "critical",
@@ -840,15 +832,6 @@
       "single_source_risk": "low",
       "trend": "Stable"
     },
-    "EME->Hyperscalers": {
-      "what_flows": "Mechanical + electrical contracting for data-center builds — busbar/cable tray/cooling pipework. EME is the #1 US data-center mech contractor.",
-      "importance": "critical",
-      "annual_usd_billions": "2-3",
-      "deal_basis": "EME's network-and-comms segment grew >40% YoY in 2024-25 on data-center demand",
-      "single_source_risk": "low",
-      "trend": "Growing fast"
-    },
-
     "ICHR->AMAT": {
       "what_flows": "Gas + fluid delivery subsystems built into AMAT process tools",
       "importance": "critical",
@@ -872,7 +855,6 @@
       "single_source_risk": "high",
       "trend": "Growing with HBM stacking + CoWoS volume"
     },
-
     "NVDA->CRWV": {
       "what_flows": "H100/H200/B100/B200/B300 GPUs — CoreWeave operates ~470K NVDA GPUs as of 2026, making it among NVDA's top-3 direct customers",
       "importance": "critical",
@@ -934,6 +916,435 @@
       "annual_usd_billions": "0.05-0.15",
       "single_source_risk": "medium",
       "trend": "Growing — CRWV signing dedicated baseload PPAs as it scales"
+    },
+    "NOW->Enterprise": {
+      "what_flows": "Now Assist GenAI agents inside ServiceNow ITSM/ITOM/HRSD workflows for Fortune 2000 customers",
+      "importance": "critical",
+      "annual_usd_billions": "10-12",
+      "deal_basis": "NOW FY25 subscription revenue ~$11B; Now Assist Pro Plus SKU is fastest-growing add-on disclosed in IR commentary.",
+      "single_source_risk": "low",
+      "alternatives": "SAP Joule, Salesforce Agentforce, Workday + custom GenAI builds.",
+      "trend": "Growing fast; AI SKU attach rate the #1 narrative on NOW earnings calls."
+    },
+    "CRM->Enterprise": {
+      "what_flows": "Agentforce autonomous AI agents + Einstein GenAI bundled into Sales/Service/Marketing Clouds + Data Cloud",
+      "importance": "critical",
+      "annual_usd_billions": "35-38",
+      "deal_basis": "CRM FY26 (Jan 2026) revenue guide ~$38B; Agentforce monetization via Flex Credits ramping in 2026.",
+      "single_source_risk": "low",
+      "alternatives": "MSFT Dynamics 365 + Copilot, HubSpot, Oracle Fusion.",
+      "trend": "Mixed — top-line stable but Agentforce uptake slower than initial guidance."
+    },
+    "ADBE->Creators": {
+      "what_flows": "Firefly GenAI image/video models + Sensei inside Creative Cloud + Express; commercial-safe generation licenses",
+      "importance": "critical",
+      "annual_usd_billions": "20-22",
+      "deal_basis": "ADBE FY25 (Nov 2025) revenue ~$21B; Digital Media segment ~$15B, GenAI now embedded across all CC apps.",
+      "single_source_risk": "low",
+      "alternatives": "Midjourney, OpenAI Sora, Runway, Canva — strong substitution risk on the prosumer edge.",
+      "trend": "Stable to slightly growing; AI substitution risk a recurring bear thesis."
+    },
+    "SAP->Enterprise": {
+      "what_flows": "Joule AI copilot + RISE/GROW S/4HANA cloud + Datasphere data fabric for ERP-anchored GenAI",
+      "importance": "critical",
+      "annual_usd_billions": "34-36",
+      "deal_basis": "SAP FY25 cloud revenue ~$20B (out of total ~$36B); Joule attached to all RISE migrations.",
+      "single_source_risk": "low",
+      "alternatives": "Oracle Fusion ERP, Workday, MSFT Dynamics.",
+      "trend": "Growing; cloud backlog +25%+ YoY through 2025."
+    },
+    "CRWD->Enterprise": {
+      "what_flows": "Falcon platform endpoint + cloud + identity security; Charlotte AI agentic SOC analyst",
+      "importance": "major",
+      "annual_usd_billions": "4-5",
+      "deal_basis": "CRWD FY26 ARR ~$4.5B; Charlotte AI module attaching to ~25%+ of new logos.",
+      "single_source_risk": "low",
+      "alternatives": "PANW Cortex XSIAM, MSFT Defender, SentinelOne.",
+      "trend": "Growing; recovery post Jul-2024 outage incident largely complete."
+    },
+    "PANW->Enterprise": {
+      "what_flows": "Prisma + Cortex XSIAM platforms with Precision AI for SOC + Prisma AIRS for runtime LLM/agent security",
+      "importance": "major",
+      "annual_usd_billions": "8-9",
+      "deal_basis": "PANW FY25 (Jul 2025) revenue ~$8.7B; platformization narrative driving cross-sell.",
+      "single_source_risk": "low",
+      "alternatives": "CRWD, ZS, Fortinet, MSFT Sentinel.",
+      "trend": "Growing fast on platform consolidation."
+    },
+    "ZS->Enterprise": {
+      "what_flows": "Zero-trust SASE platform + AI-driven SOC automation for distributed workforces and AI agent traffic",
+      "importance": "major",
+      "annual_usd_billions": "2.5-3",
+      "single_source_risk": "low",
+      "alternatives": "PANW Prisma Access, NET, Netskope (private), Cisco SASE.",
+      "trend": "Growing; AI workload egress traffic a new pricing vector."
+    },
+    "DDOG->Hyperscalers": {
+      "what_flows": "Observability + LLM Observability product covering GPU fleet, model latency, hallucination metrics for hyperscaler-hosted AI workloads",
+      "importance": "major",
+      "annual_usd_billions": "3-4",
+      "deal_basis": "DDOG FY25 revenue ~$3.6B; ~80% of usage on AWS + Azure infrastructure (DDOG hosting fees a meaningful cost line for hyperscalers' AI customers).",
+      "single_source_risk": "low",
+      "alternatives": "ESTC, Splunk (CSCO), Grafana (private), New Relic (private).",
+      "trend": "Growing fast; LLM observability SKU was a 2024 launch with strong attach."
+    },
+    "MDB->Enterprise": {
+      "what_flows": "Atlas document DB + Atlas Vector Search for RAG pipelines; AI-native data layer for application developers",
+      "importance": "major",
+      "annual_usd_billions": "2-2.5",
+      "deal_basis": "MDB FY26 (Jan 2026) revenue ~$2B; Atlas Vector Search GA driving net-new AI workloads.",
+      "single_source_risk": "low",
+      "alternatives": "Pinecone (private), Weaviate (private), PostgreSQL pgvector, ESTC.",
+      "trend": "Growing; consumption-based model exposes them to AI workload bursts."
+    },
+    "ESTC->Enterprise": {
+      "what_flows": "Elasticsearch + vector search + ES|QL semantic queries for enterprise RAG + observability bundles",
+      "importance": "major",
+      "annual_usd_billions": "1.4-1.6",
+      "single_source_risk": "low",
+      "alternatives": "MDB Atlas Vector, OpenSearch (AWS), Pinecone.",
+      "trend": "Growing; vector + search consolidation tailwind."
+    },
+    "NET->Enterprise": {
+      "what_flows": "Workers AI inference at edge + AI Gateway + R2 object storage for low-latency model serving across 300+ PoPs",
+      "importance": "major",
+      "annual_usd_billions": "1.8-2.2",
+      "deal_basis": "NET FY25 revenue ~$1.9B; Workers AI launched 2023 monetizing across 2024-25.",
+      "single_source_risk": "low",
+      "alternatives": "AWS Lambda, Fastly Compute@Edge, Vercel.",
+      "trend": "Growing; edge inference is the differentiated story."
+    },
+    "SNOW->Enterprise": {
+      "what_flows": "Snowflake Data Cloud + Cortex AI (in-warehouse LLM functions) + Snowpark Container Services for AI inference adjacent to enterprise data",
+      "importance": "critical",
+      "annual_usd_billions": "4-4.5",
+      "deal_basis": "SNOW FY26 (Jan 2026) product revenue guide ~$4.3B; Cortex consumption disclosed as one of fastest-growing workloads.",
+      "single_source_risk": "low",
+      "alternatives": "Databricks (private), GCP BigQuery + Vertex, AWS Redshift + Bedrock, MSFT Fabric.",
+      "trend": "Growing; data-gravity moat keeping enterprise AI inference inside Snowflake."
+    },
+    "NVDA->Auto": {
+      "what_flows": "DRIVE Thor / Orin SoCs + DGX training systems for ADAS + autonomous-vehicle programs at major auto OEMs",
+      "importance": "major",
+      "annual_usd_billions": "1.5-2.5",
+      "deal_basis": "NVDA auto segment revenue ~$1.7B FY26 with disclosed >$25B 6-yr pipeline (Mercedes, JLR, BYD, Volvo, Lucid).",
+      "single_source_risk": "medium",
+      "alternatives": "QCOM Snapdragon Ride, MBLY EyeQ, Tesla internal silicon.",
+      "trend": "Growing; auto is NVDA's 'next vertical' commentary."
+    },
+    "QCOM->AAPL": {
+      "what_flows": "5G modem chips (X75/X80) for iPhone — multi-year supply agreement extended through 2026/27",
+      "importance": "critical",
+      "annual_usd_billions": "5-7",
+      "deal_basis": "Sep 2023 supply agreement: covers iPhones launched through 2026; AAPL modem in-house program (Sinope) repeatedly delayed.",
+      "single_source_risk": "high",
+      "alternatives": "Apple internal modem (C1 partially shipping in lower iPhones, full ramp delayed); MediaTek (not used in iPhone).",
+      "trend": "Declining medium-term as Apple insources modem; near-term stable."
+    },
+    "ON->Auto": {
+      "what_flows": "SiC power devices (EliteSiC) + image sensors (Hyperlux) for EV traction inverters + ADAS cameras at major auto OEMs",
+      "importance": "critical",
+      "annual_usd_billions": "3-4",
+      "deal_basis": "ON FY25 automotive revenue ~$3.5B (~50% of total); long-term SiC supply agreements with VW, BMW, Stellantis, NIO.",
+      "single_source_risk": "medium",
+      "alternatives": "Infineon SiC, STMicro, ROHM, WOLF (direct).",
+      "trend": "Mixed — SiC demand cooling on slower EV ramps, but ON gaining share."
+    },
+    "ADI->DELL": {
+      "what_flows": "Precision PMICs + signal-chain analog for server platforms incl. AI compute power delivery",
+      "importance": "major",
+      "annual_usd_billions": "0.4-0.7",
+      "single_source_risk": "low",
+      "alternatives": "TXN, MPS, Infineon, Renesas.",
+      "trend": "Growing slowly with AI server PMIC content per box increasing."
+    },
+    "TXN->Industrial": {
+      "what_flows": "Analog + embedded MCU/processors across factory automation, motor drives, building systems, medical",
+      "importance": "critical",
+      "annual_usd_billions": "9-11",
+      "deal_basis": "TXN FY25 industrial end-market revenue ~$10B (~65% of total before recovery).",
+      "single_source_risk": "low",
+      "alternatives": "ADI, MCHP, STMicro, Renesas, NXP.",
+      "trend": "Mixed; industrial cycle troughing late 2024 with slow recovery 2025-26."
+    },
+    "MPWR->NVDA": {
+      "what_flows": "Vertical Power Modules (VPM) + multi-phase controllers for high-density 48V→1V GPU board power delivery",
+      "importance": "critical",
+      "annual_usd_billions": "0.8-1.2",
+      "deal_basis": "MPWR enterprise/data center revenue ~$1.3B FY25; NVDA is single largest customer, disclosed concentration risk.",
+      "single_source_risk": "high",
+      "alternatives": "Renesas (Intersil), Infineon, VICR Factorized Power.",
+      "trend": "Growing fast; NVDA Blackwell power density (1200W+) accelerated MPWR content."
+    },
+    "VICR->NVDA": {
+      "what_flows": "Factorized Power 48V Direct-to-Chip modules for B200/B300 GPU boards (alongside MPWR)",
+      "importance": "major",
+      "annual_usd_billions": "0.15-0.3",
+      "single_source_risk": "high",
+      "alternatives": "MPWR (primary), Infineon, Renesas.",
+      "trend": "Growing; design wins disclosed across Blackwell + Rubin."
+    },
+    "GEV->DLR": {
+      "what_flows": "Gas turbines for on-site captive generation + grid transformers for hyperscale campuses contracted via DLR",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "medium",
+      "alternatives": "Siemens Energy, Mitsubishi Power, Caterpillar (smaller scale).",
+      "trend": "Growing fast; gas turbine lead times pushed to 2028+."
+    },
+    "GEV->EQIX": {
+      "what_flows": "Gas turbines + medium-voltage switchgear + grid-tie systems for xScale hyperscale builds",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "medium",
+      "trend": "Growing."
+    },
+    "NEE->Hyperscalers": {
+      "what_flows": "Renewable PPAs (wind + solar) + battery storage across multiple ISOs for MSFT, GOOGL, META, AMZN, ORCL",
+      "importance": "critical",
+      "annual_usd_billions": "1.5-2.5",
+      "deal_basis": "NEE largest US renewables developer; ~10 GW+ corporate PPAs with hyperscalers signed 2022-25, MSFT a top 3 customer.",
+      "single_source_risk": "low",
+      "alternatives": "AES, Engie (private), independent developers; in-territory utilities.",
+      "trend": "Growing fast; NEE positioning as default hyperscaler renewables counterparty."
+    },
+    "ETR->META": {
+      "what_flows": "Louisiana electricity supply for META Richland Parish 4-million-sq-ft AI campus (~2 GW peak); approved gas plant additions",
+      "importance": "critical",
+      "annual_usd_billions": "0.3-0.6",
+      "deal_basis": "Dec 2024 announcement: $10B META campus; ETR filed for 1.5 GW of new gas-fired capacity Apr 2025.",
+      "single_source_risk": "high",
+      "trend": "Growing fast.",
+      "key_event": "META Richland Parish announcement Dec 2024; ETR new-gas filing Apr 2025."
+    },
+    "SO->Hyperscalers": {
+      "what_flows": "Georgia Power electricity from Vogtle 3+4 nuclear + new gas; MSFT/GOOGL/META Georgia campuses",
+      "importance": "major",
+      "annual_usd_billions": "0.4-0.8",
+      "deal_basis": "SO disclosed 36 GW of data-center demand requests in Georgia Power queue 2024-25; Vogtle 3+4 fully commercial 2024.",
+      "single_source_risk": "high",
+      "trend": "Growing fast; Georgia among top 3 hyperscaler load-growth states."
+    },
+    "OKE->Utilities": {
+      "what_flows": "Natural gas transportation + NGL services to Permian + Mid-Continent gas-fired generation supplying AI data-center load",
+      "importance": "major",
+      "annual_usd_billions": "1-2",
+      "single_source_risk": "low",
+      "alternatives": "WMB, KMI, ENB, TRGP.",
+      "trend": "Growing; gas demand for power gen the new midstream tailwind."
+    },
+    "WMB->Hyperscalers": {
+      "what_flows": "Transco mainline gas delivery to Atlantic + Southeast data-center clusters (Virginia, Carolinas, Georgia)",
+      "importance": "major",
+      "annual_usd_billions": "0.8-1.5",
+      "deal_basis": "WMB disclosed >10 GW of new power gen projects connected to its system through 2030.",
+      "single_source_risk": "low",
+      "trend": "Growing fast on Southeast data-center gas demand."
+    },
+    "AGX->IPP": {
+      "what_flows": "EPC construction of new combined-cycle gas plants for independent power producers serving AI campus load",
+      "importance": "critical",
+      "annual_usd_billions": "0.8-1.2",
+      "deal_basis": "AGX backlog reached record ~$2B FY25 (Jan 2025); majority is gas-fired power plant EPC tied to data-center IPP demand.",
+      "single_source_risk": "medium",
+      "alternatives": "FLR, KBR, Bechtel (private), Black & Veatch (private).",
+      "trend": "Growing fast.",
+      "key_event": "AGX backlog hit record on multiple Trumbull/Texas gas-plant EPC awards FY25."
+    },
+    "POWL->DLR": {
+      "what_flows": "Custom medium-voltage switchgear for utility-scale data-center substations + on-site power distribution",
+      "importance": "major",
+      "annual_usd_billions": "0.15-0.3",
+      "single_source_risk": "medium",
+      "alternatives": "ETN, SBGSY, ABBNY, HUBB.",
+      "trend": "Growing fast; POWL backlog +>100% YoY in 2024."
+    },
+    "KBR->Government": {
+      "what_flows": "Mission-IT + facilities engineering for DOD/DOE programs incl. nuclear + classified data-center support",
+      "importance": "major",
+      "annual_usd_billions": "5-6",
+      "deal_basis": "KBR FY25 revenue ~$7.7B; ~70% Government Solutions segment.",
+      "single_source_risk": "low",
+      "alternatives": "FLR, J, LDOS, BAH, SAIC.",
+      "trend": "Growing on defense + AI infrastructure DoD spending."
+    },
+    "FLR->Utilities": {
+      "what_flows": "EPC for nuclear (Vogtle support, SMR programs) + advanced manufacturing + power-plant builds",
+      "importance": "major",
+      "annual_usd_billions": "2-3",
+      "single_source_risk": "low",
+      "alternatives": "Bechtel (private), KBR, ACM, J, AGX.",
+      "trend": "Growing on nuclear + AI-infrastructure capex cycle."
+    },
+    "J->Hyperscalers": {
+      "what_flows": "Site selection + facilities engineering + program management for hyperscale data-center campuses",
+      "importance": "major",
+      "annual_usd_billions": "0.6-1",
+      "single_source_risk": "low",
+      "alternatives": "ACM, KBR, AECOM peers.",
+      "trend": "Growing."
+    },
+    "ACM->Hyperscalers": {
+      "what_flows": "Engineering + construction management for data-center site development + utility interconnections",
+      "importance": "major",
+      "annual_usd_billions": "0.8-1.2",
+      "single_source_risk": "low",
+      "alternatives": "J, KBR, Stantec (TSX), WSP (TSX).",
+      "trend": "Growing fast on hyperscaler campus pipeline."
+    },
+    "STRL->Hyperscalers": {
+      "what_flows": "E-Infrastructure data-center site prep (mass excavation, foundations, utility trenching) for hyperscaler builds",
+      "importance": "major",
+      "annual_usd_billions": "0.5-0.8",
+      "deal_basis": "STRL E-Infrastructure segment revenue grew ~50%+ in 2023-25 driven by data-center site work.",
+      "single_source_risk": "low",
+      "trend": "Growing fast."
+    },
+    "PRIM->Utilities": {
+      "what_flows": "Pipeline + power transmission + telecom EPC for utility customers serving AI load growth",
+      "importance": "major",
+      "annual_usd_billions": "2-3",
+      "single_source_risk": "low",
+      "alternatives": "PWR, MTZ, MYR Group.",
+      "trend": "Growing on utility capex."
+    },
+    "WM->Commercial": {
+      "what_flows": "Solid-waste collection + landfill disposal + recycling for commercial real estate including hyperscaler campuses; landfill-gas-to-RNG monetization",
+      "importance": "major",
+      "annual_usd_billions": "10-12",
+      "deal_basis": "WM FY25 revenue ~$22B; commercial segment ~50%; RNG growing as data-center off-takers seek carbon-credit pathways.",
+      "single_source_risk": "low",
+      "alternatives": "RSG, WCN, GFL.",
+      "trend": "Stable to growing."
+    },
+    "RSG->Commercial": {
+      "what_flows": "Commercial + industrial solid waste + Polymer Center recycled-plastic streams; circular-economy pilot programs",
+      "importance": "major",
+      "annual_usd_billions": "6-8",
+      "single_source_risk": "low",
+      "alternatives": "WM, WCN, GFL.",
+      "trend": "Growing; pricing power above CPI."
+    },
+    "GFL->Industrial": {
+      "what_flows": "Industrial + soil remediation + hazardous-materials services across Canada + US incl. fab/site cleanup",
+      "importance": "major",
+      "annual_usd_billions": "2-3",
+      "single_source_risk": "low",
+      "alternatives": "Clean Harbors, US Ecology (private), Veolia.",
+      "trend": "Growing."
+    },
+    "VEOEY->TSM": {
+      "what_flows": "Ultra-pure water + industrial wastewater treatment services for TSM Taiwan + Arizona fabs",
+      "importance": "major",
+      "annual_usd_billions": "0.2-0.4",
+      "deal_basis": "Veolia disclosed multiple long-term semi water-treatment contracts in Taiwan + Arizona; fab-water demand a stated growth vector.",
+      "single_source_risk": "medium",
+      "alternatives": "ECL, SUEZ (private), Kurita (foreign).",
+      "trend": "Growing fast with fab buildouts + water scarcity."
+    },
+    "IPGP->Industrial": {
+      "what_flows": "High-power fiber lasers for industrial cutting/welding/marking (auto, sheet metal, EV battery)",
+      "importance": "critical",
+      "annual_usd_billions": "0.8-1",
+      "deal_basis": "IPGP FY25 revenue ~$1B; ~70% industrial materials processing.",
+      "single_source_risk": "low",
+      "alternatives": "TRUMPF (private), Han's Laser (CN), Coherent.",
+      "trend": "Declining — auto/industrial laser demand weak through 2024-25; China overcapacity."
+    },
+    "POET->AI server makers": {
+      "what_flows": "Optical Interposer wafer-level packaging samples + 1.6T light engines for AI co-packaged optics; early-stage qualification",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "high",
+      "alternatives": "GFS silicon photonics, INTC silicon photonics, Ayar Labs (private), Lightmatter (private).",
+      "trend": "Growing from a tiny base; pre-revenue commercial inflection targeted 2026."
+    },
+    "MTSI->ANET": {
+      "what_flows": "RF + analog ICs + 100G/200G PAM4 lane retimers + linear drivers for 800G/1.6T optical modules used in ANET switches",
+      "importance": "major",
+      "annual_usd_billions": "0.2-0.4",
+      "single_source_risk": "medium",
+      "alternatives": "MRVL Inphi DSPs, Semtech, Credo.",
+      "trend": "Growing fast with linear-drive optics + ZR/ZR+ DCI adoption."
+    },
+    "RMBS->MU": {
+      "what_flows": "Memory interface IP (DDR5 RCD/DB, MRDIMM, HBM controllers, CXL) licensed + chip products for server memory subsystems",
+      "importance": "major",
+      "annual_usd_billions": "0.2-0.4",
+      "deal_basis": "RMBS FY25 revenue ~$600M with majority from server DRAM interface chips (RCD/DB) used in DDR5 + MRDIMM platforms.",
+      "single_source_risk": "low",
+      "alternatives": "Renesas (IDT), Montage (HKEX).",
+      "trend": "Growing fast with DDR5 + MRDIMM ramp."
+    },
+    "GFS->Auto": {
+      "what_flows": "Specialty foundry (12LP+/22FDX) RF + automotive silicon for ADAS, radar, body-control + RF front-end",
+      "importance": "critical",
+      "annual_usd_billions": "1.5-2.5",
+      "deal_basis": "GFS FY25 revenue ~$6.7B; automotive ~20% and the highest-growth end market disclosed.",
+      "single_source_risk": "medium",
+      "alternatives": "TSM specialty nodes, UMC, STMicro, SOIGY-based fabs.",
+      "trend": "Growing fast; multi-year LTA expansions with Tier-1 auto suppliers."
+    },
+    "UMC->Fabless": {
+      "what_flows": "Mature-node (14/22/28/40nm) foundry capacity for fabless analog/RF/IoT/auto customers (NXP, Renesas, MediaTek, etc.)",
+      "importance": "major",
+      "annual_usd_billions": "6-7",
+      "deal_basis": "UMC FY25 revenue ~$7B; share of mature-node global capacity ~10%.",
+      "single_source_risk": "low",
+      "alternatives": "TSM mature nodes, GFS, SMIC (China), Tower (now INTC Foundry).",
+      "trend": "Mixed — mature-node oversupply in 2024-25 limiting pricing power."
+    },
+    "AMKR->NVDA": {
+      "what_flows": "Advanced flip-chip + 2.5D packaging capacity (Arizona facility ramping) for NVDA + AMD GPUs as CoWoS overflow",
+      "importance": "major",
+      "annual_usd_billions": "0.4-0.8",
+      "deal_basis": "AMKR Arizona Peoria facility groundbreaking 2023, production ramp 2027; AAPL+NVDA disclosed as anchor customers.",
+      "single_source_risk": "medium",
+      "alternatives": "TSM in-house CoWoS, ASX advanced packaging.",
+      "trend": "Growing; CoWoS bottleneck driving secondary OSAT volume."
+    },
+    "AMKR->AAPL": {
+      "what_flows": "Advanced flip-chip + system-in-package for A-series + M-series silicon at Arizona facility (anchor tenant)",
+      "importance": "critical",
+      "annual_usd_billions": "1-1.5",
+      "deal_basis": "AAPL disclosed as anchor tenant for AMKR's Arizona Peoria advanced packaging facility (Nov 2023).",
+      "single_source_risk": "high",
+      "trend": "Growing; first US-packaged Apple silicon expected from this facility post-2027.",
+      "key_event": "AMKR-AAPL Arizona Peoria anchor agreement Nov 2023."
+    },
+    "HON->Quantum": {
+      "what_flows": "Quantinuum (HON majority stake) trapped-ion H1/H2 quantum systems sold to enterprise + government research customers; quantum networking R&D",
+      "importance": "critical",
+      "annual_usd_billions": "<0.1",
+      "deal_basis": "Quantinuum FY24 revenue ~$30M; HON values Quantinuum at ~$5B as of 2024 funding round.",
+      "single_source_risk": "high",
+      "alternatives": "IONQ (also trapped ion), IBM Quantum (superconducting), QuEra (private, neutral atom).",
+      "trend": "Growing slowly; revenue tiny but strategic and HON has commitments to scale Quantinuum independently."
+    },
+    "IBM->Government": {
+      "what_flows": "IBM Quantum systems + access subscriptions for government labs (Argonne, Oak Ridge, RIKEN, AIST, etc.) + watsonx classical AI deployments",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "low",
+      "alternatives": "Microsoft Azure Quantum, AWS Braket, Quantinuum direct.",
+      "trend": "Growing; Quantum System Two installations + new national-lab deals in 2024-25."
+    },
+    "INTC->Quantum": {
+      "what_flows": "Tunnel Falls 12-qubit silicon-spin test chip + cryo-CMOS controller research distributed to academic + DOE research partners",
+      "importance": "tangential",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "low",
+      "alternatives": "Various academic + private silicon-spin programs (Quantum Motion, Diraq).",
+      "trend": "Stable; research-stage, no commercial revenue."
+    },
+    "IONQ->Government": {
+      "what_flows": "Trapped-ion quantum hardware + cloud-access subscriptions for AFRL, USC/AFRL hub, DOE labs, and allied government programs",
+      "importance": "major",
+      "annual_usd_billions": "<0.1",
+      "deal_basis": "IONQ FY25 revenue ~$45M; AFRL contract + AQ Pioneer system sales the bulk of disclosed bookings.",
+      "single_source_risk": "high",
+      "alternatives": "HON Quantinuum (trapped ion), IBM Quantum, Rigetti, QuEra (private).",
+      "trend": "Growing; quantum-government remains the only meaningful revenue line."
     }
   }
 }
