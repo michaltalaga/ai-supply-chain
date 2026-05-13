@@ -193,6 +193,7 @@ const html = `<!doctype html>
       <label>Min mcap ($B): <input type="number" id="f-minMcap" min="0" step="1" placeholder="any"></label>
       <label>Min 5yr CAGR (%): <input type="number" id="f-minCagr" step="5" placeholder="any"></label>
       <label>Min 5yr return (%): <input type="number" id="f-minRet" step="50" placeholder="any"></label>
+      <label>Min YTD return (%): <input type="number" id="f-minYtd" step="5" placeholder="any"></label>
       <label>Max P/E: <input type="number" id="f-maxPe" step="5" placeholder="any"></label>
       <label>Max P/S: <input type="number" id="f-maxPs" step="2" placeholder="any"></label>
       <label>Min net margin (%): <input type="number" id="f-minNm" step="5" placeholder="any"></label>
@@ -740,6 +741,14 @@ function deriveMetrics(ticker) {
     const first = d.p[0][1], last = d.p[d.p.length-1][1];
     if (first > 0) out.priceRet = ((last/first) - 1) * 100;
   }
+  // YTD return: latest close vs December close of the previous calendar year.
+  if (d.p && d.p.length >= 2) {
+    const latest = d.p[d.p.length - 1];
+    const latestYear = parseInt(String(latest[0]).slice(0, 4));
+    const refMonth = (latestYear - 1) + "-12";
+    const ref = d.p.find(r => r[0] === refMonth);
+    if (ref && ref[1] > 0) out.ytdReturn = ((latest[1] / ref[1]) - 1) * 100;
+  }
   // PEG (P/E ÷ growth%): only meaningful with positive P/E + positive growth
   if (out.pe && out.revCagr > 0) {
     out.peg = out.pe / out.revCagr;
@@ -810,6 +819,14 @@ function showNodeTip(ticker, e) {
       h += '<div class="tip-row"><span class="tip-label">5y price return:</span> ';
       h += '<span class="'+cls+'">'+(ret>=0?'+':'')+ret.toFixed(0)+'%</span>';
       h += ' &nbsp;<span style="color:#7a8395; font-size:11px">($'+first.toFixed(2)+' → $'+last.toFixed(2)+')</span>';
+      h += '</div>';
+    }
+    // YTD row
+    const mY = deriveMetrics(ticker);
+    if (mY.ytdReturn != null) {
+      const cls = mY.ytdReturn >= 0 ? 'pos' : 'neg';
+      h += '<div class="tip-row"><span class="tip-label">YTD return:</span> ';
+      h += '<span class="'+cls+'">'+(mY.ytdReturn>=0?'+':'')+mY.ytdReturn.toFixed(1)+'%</span>';
       h += '</div>';
     }
   }
@@ -1034,6 +1051,10 @@ function showDetail(ticker) {
       const lbl = decouplingLabel(m.decoupling);
       h += '<tr><td>Decoupling (5yr px ret ÷ rev CAGR)</td><td class="'+(lbl?lbl.cls:'')+'">'+m.decoupling.toFixed(2)+'×</td><td style="color:#7a8395; font-size:11px">'+(lbl?lbl.txt:'')+'</td></tr>';
     }
+    if (m.ytdReturn != null) {
+      const cls = m.ytdReturn >= 0 ? 'pos' : 'neg';
+      h += '<tr><td>YTD price return</td><td class="'+cls+'">'+(m.ytdReturn>=0?'+':'')+m.ytdReturn.toFixed(1)+'%</td><td style="color:#7a8395; font-size:11px">since last Dec close</td></tr>';
+    }
     h += '</table>';
   }
 
@@ -1131,6 +1152,7 @@ function applyScreen() {
     minMcap: readNum("f-minMcap"),
     minCagr: readNum("f-minCagr"),
     minRet:  readNum("f-minRet"),
+    minYtd:  readNum("f-minYtd"),
     maxPe:   readNum("f-maxPe"),
     maxPs:   readNum("f-maxPs"),
     minNm:   readNum("f-minNm"),
@@ -1153,7 +1175,7 @@ function applyScreen() {
   }
 }
 function clearScreen() {
-  ["f-minMcap","f-minCagr","f-minRet","f-maxPe","f-maxPs","f-minNm","f-tier"].forEach(id => {
+  ["f-minMcap","f-minCagr","f-minRet","f-minYtd","f-maxPe","f-maxPs","f-minNm","f-tier"].forEach(id => {
     document.getElementById(id).value = "";
   });
   activeScreen = null;
@@ -1176,6 +1198,7 @@ function screenMatch(t, f) {
   if (f.minMcap != null && (!d.mcap || d.mcap / 1000 < f.minMcap)) return false;
   if (f.minCagr != null && (m.revCagr == null || m.revCagr < f.minCagr)) return false;
   if (f.minRet != null && (m.priceRet == null || m.priceRet < f.minRet)) return false;
+  if (f.minYtd != null && (m.ytdReturn == null || m.ytdReturn < f.minYtd)) return false;
   if (f.maxPe != null && (m.pe == null || m.pe > f.maxPe)) return false;
   if (f.maxPs != null && (m.ps == null || m.ps > f.maxPs)) return false;
   if (f.minNm != null && (m.netMargin == null || m.netMargin < f.minNm)) return false;
@@ -1250,6 +1273,7 @@ function showCompareDetail(tickers) {
     }},
     { label: '5yr rev CAGR', getter: t => fmtPct1(deriveMetrics(t).revCagr) },
     { label: '5yr price return', getter: t => fmtPct1(deriveMetrics(t).priceRet) },
+    { label: 'YTD price return', getter: t => fmtPct1(deriveMetrics(t).ytdReturn) },
     { label: 'Net margin', getter: t => fmtPct1(deriveMetrics(t).netMargin) },
     { label: 'P/E', getter: t => fmtPe(deriveMetrics(t).pe) },
     { label: 'P/S', getter: t => fmtPs(deriveMetrics(t).ps) },
