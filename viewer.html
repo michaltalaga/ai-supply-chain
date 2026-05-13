@@ -91,6 +91,7 @@
       <label>Min 5yr CAGR (%): <input type="number" id="f-minCagr" step="5" placeholder="any"></label>
       <label>Min 5yr return (%): <input type="number" id="f-minRet" step="50" placeholder="any"></label>
       <label>Min YTD return (%): <input type="number" id="f-minYtd" step="5" placeholder="any"></label>
+      <label>Max YTD return (%): <input type="number" id="f-maxYtd" step="5" placeholder="any"></label>
       <label>Max P/E: <input type="number" id="f-maxPe" step="5" placeholder="any"></label>
       <label>Max P/S: <input type="number" id="f-maxPs" step="2" placeholder="any"></label>
       <label>Min net margin (%): <input type="number" id="f-minNm" step="5" placeholder="any"></label>
@@ -1050,6 +1051,7 @@ function applyScreen() {
     minCagr: readNum("f-minCagr"),
     minRet:  readNum("f-minRet"),
     minYtd:  readNum("f-minYtd"),
+    maxYtd:  readNum("f-maxYtd"),
     maxPe:   readNum("f-maxPe"),
     maxPs:   readNum("f-maxPs"),
     minNm:   readNum("f-minNm"),
@@ -1072,7 +1074,7 @@ function applyScreen() {
   }
 }
 function clearScreen() {
-  ["f-minMcap","f-minCagr","f-minRet","f-minYtd","f-maxPe","f-maxPs","f-minNm","f-tier"].forEach(id => {
+  ["f-minMcap","f-minCagr","f-minRet","f-minYtd","f-maxYtd","f-maxPe","f-maxPs","f-minNm","f-tier"].forEach(id => {
     document.getElementById(id).value = "";
   });
   activeScreen = null;
@@ -1096,6 +1098,7 @@ function screenMatch(t, f) {
   if (f.minCagr != null && (m.revCagr == null || m.revCagr < f.minCagr)) return false;
   if (f.minRet != null && (m.priceRet == null || m.priceRet < f.minRet)) return false;
   if (f.minYtd != null && (m.ytdReturn == null || m.ytdReturn < f.minYtd)) return false;
+  if (f.maxYtd != null && (m.ytdReturn == null || m.ytdReturn > f.maxYtd)) return false;
   if (f.maxPe != null && (m.pe == null || m.pe > f.maxPe)) return false;
   if (f.maxPs != null && (m.ps == null || m.ps > f.maxPs)) return false;
   if (f.minNm != null && (m.netMargin == null || m.netMargin < f.minNm)) return false;
