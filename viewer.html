@@ -216,7 +216,7 @@ let legendHtml = '';
 for (const t in tierColor) {
   legendHtml += '<span style="background:'+tierColor[t]+'"></span>'+tierLabel[t]+' &nbsp; ';
 }
-legendHtml += '<span style="color:#7a8395">&nbsp; | &nbsp; arrow points supplier → customer ($ flows opposite) &nbsp; · &nbsp; dot size ∝ √mcap &nbsp; · &nbsp; edge width = uniform OR ∝ √($/yr) when toggled</span>';
+legendHtml += '<span style="color:#7a8395">&nbsp; | &nbsp; arrow = supplier → customer ($ flows opposite) &nbsp; · &nbsp; dot ∝ √mcap &nbsp; · &nbsp; edge modes: uniform / $-scaled / flows-only (Sankey-ish, curated $-edges only)</span>';
 legendEl.innerHTML = legendHtml;
 
 // Build node + link arrays
@@ -674,13 +674,19 @@ function applyHighlight() {
       circle.setAttribute("stroke-width", "0.5");
     }
   }
-  // Links — combine base width (from edgeWeightMode) with highlight state
+  // Links — combine base width (from edgeWeightMode) with highlight state.
+  // base === null means "hide this edge" (flows mode + uncurated).
   for (const { el, source, target } of renderState.linkEls) {
     const base = edgeBaseWidth(source, target);
+    if (base === null) {
+      el.setAttribute("opacity", "0");
+      el.setAttribute("marker-end", "");
+      continue;
+    }
     if (!highlightSet) {
-      el.setAttribute("stroke", "#3a4150");
+      el.setAttribute("stroke", edgeWeightMode === "flows" ? "#5b7aa8" : "#3a4150");
       el.setAttribute("stroke-width", base.toFixed(2));
-      el.setAttribute("opacity", "0.55");
+      el.setAttribute("opacity", edgeWeightMode === "flows" ? "0.7" : "0.55");
       el.setAttribute("marker-end", "url(#arrow-dim)");
     } else if (highlightSet.has(source) && highlightSet.has(target)) {
       el.setAttribute("stroke", "#8ab4f8");
@@ -1196,8 +1202,8 @@ function drawDetailChart(ticker) {
   });
 }
 
-// === Edge weight mode (uniform vs $-scaled, à la Sankey) ===
-let edgeWeightMode = "uniform"; // "uniform" | "dollar"
+// === Edge weight mode: cycles uniform → dollar → flows ===
+let edgeWeightMode = "uniform"; // "uniform" | "dollar" | "flows"
 
 // Parse strings like "30-40", "<0.1", "8-12", "5.5" → midpoint in USD billions
 function parseAnnualB(s) {
@@ -1211,18 +1217,33 @@ function parseAnnualB(s) {
   return isNaN(num) ? null : num;
 }
 
+// Returns base stroke width (in user-space px) for an edge given the current mode.
+// Returns null when the edge should be HIDDEN ('flows' mode + no $ data).
 function edgeBaseWidth(source, target) {
   if (edgeWeightMode === "uniform") return 0.6;
   const edge = findEdgeData(source, target);
   const $$ = edge && edge.annual_usd_billions ? parseAnnualB(edge.annual_usd_billions) : null;
-  if ($$ == null) return 0.35;          // uncurated edges very thin in $ mode
+  if (edgeWeightMode === "flows") {
+    if ($$ == null) return null;
+    // Sankey-style: wider range, exaggerated visual
+    return Math.max(1.5, Math.min(14, Math.sqrt($$) * 1.8));
+  }
+  // dollar mode
+  if ($$ == null) return 0.35;
   return Math.max(0.5, Math.min(8, Math.sqrt($$)));
 }
 
+function nextEdgeMode(m) {
+  return m === "uniform" ? "dollar" : m === "dollar" ? "flows" : "uniform";
+}
+function modeLabel(m) {
+  return m === "dollar" ? "$-scaled" : m === "flows" ? "flows only" : "uniform";
+}
+
 function toggleEdgeWeight() {
-  edgeWeightMode = edgeWeightMode === "uniform" ? "dollar" : "uniform";
-  document.getElementById("ew-toggle").textContent = "Edges: " + (edgeWeightMode === "dollar" ? "$-scaled" : "uniform");
-  applyHighlight();   // re-applies widths
+  edgeWeightMode = nextEdgeMode(edgeWeightMode);
+  document.getElementById("ew-toggle").textContent = "Edges: " + modeLabel(edgeWeightMode);
+  applyHighlight();   // re-applies widths + visibility
   updateUrl();
 }
 
@@ -1638,9 +1659,10 @@ function restoreFromUrl() {
     const seg = p.get("seg");
     if (seg) { document.getElementById("filter").value = seg; draw(seg); }
 
-    if (p.get("edges") === "dollar") {
-      edgeWeightMode = "dollar";
-      document.getElementById("ew-toggle").textContent = "Edges: $-scaled";
+    const em = p.get("edges");
+    if (em === "dollar" || em === "flows") {
+      edgeWeightMode = em;
+      document.getElementById("ew-toggle").textContent = "Edges: " + modeLabel(em);
     }
 
     const preset = p.get("preset");
