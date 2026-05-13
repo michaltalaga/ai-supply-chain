@@ -1101,7 +1101,7 @@ function showDetail(ticker) {
   // Quarterly data (if available — only top anchors have it)
   if (d.q && d.q.length) {
     h += '<h2>Recent quarters ('+d.q.length+' qtrs · '+(d.f && d.f.ccy || 'USD')+' millions)</h2>';
-    h += '<table><tr><th>Quarter</th><th>Revenue</th><th>QoQ</th><th>YoY</th><th>Net inc</th><th>EPS</th></tr>';
+    h += '<table><tr><th>Quarter</th><th>Revenue</th><th>QoQ</th><th>YoY</th><th>Net inc</th><th>EPS</th><th title="Price change during the month immediately after the quarter-end (the month earnings typically reports). Proxy for &apos;buy or sell the news?&apos;">Earnings drift</th></tr>';
     for (let i = 0; i < d.q.length; i++) {
       const cur = d.q[i];
       const prevQ = d.q[i+1];     // next index = previous quarter (descending order)
@@ -1110,14 +1110,34 @@ function showDetail(ticker) {
         ? ((cur.rev / prevQ.rev) - 1) * 100 : null;
       const yoy = (prevY && cur.rev != null && prevY.rev > 0)
         ? ((cur.rev / prevY.rev) - 1) * 100 : null;
+      const drift = earningsDriftFor(ticker, cur.q);
       h += '<tr><td>'+cur.q.replace(/_/g, ' ')+'</td>';
       h += '<td>'+(cur.rev != null ? cur.rev.toLocaleString() : '—')+'</td>';
       h += '<td class="'+(qoq>=0?'pos':'neg')+'">'+(qoq != null ? (qoq>=0?'+':'')+qoq.toFixed(1)+'%' : '—')+'</td>';
       h += '<td class="'+(yoy>=0?'pos':'neg')+'">'+(yoy != null ? (yoy>=0?'+':'')+yoy.toFixed(1)+'%' : '—')+'</td>';
       h += '<td class="'+(cur.ni<0?'neg':'pos')+'">'+(cur.ni != null ? cur.ni.toLocaleString() : '—')+'</td>';
-      h += '<td>'+(cur.eps != null ? cur.eps.toFixed(2) : '—')+'</td></tr>';
+      h += '<td>'+(cur.eps != null ? cur.eps.toFixed(2) : '—')+'</td>';
+      h += '<td class="'+(drift>=0?'pos':'neg')+'">'+(drift != null ? (drift>=0?'+':'')+drift.toFixed(1)+'%' : '—')+'</td>';
+      h += '</tr>';
     }
     h += '</table>';
+    // Summary of earnings reactions across the available history
+    const reactSum = earningsReactionsSummary(ticker);
+    if (reactSum && reactSum.count >= 2) {
+      const avgCls = reactSum.avg >= 0 ? 'pos' : 'neg';
+      const personality = reactSum.posCount > reactSum.count * 0.65 ? 'usually rips on prints'
+                        : reactSum.posCount < reactSum.count * 0.35 ? 'usually fades on prints'
+                        : 'mixed reaction history';
+      h += '<p class="meta" style="font-size:11.5px; margin-top:6px">';
+      h += '<b>Earnings personality:</b> avg <span class="'+avgCls+'">'+(reactSum.avg>=0?'+':'')+reactSum.avg.toFixed(1)+'%</span> per print across '+reactSum.count+' quarters · ';
+      h += reactSum.posCount+'/'+reactSum.count+' positive · ';
+      h += '<i>'+personality+'</i>';
+      if (reactSum.last3.length) {
+        h += ' · Last 3: '+reactSum.last3.map(v => '<span class="'+(v>=0?'pos':'neg')+'">'+(v>=0?'+':'')+v.toFixed(1)+'%</span>').join(' → ');
+      }
+      h += '</p>';
+      h += '<p class="meta" style="font-size:10.5px; color:#7a8395; margin-top:0">Approximated from monthly closes: drift = close(month-after-quarter-end) ÷ close(quarter-end-month) − 1. Captures the month earnings typically reports.</p>';
+    }
   }
 
   if (d.p && d.p.length) {
@@ -1425,6 +1445,74 @@ function daysUntilEarnings(ticker) {
   const d = new Date(e.next);
   if (isNaN(d.getTime())) return null;
   return Math.ceil((d - new Date()) / 86400000);
+}
+
+// === Earnings reaction tracking ===
+// Compute approximate post-earnings price drift for each historical quarter.
+// "Earnings month" = the month immediately AFTER the fiscal quarter-end
+// (~when companies actually report). Drift = close(earnings_month) /
+// close(quarter_end_month) - 1.
+
+function parseQuarterLabel(qLabel) {
+  // Accepts "Q4_FY2026" or "Q1_2026" or "Q3_FY2025"
+  const m = /^Q([1-4])_(?:FY)?(d{4})$/.exec(String(qLabel || "").trim());
+  if (!m) return null;
+  return { quarterNum: parseInt(m[1], 10), year: parseInt(m[2], 10) };
+}
+
+// Returns { year, month } for the quarter's END date using the ticker's
+// most recent reported fye month as the fiscal-year-end reference.
+function quarterEndMonth(ticker, qLabel) {
+  const parsed = parseQuarterLabel(qLabel);
+  if (!parsed) return null;
+  const fin = DATA[ticker] && DATA[ticker].f;
+  if (!fin || !fin.yr || !fin.yr[0] || !fin.yr[0].fye) return null;
+  const fyEndMonth = parseInt(String(fin.yr[0].fye).slice(5, 7), 10);
+  if (!fyEndMonth) return null;
+  const offsetMonths = (4 - parsed.quarterNum) * 3;   // Q4 = fye, Q3 = -3, Q2 = -6, Q1 = -9
+  let m = fyEndMonth - offsetMonths;
+  let y = parsed.year;
+  while (m <= 0) { m += 12; y -= 1; }
+  while (m > 12) { m -= 12; y += 1; }
+  return { year: y, month: m };
+}
+
+function priceAtMonth(ticker, year, month) {
+  const d = DATA[ticker];
+  if (!d || !d.p) return null;
+  const key = year + "-" + String(month).padStart(2, "0");
+  const row = d.p.find(r => r[0] === key);
+  return row ? row[1] : null;
+}
+
+// Returns { drift: %, valid } for a single quarter.
+function earningsDriftFor(ticker, qLabel) {
+  const qe = quarterEndMonth(ticker, qLabel);
+  if (!qe) return null;
+  // Pre-earnings: close of quarter-end month
+  const preP = priceAtMonth(ticker, qe.year, qe.month);
+  // Post-earnings: close of the NEXT month (earnings typically reported in that month)
+  let eYr = qe.year, eMo = qe.month + 1;
+  if (eMo > 12) { eMo = 1; eYr += 1; }
+  const postP = priceAtMonth(ticker, eYr, eMo);
+  if (!preP || !postP) return null;
+  return ((postP / preP) - 1) * 100;
+}
+
+// All-quarters summary: { count, avg, posCount, last3 }
+function earningsReactionsSummary(ticker) {
+  const d = DATA[ticker];
+  if (!d || !d.q || !d.q.length) return null;
+  const drifts = [];
+  for (const qr of d.q) {
+    const drift = earningsDriftFor(ticker, qr.q);
+    if (drift != null && isFinite(drift)) drifts.push({ q: qr.q, drift });
+  }
+  if (drifts.length === 0) return null;
+  const avg = drifts.reduce((a, x) => a + x.drift, 0) / drifts.length;
+  const posCount = drifts.filter(x => x.drift >= 0).length;
+  const last3 = drifts.slice(0, 3).map(x => x.drift);   // q array is newest-first
+  return { drifts, count: drifts.length, avg, posCount, last3 };
 }
 
 // One-click preset screens
