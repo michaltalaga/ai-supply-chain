@@ -1,1 +1,1 @@
-{"ticker":"ABBNY","status":"no_data","reason":"stockanalysis.com API endpoint returned 400/500 for OTC ADR ticker"}
+{"ticker":"ABBNY","status":"no_data","reason":"HTTP 400","as_of":"2026-05-13"}
