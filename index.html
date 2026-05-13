@@ -100,6 +100,16 @@
     </div>
     <div id="screen-panel">
       <div class="preset-row">
+        <span class="preset-row-label">Earnings window</span>
+        <button class="preset-chip" data-preset="earn_week"      onclick="applyPreset('earn_week')"      title="Reports in the next 7 days">📅 This week</button>
+        <button class="preset-chip" data-preset="earn_2week"     onclick="applyPreset('earn_2week')"     title="Reports in the next 14 days">📅 Next 14d</button>
+        <button class="preset-chip" data-preset="earn_month"     onclick="applyPreset('earn_month')"     title="Reports in the next 30 days">📅 Next 30d</button>
+        <button class="preset-chip" data-preset="earn_past_week" onclick="applyPreset('earn_past_week')" title="Reported in the last 7 days (fresh datapoint)">📅 Just reported</button>
+        <button class="preset-chip" data-preset="earn_past_month" onclick="applyPreset('earn_past_month')" title="Reported in the last 30 days">📅 Past 30d</button>
+        <span class="preset-sep"></span>
+        <button onclick="showEarningsCalendar()" class="preset-chip" style="background:#1a3a55; border-color:#67b5d8; color:#b1ceff" title="Browse all upcoming earnings as a calendar">📅 Calendar view</button>
+      </div>
+      <div class="preset-row">
         <span class="preset-row-label">One-click screens</span>
         <button class="preset-chip" data-preset="cheap"      onclick="applyPreset('cheap')"      title="P/E &lt; 15">Cheap</button>
         <button class="preset-chip" data-preset="expensive"  onclick="applyPreset('expensive')"  title="P/E &gt; 40">Expensive</button>
@@ -128,6 +138,7 @@
       <label>PEG: <input type="number" id="f-minPeg" step="0.5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxPeg" step="0.5" placeholder="max" style="width:55px"></label>
       <label>Net margin %: <input type="number" id="f-minNm" step="5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxNm" step="5" placeholder="max" style="width:55px"></label>
       <label>Decoupling ×: <input type="number" id="f-minDcp" step="1" placeholder="min" style="width:55px"> – <input type="number" id="f-maxDcp" step="1" placeholder="max" style="width:55px"></label>
+      <label title="Days until next earnings report (negative = recently reported)">Earnings days: <input type="number" id="f-minErn" step="7" placeholder="min" style="width:55px"> – <input type="number" id="f-maxErn" step="7" placeholder="max" style="width:55px"></label>
       <label>Tier:
         <select id="f-tier">
           <option value="">any</option>
@@ -1335,6 +1346,8 @@ function applyScreen() {
     maxNm:   readNum("f-maxNm"),
     minDcp:  readNum("f-minDcp"),
     maxDcp:  readNum("f-maxDcp"),
+    minErn:  readNum("f-minErn"),
+    maxErn:  readNum("f-maxErn"),
     tier:    document.getElementById("f-tier").value || null,
   };
   const anyActive = Object.values(filter).some(v => v != null && v !== "");
@@ -1355,7 +1368,7 @@ function applyScreen() {
   updateUrl();
 }
 function clearScreen() {
-  ["f-minMcap","f-maxMcap","f-minCagr","f-maxCagr","f-minRet","f-maxRet","f-minYtd","f-maxYtd","f-minPe","f-maxPe","f-minPs","f-maxPs","f-minPeg","f-maxPeg","f-minNm","f-maxNm","f-minDcp","f-maxDcp","f-tier"].forEach(id => {
+  ["f-minMcap","f-maxMcap","f-minCagr","f-maxCagr","f-minRet","f-maxRet","f-minYtd","f-maxYtd","f-minPe","f-maxPe","f-minPs","f-maxPs","f-minPeg","f-maxPeg","f-minNm","f-maxNm","f-minDcp","f-maxDcp","f-minErn","f-maxErn","f-tier"].forEach(id => {
     document.getElementById(id).value = "";
   });
   activeScreen = null;
@@ -1394,8 +1407,24 @@ function screenMatch(t, f) {
   if (f.maxNm  != null && (m.netMargin == null || m.netMargin > f.maxNm)) return false;
   if (f.minDcp != null && (m.decoupling == null || m.decoupling < f.minDcp)) return false;
   if (f.maxDcp != null && (m.decoupling == null || m.decoupling > f.maxDcp)) return false;
+  if (f.minErn != null || f.maxErn != null) {
+    const du = daysUntilEarnings(t);
+    if (du == null) return false;
+    if (f.minErn != null && du < f.minErn) return false;
+    if (f.maxErn != null && du > f.maxErn) return false;
+  }
   if (f.tier && info.tier !== f.tier) return false;
   return true;
+}
+
+// Helper: days from today to ticker's next reported earnings date.
+// Returns null if unknown, positive for upcoming, negative for already past.
+function daysUntilEarnings(ticker) {
+  const e = EARNINGS[ticker];
+  if (!e || !e.next) return null;
+  const d = new Date(e.next);
+  if (isNaN(d.getTime())) return null;
+  return Math.ceil((d - new Date()) / 86400000);
 }
 
 // One-click preset screens
@@ -1416,6 +1445,11 @@ function applyPreset(name) {
   if (name === "smallcap")   { set("f-maxMcap", 5); set("f-minCagr", 15); }
   if (name === "power")      { document.getElementById("f-tier").value = "D2"; set("f-minMcap", 5); }
   if (name === "quantum")    { document.getElementById("f-tier").value = "Q"; }
+  if (name === "earn_week")       { set("f-minErn", 0);   set("f-maxErn", 7); }
+  if (name === "earn_2week")      { set("f-minErn", 0);   set("f-maxErn", 14); }
+  if (name === "earn_month")      { set("f-minErn", 0);   set("f-maxErn", 30); }
+  if (name === "earn_past_week")  { set("f-minErn", -7);  set("f-maxErn", 0); }
+  if (name === "earn_past_month") { set("f-minErn", -30); set("f-maxErn", 0); }
   // Toggle active visual on the clicked chip
   document.querySelectorAll(".preset-chip").forEach(el => el.classList.toggle("active", el.dataset.preset === name));
   applyScreen();
@@ -1456,6 +1490,66 @@ function clearCompare() {
 function openCompare() {
   if (compareSet.size === 0) return;
   showCompareDetail([...compareSet]);
+}
+
+// === Earnings calendar view ===
+function showEarningsCalendar() {
+  const entries = [];
+  for (const t in EARNINGS) {
+    if (!DATA[t]) continue;        // ghost / unknown — skip
+    const e = EARNINGS[t];
+    const du = daysUntilEarnings(t);
+    if (du == null) continue;
+    entries.push({ ticker: t, name: DATA[t].info.name, tier: DATA[t].info.tier, segment: DATA[t].info.segment, mcap: DATA[t].mcap, label: e.label, next: e.next, days: du });
+  }
+  entries.sort((a, b) => a.days - b.days);
+
+  // Bucket by window
+  const buckets = {
+    "Past 14 days": [], "This week (next 0-7d)": [], "Next 8-14 days": [],
+    "Next 15-30 days": [], "Next 31-60 days": [], "Beyond 60 days": []
+  };
+  for (const e of entries) {
+    if (e.days < -14) continue;                  // stale
+    else if (e.days < 0) buckets["Past 14 days"].push(e);
+    else if (e.days <= 7) buckets["This week (next 0-7d)"].push(e);
+    else if (e.days <= 14) buckets["Next 8-14 days"].push(e);
+    else if (e.days <= 30) buckets["Next 15-30 days"].push(e);
+    else if (e.days <= 60) buckets["Next 31-60 days"].push(e);
+    else buckets["Beyond 60 days"].push(e);
+  }
+
+  let h = '<h1 style="border:0">Earnings calendar</h1>';
+  h += '<p class="meta">'+entries.length+' tickers with known next-report dates. Click any ticker to jump.</p>';
+
+  const fmtMc = m => m == null || m <= 0 ? "—" : m >= 1e6 ? "$"+(m/1e6).toFixed(2)+"T" : m >= 1e3 ? "$"+(m/1e3).toFixed(0)+"B" : "$"+m.toFixed(0)+"M";
+  const palette = {
+    "Past 14 days": "#7a8395",
+    "This week (next 0-7d)": "#80e080",
+    "Next 8-14 days": "#67b5d8",
+    "Next 15-30 days": "#e6b450",
+    "Next 31-60 days": "#c5cad3",
+    "Beyond 60 days": "#7a8395"
+  };
+
+  for (const [label, list] of Object.entries(buckets)) {
+    if (list.length === 0) continue;
+    h += '<h2 style="color:'+palette[label]+'">'+label+' <span style="font-size:11px; color:#7a8395">('+list.length+')</span></h2>';
+    h += '<table style="font-size:12px"><tr><th style="text-align:left">Date</th><th style="text-align:left">In</th><th style="text-align:left">Ticker</th><th style="text-align:left">Name</th><th style="text-align:left">Tier</th><th style="text-align:right">Mcap</th></tr>';
+    for (const e of list) {
+      const ago = e.days < 0 ? Math.abs(e.days) + "d ago" : e.days === 0 ? "today" : e.days + "d";
+      h += '<tr>';
+      h += '<td>'+e.label+'</td>';
+      h += '<td style="color:'+palette[label]+'">'+ago+'</td>';
+      h += '<td><span class="pill pill-link" onclick="selectTicker(\''+e.ticker+'\')">'+e.ticker+'</span></td>';
+      h += '<td>'+e.name+'</td>';
+      h += '<td>'+e.tier+'</td>';
+      h += '<td style="text-align:right">'+fmtMc(e.mcap)+'</td>';
+      h += '</tr>';
+    }
+    h += '</table>';
+  }
+  document.getElementById("detail").innerHTML = h;
 }
 
 // === Tier-level aggregates ===
