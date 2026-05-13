@@ -637,6 +637,7 @@ function selectTicker(ticker) {
   highlightSet = set;
   applyHighlight();
   showDetail(ticker);
+  updateUrl();
 }
 
 // Helpers used by the detail panel to show "reverse" neighbors symmetrically.
@@ -673,6 +674,7 @@ function clearSelection() {
   selectedTicker = null;
   highlightSet = null;
   applyHighlight();
+  updateUrl();
 }
 
 function highlightFromSearch(query) {
@@ -1176,6 +1178,7 @@ function toggleEdgeWeight() {
   edgeWeightMode = edgeWeightMode === "uniform" ? "dollar" : "uniform";
   document.getElementById("ew-toggle").textContent = "Edges: " + (edgeWeightMode === "dollar" ? "$-scaled" : "uniform");
   applyHighlight();   // re-applies widths
+  updateUrl();
 }
 
 // === Screen / filter by metric ===
@@ -1226,6 +1229,7 @@ function applyScreen() {
   } else {
     clearSelection();
   }
+  updateUrl();
 }
 function clearScreen() {
   ["f-minMcap","f-maxMcap","f-minCagr","f-maxCagr","f-minRet","f-maxRet","f-minYtd","f-maxYtd","f-minPe","f-maxPe","f-minPs","f-maxPs","f-minPeg","f-maxPeg","f-minNm","f-maxNm","f-minDcp","f-maxDcp","f-tier"].forEach(id => {
@@ -1313,12 +1317,14 @@ function renderCompareBin() {
   if (compareSet.size === 0) {
     bin.classList.remove("open");
     pills.innerHTML = "";
+    updateUrl();
     return;
   }
   bin.classList.add("open");
   pills.innerHTML = [...compareSet].map(t =>
     '<span class="bin-pill" onclick="toggleCompare(\\''+t+'\\')" title="Remove">'+t+' ×</span>'
   ).join("");
+  updateUrl();
 }
 function clearCompare() {
   compareSet.clear();
@@ -1451,9 +1457,95 @@ function drawCompareChart(tickers) {
   svg.innerHTML = svgInner;
 }
 
+// === URL state ===
+// Mirrors viewer state into window.location.search so any view (selected
+// ticker + screen + compare + segment + edge mode + search) is bookmarkable.
+let restoringFromUrl = false;
+function updateUrl() {
+  if (restoringFromUrl) return;
+  const p = new URLSearchParams();
+  if (selectedTicker) p.set("t", selectedTicker);
+  if (compareSet && compareSet.size > 0) p.set("cmp", [...compareSet].join(","));
+  const activeChip = document.querySelector(".preset-chip.active");
+  if (activeChip) p.set("preset", activeChip.dataset.preset);
+  if (activeScreen && !activeChip) {
+    const parts = [];
+    for (const [k, v] of Object.entries(activeScreen)) {
+      if (v != null && v !== "") parts.push(k + ":" + v);
+    }
+    if (parts.length) p.set("screen", parts.join(","));
+  }
+  if (edgeWeightMode !== "uniform") p.set("edges", edgeWeightMode);
+  const q = document.getElementById("search").value;
+  if (q) p.set("q", q);
+  const seg = document.getElementById("filter").value;
+  if (seg) p.set("seg", seg);
+  const newQs = p.toString();
+  const newUrl = window.location.pathname + (newQs ? "?" + newQs : "") + window.location.hash;
+  history.replaceState(null, "", newUrl);
+}
+
+const SCREEN_FIELD_MAP = {
+  minMcap: "f-minMcap", maxMcap: "f-maxMcap",
+  minCagr: "f-minCagr", maxCagr: "f-maxCagr",
+  minRet:  "f-minRet",  maxRet:  "f-maxRet",
+  minYtd:  "f-minYtd",  maxYtd:  "f-maxYtd",
+  minPe:   "f-minPe",   maxPe:   "f-maxPe",
+  minPs:   "f-minPs",   maxPs:   "f-maxPs",
+  minPeg:  "f-minPeg",  maxPeg:  "f-maxPeg",
+  minNm:   "f-minNm",   maxNm:   "f-maxNm",
+  minDcp:  "f-minDcp",  maxDcp:  "f-maxDcp",
+  tier:    "f-tier",
+};
+
+function restoreFromUrl() {
+  const p = new URLSearchParams(window.location.search);
+  if ([...p.keys()].length === 0) return;
+  restoringFromUrl = true;
+  try {
+    const seg = p.get("seg");
+    if (seg) { document.getElementById("filter").value = seg; draw(seg); }
+
+    if (p.get("edges") === "dollar") {
+      edgeWeightMode = "dollar";
+      document.getElementById("ew-toggle").textContent = "Edges: $-scaled";
+    }
+
+    const preset = p.get("preset");
+    const screenStr = p.get("screen");
+    if (preset) {
+      applyPreset(preset);
+    } else if (screenStr) {
+      for (const part of screenStr.split(",")) {
+        const [k, v] = part.split(":");
+        const id = SCREEN_FIELD_MAP[k];
+        if (id) document.getElementById(id).value = v;
+      }
+      document.getElementById("screen-panel").classList.add("open");
+      document.getElementById("screen-toggle").classList.add("active");
+      applyScreen();
+    }
+
+    const cmp = p.get("cmp");
+    if (cmp) {
+      for (const t of cmp.split(",")) if (DATA[t]) compareSet.add(t);
+      renderCompareBin();
+    }
+
+    const q = p.get("q");
+    if (q) { document.getElementById("search").value = q; highlightFromSearch(q); }
+
+    const t = p.get("t");
+    if (t && DATA[t]) selectTicker(t);
+  } finally {
+    restoringFromUrl = false;
+  }
+}
+
 document.getElementById("filter").addEventListener("change", e => {
   clearSelection();
   draw(e.target.value);
+  updateUrl();
 });
 document.getElementById("search").addEventListener("input", e => {
   const q = e.target.value;
@@ -1469,9 +1561,12 @@ document.getElementById("search").addEventListener("input", e => {
   } else {
     clearSelection();
   }
+  updateUrl();
 });
 
+// Initial render + restore-from-URL on load
 draw();
+restoreFromUrl();
 </script>
 </body></html>`;
 
