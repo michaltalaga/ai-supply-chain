@@ -156,6 +156,14 @@ const html = `<!doctype html>
   #screen-panel label { display: inline-block; margin-right: 14px; margin-bottom: 4px; }
   #screen-panel input[type=number] { width: 70px; padding: 2px 6px; }
   #screen-status { color: #7a8395; margin-left: 10px; }
+  .preset-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px dashed #2a2f38; }
+  .preset-row-label { color: #7a8395; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 4px; }
+  .preset-chip { display: inline-flex; align-items: center; gap: 4px; background: #1d2129; color: #c5cad3; padding: 5px 12px; border-radius: 16px; border: 1px solid #2a3a4a; cursor: pointer; font-size: 12px; font-weight: 500; transition: all 0.12s; user-select: none; }
+  .preset-chip::before { content: "›"; color: #67b5d8; font-weight: 700; }
+  .preset-chip:hover { background: #2a3a55; border-color: #4a6a90; color: #ffffff; transform: translateY(-1px); box-shadow: 0 2px 6px rgba(74, 106, 144, 0.25); }
+  .preset-chip:active { transform: translateY(0); box-shadow: none; }
+  .preset-chip.active { background: #1a3a55; border-color: #67b5d8; color: #b1ceff; }
+  .preset-chip.active::before { content: "✓"; color: #80e080; }
   #compare-bin { position: fixed; bottom: 16px; left: 16px; max-width: calc(100vw - 460px); background: #1d2129; border: 1px solid #3a4150; border-radius: 6px; padding: 10px 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.4); display: none; z-index: 50; font-size: 13px; }
   #compare-bin.open { display: block; }
   #compare-bin .bin-head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
@@ -190,14 +198,14 @@ const html = `<!doctype html>
       <span id="screen-status"></span>
     </div>
     <div id="screen-panel">
-      <div style="margin-bottom:8px; color:#c5cad3; font-size:11.5px">
-        Presets:
-        <span class="bin-pill" onclick="applyPreset('cheap')">Cheap (P/E&lt;15)</span>
-        <span class="bin-pill" onclick="applyPreset('expensive')">Expensive (P/E&gt;40)</span>
-        <span class="bin-pill" onclick="applyPreset('garp')">Growth at value (PEG&lt;1)</span>
-        <span class="bin-pill" onclick="applyPreset('bubble')">Decoupled (×&gt;15)</span>
-        <span class="bin-pill" onclick="applyPreset('quality')">Quality (NM&gt;25%, P/E&lt;30)</span>
-        <span class="bin-pill" onclick="applyPreset('hidden')">Hidden gems (CAGR&gt;25, P/E&lt;25, mcap&gt;5B)</span>
+      <div class="preset-row">
+        <span class="preset-row-label">One-click screens</span>
+        <button class="preset-chip" data-preset="cheap"     onclick="applyPreset('cheap')"     title="P/E &lt; 15">Cheap</button>
+        <button class="preset-chip" data-preset="expensive" onclick="applyPreset('expensive')" title="P/E &gt; 40">Expensive</button>
+        <button class="preset-chip" data-preset="garp"      onclick="applyPreset('garp')"      title="PEG &lt; 1 + CAGR &gt; 10%">Growth at value</button>
+        <button class="preset-chip" data-preset="bubble"    onclick="applyPreset('bubble')"    title="Decoupling &gt; 15× (price way ahead of fundamentals)">Decoupled</button>
+        <button class="preset-chip" data-preset="quality"   onclick="applyPreset('quality')"   title="Net margin &gt; 25% + P/E &lt; 30">Quality</button>
+        <button class="preset-chip" data-preset="hidden"    onclick="applyPreset('hidden')"    title="CAGR &gt; 25% + P/E &lt; 25 + mcap &gt; $5B">Hidden gems</button>
       </div>
       <label>Min mcap ($B): <input type="number" id="f-minMcap" min="0" step="1" placeholder="any"></label>
       <label>Min 5yr CAGR (%): <input type="number" id="f-minCagr" step="5" placeholder="any"></label>
@@ -1200,6 +1208,7 @@ function clearScreen() {
   });
   activeScreen = null;
   document.getElementById("screen-status").textContent = "";
+  document.querySelectorAll(".preset-chip").forEach(el => el.classList.remove("active"));
   clearSelection();
 }
 function matchingTickers() {
@@ -1244,6 +1253,8 @@ function applyPreset(name) {
   if (name === "bubble")    { set("f-minDcp", 15); }
   if (name === "quality")   { set("f-minNm", 25); set("f-maxPe", 30); }
   if (name === "hidden")    { set("f-minCagr", 25); set("f-maxPe", 25); set("f-minMcap", 5); }
+  // Toggle active visual on the clicked chip
+  document.querySelectorAll(".preset-chip").forEach(el => el.classList.toggle("active", el.dataset.preset === name));
   applyScreen();
 }
 
