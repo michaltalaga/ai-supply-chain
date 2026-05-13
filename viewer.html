@@ -162,10 +162,13 @@ function makeMarker(id, color) {
   const m = document.createElementNS("http://www.w3.org/2000/svg", "marker");
   m.setAttribute("id", id);
   m.setAttribute("viewBox", "0 0 10 10");
-  m.setAttribute("refX", "9");
+  m.setAttribute("refX", "10");
   m.setAttribute("refY", "5");
-  m.setAttribute("markerWidth", "5");
-  m.setAttribute("markerHeight", "5");
+  // markerUnits="userSpaceOnUse" detaches arrow size from stroke-width, so
+  // dim 0.6-stroke edges and highlighted 1.4-stroke edges get the same arrow.
+  m.setAttribute("markerUnits", "userSpaceOnUse");
+  m.setAttribute("markerWidth", "14");
+  m.setAttribute("markerHeight", "14");
   m.setAttribute("orient", "auto-start-reverse");
   const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
   p.setAttribute("d", "M0,0 L10,5 L0,10 z");
@@ -268,7 +271,7 @@ function draw(filter) {
     // Trim end short of target circle so arrowhead sits on edge of circle, not inside
     const dx = t.x - s.x, dy = t.y - s.y;
     const dist = Math.hypot(dx, dy) || 1;
-    const gap = t.radius + 5; // leave room for arrowhead
+    const gap = t.radius + 9; // leave room for the (larger) arrowhead
     const tx2 = t.x - (dx / dist) * gap;
     const ty2 = t.y - (dy / dist) * gap;
     // And trim start so it doesn't cover source's label
