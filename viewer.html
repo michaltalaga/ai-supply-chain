@@ -92,6 +92,7 @@
       </select>
       <button id="screen-toggle" onclick="toggleScreenPanel()">Screen ▾</button>
       <button id="ew-toggle" onclick="toggleEdgeWeight()">Edges: uniform</button>
+      <button onclick="showTierDashboard()" title="Tier-level aggregates (total mcap, weighted CAGR, etc.)">Tier dashboard</button>
       <button onclick="clearSelection(); document.getElementById('search').value=''; resetView()">Reset</button>
       <span id="screen-status"></span>
     </div>
@@ -1311,6 +1312,93 @@ function clearCompare() {
 function openCompare() {
   if (compareSet.size === 0) return;
   showCompareDetail([...compareSet]);
+}
+
+// === Tier-level aggregates ===
+function showTierDashboard() {
+  // Aggregate by tier
+  const tiers = ["U5","U4","U3","U2","U1","AI core","D1","D2","D3","D4","Q"];
+  const labels = tierLabel;
+  const groups = {};
+  for (const t of tiers) groups[t] = { tickers: [], mcap: 0, mcapW: 0, cagrW: 0, retW: 0, ytdW: 0, nmW: 0, peW: 0, peCount: 0, peSum: 0 };
+  for (const tk in DATA) {
+    const info = DATA[tk].info;
+    const m = deriveMetrics(tk);
+    const g = groups[info.tier];
+    if (!g) continue;
+    g.tickers.push(tk);
+    if (DATA[tk].mcap > 0) {
+      g.mcap += DATA[tk].mcap;
+      if (m.revCagr != null) { g.mcapW += DATA[tk].mcap; g.cagrW += m.revCagr * DATA[tk].mcap; }
+      if (m.priceRet != null) g.retW += m.priceRet * DATA[tk].mcap;
+      if (m.ytdReturn != null) g.ytdW += m.ytdReturn * DATA[tk].mcap;
+      if (m.netMargin != null) g.nmW += m.netMargin * DATA[tk].mcap;
+    }
+    if (m.pe != null && m.pe > 0 && m.pe < 200) { g.peSum += m.pe; g.peCount++; }
+  }
+  const totalMcap = Object.values(groups).reduce((a,g) => a + g.mcap, 0);
+
+  let h = '<h1 style="border:0">Tier dashboard</h1>';
+  h += '<p class="meta">Aggregate metrics for each supply-chain tier. Means are <b>market-cap-weighted</b> (so NVDA pulls U1 much more than POWI).</p>';
+  h += '<table style="font-size:12px"><tr><th>Tier</th><th>N</th><th>Total mcap</th><th>% chain</th><th>Wtd CAGR</th><th>Wtd 5y ret</th><th>Wtd YTD</th><th>Wtd NM</th><th>Avg P/E</th></tr>';
+
+  for (const t of tiers) {
+    const g = groups[t];
+    if (g.tickers.length === 0) continue;
+    const pct = totalMcap > 0 ? (g.mcap / totalMcap) * 100 : 0;
+    const cagr = g.mcapW > 0 ? g.cagrW / g.mcapW : null;
+    const ret  = g.mcapW > 0 ? g.retW  / g.mcapW : null;
+    const ytd  = g.mcapW > 0 ? g.ytdW  / g.mcapW : null;
+    const nm   = g.mcapW > 0 ? g.nmW   / g.mcapW : null;
+    const avgPe = g.peCount > 0 ? g.peSum / g.peCount : null;
+    const mcapStr = g.mcap >= 1e6 ? '$' + (g.mcap/1e6).toFixed(2) + 'T'
+                   : g.mcap >= 1e3 ? '$' + (g.mcap/1e3).toFixed(0) + 'B'
+                   : '$' + g.mcap.toFixed(0) + 'M';
+    h += '<tr><td><b>'+t+'</b> '+labels[t]+'</td>';
+    h += '<td>'+g.tickers.length+'</td>';
+    h += '<td>'+mcapStr+'</td>';
+    h += '<td>'+pct.toFixed(1)+'%</td>';
+    h += '<td class="'+(cagr>=0?'pos':'neg')+'">'+(cagr!=null?(cagr>=0?'+':'')+cagr.toFixed(0)+'%':'—')+'</td>';
+    h += '<td class="'+(ret>=0?'pos':'neg')+'">'+(ret!=null?(ret>=0?'+':'')+ret.toFixed(0)+'%':'—')+'</td>';
+    h += '<td class="'+(ytd>=0?'pos':'neg')+'">'+(ytd!=null?(ytd>=0?'+':'')+ytd.toFixed(1)+'%':'—')+'</td>';
+    h += '<td class="'+(nm>=0?'pos':'neg')+'">'+(nm!=null?(nm>=0?'+':'')+nm.toFixed(1)+'%':'—')+'</td>';
+    h += '<td>'+(avgPe!=null?avgPe.toFixed(1)+'x':'—')+'</td>';
+    h += '</tr>';
+  }
+  h += '</table>';
+
+  // Mcap distribution bar (visual)
+  h += '<h2>Market-cap distribution by tier</h2>';
+  h += '<div style="display:flex; height:30px; width:100%; border-radius:3px; overflow:hidden">';
+  for (const t of tiers) {
+    const g = groups[t];
+    if (g.mcap <= 0) continue;
+    const pct = (g.mcap / totalMcap) * 100;
+    h += '<div style="width:'+pct.toFixed(2)+'%; background:'+(tierColor[t]||'#888')+'" title="'+t+' '+labels[t]+': '+pct.toFixed(1)+'%"></div>';
+  }
+  h += '</div>';
+  h += '<p class="meta" style="font-size:11px; margin-top:4px">Hover a band for tier name + %. Width = share of total chain market cap.</p>';
+
+  // Top 5 by mcap per tier
+  h += '<h2>Top 5 mcap by tier</h2>';
+  h += '<table style="font-size:12px"><tr><th>Tier</th><th>Top tickers (by mcap)</th></tr>';
+  for (const t of tiers) {
+    const g = groups[t];
+    if (g.tickers.length === 0) continue;
+    const top = [...g.tickers]
+      .filter(tk => DATA[tk].mcap > 0)
+      .sort((a,b) => DATA[b].mcap - DATA[a].mcap)
+      .slice(0, 5);
+    h += '<tr><td><b>'+t+'</b></td><td>';
+    h += top.map(tk => {
+      const mc = DATA[tk].mcap;
+      const ms = mc >= 1e6 ? (mc/1e6).toFixed(1)+'T' : mc >= 1e3 ? (mc/1e3).toFixed(0)+'B' : mc.toFixed(0)+'M';
+      return '<span class="pill pill-link" onclick="selectTicker(\''+tk+'\')">'+tk+' $'+ms+'</span>';
+    }).join(' ');
+    h += '</td></tr>';
+  }
+  h += '</table>';
+  document.getElementById("detail").innerHTML = h;
 }
 
 function showCompareDetail(tickers) {
