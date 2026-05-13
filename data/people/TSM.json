@@ -23,7 +23,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=TSM"
+    "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
+    "top_holders": "https://finance.yahoo.com/quote/TSM/holders/"
   },
   "insider_trades": [
     {
@@ -96,5 +97,155 @@
       "value_usd": 55930,
       "post_holding": 9051
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "FMR, LLC",
+      "shares": 61130000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.18,
+      "value_usd": 24137816841
+    },
+    {
+      "name": "Sanders Capital, LLC",
+      "shares": 31960000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.62,
+      "value_usd": 12618713777
+    },
+    {
+      "name": "Capital World Investors",
+      "shares": 27400000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.53,
+      "value_usd": 10820545208
+    },
+    {
+      "name": "Capital International Investors",
+      "shares": 25660000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.49,
+      "value_usd": 10131286432
+    },
+    {
+      "name": "JPMORGAN CHASE & CO",
+      "shares": 25180000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.49,
+      "value_usd": 9943290721
+    },
+    {
+      "name": "Fisher Asset Management, LLC",
+      "shares": 18620000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.36,
+      "value_usd": 7351169269
+    },
+    {
+      "name": "Van Eck Associates Corporation",
+      "shares": 17460000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.34,
+      "value_usd": 6896015834
+    },
+    {
+      "name": "Blackrock Inc.",
+      "shares": 16480000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.32,
+      "value_usd": 6507846491
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 15900000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.31,
+      "value_usd": 6279205854
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 13510000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.26,
+      "value_usd": 5335735651
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "AMERICAN BALANCED FUND",
+      "shares": 18180000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.35,
+      "value_usd": 7179338264
+    },
+    {
+      "name": "VanEck ETF Trust-VanEck Semiconductor ETF",
+      "shares": 14490000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.28,
+      "value_usd": 5722857066
+    },
+    {
+      "name": "Fidelity Contrafund",
+      "shares": 5950000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.11,
+      "value_usd": 2350931342
+    },
+    {
+      "name": "AMERICAN FUNDS FUNDAMENTAL INVESTORS",
+      "shares": 5210000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.1,
+      "value_usd": 2056436670
+    },
+    {
+      "name": "AMERICAN MUTUAL FUND",
+      "shares": 4910000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.09,
+      "value_usd": 1939533055
+    },
+    {
+      "name": "VANGUARD WINDSOR FUNDS-Vanguard Windsor II Fund",
+      "shares": 3990000,
+      "date_reported": "Jan 31, 2026",
+      "pct_outstanding": 0.08,
+      "value_usd": 1573735044
+    },
+    {
+      "name": "JPMorgan Trust II-JPMorgan Large Cap Growth Fund",
+      "shares": 3870000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.07,
+      "value_usd": 1529757596
+    },
+    {
+      "name": "American Century ETF Trust-Avantis Emerging Markets Equity ETF",
+      "shares": 3860000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.07,
+      "value_usd": 1523494902
+    },
+    {
+      "name": "NEW ECONOMY FUND",
+      "shares": 3340000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.06,
+      "value_usd": 1317696652
+    },
+    {
+      "name": "JANUS INVESTMENT FUND-Janus Henderson Forty Fund",
+      "shares": 3340000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.06,
+      "value_usd": 1319976508
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.04%",
+    "% of Shares Held by Institutions": "15.59%",
+    "% of Float Held by Institutions": "15.59%",
+    "Number of Institutions Holding Shares": "4,223"
+  }
 }

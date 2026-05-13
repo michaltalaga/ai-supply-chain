@@ -18,7 +18,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=VRT"
+    "insider_trades": "https://finviz.com/quote.ashx?t=VRT",
+    "top_holders": "https://finance.yahoo.com/quote/VRT/holders/"
   },
   "insider_trades": [
     {
@@ -141,5 +142,155 @@
       "value_usd": 937810,
       "post_holding": 4050
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 32049999.999999996,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 8.34,
+      "value_usd": 11757427958
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 24860000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 6.47,
+      "value_usd": 9119771370
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 17930000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.67,
+      "value_usd": 6576703038
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 9230000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.4,
+      "value_usd": 3386700560
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 8690000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.26,
+      "value_usd": 3189897920
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 7070000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.84,
+      "value_usd": 2592271100
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 6890000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.79,
+      "value_usd": 2529081412
+    },
+    {
+      "name": "Price (T.Rowe) Associates Inc",
+      "shares": 6730000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.75,
+      "value_usd": 2469110275
+    },
+    {
+      "name": "Invesco Ltd.",
+      "shares": 6550000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.7,
+      "value_usd": 2402164205
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 6340000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.65,
+      "value_usd": 2327103705
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 12020000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.13,
+      "value_usd": 4408076165
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 8180000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.13,
+      "value_usd": 2999805333
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 4920000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.28,
+      "value_usd": 1804025235
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 4890000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.27,
+      "value_usd": 1792346296
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 4570000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.19,
+      "value_usd": 1677013008
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Growth Index Fund",
+      "shares": 4350000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.13,
+      "value_usd": 1595546958
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Extended Market Index Fund",
+      "shares": 4120000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.07,
+      "value_usd": 1511827225
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Growth Index Fund",
+      "shares": 3200000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.83,
+      "value_usd": 1173335358
+    },
+    {
+      "name": "iShares Trust-iShares Russell Mid-Cap Growth ETF",
+      "shares": 2550000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.66,
+      "value_usd": 934971851
+    },
+    {
+      "name": "SELECT SECTOR SPDR TRT-State Street Industrial Select Sector SPDR ETF",
+      "shares": 2140000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.56,
+      "value_usd": 783496366
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.23%",
+    "% of Shares Held by Institutions": "83.39%",
+    "% of Float Held by Institutions": "83.58%",
+    "Number of Institutions Holding Shares": "2,345"
+  }
 }

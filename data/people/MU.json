@@ -19,7 +19,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=MU"
+    "insider_trades": "https://finviz.com/quote.ashx?t=MU",
+    "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
     {
@@ -172,5 +173,155 @@
       "value_usd": 1318150,
       "post_holding": 19139
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 100700000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 8.93,
+      "value_usd": 80938865186
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 73140000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 6.49,
+      "value_usd": 58784091211
+    },
+    {
+      "name": "Capital World Investors",
+      "shares": 58250000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.17,
+      "value_usd": 46817734218
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 52750000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 4.68,
+      "value_usd": 42397665413
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 39600000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.51,
+      "value_usd": 31825556667
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 26000000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.31,
+      "value_usd": 20895706833
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 23020000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.04,
+      "value_usd": 18506033502
+    },
+    {
+      "name": "Capital International Investors",
+      "shares": 22060000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.96,
+      "value_usd": 17727821051
+    },
+    {
+      "name": "Primecap Management Company",
+      "shares": 21870000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.94,
+      "value_usd": 17581391465
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 16399999.999999998,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.45,
+      "value_usd": 13178811456
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 35370000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.14,
+      "value_usd": 28425540651
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 28300000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.51,
+      "value_usd": 22750007916
+    },
+    {
+      "name": "Invesco QQQ Trust, Series 1",
+      "shares": 24090000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 2.14,
+      "value_usd": 19362151030
+    },
+    {
+      "name": "VANGUARD CHESTER FUNDS-Vanguard PRIMECAP Fund",
+      "shares": 14630000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.3,
+      "value_usd": 11758097330
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 14470000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.28,
+      "value_usd": 11627982261
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 14370000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.27,
+      "value_usd": 11552791448
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 13450000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.19,
+      "value_usd": 10809378157
+    },
+    {
+      "name": "GROWTH FUND OF AMERICA",
+      "shares": 11990000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.06,
+      "value_usd": 9635948167
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Value Index Fund",
+      "shares": 10360000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.92,
+      "value_usd": 8323750740
+    },
+    {
+      "name": "AMERICAN BALANCED FUND",
+      "shares": 9560000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.85,
+      "value_usd": 7682323678
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.25%",
+    "% of Shares Held by Institutions": "83.19%",
+    "% of Float Held by Institutions": "83.40%",
+    "Number of Institutions Holding Shares": "3,795"
+  }
 }

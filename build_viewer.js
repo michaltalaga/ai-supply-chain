@@ -1357,6 +1357,50 @@ function showDetail(ticker) {
     }
   }
 
+  // Top institutional holders (last 13F filings, refreshed quarterly)
+  if (pp && pp.top_holders && pp.top_holders.length) {
+    const holders = pp.top_holders;
+    h += '<h2>🏦 Top institutional holders <span style="font-size:11px; color:#7a8395; font-weight:400">· 13F filings</span></h2>';
+    let topPct = 0;
+    for (const hd of holders) if (typeof hd.pct_outstanding === "number") topPct += hd.pct_outstanding;
+    if (pp.ownership_breakdown) {
+      const ob = pp.ownership_breakdown;
+      const instPct = ob["% of Shares Held by Institutions"] || ob["% of Float Held by Institutions"];
+      const insPct = ob["% of Shares Held by All Insider"];
+      h += '<p class="meta" style="font-size:11px; margin:2px 0 6px">';
+      if (instPct) h += '<b>Institutions hold:</b> '+instPct+' of shares · ';
+      if (insPct) h += '<b>Insiders hold:</b> '+insPct;
+      h += '</p>';
+    }
+    h += '<table style="font-size:11.5px"><tr><th style="text-align:left">#</th><th style="text-align:left">Holder</th><th style="text-align:right">Shares</th><th style="text-align:right">% Out</th><th style="text-align:right">Value</th><th style="text-align:left">As of</th></tr>';
+    const fmtBig = (v) => {
+      if (v == null) return "—";
+      if (v >= 1e9) return "$"+(v/1e9).toFixed(2)+"B";
+      if (v >= 1e6) return "$"+(v/1e6).toFixed(1)+"M";
+      if (v >= 1e3) return "$"+(v/1e3).toFixed(0)+"K";
+      return "$"+v.toFixed(0);
+    };
+    const fmtShares = (v) => {
+      if (v == null) return "—";
+      if (v >= 1e9) return (v/1e9).toFixed(2)+"B";
+      if (v >= 1e6) return (v/1e6).toFixed(1)+"M";
+      if (v >= 1e3) return (v/1e3).toFixed(0)+"K";
+      return v.toLocaleString();
+    };
+    for (let i = 0; i < Math.min(10, holders.length); i++) {
+      const hd = holders[i];
+      h += '<tr><td>'+(i+1)+'</td>';
+      h += '<td><b>'+escapeHtml(hd.name)+'</b></td>';
+      h += '<td style="text-align:right">'+fmtShares(hd.shares)+'</td>';
+      h += '<td style="text-align:right">'+(hd.pct_outstanding != null ? hd.pct_outstanding.toFixed(2)+'%' : '—')+'</td>';
+      h += '<td style="text-align:right">'+fmtBig(hd.value_usd)+'</td>';
+      h += '<td style="color:#7a8395; font-size:10.5px">'+escapeHtml(hd.date_reported || "")+'</td>';
+      h += '</tr>';
+    }
+    h += '</table>';
+    h += '<p class="meta" style="font-size:11px; margin-top:2px">Top 10 institutional holders represent <b>'+topPct.toFixed(1)+'%</b> of shares outstanding.</p>';
+  }
+
   // News section (loaded async from /api/news Cloudflare Pages Function)
   h += '<h2>Recent news</h2>';
   h += '<div id="news-list" style="font-size:12px"><span class="meta">Loading…</span></div>';

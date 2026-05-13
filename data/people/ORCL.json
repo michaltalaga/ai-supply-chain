@@ -26,7 +26,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=ORCL"
+    "insider_trades": "https://finviz.com/quote.ashx?t=ORCL",
+    "top_holders": "https://finance.yahoo.com/quote/ORCL/holders/"
   },
   "insider_trades": [
     {
@@ -189,5 +190,155 @@
       "value_usd": 0,
       "post_holding": 145895
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 147860000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.14,
+      "value_usd": 28185554965
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 111120000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 3.86,
+      "value_usd": 21181375412
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 76530000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.66,
+      "value_usd": 14588104059
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 56750000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.97,
+      "value_usd": 10817144678
+    },
+    {
+      "name": "JPMORGAN CHASE & CO",
+      "shares": 41220000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.43,
+      "value_usd": 7858221109
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 37730000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.31,
+      "value_usd": 7193223700
+    },
+    {
+      "name": "Capital Research Global Investors",
+      "shares": 30140000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.05,
+      "value_usd": 5744889643
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 29270000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.02,
+      "value_usd": 5580029137
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 27130000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.94,
+      "value_usd": 5170721996
+    },
+    {
+      "name": "Northern Trust Corporation",
+      "shares": 19000000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.66,
+      "value_usd": 3621785787
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 53760000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.87,
+      "value_usd": 10247333575
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 42410000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.47,
+      "value_usd": 8085149115
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 21800000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.76,
+      "value_usd": 4155116221
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 21660000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.75,
+      "value_usd": 4128091887
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 20260000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.7,
+      "value_usd": 3862361781
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Growth Index Fund",
+      "shares": 18140000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.63,
+      "value_usd": 3456999625
+    },
+    {
+      "name": "SELECT SECTOR SPDR TRT-State Street Technology Select Sector SPDR ETF",
+      "shares": 13010000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.45,
+      "value_usd": 2480840071
+    },
+    {
+      "name": "GROWTH FUND OF AMERICA",
+      "shares": 12550000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.44,
+      "value_usd": 2391405875
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 11030000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.38,
+      "value_usd": 2102285509
+    },
+    {
+      "name": "INVESTMENT CO OF AMERICA",
+      "shares": 10400000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.36,
+      "value_usd": 1982176128
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "40.54%",
+    "% of Shares Held by Institutions": "44.54%",
+    "% of Float Held by Institutions": "74.92%",
+    "Number of Institutions Holding Shares": "4,564"
+  }
 }

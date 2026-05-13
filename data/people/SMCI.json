@@ -13,7 +13,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=SMCI"
+    "insider_trades": "https://finviz.com/quote.ashx?t=SMCI",
+    "top_holders": "https://finance.yahoo.com/quote/SMCI/holders/"
   },
   "note": "Resolved 2024 accounting scandal; Ernst & Young resigned as auditor; replaced with BDO USA",
   "insider_trades": [
@@ -217,5 +218,155 @@
       "value_usd": 76538,
       "post_holding": 49024
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 41630000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 6.92,
+      "value_usd": 1341367206
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 32890000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 5.47,
+      "value_usd": 1059876779
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 29570000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.92,
+      "value_usd": 952725459
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 22150000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.68,
+      "value_usd": 713671480
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 13810000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.3,
+      "value_usd": 444909854
+    },
+    {
+      "name": "UBS Group AG",
+      "shares": 12070000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.01,
+      "value_usd": 389007443
+    },
+    {
+      "name": "Invesco Ltd.",
+      "shares": 11810000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.96,
+      "value_usd": 380619320
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 11290000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.88,
+      "value_usd": 363686002
+    },
+    {
+      "name": "Disciplined Growth Investors, Inc.",
+      "shares": 9640000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.6,
+      "value_usd": 310520004
+    },
+    {
+      "name": "Citadel Advisors Llc",
+      "shares": 6680000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.11,
+      "value_usd": 215146222
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 16000000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.66,
+      "value_usd": 515387659
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 12650000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.1,
+      "value_usd": 407428907
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 11040000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.84,
+      "value_usd": 355773317
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Growth Index Fund",
+      "shares": 7290000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.21,
+      "value_usd": 234742749
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 6460000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.07,
+      "value_usd": 208039038
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 6430000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.07,
+      "value_usd": 207033645
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 6000000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1,
+      "value_usd": 193391793
+    },
+    {
+      "name": "Invesco Exchange-Traded Fund Trust-Invesco S&P 500 Equal Weight ETF",
+      "shares": 5310000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.88,
+      "value_usd": 171053569
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 5240000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.87,
+      "value_usd": 168942193
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Growth Index Fund",
+      "shares": 4240000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.71,
+      "value_usd": 136760372
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "13.83%",
+    "% of Shares Held by Institutions": "58.66%",
+    "% of Float Held by Institutions": "68.07%",
+    "Number of Institutions Holding Shares": "1,054"
+  }
 }

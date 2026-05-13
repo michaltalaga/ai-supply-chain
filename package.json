@@ -10,6 +10,7 @@
     "fetch:quarterly": "node fetch-quarterly.js",
     "fetch:earnings": "node fetch-earnings.js",
     "fetch:insiders": "node fetch-insiders.js",
+    "fetch:holders": "node fetch-holders.js",
     "build:data": "node aggregate.js",
     "build:report": "node report.js",
     "build:viewer": "node build_viewer.js",
@@ -18,5 +19,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
   }
 }

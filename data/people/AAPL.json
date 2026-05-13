@@ -35,7 +35,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=AAPL"
+    "insider_trades": "https://finviz.com/quote.ashx?t=AAPL",
+    "top_holders": "https://finance.yahoo.com/quote/AAPL/holders/"
   },
   "insider_trades": [
     {
@@ -158,5 +159,155 @@
       "value_usd": 7772047,
       "post_holding": 136687
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 1150000000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 7.86,
+      "value_usd": 342520059357
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 953850000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 6.49,
+      "value_usd": 282949380275
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 604060000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 4.11,
+      "value_usd": 179187330491
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 358030000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.44,
+      "value_usd": 106206771087
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 331440000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.26,
+      "value_usd": 98317492850
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 307400000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.09,
+      "value_usd": 91186328895
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 230480000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.57,
+      "value_usd": 68370490878
+    },
+    {
+      "name": "Berkshire Hathaway, Inc",
+      "shares": 227920000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.55,
+      "value_usd": 67609541903
+    },
+    {
+      "name": "JPMORGAN CHASE & CO",
+      "shares": 225420000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.53,
+      "value_usd": 66868328389
+    },
+    {
+      "name": "Price (T.Rowe) Associates Inc",
+      "shares": 203500000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.39,
+      "value_usd": 60366089321
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 464380000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.16,
+      "value_usd": 137752283335
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 372620000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.54,
+      "value_usd": 110532677463
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 188710000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.28,
+      "value_usd": 55980005364
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 187490000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.28,
+      "value_usd": 55616865185
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 175430000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.19,
+      "value_usd": 52039957343
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Growth Index Fund",
+      "shares": 154160000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.05,
+      "value_usd": 45730433428
+    },
+    {
+      "name": "Invesco QQQ Trust, Series 1",
+      "shares": 113820000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.77,
+      "value_usd": 33764125633
+    },
+    {
+      "name": "VANGUARD INSTITUTIONAL INDEX FUNDS-Vanguard Institutional Index Fund",
+      "shares": 84800000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.58,
+      "value_usd": 25154944203
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 73420000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.5,
+      "value_usd": 21778645995
+    },
+    {
+      "name": "iShares Trust-iShares Russell 1000 Growth ETF",
+      "shares": 51310000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.35,
+      "value_usd": 15219173499
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "1.63%",
+    "% of Shares Held by Institutions": "65.44%",
+    "% of Float Held by Institutions": "66.52%",
+    "Number of Institutions Holding Shares": "7,581"
+  }
 }

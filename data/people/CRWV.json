@@ -21,7 +21,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=CRWV"
+    "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
+    "top_holders": "https://finance.yahoo.com/quote/CRWV/holders/"
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
@@ -175,5 +176,155 @@
       "value_usd": 47541261,
       "post_holding": 0
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Magnetar Financial LLC",
+      "shares": 68190000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 15.24,
+      "value_usd": 7473776678
+    },
+    {
+      "name": "Nvidia Corp",
+      "shares": 24280000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.42,
+      "value_usd": 2660821963
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 12710000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.84,
+      "value_usd": 1393055217
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 12440000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.78,
+      "value_usd": 1363138473
+    },
+    {
+      "name": "Goldman Sachs Group Inc",
+      "shares": 9080000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.03,
+      "value_usd": 995382363
+    },
+    {
+      "name": "Jane Street Group, LLC",
+      "shares": 8860000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.98,
+      "value_usd": 970693320
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 7920000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.77,
+      "value_usd": 868322537
+    },
+    {
+      "name": "Blackrock Inc.",
+      "shares": 7230000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.62,
+      "value_usd": 792789396
+    },
+    {
+      "name": "Situational Awareness LP",
+      "shares": 6100000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.36,
+      "value_usd": 668429785
+    },
+    {
+      "name": "Value Aligned Research Advisors, LLC",
+      "shares": 6030000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.35,
+      "value_usd": 660692902
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 9720000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.17,
+      "value_usd": 1064894737
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 6730000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.5,
+      "value_usd": 737328948
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Growth Index Fund",
+      "shares": 4010000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.89,
+      "value_usd": 438976161
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Growth Index Fund",
+      "shares": 2580000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.58,
+      "value_usd": 283162994
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Extended Market Index Fund",
+      "shares": 2460000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.55,
+      "value_usd": 269315911
+    },
+    {
+      "name": "Fidelity Select Portfolios-Technology Portfolio",
+      "shares": 1740000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.39,
+      "value_usd": 191037181
+    },
+    {
+      "name": "ARK ETF Trust-ARK Innovation ETF",
+      "shares": 1660000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.37,
+      "value_usd": 181601936
+    },
+    {
+      "name": "iShares Trust-iShares Future AI & Tech ETF",
+      "shares": 1300000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.29,
+      "value_usd": 142947332
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity Extended Market Index Fund",
+      "shares": 1280000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.29,
+      "value_usd": 140573506
+    },
+    {
+      "name": "AIM Counselor Series TRT -INVESCO AMERICAN FRANCHISE Fd.",
+      "shares": 1140000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.26,
+      "value_usd": 125358395
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "21.24%",
+    "% of Shares Held by Institutions": "51.22%",
+    "% of Float Held by Institutions": "65.03%",
+    "Number of Institutions Holding Shares": "980"
+  }
 }

@@ -17,7 +17,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=DLR"
+    "insider_trades": "https://finviz.com/quote.ashx?t=DLR",
+    "top_holders": "https://finance.yahoo.com/quote/DLR/holders/"
   },
   "insider_trades": [
     {
@@ -90,5 +91,155 @@
       "value_usd": 30888,
       "post_holding": 6522
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 38800000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 11.04,
+      "value_usd": 7475515797
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 29470000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 8.39,
+      "value_usd": 5678254471
+    },
+    {
+      "name": "Cohen & Steers Inc.",
+      "shares": 28000000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 7.97,
+      "value_usd": 5394877983
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 21690000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 6.17,
+      "value_usd": 4178805059
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 20650000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.88,
+      "value_usd": 3978349657
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 9230000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.63,
+      "value_usd": 1779082612
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 8940000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.54,
+      "value_usd": 1721757841
+    },
+    {
+      "name": "Apg Asset Management US Inc.",
+      "shares": 8620000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.45,
+      "value_usd": 1660337589
+    },
+    {
+      "name": "Canada Pension Plan Investment Board",
+      "shares": 7460000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.12,
+      "value_usd": 1437494130
+    },
+    {
+      "name": "Northern Trust Corporation",
+      "shares": 5790000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.65,
+      "value_usd": 1115129953
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD SPECIALIZED FUNDS-Vanguard Real Estate Index Fund",
+      "shares": 12730000,
+      "date_reported": "Jan 31, 2026",
+      "pct_outstanding": 3.62,
+      "value_usd": 2452977748
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 10800000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.07,
+      "value_usd": 2080701393
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 8140000.000000001,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.32,
+      "value_usd": 1568589556
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 7480000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.13,
+      "value_usd": 1440475042
+    },
+    {
+      "name": "COHEN & STEERS Inst. REALTY SHARES INC-Cohen & Steers Inst. Realty Sha",
+      "shares": 4650000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.32,
+      "value_usd": 895239277
+    },
+    {
+      "name": "COHEN & STEERS REALTY SHARES INC-Cohen & Steers Realty Shares",
+      "shares": 4220000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.2,
+      "value_usd": 813363976
+    },
+    {
+      "name": "COHEN & STEERS REAL ESTATE SECURITIES Fd. INC-Cohen & Steers Real Esta",
+      "shares": 4200000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.2,
+      "value_usd": 809485051
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 4150000.0000000005,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.18,
+      "value_usd": 799713083
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 4120000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.17,
+      "value_usd": 794595708
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 3870000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.1,
+      "value_usd": 745668240
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.01%",
+    "% of Shares Held by Institutions": "101.21%",
+    "% of Float Held by Institutions": "101.22%",
+    "Number of Institutions Holding Shares": "1,726"
+  }
 }

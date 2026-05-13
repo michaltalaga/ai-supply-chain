@@ -19,7 +19,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=COHR"
+    "insider_trades": "https://finviz.com/quote.ashx?t=COHR",
+    "top_holders": "https://finance.yahoo.com/quote/COHR/holders/"
   },
   "insider_trades": [
     {
@@ -172,5 +173,155 @@
       "value_usd": 224052,
       "post_holding": 24033
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "FMR, LLC",
+      "shares": 23610000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 12.07,
+      "value_usd": 9289353519
+    },
+    {
+      "name": "Blackrock Inc.",
+      "shares": 14450000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 7.39,
+      "value_usd": 5687599276
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 12180000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 6.23,
+      "value_usd": 4792675026
+    },
+    {
+      "name": "Bain Capital Investors Llc",
+      "shares": 9780000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5,
+      "value_usd": 3846794505
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 9460000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.84,
+      "value_usd": 3722352127
+    },
+    {
+      "name": "Invesco Ltd.",
+      "shares": 6710000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 3.43,
+      "value_usd": 2640908527
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 4720000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.41,
+      "value_usd": 1855922643
+    },
+    {
+      "name": "Point72 Asset Management, L.P.",
+      "shares": 3340000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.71,
+      "value_usd": 1313870616
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 2790000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.43,
+      "value_usd": 1099211694
+    },
+    {
+      "name": "WT Asset Management Ltd",
+      "shares": 2680000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.37,
+      "value_usd": 1053056516
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 4940000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.53,
+      "value_usd": 1944337744
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Small-Cap Index Fund",
+      "shares": 3570000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.82,
+      "value_usd": 1403246644
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 2410000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.23,
+      "value_usd": 948149834
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 2390000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.22,
+      "value_usd": 942152502
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 2240000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.15,
+      "value_usd": 881502361
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Small-Cap Growth Index Fund",
+      "shares": 2009999.9999999998,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.03,
+      "value_usd": 791883937
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 1730000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.89,
+      "value_usd": 681779908
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Extended Market Index Fund",
+      "shares": 1690000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.87,
+      "value_usd": 666495585
+    },
+    {
+      "name": "AIM Sector Funds (Invesco Sector Funds)-INVESCO SMALL CAP VALUE FUND",
+      "shares": 1670000,
+      "date_reported": "Jan 31, 2026",
+      "pct_outstanding": 0.86,
+      "value_usd": 658327314
+    },
+    {
+      "name": "Fidelity Mt. Vernon Street Trust-Fidelity Growth Company Fund",
+      "shares": 1650000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.84,
+      "value_usd": 649787579
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.49%",
+    "% of Shares Held by Institutions": "94.90%",
+    "% of Float Held by Institutions": "95.37%",
+    "Number of Institutions Holding Shares": "1,371"
+  }
 }

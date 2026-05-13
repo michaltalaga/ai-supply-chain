@@ -23,7 +23,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=ARM"
+    "insider_trades": "https://finviz.com/quote.ashx?t=ARM",
+    "top_holders": "https://finance.yahoo.com/quote/ARM/holders/"
   },
   "insider_trades": [
     {
@@ -76,5 +77,155 @@
       "value_usd": 3157314,
       "post_holding": 174706
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Goldman Sachs Group Inc",
+      "shares": 3870000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.37,
+      "value_usd": 840048210
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 3780000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.36,
+      "value_usd": 820325940
+    },
+    {
+      "name": "Invesco Ltd.",
+      "shares": 2950000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.28,
+      "value_usd": 640176534
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 2350000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.22,
+      "value_usd": 508621443
+    },
+    {
+      "name": "Coatue Management LLC",
+      "shares": 2300000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.22,
+      "value_usd": 498743502
+    },
+    {
+      "name": "Wellington Management Group, LLP",
+      "shares": 2150000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.2,
+      "value_usd": 466034385
+    },
+    {
+      "name": "Dz Bank Ag Deutsche Zentral Genossenschafts Bank, Frankfurt Am Main",
+      "shares": 2130000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.2,
+      "value_usd": 462152860
+    },
+    {
+      "name": "Alphabet Inc.",
+      "shares": 1960000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.19,
+      "value_usd": 425186208
+    },
+    {
+      "name": "Sustainable Growth Advisers, LP",
+      "shares": 2009999.9999999998,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.19,
+      "value_usd": 435242395
+    },
+    {
+      "name": "Schroder Investment Management Group",
+      "shares": 1890000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.18,
+      "value_usd": 410121119
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "Invesco QQQ Trust, Series 1",
+      "shares": 2990000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.28,
+      "value_usd": 648145154
+    },
+    {
+      "name": "VanEck ETF Trust-VanEck Semiconductor ETF",
+      "shares": 2089999.9999999998,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.2,
+      "value_usd": 453561895
+    },
+    {
+      "name": "EuroPacific Growth Fund-EUPAC Fund",
+      "shares": 1350000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.13,
+      "value_usd": 293136493
+    },
+    {
+      "name": "Bridge Builder Trust-Bridge Builder Large Cap Growth Fund",
+      "shares": 1120000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.11,
+      "value_usd": 242605753
+    },
+    {
+      "name": "Artisan Partners Funds Inc.-Artisan Developing World Fund",
+      "shares": 1130000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.11,
+      "value_usd": 245135684
+    },
+    {
+      "name": "College Retirement Equities Fund-Growth Account",
+      "shares": 943.52,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.09,
+      "value_usd": 204597378
+    },
+    {
+      "name": "HARTFORD MUTUAL FUNDS II INC-THE HARTFORD GROWTH OPPORTUNITIES FUND",
+      "shares": 926.46,
+      "date_reported": "Jan 31, 2026",
+      "pct_outstanding": 0.09,
+      "value_usd": 200898002
+    },
+    {
+      "name": "NEW PERSPECTIVE FUND",
+      "shares": 930.88,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.09,
+      "value_usd": 201856241
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
+      "shares": 937.39,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.09,
+      "value_usd": 203267902
+    },
+    {
+      "name": "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Stock Fd.",
+      "shares": 809.61,
+      "date_reported": "Jan 31, 2026",
+      "pct_outstanding": 0.08,
+      "value_usd": 175559014
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.04%",
+    "% of Shares Held by Institutions": "94.79%",
+    "% of Float Held by Institutions": "94.83%",
+    "Number of Institutions Holding Shares": "993"
+  }
 }

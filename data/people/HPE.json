@@ -18,7 +18,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=HPE"
+    "insider_trades": "https://finviz.com/quote.ashx?t=HPE",
+    "top_holders": "https://finance.yahoo.com/quote/HPE/holders/"
   },
   "insider_trades": [
     {
@@ -241,5 +242,155 @@
       "value_usd": 647853,
       "post_holding": 2101761
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 145710000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 10.98,
+      "value_usd": 4503988869
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 86350000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 6.51,
+      "value_usd": 2669065968
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 73780000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 5.56,
+      "value_usd": 2280591408
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 72250000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.45,
+      "value_usd": 2233259574
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 70150000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.29,
+      "value_usd": 2168318561
+    },
+    {
+      "name": "JPMORGAN CHASE & CO",
+      "shares": 51280000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.86,
+      "value_usd": 1584966498
+    },
+    {
+      "name": "Capital World Investors",
+      "shares": 37540000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.83,
+      "value_usd": 1160413075
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 34870000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.63,
+      "value_usd": 1077805204
+    },
+    {
+      "name": "Slate Path Capital, LP",
+      "shares": 24400000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.84,
+      "value_usd": 754087836
+    },
+    {
+      "name": "Ameriprise Financial, Inc.",
+      "shares": 23850000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.8,
+      "value_usd": 737077599
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 41540000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.13,
+      "value_usd": 1284087354
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 33280000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.51,
+      "value_usd": 1028586408
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 28720000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.16,
+      "value_usd": 887735473
+    },
+    {
+      "name": "JPMorgan Trust II-JPMorgan Equity Income Fund",
+      "shares": 24440000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.84,
+      "value_usd": 755417553
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 17080000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.29,
+      "value_usd": 527973089
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 16970000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.28,
+      "value_usd": 524539544
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 15820000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.19,
+      "value_usd": 488951347
+    },
+    {
+      "name": "AMERICAN BALANCED FUND",
+      "shares": 15230000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.15,
+      "value_usd": 470821210
+    },
+    {
+      "name": "Columbia Fd.s Series TRT II-Columbia Seligman Technology and Informati",
+      "shares": 12710000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.96,
+      "value_usd": 392822824
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 12610000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.95,
+      "value_usd": 389929184
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.39%",
+    "% of Shares Held by Institutions": "94.06%",
+    "% of Float Held by Institutions": "94.43%",
+    "Number of Institutions Holding Shares": "1,545"
+  }
 }

@@ -22,7 +22,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=DELL"
+    "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
+    "top_holders": "https://finance.yahoo.com/quote/DELL/holders/"
   },
   "insider_trades": [
     {
@@ -155,5 +156,155 @@
       "value_usd": 49357590,
       "post_holding": 538
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 25260000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 7.77,
+      "value_usd": 6124313964
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 19440000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 5.98,
+      "value_usd": 4711653184
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 14720000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 4.53,
+      "value_usd": 3567305129
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 13380000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 4.12,
+      "value_usd": 3244351007
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 11880000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.66,
+      "value_usd": 2880717336
+    },
+    {
+      "name": "Invesco Ltd.",
+      "shares": 8910000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.74,
+      "value_usd": 2161004702
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 8020000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.47,
+      "value_usd": 1943040535
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 7480000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.3,
+      "value_usd": 1812919451
+    },
+    {
+      "name": "Jane Street Group, LLC",
+      "shares": 6100000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.88,
+      "value_usd": 1478894950
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 4040000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.24,
+      "value_usd": 979743421
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 10060000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.09,
+      "value_usd": 2438582337
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 7600000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.34,
+      "value_usd": 1842794545
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 3820000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.18,
+      "value_usd": 925942944
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 3800000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.17,
+      "value_usd": 920020141
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 3540000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.09,
+      "value_usd": 858817918
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Value Index Fund",
+      "shares": 2950000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.91,
+      "value_usd": 713991515
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 2730000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.84,
+      "value_usd": 662157227
+    },
+    {
+      "name": "SELECT SECTOR SPDR TRT-State Street Technology Select Sector SPDR ETF",
+      "shares": 2280000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.7,
+      "value_usd": 552902553
+    },
+    {
+      "name": "VANGUARD INSTITUTIONAL INDEX FUNDS-Vanguard Institutional Index Fund",
+      "shares": 1730000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.53,
+      "value_usd": 419492208
+    },
+    {
+      "name": "John Hancock Funds III-Disciplined Value Fund",
+      "shares": 1350000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.42,
+      "value_usd": 327318228
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "7.46%",
+    "% of Shares Held by Institutions": "83.67%",
+    "% of Float Held by Institutions": "90.42%",
+    "Number of Institutions Holding Shares": "2,130"
+  }
 }

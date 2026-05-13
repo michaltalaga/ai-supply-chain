@@ -28,6 +28,14 @@ jobs:
         run: node fetch-insiders.js
         continue-on-error: true     # finviz can rate-limit; partial coverage acceptable
 
+      - name: Refresh institutional holders (monthly cadence)
+        if: github.event_name == 'workflow_dispatch' || (github.event.schedule && contains(github.event.schedule, '0 6 1'))
+        run: |
+          npm install playwright --no-save
+          npx playwright install chromium
+          node fetch-holders.js
+        continue-on-error: true
+
       - name: Rebuild aggregates + report + viewer
         run: |
           node aggregate.js

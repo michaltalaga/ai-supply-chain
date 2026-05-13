@@ -1,11 +1,174 @@
 {
   "ticker": "CEG",
   "leadership": [
-    {"role": "President & CEO", "name": "Joe Dominguez"},
-    {"role": "EVP & CFO", "name": "Dan Eggers"},
-    {"role": "EVP & Chief Generation Officer", "name": "Bryan Hanson", "note": "operates the nuclear fleet"}
+    {
+      "role": "President & CEO",
+      "name": "Joe Dominguez"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Dan Eggers"
+    },
+    {
+      "role": "EVP & Chief Generation Officer",
+      "name": "Bryan Hanson",
+      "note": "operates the nuclear fleet"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" },
-  "note": "Three Mile Island restart for MSFT PPA signed Sep 2024; targeting 2028 COD"
+  "sources": {
+    "leadership": "hand-curated",
+    "top_holders": "https://finance.yahoo.com/quote/CEG/holders/"
+  },
+  "note": "Three Mile Island restart for MSFT PPA signed Sep 2024; targeting 2028 COD",
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 23350000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 6.46,
+      "value_usd": 6388999276
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 20140000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 5.58,
+      "value_usd": 5510463279
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 18490000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.12,
+      "value_usd": 5058202198
+    },
+    {
+      "name": "Capital International Investors",
+      "shares": 16810000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 4.65,
+      "value_usd": 4600540033
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 15010000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.16,
+      "value_usd": 4108190700
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 14360000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.98,
+      "value_usd": 3930559644
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 8050000.000000001,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.23,
+      "value_usd": 2203950049
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 7070000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.96,
+      "value_usd": 1933718272
+    },
+    {
+      "name": "Jennison Associates LLC",
+      "shares": 6600000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.83,
+      "value_usd": 1807137979
+    },
+    {
+      "name": "Coatue Management LLC",
+      "shares": 5910000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.64,
+      "value_usd": 1616350485
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 9820000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.72,
+      "value_usd": 2687345824
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard 500 Index Fund",
+      "shares": 7880000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.18,
+      "value_usd": 2154832172
+    },
+    {
+      "name": "Invesco QQQ Trust, Series 1",
+      "shares": 7750000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 2.15,
+      "value_usd": 2120011476
+    },
+    {
+      "name": "WASHINGTON MUTUAL INVESTORS FUND",
+      "shares": 6980000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.93,
+      "value_usd": 1910200477
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 6800000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.88,
+      "value_usd": 1860544380
+    },
+    {
+      "name": "SELECT SECTOR SPDR TRUST-State Street Utilities Select Sector SPDR ETF",
+      "shares": 5180000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.43,
+      "value_usd": 1416569759
+    },
+    {
+      "name": "iShares Trust-iShares Core S&P 500 ETF",
+      "shares": 4010000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.11,
+      "value_usd": 1096157620
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity 500 Index Fund",
+      "shares": 3980000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.1,
+      "value_usd": 1088943770
+    },
+    {
+      "name": "GROWTH FUND OF AMERICA",
+      "shares": 3940000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.09,
+      "value_usd": 1077628556
+    },
+    {
+      "name": "SPDR S&P 500 ETF TRUST-State Street SPDR S&P 500 ETF Trust",
+      "shares": 3720000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 1.03,
+      "value_usd": 1017678686
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.33%",
+    "% of Shares Held by Institutions": "79.61%",
+    "% of Float Held by Institutions": "79.87%",
+    "Number of Institutions Holding Shares": "2,495"
+  }
 }

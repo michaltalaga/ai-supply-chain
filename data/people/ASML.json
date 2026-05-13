@@ -1,11 +1,177 @@
 {
   "ticker": "ASML",
   "leadership": [
-    {"role": "President & CEO", "name": "Christophe Fouquet", "note": "since Apr 2024, replaced Peter Wennink"},
-    {"role": "EVP & CFO", "name": "Roger Dassen"},
-    {"role": "EVP, CTO", "name": "Jim Koonmen"},
-    {"role": "EVP, Strategic Marketing", "name": "Frédéric Schneider-Maunoury"}
+    {
+      "role": "President & CEO",
+      "name": "Christophe Fouquet",
+      "note": "since Apr 2024, replaced Peter Wennink"
+    },
+    {
+      "role": "EVP & CFO",
+      "name": "Roger Dassen"
+    },
+    {
+      "role": "EVP, CTO",
+      "name": "Jim Koonmen"
+    },
+    {
+      "role": "EVP, Strategic Marketing",
+      "name": "Frédéric Schneider-Maunoury"
+    }
   ],
   "as_of": "2026-05-13",
-  "sources": { "leadership": "hand-curated" }
+  "sources": {
+    "leadership": "hand-curated",
+    "top_holders": "https://finance.yahoo.com/quote/ASML/holders/"
+  },
+  "top_holders": [
+    {
+      "name": "Fisher Asset Management, LLC",
+      "shares": 4600000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.19,
+      "value_usd": 7057093307
+    },
+    {
+      "name": "Capital World Investors",
+      "shares": 3880000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1,
+      "value_usd": 5954589682
+    },
+    {
+      "name": "Capital International Investors",
+      "shares": 3410000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.88,
+      "value_usd": 5229983558
+    },
+    {
+      "name": "State Farm Mutual Automobile Insurance Co",
+      "shares": 2760000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.71,
+      "value_usd": 4230982164
+    },
+    {
+      "name": "Van Eck Associates Corporation",
+      "shares": 2020000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.52,
+      "value_usd": 3095392124
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 1700000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.44,
+      "value_usd": 2612545848
+    },
+    {
+      "name": "JPMORGAN CHASE & CO",
+      "shares": 1640000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.42,
+      "value_usd": 2520866000
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 1550000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.4,
+      "value_usd": 2378635377
+    },
+    {
+      "name": "Arrowstreet Capital, Limited Partnership",
+      "shares": 1540000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.4,
+      "value_usd": 2369546545
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 1540000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.4,
+      "value_usd": 2364177615
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "iShares Trust-iShares Core MSCI EAFE ETF",
+      "shares": 2740000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.71,
+      "value_usd": 4200554137
+    },
+    {
+      "name": "Invesco QQQ Trust, Series 1",
+      "shares": 1880000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 0.48,
+      "value_usd": 2886141915
+    },
+    {
+      "name": "WASHINGTON MUTUAL INVESTORS FUND",
+      "shares": 1670000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.43,
+      "value_usd": 2555003191
+    },
+    {
+      "name": "VanEck ETF Trust-VanEck Semiconductor ETF",
+      "shares": 1560000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.4,
+      "value_usd": 2397303913
+    },
+    {
+      "name": "iShares Trust-iShares MSCI EAFE ETF",
+      "shares": 1340000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.35,
+      "value_usd": 2062276549
+    },
+    {
+      "name": "Fidelity Select Portfolios-Select Semiconductors Portfolio",
+      "shares": 981.79,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.25,
+      "value_usd": 1506050806
+    },
+    {
+      "name": "NEW PERSPECTIVE FUND",
+      "shares": 748.37,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.19,
+      "value_usd": 1147976928
+    },
+    {
+      "name": "GROWTH FUND OF AMERICA",
+      "shares": 708.9,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.18,
+      "value_usd": 1087446078
+    },
+    {
+      "name": "ADVISORS' INNER CIRCLE FUND-EDGEWOOD GROWTH FUND",
+      "shares": 646.92,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.17,
+      "value_usd": 992362328
+    },
+    {
+      "name": "AMERICAN BALANCED FUND",
+      "shares": 663.77,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.17,
+      "value_usd": 1018206823
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.01%",
+    "% of Shares Held by Institutions": "18.80%",
+    "% of Float Held by Institutions": "18.80%",
+    "Number of Institutions Holding Shares": "2,526"
+  }
 }

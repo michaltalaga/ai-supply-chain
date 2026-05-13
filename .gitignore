@@ -1,6 +1,9 @@
 # Playwright MCP artifacts
 .playwright-mcp/
 
+# Local scratch
+.scratch/
+
 # Node
 node_modules/
 npm-debug.log*

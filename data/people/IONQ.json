@@ -24,7 +24,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=IONQ"
+    "insider_trades": "https://finviz.com/quote.ashx?t=IONQ",
+    "top_holders": "https://finance.yahoo.com/quote/IONQ/holders/"
   },
   "insider_trades": [
     {
@@ -147,5 +148,155 @@
       "value_usd": 1027980,
       "post_holding": 60839
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 30080000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 8.06,
+      "value_usd": 1635015636
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 19570000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 5.24,
+      "value_usd": 1063652945
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 15390000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.12,
+      "value_usd": 836577578
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 15060000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.04,
+      "value_usd": 818881658
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 8960000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.4,
+      "value_usd": 487217215
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 8070000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.16,
+      "value_usd": 438919007
+    },
+    {
+      "name": "UBS Group AG",
+      "shares": 5810000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.56,
+      "value_usd": 315599268
+    },
+    {
+      "name": "Marex Group Plc",
+      "shares": 4080000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.09,
+      "value_usd": 221976507
+    },
+    {
+      "name": "Price (T.Rowe) Associates Inc",
+      "shares": 4010000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.07,
+      "value_usd": 217979851
+    },
+    {
+      "name": "Northern Trust Corporation",
+      "shares": 3280000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.88,
+      "value_usd": 178149572
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 10030000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.69,
+      "value_usd": 545463086
+    },
+    {
+      "name": "iShares Trust-iShares Russell 2000 ETF",
+      "shares": 8369999.999999999,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.24,
+      "value_usd": 454960589
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Small-Cap Index Fund",
+      "shares": 7240000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.94,
+      "value_usd": 393308955
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Small-Cap Growth Index Fund",
+      "shares": 4080000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.09,
+      "value_usd": 222032770
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Extended Market Index Fund",
+      "shares": 3820000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.02,
+      "value_usd": 207586600
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 3390000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.91,
+      "value_usd": 184116887
+    },
+    {
+      "name": "Fidelity Salem Street Trust-Fidelity Small Cap Index Fund",
+      "shares": 3310000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.89,
+      "value_usd": 180152792
+    },
+    {
+      "name": "iShares Trust-iShares Russell 2000 Growth ETF",
+      "shares": 2820000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.75,
+      "value_usd": 153029761
+    },
+    {
+      "name": "MORGAN STANLEY INSTITUTIONAL FUND INC-GROWTH PORTFOLIO",
+      "shares": 2680000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.72,
+      "value_usd": 145645064
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity Extended Market Index Fund",
+      "shares": 1880000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.5,
+      "value_usd": 102381298
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.75%",
+    "% of Shares Held by Institutions": "53.16%",
+    "% of Float Held by Institutions": "53.56%",
+    "Number of Institutions Holding Shares": "854"
+  }
 }

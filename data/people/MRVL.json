@@ -18,7 +18,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=MRVL"
+    "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
+    "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
     {
@@ -191,5 +192,155 @@
       "value_usd": 0,
       "post_holding": 412871
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "FMR, LLC",
+      "shares": 126820000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 14.5,
+      "value_usd": 22824600329
+    },
+    {
+      "name": "Blackrock Inc.",
+      "shares": 59810000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 6.84,
+      "value_usd": 10763972174
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 39110000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.47,
+      "value_usd": 7038158228
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 33220000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 3.8,
+      "value_usd": 5978595475
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 22830000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.61,
+      "value_usd": 4109810086
+    },
+    {
+      "name": "Ameriprise Financial, Inc.",
+      "shares": 17150000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.96,
+      "value_usd": 3086104748
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 12110000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.38,
+      "value_usd": 2179279139
+    },
+    {
+      "name": "Franklin Resources, Inc.",
+      "shares": 11550000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.32,
+      "value_usd": 2078942271
+    },
+    {
+      "name": "Bank of America Corporation",
+      "shares": 11460000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.31,
+      "value_usd": 2062727873
+    },
+    {
+      "name": "Invesco Ltd.",
+      "shares": 10520000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.2,
+      "value_usd": 1894016785
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "Fidelity Select Portfolios-Select Semiconductors Portfolio",
+      "shares": 36470000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.17,
+      "value_usd": 6563011759
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 27090000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.1,
+      "value_usd": 4876458275
+    },
+    {
+      "name": "Invesco QQQ Trust, Series 1",
+      "shares": 18650000,
+      "date_reported": "Apr 30, 2026",
+      "pct_outstanding": 2.13,
+      "value_usd": 3355977732
+    },
+    {
+      "name": "Fidelity Securities Fund-Fidelity Blue Chip Growth Fund",
+      "shares": 18100000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.07,
+      "value_usd": 3258392038
+    },
+    {
+      "name": "Fidelity Select Portfolios-Technology Portfolio",
+      "shares": 16719999.999999998,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.91,
+      "value_usd": 3008537869
+    },
+    {
+      "name": "iShares Trust-iShares Semiconductor ETF",
+      "shares": 10570000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.21,
+      "value_usd": 1901694192
+    },
+    {
+      "name": "Columbia Fd.s Series TRT II-Columbia Seligman Technology and Informati",
+      "shares": 10200000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 1.17,
+      "value_usd": 1834902895
+    },
+    {
+      "name": "VanEck ETF Trust-VanEck Semiconductor ETF",
+      "shares": 9830000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 1.12,
+      "value_usd": 1769706402
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Growth Index Fund",
+      "shares": 9680000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.11,
+      "value_usd": 1742250453
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 9380000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.07,
+      "value_usd": 1688609035
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "0.71%",
+    "% of Shares Held by Institutions": "84.71%",
+    "% of Float Held by Institutions": "85.32%",
+    "Number of Institutions Holding Shares": "2,093"
+  }
 }

@@ -23,7 +23,8 @@
   "as_of": "2026-05-13",
   "sources": {
     "leadership": "hand-curated",
-    "insider_trades": "https://finviz.com/quote.ashx?t=SNOW"
+    "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
+    "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
     {
@@ -206,5 +207,155 @@
       "value_usd": 763147,
       "post_holding": 57124
     }
-  ]
+  ],
+  "top_holders": [
+    {
+      "name": "Blackrock Inc.",
+      "shares": 28210000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 8.16,
+      "value_usd": 4273487713
+    },
+    {
+      "name": "Vanguard Capital Management LLC",
+      "shares": 14780000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 4.27,
+      "value_usd": 2238623202
+    },
+    {
+      "name": "FMR, LLC",
+      "shares": 13810000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 3.99,
+      "value_usd": 2091651942
+    },
+    {
+      "name": "Vanguard Portfolio Management LLC",
+      "shares": 12840000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 3.71,
+      "value_usd": 1945497509
+    },
+    {
+      "name": "JPMORGAN CHASE & CO",
+      "shares": 10250000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.97,
+      "value_usd": 1553176695
+    },
+    {
+      "name": "Morgan Stanley",
+      "shares": 8940000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.59,
+      "value_usd": 1354592094
+    },
+    {
+      "name": "State Street Corporation",
+      "shares": 7420000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.15,
+      "value_usd": 1124104166
+    },
+    {
+      "name": "Jennison Associates LLC",
+      "shares": 7160000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 2.07,
+      "value_usd": 1085275696
+    },
+    {
+      "name": "Geode Capital Management, LLC",
+      "shares": 4810000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.39,
+      "value_usd": 728612547
+    },
+    {
+      "name": "Nuveen, LLC",
+      "shares": 3350000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.97,
+      "value_usd": 507820944
+    }
+  ],
+  "top_mutual_funds": [
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Total Stock Market Index Fund",
+      "shares": 10120000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 2.93,
+      "value_usd": 1533022363
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Growth Index Fund",
+      "shares": 3660000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.06,
+      "value_usd": 553748771
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Extended Market Index Fund",
+      "shares": 3650000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.06,
+      "value_usd": 553153119
+    },
+    {
+      "name": "VANGUARD INDEX FUNDS-Vanguard Mid-Cap Index Fund",
+      "shares": 3500000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 1.01,
+      "value_usd": 530635566
+    },
+    {
+      "name": "Fidelity Select Portfolios-Technology Portfolio",
+      "shares": 2540000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.73,
+      "value_usd": 384131345
+    },
+    {
+      "name": "VANGUARD WORLD FUND-Vanguard Information Technology Index Fund",
+      "shares": 2410000,
+      "date_reported": "Feb 28, 2026",
+      "pct_outstanding": 0.7,
+      "value_usd": 364956992
+    },
+    {
+      "name": "College Retirement Equities Fund-Growth Account",
+      "shares": 2290000,
+      "date_reported": "Dec 31, 2025",
+      "pct_outstanding": 0.66,
+      "value_usd": 347279648
+    },
+    {
+      "name": "HARBOR FUNDS-Harbor Capital Appreciation Fund",
+      "shares": 2100000,
+      "date_reported": "Jan 31, 2026",
+      "pct_outstanding": 0.61,
+      "value_usd": 317799684
+    },
+    {
+      "name": "Fidelity Contrafund",
+      "shares": 2020000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.58,
+      "value_usd": 305427013
+    },
+    {
+      "name": "Fidelity Concord Street Trust-Fidelity Extended Market Index Fund",
+      "shares": 1820000,
+      "date_reported": "Mar 31, 2026",
+      "pct_outstanding": 0.53,
+      "value_usd": 275517427
+    }
+  ],
+  "ownership_breakdown": {
+    "% of Shares Held by All Insider": "3.25%",
+    "% of Shares Held by Institutions": "76.15%",
+    "% of Float Held by Institutions": "78.71%",
+    "Number of Institutions Holding Shares": "1,780"
+  }
 }
