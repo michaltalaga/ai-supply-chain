@@ -467,14 +467,60 @@ svg.addEventListener("click", e => {
 function selectTicker(ticker) {
   if (!DATA[ticker]) return;
   selectedTicker = ticker;
-  // Highlight set: this ticker + every up/down neighbor in registry
   const info = DATA[ticker].info;
   const set = new Set([ticker]);
+  // Forward: relationships declared on this ticker's own row.
   for (const u of info.key_upstream || []) if (DATA[u]) set.add(u);
   for (const d of info.key_downstream || []) if (DATA[d]) set.add(d);
+  // Reverse: anyone whose row declares THIS ticker as an up/downstream.
+  // Without this, LASR-selected wouldn't surface IONQ even though IONQ
+  // lists LASR as upstream (the buildGraph traversal is bidirectional
+  // but the highlight was one-sided).
+  for (const other in DATA) {
+    const oi = DATA[other].info;
+    if ((oi.key_upstream || []).includes(ticker)) set.add(other);
+    if ((oi.key_downstream || []).includes(ticker)) set.add(other);
+  }
+  // Ghost edges: include any ghost node that has an edge to/from this ticker.
+  const ge = (GHOSTS && GHOSTS.edges) || {};
+  for (const key in ge) {
+    const [s, t] = key.split("->");
+    if (s === ticker) set.add(t);
+    if (t === ticker) set.add(s);
+  }
   highlightSet = set;
   applyHighlight();
   showDetail(ticker);
+}
+
+// Helpers used by the detail panel to show "reverse" neighbors symmetrically.
+function reverseUpstreams(ticker) {
+  // Tickers (or ghosts) whose key_downstream lists this ticker
+  // -> they supply us -> they're our upstream.
+  const out = [];
+  for (const other in DATA) {
+    if ((DATA[other].info.key_downstream || []).includes(ticker)) out.push(other);
+  }
+  const ge = (GHOSTS && GHOSTS.edges) || {};
+  for (const key in ge) {
+    const [s, t] = key.split("->");
+    if (t === ticker && !DATA[s]) out.push(s); // ghost source
+  }
+  return out;
+}
+function reverseDownstreams(ticker) {
+  // Tickers (or ghosts) whose key_upstream lists this ticker
+  // -> we supply them -> they're our downstream.
+  const out = [];
+  for (const other in DATA) {
+    if ((DATA[other].info.key_upstream || []).includes(ticker)) out.push(other);
+  }
+  const ge = (GHOSTS && GHOSTS.edges) || {};
+  for (const key in ge) {
+    const [s, t] = key.split("->");
+    if (s === ticker && !DATA[t]) out.push(t); // ghost target
+  }
+  return out;
 }
 
 function clearSelection() {
@@ -827,13 +873,23 @@ function showDetail(ticker) {
      + (compareSet && compareSet.has(ticker) ? '− Remove from compare' : '+ Add to compare')
      + '</button></p>';
 
-  const pillFor = (u) => DATA[u]
-    ? '<span class="pill pill-link" onclick="selectTicker(\''+u+'\')">'+u+'</span>'
-    : '<span class="pill pill-extern" title="not in registry (private / foreign-only / categorical)">'+u+'</span>';
+  const ghostMap = (GHOSTS && GHOSTS.ghosts) || {};
+  const pillFor = (u) => {
+    if (DATA[u]) {
+      return '<span class="pill pill-link" onclick="selectTicker(\''+u+'\')">'+u+'</span>';
+    }
+    if (ghostMap[u]) {
+      return '<span class="pill pill-extern" title="'+ghostMap[u].kind+' — '+ghostMap[u].where+'">'+ghostMap[u].name+' (ghost)</span>';
+    }
+    return '<span class="pill pill-extern" title="not in registry (private / foreign-only / categorical)">'+u+'</span>';
+  };
+  // Union of declared + reverse-declared (so LASR sees IONQ even though IONQ is the side declaring the edge)
+  const upSet = new Set([...(info.key_upstream || []), ...reverseUpstreams(ticker)]);
+  const dnSet = new Set([...(info.key_downstream || []), ...reverseDownstreams(ticker)]);
   h += '<h2>Upstream (depends on)</h2><p>';
-  h += (info.key_upstream || []).map(pillFor).join(" ") || '<em class="meta">none in registry</em>';
+  h += upSet.size ? [...upSet].map(pillFor).join(" ") : '<em class="meta">none in registry</em>';
   h += '</p><h2>Downstream (serves)</h2><p>';
-  h += (info.key_downstream || []).map(pillFor).join(" ") || '<em class="meta">none in registry</em>';
+  h += dnSet.size ? [...dnSet].map(pillFor).join(" ") : '<em class="meta">none in registry</em>';
   h += '</p>';
 
   if (d.f && d.f.yr && d.f.yr.length) {
