@@ -170,6 +170,7 @@ const html = `<!doctype html>
         <option value="">All segments</option>
       </select>
       <button id="screen-toggle" onclick="toggleScreenPanel()">Screen ▾</button>
+      <button id="ew-toggle" onclick="toggleEdgeWeight()">Edges: uniform</button>
       <button onclick="clearSelection(); document.getElementById('search').value=''; resetView()">Reset</button>
       <span id="screen-status"></span>
     </div>
@@ -264,7 +265,7 @@ let legendHtml = '';
 for (const t in tierColor) {
   legendHtml += '<span style="background:'+tierColor[t]+'"></span>'+tierLabel[t]+' &nbsp; ';
 }
-legendHtml += '<span style="color:#7a8395">&nbsp; | &nbsp; arrow points supplier → customer ($ flows opposite) &nbsp; · &nbsp; dot size ∝ √mcap</span>';
+legendHtml += '<span style="color:#7a8395">&nbsp; | &nbsp; arrow points supplier → customer ($ flows opposite) &nbsp; · &nbsp; dot size ∝ √mcap &nbsp; · &nbsp; edge width = uniform OR ∝ √($/yr) when toggled</span>';
 legendEl.innerHTML = legendHtml;
 
 // Build node + link arrays
@@ -603,21 +604,22 @@ function applyHighlight() {
       circle.setAttribute("stroke-width", "0.5");
     }
   }
-  // Links
+  // Links — combine base width (from edgeWeightMode) with highlight state
   for (const { el, source, target } of renderState.linkEls) {
+    const base = edgeBaseWidth(source, target);
     if (!highlightSet) {
       el.setAttribute("stroke", "#3a4150");
-      el.setAttribute("stroke-width", "0.6");
+      el.setAttribute("stroke-width", base.toFixed(2));
       el.setAttribute("opacity", "0.55");
       el.setAttribute("marker-end", "url(#arrow-dim)");
     } else if (highlightSet.has(source) && highlightSet.has(target)) {
       el.setAttribute("stroke", "#8ab4f8");
-      el.setAttribute("stroke-width", "1.4");
+      el.setAttribute("stroke-width", Math.max(1.3, base * 1.8).toFixed(2));
       el.setAttribute("opacity", "0.95");
       el.setAttribute("marker-end", "url(#arrow-hi)");
     } else {
       el.setAttribute("stroke", "#1d2129");
-      el.setAttribute("stroke-width", "0.4");
+      el.setAttribute("stroke-width", Math.max(0.3, base * 0.5).toFixed(2));
       el.setAttribute("opacity", "0.18");
       el.setAttribute("marker-end", "url(#arrow-faint)");
     }
@@ -988,6 +990,35 @@ function showDetail(ticker) {
     }).join(" ");
     spark.innerHTML = '<polyline points="'+pts+'" fill="none" stroke="#8ab4f8" stroke-width="1.5"/>';
   }
+}
+
+// === Edge weight mode (uniform vs $-scaled, à la Sankey) ===
+let edgeWeightMode = "uniform"; // "uniform" | "dollar"
+
+// Parse strings like "30-40", "<0.1", "8-12", "5.5" → midpoint in USD billions
+function parseAnnualB(s) {
+  if (s == null) return null;
+  const str = String(s).trim();
+  const lt = str.match(/^<\s*([\d.]+)/);
+  if (lt) return parseFloat(lt[1]) / 2;
+  const range = str.match(/^([\d.]+)\s*-\s*([\d.]+)/);
+  if (range) return (parseFloat(range[1]) + parseFloat(range[2])) / 2;
+  const num = parseFloat(str);
+  return isNaN(num) ? null : num;
+}
+
+function edgeBaseWidth(source, target) {
+  if (edgeWeightMode === "uniform") return 0.6;
+  const edge = findEdgeData(source, target);
+  const $$ = edge && edge.annual_usd_billions ? parseAnnualB(edge.annual_usd_billions) : null;
+  if ($$ == null) return 0.35;          // uncurated edges very thin in $ mode
+  return Math.max(0.5, Math.min(8, Math.sqrt($$)));
+}
+
+function toggleEdgeWeight() {
+  edgeWeightMode = edgeWeightMode === "uniform" ? "dollar" : "uniform";
+  document.getElementById("ew-toggle").textContent = "Edges: " + (edgeWeightMode === "dollar" ? "$-scaled" : "uniform");
+  applyHighlight();   // re-applies widths
 }
 
 // === Screen / filter by metric ===
