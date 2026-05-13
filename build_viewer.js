@@ -161,7 +161,8 @@ const html = `<!doctype html>
     <div id="footer-meta">
       <h1>AI / Quantum / Photonics Supply Chain</h1>
       <p>Click a node to inspect. Drag to pan, scroll to zoom.</p>
-      <p>Data as of 2026-05-11. <a href="REPORT.md">Full narrative report</a> &middot; <a href="tickers.csv">CSV</a></p>
+      <p>Data as of 2026-05-11. <a href="report.html">Full narrative report</a> &middot; <a href="tickers.csv">tickers.csv</a> &middot; <a href="financials.csv">financials.csv</a> &middot; <a href="prices_monthly.csv">prices_monthly.csv</a></p>
+      <p><a href="https://github.com/michaltalaga/ai-supply-chain" target="_blank" rel="noopener">github.com/michaltalaga/ai-supply-chain</a></p>
     </div>
   </div>
 </div>
@@ -781,5 +782,6 @@ draw();
 </script>
 </body></html>`;
 
+fs.writeFileSync(path.join(ROOT, "index.html"), html);
 fs.writeFileSync(path.join(ROOT, "viewer.html"), html);
-console.log(`viewer.html: ${(html.length/1024).toFixed(0)} KB written`);
+console.log(`index.html + viewer.html: ${(html.length/1024).toFixed(0)} KB written`);

@@ -72,6 +72,46 @@ To refresh data, you would need to re-fetch the per-ticker JSON files from sourc
 5. **GEV (GE Vernova) spun off April 2024** — only 1-2 standalone fiscal years exist.
 6. **Categorical downstream labels** (e.g., "Enterprise", "Hyperscalers", "Industrial") in tickers.csv are intentional generic destinations, not tickers. The cross-reference check flags them as "dangling" — see `notes/dangling-refs.json` for the full list.
 
+## Deploy to Cloudflare Pages
+
+This project ships as a static site — the viewer is a single self-contained HTML file, all data is in plain CSV / JSON / Markdown. No server-side runtime, no database.
+
+**One-time setup:**
+
+1. Sign in to Cloudflare → **Workers & Pages** → **Create application** → **Pages** → **Connect to Git**.
+2. Authorize the Cloudflare GitHub app on your account (`michaltalaga`) and grant access to **only** the `ai-supply-chain` repo (it's private — that's fine).
+3. Select the repo, click **Begin setup**.
+4. Build settings:
+   - **Framework preset:** None
+   - **Build command:** `node build_viewer.js` *(or leave blank — committed `index.html` will serve as-is)*
+   - **Build output directory:** `/` *(repository root)*
+   - **Environment variables:** *(none required)*
+   - **Node version (optional):** add `NODE_VERSION=20` in environment variables if Cloudflare's default Node is too old.
+5. Click **Save and Deploy**. First build ~30 s.
+
+**Result:**
+
+- Live URL: `https://ai-supply-chain-XXXXX.pages.dev/` *(custom domain optional via Pages → Custom domains)*
+- **`/`** → `index.html` — the interactive viewer
+- **`/report.html`** → narrative report (rendered from `REPORT.md` client-side via marked.js CDN)
+- **`/REPORT.md`** → raw markdown (served with `text/markdown` content-type)
+- **`/tickers.csv`** etc. → CSV downloads
+- **`/data/tickers.json`** etc. → JSON
+- Auto-redeploys on every `git push` to `main`
+
+**Cache & MIME types** are configured in `_headers`:
+- HTML pages cached 10 min, JSON files cached 1 hour
+- `.md` / `.csv` / `.json` get the proper `Content-Type` so browsers display them correctly
+
+**Local build (preview before pushing):**
+
+```bash
+npm run build      # = aggregate.js + report.js + build_viewer.js
+npm run verify     # row counts, JSON validity, dangling refs
+```
+
+Then open `index.html` in a browser.
+
 ## License / use
 
 Public-source data only. No proprietary information. Not investment advice — this is a structural map, not a stock recommendation.

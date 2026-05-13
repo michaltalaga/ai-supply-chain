@@ -1,0 +1,16 @@
+{
+  "name": "ai-supply-chain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public-markets map of the AI / Quantum / Photonics buildout supply chain — 172 tickers, 5yr financials, monthly prices, upstream/downstream relationships.",
+  "scripts": {
+    "build:data": "node aggregate.js",
+    "build:report": "node report.js",
+    "build:viewer": "node build_viewer.js",
+    "build": "node aggregate.js && node report.js && node build_viewer.js",
+    "verify": "node verify.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
