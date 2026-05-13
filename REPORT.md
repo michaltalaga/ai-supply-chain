@@ -299,7 +299,7 @@ Power generation is the AI build-out's bottleneck. CEG/VST/TLN signing 10-20yr n
 | [VST](https://stockanalysis.com/stocks/vst/) | Vistra Corp | $17.74B | $752.0M | 2.18 | +10% | +692% |
 | [D](https://stockanalysis.com/stocks/d/) | Dominion Energy | $16.51B | $3.00B | 3.45 | +10% | -14% |
 | [ETR](https://stockanalysis.com/stocks/etr/) | Entergy Corp | $12.95B | $1.76B | 3.91 | +2% | +127% |
-| [BWX](https://stockanalysis.com/stocks/bwx/) | BWX Technologies | $3.20B | $328.9M | 3.58 | +11% | -25% |
+| [BWXT](https://stockanalysis.com/stocks/bwxt/) | BWX Technologies | $3.20B | $328.9M | 3.58 | +11% | -25% |
 | [TLN](https://stockanalysis.com/stocks/tln/) | Talen Energy | $2.58B | $-219.0M | -4.79 | +29% | +591% |
 | [SMR](https://stockanalysis.com/stocks/smr/) | NuScale Power | $31.5M | $-355.8M | -2.17 | +82% | +20% |
 | [OKLO](https://stockanalysis.com/stocks/oklo/) | Oklo Inc | — | $-105.7M | -0.72 | — | +649% |

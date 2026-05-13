@@ -353,7 +353,7 @@
       "alternatives": "Siemens Energy, Mitsubishi Heavy.",
       "trend": "Massive backlog growth in gas turbines as data centers shift toward dedicated gas plants."
     },
-    "BWX->OKLO": {
+    "BWXT->OKLO": {
       "what_flows": "HALEU (high-assay low-enriched uranium) fuel + reactor pressure-vessel components for Aurora SMR",
       "importance": "critical",
       "annual_usd_billions": "<0.1 today, ramping",
@@ -362,7 +362,7 @@
       "alternatives": "Centrus Energy (LEU), Urenco (limited HALEU).",
       "trend": "Growing as SMR fleet builds."
     },
-    "BWX->SMR": {
+    "BWXT->SMR": {
       "what_flows": "Reactor module manufacturing + HALEU fuel for NuScale VOYGR",
       "importance": "critical",
       "annual_usd_billions": "<0.1 today",
@@ -403,15 +403,15 @@
       "trend": "Stable; small revenue line for MP, large strategic line for GEV's offshore wind."
     },
     "UUUU->OKLO": {
-      "what_flows": "Uranium / planned HALEU feedstock for Aurora SMR fuel (alongside BWX) — supply chain still being finalized",
+      "what_flows": "Uranium / planned HALEU feedstock for Aurora SMR fuel (alongside BWXT) — supply chain still being finalized",
       "importance": "meaningful",
       "annual_usd_billions": "<0.05",
       "single_source_risk": "medium",
-      "alternatives": "Centrus Energy (LEU), Urenco, BWX downblending.",
+      "alternatives": "Centrus Energy (LEU), Urenco, BWXT downblending.",
       "trend": "Growing in the SMR fuel supply chain story."
     },
-    "UUUU->BWX": {
-      "what_flows": "Natural uranium concentrate feedstock for BWX's HALEU downblending / fuel-fabrication operations",
+    "UUUU->BWXT": {
+      "what_flows": "Natural uranium concentrate feedstock for BWXT's HALEU downblending / fuel-fabrication operations",
       "importance": "meaningful",
       "annual_usd_billions": "<0.05",
       "single_source_risk": "low",

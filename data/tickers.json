@@ -1531,7 +1531,7 @@
         "OKLO",
         "SMR",
         "NNE",
-        "BWX",
+        "BWXT",
         "CEG",
         "VST",
         "Rare-earth processors (mostly private)"
@@ -1995,7 +1995,7 @@
       "key_upstream": [
         "FCX",
         "ETN",
-        "BWX"
+        "BWXT"
       ],
       "key_downstream": [
         "MSFT",
@@ -2128,7 +2128,7 @@
       "tier": "D2",
       "role_in_chain": "Aurora SMR (15-50 MW); Sam Altman-chaired; planning Idaho fab",
       "key_upstream": [
-        "BWX",
+        "BWXT",
         "UUUU"
       ],
       "key_downstream": [
@@ -2144,7 +2144,7 @@
       "tier": "D2",
       "role_in_chain": "77 MW LWR SMR; UAMPS deal cancelled 2023; some pilot still alive",
       "key_upstream": [
-        "BWX"
+        "BWXT"
       ],
       "key_downstream": [
         "Utilities"
@@ -2159,7 +2159,7 @@
       "tier": "D2",
       "role_in_chain": "Mobile micro-reactors (KRONOS/ZEUS); early stage",
       "key_upstream": [
-        "BWX"
+        "BWXT"
       ],
       "key_downstream": [
         "Defense",
@@ -2167,7 +2167,7 @@
       ],
       "notes": "IPO 2024"
     },
-    "BWX": {
+    "BWXT": {
       "name": "BWX Technologies",
       "exchange": "NYSE",
       "currency_native": "USD",
@@ -2183,7 +2183,7 @@
         "NNE",
         "Navy"
       ],
-      "notes": ""
+      "notes": "Renamed BWX->BWXT 2026-05-13 (canonical NYSE ticker)"
     },
     "LNG": {
       "name": "Cheniere Energy",

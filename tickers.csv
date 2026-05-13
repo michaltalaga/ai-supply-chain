@@ -87,7 +87,7 @@ FCX,Freeport-McMoRan,NYSE,USD,Copper mining,U5,"Largest US copper miner; copper 
 SCCO,Southern Copper,NYSE,USD,Copper mining,U5,"Mexico/Peru copper; key transmission + DC bus supplier",,GEV;ETN;cabling,
 MP,MP Materials,NYSE,USD,Rare earths,U5,"Only operating US rare-earth mine (Mountain Pass); NdPr for magnets",,AAPL;TSLA;GEV;LMT (not in registry);DOD;Magnet OEMs (mostly private),Apple signed multi-year recycled-REE deal Apr 2024
 LYSDY,Lynas Rare Earths,OTC,AUD,Rare earths,U5,"#1 non-China rare-earth processor (Australia + Malaysia)",,AAPL;TSLA;GEV;Magnet OEMs (private);Defense (private),Unsponsored ADR
-UUUU,Energy Fuels,NYSE,USD,Uranium + rare earths,U5,"Uranium + monazite rare-earth processing; SMR fuel supplier",,OKLO;SMR;NNE;BWX;CEG;VST;Rare-earth processors (mostly private),
+UUUU,Energy Fuels,NYSE,USD,Uranium + rare earths,U5,"Uranium + monazite rare-earth processing; SMR fuel supplier",,OKLO;SMR;NNE;BWXT;CEG;VST;Rare-earth processors (mostly private),
 BHP,BHP Group Ltd,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + nickel; largest miner by mkt cap",,GEV;ETN;HUBB;FCX (peer);All industrial,Reports in USD
 RIO,Rio Tinto plc,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + lithium + aluminum",,GEV;ETN;HUBB;ALB (lithium tie-up);All industrial,Reports in USD
 AI,C3.ai Inc,NYSE,USD,AI software,D1,"Enterprise AI applications; large DoD presence",,Enterprise;DOD,FY ends Apr
@@ -118,7 +118,7 @@ VRT,Vertiv Holdings,NYSE,USD,Thermal + power infra,D2,"#1 data-center thermal + 
 ENS,EnerSys,NYSE,USD,Stored energy / UPS batteries,D2,"Industrial UPS batteries; data-center backup",,DLR;EQIX;Industrial,FY ends Mar
 POWL,Powell Industries,NASDAQ,USD,Switchgear,D2,"Custom medium-voltage switchgear for data-center + LNG",,Utilities;DLR;LNG operators,FY ends Sep
 NVT,nVent Electric plc,NYSE,USD,Electrical enclosures + cooling,D2,"Liquid cooling (acquired Trachte) + busbars + enclosures",,DLR;EQIX;SMCI,
-CEG,Constellation Energy,NASDAQ,USD,Nuclear IPP,D2,"Largest US nuclear fleet; Three Mile Island restart for MSFT 20-yr PPA",FCX;ETN;BWX,MSFT;META;Hyperscalers,
+CEG,Constellation Energy,NASDAQ,USD,Nuclear IPP,D2,"Largest US nuclear fleet; Three Mile Island restart for MSFT 20-yr PPA",FCX;ETN;BWXT,MSFT;META;Hyperscalers,
 VST,Vistra Corp,NYSE,USD,IPP - nuclear + gas,D2,"Texas + Comanche Peak nuclear; large AI PPA pipeline",LNG;FCX;ETN,Hyperscalers;Industrial,
 TLN,Talen Energy,NASDAQ,USD,Nuclear IPP,D2,"Susquehanna nuclear + Cumulus AI data-center campus (sold to AMZN)",,AMZN;Hyperscalers,Relisted 2023
 NEE,NextEra Energy,NYSE,USD,Renewables + nuclear utility,D2,"#1 renewables developer + FPL; selling to data centers",,Hyperscalers;Residential,
@@ -127,10 +127,10 @@ SO,Southern Co,NYSE,USD,Regulated utility,D2,"Georgia/Alabama; Vogtle 3+4 nuclea
 DUK,Duke Energy,NYSE,USD,Regulated utility,D2,"Carolinas/Florida/Indiana; large data-center pipeline + SMR consideration",,Industrial;Hyperscalers,
 D,Dominion Energy,NYSE,USD,Regulated utility,D2,"VA data-center alley; ~70% of N.Va. data-center demand",,Hyperscalers;Residential,
 AEP,American Electric Power,NASDAQ,USD,Regulated utility,D2,"Ohio/Texas; ERCOT AI load + ETF announced 2025",,Industrial;Hyperscalers,
-OKLO,Oklo Inc,NYSE,USD,SMR developer,D2,"Aurora SMR (15-50 MW); Sam Altman-chaired; planning Idaho fab",BWX;UUUU,Hyperscalers,IPO May-2024; pre-revenue
-SMR,NuScale Power,NYSE,USD,SMR developer,D2,"77 MW LWR SMR; UAMPS deal cancelled 2023; some pilot still alive",BWX,Utilities,Pre-revenue
-NNE,Nano Nuclear Energy,NASDAQ,USD,Micro-reactor developer,D2,"Mobile micro-reactors (KRONOS/ZEUS); early stage",BWX,Defense;Industrial,IPO 2024
-BWX,BWX Technologies,NYSE,USD,Nuclear fuel + components,D2,"HALEU fuel + Navy reactors; sole supplier for many SMR designs",UUUU,OKLO;SMR;NNE;Navy,
+OKLO,Oklo Inc,NYSE,USD,SMR developer,D2,"Aurora SMR (15-50 MW); Sam Altman-chaired; planning Idaho fab",BWXT;UUUU,Hyperscalers,IPO May-2024; pre-revenue
+SMR,NuScale Power,NYSE,USD,SMR developer,D2,"77 MW LWR SMR; UAMPS deal cancelled 2023; some pilot still alive",BWXT,Utilities,Pre-revenue
+NNE,Nano Nuclear Energy,NASDAQ,USD,Micro-reactor developer,D2,"Mobile micro-reactors (KRONOS/ZEUS); early stage",BWXT,Defense;Industrial,IPO 2024
+BWXT,BWX Technologies,NYSE,USD,Nuclear fuel + components,D2,"HALEU fuel + Navy reactors; sole supplier for many SMR designs",UUUU,OKLO;SMR;NNE;Navy,Renamed BWX->BWXT 2026-05-13 (canonical NYSE ticker)
 LNG,Cheniere Energy,NYSE,USD,LNG export,D2,"#1 US LNG exporter; AI power generation fuels gas plant buildout",FCX;KMI,VST;NEE;Gas plants,
 KMI,Kinder Morgan,NYSE,USD,Gas pipelines,D2,"#1 US gas pipeline operator; serves data-center gas plants",,LNG exporters;utilities,
 OKE,ONEOK Inc,NYSE,USD,Gas pipelines,D2,"Gas + NGL midstream; powering Permian gas-fired data centers",,Utilities;data center gas turbines,
