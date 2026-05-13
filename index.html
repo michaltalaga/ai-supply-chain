@@ -2,9 +2,17 @@
 <html><head><meta charset="utf-8">
 <title>AI Supply Chain Explorer</title>
 <style>
-  body { font: 14px/1.4 -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #0e1116; color: #e3e7ed; }
+  html, body { height: 100%; }
+  body { font: 14px/1.4 -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #0e1116; color: #e3e7ed; overflow: hidden; }
   :root { --side-width: 560px; }
   #app { display: grid; grid-template-columns: 1fr var(--side-width); height: 100vh; }
+  /* Left column lays out controls + screen-panel + graph + legend as a flex
+     stack so the graph fills the remaining viewport height exactly. */
+  #app > div:first-child { display: flex; flex-direction: column; min-width: 0; height: 100vh; overflow: hidden; }
+  #app > div:first-child > #controls,
+  #app > div:first-child > #screen-panel,
+  #app > div:first-child > .legend { flex-shrink: 0; }
+  #app > div:first-child > #graph { flex: 1; min-height: 0; }
   #side-resize {
     position: fixed; top: 0; bottom: 0;
     width: 8px;
@@ -183,7 +191,7 @@
       &nbsp;<button onclick="applyScreen()">Apply</button>
       <button class="clear" onclick="clearScreen()">Clear screen</button>
     </div>
-    <div id="graph" style="height: calc(100vh - 84px); position: relative">
+    <div id="graph" style="position: relative">
       <div id="minimap-wrap" title="Click to center main view here">
         <svg id="minimap" viewBox="0 0 200 110"></svg>
       </div>
@@ -249,13 +257,12 @@ for (const s of [...segments].sort()) {
   filterEl.appendChild(o);
 }
 
-// Legend
+// Legend — just the tier color key
 const legendEl = document.getElementById("legend");
 let legendHtml = '';
 for (const t in tierColor) {
   legendHtml += '<span style="background:'+tierColor[t]+'"></span>'+tierLabel[t]+' &nbsp; ';
 }
-legendHtml += '<span style="color:#7a8395">&nbsp; | &nbsp; arrow = supplier → customer ($ flows opposite) &nbsp; · &nbsp; dot ∝ √mcap &nbsp; · &nbsp; edge modes: uniform / $-scaled / flows-only (Sankey-ish, curated $-edges only)</span>';
 legendEl.innerHTML = legendHtml;
 
 // Build node + link arrays
