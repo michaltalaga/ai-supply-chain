@@ -1,0 +1,15 @@
+{
+  "ticker": "BTDR",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 620.25, "net_income_native": 65.6, "eps_diluted_native": -1.43},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 349.78, "net_income_native": -599.15, "eps_diluted_native": -4.36},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 368.55, "net_income_native": -56.66, "eps_diluted_native": -0.51},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 333.34, "net_income_native": -60.37, "eps_diluted_native": -0.56},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 394.66, "net_income_native": 82.64, "eps_diluted_native": 0.75}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/btdr/financials/",
+  "note": "Bitdeer NASDAQ listing Apr 2023 via Blue Safari SPAC; AI pivot ramping"
+}

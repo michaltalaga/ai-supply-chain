@@ -1,0 +1,14 @@
+{
+  "ticker": "APLD",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-05-31", "revenue_native": 144.19, "net_income_native": -233.68, "eps_diluted_native": -1.16},
+    {"fy": 2024, "fye": "2024-05-31", "revenue_native": 136.62, "net_income_native": -149.27, "eps_diluted_native": -1.31},
+    {"fy": 2023, "fye": "2023-05-31", "revenue_native": 55.39, "net_income_native": -44.65, "eps_diluted_native": -0.47},
+    {"fy": 2022, "fye": "2022-05-31", "revenue_native": 8.55, "net_income_native": -23.54, "eps_diluted_native": -0.41}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/apld/financials/",
+  "note": "FY ends May; Delta Forge 1 $7.5B hyperscaler lease announced 2025"
+}

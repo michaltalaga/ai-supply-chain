@@ -1,0 +1,14 @@
+{
+  "ticker": "IREN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-06-30", "revenue_native": 501.02, "net_income_native": 86.94, "eps_diluted_native": 0.39},
+    {"fy": 2024, "fye": "2024-06-30", "revenue_native": 187.19, "net_income_native": -28.92, "eps_diluted_native": -0.29},
+    {"fy": 2023, "fye": "2023-06-30", "revenue_native": 75.51, "net_income_native": -171.83, "eps_diluted_native": -3.14},
+    {"fy": 2022, "fye": "2022-06-30", "revenue_native": 59.05, "net_income_native": -419.77, "eps_diluted_native": -10.25}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/iren/financials/",
+  "note": "FY ends Jun; AI pivot from bitcoin mining accelerating 2025-26"
+}

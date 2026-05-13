@@ -12,6 +12,10 @@ const ghostPath = path.join(ROOT, "data", "ghost-nodes.json");
 const ghosts = fs.existsSync(ghostPath)
   ? JSON.parse(fs.readFileSync(ghostPath, "utf-8"))
   : { ghosts: {}, edges: {} };
+const earningsPath = path.join(ROOT, "data", "earnings-dates.json");
+const earnings = fs.existsSync(earningsPath)
+  ? JSON.parse(fs.readFileSync(earningsPath, "utf-8"))
+  : { dates: {} };
 
 // Year-end FX rates for converting non-USD market caps (1 native = X USD)
 const FX = {
@@ -282,6 +286,7 @@ const html = `<!doctype html>
 const DATA = ${JSON.stringify(embedded)};
 const RELATIONSHIPS = ${JSON.stringify(relationships)};
 const GHOSTS = ${JSON.stringify(ghosts)};
+const EARNINGS = ${JSON.stringify(earnings.dates || {})};
 const tierColor = {
   "U5": "#a5673f", "U4": "#bf8a3e", "U3": "#c9b449", "U2": "#a7c44a",
   "U1": "#4ec9b0", "AI core": "#ff8c42",
@@ -1106,9 +1111,23 @@ function showDetail(ticker) {
   }
   h += '</p>';
   h += '<p style="font-size:13px">'+info.role_in_chain+'</p>';
-  h += '<p><button class="gf-link" style="cursor:pointer; background:#1d2129; color:#8ab4f8; border:1px solid #2a2f38; padding:3px 10px; border-radius:4px; font-size:12px" onclick="toggleCompare(\\''+ticker+'\\')">'
+  h += '<p style="display:flex; gap:8px; align-items:center; flex-wrap:wrap"><button class="gf-link" style="cursor:pointer; background:#1d2129; color:#8ab4f8; border:1px solid #2a2f38; padding:3px 10px; border-radius:4px; font-size:12px" onclick="toggleCompare(\\''+ticker+'\\')">'
      + (compareSet && compareSet.has(ticker) ? '− Remove from compare' : '+ Add to compare')
-     + '</button></p>';
+     + '</button>';
+  // Next earnings date pill
+  const eDate = EARNINGS[ticker];
+  if (eDate && eDate.label) {
+    const daysUntil = eDate.next ? Math.ceil((new Date(eDate.next) - new Date()) / 86400000) : null;
+    const soon = daysUntil != null && daysUntil >= 0 && daysUntil <= 14;
+    const passed = daysUntil != null && daysUntil < 0;
+    const color = soon ? '#80e080' : (passed ? '#7a8395' : '#e6b450');
+    const prefix = passed ? 'Last earnings' : 'Next earnings';
+    h += '<span style="background:#15171c; color:'+color+'; border:1px solid '+color+'40; padding:3px 10px; border-radius:4px; font-size:11.5px">'
+       + '<b>'+prefix+':</b> '+eDate.label
+       + (daysUntil != null ? ' <span style="opacity:0.7">('+(daysUntil>=0?'in ':Math.abs(daysUntil)+' days ago')+(daysUntil>=0?daysUntil+' days':'')+')</span>' : '')
+       + '</span>';
+  }
+  h += '</p>';
 
   const ghostMap = (GHOSTS && GHOSTS.ghosts) || {};
   const pillFor = (u) => {
@@ -1210,9 +1229,51 @@ function showDetail(ticker) {
     h += '</div>';
   }
 
+  // News section (loaded async from /api/news Cloudflare Pages Function)
+  h += '<h2>Recent news</h2>';
+  h += '<div id="news-list" style="font-size:12px"><span class="meta">Loading…</span></div>';
+
   document.getElementById("detail").innerHTML = h;
 
   if (d.p && d.p.length) drawDetailChart(ticker);
+  loadNews(ticker);
+}
+
+async function loadNews(ticker) {
+  const tgt = document.getElementById("news-list");
+  if (!tgt) return;
+  try {
+    const r = await fetch("/api/news?t=" + encodeURIComponent(ticker), { headers: { "Accept": "application/json" } });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const data = await r.json();
+    if (!data.items || !data.items.length) {
+      tgt.innerHTML = '<span class="meta">No headlines found.</span>';
+      return;
+    }
+    const fmtDate = (d) => {
+      if (!d) return "";
+      const t = new Date(d);
+      if (isNaN(t.getTime())) return "";
+      const ago = (Date.now() - t.getTime()) / 86400000;
+      if (ago < 1) return Math.round(ago * 24) + "h ago";
+      if (ago < 7) return Math.round(ago) + "d ago";
+      return t.toISOString().slice(0, 10);
+    };
+    tgt.innerHTML = data.items.slice(0, 8).map(it =>
+      '<div style="padding:6px 0; border-bottom:1px solid #1d2129">'
+      + '<a href="' + it.link + '" target="_blank" rel="noopener noreferrer" style="color:#c5cad3; text-decoration:none">'
+      + escapeHtml(it.title) + '</a>'
+      + '<div class="meta" style="font-size:11px; margin-top:2px">'
+      + (it.source ? escapeHtml(it.source) : '') + (it.pubDate ? ' · ' + fmtDate(it.pubDate) : '')
+      + '</div></div>'
+    ).join("");
+  } catch (e) {
+    tgt.innerHTML = '<span class="meta">News feed unavailable. <span style="font-size:10px">(/api/news endpoint requires Cloudflare Pages Function — works after CF deploy, not on local file://)</span></span>';
+  }
+}
+
+function escapeHtml(s) {
+  return String(s || "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;","\\"":"&quot;","'":"&#39;" }[c]));
 }
 
 function drawDetailChart(ticker) {

@@ -21,6 +21,9 @@ jobs:
       - name: Refresh monthly prices
         run: node refresh.js
 
+      - name: Refresh earnings dates
+        run: node fetch-earnings.js
+
       - name: Rebuild aggregates + report + viewer
         run: |
           node aggregate.js

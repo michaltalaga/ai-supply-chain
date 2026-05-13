@@ -1,22 +1,28 @@
 ticker,name,exchange,currency_native,segment,tier,role_in_chain,key_upstream,key_downstream,notes
-MSFT,Microsoft Corp,NASDAQ,USD,Hyperscaler / end-user,D1,"Azure cloud + OpenAI investor; largest AI training buyer of NVDA GPUs",NVDA;AMD;TSM;SMCI;DELL;CRWV;CEG;VST;DLR,,Calendar FY ends Jun
-CRWV,CoreWeave Inc,NASDAQ,USD,AI cloud pure-play,D1,"Largest neocloud — pure-play NVDA GPU cluster operator for hyperscalers + AI labs (MSFT, OpenAI, IBM); FY25 revenue $5.1B (+167%); built ~470K GPU fleet by 2026",NVDA;SMCI;DELL;MU;COHR;CEG;VST;DLR;EQIX,MSFT;META;IBM,IPO Mar-28-2025
+MSFT,Microsoft Corp,NASDAQ,USD,Hyperscaler / end-user,D1,"Azure cloud + OpenAI investor; largest AI training buyer of NVDA GPUs",NVDA;AMD;TSM;SMCI;DELL;CRWV;CEG;VST;DLR;CRDO;IREN,,Calendar FY ends Jun
+CRWV,CoreWeave Inc,NASDAQ,USD,AI cloud pure-play,D1,"Largest neocloud — pure-play NVDA GPU cluster operator for hyperscalers + AI labs (MSFT, OpenAI, IBM); FY25 revenue $5.1B (+167%); built ~470K GPU fleet by 2026",NVDA;SMCI;DELL;MU;COHR;CEG;VST;DLR;EQIX;APLD,MSFT;META;IBM,IPO Mar-28-2025
+IREN,IREN Limited,NASDAQ,USD,AI cloud pure-play,D1,"Bitcoin miner pivoting to AI compute; $3.4B NVIDIA AI Cloud contract + $2.1B NVDA investment 2025; Sweetwater 1 (Texas) energized; targeting $3.7B ARR by 2026; 1.2 GW AI cloud capacity by 2027",NVDA;SMCI;DELL;MU,NVDA;MSFT,Listed NASDAQ since 2021 as Iris Energy; rename to IREN 2024
+BTDR,Bitdeer Technologies Group,NASDAQ,USD,AI cloud pure-play,D1,"Bitcoin miner + ASIC manufacturer pivoting to AI infrastructure; NVDA-partnered Bitdeer AI Cloud + Norway AI DC (largest in country, online Dec 2026)",NVDA;SMCI,AI customers,NASDAQ since Apr 2023 via Blue Safari SPAC
+APLD,Applied Digital Corp,NASDAQ,USD,AI/HPC data center,D1,"HPC/AI data-center developer-operator; $7.5B Delta Forge 1 lease (430 MW) with US hyperscaler; CoreWeave deployments; spun out cloud business (ChronoScale) to focus on real-estate AI campus model",CEG;VST;ETN;VRT;NVDA,CRWV;Hyperscalers,Crypto-mining heritage; AI-DC pivot fully transitioned 2024-25
 GOOGL,Alphabet Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"Google Cloud + DeepMind + Quantum AI (Willow); also designs own TPU fabbed by TSM",TSM;AVGO;NVDA;CEG;VST;DLR,,Quantum AI is research-only revenue
-AMZN,Amazon.com Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"AWS hyperscaler + Trainium/Inferentia silicon fabbed by TSM; Anthropic investor",NVDA;TSM;SMCI;DELL;CEG;DLR,,
+AMZN,Amazon.com Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"AWS hyperscaler + Trainium/Inferentia silicon fabbed by TSM; Anthropic investor",NVDA;TSM;SMCI;DELL;CEG;DLR;ALAB;CRDO,,
 META,Meta Platforms Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"AI infrastructure for Llama; largest NVDA H100/H200 buyer 2023-25 outside hyperscalers",NVDA;TSM;SMCI;CEG;DLR;EQIX,,
 ORCL,Oracle Corp,NYSE,USD,Hyperscaler / end-user,D1,"OCI cloud; large NVDA buildouts for AI clusters; close OpenAI partnership 2025",NVDA;TSM;SMCI;DELL,,FY ends May
 AAPL,Apple Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"Apple Silicon designed in-house fabbed by TSM; on-device AI; Private Compute Cloud",TSM;ARM;SNPS;CDNS,,FY ends Sep
 TSLA,Tesla Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"Dojo training silicon + FSD inference chips; large NVDA H100 cluster for FSD training",NVDA;TSM;SMCI,,
 IBM,International Business Machines,NYSE,USD,Quantum + AI,D1,"watsonx AI platform + IBM Quantum (Heron/Condor chips); Telum AI accelerator",TSM;GFS;SNPS,,Cross-cuts AI + quantum
 PLTR,Palantir Technologies,NASDAQ,USD,AI software,D1,"AIP enterprise AI platform; runs on customer compute + commercial cloud",MSFT;AMZN;NVDA,,
-NVDA,NVIDIA Corp,NASDAQ,USD,AI chip design,U1,"Dominant AI GPU designer (H100/H200/B100/B200/B300/Rubin); ~90% AI training share",TSM;ASML;AMAT;LRCX;KLAC;SNPS;CDNS;MU;COHR,MSFT;META;GOOGL;AMZN;ORCL;TSLA;CRWV;SMCI;DELL;HPE,FY ends Jan
+NVDA,NVIDIA Corp,NASDAQ,USD,AI chip design,U1,"Dominant AI GPU designer (H100/H200/B100/B200/B300/Rubin); ~90% AI training share",TSM;ASML;AMAT;LRCX;KLAC;SNPS;CDNS;MU;COHR;ALAB,MSFT;META;GOOGL;AMZN;ORCL;TSLA;CRWV;SMCI;DELL;HPE;IREN;BTDR;APLD,FY ends Jan
 AMD,Advanced Micro Devices,NASDAQ,USD,AI chip design,U1,"MI300/MI325/MI350 AI accelerators + EPYC CPUs; #2 AI GPU; fabbed by TSM",TSM;ASML;SNPS;CDNS;MU,MSFT;META;ORCL;SMCI;DELL;HPE,
 INTC,Intel Corp,NASDAQ,USD,AI chip design + foundry,U1,"Xeon CPUs + Gaudi AI accelerators + Intel Foundry (18A node); also silicon photonics",ASML;AMAT;LRCX;KLAC;SNPS;CDNS;ENTG,DELL;HPE;CSCO;ANET,IDM; also foundry tier
 AVGO,Broadcom Inc,NASDAQ,USD,AI chip design + networking ASICs,U1,"Custom AI ASICs for GOOG/META; Tomahawk/Jericho switches; VMware",TSM;ASML;SNPS;CDNS,GOOGL;META;CSCO;ANET,FY ends Oct/Nov
 MRVL,Marvell Technology,NASDAQ,USD,AI networking + photonics,U1,"Custom AI silicon for AMZN/MSFT; DSPs for optical interconnect; Inphi unit",TSM;SNPS;CDNS,AMZN;MSFT;CSCO;ANET;CIEN,FY ends Feb
+ALAB,Astera Labs Inc,NASDAQ,USD,AI interconnect silicon,U1,"Fabless PCIe retimers (Aries) + CXL controllers (Leo) + Scorpio fabric switches for AI server racks; NVDA Blackwell + AMZN Trainium ramp",TSM;SNPS;CDNS;ARM,NVDA;AMZN;MSFT;META,IPO Mar-20-2024
+CRDO,Credo Technology Group,NASDAQ,USD,AI high-speed connectivity,U1,"Active Electrical Cables (HiWire AEC) + PAM4 DSPs + SerDes chiplets for hyperscaler AI fabrics; DustPhotonics acquisition Apr 2026",TSM;SNPS;CDNS,MSFT;AMZN;META,FY ends late Apr/early May; IPO Jan 2022
 QCOM,Qualcomm Inc,NASDAQ,USD,AI chip design (edge),U1,"Snapdragon X mobile + auto AI silicon; NPUs for on-device AI",TSM;ARM;SNPS,AAPL;SSNLF,FY ends Sep
 ARM,ARM Holdings PLC,NASDAQ,USD,Chip IP,U3,"CPU core IP licensed to AAPL/QCOM/MSFT/NVDA; royalty-based model",,AAPL;QCOM;NVDA;MSFT;MRVL;AVGO,UK firm; reports in USD
 MBLY,Mobileye Global,NASDAQ,USD,Auto AI silicon,U1,"EyeQ ADAS chips fabbed by INTC/STMicro; auto AI vision",INTC;TSM,Automakers,
+OUST,Ouster Inc,NYSE,USD,AI sensing (lidar),U1,"Digital lidar pure-play positioned as 'Physical AI' sensing; NVIDIA Drive integration; AVs + robotics + smart infrastructure end-markets",TSM,NVDA;Automakers;Robotics OEMs,Velodyne merger 2023; Stereolabs acquisition 2025
 LSCC,Lattice Semiconductor,NASDAQ,USD,FPGA,U1,"Low-power FPGAs for AI edge + sensor fusion",TSM;UMC;SNPS,Automakers;5G OEMs,
 MPWR,Monolithic Power Systems,NASDAQ,USD,AI power management ICs,U1,"Vertical power modules for NVDA GPU boards; key AI server PMIC supplier",TSM,NVDA;SMCI;DELL;HPE,
 ON,ON Semiconductor,NASDAQ,USD,Analog/power semis,U1,"SiC + image sensors for auto/industrial; also AI power conversion",TSM;WOLF,Automakers;DELL;HPE,
@@ -47,7 +53,7 @@ MU,Micron Technology,NASDAQ,USD,Memory (DRAM/HBM/NAND),U2,"HBM3E + DDR5 + NAND; 
 SSNLF,Samsung Electronics Co Ltd,OTC,KRW,Memory + foundry + consumer,U2,"#1 DRAM + #1 NAND + foundry (3nm); making HBM for NVDA",ASML;AMAT;LRCX;ENTG,NVDA;AMD;AAPL,Unsponsored ADR — illiquid; native KRX 005930
 WDC,Western Digital,NASDAQ,USD,Storage (HDD + flash post-spin),U2,"HDD for hyperscaler nearline; SanDisk NAND split off as SDDXD in 2025",,Hyperscalers,FY ends Jun; split 2025
 STX,Seagate Technology,NASDAQ,USD,Storage (HDD),U2,"30TB+ HAMR nearline drives for AI data lakes",,Hyperscalers,FY ends Jul
-TSM,Taiwan Semiconductor Manufacturing,NYSE,TWD,Foundry,U2,"Dominant advanced foundry (3nm/2nm) fabbing NVDA/AMD/AAPL/AVGO/MRVL/QCOM",ASML;AMAT;LRCX;KLAC;ENTG;LIN;APD;SHECY;SUOPY;SOIGY,NVDA;AMD;AVGO;AAPL;MRVL;QCOM;MBLY,ADR
+TSM,Taiwan Semiconductor Manufacturing,NYSE,TWD,Foundry,U2,"Dominant advanced foundry (3nm/2nm) fabbing NVDA/AMD/AAPL/AVGO/MRVL/QCOM",ASML;AMAT;LRCX;KLAC;ENTG;LIN;APD;SHECY;SUOPY;SOIGY,NVDA;AMD;AVGO;AAPL;MRVL;QCOM;MBLY;ALAB;CRDO;OUST,ADR
 GFS,GlobalFoundries,NASDAQ,USD,Foundry,U2,"Specialty foundry (12nm/22nm/45nm RF/auto/photonics); silicon photonics platform",ASML;AMAT;LRCX;KLAC;ENTG,Various fabless;auto OEMs,
 UMC,United Microelectronics,NYSE,TWD,Foundry,U2,"Mature-node foundry (14nm/22nm/28nm); auto/IoT/RF",ASML;AMAT;LRCX;ENTG,Auto;IoT;analog fabless,ADR
 ASX,ASE Technology Holding,NYSE,TWD,OSAT (back-end),U2,"#1 outsourced assembly + test; CoWoS substrate competition with TSM in-house",TSM;substrates,Fabless;TSM customers,ADR
@@ -92,6 +98,7 @@ UUUU,Energy Fuels,NYSE,USD,Uranium + rare earths,U5,"Uranium + monazite rare-ear
 BHP,BHP Group Ltd,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + nickel; largest miner by mkt cap",,GEV;ETN;HUBB;FCX (peer);All industrial,Reports in USD
 RIO,Rio Tinto plc,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + lithium + aluminum",,GEV;ETN;HUBB;ALB (lithium tie-up);All industrial,Reports in USD
 AI,C3.ai Inc,NYSE,USD,AI software,D1,"Enterprise AI applications; large DoD presence",,Enterprise;DOD,FY ends Apr
+TEM,Tempus AI Inc,NASDAQ,USD,AI software (vertical: health),D1,"AI-enabled precision medicine — oncology genomics + cardiology + radiology; multi-modal genomic + clinical data training; SoftBank SB Tempus JV (Japan); FY25 revenue $1.27B (+83% YoY)",MSFT;AMZN;NVDA,Pharma;Providers;Life-sciences enterprises,IPO Jun-14-2024; Ambry Genetics $600M acquisition 2024
 SNOW,Snowflake Inc,NYSE,USD,Data warehouse,D1,"Data cloud + Cortex AI; enterprise AI inference",,Enterprise,FY ends Jan
 DDOG,Datadog Inc,NASDAQ,USD,Observability,D1,"Monitors AI infrastructure + LLM observability product",,Enterprise,
 MDB,MongoDB Inc,NASDAQ,USD,Database,D1,"Document DB + vector search for AI/RAG",,Developers;Enterprise,FY ends Jan
@@ -111,15 +118,16 @@ DLR,Digital Realty Trust,NYSE,USD,Data-center REIT,D2,"#1 US data-center REIT; l
 EQIX,Equinix Inc,NASDAQ,USD,Data-center REIT,D2,"#1 colo + cross-connect; xScale AI hyperscaler JV with PIF/CPPIB",CEG;ETN;VRT,MSFT;GOOGL;AMZN;Enterprise,
 IRM,Iron Mountain Inc,NYSE,USD,Data-center + storage,D2,"Records storage + ALR data-center expansion + asset disposition",CEG;ETN;VRT,Enterprise;Hyperscalers,
 GEV,GE Vernova,NYSE,USD,Power equipment + nuclear,D2,"Gas turbines + grid + nuclear (BWRX-300 SMR); huge AI data-center backlog",,DLR;EQIX;CEG;Utilities,Spun from GE Apr-2024
-ETN,Eaton Corp,NYSE,USD,Power management,D2,"Switchgear + UPS + busbar for hyperscale data centers",,DLR;EQIX;SMCI;DELL;HPE,
+ETN,Eaton Corp,NYSE,USD,Power management,D2,"Switchgear + UPS + busbar for hyperscale data centers",,DLR;EQIX;SMCI;DELL;HPE;IESC,
 HUBB,Hubbell Inc,NYSE,USD,Electrical products,D2,"Utility transmission + commercial electrical; AI grid buildout exposure",,Utilities;DLR;EQIX,
 SBGSY,Schneider Electric SE,OTC,EUR,Power + automation,D2,"EcoStruxure DC infra; UPS + switchgear; bought Motivair liquid cooling 2024",,DLR;EQIX;Hyperscalers,Unsponsored ADR
 ABBNY,ABB Ltd,OTC,USD,Power + automation,D2,"Transformers + drives + motors; data-center + grid",,Utilities;DLR;EQIX,Unsponsored ADR; reports USD
 VRT,Vertiv Holdings,NYSE,USD,Thermal + power infra,D2,"#1 data-center thermal + UPS; CDU liquid cooling for NVDA GB200 racks",,SMCI;DELL;HPE;DLR;EQIX,
 ENS,EnerSys,NYSE,USD,Stored energy / UPS batteries,D2,"Industrial UPS batteries; data-center backup",,DLR;EQIX;Industrial,FY ends Mar
+FLNC,Fluence Energy Inc,NASDAQ,USD,Grid storage / data-center backup,D2,"Grid-scale battery storage (Gridstack Pro, Gridstack, Ultrastack) + Smarts optimization SW; AES-spinout, Siemens-backed; $5.6B backlog Q2 2026; explicit data-center demand cited",ALB,Utilities;Hyperscalers;IPP partners (VST;NEE),FY ends Sep
 POWL,Powell Industries,NASDAQ,USD,Switchgear,D2,"Custom medium-voltage switchgear for data-center + LNG",,Utilities;DLR;LNG operators,FY ends Sep
 NVT,nVent Electric plc,NYSE,USD,Electrical enclosures + cooling,D2,"Liquid cooling (acquired Trachte) + busbars + enclosures",,DLR;EQIX;SMCI,
-CEG,Constellation Energy,NASDAQ,USD,Nuclear IPP,D2,"Largest US nuclear fleet; Three Mile Island restart for MSFT 20-yr PPA",FCX;ETN;BWXT,MSFT;META;Hyperscalers,
+CEG,Constellation Energy,NASDAQ,USD,Nuclear IPP,D2,"Largest US nuclear fleet; Three Mile Island restart for MSFT 20-yr PPA",FCX;ETN;BWXT,MSFT;META;Hyperscalers;APLD,
 VST,Vistra Corp,NYSE,USD,IPP - nuclear + gas,D2,"Texas + Comanche Peak nuclear; large AI PPA pipeline",LNG;FCX;ETN,Hyperscalers;Industrial,
 TLN,Talen Energy,NASDAQ,USD,Nuclear IPP,D2,"Susquehanna nuclear + Cumulus AI data-center campus (sold to AMZN)",,AMZN;Hyperscalers,Relisted 2023
 NEE,NextEra Energy,NYSE,USD,Renewables + nuclear utility,D2,"#1 renewables developer + FPL; selling to data centers",,Hyperscalers;Residential,
@@ -151,6 +159,7 @@ FLR,Fluor Corp,NYSE,USD,EPC - global,D3,"Major nuclear + advanced manufacturing 
 J,Jacobs Solutions,NYSE,USD,EPC + advisory,D3,"Critical mission tech + facilities; data-center planning + builds",,Government;Industrial,FY ends Sep/Oct
 ACM,AECOM,NYSE,USD,EPC - infra,D3,"Engineering + construction mgmt; data-center site selection + builds",,Government;Hyperscalers,FY ends Sep
 EME,EMCOR Group,NYSE,USD,Mechanical contractor,D3,"Largest US mech contractor; data-center electrical + mechanical",,Commercial;data centers,
+IESC,IES Holdings Inc,NASDAQ,USD,Electrical EPC,D3,"Electrical & technology systems contractor with substantial data-center exposure; Communications segment builds/maintains DC infrastructure for colos + hyperscalers; $3.9B backlog; FY25 revenue $3.37B (+17% YoY)",ETN;HUBB;VRT;NVT,DLR;EQIX;Hyperscalers,FY ends Sep; ticker is IESC (NASDAQ), not IES
 DY,Dycom Industries,NYSE,USD,Telecom infra,D3,"Fiber-to-the-home + DC interconnect builds for telcos",,Telcos;Hyperscalers,FY ends Jan
 PRIM,Primoris Services,NYSE,USD,EPC - energy + comm,D3,"Pipeline + power + telecom builds for utilities + data centers",,Utilities;Telcos,
 STRL,Sterling Infrastructure,NASDAQ,USD,EPC - site,D3,"E-Infrastructure data-center site prep; large 2024-25 backlog",,Hyperscalers;Government,

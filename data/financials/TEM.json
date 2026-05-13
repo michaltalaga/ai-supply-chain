@@ -1,0 +1,15 @@
+{
+  "ticker": "TEM",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 1272, "net_income_native": -245.03, "eps_diluted_native": -1.41},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 693.4, "net_income_native": -746.33, "eps_diluted_native": -6.23},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 531.82, "net_income_native": -265.96, "eps_diluted_native": -4.20},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 320.67, "net_income_native": -333.93, "eps_diluted_native": -5.30},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 257.85, "net_income_native": -297.74, "eps_diluted_native": -4.73}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/tem/financials/",
+  "note": "IPO Jun 14 2024; pre-IPO years from S-1 filings"
+}

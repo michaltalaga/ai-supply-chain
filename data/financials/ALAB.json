@@ -1,0 +1,14 @@
+{
+  "ticker": "ALAB",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 852.53, "net_income_native": 219.13, "eps_diluted_native": 1.22},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 396.29, "net_income_native": -83.42, "eps_diluted_native": -0.64},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 115.79, "net_income_native": -26.26, "eps_diluted_native": -0.71},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 79.87, "net_income_native": -58.35, "eps_diluted_native": -1.71}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/alab/financials/",
+  "note": "IPO Mar 20 2024 — pre-IPO years from S-1 filings"
+}

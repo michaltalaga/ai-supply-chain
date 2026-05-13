@@ -1,0 +1,15 @@
+{
+  "ticker": "OUST",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-12-31", "revenue_native": 169.38, "net_income_native": -60.38, "eps_diluted_native": -1.07},
+    {"fy": 2024, "fye": "2024-12-31", "revenue_native": 111.1, "net_income_native": -97.05, "eps_diluted_native": -2.08},
+    {"fy": 2023, "fye": "2023-12-31", "revenue_native": 83.28, "net_income_native": -374.11, "eps_diluted_native": -10.10},
+    {"fy": 2022, "fye": "2022-12-31", "revenue_native": 41.03, "net_income_native": -138.56, "eps_diluted_native": -7.79},
+    {"fy": 2021, "fye": "2021-12-31", "revenue_native": 33.58, "net_income_native": -93.98, "eps_diluted_native": -7.00}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/oust/financials/",
+  "note": "Velodyne merger completed Feb 2023; 'Physical AI' positioning 2024-26"
+}

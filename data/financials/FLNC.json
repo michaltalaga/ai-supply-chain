@@ -1,0 +1,15 @@
+{
+  "ticker": "FLNC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {"fy": 2025, "fye": "2025-09-30", "revenue_native": 2263, "net_income_native": -48.31, "eps_diluted_native": -0.37},
+    {"fy": 2024, "fye": "2024-09-30", "revenue_native": 2699, "net_income_native": 22.72, "eps_diluted_native": 0.13},
+    {"fy": 2023, "fye": "2023-09-30", "revenue_native": 2218, "net_income_native": -69.62, "eps_diluted_native": -0.60},
+    {"fy": 2022, "fye": "2022-09-30", "revenue_native": 1199, "net_income_native": -104.49, "eps_diluted_native": -1.50},
+    {"fy": 2021, "fye": "2021-09-30", "revenue_native": 680.77, "net_income_native": 0, "eps_diluted_native": null}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/flnc/financials/",
+  "note": "FY ends Sep; AES-spinout / Siemens-backed; $5.6B backlog Q2 2026"
+}
