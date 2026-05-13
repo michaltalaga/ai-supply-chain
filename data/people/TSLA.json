@@ -1,0 +1,12 @@
+{
+  "ticker": "TSLA",
+  "leadership": [
+    {"role": "Founder, CEO & Product Architect", "name": "Elon Musk"},
+    {"role": "CFO", "name": "Vaibhav Taneja"},
+    {"role": "SVP, Powertrain & Energy Engineering", "name": "Drew Baglino", "note": "left Apr 2024 — replacement evolving"},
+    {"role": "SVP, Vehicle Engineering", "name": "Lars Moravy"},
+    {"role": "VP, Autopilot/AI", "name": "Ashok Elluswamy", "note": "leads FSD"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

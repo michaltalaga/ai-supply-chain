@@ -1,0 +1,13 @@
+{
+  "ticker": "META",
+  "leadership": [
+    {"role": "Founder, Chairman & CEO", "name": "Mark Zuckerberg", "note": "controlling supervoting"},
+    {"role": "CFO", "name": "Susan Li"},
+    {"role": "CTO", "name": "Andrew Bosworth", "note": "head of Reality Labs"},
+    {"role": "Chief AI Scientist", "name": "Yann LeCun", "note": "Turing Award 2018"},
+    {"role": "President, Global Affairs", "name": "Joel Kaplan", "note": "replaced Nick Clegg Jan 2025"},
+    {"role": "Chief Product Officer", "name": "Chris Cox"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

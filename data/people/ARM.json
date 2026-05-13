@@ -1,0 +1,11 @@
+{
+  "ticker": "ARM",
+  "leadership": [
+    {"role": "CEO", "name": "Rene Haas", "note": "since 2022"},
+    {"role": "CFO", "name": "Jason Child"},
+    {"role": "SVP & GM, Infrastructure Line of Business", "name": "Mohamed Awad"},
+    {"role": "Chairman, SoftBank Group (parent)", "name": "Masayoshi Son", "note": "SoftBank owns ~90%"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

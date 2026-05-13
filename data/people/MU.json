@@ -1,0 +1,10 @@
+{
+  "ticker": "MU",
+  "leadership": [
+    {"role": "President & CEO", "name": "Sanjay Mehrotra", "note": "since 2017; SanDisk co-founder"},
+    {"role": "EVP & CFO", "name": "Mark Murphy"},
+    {"role": "SVP & GM, Cloud Memory BU", "name": "Sumit Sadana", "note": "leads HBM strategy"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

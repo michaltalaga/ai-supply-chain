@@ -1,0 +1,11 @@
+{
+  "ticker": "ASML",
+  "leadership": [
+    {"role": "President & CEO", "name": "Christophe Fouquet", "note": "since Apr 2024, replaced Peter Wennink"},
+    {"role": "EVP & CFO", "name": "Roger Dassen"},
+    {"role": "EVP, CTO", "name": "Jim Koonmen"},
+    {"role": "EVP, Strategic Marketing", "name": "Frédéric Schneider-Maunoury"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

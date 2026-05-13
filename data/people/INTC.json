@@ -1,0 +1,12 @@
+{
+  "ticker": "INTC",
+  "leadership": [
+    {"role": "CEO", "name": "Lip-Bu Tan", "note": "named CEO Mar 2025; former Cadence CEO"},
+    {"role": "EVP & CFO", "name": "David Zinsner"},
+    {"role": "EVP & GM, Foundry Manufacturing", "name": "Naga Chandrasekaran"},
+    {"role": "Independent Chair", "name": "Frank Yeary"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" },
+  "note": "Pat Gelsinger out Dec 2024 amid foundry losses; Lip-Bu Tan named CEO Mar 2025"
+}

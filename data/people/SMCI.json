@@ -1,0 +1,10 @@
+{
+  "ticker": "SMCI",
+  "leadership": [
+    {"role": "Founder, President & CEO", "name": "Charles Liang"},
+    {"role": "CFO", "name": "David Weigand"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" },
+  "note": "Resolved 2024 accounting scandal; Ernst & Young resigned as auditor; replaced with BDO USA"
+}

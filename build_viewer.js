@@ -17,6 +17,17 @@ const earnings = fs.existsSync(earningsPath)
   ? JSON.parse(fs.readFileSync(earningsPath, "utf-8"))
   : { dates: {} };
 
+// Load per-ticker people data
+const PEOPLE_DIR = path.join(ROOT, "data", "people");
+const people = {};
+if (fs.existsSync(PEOPLE_DIR)) {
+  for (const f of fs.readdirSync(PEOPLE_DIR)) {
+    if (!f.endsWith(".json")) continue;
+    try { people[f.replace(/\.json$/, "")] = JSON.parse(fs.readFileSync(path.join(PEOPLE_DIR, f), "utf-8")); }
+    catch (e) {}
+  }
+}
+
 // Year-end FX rates for converting non-USD market caps (1 native = X USD)
 const FX = {
   USD: 1, EUR: 1.05, TWD: 0.031, JPY: 0.0065, KRW: 0.00069,
@@ -298,6 +309,7 @@ const DATA = ${JSON.stringify(embedded)};
 const RELATIONSHIPS = ${JSON.stringify(relationships)};
 const GHOSTS = ${JSON.stringify(ghosts)};
 const EARNINGS = ${JSON.stringify(earnings.dates || {})};
+const PEOPLE = ${JSON.stringify(people)};
 const tierColor = {
   "U5": "#a5673f", "U4": "#bf8a3e", "U3": "#c9b449", "U2": "#a7c44a",
   "U1": "#4ec9b0", "AI core": "#ff8c42",
@@ -989,6 +1001,10 @@ function showNodeTip(ticker, e) {
     h += '<div class="tip-row" style="margin-top:6px; color:#7a8395; font-size:11px">';
     h += up + ' upstream &middot; ' + dn + ' downstream (in registry)';
     if (d.q && d.q.length) h += ' &middot; <span style="color:#80e080">'+d.q.length+' quarters</span>';
+    const pp = PEOPLE[ticker];
+    if (pp && pp.leadership && pp.leadership.length) {
+      h += ' &middot; <span style="color:#67b5d8">👥 '+pp.leadership.length+' execs</span>';
+    }
     h += '</div>';
   }
 
@@ -1031,6 +1047,13 @@ function showGhostTip(node, e) {
   h += '<div style="margin-bottom:6px"><span class="pill" style="background:#15171c">' + g.tier + ' / ' + g.segment + '</span></div>';
   if (g.where) h += '<div class="tip-row"><span class="tip-label">Where:</span> ' + g.where + '</div>';
   h += '<div class="tip-section">' + g.role + '</div>';
+  if (g.leadership && g.leadership.length) {
+    h += '<div class="tip-row" style="margin-top:6px; color:#7a8395; font-size:11px">';
+    h += '<span style="color:#67b5d8">👥 ' + g.leadership.length + ' key people</span>: ';
+    h += g.leadership.slice(0, 3).map(p => p.name).join(', ');
+    if (g.leadership.length > 3) h += ', ...';
+    h += '</div>';
+  }
   h += '<div class="tip-basis" style="margin-top:8px; font-style:italic">Not publicly investable — included for structural completeness only.</div>';
   tip.innerHTML = h;
   tip.style.display = "block";
@@ -1258,6 +1281,22 @@ function showDetail(ticker) {
     h += '<div id="chart-readout" style="position:absolute; top:8px; right:14px; font-size:11px; color:#c5cad3; pointer-events:none; min-height:14px; font-variant-numeric: tabular-nums">Hover for value</div>';
     h += '<svg id="detail-chart" viewBox="0 0 600 200" preserveAspectRatio="none" style="display:block; width:100%; height:200px"></svg>';
     h += '</div>';
+  }
+
+  // People section (leadership, executives, founders)
+  const pp = PEOPLE[ticker];
+  if (pp && pp.leadership && pp.leadership.length) {
+    h += '<h2>👥 Leadership</h2>';
+    h += '<table style="font-size:12px"><tr><th style="text-align:left">Role</th><th style="text-align:left">Name</th><th style="text-align:left; color:#7a8395">Note</th></tr>';
+    for (const p of pp.leadership) {
+      h += '<tr><td style="color:#97a3b6">'+escapeHtml(p.role)+'</td>';
+      h += '<td><b>'+escapeHtml(p.name)+'</b></td>';
+      h += '<td style="color:#7a8395; font-size:11px">'+escapeHtml(p.note || "")+'</td></tr>';
+    }
+    h += '</table>';
+    if (pp.note) {
+      h += '<p class="meta" style="font-size:11px; margin-top:4px"><i>'+escapeHtml(pp.note)+'</i></p>';
+    }
   }
 
   // News section (loaded async from /api/news Cloudflare Pages Function)

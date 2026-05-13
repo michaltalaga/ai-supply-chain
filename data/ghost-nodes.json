@@ -63,7 +63,14 @@
       "kind": "private",
       "where": "US private (MSFT major investor + Stargate $500B partner with ORCL)",
       "role": "GPT-4/5/o series + ChatGPT + agents. Largest single buyer of NVDA AI compute through MSFT Azure + ORCL OCI relationships.",
-      "color_hint": "lab"
+      "color_hint": "lab",
+      "leadership": [
+        {"role": "CEO", "name": "Sam Altman", "note": "co-founder; briefly ousted then reinstated Nov 2023"},
+        {"role": "President & Co-founder", "name": "Greg Brockman", "note": "returned after the Nov 2023 board crisis"},
+        {"role": "Chief Scientist", "name": "Jakub Pachocki", "note": "successor to Ilya Sutskever who left May 2024"},
+        {"role": "CFO", "name": "Sarah Friar"},
+        {"role": "CTO", "name": "Mira Murati", "note": "left Sep 2024 to start Thinking Machines"}
+      ]
     },
     "XAI": {
       "name": "xAI Corp",
@@ -72,7 +79,13 @@
       "kind": "private",
       "where": "US private (Elon Musk founder/owner)",
       "role": "Grok models. Colossus cluster in Memphis = ~200K H100 + B200 GPUs delivered by SMCI/DELL; largest single AI buildout outside hyperscalers.",
-      "color_hint": "lab"
+      "color_hint": "lab",
+      "leadership": [
+        {"role": "Founder & CEO", "name": "Elon Musk"},
+        {"role": "Engineering Lead", "name": "Igor Babuschkin", "note": "ex-DeepMind / OpenAI"},
+        {"role": "Co-founder", "name": "Greg Yang", "note": "ex-Microsoft Research; theory lead"},
+        {"role": "Head of Engineering, Colossus", "name": "Yuhuai (Tony) Wu", "note": "AI math"}
+      ]
     },
     "ANTHROPIC": {
       "name": "Anthropic PBC",
@@ -81,7 +94,14 @@
       "kind": "private",
       "where": "US private (AMZN + GOOGL major investors)",
       "role": "Claude models. Trains predominantly on AMZN Trainium (custom MRVL silicon) + NVDA. AMZN committed ~$8B; GOOGL ~$2B.",
-      "color_hint": "lab"
+      "color_hint": "lab",
+      "leadership": [
+        {"role": "CEO & Co-founder", "name": "Dario Amodei", "note": "ex-OpenAI VP Research"},
+        {"role": "President & Co-founder", "name": "Daniela Amodei"},
+        {"role": "Co-founder & Chief Scientist", "name": "Jared Kaplan"},
+        {"role": "Co-founder", "name": "Tom Brown", "note": "led GPT-3"},
+        {"role": "Co-founder & Head of Policy", "name": "Jack Clark"}
+      ]
     },
     "GROQ": {
       "name": "Groq Inc",
@@ -108,7 +128,12 @@
       "kind": "private",
       "where": "Finland private",
       "role": "Dominant dilution-refrigerator supplier for superconducting + trapped-ion quantum computers. Every IBM/GOOG/Rigetti/IonQ system has BlueFors hardware.",
-      "color_hint": "quantum"
+      "color_hint": "quantum",
+      "leadership": [
+        {"role": "Co-founder & CEO", "name": "Rob Blaauwgeers"},
+        {"role": "Co-founder & CTO", "name": "Pieter Vorselman"},
+        {"role": "Co-founder", "name": "Sasu Tuohino"}
+      ]
     }
   },
   "edges": {

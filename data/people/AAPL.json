@@ -1,0 +1,14 @@
+{
+  "ticker": "AAPL",
+  "leadership": [
+    {"role": "CEO", "name": "Tim Cook"},
+    {"role": "CFO", "name": "Kevan Parekh", "note": "promoted Jan 2025 succeeding Luca Maestri"},
+    {"role": "COO", "name": "Jeff Williams"},
+    {"role": "SVP, Hardware Technologies", "name": "Johny Srouji", "note": "leads Apple Silicon"},
+    {"role": "SVP, Software Engineering", "name": "Craig Federighi"},
+    {"role": "SVP, Services", "name": "Eddy Cue"},
+    {"role": "SVP, Machine Learning & AI Strategy", "name": "John Giannandrea"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

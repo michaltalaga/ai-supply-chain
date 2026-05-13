@@ -1,0 +1,11 @@
+{
+  "ticker": "IONQ",
+  "leadership": [
+    {"role": "President & CEO", "name": "Niccolo de Masi", "note": "took over Feb 2025; previously Executive Chair"},
+    {"role": "Co-founder", "name": "Christopher Monroe", "note": "U. Maryland; pioneer of trapped-ion QC"},
+    {"role": "Co-founder", "name": "Jungsang Kim", "note": "Duke; trapped-ion architectures"},
+    {"role": "CFO", "name": "Thomas Kramer"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

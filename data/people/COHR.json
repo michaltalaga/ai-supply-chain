@@ -1,0 +1,10 @@
+{
+  "ticker": "COHR",
+  "leadership": [
+    {"role": "President & CEO", "name": "Jim Anderson", "note": "joined Jun 2024 from Lattice Semi"},
+    {"role": "EVP & CFO", "name": "Sherri Luther"},
+    {"role": "Executive Chair", "name": "Vincent D. Mattera Jr.", "note": "former CEO; led II-VI/COHR merger 2022"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

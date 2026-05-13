@@ -1,0 +1,10 @@
+{
+  "ticker": "MRVL",
+  "leadership": [
+    {"role": "Chair & CEO", "name": "Matt Murphy"},
+    {"role": "CFO", "name": "Willem Meintjes", "note": "joined late 2023 from Jean Hu's departure to AMD"},
+    {"role": "Chief Development Officer", "name": "Raghib Hussain"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

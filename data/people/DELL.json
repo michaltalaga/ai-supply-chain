@@ -1,0 +1,11 @@
+{
+  "ticker": "DELL",
+  "leadership": [
+    {"role": "Founder, Chairman & CEO", "name": "Michael Dell", "note": "founded 1984"},
+    {"role": "Vice Chair & COO", "name": "Jeff Clarke"},
+    {"role": "CFO", "name": "Yvonne McGill"},
+    {"role": "Chief Customer Officer", "name": "Bill Scannell"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

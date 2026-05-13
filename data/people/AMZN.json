@@ -1,0 +1,12 @@
+{
+  "ticker": "AMZN",
+  "leadership": [
+    {"role": "President & CEO", "name": "Andy Jassy"},
+    {"role": "SVP & CFO", "name": "Brian Olsavsky"},
+    {"role": "CEO, AWS", "name": "Matt Garman", "note": "promoted Jun 2024"},
+    {"role": "SVP, Devices & Services", "name": "Panos Panay"},
+    {"role": "Founder & Executive Chair", "name": "Jeff Bezos"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

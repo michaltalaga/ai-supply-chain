@@ -1,0 +1,11 @@
+{
+  "ticker": "CRM",
+  "leadership": [
+    {"role": "Co-founder, Chair & CEO", "name": "Marc Benioff", "note": "founded 1999"},
+    {"role": "President & CFO", "name": "Amy Weaver"},
+    {"role": "President & CPO", "name": "Srinivas Tallapragada"},
+    {"role": "Vice Chair & CEO of Agentforce", "name": "Brian Millham"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

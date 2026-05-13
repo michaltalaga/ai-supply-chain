@@ -1,0 +1,11 @@
+{
+  "ticker": "SNOW",
+  "leadership": [
+    {"role": "CEO", "name": "Sridhar Ramaswamy", "note": "since Feb 2024 replacing Frank Slootman"},
+    {"role": "CFO", "name": "Mike Scarpelli"},
+    {"role": "President of Product", "name": "Christian Kleinerman"},
+    {"role": "Chairman of the Board", "name": "Frank Slootman", "note": "former CEO"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

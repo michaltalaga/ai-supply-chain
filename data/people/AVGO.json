@@ -1,0 +1,10 @@
+{
+  "ticker": "AVGO",
+  "leadership": [
+    {"role": "President & CEO", "name": "Hock Tan", "note": "since 2006"},
+    {"role": "CFO", "name": "Kirsten Spears"},
+    {"role": "EVP & CTO", "name": "Charlie Kawwas"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

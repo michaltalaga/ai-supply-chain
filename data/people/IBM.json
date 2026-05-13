@@ -1,0 +1,12 @@
+{
+  "ticker": "IBM",
+  "leadership": [
+    {"role": "Chairman, President & CEO", "name": "Arvind Krishna"},
+    {"role": "SVP & CFO", "name": "James Kavanaugh"},
+    {"role": "SVP & Director, IBM Research", "name": "Dario Gil", "note": "leads Quantum + Research"},
+    {"role": "SVP, Cloud", "name": "Rob Thomas"},
+    {"role": "SVP, Software", "name": "Kareem Yusuf"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

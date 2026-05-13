@@ -1,0 +1,12 @@
+{
+  "ticker": "CRWV",
+  "leadership": [
+    {"role": "Co-founder & CEO", "name": "Michael Intrator"},
+    {"role": "Co-founder & Chief Strategy Officer", "name": "Brian Venturo"},
+    {"role": "Co-founder & Chief Development Officer", "name": "Brannin McBee"},
+    {"role": "CFO", "name": "Nitin Agrawal"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" },
+  "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff"
+}

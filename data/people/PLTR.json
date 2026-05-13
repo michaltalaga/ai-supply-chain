@@ -1,0 +1,12 @@
+{
+  "ticker": "PLTR",
+  "leadership": [
+    {"role": "Co-founder & CEO", "name": "Alex Karp"},
+    {"role": "Co-founder & President", "name": "Stephen Cohen"},
+    {"role": "Co-founder", "name": "Peter Thiel", "note": "chairman; mostly hands-off"},
+    {"role": "CFO", "name": "David Glazer"},
+    {"role": "Chief Technology Officer", "name": "Shyam Sankar"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

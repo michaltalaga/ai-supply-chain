@@ -1,0 +1,12 @@
+{
+  "ticker": "ORCL",
+  "leadership": [
+    {"role": "Chairman & CTO", "name": "Larry Ellison", "note": "co-founder 1977"},
+    {"role": "CEO", "name": "Safra Catz"},
+    {"role": "President, Oracle Cloud Infrastructure", "name": "Mike Sicilia"},
+    {"role": "EVP, Cloud Engineering", "name": "Clay Magouyrk"},
+    {"role": "Chief Corporate Architect", "name": "Edward Screven"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

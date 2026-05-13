@@ -61,6 +61,25 @@ console.log(`Total monthly price points across all tickers: ${totalPriceMonths}`
 console.log(`Avg fiscal years per data-bearing ticker: ${(totalFinancialYears / financialsWithData).toFixed(1)}`);
 console.log(`Avg price months per data-bearing ticker: ${(totalPriceMonths / pricesWithData).toFixed(1)}`);
 console.log(`JSON parse failures: ${badJson.length}`);
+
+// Count people coverage
+const PEO = path.join(ROOT, "data", "people");
+let peopleCount = 0, peopleLeaderCount = 0, peopleInsiderCount = 0, peopleHolderCount = 0;
+if (fs.existsSync(PEO)) {
+  for (const f of fs.readdirSync(PEO)) {
+    if (!f.endsWith(".json")) continue;
+    try {
+      const d = JSON.parse(fs.readFileSync(path.join(PEO, f), "utf-8"));
+      peopleCount++;
+      if (Array.isArray(d.leadership) && d.leadership.length) peopleLeaderCount++;
+      if (Array.isArray(d.insider_trades) && d.insider_trades.length) peopleInsiderCount++;
+      if (Array.isArray(d.top_holders) && d.top_holders.length) peopleHolderCount++;
+    } catch (e) {
+      badJson.push(`people/${f}: ${e.message}`);
+    }
+  }
+}
+console.log(`People files: ${peopleCount} (${peopleLeaderCount} with leadership · ${peopleInsiderCount} with insiders · ${peopleHolderCount} with holders)`);
 if (badJson.length) badJson.forEach(b => console.log(`  ${b}`));
 
 // Verify CSV row counts match

@@ -1,0 +1,12 @@
+{
+  "ticker": "NVDA",
+  "leadership": [
+    {"role": "Founder, President & CEO", "name": "Jensen Huang", "note": "co-founder 1993"},
+    {"role": "EVP & CFO", "name": "Colette Kress"},
+    {"role": "EVP, Worldwide Operations", "name": "Debora Shoquist"},
+    {"role": "Chief Scientist & SVP Research", "name": "Bill Dally"},
+    {"role": "EVP, Enterprise Products", "name": "Manuvir Das"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/" }
+}

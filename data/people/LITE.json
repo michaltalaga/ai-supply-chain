@@ -1,0 +1,9 @@
+{
+  "ticker": "LITE",
+  "leadership": [
+    {"role": "President & CEO", "name": "Michael Hurlston", "note": "since 2024 from Synaptics"},
+    {"role": "EVP & CFO", "name": "Wajid Ali"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

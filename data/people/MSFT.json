@@ -1,0 +1,13 @@
+{
+  "ticker": "MSFT",
+  "leadership": [
+    {"role": "Chairman & CEO", "name": "Satya Nadella"},
+    {"role": "EVP & CFO", "name": "Amy Hood"},
+    {"role": "Vice Chair & President", "name": "Brad Smith"},
+    {"role": "EVP & CTO", "name": "Kevin Scott"},
+    {"role": "EVP, Cloud + AI", "name": "Scott Guthrie"},
+    {"role": "EVP, Experiences & Devices", "name": "Rajesh Jha"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

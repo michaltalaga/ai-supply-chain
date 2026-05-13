@@ -1,0 +1,12 @@
+{
+  "ticker": "AMD",
+  "leadership": [
+    {"role": "Chair, President & CEO", "name": "Lisa Su", "note": "since 2014; Turing Award 2025 (industry)"},
+    {"role": "EVP & CFO", "name": "Jean Hu"},
+    {"role": "EVP & CTO", "name": "Mark Papermaster"},
+    {"role": "EVP & GM, Data Center Solutions", "name": "Forrest Norrod"},
+    {"role": "EVP & Chief Commercial Officer", "name": "Phil Guido"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

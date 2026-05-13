@@ -1,0 +1,11 @@
+{
+  "ticker": "CEG",
+  "leadership": [
+    {"role": "President & CEO", "name": "Joe Dominguez"},
+    {"role": "EVP & CFO", "name": "Dan Eggers"},
+    {"role": "EVP & Chief Generation Officer", "name": "Bryan Hanson", "note": "operates the nuclear fleet"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" },
+  "note": "Three Mile Island restart for MSFT PPA signed Sep 2024; targeting 2028 COD"
+}

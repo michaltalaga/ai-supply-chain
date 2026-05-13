@@ -1,0 +1,10 @@
+{
+  "ticker": "HPE",
+  "leadership": [
+    {"role": "President & CEO", "name": "Antonio Neri", "note": "since 2018"},
+    {"role": "EVP & CFO", "name": "Marie Myers"},
+    {"role": "EVP, Hybrid Cloud", "name": "Fidelma Russo"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

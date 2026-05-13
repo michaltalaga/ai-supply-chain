@@ -1,0 +1,14 @@
+{
+  "ticker": "GOOGL",
+  "leadership": [
+    {"role": "CEO, Alphabet & Google", "name": "Sundar Pichai"},
+    {"role": "President & CIO", "name": "Ruth Porat", "note": "former CFO"},
+    {"role": "CFO", "name": "Anat Ashkenazi", "note": "joined Jul 2024 from Eli Lilly"},
+    {"role": "CEO, Google DeepMind", "name": "Demis Hassabis", "note": "Nobel Chemistry 2024"},
+    {"role": "President, Global Affairs", "name": "Kent Walker"},
+    {"role": "Co-founder", "name": "Larry Page", "note": "controlling shareholder via supervoting"},
+    {"role": "Co-founder", "name": "Sergey Brin", "note": "back active on AI projects since 2023"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}

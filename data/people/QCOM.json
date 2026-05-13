@@ -1,0 +1,10 @@
+{
+  "ticker": "QCOM",
+  "leadership": [
+    {"role": "President & CEO", "name": "Cristiano Amon", "note": "since 2021"},
+    {"role": "CFO & COO", "name": "Akash Palkhiwala"},
+    {"role": "GM, Mobile Compute & XR", "name": "Alex Katouzian"}
+  ],
+  "as_of": "2026-05-13",
+  "sources": { "leadership": "hand-curated" }
+}
