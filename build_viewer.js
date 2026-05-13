@@ -222,16 +222,23 @@ function buildGraph(filter) {
     });
     seen.add(t);
   }
+  // Walk both key_upstream (u -> t) and key_downstream (t -> d). Dedupe by
+  // "source->target" so an edge declared on both sides only appears once.
+  const linkSet = new Set();
   for (const t in DATA) {
     if (filter && DATA[t].info.segment !== filter) continue;
     const info = DATA[t].info;
     for (const u of info.key_upstream || []) {
-      if (seen.has(u) || !filter) {
-        // create up-link
-        if (DATA[u]) {
-          links.push({ source: u, target: t });
-        }
-      }
+      if (!DATA[u]) continue;
+      if (filter && !seen.has(u)) continue;
+      const k = u + "->" + t;
+      if (!linkSet.has(k)) { linkSet.add(k); links.push({ source: u, target: t }); }
+    }
+    for (const d of info.key_downstream || []) {
+      if (!DATA[d]) continue;
+      if (filter && !seen.has(d)) continue;
+      const k = t + "->" + d;
+      if (!linkSet.has(k)) { linkSet.add(k); links.push({ source: t, target: d }); }
     }
   }
   return { nodes, links };

@@ -377,6 +377,46 @@
       "alternatives": "ROHM, Coherent (II-VI), Infineon internal.",
       "trend": "Volatile — WOLF restructuring 2025 + auto SiC demand soft."
     },
+    "MP->AAPL": {
+      "what_flows": "Recycled rare-earth materials (heavy + NdPr) under a multi-year supply deal — magnets for iPhone Taptic Engine, MacBook speakers, etc.",
+      "importance": "major",
+      "annual_usd_billions": "<0.1",
+      "deal_basis": "Apr 2024 long-term Recycled Rare Earth Supply Agreement (multi-year, undisclosed total). Apple is MP's largest disclosed direct customer.",
+      "single_source_risk": "high",
+      "alternatives": "China-processed (Apple's pre-2024 source), Lynas (LYSDY) coming online.",
+      "trend": "Growing; Apple is the proof-point for US-supplied rare earths.",
+      "key_event": "Apple-MP deal announced Apr 2024 alongside Mountain Pass magnet plant ramp."
+    },
+    "MP->TSLA": {
+      "what_flows": "NdPr concentrate / oxide for EV traction-motor magnet supply chain",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.1",
+      "deal_basis": "Tesla is widely reported MP customer but specific contract terms not public; Tesla aims to reduce rare-earth content in next-gen motors.",
+      "single_source_risk": "medium",
+      "trend": "Mixed — Tesla announced rare-earth-free motor R&D in 2023."
+    },
+    "MP->GEV": {
+      "what_flows": "NdFeB magnet feedstock for direct-drive wind turbine generators (Haliade-X)",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "medium",
+      "trend": "Stable; small revenue line for MP, large strategic line for GEV's offshore wind."
+    },
+    "UUUU->OKLO": {
+      "what_flows": "Uranium / planned HALEU feedstock for Aurora SMR fuel (alongside BWX) — supply chain still being finalized",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "medium",
+      "alternatives": "Centrus Energy (LEU), Urenco, BWX downblending.",
+      "trend": "Growing in the SMR fuel supply chain story."
+    },
+    "UUUU->BWX": {
+      "what_flows": "Natural uranium concentrate feedstock for BWX's HALEU downblending / fuel-fabrication operations",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "low",
+      "trend": "Growing slowly with US enrichment push."
+    },
     "MP->Defense": {
       "what_flows": "NdPr permanent-magnet feedstock for DOD-aligned magnet supply chain (motors, missiles, drives)",
       "importance": "critical",

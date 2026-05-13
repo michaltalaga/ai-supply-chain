@@ -1493,11 +1493,14 @@
       "role_in_chain": "Only operating US rare-earth mine (Mountain Pass); NdPr for magnets",
       "key_upstream": [],
       "key_downstream": [
-        "Auto OEMs",
+        "AAPL",
+        "TSLA",
+        "GEV",
+        "LMT (not in registry)",
         "DOD",
-        "magnets"
+        "Magnet OEMs (mostly private)"
       ],
-      "notes": ""
+      "notes": "Apple signed multi-year recycled-REE deal Apr 2024"
     },
     "LYSDY": {
       "name": "Lynas Rare Earths",
@@ -1508,8 +1511,11 @@
       "role_in_chain": "#1 non-China rare-earth processor (Australia + Malaysia)",
       "key_upstream": [],
       "key_downstream": [
-        "Magnets",
-        "Defense"
+        "AAPL",
+        "TSLA",
+        "GEV",
+        "Magnet OEMs (private)",
+        "Defense (private)"
       ],
       "notes": "Unsponsored ADR"
     },
@@ -1522,8 +1528,13 @@
       "role_in_chain": "Uranium + monazite rare-earth processing; SMR fuel supplier",
       "key_upstream": [],
       "key_downstream": [
-        "SMR builders",
-        "rare-earth processors"
+        "OKLO",
+        "SMR",
+        "NNE",
+        "BWX",
+        "CEG",
+        "VST",
+        "Rare-earth processors (mostly private)"
       ],
       "notes": ""
     },
@@ -1536,6 +1547,10 @@
       "role_in_chain": "Copper + iron ore + nickel; largest miner by mkt cap",
       "key_upstream": [],
       "key_downstream": [
+        "GEV",
+        "ETN",
+        "HUBB",
+        "FCX (peer)",
         "All industrial"
       ],
       "notes": "Reports in USD"
@@ -1549,6 +1564,10 @@
       "role_in_chain": "Copper + iron ore + lithium + aluminum",
       "key_upstream": [],
       "key_downstream": [
+        "GEV",
+        "ETN",
+        "HUBB",
+        "ALB (lithium tie-up)",
         "All industrial"
       ],
       "notes": "Reports in USD"

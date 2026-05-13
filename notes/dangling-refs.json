@@ -50,7 +50,6 @@
     "MTSI.key_downstream",
     "IPGP.key_downstream",
     "LASR.key_downstream",
-    "LYSDY.key_downstream",
     "NNE.key_downstream",
     "ARQQ.key_downstream"
   ],
@@ -199,8 +198,7 @@
     "ANSS.key_downstream"
   ],
   "Auto OEMs": [
-    "WOLF.key_downstream",
-    "MP.key_downstream"
+    "WOLF.key_downstream"
   ],
   "ST": [
     "SOIGY.key_downstream"
@@ -233,24 +231,33 @@
   "cabling": [
     "SCCO.key_downstream"
   ],
+  "LMT (not in registry)": [
+    "MP.key_downstream"
+  ],
   "DOD": [
     "MP.key_downstream",
     "AI.key_downstream"
   ],
-  "magnets": [
+  "Magnet OEMs (mostly private)": [
     "MP.key_downstream"
   ],
-  "Magnets": [
+  "Magnet OEMs (private)": [
     "LYSDY.key_downstream"
   ],
-  "SMR builders": [
+  "Defense (private)": [
+    "LYSDY.key_downstream"
+  ],
+  "Rare-earth processors (mostly private)": [
     "UUUU.key_downstream"
   ],
-  "rare-earth processors": [
-    "UUUU.key_downstream"
+  "FCX (peer)": [
+    "BHP.key_downstream"
   ],
   "All industrial": [
     "BHP.key_downstream",
+    "RIO.key_downstream"
+  ],
+  "ALB (lithium tie-up)": [
     "RIO.key_downstream"
   ],
   "Developers": [

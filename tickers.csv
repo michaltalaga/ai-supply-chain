@@ -85,11 +85,11 @@ AKZOY,Akzo Nobel NV,OTC,EUR,Coatings,U4,"Specialty coatings incl. some semis (le
 ALB,Albemarle Corp,NYSE,USD,Lithium + bromine + catalysts,U4,"Lithium for EV/grid batteries + bromine for fab fire-suppression",,EV OEMs;data centers,
 FCX,Freeport-McMoRan,NYSE,USD,Copper mining,U5,"Largest US copper miner; copper essential for cabling + transformers",,GEV;ETN;HUBB;wire makers,
 SCCO,Southern Copper,NYSE,USD,Copper mining,U5,"Mexico/Peru copper; key transmission + DC bus supplier",,GEV;ETN;cabling,
-MP,MP Materials,NYSE,USD,Rare earths,U5,"Only operating US rare-earth mine (Mountain Pass); NdPr for magnets",,Auto OEMs;DOD;magnets,
-LYSDY,Lynas Rare Earths,OTC,AUD,Rare earths,U5,"#1 non-China rare-earth processor (Australia + Malaysia)",,Magnets;Defense,Unsponsored ADR
-UUUU,Energy Fuels,NYSE,USD,Uranium + rare earths,U5,"Uranium + monazite rare-earth processing; SMR fuel supplier",,SMR builders;rare-earth processors,
-BHP,BHP Group Ltd,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + nickel; largest miner by mkt cap",,All industrial,Reports in USD
-RIO,Rio Tinto plc,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + lithium + aluminum",,All industrial,Reports in USD
+MP,MP Materials,NYSE,USD,Rare earths,U5,"Only operating US rare-earth mine (Mountain Pass); NdPr for magnets",,AAPL;TSLA;GEV;LMT (not in registry);DOD;Magnet OEMs (mostly private),Apple signed multi-year recycled-REE deal Apr 2024
+LYSDY,Lynas Rare Earths,OTC,AUD,Rare earths,U5,"#1 non-China rare-earth processor (Australia + Malaysia)",,AAPL;TSLA;GEV;Magnet OEMs (private);Defense (private),Unsponsored ADR
+UUUU,Energy Fuels,NYSE,USD,Uranium + rare earths,U5,"Uranium + monazite rare-earth processing; SMR fuel supplier",,OKLO;SMR;NNE;BWX;CEG;VST;Rare-earth processors (mostly private),
+BHP,BHP Group Ltd,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + nickel; largest miner by mkt cap",,GEV;ETN;HUBB;FCX (peer);All industrial,Reports in USD
+RIO,Rio Tinto plc,NYSE,USD,Mining (diversified),U5,"Copper + iron ore + lithium + aluminum",,GEV;ETN;HUBB;ALB (lithium tie-up);All industrial,Reports in USD
 AI,C3.ai Inc,NYSE,USD,AI software,D1,"Enterprise AI applications; large DoD presence",,Enterprise;DOD,FY ends Apr
 SNOW,Snowflake Inc,NYSE,USD,Data warehouse,D1,"Data cloud + Cortex AI; enterprise AI inference",,Enterprise,FY ends Jan
 DDOG,Datadog Inc,NASDAQ,USD,Observability,D1,"Monitors AI infrastructure + LLM observability product",,Enterprise,
