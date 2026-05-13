@@ -62,6 +62,8 @@
   .preset-chip.active { background: #1a3a55; border-color: #67b5d8; color: #b1ceff; }
   .preset-chip.active::before { content: "✓"; color: #80e080; }
   .preset-sep { display: inline-block; width: 1px; height: 18px; background: #2a3a4a; margin: 0 2px; }
+  #minimap-wrap { position: absolute; bottom: 16px; right: 16px; width: 200px; height: 110px; background: rgba(13,16,22,0.85); border: 1px solid #2a3a4a; border-radius: 4px; box-shadow: 0 4px 14px rgba(0,0,0,0.5); cursor: crosshair; z-index: 30; }
+  #minimap { width: 100%; height: 100%; display: block; }
   #compare-bin { position: fixed; bottom: 16px; left: 16px; max-width: calc(100vw - 460px); background: #1d2129; border: 1px solid #3a4150; border-radius: 6px; padding: 10px 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.4); display: none; z-index: 50; font-size: 13px; }
   #compare-bin.open { display: block; }
   #compare-bin .bin-head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
@@ -145,7 +147,11 @@
       &nbsp;<button onclick="applyScreen()">Apply</button>
       <button class="clear" onclick="clearScreen()">Clear screen</button>
     </div>
-    <div id="graph" style="height: calc(100vh - 84px)"></div>
+    <div id="graph" style="height: calc(100vh - 84px); position: relative">
+      <div id="minimap-wrap" title="Click to center main view here">
+        <svg id="minimap" viewBox="0 0 200 110"></svg>
+      </div>
+    </div>
     <div class="legend" id="legend"></div>
   </div>
   <div id="tip"></div>
@@ -338,6 +344,7 @@ let viewState = { tx: 0, ty: 0, k: 1 };
 function applyViewport() {
   linkG.setAttribute("transform", `translate(${viewState.tx} ${viewState.ty}) scale(${viewState.k})`);
   nodeG.setAttribute("transform", `translate(${viewState.tx} ${viewState.ty}) scale(${viewState.k})`);
+  if (typeof updateMinimapViewport === "function") updateMinimapViewport();
 }
 svg.addEventListener("wheel", e => {
   e.preventDefault();
@@ -499,7 +506,66 @@ function draw(filter) {
   }
   // Re-apply current highlight after redraw
   applyHighlight();
+  // Refresh minimap to mirror current node positions
+  renderMinimap(nodes);
 }
+
+// === Mini-map ===
+let minimapNodes = [];   // last set of nodes drawn on the main graph
+function renderMinimap(nodes) {
+  minimapNodes = nodes;
+  const mm = document.getElementById("minimap");
+  if (!mm) return;
+  const MW = 200, MH = 110;
+  const sx = MW / width, sy = MH / height;
+  let s = '<rect x="0" y="0" width="'+MW+'" height="'+MH+'" fill="#0a0d12"/>';
+  for (const n of nodes) {
+    const mx = n.x * sx, my = n.y * sy;
+    s += '<circle cx="'+mx.toFixed(1)+'" cy="'+my.toFixed(1)+'" r="'+(n.isGhost ? 0.8 : 1.4)+'" fill="'+(n.color || '#888')+'"/>';
+  }
+  // Viewport rectangle — what slice of the main graph is currently shown
+  s += '<rect id="mm-viewport" stroke="#8ab4f8" stroke-width="1" fill="rgba(138,180,248,0.07)" pointer-events="none"/>';
+  mm.innerHTML = s;
+  updateMinimapViewport();
+}
+
+function updateMinimapViewport() {
+  const mm = document.getElementById("minimap");
+  const vp = mm && document.getElementById("mm-viewport");
+  if (!vp) return;
+  const MW = 200, MH = 110;
+  const sx = MW / width, sy = MH / height;
+  // Visible region in main graph coords (in the same SVG userspace):
+  //   xVis = (0 - tx) / k  to (width - tx) / k
+  const x0 = (0 - viewState.tx) / viewState.k;
+  const y0 = (0 - viewState.ty) / viewState.k;
+  const x1 = (width - viewState.tx) / viewState.k;
+  const y1 = (height - viewState.ty) / viewState.k;
+  vp.setAttribute("x", (x0 * sx).toFixed(1));
+  vp.setAttribute("y", (y0 * sy).toFixed(1));
+  vp.setAttribute("width", Math.max(2, (x1 - x0) * sx).toFixed(1));
+  vp.setAttribute("height", Math.max(2, (y1 - y0) * sy).toFixed(1));
+}
+
+// Click on minimap → recenter main graph on that point
+(function bindMinimapClick(){
+  const wrap = document.getElementById("minimap-wrap");
+  if (!wrap) return;
+  wrap.addEventListener("click", e => {
+    const mm = document.getElementById("minimap");
+    const rect = mm.getBoundingClientRect();
+    const mx = (e.clientX - rect.left) / rect.width;
+    const my = (e.clientY - rect.top) / rect.height;
+    // Target main-graph point in userspace
+    const tx = mx * width;
+    const ty = my * height;
+    // Center viewport on (tx, ty): translate so that viewport center maps to tx,ty
+    viewState.tx = (width / 2) - tx * viewState.k;
+    viewState.ty = (height / 2) - ty * viewState.k;
+    applyViewport();
+    updateMinimapViewport();
+  });
+})();
 
 // Click on empty background clears selection — but only when it's a real click,
 // not the click event the browser fires at the end of a drag.
