@@ -41,11 +41,26 @@ function computeMcap(fd, lastPrice) {
 }
 
 // Embed per-ticker financials + prices summary (compact form to keep HTML reasonable)
+const QUARTERLY_DIR = path.join(ROOT, "data", "quarterly");
 const embedded = {};
 for (const t of Object.keys(tickers.tickers)) {
   const fin = path.join(ROOT, "data", "financials", t + ".json");
   const prx = path.join(ROOT, "data", "prices", t + ".json");
-  let f = null, p = null, lastPrice = null, fd = null;
+  const qf = path.join(QUARTERLY_DIR, t + ".json");
+  let f = null, p = null, q = null, lastPrice = null, fd = null;
+  if (fs.existsSync(qf)) {
+    try {
+      const qd = JSON.parse(fs.readFileSync(qf, "utf-8"));
+      if (qd.quarters && qd.quarters.length) {
+        q = qd.quarters.map(x => ({
+          q: x.q,
+          rev: x.revenue_native,
+          ni: x.net_income_native,
+          eps: x.eps_diluted_native ?? x.eps_diluted
+        }));
+      }
+    } catch (e) {}
+  }
   if (fs.existsSync(fin)) {
     try {
       fd = JSON.parse(fs.readFileSync(fin, "utf-8"));
@@ -79,7 +94,7 @@ for (const t of Object.keys(tickers.tickers)) {
     } catch (e) {}
   }
   const mcap = computeMcap(fd, lastPrice);
-  embedded[t] = { f, p, mcap, info: tickers.tickers[t] };
+  embedded[t] = { f, p, q, mcap, info: tickers.tickers[t] };
 }
 
 const mcaps = Object.values(embedded).map(e => e.mcap).filter(m => m && m > 0);
@@ -777,6 +792,7 @@ function showNodeTip(ticker, e) {
   if (up || dn) {
     h += '<div class="tip-row" style="margin-top:6px; color:#7a8395; font-size:11px">';
     h += up + ' upstream &middot; ' + dn + ' downstream (in registry)';
+    if (d.q && d.q.length) h += ' &middot; <span style="color:#80e080">'+d.q.length+' quarters</span>';
     h += '</div>';
   }
 
@@ -961,6 +977,28 @@ function showDetail(ticker) {
     if (m.decoupling != null) {
       const lbl = decouplingLabel(m.decoupling);
       h += '<tr><td>Decoupling (5yr px ret ÷ rev CAGR)</td><td class="'+(lbl?lbl.cls:'')+'">'+m.decoupling.toFixed(2)+'×</td><td style="color:#7a8395; font-size:11px">'+(lbl?lbl.txt:'')+'</td></tr>';
+    }
+    h += '</table>';
+  }
+
+  // Quarterly data (if available — only top anchors have it)
+  if (d.q && d.q.length) {
+    h += '<h2>Recent quarters ('+d.q.length+' qtrs · '+(d.f && d.f.ccy || 'USD')+' millions)</h2>';
+    h += '<table><tr><th>Quarter</th><th>Revenue</th><th>QoQ</th><th>YoY</th><th>Net inc</th><th>EPS</th></tr>';
+    for (let i = 0; i < d.q.length; i++) {
+      const cur = d.q[i];
+      const prevQ = d.q[i+1];     // next index = previous quarter (descending order)
+      const prevY = d.q[i+4];     // four quarters back
+      const qoq = (prevQ && cur.rev != null && prevQ.rev > 0)
+        ? ((cur.rev / prevQ.rev) - 1) * 100 : null;
+      const yoy = (prevY && cur.rev != null && prevY.rev > 0)
+        ? ((cur.rev / prevY.rev) - 1) * 100 : null;
+      h += '<tr><td>'+cur.q.replace(/_/g, ' ')+'</td>';
+      h += '<td>'+(cur.rev != null ? cur.rev.toLocaleString() : '—')+'</td>';
+      h += '<td class="'+(qoq>=0?'pos':'neg')+'">'+(qoq != null ? (qoq>=0?'+':'')+qoq.toFixed(1)+'%' : '—')+'</td>';
+      h += '<td class="'+(yoy>=0?'pos':'neg')+'">'+(yoy != null ? (yoy>=0?'+':'')+yoy.toFixed(1)+'%' : '—')+'</td>';
+      h += '<td class="'+(cur.ni<0?'neg':'pos')+'">'+(cur.ni != null ? cur.ni.toLocaleString() : '—')+'</td>';
+      h += '<td>'+(cur.eps != null ? cur.eps.toFixed(2) : '—')+'</td></tr>';
     }
     h += '</table>';
   }

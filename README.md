@@ -93,6 +93,16 @@ Not automated. Three options:
 2. Re-run the initial Claude Code flow that scraped stockanalysis.com financials pages.
 3. Subscribe to a paid financials API (Financial Modeling Prep, Polygon, IEX Cloud) and write a fetcher analogous to `refresh.js`.
 
+**Quarterly data** (`data/quarterly/<TICKER>.json`, last 8 quarters):
+```bash
+npm install playwright          # one-time
+npx playwright install chromium # one-time
+npm run fetch:quarterly         # fetches tickers missing a file
+node fetch-quarterly.js --all   # re-fetch all 172
+node fetch-quarterly.js NVDA AMD TSM   # specific tickers
+```
+Uses headless Chromium to scrape stockanalysis.com (their financials table is rendered client-side, so plain `fetch()` doesn't work). 10 anchor tickers (NVDA, AMD, TSM, MSFT, AVGO, MU, META, ASML, SMCI, AAPL, GOOGL, AMZN) are pre-seeded; rest can be filled in with the script.
+
 **Automated weekly refresh** is wired up in `.github/workflows/refresh.yml`:
 - Runs every Monday 06:00 UTC (also triggerable manually from the Actions tab)
 - `node refresh.js && npm run build`, then commits + pushes if anything changed

@@ -1,0 +1,17 @@
+{
+  "ticker": "AAPL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q2_FY2026", "revenue_native": 111184, "net_income_native": 29578, "eps_diluted_native": 2.01},
+    {"q": "Q1_FY2026", "revenue_native": 143756, "net_income_native": 42097, "eps_diluted_native": 2.84},
+    {"q": "Q4_FY2025", "revenue_native": 102466, "net_income_native": 27466, "eps_diluted_native": 1.85},
+    {"q": "Q3_FY2025", "revenue_native": 94036, "net_income_native": 23434, "eps_diluted_native": 1.57},
+    {"q": "Q2_FY2025", "revenue_native": 95359, "net_income_native": 24780, "eps_diluted_native": 1.65},
+    {"q": "Q1_FY2025", "revenue_native": 124300, "net_income_native": 36330, "eps_diluted_native": 2.40},
+    {"q": "Q4_FY2024", "revenue_native": 94930, "net_income_native": 14736, "eps_diluted_native": 0.97},
+    {"q": "Q3_FY2024", "revenue_native": 85777, "net_income_native": 21448, "eps_diluted_native": 1.40}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/aapl/financials/?p=quarterly"
+}

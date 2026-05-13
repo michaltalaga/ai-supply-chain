@@ -1,0 +1,17 @@
+{
+  "ticker": "SMCI",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 10243, "net_income_native": 483.39, "eps_diluted_native": 0.72},
+    {"q": "Q2_FY2026", "revenue_native": 12683, "net_income_native": 400.56, "eps_diluted_native": 0.60},
+    {"q": "Q1_FY2026", "revenue_native": 5018, "net_income_native": 168.29, "eps_diluted_native": 0.26},
+    {"q": "Q4_FY2025", "revenue_native": 5757, "net_income_native": 195.15, "eps_diluted_native": 0.31},
+    {"q": "Q3_FY2025", "revenue_native": 4600, "net_income_native": 108.78, "eps_diluted_native": 0.17},
+    {"q": "Q2_FY2025", "revenue_native": 5678, "net_income_native": 320.6, "eps_diluted_native": 0.51},
+    {"q": "Q1_FY2025", "revenue_native": 5937, "net_income_native": 424.33, "eps_diluted_native": 0.67},
+    {"q": "Q4_FY2024", "revenue_native": 5355, "net_income_native": 297.24, "eps_diluted_native": 0.46}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/smci/financials/?p=quarterly"
+}

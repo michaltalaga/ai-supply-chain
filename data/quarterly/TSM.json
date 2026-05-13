@@ -1,0 +1,18 @@
+{
+  "ticker": "TSM",
+  "currency_native": "TWD",
+  "units_fetched": "millions",
+  "note_adr_ratio": "1 ADR = 5 ordinary; EPS is TWD per ADR-equivalent",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 1134100, "net_income_native": 572480, "eps_diluted_native": 110.40},
+    {"q": "Q4_2025", "revenue_native": 1046090, "net_income_native": 505744, "eps_diluted_native": 97.50},
+    {"q": "Q3_2025", "revenue_native": 989918, "net_income_native": 452301, "eps_diluted_native": 87.20},
+    {"q": "Q2_2025", "revenue_native": 933792, "net_income_native": 398273, "eps_diluted_native": 76.80},
+    {"q": "Q1_2025", "revenue_native": 839254, "net_income_native": 361564, "eps_diluted_native": 69.70},
+    {"q": "Q4_2024", "revenue_native": 868461, "net_income_native": 359792, "eps_diluted_native": 72.25},
+    {"q": "Q3_2024", "revenue_native": 759692, "net_income_native": 325258, "eps_diluted_native": 62.70},
+    {"q": "Q2_2024", "revenue_native": 673510, "net_income_native": 247846, "eps_diluted_native": 47.80}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/tsm/financials/?p=quarterly"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "META",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 56311, "net_income_native": 26773, "eps_diluted_native": 10.44},
+    {"q": "Q4_2025", "revenue_native": 59893, "net_income_native": 22768, "eps_diluted_native": 8.88},
+    {"q": "Q3_2025", "revenue_native": 51242, "net_income_native": 2709, "eps_diluted_native": 1.05},
+    {"q": "Q2_2025", "revenue_native": 47516, "net_income_native": 18337, "eps_diluted_native": 7.14},
+    {"q": "Q1_2025", "revenue_native": 42314, "net_income_native": 16644, "eps_diluted_native": 6.43},
+    {"q": "Q4_2024", "revenue_native": 48385, "net_income_native": 20838, "eps_diluted_native": 8.02},
+    {"q": "Q3_2024", "revenue_native": 40589, "net_income_native": 15688, "eps_diluted_native": 6.03},
+    {"q": "Q2_2024", "revenue_native": 39071, "net_income_native": 13465, "eps_diluted_native": 5.16}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/meta/financials/?p=quarterly"
+}

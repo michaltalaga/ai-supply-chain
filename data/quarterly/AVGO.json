@@ -1,0 +1,17 @@
+{
+  "ticker": "AVGO",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_FY2026", "revenue_native": 19311, "net_income_native": 7349, "eps_diluted_native": 1.50},
+    {"q": "Q4_FY2025", "revenue_native": 18015, "net_income_native": 8518, "eps_diluted_native": 1.74},
+    {"q": "Q3_FY2025", "revenue_native": 15952, "net_income_native": 4140, "eps_diluted_native": 0.85},
+    {"q": "Q2_FY2025", "revenue_native": 15004, "net_income_native": 4965, "eps_diluted_native": 1.03},
+    {"q": "Q1_FY2025", "revenue_native": 14916, "net_income_native": 5503, "eps_diluted_native": 1.14},
+    {"q": "Q4_FY2024", "revenue_native": 14054, "net_income_native": 4324, "eps_diluted_native": 0.90},
+    {"q": "Q3_FY2024", "revenue_native": 13072, "net_income_native": -1875, "eps_diluted_native": -0.40},
+    {"q": "Q2_FY2024", "revenue_native": 12487, "net_income_native": 2121, "eps_diluted_native": 0.44}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/avgo/financials/?p=quarterly"
+}

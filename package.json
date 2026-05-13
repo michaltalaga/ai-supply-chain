@@ -7,6 +7,7 @@
     "refresh": "node refresh.js",
     "refresh:and:build": "node refresh.js && node aggregate.js && node report.js && node build_viewer.js",
     "audit": "node audit-tickers.js",
+    "fetch:quarterly": "node fetch-quarterly.js",
     "build:data": "node aggregate.js",
     "build:report": "node report.js",
     "build:viewer": "node build_viewer.js",

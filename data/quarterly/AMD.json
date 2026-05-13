@@ -1,0 +1,17 @@
+{
+  "ticker": "AMD",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 10253, "net_income_native": 1383, "eps_diluted_native": 0.84},
+    {"q": "Q4_2025", "revenue_native": 10270, "net_income_native": 1511, "eps_diluted_native": 0.92},
+    {"q": "Q3_2025", "revenue_native": 9246, "net_income_native": 1243, "eps_diluted_native": 0.77},
+    {"q": "Q2_2025", "revenue_native": 7685, "net_income_native": 872, "eps_diluted_native": 0.54},
+    {"q": "Q1_2025", "revenue_native": 7438, "net_income_native": 709, "eps_diluted_native": 0.44},
+    {"q": "Q4_2024", "revenue_native": 7658, "net_income_native": 482, "eps_diluted_native": 0.30},
+    {"q": "Q3_2024", "revenue_native": 6819, "net_income_native": 771, "eps_diluted_native": 0.47},
+    {"q": "Q2_2024", "revenue_native": 5835, "net_income_native": 265, "eps_diluted_native": 0.16}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/amd/financials/?p=quarterly"
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "MU",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q2_FY2026", "revenue_native": 23860, "net_income_native": 13785, "eps_diluted_native": 12.28},
+    {"q": "Q1_FY2026", "revenue_native": 13643, "net_income_native": 5240, "eps_diluted_native": 4.60},
+    {"q": "Q4_FY2025", "revenue_native": 11315, "net_income_native": 3201, "eps_diluted_native": 2.83},
+    {"q": "Q3_FY2025", "revenue_native": 9301, "net_income_native": 1885, "eps_diluted_native": 1.68},
+    {"q": "Q2_FY2025", "revenue_native": 8053, "net_income_native": 1583, "eps_diluted_native": 1.41},
+    {"q": "Q1_FY2025", "revenue_native": 8709, "net_income_native": 1870, "eps_diluted_native": 1.67},
+    {"q": "Q4_FY2024", "revenue_native": 7750, "net_income_native": 887, "eps_diluted_native": 0.79},
+    {"q": "Q3_FY2024", "revenue_native": 6811, "net_income_native": 332, "eps_diluted_native": 0.30}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/mu/financials/?p=quarterly"
+}

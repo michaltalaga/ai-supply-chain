@@ -1,0 +1,17 @@
+{
+  "ticker": "ASML",
+  "currency_native": "EUR",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 8767, "net_income_native": 2757, "eps_diluted_native": 7.15},
+    {"q": "Q4_2025", "revenue_native": 9718, "net_income_native": 2840, "eps_diluted_native": 7.34},
+    {"q": "Q3_2025", "revenue_native": 7516, "net_income_native": 2125, "eps_diluted_native": 5.48},
+    {"q": "Q2_2025", "revenue_native": 7692, "net_income_native": 2290, "eps_diluted_native": 5.87},
+    {"q": "Q1_2025", "revenue_native": 7742, "net_income_native": 2355, "eps_diluted_native": 5.99},
+    {"q": "Q4_2024", "revenue_native": 9263, "net_income_native": 2693, "eps_diluted_native": 6.84},
+    {"q": "Q3_2024", "revenue_native": 7467, "net_income_native": 2077, "eps_diluted_native": 5.28},
+    {"q": "Q2_2024", "revenue_native": 6243, "net_income_native": 1578, "eps_diluted_native": 4.01}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/asml/financials/?p=quarterly"
+}

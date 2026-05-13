@@ -1,0 +1,17 @@
+{
+  "ticker": "GOOGL",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 109896, "net_income_native": 62578, "eps_diluted_native": 5.11},
+    {"q": "Q4_2025", "revenue_native": 113829, "net_income_native": 34455, "eps_diluted_native": 2.81},
+    {"q": "Q3_2025", "revenue_native": 102346, "net_income_native": 34979, "eps_diluted_native": 2.87},
+    {"q": "Q2_2025", "revenue_native": 96428, "net_income_native": 28196, "eps_diluted_native": 2.31},
+    {"q": "Q1_2025", "revenue_native": 90234, "net_income_native": 34540, "eps_diluted_native": 2.81},
+    {"q": "Q4_2024", "revenue_native": 96469, "net_income_native": 26536, "eps_diluted_native": 2.14},
+    {"q": "Q3_2024", "revenue_native": 88268, "net_income_native": 26301, "eps_diluted_native": 2.12},
+    {"q": "Q2_2024", "revenue_native": 84742, "net_income_native": 23619, "eps_diluted_native": 1.89}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/googl/financials/?p=quarterly"
+}

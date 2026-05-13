@@ -1,0 +1,17 @@
+{
+  "ticker": "NVDA",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q4_FY2026", "revenue_native": 68127, "net_income_native": 42960, "eps_diluted_native": 1.76},
+    {"q": "Q3_FY2026", "revenue_native": 57006, "net_income_native": 31910, "eps_diluted_native": 1.30},
+    {"q": "Q2_FY2026", "revenue_native": 46743, "net_income_native": 26422, "eps_diluted_native": 1.08},
+    {"q": "Q1_FY2026", "revenue_native": 44062, "net_income_native": 18775, "eps_diluted_native": 0.76},
+    {"q": "Q4_FY2025", "revenue_native": 39331, "net_income_native": 22091, "eps_diluted_native": 0.89},
+    {"q": "Q3_FY2025", "revenue_native": 35082, "net_income_native": 19309, "eps_diluted_native": 0.78},
+    {"q": "Q2_FY2025", "revenue_native": 30040, "net_income_native": 16599, "eps_diluted_native": 0.67},
+    {"q": "Q1_FY2025", "revenue_native": 26044, "net_income_native": 14881, "eps_diluted_native": 0.60}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/nvda/financials/?p=quarterly"
+}

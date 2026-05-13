@@ -1,0 +1,17 @@
+{
+  "ticker": "AMZN",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 181519, "net_income_native": 30255, "eps_diluted_native": 2.78},
+    {"q": "Q4_2025", "revenue_native": 213386, "net_income_native": 21192, "eps_diluted_native": 1.95},
+    {"q": "Q3_2025", "revenue_native": 180169, "net_income_native": 21187, "eps_diluted_native": 1.95},
+    {"q": "Q2_2025", "revenue_native": 167702, "net_income_native": 18164, "eps_diluted_native": 1.68},
+    {"q": "Q1_2025", "revenue_native": 155667, "net_income_native": 17127, "eps_diluted_native": 1.59},
+    {"q": "Q4_2024", "revenue_native": 187792, "net_income_native": 20004, "eps_diluted_native": 1.86},
+    {"q": "Q3_2024", "revenue_native": 158877, "net_income_native": 15328, "eps_diluted_native": 1.43},
+    {"q": "Q2_2024", "revenue_native": 147977, "net_income_native": 13485, "eps_diluted_native": 1.26}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/amzn/financials/?p=quarterly"
+}

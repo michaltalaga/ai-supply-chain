@@ -1,0 +1,17 @@
+{
+  "ticker": "MSFT",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q3_FY2026", "revenue_native": 82886, "net_income_native": 31778, "eps_diluted_native": 4.27},
+    {"q": "Q2_FY2026", "revenue_native": 81273, "net_income_native": 38458, "eps_diluted_native": 5.16},
+    {"q": "Q1_FY2026", "revenue_native": 77673, "net_income_native": 27747, "eps_diluted_native": 3.72},
+    {"q": "Q4_FY2025", "revenue_native": 76441, "net_income_native": 27233, "eps_diluted_native": 3.65},
+    {"q": "Q3_FY2025", "revenue_native": 70066, "net_income_native": 25824, "eps_diluted_native": 3.46},
+    {"q": "Q2_FY2025", "revenue_native": 69632, "net_income_native": 24108, "eps_diluted_native": 3.23},
+    {"q": "Q1_FY2025", "revenue_native": 65585, "net_income_native": 24667, "eps_diluted_native": 3.30},
+    {"q": "Q4_FY2024", "revenue_native": 64727, "net_income_native": 22036, "eps_diluted_native": 2.95}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/msft/financials/?p=quarterly"
+}
