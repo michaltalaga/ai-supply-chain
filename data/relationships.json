@@ -554,6 +554,323 @@
       "single_source_risk": "high",
       "alternatives": "Very few — specialty laser physics expertise concentrated at COHR/II-VI + a handful of private suppliers.",
       "trend": "Growing slowly; small absolute $ but mission-critical."
+    },
+
+    "MU->MSFT": {
+      "what_flows": "HBM + DDR5 server memory for Azure AI fleet",
+      "importance": "major",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "medium",
+      "alternatives": "SK Hynix, Samsung",
+      "trend": "Growing fast with HBM ramp"
+    },
+    "MU->META": {
+      "what_flows": "DDR5 + HBM for Llama training + GenAI infra",
+      "importance": "major",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+    "MU->AMZN": {
+      "what_flows": "DDR5 server memory + HBM for Trainium2/3",
+      "importance": "major",
+      "annual_usd_billions": "2-3",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+    "MU->GOOGL": {
+      "what_flows": "DDR5 server memory + HBM for TPU v5/v6 + GPU systems",
+      "importance": "major",
+      "annual_usd_billions": "1-3",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+    "MU->AAPL": {
+      "what_flows": "LPDDR5/5X mobile DRAM + NAND for iPhone, iPad, Mac, Vision Pro",
+      "importance": "critical",
+      "annual_usd_billions": "5-8",
+      "deal_basis": "Apple is consistently MU's largest single customer (disclosed >10% of revenue in 10-K).",
+      "single_source_risk": "medium",
+      "alternatives": "Samsung, SK Hynix",
+      "trend": "Stable to growing with on-device AI capacity demands"
+    },
+    "MU->DELL": {
+      "what_flows": "DDR5 + HBM for PowerEdge AI servers",
+      "importance": "major",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "low",
+      "trend": "Growing with AI server volume"
+    },
+    "MU->HPE": {
+      "what_flows": "DDR5 + HBM for ProLiant + Cray AI supercomputers",
+      "importance": "major",
+      "annual_usd_billions": "1-2",
+      "single_source_risk": "low",
+      "trend": "Growing"
+    },
+
+    "AVGO->AAPL": {
+      "what_flows": "Custom wireless silicon (FBAR filters, RF front-end), WiFi/BT chips, integrated optics. Multi-year supply agreement renewed/extended through 2027.",
+      "importance": "critical",
+      "annual_usd_billions": "15-20",
+      "deal_basis": "Apple is AVGO's largest customer (~20% of revenue historically); 2023 supply deal extension was a major reset.",
+      "single_source_risk": "high",
+      "alternatives": "Limited at the FBAR-filter quality required",
+      "trend": "Stable; iPhone unit cycle dependent"
+    },
+    "AMD->META": {
+      "what_flows": "MI300X clusters for Llama training; META is one of AMD's largest disclosed AI GPU customers",
+      "importance": "major",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "medium",
+      "alternatives": "NVDA (primary), Meta MTIA (internal)",
+      "trend": "Growing — AMD MI350/MI400 roadmap aimed at META + ORCL"
+    },
+    "AMD->MSFT": {
+      "what_flows": "MI300/MI325 for Azure AI fleet (alongside dominant NVDA share)",
+      "importance": "major",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "low",
+      "trend": "Growing on customer diversification + cost pressure"
+    },
+    "INTC->DELL": {
+      "what_flows": "Xeon CPUs for PowerEdge servers (mature business); Gaudi 3 AI accelerator (small, late)",
+      "importance": "major",
+      "annual_usd_billions": "5-8",
+      "single_source_risk": "low",
+      "alternatives": "AMD EPYC (taking share)",
+      "trend": "Declining — share losses to AMD EPYC and ARM (NVDA Grace)"
+    },
+    "INTC->HPE": {
+      "what_flows": "Xeon CPUs for ProLiant + Cray supercomputers",
+      "importance": "major",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "low",
+      "trend": "Declining"
+    },
+
+    "ANET->MSFT": {
+      "what_flows": "800G/1600G Ethernet switches for Azure AI fabrics (alternative to NVDA Spectrum-X / Infiniband)",
+      "importance": "critical",
+      "annual_usd_billions": "1.5-3",
+      "deal_basis": "MSFT historically ~20% of ANET revenue; AI fabric rollout drove acceleration",
+      "single_source_risk": "medium",
+      "trend": "Growing fast"
+    },
+    "ANET->META": {
+      "what_flows": "Ethernet AI fabrics for Llama training clusters",
+      "importance": "critical",
+      "annual_usd_billions": "1.5-3",
+      "deal_basis": "META was disclosed ~20-25% of ANET revenue in 2024-25",
+      "single_source_risk": "medium",
+      "trend": "Growing fast"
+    },
+    "AVGO->AMZN": {
+      "what_flows": "Custom Trainium2/3 silicon + Tomahawk switching + JNPR networking ASICs",
+      "importance": "critical",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "high",
+      "trend": "Growing with Trainium ramp"
+    },
+
+    "ETN->META": {
+      "what_flows": "Switchgear + UPS + busway for hyperscale data-center campuses",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "low",
+      "trend": "Growing"
+    },
+    "ETN->MSFT": {
+      "what_flows": "Switchgear + power distribution for Azure data-center fleet",
+      "importance": "major",
+      "annual_usd_billions": "0.6-1.2",
+      "single_source_risk": "low",
+      "trend": "Growing"
+    },
+    "SBGSY->DLR": {
+      "what_flows": "EcoStruxure data-center infrastructure + Motivair liquid cooling (acquired 2024)",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "low",
+      "trend": "Growing"
+    },
+    "ABBNY->Utilities": {
+      "what_flows": "Grid transformers + medium-voltage switchgear + motors + drives",
+      "importance": "major",
+      "annual_usd_billions": "1.5-2.5",
+      "single_source_risk": "low",
+      "alternatives": "GEV, ETN, HUBB, Hitachi Energy (private/Mitsubishi JV)",
+      "trend": "Growing with grid build-out"
+    },
+    "VRT->META": {
+      "what_flows": "CDUs + UPS + busways for Llama AI fabrics + open-compute data centers",
+      "importance": "critical",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "medium",
+      "trend": "Growing fast"
+    },
+    "VRT->GOOGL": {
+      "what_flows": "Cooling + power distribution for GCP TPU + GPU campuses",
+      "importance": "major",
+      "annual_usd_billions": "0.4-0.8",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+
+    "D->Hyperscalers": {
+      "what_flows": "Virginia data-center alley electricity supply — D powers ~70%+ of North Virginia's hyperscaler load",
+      "importance": "critical",
+      "annual_usd_billions": "1-2",
+      "deal_basis": "Disclosed: data-center customers = ~25% of Dominion's regulated revenue and growing rapidly",
+      "single_source_risk": "high",
+      "trend": "Growing fast; transmission constraints in NoVA forcing PJM queue build-out"
+    },
+    "DUK->Hyperscalers": {
+      "what_flows": "North/South Carolina electricity supply for data-center builds (META Forest City, Apple, AAPL, GOOGL)",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "high",
+      "trend": "Growing"
+    },
+    "ETR->Hyperscalers": {
+      "what_flows": "Louisiana/Mississippi electricity for new hyperscaler campuses (META Richland)",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "high",
+      "trend": "Growing — META announced multi-billion campus in Richland Parish 2024"
+    },
+    "AEP->Hyperscalers": {
+      "what_flows": "Ohio + Texas (ERCOT-adjacent) electricity for hyperscaler campuses",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "high",
+      "trend": "Growing fast; AEP forecast ~15 GW of new AI load in Ohio service territory"
+    },
+
+    "MOD->SMCI": {
+      "what_flows": "Coolant Distribution Units (CDUs) + Airedale heat-rejection for GPU server racks",
+      "importance": "critical",
+      "annual_usd_billions": "0.15-0.3",
+      "single_source_risk": "medium",
+      "alternatives": "VRT (primary), NVT",
+      "trend": "Growing fast — MOD repositioned as AI cooling play"
+    },
+    "MOD->DELL": {
+      "what_flows": "CDUs for PowerEdge XE GPU servers",
+      "importance": "major",
+      "annual_usd_billions": "0.05-0.15",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+    "JCI->DLR": {
+      "what_flows": "YORK chillers + Silent-Aire purpose-built data-center cooling",
+      "importance": "major",
+      "annual_usd_billions": "0.2-0.4",
+      "single_source_risk": "low",
+      "trend": "Growing"
+    },
+    "TT->DLR": {
+      "what_flows": "Trane Mission Critical chillers + thermal management",
+      "importance": "major",
+      "annual_usd_billions": "0.15-0.3",
+      "single_source_risk": "low",
+      "trend": "Growing"
+    },
+
+    "ALB->TSLA": {
+      "what_flows": "Lithium hydroxide for EV traction batteries (long-term supply agreement)",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1",
+      "deal_basis": "Multi-year supply deal disclosed 2022; pricing now reset to spot lithium (much lower).",
+      "single_source_risk": "medium",
+      "alternatives": "Ganfeng (CN), SQM, Tianqi",
+      "trend": "Declining — lithium prices crashed 2023-25, hurting ALB margins"
+    },
+    "ENTG->MU": {
+      "what_flows": "Specialty filtration + advanced packaging materials for HBM stacking",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.5",
+      "single_source_risk": "medium",
+      "trend": "Growing with HBM volume"
+    },
+    "DD->TSM": {
+      "what_flows": "Specialty advanced materials + photoresist + CMP slurries; DD Electronics & Industrial segment is the AI-coupled piece",
+      "importance": "critical",
+      "annual_usd_billions": "0.4-0.8",
+      "single_source_risk": "high",
+      "alternatives": "Shin-Etsu (SHECY), JSR (private)",
+      "trend": "Growing with advanced-node mix; DD spinning off Electronics segment 2025"
+    },
+    "GLW->AAPL": {
+      "what_flows": "Gorilla Glass + ceramic shield for iPhone/iPad displays. Multi-billion-dollar long-term supply agreement.",
+      "importance": "critical",
+      "annual_usd_billions": "2-3",
+      "deal_basis": "Apple's 2023 commitment included a $250M+ investment in Corning US glass production. AAPL is GLW's largest customer.",
+      "single_source_risk": "high",
+      "trend": "Stable"
+    },
+
+    "LITE->MSFT": {
+      "what_flows": "Optical transceivers + Cloudlight lasers for Azure AI fabrics",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.5",
+      "single_source_risk": "medium",
+      "trend": "Growing fast"
+    },
+    "LITE->META": {
+      "what_flows": "Transceivers + datacomm lasers for AI clusters",
+      "importance": "major",
+      "annual_usd_billions": "0.2-0.4",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+
+    "PWR->Hyperscalers": {
+      "what_flows": "Substations + transmission interconnections + on-site power delivery for hyperscaler campuses",
+      "importance": "critical",
+      "annual_usd_billions": "3-5",
+      "deal_basis": "PWR disclosed largest-ever backlog in 2024-25 driven by hyperscaler interconnections",
+      "single_source_risk": "low",
+      "trend": "Growing fast"
+    },
+    "MTZ->Telcos": {
+      "what_flows": "Fiber + transmission line construction; major NBN/FTTH + 5G work",
+      "importance": "major",
+      "annual_usd_billions": "1.5-2.5",
+      "single_source_risk": "low",
+      "trend": "Stable"
+    },
+    "EME->Hyperscalers": {
+      "what_flows": "Mechanical + electrical contracting for data-center builds — busbar/cable tray/cooling pipework. EME is the #1 US data-center mech contractor.",
+      "importance": "critical",
+      "annual_usd_billions": "2-3",
+      "deal_basis": "EME's network-and-comms segment grew >40% YoY in 2024-25 on data-center demand",
+      "single_source_risk": "low",
+      "trend": "Growing fast"
+    },
+
+    "ICHR->AMAT": {
+      "what_flows": "Gas + fluid delivery subsystems built into AMAT process tools",
+      "importance": "critical",
+      "annual_usd_billions": "0.2-0.4",
+      "deal_basis": "AMAT is ICHR's largest customer (disclosed >50% of revenue)",
+      "single_source_risk": "high",
+      "trend": "Tracks AMAT shipment cycle"
+    },
+    "UCTT->LRCX": {
+      "what_flows": "Subsystem assemblies for Lam Research etch + deposition tools",
+      "importance": "critical",
+      "annual_usd_billions": "0.4-0.7",
+      "deal_basis": "LRCX is UCTT's largest customer",
+      "single_source_risk": "high",
+      "trend": "Tracks LRCX shipment cycle"
+    },
+    "KLIC->ASX": {
+      "what_flows": "Thermo-compression bonders + wire bonders for OSAT advanced packaging",
+      "importance": "major",
+      "annual_usd_billions": "0.05-0.15",
+      "single_source_risk": "high",
+      "trend": "Growing with HBM stacking + CoWoS volume"
     }
   }
 }
