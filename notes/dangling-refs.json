@@ -39,7 +39,7 @@
     "KBR.key_downstream",
     "FLR.key_downstream",
     "J.key_downstream",
-    "BEL.key_downstream",
+    "BDC.key_downstream",
     "GFL.key_downstream",
     "HON.key_downstream"
   ],
@@ -130,7 +130,7 @@
     "DY.key_downstream",
     "PRIM.key_downstream",
     "COMM.key_downstream",
-    "BEL.key_downstream",
+    "BDC.key_downstream",
     "ARQQ.key_downstream"
   ],
   "Quantum": [

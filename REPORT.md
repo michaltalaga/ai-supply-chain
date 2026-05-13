@@ -356,7 +356,7 @@ GLW (Corning) for optical fiber + display glass; COMM + BEL for cabling. Quietly
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
 | [GLW](https://stockanalysis.com/stocks/glw/) | Corning Inc | $15.63B | $1.60B | 1.83 | +3% | +385% |
-| [BEL](https://stockanalysis.com/stocks/bel/) | Belden Inc | $2.71B | $237.5M | 5.91 | +4% | — |
+| [BDC](https://stockanalysis.com/stocks/bdc/) | Belden Inc | $2.71B | $237.5M | 5.91 | +4% | +117% |
 | [COMM](https://stockanalysis.com/stocks/comm/) | CommScope Holding | $1.93B | $2.21B | 9.63 | -27% | — |
 
 ### Waste / recycling (7 tickers)

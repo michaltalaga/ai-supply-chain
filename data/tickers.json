@@ -2557,7 +2557,7 @@
       ],
       "notes": "Restructured"
     },
-    "BEL": {
+    "BDC": {
       "name": "Belden Inc",
       "exchange": "NYSE",
       "currency_native": "USD",
@@ -2569,7 +2569,7 @@
         "Industrial",
         "Telcos"
       ],
-      "notes": ""
+      "notes": "Renamed BEL->BDC 2026-05-13 (BEL is Bel Fuse Inc"
     },
     "WM": {
       "name": "Waste Management",

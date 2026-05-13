@@ -157,7 +157,7 @@ AGX,Argan Inc,NYSE,USD,EPC - power plants,D3,"Builds gas + renewable power plant
 VMI,Valmont Industries,NYSE,USD,Infrastructure - utility structures,D3,"Utility transmission poles + irrigation",,Utilities,
 GLW,Corning Inc,NYSE,USD,Glass + fiber,D3,"#1 optical fiber + Gorilla Glass + ceramic display; AI data-center fiber",,Hyperscalers;CSCO;ANET,
 COMM,CommScope Holding,NASDAQ,USD,Fiber + cabling,D3,"Fiber + connectors + small cells; debt restructuring 2024",,Telcos;Hyperscalers,Restructured
-BEL,Belden Inc,NYSE,USD,Cabling,D3,"Industrial + broadcast cabling + connectivity",,Industrial;Telcos,
+BDC,Belden Inc,NYSE,USD,Cabling,D3,"Industrial + broadcast cabling + connectivity",,Industrial;Telcos,Renamed BEL->BDC 2026-05-13 (BEL is Bel Fuse Inc, a different company)
 WM,Waste Management,NYSE,USD,Waste + recycling,D4,"#1 US solid waste + landfill gas; growing recycling",,Municipal;Commercial,
 RSG,Republic Services,NYSE,USD,Waste + recycling,D4,"#2 US solid waste; circular economy programs",,Municipal;Commercial,
 WCN,Waste Connections,NYSE,USD,Waste,D4,"#3 US solid waste; mid-market focus",,Municipal;Commercial,

@@ -1,0 +1,45 @@
+{
+  "ticker": "BDC",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "fiscal_years": [
+    {
+      "fy": 2025,
+      "fye": "2025-12-31",
+      "revenue_native": 2715,
+      "net_income_native": 237.52,
+      "eps_diluted_native": 5.91
+    },
+    {
+      "fy": 2024,
+      "fye": "2024-12-31",
+      "revenue_native": 2461,
+      "net_income_native": 198.4,
+      "eps_diluted_native": 4.8
+    },
+    {
+      "fy": 2023,
+      "fye": "2023-12-31",
+      "revenue_native": 2512,
+      "net_income_native": 242.35,
+      "eps_diluted_native": 5.66
+    },
+    {
+      "fy": 2022,
+      "fye": "2022-12-31",
+      "revenue_native": 2606,
+      "net_income_native": 254.98,
+      "eps_diluted_native": 5.72
+    },
+    {
+      "fy": 2021,
+      "fye": "2021-12-31",
+      "revenue_native": 2301,
+      "net_income_native": 64.71,
+      "eps_diluted_native": 1.41
+    }
+  ],
+  "as_of": "2026-05-11",
+  "source": "https://stockanalysis.com/stocks/bdc/financials/",
+  "note": "Renamed from BEL on 2026-05-13: Belden trades as BDC; BEL is Bel Fuse Inc."
+}

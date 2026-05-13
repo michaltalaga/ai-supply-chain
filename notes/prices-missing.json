@@ -16,10 +16,6 @@
     "reason": "HTTP 400"
   },
   {
-    "ticker": "BEL",
-    "reason": "HTTP 400"
-  },
-  {
     "ticker": "BESIY",
     "reason": "HTTP 400"
   },
