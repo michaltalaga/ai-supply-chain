@@ -1,0 +1,241 @@
+{
+  "as_of": "2026-05-13",
+  "description": "Non-investable supply-chain nodes (private companies + foreign-only listings excluded from the registry). Rendered as small grey circles in the viewer so the structural map is complete even where the entity isn't publicly tradable.",
+  "ghosts": {
+    "SK_HYNIX": {
+      "name": "SK Hynix Inc",
+      "tier": "U2",
+      "segment": "Memory & storage",
+      "kind": "foreign-listed",
+      "where": "KRX 000660 (Korea)",
+      "role": "#2 DRAM globally, #1 HBM supplier to NVDA. Tightest single bottleneck in the AI GPU supply chain alongside TSM. Combined with Samsung (SSNLF) and Micron (MU) makes the global memory triopoly.",
+      "color_hint": "memory"
+    },
+    "TOKYO_ELECTRON": {
+      "name": "Tokyo Electron Ltd",
+      "tier": "U3",
+      "segment": "Wafer fab equipment (WFE)",
+      "kind": "foreign-listed",
+      "where": "TSE 8035 (Japan)",
+      "role": "#3 WFE globally. Strong in etch, deposition, coater/developer. OTC TOELY exists but illiquid / unsponsored — excluded from registry.",
+      "color_hint": "wfe"
+    },
+    "DISCO_CORP": {
+      "name": "Disco Corp",
+      "tier": "U3",
+      "segment": "Wafer fab equipment (WFE)",
+      "kind": "foreign-listed",
+      "where": "TSE 6146 (Japan)",
+      "role": "Near-monopoly in precision wafer dicing + grinding equipment for advanced packaging (CoWoS, HBM stacking).",
+      "color_hint": "wfe"
+    },
+    "ZEISS_SMT": {
+      "name": "Carl Zeiss SMT GmbH",
+      "tier": "U3",
+      "segment": "Wafer fab equipment (WFE)",
+      "kind": "private",
+      "where": "Subsidiary of Carl Zeiss AG (private foundation-owned)",
+      "role": "Sole supplier of EUV optics modules to ASML. No public equity exposure. Without Zeiss, no EUV scanner ships.",
+      "color_hint": "wfe"
+    },
+    "TRUMPF": {
+      "name": "TRUMPF Group",
+      "tier": "U3",
+      "segment": "Wafer fab equipment (WFE)",
+      "kind": "private",
+      "where": "German private (family-owned)",
+      "role": "Sole supplier of CO2 seed laser source to ASML for EUV. Amplification done by Coherent (COHR).",
+      "color_hint": "wfe"
+    },
+    "JSR_CORP": {
+      "name": "JSR Corporation",
+      "tier": "U4",
+      "segment": "Specialty gases & chemicals",
+      "kind": "private",
+      "where": "Taken private 2024 by JIC (Japan)",
+      "role": "Largest photoresist supplier globally; critical for EUV lithography. Was TSE-listed; taken private 2024.",
+      "color_hint": "chem"
+    },
+    "OPENAI": {
+      "name": "OpenAI",
+      "tier": "D1",
+      "segment": "AI lab (private)",
+      "kind": "private",
+      "where": "US private (MSFT major investor + Stargate $500B partner with ORCL)",
+      "role": "GPT-4/5/o series + ChatGPT + agents. Largest single buyer of NVDA AI compute through MSFT Azure + ORCL OCI relationships.",
+      "color_hint": "lab"
+    },
+    "XAI": {
+      "name": "xAI Corp",
+      "tier": "D1",
+      "segment": "AI lab (private)",
+      "kind": "private",
+      "where": "US private (Elon Musk founder/owner)",
+      "role": "Grok models. Colossus cluster in Memphis = ~200K H100 + B200 GPUs delivered by SMCI/DELL; largest single AI buildout outside hyperscalers.",
+      "color_hint": "lab"
+    },
+    "ANTHROPIC": {
+      "name": "Anthropic PBC",
+      "tier": "D1",
+      "segment": "AI lab (private)",
+      "kind": "private",
+      "where": "US private (AMZN + GOOGL major investors)",
+      "role": "Claude models. Trains predominantly on AMZN Trainium (custom MRVL silicon) + NVDA. AMZN committed ~$8B; GOOGL ~$2B.",
+      "color_hint": "lab"
+    },
+    "GROQ": {
+      "name": "Groq Inc",
+      "tier": "U1",
+      "segment": "AI chip design",
+      "kind": "private",
+      "where": "US private (recent funding rounds at $2-3B valuation)",
+      "role": "LPU inference silicon — extremely fast token throughput; not competitive on training but disruptive on inference latency.",
+      "color_hint": "chip"
+    },
+    "CEREBRAS": {
+      "name": "Cerebras Systems",
+      "tier": "U1",
+      "segment": "AI chip design",
+      "kind": "private",
+      "where": "US private (IPO filed Sep 2024, on hold)",
+      "role": "Wafer-scale chip (CS-3) for AI training/inference. Targeted to challenge NVDA at very large model scale.",
+      "color_hint": "chip"
+    },
+    "BLUEFORS": {
+      "name": "BlueFors Oy",
+      "tier": "Q",
+      "segment": "Quantum cryogenics (private)",
+      "kind": "private",
+      "where": "Finland private",
+      "role": "Dominant dilution-refrigerator supplier for superconducting + trapped-ion quantum computers. Every IBM/GOOG/Rigetti/IonQ system has BlueFors hardware.",
+      "color_hint": "quantum"
+    }
+  },
+  "edges": {
+    "SK_HYNIX->NVDA": {
+      "what_flows": "HBM3E + HBM4 — #1 supplier to NVDA, ahead of MU and Samsung",
+      "importance": "critical",
+      "annual_usd_billions": "12-18",
+      "single_source_risk": "high",
+      "trend": "Growing fast; SK Hynix qualified HBM4 ahead of competitors"
+    },
+    "TOKYO_ELECTRON->TSM": {
+      "what_flows": "Coater/developer track tools + etch + deposition — TEL is TSM's #4 WFE vendor after ASML/AMAT/LRCX",
+      "importance": "critical",
+      "annual_usd_billions": "3-5",
+      "single_source_risk": "high",
+      "trend": "Stable; coater/developer essentially TEL-monopoly"
+    },
+    "DISCO_CORP->ASX": {
+      "what_flows": "Wafer dicing + grinding tools for OSAT advanced packaging",
+      "importance": "critical",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "high"
+    },
+    "ZEISS_SMT->ASML": {
+      "what_flows": "EUV optics modules — every ASML EUV scanner contains Zeiss SMT optics",
+      "importance": "critical",
+      "annual_usd_billions": "1.5-2.5",
+      "single_source_risk": "high",
+      "trend": "Growing with high-NA EUV (more complex optics, higher unit price)"
+    },
+    "TRUMPF->ASML": {
+      "what_flows": "CO2 seed laser source for EUV light source",
+      "importance": "critical",
+      "annual_usd_billions": "0.2-0.4",
+      "single_source_risk": "high"
+    },
+    "JSR_CORP->TSM": {
+      "what_flows": "EUV + ArF photoresist + specialty materials",
+      "importance": "critical",
+      "annual_usd_billions": "0.5-1.0",
+      "single_source_risk": "high",
+      "alternatives": "TOK (Tokyo Ohka, TSE only), Shin-Etsu (SHECY OTC)"
+    },
+    "NVDA->OPENAI": {
+      "what_flows": "Indirect via MSFT Azure clusters — OpenAI's primary training + inference capacity is NVDA-on-Azure. Plus emerging direct via ORCL OCI Stargate buildout.",
+      "importance": "critical",
+      "annual_usd_billions": "15-25 (estimated effective NVDA spend via partners)",
+      "single_source_risk": "high",
+      "key_event": "Stargate $500B AI infra partnership Jan 2025 with ORCL + softbank + others"
+    },
+    "NVDA->XAI": {
+      "what_flows": "H100/H200/B200 GPUs for Colossus cluster in Memphis (~200K GPUs and growing)",
+      "importance": "major",
+      "annual_usd_billions": "5-10",
+      "single_source_risk": "high",
+      "trend": "Growing fast — xAI announced 1M-GPU cluster ambition"
+    },
+    "NVDA->ANTHROPIC": {
+      "what_flows": "NVDA GPUs via AWS Bedrock + GCP capacity (alongside Trainium)",
+      "importance": "major",
+      "annual_usd_billions": "2-4",
+      "single_source_risk": "medium",
+      "alternatives": "AMZN Trainium (Anthropic preferred for inference)"
+    },
+    "SMCI->XAI": {
+      "what_flows": "Built-to-order GPU server racks for Colossus — SMCI was xAI's primary server vendor for the initial Memphis buildout",
+      "importance": "critical",
+      "annual_usd_billions": "3-6",
+      "deal_basis": "xAI was disclosed as a major SMCI customer in FY25 commentary, alongside CoreWeave and hyperscalers.",
+      "single_source_risk": "medium",
+      "trend": "Mixed — DELL competed for xAI Colossus 2 racks in 2025"
+    },
+    "DELL->XAI": {
+      "what_flows": "PowerEdge GPU racks for Colossus 2 expansion",
+      "importance": "major",
+      "annual_usd_billions": "2-5",
+      "single_source_risk": "medium"
+    },
+    "MSFT->OPENAI": {
+      "what_flows": "$13B equity investment + Azure compute commitment. MSFT is OpenAI's largest customer/investor/compute provider.",
+      "importance": "critical",
+      "annual_usd_billions": "10-15 (Azure compute consumed)",
+      "single_source_risk": "high",
+      "key_event": "Restructured deal Sep 2025 reduced MSFT's exclusive-cloud claim for OpenAI"
+    },
+    "AMZN->ANTHROPIC": {
+      "what_flows": "~$8B total investment across two rounds + Anthropic uses AWS Trainium for training",
+      "importance": "critical",
+      "annual_usd_billions": "2-4 (AWS revenue back from Anthropic)",
+      "single_source_risk": "high"
+    },
+    "GOOGL->ANTHROPIC": {
+      "what_flows": "~$2B investment + GCP TPU capacity for some Anthropic workloads",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1.5",
+      "single_source_risk": "medium"
+    },
+    "ORCL->OPENAI": {
+      "what_flows": "Stargate compute commitment — multi-year OCI GPU capacity",
+      "importance": "critical",
+      "annual_usd_billions": "5-10",
+      "deal_basis": "ORCL-OpenAI Stargate partnership Sep 2025; $30B compute commitment over 5yr.",
+      "key_event": "Sep 2025 deal announcement triggered ORCL re-rating"
+    },
+    "COHR->BLUEFORS": {
+      "what_flows": "Specialty optics + lasers for quantum cryostat experiments",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "low"
+    },
+    "BLUEFORS->IONQ": {
+      "what_flows": "Dilution refrigerators for trapped-ion quantum systems",
+      "importance": "critical",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "high"
+    },
+    "BLUEFORS->IBM": {
+      "what_flows": "Dilution refrigerators for IBM Quantum Heron + Condor + future systems",
+      "importance": "critical",
+      "annual_usd_billions": "<0.1",
+      "single_source_risk": "high"
+    },
+    "NVDA->GROQ": {
+      "what_flows": "GPUs for Groq's R&D + comparison benchmarking (Groq's primary value-prop is non-GPU LPU)",
+      "importance": "tangential",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "none"
+    }
+  }
+}

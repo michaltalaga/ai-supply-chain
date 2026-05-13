@@ -8,6 +8,10 @@ const relPath = path.join(ROOT, "data", "relationships.json");
 const relationships = fs.existsSync(relPath)
   ? JSON.parse(fs.readFileSync(relPath, "utf-8"))
   : { edges: {} };
+const ghostPath = path.join(ROOT, "data", "ghost-nodes.json");
+const ghosts = fs.existsSync(ghostPath)
+  ? JSON.parse(fs.readFileSync(ghostPath, "utf-8"))
+  : { ghosts: {}, edges: {} };
 
 // Year-end FX rates for converting non-USD market caps (1 native = X USD)
 const FX = {
@@ -170,6 +174,7 @@ const html = `<!doctype html>
 <script>
 const DATA = ${JSON.stringify(embedded)};
 const RELATIONSHIPS = ${JSON.stringify(relationships)};
+const GHOSTS = ${JSON.stringify(ghosts)};
 const tierColor = {
   "U5": "#a5673f", "U4": "#bf8a3e", "U3": "#c9b449", "U2": "#a7c44a",
   "U1": "#4ec9b0", "AI core": "#ff8c42",
@@ -224,8 +229,36 @@ function buildGraph(filter) {
       tier: info.tier,
       segment: info.segment,
       color: tierColor[info.tier] || "#888",
+      isGhost: false,
     });
     seen.add(t);
+  }
+  // Include ghost nodes (private / foreign-only) as small grey circles.
+  // Only include a ghost if at least one of its edges has both endpoints visible.
+  const ghostEdges = (GHOSTS && GHOSTS.edges) || {};
+  const ghostNodesDef = (GHOSTS && GHOSTS.ghosts) || {};
+  const referencedGhosts = new Set();
+  for (const key in ghostEdges) {
+    const [src, dst] = key.split("->");
+    if ((seen.has(src) || ghostNodesDef[src]) && (seen.has(dst) || ghostNodesDef[dst])) {
+      if (ghostNodesDef[src]) referencedGhosts.add(src);
+      if (ghostNodesDef[dst]) referencedGhosts.add(dst);
+    }
+  }
+  for (const gid of referencedGhosts) {
+    const g = ghostNodesDef[gid];
+    nodes.push({
+      id: gid,
+      name: g.name,
+      tier: g.tier,
+      segment: g.segment,
+      color: "#555a66",
+      isGhost: true,
+      kind: g.kind,
+      where: g.where,
+      role: g.role,
+    });
+    seen.add(gid);
   }
   // Walk both key_upstream (u -> t) and key_downstream (t -> d). Dedupe by
   // "source->target" so an edge declared on both sides only appears once.
@@ -245,6 +278,12 @@ function buildGraph(filter) {
       const k = t + "->" + d;
       if (!linkSet.has(k)) { linkSet.add(k); links.push({ source: t, target: d }); }
     }
+  }
+  // Add ghost edges (registered → ghost, ghost → registered) where both endpoints rendered.
+  for (const key in ghostEdges) {
+    const [src, dst] = key.split("->");
+    if (!seen.has(src) || !seen.has(dst)) continue;
+    if (!linkSet.has(key)) { linkSet.add(key); links.push({ source: src, target: dst, isGhost: true }); }
   }
   return { nodes, links };
 }
@@ -362,7 +401,7 @@ function draw(filter) {
   nodeG.innerHTML = "";
 
   // Pre-compute node radii so we can trim links to the target circle's edge
-  for (const n of nodes) n.radius = nodeRadius(n.id);
+  for (const n of nodes) n.radius = n.isGhost ? 4 : nodeRadius(n.id);
 
   // Render links (supplier → customer, with arrow at customer end)
   for (const l of links) {
@@ -407,31 +446,36 @@ function draw(filter) {
     renderState.linkEls.push({ el: line, hit, source: l.source, target: l.target });
   }
 
-  // Render nodes (radius reflects market cap)
+  // Render nodes (radius reflects market cap; ghosts are small + grey)
   for (const n of nodes) {
     const r = n.radius;
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
     g.setAttribute("transform", \`translate(\${n.x} \${n.y})\`);
-    g.style.cursor = "pointer";
+    g.style.cursor = n.isGhost ? "help" : "pointer";
     g.style.transition = "opacity 0.15s";
     const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     c.setAttribute("r", r.toFixed(2));
     c.setAttribute("fill", n.color);
-    c.setAttribute("stroke", "#fff");
-    c.setAttribute("stroke-width", "0.5");
+    c.setAttribute("stroke", n.isGhost ? "#3a4150" : "#fff");
+    c.setAttribute("stroke-width", n.isGhost ? "0.8" : "0.5");
+    if (n.isGhost) c.setAttribute("stroke-dasharray", "1.5,1.5");
     g.appendChild(c);
     const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
     txt.setAttribute("x", (r + 3).toFixed(1));
     txt.setAttribute("y", "3");
-    txt.setAttribute("fill", "#e3e7ed");
-    txt.setAttribute("font-size", "10");
-    txt.textContent = n.id;
+    txt.setAttribute("fill", n.isGhost ? "#7a8395" : "#e3e7ed");
+    txt.setAttribute("font-size", n.isGhost ? "9" : "10");
+    txt.setAttribute("font-style", n.isGhost ? "italic" : "normal");
+    txt.textContent = n.isGhost ? n.name.replace(/ (Inc|Corp|Ltd|Corporation|PBC|GmbH|Oy|Group)\.?$/, "") : n.id;
     g.appendChild(txt);
     const baseR = r;
-    g.addEventListener("click", e => { e.stopPropagation(); selectTicker(n.id); });
+    g.addEventListener("click", e => {
+      e.stopPropagation();
+      if (!n.isGhost) selectTicker(n.id);
+    });
     g.addEventListener("mouseenter", e => {
       c.setAttribute("r", (baseR + 3).toFixed(2));
-      showNodeTip(n.id, e);
+      if (n.isGhost) showGhostTip(n, e); else showNodeTip(n.id, e);
     });
     g.addEventListener("mousemove", e => moveTip(e));
     g.addEventListener("mouseleave", () => {
@@ -439,7 +483,7 @@ function draw(filter) {
       hideTip();
     });
     nodeG.appendChild(g);
-    renderState.nodeEls[n.id] = { g, circle: c, text: txt, color: n.color, baseR };
+    renderState.nodeEls[n.id] = { g, circle: c, text: txt, color: n.color, baseR, isGhost: n.isGhost };
   }
   // Re-apply current highlight after redraw
   applyHighlight();
@@ -537,6 +581,68 @@ function fmtNative(value_millions, ccy) {
   return sign + sym + Math.abs(v).toFixed(1) + unit;
 }
 
+// Compute valuation / quality metrics from the embedded data.
+// Returns { pe, ps, netMargin, pegPx, decoupling } — any may be null.
+function deriveMetrics(ticker) {
+  const d = DATA[ticker]; if (!d) return {};
+  const latest = d.f && d.f.yr && d.f.yr[0];
+  if (!latest) return {};
+  const lastPrice = d.p && d.p.length ? d.p[d.p.length - 1][1] : null;
+  const eps = latest.eps;          // native EPS (USD for US tickers; native for ADRs)
+  const rev = latest.rev;          // millions native
+  const ni = latest.ni;            // millions native
+  const mcapUsd = d.mcap;          // millions USD
+  const out = {};
+
+  // P/E: only meaningful when EPS > 0
+  if (typeof eps === "number" && eps > 0 && lastPrice) {
+    out.pe = lastPrice / eps;
+  }
+  // P/S: only when revenue > 0 + mcap known
+  if (typeof rev === "number" && rev > 0 && mcapUsd) {
+    out.ps = mcapUsd / rev;     // both in millions, units cancel
+  }
+  // Net margin = NI / Revenue
+  if (typeof rev === "number" && rev !== 0 && typeof ni === "number") {
+    out.netMargin = (ni / rev) * 100;
+  }
+  // 5y revenue CAGR (already computed elsewhere; do it here too)
+  if (d.f.yr.length >= 2) {
+    const sorted = [...d.f.yr].sort((a,b)=>a.fy-b.fy);
+    const r0 = sorted[0].rev, rN = sorted[sorted.length-1].rev;
+    const n = sorted[sorted.length-1].fy - sorted[0].fy;
+    if (r0 > 0 && rN > 0 && n > 0) {
+      out.revCagr = (Math.pow(rN/r0, 1/n) - 1) * 100;
+    }
+  }
+  // 5y price return
+  if (d.p && d.p.length >= 2) {
+    const first = d.p[0][1], last = d.p[d.p.length-1][1];
+    if (first > 0) out.priceRet = ((last/first) - 1) * 100;
+  }
+  // PEG (P/E ÷ growth%): only meaningful with positive P/E + positive growth
+  if (out.pe && out.revCagr > 0) {
+    out.peg = out.pe / out.revCagr;
+  }
+  // Decoupling: price-return ÷ revenue-CAGR. Above ~10 = mostly revaluation; below 1 = fundamentals not rewarded.
+  if (out.revCagr && out.revCagr > 0 && typeof out.priceRet === "number") {
+    out.decoupling = out.priceRet / out.revCagr;
+  }
+  return out;
+}
+
+function fmtPe(v) { return v == null ? "—" : v.toFixed(1) + "x"; }
+function fmtPs(v) { return v == null ? "—" : v.toFixed(1) + "x"; }
+function fmtPct1(v) { return v == null ? "—" : (v >= 0 ? "+" : "") + v.toFixed(1) + "%"; }
+function decouplingLabel(v) {
+  if (v == null) return null;
+  if (v > 15) return { txt: "extreme revaluation", cls: "neg" };
+  if (v > 5) return { txt: "strong revaluation", cls: "pos" };
+  if (v > 1) return { txt: "balanced", cls: "" };
+  if (v > -1) return { txt: "fundamentals under-rewarded", cls: "neg" };
+  return { txt: "punished", cls: "neg" };
+}
+
 function showNodeTip(ticker, e) {
   const d = DATA[ticker]; if (!d) return;
   const info = d.info;
@@ -588,6 +694,25 @@ function showNodeTip(ticker, e) {
     }
   }
 
+  // Derived metrics row
+  const m = deriveMetrics(ticker);
+  const metricsParts = [];
+  if (m.pe != null) metricsParts.push('P/E '+fmtPe(m.pe));
+  if (m.ps != null) metricsParts.push('P/S '+fmtPs(m.ps));
+  if (m.peg != null) metricsParts.push('PEG '+m.peg.toFixed(1));
+  if (m.netMargin != null) metricsParts.push('NM '+fmtPct1(m.netMargin));
+  if (metricsParts.length) {
+    h += '<div class="tip-row" style="font-size:11px; color:#c5cad3"><span class="tip-label">Multiples:</span> ' + metricsParts.join(' &middot; ') + '</div>';
+  }
+  if (m.decoupling != null) {
+    const lbl = decouplingLabel(m.decoupling);
+    if (lbl) {
+      h += '<div class="tip-row" style="font-size:11px"><span class="tip-label">Decoupling:</span> ';
+      h += '<span class="'+lbl.cls+'">'+m.decoupling.toFixed(1)+'×</span> <span style="color:#7a8395">('+lbl.txt+')</span>';
+      h += '</div>';
+    }
+  }
+
   const up = (info.key_upstream || []).filter(u => DATA[u]).length;
   const dn = (info.key_downstream || []).filter(u => DATA[u]).length;
   if (up || dn) {
@@ -607,20 +732,38 @@ function showNodeTip(ticker, e) {
 
 function findEdgeData(source, target) {
   const key = source + "->" + target;
-  const e = RELATIONSHIPS.edges && RELATIONSHIPS.edges[key];
+  const e = (RELATIONSHIPS.edges && RELATIONSHIPS.edges[key])
+         || (GHOSTS.edges && GHOSTS.edges[key]);
   if (e) return { ...e, curated: true, source, target };
   // Synthesized fallback for un-curated edges
-  const s = DATA[source], t = DATA[target];
+  const s = DATA[source] || (GHOSTS.ghosts && GHOSTS.ghosts[source]);
+  const t = DATA[target] || (GHOSTS.ghosts && GHOSTS.ghosts[target]);
   if (!s || !t) return null;
+  const srcRole = s.info ? (s.info.role_in_chain || s.info.segment) : (s.role || s.segment);
+  const tgtRole = t.info ? (t.info.role_in_chain || t.info.segment) : (t.role || t.segment);
   return {
     curated: false,
     source, target,
-    what_flows: \`\${s.info.role_in_chain || s.info.segment} → \${t.info.role_in_chain || t.info.segment}\`,
+    what_flows: \`\${srcRole} → \${tgtRole}\`,
     importance: null,
     annual_usd_billions: null,
     single_source_risk: null,
     trend: null
   };
+}
+
+function showGhostTip(node, e) {
+  const tip = document.getElementById("tip");
+  const g = GHOSTS.ghosts[node.id];
+  if (!g) return;
+  let h = '<div class="tip-head" style="color:#97a3b6">' + g.name + ' <span style="font-size:10px; color:#7a8395">(' + (g.kind || 'private') + ')</span></div>';
+  h += '<div style="margin-bottom:6px"><span class="pill" style="background:#15171c">' + g.tier + ' / ' + g.segment + '</span></div>';
+  if (g.where) h += '<div class="tip-row"><span class="tip-label">Where:</span> ' + g.where + '</div>';
+  h += '<div class="tip-section">' + g.role + '</div>';
+  h += '<div class="tip-basis" style="margin-top:8px; font-style:italic">Not publicly investable — included for structural completeness only.</div>';
+  tip.innerHTML = h;
+  tip.style.display = "block";
+  moveTip(e);
 }
 
 function showEdgeTip(source, target, e) {
@@ -727,6 +870,35 @@ function showDetail(ticker) {
       h += '<td>'+(y.rev != null ? y.rev.toLocaleString() : '—')+'</td>';
       h += '<td class="'+niCls+'">'+(y.ni != null ? y.ni.toLocaleString() : '—')+'</td>';
       h += '<td>'+(y.eps != null ? y.eps.toFixed(2) : '—')+'</td></tr>';
+    }
+    h += '</table>';
+  }
+
+  // Derived metrics block
+  const m = deriveMetrics(ticker);
+  const anyMetric = m.pe != null || m.ps != null || m.netMargin != null || m.peg != null || m.decoupling != null;
+  if (anyMetric) {
+    h += '<h2>Derived metrics</h2>';
+    h += '<table><tr><th>Metric</th><th>Value</th><th>Interpretation</th></tr>';
+    if (m.pe != null) {
+      const peCls = m.pe > 40 ? 'neg' : (m.pe < 15 ? 'pos' : '');
+      h += '<tr><td>P/E (trailing)</td><td class="'+peCls+'">'+fmtPe(m.pe)+'</td><td style="color:#7a8395; font-size:11px">' + (m.pe > 40 ? 'rich' : m.pe < 15 ? 'cheap by historic' : 'in-range') + '</td></tr>';
+    }
+    if (m.ps != null) {
+      const psCls = m.ps > 15 ? 'neg' : (m.ps < 3 ? 'pos' : '');
+      h += '<tr><td>P/S (mcap / revenue)</td><td class="'+psCls+'">'+fmtPs(m.ps)+'</td><td style="color:#7a8395; font-size:11px">' + (m.ps > 15 ? 'expensive' : m.ps < 3 ? 'cheap by historic' : '') + '</td></tr>';
+    }
+    if (m.peg != null) {
+      const pegCls = m.peg > 3 ? 'neg' : (m.peg < 1 ? 'pos' : '');
+      h += '<tr><td>PEG (P/E ÷ rev CAGR)</td><td class="'+pegCls+'">'+m.peg.toFixed(2)+'</td><td style="color:#7a8395; font-size:11px">' + (m.peg < 1 ? 'growth at value price' : m.peg > 3 ? 'growth fully baked in' : '') + '</td></tr>';
+    }
+    if (m.netMargin != null) {
+      const nmCls = m.netMargin >= 20 ? 'pos' : (m.netMargin < 0 ? 'neg' : '');
+      h += '<tr><td>Net margin</td><td class="'+nmCls+'">'+fmtPct1(m.netMargin)+'</td><td></td></tr>';
+    }
+    if (m.decoupling != null) {
+      const lbl = decouplingLabel(m.decoupling);
+      h += '<tr><td>Decoupling (5yr px ret ÷ rev CAGR)</td><td class="'+(lbl?lbl.cls:'')+'">'+m.decoupling.toFixed(2)+'×</td><td style="color:#7a8395; font-size:11px">'+(lbl?lbl.txt:'')+'</td></tr>';
     }
     h += '</table>';
   }
