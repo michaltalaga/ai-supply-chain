@@ -266,6 +266,10 @@ const html = `<!doctype html>
         <button class="preset-chip" data-preset="smallcap"   onclick="applyPreset('smallcap')"   title="mcap &lt; $5B + 5yr CAGR &gt; 15%">Small-cap growers</button>
         <button class="preset-chip" data-preset="power"      onclick="applyPreset('power')"      title="tier D2 (Power / Utilities / Cooling / REIT) + mcap &gt; $5B">Power play</button>
         <button class="preset-chip" data-preset="quantum"    onclick="applyPreset('quantum')"    title="tier Q — quantum pure-plays + Honeywell">Quantum</button>
+        <span class="preset-sep"></span>
+        <button class="preset-chip" data-preset="insider_selling"  onclick="applyPreset('insider_selling')"  title="Net insider sales > $5M in last 30 days">💼 Insider selling</button>
+        <button class="preset-chip" data-preset="insider_buying"   onclick="applyPreset('insider_buying')"   title="Net insider purchases > $0 in last 90 days">💼 Insider buying</button>
+        <button class="preset-chip" data-preset="heavy_selling"    onclick="applyPreset('heavy_selling')"    title="Net insider sales > $20M in last 30 days — flag for review">⚠ Heavy selling</button>
       </div>
       <label>Mcap $B: <input type="number" id="f-minMcap" min="0" step="1" placeholder="min" style="width:55px"> – <input type="number" id="f-maxMcap" step="1" placeholder="max" style="width:55px"></label>
       <label>5yr CAGR %: <input type="number" id="f-minCagr" step="5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxCagr" step="5" placeholder="max" style="width:55px"></label>
@@ -277,6 +281,7 @@ const html = `<!doctype html>
       <label>Net margin %: <input type="number" id="f-minNm" step="5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxNm" step="5" placeholder="max" style="width:55px"></label>
       <label>Decoupling ×: <input type="number" id="f-minDcp" step="1" placeholder="min" style="width:55px"> – <input type="number" id="f-maxDcp" step="1" placeholder="max" style="width:55px"></label>
       <label title="Days until next earnings report (negative = recently reported)">Earnings days: <input type="number" id="f-minErn" step="7" placeholder="min" style="width:55px"> – <input type="number" id="f-maxErn" step="7" placeholder="max" style="width:55px"></label>
+      <label title="Net insider trade value in past 30 days, in $M. Negative = selling pressure.">Insider 30d ($M): <input type="number" id="f-minIns" step="5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxIns" step="5" placeholder="max" style="width:55px"></label>
       <label>Tier:
         <select id="f-tier">
           <option value="">any</option>
@@ -793,6 +798,54 @@ function clearSelection() {
   updateUrl();
 }
 
+// Highlight tickers where a given person has insider trades
+function highlightPerson(name) {
+  const set = PERSON_TICKERS[name];
+  if (!set) return;
+  selectedTicker = null;
+  highlightSet = new Set([...set]);
+  applyHighlight();
+  document.getElementById("screen-status").innerHTML =
+    'filtering by insider <b>'+escapeHtml(name)+'</b>: '+set.size+' ticker'+(set.size===1?'':'s')+' · <a href="#" onclick="clearSelection();return false" style="color:#67b5d8">clear</a>';
+  updateUrl();
+}
+
+// Highlight tickers where a given institutional holder appears in the top 10
+function highlightHolder(name) {
+  const set = HOLDER_TICKERS[name];
+  if (!set) return;
+  selectedTicker = null;
+  highlightSet = new Set([...set]);
+  applyHighlight();
+  const totals = HOLDER_TOTALS[name] || { totalValueUsd: 0 };
+  const valStr = totals.totalValueUsd >= 1e12 ? '$'+(totals.totalValueUsd/1e12).toFixed(2)+'T'
+                : totals.totalValueUsd >= 1e9 ? '$'+(totals.totalValueUsd/1e9).toFixed(1)+'B'
+                : '';
+  document.getElementById("screen-status").innerHTML =
+    'filtering by holder <b>'+escapeHtml(name)+'</b>: '+set.size+' of '+Object.keys(PEOPLE).length+' anchors held'
+    + (valStr ? ' · ~'+valStr+' aggregate value' : '')
+    + ' · <a href="#" onclick="clearSelection();return false" style="color:#67b5d8">clear</a>';
+  updateUrl();
+}
+
+// Insider net flow helpers
+function insiderNet(ticker, daysWindow) {
+  const pp = PEOPLE[ticker];
+  if (!pp || !pp.insider_trades) return null;
+  const cutoff = Date.now() - daysWindow * 86400000;
+  let net = 0;
+  let any = false;
+  for (const t of pp.insider_trades) {
+    const d = new Date(t.date);
+    if (isNaN(d.getTime()) || d.getTime() < cutoff) continue;
+    any = true;
+    const v = t.value_usd || 0;
+    if (/buy/i.test(t.type)) net += v;
+    else if (/sale/i.test(t.type)) net -= v;
+  }
+  return any ? net : null;
+}
+
 function highlightFromSearch(query) {
   if (!query) {
     if (!selectedTicker) { highlightSet = null; applyHighlight(); }
@@ -867,6 +920,35 @@ function fmtNative(value_millions, ccy) {
   const sign = value_millions < 0 ? "-" : "";
   return sign + sym + Math.abs(v).toFixed(1) + unit;
 }
+
+// Build person/institution cross-reference maps from PEOPLE data.
+// PERSON_TICKERS["Pichai Sundar"] = Set of tickers where they appear in insider_trades
+// HOLDER_TICKERS["Vanguard Capital Management LLC"] = Set of tickers where they hold position
+const PERSON_TICKERS = {};
+const HOLDER_TICKERS = {};
+const HOLDER_TOTALS = {};  // holder name -> { tickers, totalValueUsd, anchorCount }
+(function buildPeopleMaps() {
+  for (const t in PEOPLE) {
+    const pp = PEOPLE[t];
+    if (!pp) continue;
+    for (const tr of (pp.insider_trades || [])) {
+      const k = (tr.name || "").trim();
+      if (!k) continue;
+      if (!PERSON_TICKERS[k]) PERSON_TICKERS[k] = new Set();
+      PERSON_TICKERS[k].add(t);
+    }
+    for (const h of (pp.top_holders || [])) {
+      const k = (h.name || "").trim();
+      if (!k) continue;
+      if (!HOLDER_TICKERS[k]) HOLDER_TICKERS[k] = new Set();
+      HOLDER_TICKERS[k].add(t);
+      const cur = HOLDER_TOTALS[k] || { tickers: 0, totalValueUsd: 0 };
+      cur.tickers++;
+      if (typeof h.value_usd === "number") cur.totalValueUsd += h.value_usd;
+      HOLDER_TOTALS[k] = cur;
+    }
+  }
+})();
 
 // Compute valuation / quality metrics from the embedded data.
 // Returns { pe, ps, netMargin, pegPx, decoupling } — any may be null.
@@ -1364,8 +1446,14 @@ function showDetail(ticker) {
       const isBuy = /buy/i.test(t.type);
       const isSale = /sale/i.test(t.type);
       const cls = isBuy ? "pos" : isSale ? "neg" : "";
+      const tickerSet = PERSON_TICKERS[t.name];
+      const multi = tickerSet && tickerSet.size > 1;
+      const nameHtml = '<span class="gf-link" style="cursor:pointer; border-bottom-style:dotted" onclick="highlightPerson(\\''+(t.name.replace(/'/g,"\\\\'"))+'\\')">'
+                     + escapeHtml(t.name)
+                     + (multi ? ' <span style="color:#67b5d8; font-size:10px">×'+tickerSet.size+'</span>' : '')
+                     + '</span>';
       h += '<tr><td>'+t.date+'</td>';
-      h += '<td>'+escapeHtml(t.name)+'</td>';
+      h += '<td>'+nameHtml+'</td>';
       h += '<td style="color:#7a8395; font-size:10.5px">'+escapeHtml(t.role || "")+'</td>';
       h += '<td class="'+cls+'">'+escapeHtml(t.type)+'</td>';
       h += '<td style="text-align:right">'+(t.shares != null ? t.shares.toLocaleString() : '—')+'</td>';
@@ -1410,8 +1498,14 @@ function showDetail(ticker) {
     };
     for (let i = 0; i < Math.min(10, holders.length); i++) {
       const hd = holders[i];
+      const heldAtCount = (HOLDER_TICKERS[hd.name] || new Set()).size;
+      const isWidespread = heldAtCount > 1;
+      const nameHtml = '<b><span class="gf-link" style="cursor:pointer; border-bottom-style:dotted" onclick="highlightHolder(\\''+(hd.name.replace(/'/g,"\\\\'"))+'\\')">'
+                     + escapeHtml(hd.name)
+                     + (isWidespread ? ' <span style="color:#67b5d8; font-size:10px; font-weight:400">@'+heldAtCount+'</span>' : '')
+                     + '</span></b>';
       h += '<tr><td>'+(i+1)+'</td>';
-      h += '<td><b>'+escapeHtml(hd.name)+'</b></td>';
+      h += '<td>'+nameHtml+'</td>';
       h += '<td style="text-align:right">'+fmtShares(hd.shares)+'</td>';
       h += '<td style="text-align:right">'+(hd.pct_outstanding != null ? hd.pct_outstanding.toFixed(2)+'%' : '—')+'</td>';
       h += '<td style="text-align:right">'+fmtBig(hd.value_usd)+'</td>';
@@ -1637,6 +1731,8 @@ function applyScreen() {
     maxDcp:  readNum("f-maxDcp"),
     minErn:  readNum("f-minErn"),
     maxErn:  readNum("f-maxErn"),
+    minIns:  readNum("f-minIns"),
+    maxIns:  readNum("f-maxIns"),
     tier:    document.getElementById("f-tier").value || null,
   };
   const anyActive = Object.values(filter).some(v => v != null && v !== "");
@@ -1657,7 +1753,7 @@ function applyScreen() {
   updateUrl();
 }
 function clearScreen() {
-  ["f-minMcap","f-maxMcap","f-minCagr","f-maxCagr","f-minRet","f-maxRet","f-minYtd","f-maxYtd","f-minPe","f-maxPe","f-minPs","f-maxPs","f-minPeg","f-maxPeg","f-minNm","f-maxNm","f-minDcp","f-maxDcp","f-minErn","f-maxErn","f-tier"].forEach(id => {
+  ["f-minMcap","f-maxMcap","f-minCagr","f-maxCagr","f-minRet","f-maxRet","f-minYtd","f-maxYtd","f-minPe","f-maxPe","f-minPs","f-maxPs","f-minPeg","f-maxPeg","f-minNm","f-maxNm","f-minDcp","f-maxDcp","f-minErn","f-maxErn","f-minIns","f-maxIns","f-tier"].forEach(id => {
     document.getElementById(id).value = "";
   });
   activeScreen = null;
@@ -1701,6 +1797,13 @@ function screenMatch(t, f) {
     if (du == null) return false;
     if (f.minErn != null && du < f.minErn) return false;
     if (f.maxErn != null && du > f.maxErn) return false;
+  }
+  if (f.minIns != null || f.maxIns != null) {
+    const netUsd = insiderNet(t, 30);
+    if (netUsd == null) return false;
+    const netM = netUsd / 1e6;
+    if (f.minIns != null && netM < f.minIns) return false;
+    if (f.maxIns != null && netM > f.maxIns) return false;
   }
   if (f.tier && info.tier !== f.tier) return false;
   return true;
@@ -1807,6 +1910,9 @@ function applyPreset(name) {
   if (name === "earn_month")      { set("f-minErn", 0);   set("f-maxErn", 30); }
   if (name === "earn_past_week")  { set("f-minErn", -7);  set("f-maxErn", 0); }
   if (name === "earn_past_month") { set("f-minErn", -30); set("f-maxErn", 0); }
+  if (name === "insider_selling")  { set("f-maxIns", -5); }
+  if (name === "heavy_selling")    { set("f-maxIns", -20); }
+  if (name === "insider_buying")   { set("f-minIns", 0); }
   // Toggle active visual on the clicked chip
   document.querySelectorAll(".preset-chip").forEach(el => el.classList.toggle("active", el.dataset.preset === name));
   applyScreen();
@@ -2156,6 +2262,8 @@ const SCREEN_FIELD_MAP = {
   minPeg:  "f-minPeg",  maxPeg:  "f-maxPeg",
   minNm:   "f-minNm",   maxNm:   "f-maxNm",
   minDcp:  "f-minDcp",  maxDcp:  "f-maxDcp",
+  minErn:  "f-minErn",  maxErn:  "f-maxErn",
+  minIns:  "f-minIns",  maxIns:  "f-maxIns",
   tier:    "f-tier",
 };
 
