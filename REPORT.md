@@ -173,10 +173,10 @@ NVDA's ~90% AI training GPU share + AMD MI300/350 + AVGO/MRVL custom AI ASICs fo
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [NVDA](https://stockanalysis.com/stocks/nvda/) | NVIDIA Corp | $215.94B | $120.07B | 4.90 | +68% | +1225% |
+| [NVDA](https://stockanalysis.com/stocks/nvda/) | NVIDIA Corp | $215.94B | $120.07B | 4.90 | +68% | +1004% |
 | [INTC](https://stockanalysis.com/stocks/intc/) | Intel Corp | $52.85B | $-267.0M | -0.06 | -10% | +119% |
 | [QCOM](https://stockanalysis.com/stocks/qcom/) | Qualcomm Inc | $44.28B | $5.54B | 5.01 | +7% | +63% |
-| [AMD](https://stockanalysis.com/stocks/amd/) | Advanced Micro Devices | $34.64B | $4.33B | 2.67 | +20% | +468% |
+| [AMD](https://stockanalysis.com/stocks/amd/) | Advanced Micro Devices | $34.64B | $4.33B | 2.67 | +20% | +377% |
 | [TXN](https://stockanalysis.com/stocks/txn/) | Texas Instruments | $17.68B | $5.00B | 5.45 | -1% | +52% |
 | [ADI](https://stockanalysis.com/stocks/adi/) | Analog Devices | $11.76B | $2.71B | 5.47 | -1% | +153% |
 | [ON](https://stockanalysis.com/stocks/on/) | ON Semiconductor | $6.00B | $121.0M | 0.29 | -3% | +158% |

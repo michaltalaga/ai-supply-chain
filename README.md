@@ -59,9 +59,37 @@ node aggregate.js
 
 # Regenerate REPORT.md from the JSON files
 node report.js
+
+# Regenerate index.html + viewer.html
+node build_viewer.js
+
+# All three:
+npm run build
 ```
 
-To refresh data, you would need to re-fetch the per-ticker JSON files from source. This dataset is a **static snapshot** — no automated refresh.
+### Refreshing the data
+
+**Monthly prices** (refreshable, weekly):
+```bash
+npm run refresh              # re-fetches all 172 tickers from stockanalysis.com
+npm run build                # regenerates CSV + REPORT + index.html
+git add -A && git commit -m "Refresh prices" && git push
+```
+
+`refresh.js` hits `https://stockanalysis.com/api/symbol/s/<ticker>/history?range=5Y&period=Monthly`
+in batches of 8 with ~400 ms rate-limit pauses. Takes about 20–30 seconds for all 172. ~15 tickers (OTC unsponsored ADRs + delisted JNPR + restructured COMM) are expected to fail and get `no_data` stubs — those are documented in `notes/caveats.md`.
+
+**Financials** (less frequently — quarterly):
+Not automated. Three options:
+1. Edit the per-ticker JSON files in `data/financials/<TICKER>.json` by hand after each company's earnings release.
+2. Re-run the initial Claude Code flow that scraped stockanalysis.com financials pages.
+3. Subscribe to a paid financials API (Financial Modeling Prep, Polygon, IEX Cloud) and write a fetcher analogous to `refresh.js`.
+
+**Automated weekly refresh** is wired up in `.github/workflows/refresh.yml`:
+- Runs every Monday 06:00 UTC (also triggerable manually from the Actions tab)
+- `node refresh.js && npm run build`, then commits + pushes if anything changed
+- Cloudflare Pages auto-redeploys on the push
+- Needs no setup beyond enabling Actions on the repo
 
 ## Known limitations
 

@@ -1,0 +1,40 @@
+name: Weekly price refresh
+
+# Runs every Monday at 06:00 UTC, or manually via the Actions tab.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh monthly prices
+        run: node refresh.js
+
+      - name: Rebuild aggregates + report + viewer
+        run: |
+          node aggregate.js
+          node report.js
+          node build_viewer.js
+
+      - name: Commit + push if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "chore(refresh): weekly price update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
