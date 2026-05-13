@@ -1,6 +1,6 @@
 # AI · Quantum · Photonics Buildout Supply Chain — Public Markets Map
 
-**Snapshot date:** 2026-05-11 · **Coverage:** 173 publicly traded tickers (US-listed including OTC ADRs) · **Financial window:** 5 most recent fiscal years per filer · **Price window:** monthly closes 2021-05 → 2026-04 (+ partial 2026-05)
+**Snapshot date:** 2026-05-11 · **Coverage:** 182 publicly traded tickers (US-listed including OTC ADRs) · **Financial window:** 5 most recent fiscal years per filer · **Price window:** monthly closes 2021-05 → 2026-04 (+ partial 2026-05)
 
 ## Executive summary
 
@@ -167,7 +167,7 @@ HBM is the new gold: MU + Samsung (SSNLF) + SK Hynix (KRX-only) supply NVDA. WDC
 | [WDC](https://stockanalysis.com/stocks/wdc/) | Western Digital | $11.78B | $6.51B | 16.67 | -11% | +587% |
 | [STX](https://stockanalysis.com/stocks/stx/) | Seagate Technology | $11.01B | $2.38B | 10.54 | -1% | +820% |
 
-### AI chip design + adjacent semis (15 tickers)
+### AI chip design + adjacent semis (18 tickers)
 
 NVDA's ~90% AI training GPU share + AMD MI300/350 + AVGO/MRVL custom AI ASICs for hyperscalers. Power-management long tail (MPWR/VICR/NVTS/MPWR) is the most NVDA-coupled.
 
@@ -183,10 +183,13 @@ NVDA's ~90% AI training GPU share + AMD MI300/350 + AVGO/MRVL custom AI ASICs fo
 | [MCHP](https://stockanalysis.com/stocks/mchp/) | Microchip Technology | $4.71B | $118.8M | 0.22 | -9% | +30% |
 | [MPWR](https://stockanalysis.com/stocks/mpwr/) | Monolithic Power Systems | $2.79B | $621.5M | 12.86 | +23% | +328% |
 | [MBLY](https://stockanalysis.com/stocks/mbly/) | Mobileye Global | $1.89B | $-392.0M | -0.48 | +8% | -68% |
+| [ALAB](https://stockanalysis.com/stocks/alab/) | Astera Labs Inc | $852.5M | $219.1M | 1.22 | +120% | +141% |
 | [AOSL](https://stockanalysis.com/stocks/aosl/) | Alpha & Omega Semi | $696.2M | $-19.2M | -3.30 | +1% | +24% |
 | [LSCC](https://stockanalysis.com/stocks/lscc/) | Lattice Semiconductor | $574.0M | $19.9M | 0.14 | -3% | +123% |
 | [POWI](https://stockanalysis.com/stocks/powi/) | Power Integrations | $443.5M | $22.1M | 0.39 | -11% | -14% |
+| [CRDO](https://stockanalysis.com/stocks/crdo/) | Credo Technology Group | $436.8M | $52.2M | 0.29 | +60% | +1075% |
 | [VICR](https://stockanalysis.com/stocks/vicr/) | Vicor Corp | $407.7M | $118.6M | 2.61 | +3% | +177% |
+| [OUST](https://stockanalysis.com/stocks/oust/) | Ouster Inc | $169.4M | $-60.4M | -1.07 | +50% | -78% |
 | [NVTS](https://stockanalysis.com/stocks/nvts/) | Navitas Semiconductor | $45.9M | $-118.1M | -0.57 | +18% | +94% |
 
 ### Networking & photonics (12 tickers)
@@ -219,7 +222,7 @@ Where it all ends up: SMCI/DELL/HPE/LNVGY assemble the rack-scale GPU clusters. 
 | [SMCI](https://stockanalysis.com/stocks/smci/) | Super Micro Computer | $33.70B | $1.25B | 1.89 | +60% | +832% |
 | [LNVGY](https://stockanalysis.com/stocks/lnvgy/) | Lenovo Group Ltd | — | — | — | — | — |
 
-### Hyperscalers & end-users (9 tickers)
+### Hyperscalers & end-users (11 tickers)
 
 The buyers: MSFT/META/AMZN/GOOG dominate. ORCL/TSLA/AAPL/IBM/PLTR are large but distant followers. xAI/OpenAI/Anthropic are private; closest proxy is MSFT (OpenAI investor).
 
@@ -234,8 +237,10 @@ The buyers: MSFT/META/AMZN/GOOG dominate. ORCL/TSLA/AAPL/IBM/PLTR are large but 
 | [IBM](https://stockanalysis.com/stocks/ibm/) | International Business Machines | $67.53B | $10.59B | 11.17 | +4% | +50% |
 | [ORCL](https://stockanalysis.com/stocks/orcl/) | Oracle Corp | $64.08B | $16.19B | 5.57 | +11% | +140% |
 | [CRWV](https://stockanalysis.com/stocks/crwv/) | CoreWeave Inc | $5.13B | $-1.20B | -2.81 | +587% | +161% |
+| [BTDR](https://stockanalysis.com/stocks/btdr/) | Bitdeer Technologies Group | $620.3M | $65.6M | -1.43 | +12% | +30% |
+| [IREN](https://stockanalysis.com/stocks/iren/) | IREN Limited | $501.0M | $86.9M | 0.39 | +104% | +250% |
 
-### AI software, MLOps & security (17 tickers)
+### AI software, MLOps & security (19 tickers)
 
 Software layer riding inferencing demand: PLTR (highest growth), SNOW/MDB/DDOG (data + observability), CRWD/PANW/ZS (security for AI workloads).
 
@@ -256,10 +261,12 @@ Software layer riding inferencing demand: PLTR (highest growth), SNOW/MDB/DDOG (
 | [ESTC](https://stockanalysis.com/stocks/estc/) | Elastic NV | $1.68B | $-84.5M | -0.80 | +18% | -66% |
 | [IOT](https://stockanalysis.com/stocks/iot/) | Samsara Inc | $1.62B | $-9.1M | -0.02 | +39% | +55% |
 | [PATH](https://stockanalysis.com/stocks/path/) | UiPath Inc | $1.61B | $282.3M | 0.52 | +16% | -85% |
+| [TEM](https://stockanalysis.com/stocks/tem/) | Tempus AI Inc | $1.27B | $-245.0M | -1.41 | +49% | +8% |
 | [BRZE](https://stockanalysis.com/stocks/brze/) | Braze Inc | $738.2M | $-131.3M | -1.22 | +33% | -75% |
 | [AI](https://stockanalysis.com/stocks/ai/) | C3.ai Inc | $307.4M | $-434.5M | -3.16 | +5% | -86% |
+| [APLD](https://stockanalysis.com/stocks/apld/) | Applied Digital Corp | $144.2M | $-233.7M | -1.16 | +156% | +75% |
 
-### Data-center REITs (3 tickers)
+### Data-center REITs (4 tickers)
 
 Capacity is the bottleneck. DLR + EQIX dominate. IRM moving fast into data-center build.
 
@@ -268,6 +275,7 @@ Capacity is the bottleneck. DLR + EQIX dominate. IRM moving fast into data-cente
 | [EQIX](https://stockanalysis.com/stocks/eqix/) | Equinix Inc | $9.22B | $1.35B | 13.76 | +9% | +35% |
 | [IRM](https://stockanalysis.com/stocks/irm/) | Iron Mountain Inc | $6.90B | $144.6M | 0.49 | +11% | +198% |
 | [DLR](https://stockanalysis.com/stocks/dlr/) | Digital Realty Trust | $6.11B | $1.27B | 3.58 | +8% | +30% |
+| [FLNC](https://stockanalysis.com/stocks/flnc/) | Fluence Energy Inc | $2.26B | $-48.3M | -0.37 | +35% | -33% |
 
 ### Power & electrical equipment (10 tickers)
 
@@ -331,7 +339,7 @@ Liquid cooling is forced by NVDA GB200/GB300. VRT + MOD + NVT + JCI are the pick
 | [WTS](https://stockanalysis.com/stocks/wts/) | Watts Water Technologies | $2.44B | $340.8M | 10.17 | +8% | +106% |
 | [AAON](https://stockanalysis.com/stocks/aaon/) | AAON Inc | $1.44B | $108.0M | 1.29 | +28% | +220% |
 
-### Construction / EPC / infra (12 tickers)
+### Construction / EPC / infra (13 tickers)
 
 Building the data centers + the power that feeds them. PWR + MTZ dominate utility transmission build; STRL + AGX + EME the site / mechanical layer.
 
@@ -347,6 +355,7 @@ Building the data centers + the power that feeds them. PWR + MTZ dominate utilit
 | [PRIM](https://stockanalysis.com/stocks/prim/) | Primoris Services | $7.58B | $274.9M | 5.02 | +21% | +285% |
 | [DY](https://stockanalysis.com/stocks/dy/) | Dycom Industries | $5.55B | $281.2M | 9.56 | +15% | +476% |
 | [VMI](https://stockanalysis.com/stocks/vmi/) | Valmont Industries | $4.10B | $350.0M | 16.79 | +4% | +118% |
+| [IESC](https://stockanalysis.com/stocks/iesc/) | IES Holdings Inc | $3.37B | $311.8M | 15.02 | +22% | +1235% |
 | [STRL](https://stockanalysis.com/stocks/strl/) | Sterling Infrastructure | $2.49B | $290.0M | 9.38 | +15% | +3428% |
 | [AGX](https://stockanalysis.com/stocks/agx/) | Argan Inc | $944.6M | $137.8M | 9.74 | +17% | +1325% |
 

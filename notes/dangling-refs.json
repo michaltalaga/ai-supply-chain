@@ -1,8 +1,47 @@
 {
+  "AI customers": [
+    "BTDR.key_downstream"
+  ],
+  "Hyperscalers": [
+    "APLD.key_downstream",
+    "DELL.key_downstream",
+    "LNVGY.key_downstream",
+    "JNPR.key_downstream",
+    "CIEN.key_downstream",
+    "LITE.key_downstream",
+    "WDC.key_downstream",
+    "STX.key_downstream",
+    "IRM.key_downstream",
+    "SBGSY.key_downstream",
+    "FLNC.key_downstream",
+    "CEG.key_downstream",
+    "VST.key_downstream",
+    "TLN.key_downstream",
+    "NEE.key_downstream",
+    "ETR.key_downstream",
+    "SO.key_downstream",
+    "DUK.key_downstream",
+    "D.key_downstream",
+    "AEP.key_downstream",
+    "OKLO.key_downstream",
+    "JCI.key_downstream",
+    "PWR.key_downstream",
+    "ACM.key_downstream",
+    "IESC.key_downstream",
+    "DY.key_downstream",
+    "STRL.key_downstream",
+    "GLW.key_downstream",
+    "COMM.key_downstream",
+    "SMSMY.key_downstream"
+  ],
   "Automakers": [
     "MBLY.key_downstream",
+    "OUST.key_downstream",
     "LSCC.key_downstream",
     "ON.key_downstream"
+  ],
+  "Robotics OEMs": [
+    "OUST.key_downstream"
   ],
   "5G OEMs": [
     "LSCC.key_downstream"
@@ -79,35 +118,6 @@
     "EQIX.key_downstream",
     "IRM.key_downstream",
     "QBTS.key_downstream"
-  ],
-  "Hyperscalers": [
-    "DELL.key_downstream",
-    "LNVGY.key_downstream",
-    "JNPR.key_downstream",
-    "CIEN.key_downstream",
-    "LITE.key_downstream",
-    "WDC.key_downstream",
-    "STX.key_downstream",
-    "IRM.key_downstream",
-    "SBGSY.key_downstream",
-    "CEG.key_downstream",
-    "VST.key_downstream",
-    "TLN.key_downstream",
-    "NEE.key_downstream",
-    "ETR.key_downstream",
-    "SO.key_downstream",
-    "DUK.key_downstream",
-    "D.key_downstream",
-    "AEP.key_downstream",
-    "OKLO.key_downstream",
-    "JCI.key_downstream",
-    "PWR.key_downstream",
-    "ACM.key_downstream",
-    "DY.key_downstream",
-    "STRL.key_downstream",
-    "GLW.key_downstream",
-    "COMM.key_downstream",
-    "SMSMY.key_downstream"
   ],
   "Government": [
     "HPE.key_downstream",
@@ -257,6 +267,15 @@
   "ALB (lithium tie-up)": [
     "RIO.key_downstream"
   ],
+  "Pharma": [
+    "TEM.key_downstream"
+  ],
+  "Providers": [
+    "TEM.key_downstream"
+  ],
+  "Life-sciences enterprises": [
+    "TEM.key_downstream"
+  ],
   "Developers": [
     "MDB.key_downstream"
   ],
@@ -276,6 +295,7 @@
     "GEV.key_downstream",
     "HUBB.key_downstream",
     "ABBNY.key_downstream",
+    "FLNC.key_downstream",
     "POWL.key_downstream",
     "SMR.key_downstream",
     "OKE.key_downstream",
@@ -287,6 +307,12 @@
     "PRIM.key_downstream",
     "AGX.key_downstream",
     "VMI.key_downstream"
+  ],
+  "IPP partners (VST": [
+    "FLNC.key_downstream"
+  ],
+  "NEE)": [
+    "FLNC.key_downstream"
   ],
   "LNG operators": [
     "POWL.key_downstream"

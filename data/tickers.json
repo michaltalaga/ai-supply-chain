@@ -17,7 +17,9 @@
         "CRWV",
         "CEG",
         "VST",
-        "DLR"
+        "DLR",
+        "CRDO",
+        "IREN"
       ],
       "key_downstream": [],
       "notes": "Calendar FY ends Jun"
@@ -38,7 +40,8 @@
         "CEG",
         "VST",
         "DLR",
-        "EQIX"
+        "EQIX",
+        "APLD"
       ],
       "key_downstream": [
         "MSFT",
@@ -46,6 +49,61 @@
         "IBM"
       ],
       "notes": "IPO Mar-28-2025"
+    },
+    "IREN": {
+      "name": "IREN Limited",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI cloud pure-play",
+      "tier": "D1",
+      "role_in_chain": "Bitcoin miner pivoting to AI compute; $3.4B NVIDIA AI Cloud contract + $2.1B NVDA investment 2025; Sweetwater 1 (Texas) energized; targeting $3.7B ARR by 2026; 1.2 GW AI cloud capacity by 2027",
+      "key_upstream": [
+        "NVDA",
+        "SMCI",
+        "DELL",
+        "MU"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "MSFT"
+      ],
+      "notes": "Listed NASDAQ since 2021 as Iris Energy; rename to IREN 2024"
+    },
+    "BTDR": {
+      "name": "Bitdeer Technologies Group",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI cloud pure-play",
+      "tier": "D1",
+      "role_in_chain": "Bitcoin miner + ASIC manufacturer pivoting to AI infrastructure; NVDA-partnered Bitdeer AI Cloud + Norway AI DC (largest in country, online Dec 2026)",
+      "key_upstream": [
+        "NVDA",
+        "SMCI"
+      ],
+      "key_downstream": [
+        "AI customers"
+      ],
+      "notes": "NASDAQ since Apr 2023 via Blue Safari SPAC"
+    },
+    "APLD": {
+      "name": "Applied Digital Corp",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI/HPC data center",
+      "tier": "D1",
+      "role_in_chain": "HPC/AI data-center developer-operator; $7.5B Delta Forge 1 lease (430 MW) with US hyperscaler; CoreWeave deployments; spun out cloud business (ChronoScale) to focus on real-estate AI campus model",
+      "key_upstream": [
+        "CEG",
+        "VST",
+        "ETN",
+        "VRT",
+        "NVDA"
+      ],
+      "key_downstream": [
+        "CRWV",
+        "Hyperscalers"
+      ],
+      "notes": "Crypto-mining heritage; AI-DC pivot fully transitioned 2024-25"
     },
     "GOOGL": {
       "name": "Alphabet Inc",
@@ -78,7 +136,9 @@
         "SMCI",
         "DELL",
         "CEG",
-        "DLR"
+        "DLR",
+        "ALAB",
+        "CRDO"
       ],
       "key_downstream": [],
       "notes": ""
@@ -194,7 +254,8 @@
         "SNPS",
         "CDNS",
         "MU",
-        "COHR"
+        "COHR",
+        "ALAB"
       ],
       "key_downstream": [
         "MSFT",
@@ -206,7 +267,10 @@
         "CRWV",
         "SMCI",
         "DELL",
-        "HPE"
+        "HPE",
+        "IREN",
+        "BTDR",
+        "APLD"
       ],
       "notes": "FY ends Jan"
     },
@@ -300,6 +364,46 @@
       ],
       "notes": "FY ends Feb"
     },
+    "ALAB": {
+      "name": "Astera Labs Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI interconnect silicon",
+      "tier": "U1",
+      "role_in_chain": "Fabless PCIe retimers (Aries) + CXL controllers (Leo) + Scorpio fabric switches for AI server racks; NVDA Blackwell + AMZN Trainium ramp",
+      "key_upstream": [
+        "TSM",
+        "SNPS",
+        "CDNS",
+        "ARM"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "AMZN",
+        "MSFT",
+        "META"
+      ],
+      "notes": "IPO Mar-20-2024"
+    },
+    "CRDO": {
+      "name": "Credo Technology Group",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI high-speed connectivity",
+      "tier": "U1",
+      "role_in_chain": "Active Electrical Cables (HiWire AEC) + PAM4 DSPs + SerDes chiplets for hyperscaler AI fabrics; DustPhotonics acquisition Apr 2026",
+      "key_upstream": [
+        "TSM",
+        "SNPS",
+        "CDNS"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "AMZN",
+        "META"
+      ],
+      "notes": "FY ends late Apr/early May; IPO Jan 2022"
+    },
     "QCOM": {
       "name": "Qualcomm Inc",
       "exchange": "NASDAQ",
@@ -351,6 +455,23 @@
         "Automakers"
       ],
       "notes": ""
+    },
+    "OUST": {
+      "name": "Ouster Inc",
+      "exchange": "NYSE",
+      "currency_native": "USD",
+      "segment": "AI sensing (lidar)",
+      "tier": "U1",
+      "role_in_chain": "Digital lidar pure-play positioned as 'Physical AI' sensing; NVIDIA Drive integration; AVs + robotics + smart infrastructure end-markets",
+      "key_upstream": [
+        "TSM"
+      ],
+      "key_downstream": [
+        "NVDA",
+        "Automakers",
+        "Robotics OEMs"
+      ],
+      "notes": "Velodyne merger 2023; Stereolabs acquisition 2025"
     },
     "LSCC": {
       "name": "Lattice Semiconductor",
@@ -902,7 +1023,10 @@
         "AAPL",
         "MRVL",
         "QCOM",
-        "MBLY"
+        "MBLY",
+        "ALAB",
+        "CRDO",
+        "OUST"
       ],
       "notes": "ADR"
     },
@@ -1476,7 +1600,8 @@
       "key_upstream": [],
       "key_downstream": [
         "EV OEMs",
-        "data centers"
+        "data centers",
+        "FLNC"
       ],
       "notes": ""
     },
@@ -1612,6 +1737,25 @@
         "DOD"
       ],
       "notes": "FY ends Apr"
+    },
+    "TEM": {
+      "name": "Tempus AI Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI software (vertical: health)",
+      "tier": "D1",
+      "role_in_chain": "AI-enabled precision medicine — oncology genomics + cardiology + radiology; multi-modal genomic + clinical data training; SoftBank SB Tempus JV (Japan); FY25 revenue $1.27B (+83% YoY)",
+      "key_upstream": [
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "key_downstream": [
+        "Pharma",
+        "Providers",
+        "Life-sciences enterprises"
+      ],
+      "notes": "IPO Jun-14-2024; Ambry Genetics $600M acquisition 2024"
     },
     "SNOW": {
       "name": "Snowflake Inc",
@@ -1901,7 +2045,8 @@
         "EQIX",
         "SMCI",
         "DELL",
-        "HPE"
+        "HPE",
+        "IESC"
       ],
       "notes": ""
     },
@@ -1982,6 +2127,24 @@
       ],
       "notes": "FY ends Mar"
     },
+    "FLNC": {
+      "name": "Fluence Energy Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Grid storage / data-center backup",
+      "tier": "D2",
+      "role_in_chain": "Grid-scale battery storage (Gridstack Pro, Gridstack, Ultrastack) + Smarts optimization SW; AES-spinout, Siemens-backed; $5.6B backlog Q2 2026; explicit data-center demand cited",
+      "key_upstream": [
+        "ALB"
+      ],
+      "key_downstream": [
+        "Utilities",
+        "Hyperscalers",
+        "IPP partners (VST",
+        "NEE)"
+      ],
+      "notes": "FY ends Sep"
+    },
     "POWL": {
       "name": "Powell Industries",
       "exchange": "NASDAQ",
@@ -2027,7 +2190,8 @@
       "key_downstream": [
         "MSFT",
         "META",
-        "Hyperscalers"
+        "Hyperscalers",
+        "APLD"
       ],
       "notes": ""
     },
@@ -2485,6 +2649,26 @@
         "data centers"
       ],
       "notes": ""
+    },
+    "IESC": {
+      "name": "IES Holdings Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "Electrical EPC",
+      "tier": "D3",
+      "role_in_chain": "Electrical & technology systems contractor with substantial data-center exposure; Communications segment builds/maintains DC infrastructure for colos + hyperscalers; $3.9B backlog; FY25 revenue $3.37B (+17% YoY)",
+      "key_upstream": [
+        "ETN",
+        "HUBB",
+        "VRT",
+        "NVT"
+      ],
+      "key_downstream": [
+        "DLR",
+        "EQIX",
+        "Hyperscalers"
+      ],
+      "notes": "FY ends Sep; ticker is IESC (NASDAQ)"
     },
     "DY": {
       "name": "Dycom Industries",

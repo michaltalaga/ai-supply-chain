@@ -1345,6 +1345,149 @@
       "single_source_risk": "high",
       "alternatives": "HON Quantinuum (trapped ion), IBM Quantum, Rigetti, QuEra (private).",
       "trend": "Growing; quantum-government remains the only meaningful revenue line."
+    },
+    "TSM->ALAB": {
+      "what_flows": "Fabless silicon for PCIe retimers (Aries), CXL controllers (Leo), and Scorpio fabric switches at TSM advanced nodes (N7/N5/N3 expected)",
+      "importance": "critical",
+      "annual_usd_billions": "0.1-0.2",
+      "deal_basis": "ALAB FY25 revenue $853M with ~75% gross margin implies wafer cost is sub-$200M; lock-in is critical.",
+      "single_source_risk": "high",
+      "alternatives": "Samsung Foundry; not in production.",
+      "trend": "Growing fast with PCIe 6 + Scorpio ramps."
+    },
+    "ALAB->NVDA": {
+      "what_flows": "PCIe retimers for NVIDIA AI server reference designs; Scorpio fabric switches starting to displace some discrete retimers in NVL72/Blackwell racks",
+      "importance": "critical",
+      "annual_usd_billions": "0.4-0.7",
+      "deal_basis": "ALAB FY25 revenue $853M; NVDA estimated >50% based on Blackwell GB200/GB300 NVL72 retimer content disclosed in tear-downs.",
+      "single_source_risk": "high",
+      "alternatives": "Marvell, Broadcom retimer/SerDes products.",
+      "trend": "Growing fast with Blackwell GB200/GB300 NVL72 racks."
+    },
+    "ALAB->AMZN": {
+      "what_flows": "Retimers + fabric silicon supporting Amazon Trainium3 connectivity (per company-disclosed ramp context)",
+      "importance": "major",
+      "annual_usd_billions": "0.1-0.2",
+      "single_source_risk": "medium",
+      "trend": "Growing with Trainium3 deployment 2026."
+    },
+    "TSM->CRDO": {
+      "what_flows": "Fabless silicon for PAM4 DSPs, SerDes chiplets, and Active Electrical Cable controllers at advanced nodes",
+      "importance": "critical",
+      "annual_usd_billions": "0.1-0.2",
+      "single_source_risk": "high",
+      "trend": "Growing with hyperscaler 800G/1.6T optical buildouts."
+    },
+    "CRDO->MSFT": {
+      "what_flows": "Active Electrical Cables (HiWire) + SerDes DSPs for Azure AI fabric; MSFT a publicly disclosed concentrated hyperscaler customer",
+      "importance": "critical",
+      "annual_usd_billions": "0.3-0.5",
+      "deal_basis": "Hyperscalers account for dominant share of CRDO ~$1.07B TTM revenue; MSFT widely reported as largest individual customer.",
+      "single_source_risk": "medium",
+      "alternatives": "MRVL, AVGO compete on DSPs; CRDO leads on AEC.",
+      "trend": "Growing fast; AEC adoption inside AI server racks expanding."
+    },
+    "CRDO->AMZN": {
+      "what_flows": "SerDes IP + AEC for AWS AI clusters",
+      "importance": "major",
+      "annual_usd_billions": "0.2-0.3",
+      "single_source_risk": "medium",
+      "trend": "Growing."
+    },
+    "NVDA->IREN": {
+      "what_flows": "GPUs (Hopper + Blackwell) for IREN's AI cloud; tied to $3.4B 2025 NVIDIA AI Cloud contract",
+      "importance": "critical",
+      "annual_usd_billions": "1-3",
+      "deal_basis": "$3.4B disclosed contract + $2.1B NVIDIA investment commitment 2025; IREN targets $3.7B ARR by 2026.",
+      "single_source_risk": "high",
+      "trend": "Growing fast; IREN is NVIDIA's anchored partner for AI cloud expansion in Australia/Texas/North America."
+    },
+    "IREN->MSFT": {
+      "what_flows": "AI compute capacity rental; Microsoft acknowledged as customer",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "medium",
+      "trend": "Growing with Sweetwater 1 energization."
+    },
+    "NVDA->APLD": {
+      "what_flows": "Hosted GPU compute for tenants; APLD operates AI/HPC data centers (Delta Forge 1 etc.) for hyperscaler + neocloud tenants",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1.0",
+      "single_source_risk": "medium",
+      "trend": "Growing with Delta Forge 1 hyperscaler lease ($7.5B contracted)."
+    },
+    "APLD->CRWV": {
+      "what_flows": "Data-center capacity lease + power infrastructure for CoreWeave GPU deployments",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "medium",
+      "trend": "Stable per existing lease agreements with modifications 2025-26."
+    },
+    "CEG->APLD": {
+      "what_flows": "Power supply / PPAs for HPC/AI campus operations",
+      "importance": "meaningful",
+      "annual_usd_billions": "0.1-0.3",
+      "single_source_risk": "low",
+      "trend": "Growing."
+    },
+    "NVDA->BTDR": {
+      "what_flows": "GPUs for Bitdeer AI Cloud + Norway AI DC infrastructure",
+      "importance": "meaningful",
+      "annual_usd_billions": "0.1-0.3",
+      "single_source_risk": "high",
+      "trend": "Growing with Norway DC online Dec 2026; small absolute scale vs. CRWV/IREN."
+    },
+    "MSFT->TEM": {
+      "what_flows": "Azure cloud compute for AI training on multi-modal genomic + clinical data",
+      "importance": "meaningful",
+      "annual_usd_billions": "0.05-0.1",
+      "single_source_risk": "low",
+      "alternatives": "AWS, GCP",
+      "trend": "Growing with TEM revenue scale ($1.27B FY25)."
+    },
+    "TSM->OUST": {
+      "what_flows": "Fabless digital lidar silicon (proprietary L3 chip)",
+      "importance": "major",
+      "annual_usd_billions": "0.02-0.05",
+      "single_source_risk": "high",
+      "trend": "Growing with REV8 ramp."
+    },
+    "OUST->NVDA": {
+      "what_flows": "Lidar integration in NVIDIA Drive autonomous-vehicle development platform",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.05",
+      "single_source_risk": "low",
+      "trend": "Growing as Physical AI ecosystem expands."
+    },
+    "ETN->IESC": {
+      "what_flows": "Switchgear, busbar, and UPS components installed into data-center electrical builds",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "low",
+      "trend": "Growing fast with $3.9B IESC backlog tilted to data centers."
+    },
+    "IESC->DLR": {
+      "what_flows": "Electrical contractor services for data-center construction & maintenance",
+      "importance": "major",
+      "annual_usd_billions": "0.4-0.8",
+      "single_source_risk": "low",
+      "alternatives": "EME, PWR, MTZ",
+      "trend": "Growing fast with AI capex cycle."
+    },
+    "FLNC->Hyperscalers": {
+      "what_flows": "Grid-scale battery storage for data-center backup + PPA-firming; transcripts cite explicit data-center demand",
+      "importance": "major",
+      "annual_usd_billions": "0.3-0.6",
+      "single_source_risk": "low",
+      "alternatives": "Tesla Megapack, private cell makers",
+      "trend": "Growing fast; $5.6B FLNC backlog."
+    },
+    "ALB->FLNC": {
+      "what_flows": "Lithium feedstock for storage cells (indirect via cell makers)",
+      "importance": "meaningful",
+      "annual_usd_billions": "<0.1",
+      "single_source_risk": "low",
+      "trend": "Stable."
     }
   }
 }

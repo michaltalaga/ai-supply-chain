@@ -89,7 +89,7 @@ ECL,Ecolab Inc,NYSE,USD,Water + sanitation,U4,"Ultra-pure water + cleaning chemi
 CE,Celanese Corp,NYSE,USD,Chemicals,U4,"Engineered materials + polymers for EV + electronics",,Auto;electronics,
 IFF,International Flavors & Fragrances,NYSE,USD,Specialty chemicals,U4,"Pharma + electronics specialty (less direct AI exposure; included as broad SC proxy)",,Consumer;pharma,Lower AI exposure
 AKZOY,Akzo Nobel NV,OTC,EUR,Coatings,U4,"Specialty coatings incl. some semis (less direct exposure)",,Industrial,Unsponsored ADR
-ALB,Albemarle Corp,NYSE,USD,Lithium + bromine + catalysts,U4,"Lithium for EV/grid batteries + bromine for fab fire-suppression",,EV OEMs;data centers,
+ALB,Albemarle Corp,NYSE,USD,Lithium + bromine + catalysts,U4,"Lithium for EV/grid batteries + bromine for fab fire-suppression",,EV OEMs;data centers;FLNC,
 FCX,Freeport-McMoRan,NYSE,USD,Copper mining,U5,"Largest US copper miner; copper essential for cabling + transformers",,GEV;ETN;HUBB;wire makers,
 SCCO,Southern Copper,NYSE,USD,Copper mining,U5,"Mexico/Peru copper; key transmission + DC bus supplier",,GEV;ETN;cabling,
 MP,MP Materials,NYSE,USD,Rare earths,U5,"Only operating US rare-earth mine (Mountain Pass); NdPr for magnets",,AAPL;TSLA;GEV;LMT (not in registry);DOD;Magnet OEMs (mostly private),Apple signed multi-year recycled-REE deal Apr 2024
