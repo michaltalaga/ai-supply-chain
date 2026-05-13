@@ -190,14 +190,25 @@ const html = `<!doctype html>
       <span id="screen-status"></span>
     </div>
     <div id="screen-panel">
+      <div style="margin-bottom:8px; color:#c5cad3; font-size:11.5px">
+        Presets:
+        <span class="bin-pill" onclick="applyPreset('cheap')">Cheap (P/E&lt;15)</span>
+        <span class="bin-pill" onclick="applyPreset('expensive')">Expensive (P/E&gt;40)</span>
+        <span class="bin-pill" onclick="applyPreset('garp')">Growth at value (PEG&lt;1)</span>
+        <span class="bin-pill" onclick="applyPreset('bubble')">Decoupled (×&gt;15)</span>
+        <span class="bin-pill" onclick="applyPreset('quality')">Quality (NM&gt;25%, P/E&lt;30)</span>
+        <span class="bin-pill" onclick="applyPreset('hidden')">Hidden gems (CAGR&gt;25, P/E&lt;25, mcap&gt;5B)</span>
+      </div>
       <label>Min mcap ($B): <input type="number" id="f-minMcap" min="0" step="1" placeholder="any"></label>
       <label>Min 5yr CAGR (%): <input type="number" id="f-minCagr" step="5" placeholder="any"></label>
       <label>Min 5yr return (%): <input type="number" id="f-minRet" step="50" placeholder="any"></label>
       <label>Min YTD return (%): <input type="number" id="f-minYtd" step="5" placeholder="any"></label>
       <label>Max YTD return (%): <input type="number" id="f-maxYtd" step="5" placeholder="any"></label>
-      <label>Max P/E: <input type="number" id="f-maxPe" step="5" placeholder="any"></label>
-      <label>Max P/S: <input type="number" id="f-maxPs" step="2" placeholder="any"></label>
-      <label>Min net margin (%): <input type="number" id="f-minNm" step="5" placeholder="any"></label>
+      <label>P/E: <input type="number" id="f-minPe" step="5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxPe" step="5" placeholder="max" style="width:55px"></label>
+      <label>P/S: <input type="number" id="f-minPs" step="2" placeholder="min" style="width:55px"> – <input type="number" id="f-maxPs" step="2" placeholder="max" style="width:55px"></label>
+      <label>PEG: <input type="number" id="f-minPeg" step="0.5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxPeg" step="0.5" placeholder="max" style="width:55px"></label>
+      <label>Net margin %: <input type="number" id="f-minNm" step="5" placeholder="min" style="width:55px"> – <input type="number" id="f-maxNm" step="5" placeholder="max" style="width:55px"></label>
+      <label>Decoupling ×: <input type="number" id="f-minDcp" step="1" placeholder="min" style="width:55px"> – <input type="number" id="f-maxDcp" step="1" placeholder="max" style="width:55px"></label>
       <label>Tier:
         <select id="f-tier">
           <option value="">any</option>
@@ -1155,9 +1166,16 @@ function applyScreen() {
     minRet:  readNum("f-minRet"),
     minYtd:  readNum("f-minYtd"),
     maxYtd:  readNum("f-maxYtd"),
+    minPe:   readNum("f-minPe"),
     maxPe:   readNum("f-maxPe"),
+    minPs:   readNum("f-minPs"),
     maxPs:   readNum("f-maxPs"),
+    minPeg:  readNum("f-minPeg"),
+    maxPeg:  readNum("f-maxPeg"),
     minNm:   readNum("f-minNm"),
+    maxNm:   readNum("f-maxNm"),
+    minDcp:  readNum("f-minDcp"),
+    maxDcp:  readNum("f-maxDcp"),
     tier:    document.getElementById("f-tier").value || null,
   };
   const anyActive = Object.values(filter).some(v => v != null && v !== "");
@@ -1177,7 +1195,7 @@ function applyScreen() {
   }
 }
 function clearScreen() {
-  ["f-minMcap","f-minCagr","f-minRet","f-minYtd","f-maxYtd","f-maxPe","f-maxPs","f-minNm","f-tier"].forEach(id => {
+  ["f-minMcap","f-minCagr","f-minRet","f-minYtd","f-maxYtd","f-minPe","f-maxPe","f-minPs","f-maxPs","f-minPeg","f-maxPeg","f-minNm","f-maxNm","f-minDcp","f-maxDcp","f-tier"].forEach(id => {
     document.getElementById(id).value = "";
   });
   activeScreen = null;
@@ -1202,11 +1220,31 @@ function screenMatch(t, f) {
   if (f.minRet != null && (m.priceRet == null || m.priceRet < f.minRet)) return false;
   if (f.minYtd != null && (m.ytdReturn == null || m.ytdReturn < f.minYtd)) return false;
   if (f.maxYtd != null && (m.ytdReturn == null || m.ytdReturn > f.maxYtd)) return false;
-  if (f.maxPe != null && (m.pe == null || m.pe > f.maxPe)) return false;
-  if (f.maxPs != null && (m.ps == null || m.ps > f.maxPs)) return false;
-  if (f.minNm != null && (m.netMargin == null || m.netMargin < f.minNm)) return false;
+  if (f.minPe  != null && (m.pe == null || m.pe < f.minPe)) return false;
+  if (f.maxPe  != null && (m.pe == null || m.pe > f.maxPe)) return false;
+  if (f.minPs  != null && (m.ps == null || m.ps < f.minPs)) return false;
+  if (f.maxPs  != null && (m.ps == null || m.ps > f.maxPs)) return false;
+  if (f.minPeg != null && (m.peg == null || m.peg < f.minPeg)) return false;
+  if (f.maxPeg != null && (m.peg == null || m.peg > f.maxPeg)) return false;
+  if (f.minNm  != null && (m.netMargin == null || m.netMargin < f.minNm)) return false;
+  if (f.maxNm  != null && (m.netMargin == null || m.netMargin > f.maxNm)) return false;
+  if (f.minDcp != null && (m.decoupling == null || m.decoupling < f.minDcp)) return false;
+  if (f.maxDcp != null && (m.decoupling == null || m.decoupling > f.maxDcp)) return false;
   if (f.tier && info.tier !== f.tier) return false;
   return true;
+}
+
+// One-click preset screens
+function applyPreset(name) {
+  clearScreen();
+  const set = (id, v) => { document.getElementById(id).value = v; };
+  if (name === "cheap")     { set("f-maxPe", 15); }
+  if (name === "expensive") { set("f-minPe", 40); }
+  if (name === "garp")      { set("f-maxPeg", 1); set("f-minCagr", 10); }
+  if (name === "bubble")    { set("f-minDcp", 15); }
+  if (name === "quality")   { set("f-minNm", 25); set("f-maxPe", 30); }
+  if (name === "hidden")    { set("f-minCagr", 25); set("f-maxPe", 25); set("f-minMcap", 5); }
+  applyScreen();
 }
 
 // === Compare mode ===
