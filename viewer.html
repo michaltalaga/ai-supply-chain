@@ -5,7 +5,11 @@
   body { font: 14px/1.4 -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #0e1116; color: #e3e7ed; }
   #app { display: grid; grid-template-columns: 1fr 420px; height: 100vh; }
   #graph { background: #0a0d12; }
-  #side { padding: 20px; overflow-y: auto; border-left: 1px solid #2a2f38; }
+  #side { padding: 20px; overflow-y: auto; border-left: 1px solid #2a2f38; display: flex; flex-direction: column; min-height: 100vh; }
+  #detail { flex: 1; }
+  #footer-meta { margin-top: 24px; padding-top: 12px; border-top: 1px solid #2a2f38; font-size: 11px; color: #7a8395; }
+  #footer-meta h1 { font-size: 12px; color: #97a3b6; margin: 0 0 4px; padding: 0; border: 0; }
+  #footer-meta p { margin: 4px 0; }
   h1 { font-size: 16px; margin: 0 0 16px; padding-bottom: 8px; border-bottom: 1px solid #2a2f38; }
   h2 { font-size: 13px; margin: 16px 0 6px; color: #8ab4f8; }
   .meta { color: #97a3b6; font-size: 12px; }
@@ -65,10 +69,12 @@
   </div>
   <div id="tip"></div>
   <div id="side">
-    <h1>AI / Quantum / Photonics Supply Chain</h1>
-    <p class="meta">Click a node to inspect. Drag to pan, scroll to zoom.<br>
-    Data as of 2026-05-11. <a href="REPORT.md">Full narrative report</a> &middot; <a href="tickers.csv">CSV</a></p>
-    <div id="detail"><p class="meta"><em>Click a ticker on the graph to see details.</em></p></div>
+    <div id="detail"><p class="meta"><em>Hover a ticker for a quick view, click for the full detail panel. Hover an edge for relationship context.</em></p></div>
+    <div id="footer-meta">
+      <h1>AI / Quantum / Photonics Supply Chain</h1>
+      <p>Click a node to inspect. Drag to pan, scroll to zoom.</p>
+      <p>Data as of 2026-05-11. <a href="REPORT.md">Full narrative report</a> &middot; <a href="tickers.csv">CSV</a></p>
+    </div>
   </div>
 </div>
 
@@ -327,8 +333,15 @@ function draw(filter) {
     g.appendChild(txt);
     const baseR = r;
     g.addEventListener("click", e => { e.stopPropagation(); selectTicker(n.id); });
-    g.addEventListener("mouseenter", () => { c.setAttribute("r", (baseR + 3).toFixed(2)); });
-    g.addEventListener("mouseleave", () => { c.setAttribute("r", baseR.toFixed(2)); });
+    g.addEventListener("mouseenter", e => {
+      c.setAttribute("r", (baseR + 3).toFixed(2));
+      showNodeTip(n.id, e);
+    });
+    g.addEventListener("mousemove", e => moveTip(e));
+    g.addEventListener("mouseleave", () => {
+      c.setAttribute("r", baseR.toFixed(2));
+      hideTip();
+    });
     nodeG.appendChild(g);
     renderState.nodeEls[n.id] = { g, circle: c, text: txt, color: n.color, baseR };
   }
@@ -412,6 +425,86 @@ function applyHighlight() {
       el.setAttribute("marker-end", "url(#arrow-faint)");
     }
   }
+}
+
+// === Node hover tooltip ===
+
+function fmtNative(value_millions, ccy) {
+  if (value_millions == null || isNaN(value_millions)) return "—";
+  const abs = Math.abs(value_millions);
+  let v, unit;
+  if (abs >= 1e6) { v = value_millions/1e6; unit = "T"; }
+  else if (abs >= 1e3) { v = value_millions/1e3; unit = "B"; }
+  else { v = value_millions; unit = "M"; }
+  const sym = ({USD:"$", EUR:"€", TWD:"NT$", JPY:"¥", KRW:"₩", AUD:"A$", GBP:"£", CNY:"¥", CHF:"CHF "})[ccy] || "";
+  const sign = value_millions < 0 ? "-" : "";
+  return sign + sym + Math.abs(v).toFixed(1) + unit;
+}
+
+function showNodeTip(ticker, e) {
+  const d = DATA[ticker]; if (!d) return;
+  const info = d.info;
+  const tip = document.getElementById("tip");
+
+  let h = '<div class="tip-head"><span class="tip-from">'+ticker+'</span> ';
+  h += '<span style="color:#e3e7ed; font-weight:400">'+info.name+'</span></div>';
+
+  h += '<div style="margin-bottom:6px"><span class="pill">'+info.tier+' / '+info.segment+'</span>';
+  if (d.mcap) {
+    const mc = d.mcap >= 1e6 ? "$"+(d.mcap/1e6).toFixed(2)+"T"
+             : d.mcap >= 1e3 ? "$"+(d.mcap/1e3).toFixed(1)+"B"
+             : "$"+d.mcap.toFixed(0)+"M";
+    h += ' <span class="pill" style="background:#15171c;color:#80e080">~'+mc+' mcap</span>';
+  }
+  h += '</div>';
+
+  h += '<div class="tip-section">'+info.role_in_chain+'</div>';
+
+  if (d.f && d.f.yr && d.f.yr.length) {
+    const latest = d.f.yr[0];
+    h += '<div class="tip-row" style="margin-top:7px"><span class="tip-label">FY'+latest.fy+':</span> ';
+    h += 'Rev <b>'+fmtNative(latest.rev, d.f.ccy)+'</b>';
+    h += ' &middot; NI <b>'+fmtNative(latest.ni, d.f.ccy)+'</b>';
+    if (latest.eps != null) h += ' &middot; EPS '+latest.eps.toFixed(2);
+    h += '</div>';
+
+    if (d.f.yr.length >= 2) {
+      const sorted = [...d.f.yr].sort((a,b)=>a.fy-b.fy);
+      const r0 = sorted[0].rev, rN = sorted[sorted.length-1].rev;
+      const n = sorted[sorted.length-1].fy - sorted[0].fy;
+      if (r0 && rN && n > 0 && r0 > 0) {
+        const cagr = (Math.pow(rN/r0, 1/n) - 1) * 100;
+        const cls = cagr >= 0 ? 'pos' : 'neg';
+        h += '<div class="tip-row"><span class="tip-label">'+n+'y rev CAGR:</span> <span class="'+cls+'">'+(cagr>=0?'+':'')+cagr.toFixed(0)+'%</span></div>';
+      }
+    }
+  }
+
+  if (d.p && d.p.length >= 2) {
+    const first = d.p[0][1], last = d.p[d.p.length-1][1];
+    if (first > 0) {
+      const ret = ((last/first) - 1) * 100;
+      const cls = ret >= 0 ? 'pos' : 'neg';
+      h += '<div class="tip-row"><span class="tip-label">5y price return:</span> ';
+      h += '<span class="'+cls+'">'+(ret>=0?'+':'')+ret.toFixed(0)+'%</span>';
+      h += ' &nbsp;<span style="color:#7a8395; font-size:11px">($'+first.toFixed(2)+' → $'+last.toFixed(2)+')</span>';
+      h += '</div>';
+    }
+  }
+
+  const up = (info.key_upstream || []).filter(u => DATA[u]).length;
+  const dn = (info.key_downstream || []).filter(u => DATA[u]).length;
+  if (up || dn) {
+    h += '<div class="tip-row" style="margin-top:6px; color:#7a8395; font-size:11px">';
+    h += up + ' upstream &middot; ' + dn + ' downstream (in registry)';
+    h += '</div>';
+  }
+
+  h += '<div class="tip-basis" style="margin-top:6px; font-style:italic">Click for full detail panel.</div>';
+
+  tip.innerHTML = h;
+  tip.style.display = "block";
+  moveTip(e);
 }
 
 // === Edge tooltip ===
