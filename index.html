@@ -351,13 +351,22 @@ svg.addEventListener("wheel", e => {
   applyViewport();
 });
 let dragStart = null;
-svg.addEventListener("mousedown", e => { dragStart = { x: e.clientX, y: e.clientY, tx: viewState.tx, ty: viewState.ty }; });
-svg.addEventListener("mouseup", () => dragStart = null);
-svg.addEventListener("mouseleave", () => dragStart = null);
+let didDrag = false;          // distinguishes a true click from a drag-then-release
+const DRAG_THRESHOLD = 3;     // px before we consider it a drag
+
+svg.addEventListener("mousedown", e => {
+  dragStart = { x: e.clientX, y: e.clientY, tx: viewState.tx, ty: viewState.ty };
+  didDrag = false;
+});
+svg.addEventListener("mouseup", () => { dragStart = null; });
+svg.addEventListener("mouseleave", () => { dragStart = null; });
 svg.addEventListener("mousemove", e => {
   if (!dragStart) return;
-  viewState.tx = dragStart.tx + (e.clientX - dragStart.x);
-  viewState.ty = dragStart.ty + (e.clientY - dragStart.y);
+  const dx = e.clientX - dragStart.x;
+  const dy = e.clientY - dragStart.y;
+  if (!didDrag && (Math.abs(dx) > DRAG_THRESHOLD || Math.abs(dy) > DRAG_THRESHOLD)) didDrag = true;
+  viewState.tx = dragStart.tx + dx;
+  viewState.ty = dragStart.ty + dy;
   applyViewport();
 });
 function resetView() {
@@ -491,8 +500,10 @@ function draw(filter) {
   applyHighlight();
 }
 
-// Click on background clears selection
+// Click on empty background clears selection — but only when it's a real click,
+// not the click event the browser fires at the end of a drag.
 svg.addEventListener("click", e => {
+  if (didDrag) { didDrag = false; return; }
   if (e.target === svg) clearSelection();
 });
 
