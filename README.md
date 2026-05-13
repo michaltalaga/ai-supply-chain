@@ -77,7 +77,15 @@ git add -A && git commit -m "Refresh prices" && git push
 ```
 
 `refresh.js` hits `https://stockanalysis.com/api/symbol/s/<ticker>/history?range=5Y&period=Monthly`
-in batches of 8 with ~400 ms rate-limit pauses. Takes about 20–30 seconds for all 172. ~15 tickers (OTC unsponsored ADRs + delisted JNPR + restructured COMM) are expected to fail and get `no_data` stubs — those are documented in `notes/caveats.md`.
+in batches of 8 with ~400 ms rate-limit pauses. Takes about 20–30 seconds for all 172. ~15 tickers (OTC unsponsored ADRs + restructured COMM) are expected to fail and get `no_data` stubs — those are documented in `notes/caveats.md`.
+
+**Defensive behavior:** when the API fails for a ticker that *previously had data*, `refresh.js` keeps the existing file untouched and logs it under "◐ preserved" rather than blanking it to a stub. Also refuses to overwrite a full 5-yr history with a fresh response that has fewer than max(20 months, 50% of the old count) — guards against transient API hiccups. Tickers that had no data to begin with (legitimate OTC unsupported) still get their stubs refreshed with today's date.
+
+**Registry audit:**
+```bash
+npm run audit                # probes every ticker; flags surprising failures
+```
+Lists 15 "expected" failures (the known OTC unsponsored tier) and any "surprising" ones (likely registry typos like `BEL` → `BDC`). Should always show "✓ No unexpected failures. Registry is clean." Run this after editing `tickers.csv` to add new tickers.
 
 **Financials** (less frequently — quarterly):
 Not automated. Three options:

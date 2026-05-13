@@ -50,6 +50,12 @@ async function fetchPrices(ticker) {
   }
 }
 
+function readExisting(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  try { return JSON.parse(fs.readFileSync(filePath, "utf-8")); }
+  catch (e) { return null; }
+}
+
 function writeStub(ticker, reason) {
   fs.writeFileSync(
     path.join(PRICE_DIR, ticker + ".json"),
@@ -77,19 +83,40 @@ async function main() {
 
   if (!fs.existsSync(PRICE_DIR)) fs.mkdirSync(PRICE_DIR, { recursive: true });
 
-  const failures = [];
-  let success = 0;
+  const updated = [];
+  const preserved = [];   // had data, API failed → kept existing file untouched
+  const shrunk = [];      // had data, fresh response had implausibly few rows → kept existing
+  const stubs = [];       // never had data (or stub→stub) → wrote/refreshed stub
 
   for (let i = 0; i < tickers.length; i += BATCH_SIZE) {
     const batch = tickers.slice(i, i + BATCH_SIZE);
     const results = await Promise.all(batch.map(async t => ({ t, r: await fetchPrices(t) })));
     for (const { t, r } of results) {
+      const filePath = path.join(PRICE_DIR, t + ".json");
+      const existing = readExisting(filePath);
+      const hadData =
+        existing &&
+        existing.status !== "no_data" &&
+        typeof existing.monthly_closes_csv === "string" &&
+        existing.monthly_closes_csv.includes(":");
+      const oldCount = hadData ? existing.monthly_closes_csv.split("|").length : 0;
+
       if (r.ok) {
+        // Guardrail: refuse to replace 5 yr of data with ~nothing.
+        // Threshold: fresh count must be at least 50% of existing OR at least 20 months.
+        if (hadData && r.count < Math.max(20, oldCount * 0.5)) {
+          shrunk.push(`${t}: existing ${oldCount}mo, fresh ${r.count}mo — kept existing`);
+          continue;
+        }
         writeData(t, r.csv);
-        success++;
+        updated.push(t);
       } else {
-        writeStub(t, r.reason);
-        failures.push(`${t}: ${r.reason}`);
+        if (hadData) {
+          preserved.push(`${t}: ${r.reason} — kept existing ${oldCount}mo`);
+        } else {
+          writeStub(t, r.reason);
+          stubs.push(`${t}: ${r.reason}`);
+        }
       }
     }
     const pct = Math.min(100, Math.round(((i + BATCH_SIZE) / tickers.length) * 100));
@@ -100,11 +127,19 @@ async function main() {
   }
 
   console.log("\n");
-  console.log(`✓ ${success} with data`);
-  console.log(`✗ ${failures.length} stubs (expected for OTC unsponsored ADRs: SSNLF, SHECY, SUOPY, SOIGY, AIQUY, AKZOY, LYSDY, VEOEY, SMSMY, ASMIY, BESIY, SBGSY, ABBNY, LNVGY + acquired: JNPR + restructure: COMM)`);
-  if (failures.length && failures.length < 25) {
-    console.log("\nFailures:");
-    failures.forEach(f => console.log("  " + f));
+  console.log(`✓ ${updated.length} fresh writes`);
+  if (preserved.length) {
+    console.log(`◐ ${preserved.length} API failed, EXISTING DATA PRESERVED:`);
+    preserved.slice(0, 30).forEach(p => console.log("    " + p));
+    if (preserved.length > 30) console.log(`    ... ${preserved.length - 30} more`);
+  }
+  if (shrunk.length) {
+    console.log(`⚠ ${shrunk.length} fresh data unexpectedly small, KEPT EXISTING (review these manually!):`);
+    shrunk.forEach(s => console.log("    " + s));
+  }
+  if (stubs.length) {
+    console.log(`✗ ${stubs.length} no_data stubs (no existing data + API failed)`);
+    if (stubs.length < 25) stubs.forEach(s => console.log("    " + s));
   }
   console.log("\nNext step: npm run build");
 }
