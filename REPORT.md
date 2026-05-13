@@ -1,6 +1,6 @@
 # AI · Quantum · Photonics Buildout Supply Chain — Public Markets Map
 
-**Snapshot date:** 2026-05-11 · **Coverage:** 172 publicly traded tickers (US-listed including OTC ADRs) · **Financial window:** 5 most recent fiscal years per filer · **Price window:** monthly closes 2021-05 → 2026-04 (+ partial 2026-05)
+**Snapshot date:** 2026-05-11 · **Coverage:** 173 publicly traded tickers (US-listed including OTC ADRs) · **Financial window:** 5 most recent fiscal years per filer · **Price window:** monthly closes 2021-05 → 2026-04 (+ partial 2026-05)
 
 ## Executive summary
 
@@ -219,7 +219,7 @@ Where it all ends up: SMCI/DELL/HPE/LNVGY assemble the rack-scale GPU clusters. 
 | [SMCI](https://stockanalysis.com/stocks/smci/) | Super Micro Computer | $33.70B | $1.25B | 1.89 | +60% | +832% |
 | [LNVGY](https://stockanalysis.com/stocks/lnvgy/) | Lenovo Group Ltd | — | — | — | — | — |
 
-### Hyperscalers & end-users (8 tickers)
+### Hyperscalers & end-users (9 tickers)
 
 The buyers: MSFT/META/AMZN/GOOG dominate. ORCL/TSLA/AAPL/IBM/PLTR are large but distant followers. xAI/OpenAI/Anthropic are private; closest proxy is MSFT (OpenAI investor).
 
@@ -233,6 +233,7 @@ The buyers: MSFT/META/AMZN/GOOG dominate. ORCL/TSLA/AAPL/IBM/PLTR are large but 
 | [TSLA](https://stockanalysis.com/stocks/tsla/) | Tesla Inc | $94.83B | $3.79B | 1.08 | +15% | +91% |
 | [IBM](https://stockanalysis.com/stocks/ibm/) | International Business Machines | $67.53B | $10.59B | 11.17 | +4% | +50% |
 | [ORCL](https://stockanalysis.com/stocks/orcl/) | Oracle Corp | $64.08B | $16.19B | 5.57 | +11% | +140% |
+| [CRWV](https://stockanalysis.com/stocks/crwv/) | CoreWeave Inc | $5.13B | $-1.20B | -2.81 | +587% | +161% |
 
 ### AI software, MLOps & security (17 tickers)
 

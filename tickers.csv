@@ -1,5 +1,6 @@
 ticker,name,exchange,currency_native,segment,tier,role_in_chain,key_upstream,key_downstream,notes
-MSFT,Microsoft Corp,NASDAQ,USD,Hyperscaler / end-user,D1,"Azure cloud + OpenAI investor; largest AI training buyer of NVDA GPUs",NVDA;AMD;TSM;SMCI;DELL;CEG;VST;DLR,,Calendar FY ends Jun
+MSFT,Microsoft Corp,NASDAQ,USD,Hyperscaler / end-user,D1,"Azure cloud + OpenAI investor; largest AI training buyer of NVDA GPUs",NVDA;AMD;TSM;SMCI;DELL;CRWV;CEG;VST;DLR,,Calendar FY ends Jun
+CRWV,CoreWeave Inc,NASDAQ,USD,AI cloud pure-play,D1,"Largest neocloud — pure-play NVDA GPU cluster operator for hyperscalers + AI labs (MSFT, OpenAI, IBM); FY25 revenue $5.1B (+167%); built ~470K GPU fleet by 2026",NVDA;SMCI;DELL;MU;COHR;CEG;VST;DLR;EQIX,MSFT;META;IBM,IPO Mar-28-2025
 GOOGL,Alphabet Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"Google Cloud + DeepMind + Quantum AI (Willow); also designs own TPU fabbed by TSM",TSM;AVGO;NVDA;CEG;VST;DLR,,Quantum AI is research-only revenue
 AMZN,Amazon.com Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"AWS hyperscaler + Trainium/Inferentia silicon fabbed by TSM; Anthropic investor",NVDA;TSM;SMCI;DELL;CEG;DLR,,
 META,Meta Platforms Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"AI infrastructure for Llama; largest NVDA H100/H200 buyer 2023-25 outside hyperscalers",NVDA;TSM;SMCI;CEG;DLR;EQIX,,
@@ -8,7 +9,7 @@ AAPL,Apple Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"Apple Silicon designed in-h
 TSLA,Tesla Inc,NASDAQ,USD,Hyperscaler / end-user,D1,"Dojo training silicon + FSD inference chips; large NVDA H100 cluster for FSD training",NVDA;TSM;SMCI,,
 IBM,International Business Machines,NYSE,USD,Quantum + AI,D1,"watsonx AI platform + IBM Quantum (Heron/Condor chips); Telum AI accelerator",TSM;GFS;SNPS,,Cross-cuts AI + quantum
 PLTR,Palantir Technologies,NASDAQ,USD,AI software,D1,"AIP enterprise AI platform; runs on customer compute + commercial cloud",MSFT;AMZN;NVDA,,
-NVDA,NVIDIA Corp,NASDAQ,USD,AI chip design,U1,"Dominant AI GPU designer (H100/H200/B100/B200/B300/Rubin); ~90% AI training share",TSM;ASML;AMAT;LRCX;KLAC;SNPS;CDNS;MU;COHR,MSFT;META;GOOGL;AMZN;ORCL;TSLA;SMCI;DELL;HPE,FY ends Jan
+NVDA,NVIDIA Corp,NASDAQ,USD,AI chip design,U1,"Dominant AI GPU designer (H100/H200/B100/B200/B300/Rubin); ~90% AI training share",TSM;ASML;AMAT;LRCX;KLAC;SNPS;CDNS;MU;COHR,MSFT;META;GOOGL;AMZN;ORCL;TSLA;CRWV;SMCI;DELL;HPE,FY ends Jan
 AMD,Advanced Micro Devices,NASDAQ,USD,AI chip design,U1,"MI300/MI325/MI350 AI accelerators + EPYC CPUs; #2 AI GPU; fabbed by TSM",TSM;ASML;SNPS;CDNS;MU,MSFT;META;ORCL;SMCI;DELL;HPE,
 INTC,Intel Corp,NASDAQ,USD,AI chip design + foundry,U1,"Xeon CPUs + Gaudi AI accelerators + Intel Foundry (18A node); also silicon photonics",ASML;AMAT;LRCX;KLAC;SNPS;CDNS;ENTG,DELL;HPE;CSCO;ANET,IDM; also foundry tier
 AVGO,Broadcom Inc,NASDAQ,USD,AI chip design + networking ASICs,U1,"Custom AI ASICs for GOOG/META; Tomahawk/Jericho switches; VMware",TSM;ASML;SNPS;CDNS,GOOGL;META;CSCO;ANET,FY ends Oct/Nov
@@ -26,7 +27,7 @@ MTSI,MACOM Technology Solutions,NASDAQ,USD,RF + analog photonics,U1,"RF + analog
 POWI,Power Integrations,NASDAQ,USD,Power conversion ICs,U1,"GaN/SiC AC-DC power for AI servers; small but key supplier",TSM,SMCI;DELL,
 VICR,Vicor Corp,NASDAQ,USD,AI power modules,U1,"Factorized power modules for NVDA GPU boards; high-density 48V→1V",,NVDA;SMCI;DELL;HPE,
 NVTS,Navitas Semiconductor,NASDAQ,USD,GaN semis,U1,"GaN power ICs for data-center AI server power supplies",TSM,SMCI;DELL,
-SMCI,Super Micro Computer,NASDAQ,USD,AI server builder,AI core,"Build-to-order GPU servers; xAI Colossus + AWS/Azure deployments",NVDA;AMD;INTC;MU;COHR;LITE;VRT,xAI;MSFT;META;CoreWeave;ORCL,FY ends Jun; accounting scandal 2024
+SMCI,Super Micro Computer,NASDAQ,USD,AI server builder,AI core,"Build-to-order GPU servers; xAI Colossus + AWS/Azure deployments",NVDA;AMD;INTC;MU;COHR;LITE;VRT,xAI;MSFT;META;CRWV;ORCL,FY ends Jun; accounting scandal 2024
 DELL,Dell Technologies,NYSE,USD,AI server builder,AI core,"PowerEdge XE9680/XE9712 AI servers for hyperscalers + enterprise",NVDA;AMD;INTC;MU;COHR;LITE,xAI;Enterprise;Hyperscalers,FY ends Jan/Feb
 HPE,Hewlett Packard Enterprise,NYSE,USD,AI server builder,AI core,"Cray AI supercomputers + ProLiant; acquired JNPR for AI networking 2025",NVDA;AMD;INTC;MU;GLW,Government;Enterprise,FY ends Oct
 LNVGY,Lenovo Group Ltd,OTC,USD,AI server builder,AI core,"ThinkSystem AI servers; major China + global enterprise share",NVDA;AMD;INTC,Enterprise;Hyperscalers,Unsponsored ADR; reports in USD; FY ends Mar

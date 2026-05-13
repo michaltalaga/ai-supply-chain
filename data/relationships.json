@@ -871,6 +871,69 @@
       "annual_usd_billions": "0.05-0.15",
       "single_source_risk": "high",
       "trend": "Growing with HBM stacking + CoWoS volume"
+    },
+
+    "NVDA->CRWV": {
+      "what_flows": "H100/H200/B100/B200/B300 GPUs — CoreWeave operates ~470K NVDA GPUs as of 2026, making it among NVDA's top-3 direct customers",
+      "importance": "critical",
+      "annual_usd_billions": "8-12",
+      "deal_basis": "CRWV FY25 revenue $5.1B was almost entirely NVDA-on-rent; CRWV FY26 capex guide ~$20-25B is mostly NVDA GPU purchases. CRWV has also taken equity from NVDA.",
+      "single_source_risk": "high",
+      "alternatives": "None — CRWV's entire product is NVDA GPU clusters",
+      "trend": "Growing fast; Blackwell + Rubin deliveries ramping",
+      "key_event": "CRWV IPO Mar 28 2025; subsequent ORCL-CRWV expansion deal"
+    },
+    "CRWV->MSFT": {
+      "what_flows": "AI compute capacity for Azure — multi-year contracted GPU clusters operated by CRWV but consumed by Microsoft and OpenAI workloads",
+      "importance": "critical",
+      "annual_usd_billions": "3-5",
+      "deal_basis": "MSFT was CRWV's largest customer pre-IPO (~62% of FY24 revenue per S-1). Some workloads dedicated to OpenAI.",
+      "single_source_risk": "high",
+      "trend": "Stable to growing; MSFT diversifying capacity providers but CRWV remains anchor"
+    },
+    "CRWV->META": {
+      "what_flows": "Rented NVDA GPU capacity for Llama training cycles",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1.5",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+    "CRWV->IBM": {
+      "what_flows": "AI inference + training capacity for watsonx + IBM Granite models",
+      "importance": "meaningful",
+      "annual_usd_billions": "0.2-0.4",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+    "CRWV->OPENAI": {
+      "what_flows": "Dedicated GPU capacity contracted by OpenAI directly (separate from MSFT/Azure path) — multi-year $11.9B+ deal signed 2025",
+      "importance": "critical",
+      "annual_usd_billions": "2-4",
+      "deal_basis": "Sep 2025 deal: ~$11.9B over ~5 years for dedicated CRWV compute",
+      "single_source_risk": "high",
+      "key_event": "OpenAI-CRWV $11.9B compute commitment Sep 2025"
+    },
+    "SMCI->CRWV": {
+      "what_flows": "Built-to-order GPU server racks for CRWV's data-center fleet",
+      "importance": "major",
+      "annual_usd_billions": "1-2",
+      "single_source_risk": "medium",
+      "alternatives": "DELL, Lenovo",
+      "trend": "Growing fast with CRWV fleet expansion"
+    },
+    "DELL->CRWV": {
+      "what_flows": "PowerEdge XE GPU racks for CRWV deployments alongside SMCI",
+      "importance": "major",
+      "annual_usd_billions": "0.5-1",
+      "single_source_risk": "medium",
+      "trend": "Growing"
+    },
+    "CEG->CRWV": {
+      "what_flows": "Nuclear-backed PPAs for some CoreWeave data-center sites",
+      "importance": "meaningful",
+      "annual_usd_billions": "0.05-0.15",
+      "single_source_risk": "medium",
+      "trend": "Growing — CRWV signing dedicated baseload PPAs as it scales"
     }
   }
 }

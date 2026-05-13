@@ -57,9 +57,6 @@
     "SMCI.key_downstream",
     "DELL.key_downstream"
   ],
-  "CoreWeave": [
-    "SMCI.key_downstream"
-  ],
   "Enterprise": [
     "DELL.key_downstream",
     "HPE.key_downstream",

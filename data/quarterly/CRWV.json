@@ -1,0 +1,17 @@
+{
+  "ticker": "CRWV",
+  "currency_native": "USD",
+  "units_fetched": "millions",
+  "quarters": [
+    {"q": "Q1_2026", "revenue_native": 2078, "net_income_native": -1480, "eps_diluted_native": -1.40},
+    {"q": "Q4_2025", "revenue_native": 1572, "net_income_native": -452, "eps_diluted_native": -0.89},
+    {"q": "Q3_2025", "revenue_native": 1365, "net_income_native": -110.12, "eps_diluted_native": -0.22},
+    {"q": "Q2_2025", "revenue_native": 1213, "net_income_native": -290.51, "eps_diluted_native": -0.60},
+    {"q": "Q1_2025", "revenue_native": 982, "net_income_native": -658, "eps_diluted_native": -1.49},
+    {"q": "Q4_2024", "revenue_native": 747.43, "net_income_native": -79.97, "eps_diluted_native": -0.34},
+    {"q": "Q3_2024", "revenue_native": 583.94, "net_income_native": -389.17, "eps_diluted_native": -1.82},
+    {"q": "Q2_2024", "revenue_native": 395.37, "net_income_native": -338.62, "eps_diluted_native": -1.62}
+  ],
+  "as_of": "2026-05-13",
+  "source": "https://stockanalysis.com/stocks/crwv/financials/?p=quarterly"
+}

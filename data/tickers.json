@@ -14,12 +14,38 @@
         "TSM",
         "SMCI",
         "DELL",
+        "CRWV",
         "CEG",
         "VST",
         "DLR"
       ],
       "key_downstream": [],
       "notes": "Calendar FY ends Jun"
+    },
+    "CRWV": {
+      "name": "CoreWeave Inc",
+      "exchange": "NASDAQ",
+      "currency_native": "USD",
+      "segment": "AI cloud pure-play",
+      "tier": "D1",
+      "role_in_chain": "Largest neocloud — pure-play NVDA GPU cluster operator for hyperscalers + AI labs (MSFT, OpenAI, IBM); FY25 revenue $5.1B (+167%); built ~470K GPU fleet by 2026",
+      "key_upstream": [
+        "NVDA",
+        "SMCI",
+        "DELL",
+        "MU",
+        "COHR",
+        "CEG",
+        "VST",
+        "DLR",
+        "EQIX"
+      ],
+      "key_downstream": [
+        "MSFT",
+        "META",
+        "IBM"
+      ],
+      "notes": "IPO Mar-28-2025"
     },
     "GOOGL": {
       "name": "Alphabet Inc",
@@ -177,6 +203,7 @@
         "AMZN",
         "ORCL",
         "TSLA",
+        "CRWV",
         "SMCI",
         "DELL",
         "HPE"
@@ -514,7 +541,7 @@
         "xAI",
         "MSFT",
         "META",
-        "CoreWeave",
+        "CRWV",
         "ORCL"
       ],
       "notes": "FY ends Jun; accounting scandal 2024"
