@@ -26,7 +26,7 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
@@ -142,16 +142,6 @@
       "shares": 16000,
       "value_usd": 7330817,
       "post_holding": 98010
-    },
-    {
-      "date": "2025-05-15",
-      "name": "Coleman Amy",
-      "role": "EVP, Chief Human Resources Off",
-      "type": "Sale",
-      "price": 452.01,
-      "shares": 13243,
-      "value_usd": 5985886,
-      "post_holding": 43100
     }
   ],
   "top_holders": [

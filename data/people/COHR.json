@@ -16,13 +16,43 @@
       "note": "former CEO; led II-VI/COHR merger 2022"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=COHR",
     "top_holders": "https://finance.yahoo.com/quote/COHR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-12",
+      "name": "Luther Sherri R",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 372.96,
+      "shares": 2000,
+      "value_usd": 745920,
+      "post_holding": 68475
+    },
+    {
+      "date": "2026-05-11",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 21.67,
+      "shares": 2000,
+      "value_usd": 43340,
+      "post_holding": 52298
+    },
+    {
+      "date": "2026-05-11",
+      "name": "Xia Howard H.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 354.5,
+      "shares": 2000,
+      "value_usd": 709000,
+      "post_holding": 50298
+    },
     {
       "date": "2026-04-22",
       "name": "Luther Sherri R",
@@ -142,36 +172,6 @@
       "shares": 2000,
       "value_usd": 329022,
       "post_holding": 8645
-    },
-    {
-      "date": "2025-12-02",
-      "name": "Xia Howard H.",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 21.67,
-      "shares": 2000,
-      "value_usd": 43340,
-      "post_holding": 52019
-    },
-    {
-      "date": "2025-12-02",
-      "name": "Xia Howard H.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 170,
-      "shares": 2000,
-      "value_usd": 340000,
-      "post_holding": 50019
-    },
-    {
-      "date": "2025-12-01",
-      "name": "Mocciaro Ilaria",
-      "role": "SVP, Finance",
-      "type": "Sale",
-      "price": 162.71,
-      "shares": 1377,
-      "value_usd": 224052,
-      "post_holding": 24033
     }
   ],
   "top_holders": [

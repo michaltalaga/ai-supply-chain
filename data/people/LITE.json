@@ -11,13 +11,33 @@
       "name": "Wajid Ali"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=LITE",
     "top_holders": "https://finance.yahoo.com/quote/LITE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-15",
+      "name": "Fletcher Pamela",
+      "role": "Director",
+      "type": "Sale",
+      "price": 940.82,
+      "shares": 1578,
+      "value_usd": 1484614,
+      "post_holding": 7406
+    },
+    {
+      "date": "2026-05-14",
+      "name": "Fletcher Pamela",
+      "role": "Director",
+      "type": "Sale",
+      "price": 1003.38,
+      "shares": 1577,
+      "value_usd": 1582322,
+      "post_holding": 8984
+    },
     {
       "date": "2026-05-11",
       "name": "Lillie Brian",
@@ -137,16 +157,6 @@
       "shares": 3421,
       "value_usd": 935762,
       "post_holding": 10561
-    },
-    {
-      "date": "2025-11-18",
-      "name": "Wupen Yuen",
-      "role": "PRESIDENT, GLOBAL BUS. UNITS",
-      "type": "Sale",
-      "price": 246,
-      "shares": 821,
-      "value_usd": 201966,
-      "post_holding": 95899
     }
   ],
   "top_holders": [

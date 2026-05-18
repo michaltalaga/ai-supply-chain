@@ -23,7 +23,7 @@
       "name": "Manuvir Das"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/",
     "insider_trades": "https://finviz.com/quote.ashx?t=NVDA",
@@ -41,16 +41,6 @@
       "post_holding": 7399771
     },
     {
-      "date": "2026-03-19",
-      "name": "Shah Aarti S.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 176.71,
-      "shares": 19000,
-      "value_usd": 3357549,
-      "post_holding": 36007
-    },
-    {
       "date": "2026-03-20",
       "name": "Robertson Donald F Jr",
       "role": "Principal Accounting Officer",
@@ -59,16 +49,6 @@
       "shares": 5396,
       "value_usd": 942944,
       "post_holding": 337120
-    },
-    {
-      "date": "2026-03-18",
-      "name": "Puri Ajay K",
-      "role": "EVP, Worldwide Field Ops",
-      "type": "Sale",
-      "price": 182.25,
-      "shares": 300000,
-      "value_usd": 54676140,
-      "post_holding": 3018547
     },
     {
       "date": "2026-03-20",
@@ -91,54 +71,24 @@
       "post_holding": 83060
     },
     {
-      "date": "2026-03-20",
-      "name": "MARK A STEVENS",
-      "role": "Director",
-      "type": "Proposed Sale",
-      "price": 178.56,
-      "shares": 1700000,
-      "value_usd": 303552000,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-03-20",
-      "name": "Colette Kress",
-      "role": "Officer",
-      "type": "Proposed Sale",
-      "price": 172.7,
-      "shares": 62650,
-      "value_usd": 10819655,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-03-20",
-      "name": "DONALD ROBERTSON",
-      "role": "Officer",
-      "type": "Proposed Sale",
-      "price": 178.56,
-      "shares": 5396,
-      "value_usd": 963510,
-      "post_holding": 0
-    },
-    {
       "date": "2026-03-19",
       "name": "Shah Aarti S.",
       "role": "Director",
-      "type": "Proposed Sale",
+      "type": "Sale",
       "price": 176.71,
       "shares": 19000,
       "value_usd": 3357549,
-      "post_holding": 0
+      "post_holding": 36007
     },
     {
       "date": "2026-03-18",
       "name": "Puri Ajay K",
-      "role": "Officer",
-      "type": "Proposed Sale",
+      "role": "EVP, Worldwide Field Ops",
+      "type": "Sale",
       "price": 182.25,
       "shares": 300000,
-      "value_usd": 54676153,
-      "post_holding": 0
+      "value_usd": 54676140,
+      "post_holding": 3018547
     },
     {
       "date": "2026-03-13",
@@ -151,16 +101,6 @@
       "post_holding": 14788
     },
     {
-      "date": "2026-03-13",
-      "name": "Dabiri John",
-      "role": "Director",
-      "type": "Proposed Sale",
-      "price": 184.9,
-      "shares": 3004,
-      "value_usd": 555440,
-      "post_holding": 0
-    },
-    {
       "date": "2026-03-10",
       "name": "Puri Ajay K",
       "role": "EVP, Worldwide Field Ops",
@@ -169,16 +109,6 @@
       "shares": 300000,
       "value_usd": 54756044,
       "post_holding": 3318547
-    },
-    {
-      "date": "2026-03-10",
-      "name": "Puri Ajay K",
-      "role": "Officer",
-      "type": "Proposed Sale",
-      "price": 182.52,
-      "shares": 300000,
-      "value_usd": 54756038,
-      "post_holding": 0
     },
     {
       "date": "2026-02-04",
@@ -211,16 +141,6 @@
       "post_holding": 3618547
     },
     {
-      "date": "2026-01-21",
-      "name": "Puri Ajay K",
-      "role": "Officer",
-      "type": "Proposed Sale",
-      "price": 180.04,
-      "shares": 200000,
-      "value_usd": 36007159,
-      "post_holding": 0
-    },
-    {
       "date": "2026-01-13",
       "name": "Kress Colette",
       "role": "EVP & Chief Financial Officer",
@@ -251,16 +171,6 @@
       "post_holding": 3818547
     },
     {
-      "date": "2026-01-07",
-      "name": "Puri Ajay K",
-      "role": "Officer",
-      "type": "Proposed Sale",
-      "price": 187.82,
-      "shares": 200000,
-      "value_usd": 37563625,
-      "post_holding": 0
-    },
-    {
       "date": "2026-01-02",
       "name": "Robertson Donald F Jr",
       "role": "Principal Accounting Officer",
@@ -269,16 +179,6 @@
       "shares": 80000,
       "value_usd": 15187742,
       "post_holding": 346860
-    },
-    {
-      "date": "2026-01-02",
-      "name": "DONALD ROBERTSON",
-      "role": "Officer",
-      "type": "Proposed Sale",
-      "price": 186.5,
-      "shares": 80000,
-      "value_usd": 14920000,
-      "post_holding": 0
     },
     {
       "date": "2025-12-19",
@@ -299,16 +199,6 @@
       "shares": 24590,
       "value_usd": 4425727,
       "post_holding": 426860
-    },
-    {
-      "date": "2025-12-19",
-      "name": "MARK A STEVENS",
-      "role": "Director",
-      "type": "Proposed Sale",
-      "price": 181,
-      "shares": 1700000,
-      "value_usd": 307700000,
-      "post_holding": 0
     }
   ],
   "ownership_breakdown": {

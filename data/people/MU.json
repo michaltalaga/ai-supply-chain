@@ -16,13 +16,23 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
     "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-11",
+      "name": "GOMO STEVEN J",
+      "role": "Director",
+      "type": "Sale",
+      "price": 787.03,
+      "shares": 2000,
+      "value_usd": 1574070,
+      "post_holding": 17139
+    },
     {
       "date": "2026-05-01",
       "name": "MEHROTRA SANJAY",

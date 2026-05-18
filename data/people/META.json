@@ -30,13 +30,33 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-11",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 604.57,
+      "shares": 926,
+      "value_usd": 559832,
+      "post_holding": 6853
+    },
+    {
+      "date": "2026-05-11",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 604.57,
+      "shares": 629,
+      "value_usd": 380275,
+      "post_holding": 2258
+    },
     {
       "date": "2026-05-04",
       "name": "Olivan Javier",
@@ -196,16 +216,6 @@
       "shares": 926,
       "value_usd": 587954,
       "post_holding": 15187
-    },
-    {
-      "date": "2026-03-09",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 634.94,
-      "shares": 629,
-      "value_usd": 399377,
-      "post_holding": 2771
     }
   ],
   "top_holders": [

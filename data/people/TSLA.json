@@ -24,13 +24,33 @@
       "note": "leads FSD"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSLA",
     "top_holders": "https://finance.yahoo.com/quote/TSLA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-13",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 18.29,
+      "shares": 3000,
+      "value_usd": 54880,
+      "post_holding": 21106
+    },
+    {
+      "date": "2026-05-13",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 450,
+      "shares": 3000,
+      "value_usd": 1350000,
+      "post_holding": 18106
+    },
     {
       "date": "2026-04-30",
       "name": "Wilson-Thompson Kathleen",
@@ -190,26 +210,6 @@
       "shares": 20000,
       "value_usd": 7275100,
       "post_holding": 47600
-    },
-    {
-      "date": "2025-09-08",
-      "name": "Taneja Vaibhav",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 352.38,
-      "shares": 2606,
-      "value_usd": 918137,
-      "post_holding": 9856
-    },
-    {
-      "date": "2025-09-05",
-      "name": "Taneja Vaibhav",
-      "role": "Chief Financial Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 6538,
-      "value_usd": 0,
-      "post_holding": 12462
     }
   ],
   "top_holders": [

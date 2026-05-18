@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,56 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-05-14",
+      "name": "Baker Jeff",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 113.94,
+      "shares": 42515,
+      "value_usd": 4844140,
+      "post_holding": 14
+    },
+    {
+      "date": "2026-05-13",
+      "name": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "type": "Sale",
+      "price": 110.55,
+      "shares": 76924,
+      "value_usd": 8504242,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-12",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 105.67,
+      "shares": 200000,
+      "value_usd": 21133902,
+      "post_holding": 4466501
+    },
+    {
+      "date": "2026-05-12",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 105.67,
+      "shares": 107693,
+      "value_usd": 11379866,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-11",
+      "name": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "type": "Sale",
+      "price": 115.85,
+      "shares": 375000,
+      "value_usd": 43443678,
+      "post_holding": 0
+    },
     {
       "date": "2026-05-08",
       "name": "Jain Sachin",

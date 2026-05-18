@@ -23,13 +23,53 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-14",
+      "name": "VANDERSLICE ELIZABETH W",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2613,
+      "value_usd": 0,
+      "post_holding": 36728
+    },
+    {
+      "date": "2026-05-14",
+      "name": "HOUSEHOLDER JOSEPH A",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2613,
+      "value_usd": 0,
+      "post_holding": 9066
+    },
+    {
+      "date": "2026-05-14",
+      "name": "Denzel Nora",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2613,
+      "value_usd": 0,
+      "post_holding": 97620
+    },
+    {
+      "date": "2026-05-13",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Sale",
+      "price": 445.51,
+      "shares": 125000,
+      "value_usd": 55688359,
+      "post_holding": 3021899
+    },
     {
       "date": "2026-05-08",
       "name": "GRASBY PAUL DARREN",
@@ -169,46 +209,6 @@
       "shares": 39044,
       "value_usd": 0,
       "post_holding": 475644
-    },
-    {
-      "date": "2026-02-15",
-      "name": "GRASBY PAUL DARREN",
-      "role": "EVP & CSO",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 7084,
-      "value_usd": 0,
-      "post_holding": 140428
-    },
-    {
-      "date": "2026-02-15",
-      "name": "Hahn Ava",
-      "role": "SVP, GC & Corporate Secretary",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 2268,
-      "value_usd": 0,
-      "post_holding": 18627
-    },
-    {
-      "date": "2026-02-15",
-      "name": "Norrod Forrest Eugene",
-      "role": "EVP & GM DESG",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 76966,
-      "value_usd": 0,
-      "post_holding": 366064
-    },
-    {
-      "date": "2026-02-11",
-      "name": "Norrod Forrest Eugene",
-      "role": "EVP & GM DESG",
-      "type": "Option Exercise",
-      "price": 34.19,
-      "shares": 8200,
-      "value_usd": 280358,
-      "post_holding": 308548
     }
   ],
   "top_holders": [

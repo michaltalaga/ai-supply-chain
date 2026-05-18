@@ -23,7 +23,7 @@
       "name": "Jeff Bezos"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMZN",
@@ -161,16 +161,6 @@
       "post_holding": 51839
     },
     {
-      "date": "2026-02-23",
-      "name": "Herrington Douglas J",
-      "role": "CEO Worldwide Amazon Stores",
-      "type": "Sale",
-      "price": 205.82,
-      "shares": 6835,
-      "value_usd": 1406785,
-      "post_holding": 522361
-    },
-    {
       "date": "2026-02-21",
       "name": "Jassy Andrew R",
       "role": "President and CEO",
@@ -219,16 +209,6 @@
       "shares": 17087,
       "value_usd": 0,
       "post_holding": 529196
-    },
-    {
-      "date": "2026-02-21",
-      "name": "Reynolds Shelley",
-      "role": "Vice President",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 2695,
-      "value_usd": 0,
-      "post_holding": 122475
     }
   ],
   "top_holders": [

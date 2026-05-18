@@ -10,7 +10,7 @@
       "name": "David Weigand"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SMCI",
@@ -187,36 +187,6 @@
       "shares": 67000,
       "value_usd": 2949494,
       "post_holding": 88599
-    },
-    {
-      "date": "2025-05-14",
-      "name": "Liang Charles",
-      "role": "President and CEO",
-      "type": "Sale",
-      "price": 44.95,
-      "shares": 200000,
-      "value_usd": 8989316,
-      "post_holding": 67203640
-    },
-    {
-      "date": "2025-05-14",
-      "name": "Liu Liang Chiu-Chu Sara",
-      "role": "Director",
-      "type": "Sale",
-      "price": 45.02,
-      "shares": 200000,
-      "value_usd": 9004622,
-      "post_holding": 67203640
-    },
-    {
-      "date": "2025-05-14",
-      "name": "KAO GEORGE",
-      "role": "SVP, OPERATIONS",
-      "type": "Option Exercise",
-      "price": 2.69,
-      "shares": 28400,
-      "value_usd": 76538,
-      "post_holding": 49024
     }
   ],
   "top_holders": [

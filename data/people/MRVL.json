@@ -15,13 +15,23 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
     "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-13",
+      "name": "MURPHY MATTHEW J",
+      "role": "Chairman of the Board and CEO",
+      "type": "Sale",
+      "price": 177.26,
+      "shares": 7500,
+      "value_usd": 1329450,
+      "post_holding": 739397
+    },
     {
       "date": "2026-05-01",
       "name": "Koopmans Chris",
@@ -181,16 +191,6 @@
       "shares": 30000,
       "value_usd": 2961000,
       "post_holding": 310106
-    },
-    {
-      "date": "2026-02-02",
-      "name": "MURPHY MATTHEW J",
-      "role": "Chairman of the Board and CEO",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 144662,
-      "value_usd": 0,
-      "post_holding": 412871
     }
   ],
   "top_holders": [

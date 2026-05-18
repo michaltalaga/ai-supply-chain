@@ -20,13 +20,23 @@
       "note": "SoftBank owns ~90%"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-05-18",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ARM",
     "top_holders": "https://finance.yahoo.com/quote/ARM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-11",
+      "name": "Collins Spencer",
+      "role": "Chief Legal Officer",
+      "type": "Sale",
+      "price": 211.73,
+      "shares": 51961,
+      "value_usd": 11001747,
+      "post_holding": 0
+    },
     {
       "date": "2026-04-22",
       "name": "Child Jason",
