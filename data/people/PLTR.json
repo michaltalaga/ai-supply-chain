@@ -23,13 +23,93 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-22",
+      "name": "Buckley Jeffrey",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 137.41,
+      "shares": 830,
+      "value_usd": 114050,
+      "post_holding": 61707
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Buckley Jeffrey",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 136.04,
+      "shares": 1712,
+      "value_usd": 232903,
+      "post_holding": 62537
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Glazer David A.",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 136.04,
+      "shares": 17128,
+      "value_usd": 2330130,
+      "post_holding": 375242
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Taylor Ryan D.",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 136.04,
+      "shares": 19662,
+      "value_usd": 2674859,
+      "post_holding": 199759
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Karp Alexander C.",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 136.04,
+      "shares": 397744,
+      "value_usd": 54109936,
+      "post_holding": 6432258
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Sankar Shyam",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 136.04,
+      "shares": 165514,
+      "value_usd": 22516876,
+      "post_holding": 642786
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Cohen Stephen Andrew",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 136.04,
+      "shares": 319934,
+      "value_usd": 43524501,
+      "post_holding": 592
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Moore Alexander D.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 134.04,
+      "shares": 16000,
+      "value_usd": 2144663,
+      "post_holding": 1124978
+    },
     {
       "date": "2026-04-15",
       "name": "Moore Alexander D.",
@@ -129,66 +209,6 @@
       "shares": 493025,
       "value_usd": 65955988,
       "post_holding": 6432258
-    },
-    {
-      "date": "2026-02-02",
-      "name": "Stat Lauren Elaina Friedman",
-      "role": "Director",
-      "type": "Sale",
-      "price": 151.14,
-      "shares": 400,
-      "value_usd": 60456,
-      "post_holding": 58287
-    },
-    {
-      "date": "2026-02-02",
-      "name": "Moore Alexander D.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 149.65,
-      "shares": 20000,
-      "value_usd": 2992984,
-      "post_holding": 1172978
-    },
-    {
-      "date": "2026-01-02",
-      "name": "Stat Lauren Elaina Friedman",
-      "role": "Director",
-      "type": "Sale",
-      "price": 181.35,
-      "shares": 3400,
-      "value_usd": 616590,
-      "post_holding": 58687
-    },
-    {
-      "date": "2026-01-02",
-      "name": "Moore Alexander D.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 172.98,
-      "shares": 20000,
-      "value_usd": 3459615,
-      "post_holding": 1192978
-    },
-    {
-      "date": "2026-01-02",
-      "name": "Taylor Ryan D.",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 181.35,
-      "shares": 12000,
-      "value_usd": 2176200,
-      "post_holding": 239409
-    },
-    {
-      "date": "2025-12-12",
-      "name": "Glazer David A.",
-      "role": "See Remarks",
-      "type": "Option Exercise",
-      "price": 4.72,
-      "shares": 9000,
-      "value_usd": 42480,
-      "post_holding": 422639
     }
   ],
   "top_holders": [

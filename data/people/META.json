@@ -30,7 +30,7 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
@@ -38,184 +38,254 @@
   },
   "insider_trades": [
     {
-      "date": "2026-05-11",
+      "date": "2026-05-18",
       "name": "Olivan Javier",
       "role": "Chief Operating Officer",
       "type": "Sale",
-      "price": 604.57,
-      "shares": 926,
-      "value_usd": 559832,
-      "post_holding": 6853
+      "price": 609.35,
+      "shares": 837,
+      "value_usd": 510026,
+      "post_holding": 14660
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-18",
       "name": "Olivan Javier",
       "role": "Chief Operating Officer",
       "type": "Sale",
-      "price": 604.57,
+      "price": 609.35,
       "shares": 629,
-      "value_usd": 380275,
-      "post_holding": 2258
+      "value_usd": 383281,
+      "post_holding": 2201
     },
     {
-      "date": "2026-05-04",
+      "date": "2026-05-18",
+      "name": "Bosworth Andrew",
+      "role": "Chief Technology Officer",
+      "type": "Sale",
+      "price": 607.83,
+      "shares": 7847,
+      "value_usd": 4769642,
+      "post_holding": 414
+    },
+    {
+      "date": "2026-05-18",
+      "name": "LI SUSAN J",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 607.84,
+      "shares": 9195,
+      "value_usd": 5589133,
+      "post_holding": 13186
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Powell Dina H.",
+      "role": "President and Vice Chairman",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 9635,
+      "value_usd": 0,
+      "post_holding": 10996
+    },
+    {
+      "date": "2026-05-15",
       "name": "Olivan Javier",
       "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 607.74,
-      "shares": 926,
-      "value_usd": 562767,
-      "post_holding": 7779
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 16388,
+      "value_usd": 0,
+      "post_holding": 23241
     },
     {
-      "date": "2026-05-04",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 607.74,
-      "shares": 629,
-      "value_usd": 382268,
-      "post_holding": 2315
+      "date": "2026-05-15",
+      "name": "Mahoney Curtis J.",
+      "role": "Chief Legal Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 6342,
+      "value_usd": 0,
+      "post_holding": 6342
     },
     {
-      "date": "2026-05-01",
+      "date": "2026-05-15",
+      "name": "Cox Christopher K",
+      "role": "Chief Product Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 16388,
+      "value_usd": 0,
+      "post_holding": 264382
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Bosworth Andrew",
+      "role": "Chief Technology Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 16388,
+      "value_usd": 0,
+      "post_holding": 16388
+    },
+    {
+      "date": "2026-05-15",
+      "name": "LI SUSAN J",
+      "role": "Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 13956,
+      "value_usd": 0,
+      "post_holding": 29302
+    },
+    {
+      "date": "2026-05-15",
+      "name": "LI SUSAN J",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 618.43,
+      "shares": 2127,
+      "value_usd": 1315401,
+      "post_holding": 15346
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Anderson Aaron",
+      "role": "Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2451,
+      "value_usd": 0,
+      "post_holding": 9497
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Songhurst Charles",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 709,
+      "value_usd": 0,
+      "post_holding": 1372
+    },
+    {
+      "date": "2026-05-15",
+      "name": "KIMMITT ROBERT M",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 600,
+      "value_usd": 0,
+      "post_holding": 4447
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Elkann John",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 709,
+      "value_usd": 0,
+      "post_holding": 1420
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Arnold John Douglas",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 767,
+      "value_usd": 0,
+      "post_holding": 3162
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Andreessen Marc L",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 480,
+      "value_usd": 0,
+      "post_holding": 49253
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Xu Tony",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 600,
+      "value_usd": 0,
+      "post_holding": 8269
+    },
+    {
+      "date": "2026-05-15",
+      "name": "White Dana",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 709,
+      "value_usd": 0,
+      "post_holding": 1394
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Travis Tracey Thomas",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 600,
+      "value_usd": 0,
+      "post_holding": 12844
+    },
+    {
+      "date": "2026-05-15",
+      "name": "TAN HOCK E",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 767,
+      "value_usd": 0,
+      "post_holding": 3162
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Killefer Nancy",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 600,
+      "value_usd": 0,
+      "post_holding": 12844
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Houston Andrew",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 600,
+      "value_usd": 0,
+      "post_holding": 12761
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Collison Patrick",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 703,
+      "value_usd": 0,
+      "post_holding": 1063
+    },
+    {
+      "date": "2026-05-15",
       "name": "Alford Peggy",
       "role": "Director",
-      "type": "Sale",
-      "price": 614.53,
-      "shares": 409,
-      "value_usd": 251343,
-      "post_holding": 2704
-    },
-    {
-      "date": "2026-04-27",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 670.84,
-      "shares": 926,
-      "value_usd": 621198,
-      "post_holding": 8705
-    },
-    {
-      "date": "2026-04-27",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 670.84,
-      "shares": 629,
-      "value_usd": 421958,
-      "post_holding": 2372
-    },
-    {
-      "date": "2026-04-20",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 680.09,
-      "shares": 926,
-      "value_usd": 629763,
-      "post_holding": 9631
-    },
-    {
-      "date": "2026-04-20",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 680.09,
-      "shares": 629,
-      "value_usd": 427777,
-      "post_holding": 2429
-    },
-    {
-      "date": "2026-04-15",
-      "name": "KIMMITT ROBERT M",
-      "role": "Director",
-      "type": "Sale",
-      "price": 667,
-      "shares": 580,
-      "value_usd": 386860,
-      "post_holding": 3847
-    },
-    {
-      "date": "2026-04-13",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 629.45,
-      "shares": 2778,
-      "value_usd": 1748599,
-      "post_holding": 10557
-    },
-    {
-      "date": "2026-04-13",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 629.55,
-      "shares": 1887,
-      "value_usd": 1187960,
-      "post_holding": 2486
-    },
-    {
-      "date": "2026-03-23",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 605.38,
-      "shares": 926,
-      "value_usd": 560582,
-      "post_holding": 13335
-    },
-    {
-      "date": "2026-03-23",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 605.38,
-      "shares": 629,
-      "value_usd": 380784,
-      "post_holding": 2657
-    },
-    {
-      "date": "2026-03-16",
-      "name": "KIMMITT ROBERT M",
-      "role": "Director",
-      "type": "Sale",
-      "price": 632.02,
-      "shares": 580,
-      "value_usd": 366572,
-      "post_holding": 4427
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 632.02,
-      "shares": 926,
-      "value_usd": 585251,
-      "post_holding": 14261
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 632.02,
-      "shares": 629,
-      "value_usd": 397541,
-      "post_holding": 2714
-    },
-    {
-      "date": "2026-03-09",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 634.94,
-      "shares": 926,
-      "value_usd": 587954,
-      "post_holding": 15187
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 600,
+      "value_usd": 0,
+      "post_holding": 3304
     }
   ],
   "top_holders": [

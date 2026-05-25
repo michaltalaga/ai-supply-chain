@@ -20,13 +20,113 @@
       "note": "SoftBank owns ~90%"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ARM",
     "top_holders": "https://finance.yahoo.com/quote/ARM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-21",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 287.03,
+      "shares": 4655,
+      "value_usd": 1336125,
+      "post_holding": 33629
+    },
+    {
+      "date": "2026-05-21",
+      "name": "Eaton Charlotte Claire",
+      "role": "Chief People Officer",
+      "type": "Sale",
+      "price": 290.01,
+      "shares": 7805,
+      "value_usd": 2263520,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-21",
+      "name": "Eaton Charlotte Claire",
+      "role": "Chief People Officer",
+      "type": "Sale",
+      "price": 282.77,
+      "shares": 4000,
+      "value_usd": 1131080,
+      "post_holding": 7805
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 257.18,
+      "shares": 5069,
+      "value_usd": 1303645,
+      "post_holding": 38284
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Child Jason",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 226.54,
+      "shares": 31920,
+      "value_usd": 7231157,
+      "post_holding": 174232
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Eaton Charlotte Claire",
+      "role": "Chief People Officer",
+      "type": "Sale",
+      "price": 252.25,
+      "shares": 3100,
+      "value_usd": 781975,
+      "post_holding": 11805
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Collins Spencer",
+      "role": "Chief Legal Officer",
+      "type": "Sale",
+      "price": 215,
+      "shares": 40941,
+      "value_usd": 8802315,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 224.14,
+      "shares": 10887,
+      "value_usd": 2440212,
+      "post_holding": 43353
+    },
+    {
+      "date": "2026-05-18",
+      "name": "Grisenthwaite Richard Roy",
+      "role": "Chief Architect",
+      "type": "Sale",
+      "price": 209.15,
+      "shares": 24339,
+      "value_usd": 5090502,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 212.55,
+      "shares": 7000,
+      "value_usd": 1487850,
+      "post_holding": 57394
+    },
     {
       "date": "2026-05-11",
       "name": "Collins Spencer",
@@ -36,6 +136,26 @@
       "shares": 51961,
       "value_usd": 11001747,
       "post_holding": 0
+    },
+    {
+      "date": "2026-04-24",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 221.99,
+      "shares": 1577,
+      "value_usd": 350078,
+      "post_holding": 55817
+    },
+    {
+      "date": "2026-04-23",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 199,
+      "shares": 1577,
+      "value_usd": 313823,
+      "post_holding": 54240
     },
     {
       "date": "2026-04-22",

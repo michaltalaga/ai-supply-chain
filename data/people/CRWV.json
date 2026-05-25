@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,126 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-05-20",
+      "name": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "type": "Sale",
+      "price": 101.09,
+      "shares": 76924,
+      "value_usd": 7776327,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "type": "Sale",
+      "price": 99.82,
+      "shares": 5887,
+      "value_usd": 587640,
+      "post_holding": 229079
+    },
+    {
+      "date": "2026-05-20",
+      "name": "McVeety Kristen J",
+      "role": "GC and Secretary",
+      "type": "Sale",
+      "price": 99.82,
+      "shares": 3833,
+      "value_usd": 382610,
+      "post_holding": 123961
+    },
+    {
+      "date": "2026-05-20",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 99.82,
+      "shares": 3683,
+      "value_usd": 367637,
+      "post_holding": 318086
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Jain Sachin",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 99.82,
+      "shares": 6377,
+      "value_usd": 636552,
+      "post_holding": 132325
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 99.82,
+      "shares": 13129,
+      "value_usd": 1310537,
+      "post_holding": 4276815
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Goldberg Chen",
+      "role": "EVP, Product & Engineering",
+      "type": "Sale",
+      "price": 100.34,
+      "shares": 14168,
+      "value_usd": 1421586,
+      "post_holding": 64909
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Baker Jeff",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 99.82,
+      "shares": 1320,
+      "value_usd": 131762,
+      "post_holding": 1119
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Agrawal Nitin",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 99.82,
+      "shares": 10062,
+      "value_usd": 1004389,
+      "post_holding": 199279
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 98.33,
+      "shares": 200000,
+      "value_usd": 19666188,
+      "post_holding": 4266501
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 98.33,
+      "shares": 107693,
+      "value_usd": 10589554,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-18",
+      "name": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "type": "Sale",
+      "price": 101.24,
+      "shares": 375000,
+      "value_usd": 37966423,
+      "post_holding": 0
+    },
     {
       "date": "2026-05-14",
       "name": "Baker Jeff",
@@ -44,186 +164,6 @@
       "price": 110.55,
       "shares": 76924,
       "value_usd": 8504242,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-05-12",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 105.67,
-      "shares": 200000,
-      "value_usd": 21133902,
-      "post_holding": 4466501
-    },
-    {
-      "date": "2026-05-12",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 105.67,
-      "shares": 107693,
-      "value_usd": 11379866,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-05-11",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 115.85,
-      "shares": 375000,
-      "value_usd": 43443678,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-05-08",
-      "name": "Jain Sachin",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 118.61,
-      "shares": 14750,
-      "value_usd": 1749560,
-      "post_holding": 123058
-    },
-    {
-      "date": "2026-05-07",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 129.91,
-      "shares": 159168,
-      "value_usd": 20677149,
-      "post_holding": 674490
-    },
-    {
-      "date": "2026-05-07",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 129.91,
-      "shares": 587010,
-      "value_usd": 76257073,
-      "post_holding": 242396
-    },
-    {
-      "date": "2026-05-06",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 136.71,
-      "shares": 797884,
-      "value_usd": 109080683,
-      "post_holding": 684836
-    },
-    {
-      "date": "2026-05-06",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 136.73,
-      "shares": 1202656,
-      "value_usd": 164441061,
-      "post_holding": 245545
-    },
-    {
-      "date": "2026-05-06",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 136.7,
-      "shares": 76924,
-      "value_usd": 10515594,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-05-06",
-      "name": "Jain Sachin",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 131.13,
-      "shares": 7335,
-      "value_usd": 961839,
-      "post_holding": 104068
-    },
-    {
-      "date": "2026-05-05",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 127.59,
-      "shares": 200000,
-      "value_usd": 25517452,
-      "post_holding": 4666501
-    },
-    {
-      "date": "2026-05-05",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 127.59,
-      "shares": 107693,
-      "value_usd": 13740253,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-05-05",
-      "name": "Goldberg Chen",
-      "role": "EVP, Product & Engineering",
-      "type": "Sale",
-      "price": 125,
-      "shares": 19222,
-      "value_usd": 2402750,
-      "post_holding": 62345
-    },
-    {
-      "date": "2026-05-05",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 127.68,
-      "shares": 349437,
-      "value_usd": 44614576,
-      "post_holding": 709883
-    },
-    {
-      "date": "2026-05-05",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 127.68,
-      "shares": 978764,
-      "value_usd": 124964223,
-      "post_holding": 253167
-    },
-    {
-      "date": "2026-05-04",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 127.29,
-      "shares": 420227,
-      "value_usd": 53489502,
-      "post_holding": 726283
-    },
-    {
-      "date": "2026-05-04",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 127.29,
-      "shares": 1155164,
-      "value_usd": 147037492,
-      "post_holding": 258166
-    },
-    {
-      "date": "2026-05-04",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 126.78,
-      "shares": 375000,
-      "value_usd": 47541261,
       "post_holding": 0
     }
   ],

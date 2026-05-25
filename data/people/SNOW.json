@@ -20,13 +20,33 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-19",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 144650,
+      "value_usd": 1284492,
+      "post_holding": 182696
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 175.45,
+      "shares": 144650,
+      "value_usd": 25378395,
+      "post_holding": 38046
+    },
     {
       "date": "2026-05-01",
       "name": "Speiser Michael L",
@@ -176,36 +196,6 @@
       "shares": 1919,
       "value_usd": 336477,
       "post_holding": 53262
-    },
-    {
-      "date": "2026-03-10",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 182.44,
-      "shares": 2042,
-      "value_usd": 372542,
-      "post_holding": 47558
-    },
-    {
-      "date": "2026-03-10",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 182.44,
-      "shares": 550,
-      "value_usd": 100342,
-      "post_holding": 501835
-    },
-    {
-      "date": "2026-03-10",
-      "name": "Dageville Benoit",
-      "role": "Founder and Chief Architect",
-      "type": "Sale",
-      "price": 182.44,
-      "shares": 4183,
-      "value_usd": 763147,
-      "post_holding": 57124
     }
   ],
   "top_holders": [

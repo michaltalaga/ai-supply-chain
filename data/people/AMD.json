@@ -23,13 +23,53 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-20",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DESG",
+      "type": "Option Exercise",
+      "price": 34.19,
+      "shares": 8237,
+      "value_usd": 281623,
+      "post_holding": 344014
+    },
+    {
+      "date": "2026-05-20",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DESG",
+      "type": "Sale",
+      "price": 431.4,
+      "shares": 19487,
+      "value_usd": 8406784,
+      "post_holding": 324527
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Option Exercise",
+      "price": 84.85,
+      "shares": 6000,
+      "value_usd": 509100,
+      "post_holding": 1239687
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 433.79,
+      "shares": 6000,
+      "value_usd": 2602740,
+      "post_holding": 1233687
+    },
     {
       "date": "2026-05-14",
       "name": "VANDERSLICE ELIZABETH W",
@@ -159,56 +199,6 @@
       "shares": 3034,
       "value_usd": 606800,
       "post_holding": 1297759
-    },
-    {
-      "date": "2026-03-01",
-      "name": "Hu Jean X.",
-      "role": "EVP, CFO and Treasurer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 131942,
-      "value_usd": 0,
-      "post_holding": 156890
-    },
-    {
-      "date": "2026-02-18",
-      "name": "Hahn Ava",
-      "role": "SVP, GC & Corporate Secretary",
-      "type": "Sale",
-      "price": 198.65,
-      "shares": 286,
-      "value_usd": 56814,
-      "post_holding": 17216
-    },
-    {
-      "date": "2026-02-17",
-      "name": "Hu Jean X.",
-      "role": "EVP, CFO and Treasurer",
-      "type": "Sale",
-      "price": 201.62,
-      "shares": 19956,
-      "value_usd": 4023581,
-      "post_holding": 24948
-    },
-    {
-      "date": "2026-02-15",
-      "name": "Hu Jean X.",
-      "role": "EVP, CFO and Treasurer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 30788,
-      "value_usd": 0,
-      "post_holding": 56320
-    },
-    {
-      "date": "2026-02-15",
-      "name": "HUYNH JACK M",
-      "role": "SVP & GM, Computing & Graphics",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 39044,
-      "value_usd": 0,
-      "post_holding": 475644
     }
   ],
   "top_holders": [

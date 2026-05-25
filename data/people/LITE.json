@@ -11,13 +11,63 @@
       "name": "Wajid Ali"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=LITE",
     "top_holders": "https://finance.yahoo.com/quote/LITE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-21",
+      "name": "Small Ian",
+      "role": "Director",
+      "type": "Sale",
+      "price": 868.07,
+      "shares": 4954,
+      "value_usd": 4300419,
+      "post_holding": 21008
+    },
+    {
+      "date": "2026-05-18",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 953.95,
+      "shares": 3210,
+      "value_usd": 3062180,
+      "post_holding": 81488
+    },
+    {
+      "date": "2026-05-18",
+      "name": "Retort Vincent",
+      "role": "SEE REMARKS",
+      "type": "Sale",
+      "price": 953.95,
+      "shares": 3183,
+      "value_usd": 3036423,
+      "post_holding": 89563
+    },
+    {
+      "date": "2026-05-18",
+      "name": "Kim Jae",
+      "role": "SVP, GENERAL COUNSEL",
+      "type": "Sale",
+      "price": 953.95,
+      "shares": 1422,
+      "value_usd": 1356517,
+      "post_holding": 32333
+    },
+    {
+      "date": "2026-05-18",
+      "name": "Ali Wajid",
+      "role": "EVP & CHIEF FINANCIAL OFFICER",
+      "type": "Sale",
+      "price": 953.95,
+      "shares": 2487,
+      "value_usd": 2372474,
+      "post_holding": 60951
+    },
     {
       "date": "2026-05-15",
       "name": "Fletcher Pamela",
@@ -107,56 +157,6 @@
       "shares": 3441,
       "value_usd": 1878025,
       "post_holding": 95975
-    },
-    {
-      "date": "2026-02-12",
-      "name": "Retort Vincent",
-      "role": "SEE REMARKS",
-      "type": "Sale",
-      "price": 591.32,
-      "shares": 45026,
-      "value_usd": 26624903,
-      "post_holding": 102455
-    },
-    {
-      "date": "2026-02-12",
-      "name": "HERSCHER PENNY",
-      "role": "Director",
-      "type": "Sale",
-      "price": 597.29,
-      "shares": 4000,
-      "value_usd": 2389180,
-      "post_holding": 2057
-    },
-    {
-      "date": "2026-02-06",
-      "name": "HERSCHER PENNY",
-      "role": "Director",
-      "type": "Sale",
-      "price": 535.48,
-      "shares": 4849,
-      "value_usd": 2596542,
-      "post_holding": 6057
-    },
-    {
-      "date": "2025-11-19",
-      "name": "Wupen Yuen",
-      "role": "PRESIDENT, GLOBAL BUS. UNITS",
-      "type": "Sale",
-      "price": 258.96,
-      "shares": 822,
-      "value_usd": 212865,
-      "post_holding": 95077
-    },
-    {
-      "date": "2025-11-19",
-      "name": "Fletcher Pamela",
-      "role": "Director",
-      "type": "Sale",
-      "price": 273.53,
-      "shares": 3421,
-      "value_usd": 935762,
-      "post_holding": 10561
     }
   ],
   "top_holders": [

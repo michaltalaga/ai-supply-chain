@@ -35,13 +35,43 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-15",
+      "name": "Hennessy John L.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 393.26,
+      "shares": 1050,
+      "value_usd": 412920,
+      "post_holding": 2531
+    },
+    {
+      "date": "2026-05-15",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 23.75,
+      "shares": 87475,
+      "value_usd": 2077479,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-14",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 23.01,
+      "shares": 60077,
+      "value_usd": 1382330,
+      "post_holding": 0
+    },
     {
       "date": "2026-04-30",
       "name": "ARNOLD FRANCES",

@@ -15,13 +15,53 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
     "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-20",
+      "name": "Koopmans Chris",
+      "role": "President and COO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 18744,
+      "value_usd": 0,
+      "post_holding": 256686
+    },
+    {
+      "date": "2026-05-20",
+      "name": "MURPHY MATTHEW J",
+      "role": "Chairman of the Board and CEO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 117742,
+      "value_usd": 0,
+      "post_holding": 857139
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Koopmans Chris",
+      "role": "President and COO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 56232,
+      "value_usd": 0,
+      "post_holding": 265824
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Meintjes Willem A",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 175.24,
+      "shares": 4000,
+      "value_usd": 700960,
+      "post_holding": 226675
+    },
     {
       "date": "2026-05-13",
       "name": "MURPHY MATTHEW J",
@@ -161,36 +201,6 @@
       "shares": 10854,
       "value_usd": 1161487,
       "post_holding": 4023
-    },
-    {
-      "date": "2026-04-01",
-      "name": "Casper Mark",
-      "role": "EVP & Chief Legal Officer",
-      "type": "Sale",
-      "price": 105.11,
-      "shares": 7000,
-      "value_usd": 735770,
-      "post_holding": 14877
-    },
-    {
-      "date": "2026-03-26",
-      "name": "Bharathi Sandeep",
-      "role": "President, Data Center Group",
-      "type": "Sale",
-      "price": 99.61,
-      "shares": 44414,
-      "value_usd": 4424079,
-      "post_holding": 55199
-    },
-    {
-      "date": "2026-03-26",
-      "name": "MURPHY MATTHEW J",
-      "role": "Chairman of the Board and CEO",
-      "type": "Sale",
-      "price": 98.7,
-      "shares": 30000,
-      "value_usd": 2961000,
-      "post_holding": 310106
     }
   ],
   "top_holders": [

@@ -20,13 +20,33 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
     "top_holders": "https://finance.yahoo.com/quote/TSM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-19",
+      "name": "Chuang Tzu-Sou",
+      "role": "VP",
+      "type": "Sale",
+      "price": 69.83,
+      "shares": 200000,
+      "value_usd": 13966000,
+      "post_holding": 2495165
+    },
+    {
+      "date": "2026-05-19",
+      "name": "Tien Bor-Zen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 69.91,
+      "shares": 2000,
+      "value_usd": 139810,
+      "post_holding": 11051
+    },
     {
       "date": "2026-05-08",
       "name": "Wei Che-Chia",

@@ -26,13 +26,23 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-05-18",
+  "as_of": "2026-05-25",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-14",
+      "name": "Coleman Amy",
+      "role": "EVP, Chief Human Resources Off",
+      "type": "Sale",
+      "price": 411.34,
+      "shares": 1262,
+      "value_usd": 519242,
+      "post_holding": 46003
+    },
     {
       "date": "2026-03-06",
       "name": "Hogan Kathleen T",
@@ -122,26 +132,6 @@
       "shares": 1000,
       "value_usd": 460008,
       "post_holding": 47058
-    },
-    {
-      "date": "2025-05-21",
-      "name": "Hogan Kathleen T",
-      "role": "EVP, Strategy",
-      "type": "Sale",
-      "price": 453.77,
-      "shares": 21500,
-      "value_usd": 9756152,
-      "post_holding": 134888
-    },
-    {
-      "date": "2025-05-19",
-      "name": "Althoff Judson",
-      "role": "EVP, Chief Commercial Officer",
-      "type": "Sale",
-      "price": 458.18,
-      "shares": 16000,
-      "value_usd": 7330817,
-      "post_holding": 98010
     }
   ],
   "top_holders": [
