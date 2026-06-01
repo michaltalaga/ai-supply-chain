@@ -23,13 +23,23 @@
       "name": "Manuvir Das"
     }
   ],
-  "as_of": "2026-05-25",
+  "as_of": "2026-06-01",
   "sources": {
     "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/",
     "insider_trades": "https://finviz.com/quote.ashx?t=NVDA",
     "top_holders": "https://finance.yahoo.com/quote/NVDA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-27",
+      "name": "Dabiri John",
+      "role": "Director",
+      "type": "Sale",
+      "price": 214,
+      "shares": 625,
+      "value_usd": 133750,
+      "post_holding": 14163
+    },
     {
       "date": "2026-03-20",
       "name": "STEVENS MARK A",
@@ -189,16 +199,6 @@
       "shares": 222500,
       "value_usd": 40087380,
       "post_holding": 7621453
-    },
-    {
-      "date": "2025-12-19",
-      "name": "Robertson Donald F Jr",
-      "role": "Principal Accounting Officer",
-      "type": "Sale",
-      "price": 179.98,
-      "shares": 24590,
-      "value_usd": 4425727,
-      "post_holding": 426860
     }
   ],
   "ownership_breakdown": {

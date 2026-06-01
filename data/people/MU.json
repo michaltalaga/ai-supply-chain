@@ -16,7 +16,7 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-05-25",
+  "as_of": "2026-06-01",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
@@ -172,16 +172,6 @@
       "shares": 15000,
       "value_usd": 4156350,
       "post_holding": 165618
-    },
-    {
-      "date": "2025-12-19",
-      "name": "GOMO STEVEN J",
-      "role": "Director",
-      "type": "Sale",
-      "price": 263.63,
-      "shares": 5000,
-      "value_usd": 1318150,
-      "post_holding": 19139
     }
   ],
   "top_holders": [

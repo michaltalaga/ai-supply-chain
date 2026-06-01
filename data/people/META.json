@@ -30,13 +30,43 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-05-25",
+  "as_of": "2026-06-01",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-27",
+      "name": "Mahoney Curtis J.",
+      "role": "Chief Legal Officer",
+      "type": "Sale",
+      "price": 609.92,
+      "shares": 2079,
+      "value_usd": 1268024,
+      "post_holding": 1118
+    },
+    {
+      "date": "2026-05-26",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 608.98,
+      "shares": 837,
+      "value_usd": 509716,
+      "post_holding": 13823
+    },
+    {
+      "date": "2026-05-26",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 608.98,
+      "shares": 629,
+      "value_usd": 383048,
+      "post_holding": 2144
+    },
     {
       "date": "2026-05-18",
       "name": "Olivan Javier",
@@ -266,26 +296,6 @@
       "shares": 600,
       "value_usd": 0,
       "post_holding": 12761
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Collison Patrick",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 703,
-      "value_usd": 0,
-      "post_holding": 1063
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Alford Peggy",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 600,
-      "value_usd": 0,
-      "post_holding": 3304
     }
   ],
   "top_holders": [

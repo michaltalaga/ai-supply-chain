@@ -26,7 +26,7 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-05-25",
+  "as_of": "2026-06-01",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
@@ -122,16 +122,6 @@
       "shares": 3000,
       "value_usd": 1389000,
       "post_holding": 43930
-    },
-    {
-      "date": "2025-05-30",
-      "name": "Numoto Takeshi",
-      "role": "EVP, Chief Marketing Officer",
-      "type": "Sale",
-      "price": 460.01,
-      "shares": 1000,
-      "value_usd": 460008,
-      "post_holding": 47058
     }
   ],
   "top_holders": [

@@ -20,13 +20,23 @@
       "note": "SoftBank owns ~90%"
     }
   ],
-  "as_of": "2026-05-25",
+  "as_of": "2026-06-01",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ARM",
     "top_holders": "https://finance.yahoo.com/quote/ARM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-22",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 305.82,
+      "shares": 2300,
+      "value_usd": 703386,
+      "post_holding": 31329
+    },
     {
       "date": "2026-05-21",
       "name": "Abbey William",
