@@ -19,7 +19,7 @@
       "name": "Bill Scannell"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
@@ -27,134 +27,164 @@
   },
   "insider_trades": [
     {
-      "date": "2026-04-16",
-      "name": "SLTA V (GP), L.L.C.",
+      "date": "2026-06-03",
+      "name": "Silver Lake Partners IV, L.P.",
       "role": "Director",
       "type": "Sale",
-      "price": 176.81,
-      "shares": 382000,
-      "value_usd": 67542560,
+      "price": 422.98,
+      "shares": 84365,
+      "value_usd": 35684700,
+      "post_holding": 7521
+    },
+    {
+      "date": "2026-06-03",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 422.97,
+      "shares": 609,
+      "value_usd": 257591,
       "post_holding": 0
     },
     {
-      "date": "2026-04-16",
-      "name": "SLTA IV (GP), L.L.C.",
+      "date": "2026-06-03",
+      "name": "Silver Lake Technology Investo",
       "role": "Director",
       "type": "Sale",
-      "price": 176.81,
-      "shares": 382000,
-      "value_usd": 67542560,
+      "price": 422.98,
+      "shares": 1351,
+      "value_usd": 571445,
       "post_holding": 0
     },
     {
-      "date": "2026-04-15",
-      "name": "SLTA V (GP), L.L.C.",
+      "date": "2026-06-03",
+      "name": "Silver Lake Partners V DE (AIV",
       "role": "Director",
       "type": "Sale",
-      "price": 177.24,
-      "shares": 458666,
-      "value_usd": 81293378,
+      "price": 422.98,
+      "shares": 35437,
+      "value_usd": 14989134,
+      "post_holding": 94207
+    },
+    {
+      "date": "2026-06-03",
+      "name": "SL SPV-2, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 422.98,
+      "shares": 78236,
+      "value_usd": 33092256,
+      "post_holding": 11274
+    },
+    {
+      "date": "2026-06-02",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 458.18,
+      "shares": 141,
+      "value_usd": 64604,
       "post_holding": 0
     },
     {
-      "date": "2026-04-15",
-      "name": "SLTA IV (GP), L.L.C.",
+      "date": "2026-06-02",
+      "name": "Silver Lake Technology Investo",
       "role": "Director",
       "type": "Sale",
-      "price": 177.24,
-      "shares": 458666,
-      "value_usd": 81293378,
+      "price": 438.93,
+      "shares": 1280,
+      "value_usd": 561824,
+      "post_holding": 140
+    },
+    {
+      "date": "2026-06-02",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 458.16,
+      "shares": 311,
+      "value_usd": 142487,
       "post_holding": 0
     },
     {
-      "date": "2026-04-15",
-      "name": "CLARKE JEFFREY W",
-      "role": "COO & Vice Chairman",
-      "type": "Sale",
-      "price": 182.48,
-      "shares": 116000,
-      "value_usd": 21167680,
-      "post_holding": 1687414
-    },
-    {
-      "date": "2026-04-09",
-      "name": "Kennedy David Alan",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 182.53,
-      "shares": 19500,
-      "value_usd": 3559335,
-      "post_holding": 183097
-    },
-    {
-      "date": "2026-03-23",
-      "name": "Scannell William F",
-      "role": "Chief Customer Officer",
-      "type": "Sale",
-      "price": 165,
-      "shares": 143067,
-      "value_usd": 23606055,
-      "post_holding": 21779
-    },
-    {
-      "date": "2026-03-23",
-      "name": "SLTA V (GP), L.L.C.",
+      "date": "2026-06-02",
+      "name": "Silver Lake Technology Investo",
       "role": "Director",
       "type": "Sale",
-      "price": 162.25,
-      "shares": 459999,
-      "value_usd": 74635870,
-      "post_holding": 0
+      "price": 438.91,
+      "shares": 2834,
+      "value_usd": 1243864,
+      "post_holding": 310
     },
     {
-      "date": "2026-03-23",
-      "name": "SLTA IV (GP), L.L.C.",
+      "date": "2026-06-02",
+      "name": "SL SPV-2, L.P.",
       "role": "Director",
       "type": "Sale",
-      "price": 162.25,
-      "shares": 459999,
-      "value_usd": 74635870,
-      "post_holding": 0
+      "price": 458.12,
+      "shares": 17932,
+      "value_usd": 8215042,
+      "post_holding": 26232
     },
     {
-      "date": "2026-03-20",
-      "name": "SLTA V (GP), L.L.C.",
+      "date": "2026-06-02",
+      "name": "SL SPV-2, L.P.",
       "role": "Director",
       "type": "Sale",
-      "price": 166.96,
-      "shares": 150022,
-      "value_usd": 25047217,
-      "post_holding": 0
+      "price": 438.91,
+      "shares": 164047,
+      "value_usd": 72002137,
+      "post_holding": 44163
     },
     {
-      "date": "2026-03-20",
-      "name": "SLTA IV (GP), L.L.C.",
+      "date": "2026-06-02",
+      "name": "Silver Lake Partners V DE (AIV",
       "role": "Director",
       "type": "Sale",
-      "price": 166.96,
-      "shares": 150022,
-      "value_usd": 25047217,
-      "post_holding": 0
+      "price": 458.12,
+      "shares": 8118,
+      "value_usd": 3719030,
+      "post_holding": 79906
     },
     {
-      "date": "2026-03-20",
-      "name": "SLTA V (GP), L.L.C.",
+      "date": "2026-06-02",
+      "name": "Silver Lake Partners V DE (AIV",
       "role": "Director",
       "type": "Sale",
-      "price": 164.54,
-      "shares": 299979,
-      "value_usd": 49357590,
-      "post_holding": 538
+      "price": 438.91,
+      "shares": 74265,
+      "value_usd": 32595766,
+      "post_holding": 88024
     },
     {
-      "date": "2026-03-20",
-      "name": "SLTA IV (GP), L.L.C.",
+      "date": "2026-06-02",
+      "name": "Silver Lake Partners IV, L.P.",
       "role": "Director",
       "type": "Sale",
-      "price": 164.54,
-      "shares": 299979,
-      "value_usd": 49357590,
-      "post_holding": 538
+      "price": 458.12,
+      "shares": 19320,
+      "value_usd": 8850912,
+      "post_holding": 17664
+    },
+    {
+      "date": "2026-06-02",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 438.91,
+      "shares": 176754,
+      "value_usd": 77579391,
+      "post_holding": 36984
+    },
+    {
+      "date": "2026-06-02",
+      "name": "Sharp Richard Troy",
+      "role": "Chief Accounting Officer",
+      "type": "Sale",
+      "price": 438.43,
+      "shares": 1300,
+      "value_usd": 569959,
+      "post_holding": 6730
     }
   ],
   "top_holders": [

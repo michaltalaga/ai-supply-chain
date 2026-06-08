@@ -30,13 +30,43 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-01",
+      "name": "KIMMITT ROBERT M",
+      "role": "Director",
+      "type": "Sale",
+      "price": 629.29,
+      "shares": 504,
+      "value_usd": 317162,
+      "post_holding": 3943
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 629.29,
+      "shares": 837,
+      "value_usd": 526716,
+      "post_holding": 12986
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 629.29,
+      "shares": 629,
+      "value_usd": 395823,
+      "post_holding": 2087
+    },
     {
       "date": "2026-05-27",
       "name": "Mahoney Curtis J.",
@@ -246,56 +276,6 @@
       "shares": 600,
       "value_usd": 0,
       "post_holding": 8269
-    },
-    {
-      "date": "2026-05-15",
-      "name": "White Dana",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 709,
-      "value_usd": 0,
-      "post_holding": 1394
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Travis Tracey Thomas",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 600,
-      "value_usd": 0,
-      "post_holding": 12844
-    },
-    {
-      "date": "2026-05-15",
-      "name": "TAN HOCK E",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 767,
-      "value_usd": 0,
-      "post_holding": 3162
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Killefer Nancy",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 600,
-      "value_usd": 0,
-      "post_holding": 12844
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Houston Andrew",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 600,
-      "value_usd": 0,
-      "post_holding": 12761
     }
   ],
   "top_holders": [

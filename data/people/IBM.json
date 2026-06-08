@@ -23,7 +23,7 @@
       "name": "Kareem Yusuf"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=IBM",
@@ -209,56 +209,6 @@
       "shares": 10237,
       "value_usd": 0,
       "post_holding": 10404
-    },
-    {
-      "date": "2025-06-08",
-      "name": "Thomas Robert David",
-      "role": "Senior Vice President",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 3443,
-      "value_usd": 0,
-      "post_holding": 48450
-    },
-    {
-      "date": "2025-06-08",
-      "name": "LAMOREAUX NICKLE JACLYN",
-      "role": "Senior Vice President",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 1379,
-      "value_usd": 0,
-      "post_holding": 42506
-    },
-    {
-      "date": "2025-06-08",
-      "name": "KRISHNA ARVIND",
-      "role": "Chairman, President & CEO",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 8606,
-      "value_usd": 0,
-      "post_holding": 342850
-    },
-    {
-      "date": "2025-06-08",
-      "name": "KAVANAUGH JAMES J",
-      "role": "Sr. VP and CFO",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 5163,
-      "value_usd": 0,
-      "post_holding": 153719
-    },
-    {
-      "date": "2025-06-08",
-      "name": "Fehring Nicolas A.",
-      "role": "VP, Controller",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 517,
-      "value_usd": 0,
-      "post_holding": 13042
     }
   ],
   "top_holders": [

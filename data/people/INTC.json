@@ -19,7 +19,7 @@
       "name": "Frank Yeary"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=INTC",
@@ -27,6 +27,16 @@
   },
   "note": "Pat Gelsinger out Dec 2024 amid foundry losses; Lip-Bu Tan named CEO Mar 2025",
   "insider_trades": [
+    {
+      "date": "2026-05-29",
+      "name": "Chandrasekaran Nagasubramaniya",
+      "role": "EVP, CT & Ops Off, GM Foundry",
+      "type": "Sale",
+      "price": 118.28,
+      "shares": 21024,
+      "value_usd": 2486698,
+      "post_holding": 205852
+    },
     {
       "date": "2026-05-01",
       "name": "Miller Boise April",

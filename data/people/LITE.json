@@ -11,13 +11,33 @@
       "name": "Wajid Ali"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=LITE",
     "top_holders": "https://finance.yahoo.com/quote/LITE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-02",
+      "name": "Harris Isaac Hosojiro",
+      "role": "Director",
+      "type": "Sale",
+      "price": 1000.08,
+      "shares": 1416,
+      "value_usd": 1416115,
+      "post_holding": 6984
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Harris Isaac Hosojiro",
+      "role": "Director",
+      "type": "Sale",
+      "price": 860,
+      "shares": 4000,
+      "value_usd": 3440000,
+      "post_holding": 8400
+    },
     {
       "date": "2026-05-21",
       "name": "Small Ian",
@@ -147,16 +167,6 @@
       "shares": 3157,
       "value_usd": 1698466,
       "post_holding": 88439
-    },
-    {
-      "date": "2026-02-17",
-      "name": "Retort Vincent",
-      "role": "SEE REMARKS",
-      "type": "Sale",
-      "price": 545.78,
-      "shares": 3441,
-      "value_usd": 1878025,
-      "post_holding": 95975
     }
   ],
   "top_holders": [

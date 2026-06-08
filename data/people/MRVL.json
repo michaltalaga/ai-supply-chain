@@ -15,13 +15,23 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
     "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-01",
+      "name": "Koopmans Chris",
+      "role": "President and COO",
+      "type": "Sale",
+      "price": 205.87,
+      "shares": 10000,
+      "value_usd": 2058700,
+      "post_holding": 237392
+    },
     {
       "date": "2026-05-20",
       "name": "Koopmans Chris",
@@ -191,16 +201,6 @@
       "shares": 10000,
       "value_usd": 1102400,
       "post_holding": 133870
-    },
-    {
-      "date": "2026-04-02",
-      "name": "Casper Mark",
-      "role": "EVP & Chief Legal Officer",
-      "type": "Sale",
-      "price": 107.01,
-      "shares": 10854,
-      "value_usd": 1161487,
-      "post_holding": 4023
     }
   ],
   "top_holders": [

@@ -16,13 +16,33 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
     "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-05-29",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 975.63,
+      "shares": 2561,
+      "value_usd": 2498589,
+      "post_holding": 384503
+    },
+    {
+      "date": "2026-05-29",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 960.38,
+      "shares": 37439,
+      "value_usd": 35955527,
+      "post_holding": 387064
+    },
     {
       "date": "2026-05-11",
       "name": "GOMO STEVEN J",
@@ -162,16 +182,6 @@
       "shares": 2000,
       "value_usd": 675000,
       "post_holding": 38237
-    },
-    {
-      "date": "2025-12-22",
-      "name": "ARNZEN APRIL S",
-      "role": "EVP and Chief People Officer",
-      "type": "Sale",
-      "price": 277.09,
-      "shares": 15000,
-      "value_usd": 4156350,
-      "post_holding": 165618
     }
   ],
   "top_holders": [

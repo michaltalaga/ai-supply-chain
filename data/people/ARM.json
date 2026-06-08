@@ -20,13 +20,43 @@
       "note": "SoftBank owns ~90%"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ARM",
     "top_holders": "https://finance.yahoo.com/quote/ARM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-02",
+      "name": "Bartels Laura Kathleen",
+      "role": "Chief Accounting Officer",
+      "type": "Sale",
+      "price": 392.7,
+      "shares": 11306,
+      "value_usd": 4439866,
+      "post_holding": 12135
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 402.72,
+      "shares": 6566,
+      "value_usd": 2644252,
+      "post_holding": 20563
+    },
+    {
+      "date": "2026-05-28",
+      "name": "Abbey William",
+      "role": "Chief Commercial Officer",
+      "type": "Sale",
+      "price": 343.81,
+      "shares": 4200,
+      "value_usd": 1444002,
+      "post_holding": 27129
+    },
     {
       "date": "2026-05-22",
       "name": "Abbey William",
@@ -206,16 +236,6 @@
       "shares": 23867,
       "value_usd": 3846726,
       "post_holding": 290965
-    },
-    {
-      "date": "2026-03-25",
-      "name": "Child Jason",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 148.37,
-      "shares": 21280,
-      "value_usd": 3157314,
-      "post_holding": 174706
     }
   ],
   "top_holders": [

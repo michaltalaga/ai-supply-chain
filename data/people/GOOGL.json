@@ -35,13 +35,154 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
-  "insider_trades": [],
+  "insider_trades": [
+    {
+      "date": "2026-05-29",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 381,
+      "shares": 102,
+      "value_usd": 38862,
+      "post_holding": 18721
+    },
+    {
+      "date": "2026-05-15",
+      "name": "Hennessy John L.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 393.26,
+      "shares": 1050,
+      "value_usd": 412920,
+      "post_holding": 2531
+    },
+    {
+      "date": "2026-05-15",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 23.75,
+      "shares": 87475,
+      "value_usd": 2077479,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-05-14",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 23.01,
+      "shares": 60077,
+      "value_usd": 1382330,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-04-30",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 371,
+      "shares": 102,
+      "value_usd": 37842,
+      "post_holding": 18621
+    },
+    {
+      "date": "2026-04-15",
+      "name": "Hennessy John L.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 331.65,
+      "shares": 1050,
+      "value_usd": 348232,
+      "post_holding": 3581
+    },
+    {
+      "date": "2026-04-01",
+      "name": "O'Toole Amie Thuener",
+      "role": "VP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 289.63,
+      "shares": 617,
+      "value_usd": 178702,
+      "post_holding": 10093
+    },
+    {
+      "date": "2026-03-30",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 275.19,
+      "shares": 102,
+      "value_usd": 28069,
+      "post_holding": 18316
+    },
+    {
+      "date": "2026-03-27",
+      "name": "WALKER JOHN KENT",
+      "role": "President, Global Affairs, CLO",
+      "type": "Sale",
+      "price": 275.89,
+      "shares": 8993,
+      "value_usd": 2481117,
+      "post_holding": 51808
+    },
+    {
+      "date": "2026-03-18",
+      "name": "Pichai Sundar",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 307.89,
+      "shares": 32500,
+      "value_usd": 10006385,
+      "post_holding": 1642060
+    },
+    {
+      "date": "2026-03-16",
+      "name": "Hennessy John L.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 303.41,
+      "shares": 1050,
+      "value_usd": 318579,
+      "post_holding": 4631
+    },
+    {
+      "date": "2026-03-04",
+      "name": "Pichai Sundar",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 303.38,
+      "shares": 32500,
+      "value_usd": 9859694,
+      "post_holding": 1674560
+    },
+    {
+      "date": "2026-03-03",
+      "name": "O'Toole Amie Thuener",
+      "role": "VP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 298,
+      "shares": 955,
+      "value_usd": 284590,
+      "post_holding": 9918
+    },
+    {
+      "date": "2026-03-02",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 302.99,
+      "shares": 112,
+      "value_usd": 33935,
+      "post_holding": 18418
+    }
+  ],
   "top_holders": [
     {
       "name": "Blackrock Inc.",

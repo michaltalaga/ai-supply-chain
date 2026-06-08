@@ -23,13 +23,33 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-02",
+      "name": "Denzel Nora",
+      "role": "Director",
+      "type": "Sale",
+      "price": 522,
+      "shares": 8626,
+      "value_usd": 4502772,
+      "post_holding": 87173
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Denzel Nora",
+      "role": "Director",
+      "type": "Sale",
+      "price": 522,
+      "shares": 1821,
+      "value_usd": 950562,
+      "post_holding": 95799
+    },
     {
       "date": "2026-05-20",
       "name": "Norrod Forrest Eugene",
@@ -179,16 +199,6 @@
       "shares": 85000,
       "value_usd": 16895157,
       "post_holding": 3146006
-    },
-    {
-      "date": "2026-03-11",
-      "name": "GRASBY PAUL DARREN",
-      "role": "EVP & CSO",
-      "type": "Sale",
-      "price": 204.87,
-      "shares": 7500,
-      "value_usd": 1536525,
-      "post_holding": 129598
     }
   ],
   "top_holders": [

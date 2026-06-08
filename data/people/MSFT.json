@@ -26,13 +26,23 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-01",
+      "name": "Althoff Judson",
+      "role": "CEO Microsoft Commercial",
+      "type": "Sale",
+      "price": 460.99,
+      "shares": 15500,
+      "value_usd": 7145314,
+      "post_holding": 110477
+    },
     {
       "date": "2026-05-14",
       "name": "Coleman Amy",
@@ -112,16 +122,6 @@
       "shares": 4850,
       "value_usd": 2557506,
       "post_holding": 39111
-    },
-    {
-      "date": "2025-06-03",
-      "name": "Numoto Takeshi",
-      "role": "EVP, Chief Marketing Officer",
-      "type": "Sale",
-      "price": 463,
-      "shares": 3000,
-      "value_usd": 1389000,
-      "post_holding": 43930
     }
   ],
   "top_holders": [

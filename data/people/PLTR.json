@@ -23,13 +23,33 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-01",
+      "name": "Stat Lauren Elaina Friedman",
+      "role": "Director",
+      "type": "Sale",
+      "price": 160,
+      "shares": 1598,
+      "value_usd": 255680,
+      "post_holding": 55022
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Stat Lauren Elaina Friedman",
+      "role": "Director",
+      "type": "Sale",
+      "price": 150,
+      "shares": 1667,
+      "value_usd": 250050,
+      "post_holding": 56620
+    },
     {
       "date": "2026-05-22",
       "name": "Buckley Jeffrey",
@@ -199,16 +219,6 @@
       "shares": 327088,
       "value_usd": 43737696,
       "post_holding": 592
-    },
-    {
-      "date": "2026-02-20",
-      "name": "Karp Alexander C.",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 133.78,
-      "shares": 493025,
-      "value_usd": 65955988,
-      "post_holding": 6432258
     }
   ],
   "top_holders": [

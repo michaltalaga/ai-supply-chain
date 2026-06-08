@@ -20,13 +20,83 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-08",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-01",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 162924,
+      "value_usd": 1446765,
+      "post_holding": 200970
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 263.7,
+      "shares": 162924,
+      "value_usd": 42962775,
+      "post_holding": 38046
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 272,
+      "shares": 10000,
+      "value_usd": 2720000,
+      "post_holding": 418494
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 437076,
+      "value_usd": 3881235,
+      "post_holding": 475122
+    },
+    {
+      "date": "2026-05-29",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 252.43,
+      "shares": 437076,
+      "value_usd": 110332853,
+      "post_holding": 38046
+    },
+    {
+      "date": "2026-05-29",
+      "name": "GARRETT MARK",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 3.74,
+      "shares": 100000,
+      "value_usd": 374000,
+      "post_holding": 108801
+    },
+    {
+      "date": "2026-05-29",
+      "name": "GARRETT MARK",
+      "role": "Director",
+      "type": "Sale",
+      "price": 250,
+      "shares": 100000,
+      "value_usd": 25000200,
+      "post_holding": 8801
+    },
     {
       "date": "2026-05-28",
       "name": "Kleinerman Christian",
@@ -126,76 +196,6 @@
       "shares": 403,
       "value_usd": 57063,
       "post_holding": 22509
-    },
-    {
-      "date": "2026-04-06",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 148.21,
-      "shares": 50338,
-      "value_usd": 7460343,
-      "post_holding": 29396
-    },
-    {
-      "date": "2026-04-06",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 148.21,
-      "shares": 403,
-      "value_usd": 59727,
-      "post_holding": 22912
-    },
-    {
-      "date": "2026-04-01",
-      "name": "Raghunathan Vivek",
-      "role": "SVP, Engineering",
-      "type": "Sale",
-      "price": 152.8,
-      "shares": 3876,
-      "value_usd": 592253,
-      "post_holding": 273323
-    },
-    {
-      "date": "2026-03-23",
-      "name": "Ho Emily",
-      "role": "Chief Accounting Officer",
-      "type": "Sale",
-      "price": 173.97,
-      "shares": 2141,
-      "value_usd": 372465,
-      "post_holding": 44553
-    },
-    {
-      "date": "2026-03-23",
-      "name": "Dageville Benoit",
-      "role": "Founder and Chief Architect",
-      "type": "Sale",
-      "price": 170.01,
-      "shares": 874,
-      "value_usd": 148589,
-      "post_holding": 65742
-    },
-    {
-      "date": "2026-03-23",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 170.01,
-      "shares": 2621,
-      "value_usd": 445596,
-      "post_holding": 533494
-    },
-    {
-      "date": "2026-03-18",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 8.88,
-      "shares": 88701,
-      "value_usd": 787665,
-      "post_holding": 126747
     }
   ],
   "top_holders": [
