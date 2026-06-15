@@ -23,13 +23,23 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-06-08",
+  "as_of": "2026-06-15",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-10",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Sale",
+      "price": 460.69,
+      "shares": 125000,
+      "value_usd": 57585715,
+      "post_holding": 2896899
+    },
     {
       "date": "2026-06-02",
       "name": "Denzel Nora",
@@ -189,16 +199,6 @@
       "shares": 3293,
       "value_usd": 740925,
       "post_holding": 1294466
-    },
-    {
-      "date": "2026-03-12",
-      "name": "Su Lisa T",
-      "role": "Chair, President & CEO",
-      "type": "Sale",
-      "price": 198.77,
-      "shares": 85000,
-      "value_usd": 16895157,
-      "post_holding": 3146006
     }
   ],
   "top_holders": [

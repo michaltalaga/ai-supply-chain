@@ -26,13 +26,33 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-06-08",
+  "as_of": "2026-06-15",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-10",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 402.84,
+      "shares": 4500,
+      "value_usd": 1812780,
+      "post_holding": 47468
+    },
+    {
+      "date": "2026-06-08",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 412.45,
+      "shares": 2500,
+      "value_usd": 1031125,
+      "post_holding": 51968
+    },
     {
       "date": "2026-06-01",
       "name": "Althoff Judson",

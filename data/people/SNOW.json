@@ -20,13 +20,43 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-06-08",
+  "as_of": "2026-06-15",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-09",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 239,
+      "shares": 2729,
+      "value_usd": 652231,
+      "post_holding": 413002
+    },
+    {
+      "date": "2026-06-05",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 245.21,
+      "shares": 50338,
+      "value_usd": 12343180,
+      "post_holding": 27716
+    },
+    {
+      "date": "2026-06-05",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 245.21,
+      "shares": 403,
+      "value_usd": 98818,
+      "post_holding": 22106
+    },
     {
       "date": "2026-06-01",
       "name": "Slootman Frank",
@@ -176,26 +206,6 @@
       "shares": 144650,
       "value_usd": 25378395,
       "post_holding": 38046
-    },
-    {
-      "date": "2026-05-01",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 141.6,
-      "shares": 50338,
-      "value_usd": 7127628,
-      "post_holding": 28556
-    },
-    {
-      "date": "2026-05-01",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 141.59,
-      "shares": 403,
-      "value_usd": 57063,
-      "post_holding": 22509
     }
   ],
   "top_holders": [

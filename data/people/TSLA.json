@@ -24,13 +24,33 @@
       "note": "leads FSD"
     }
   ],
-  "as_of": "2026-06-08",
+  "as_of": "2026-06-15",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSLA",
     "top_holders": "https://finance.yahoo.com/quote/TSLA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-08",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 402.2,
+      "shares": 2606,
+      "value_usd": 1047924,
+      "post_holding": 22039
+    },
+    {
+      "date": "2026-06-05",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 6538,
+      "value_usd": 0,
+      "post_holding": 24644
+    },
     {
       "date": "2026-05-13",
       "name": "Taneja Vaibhav",
@@ -190,26 +210,6 @@
       "shares": 60000,
       "value_usd": 25360800,
       "post_holding": 637031
-    },
-    {
-      "date": "2025-09-12",
-      "name": "Musk Elon",
-      "role": "CEO",
-      "type": "Buy",
-      "price": 389.28,
-      "shares": 2568732,
-      "value_usd": 999959042,
-      "post_holding": 413362808
-    },
-    {
-      "date": "2025-09-11",
-      "name": "Zhu Xiaotong",
-      "role": "SVP, APAC and",
-      "type": "Sale",
-      "price": 363.75,
-      "shares": 20000,
-      "value_usd": 7275100,
-      "post_holding": 47600
     }
   ],
   "top_holders": [
