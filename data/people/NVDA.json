@@ -23,7 +23,7 @@
       "name": "Manuvir Das"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/",
     "insider_trades": "https://finviz.com/quote.ashx?t=NVDA",
@@ -199,16 +199,6 @@
       "shares": 20000,
       "value_usd": 3698397,
       "post_holding": 103060
-    },
-    {
-      "date": "2026-01-07",
-      "name": "Puri Ajay K",
-      "role": "EVP, Worldwide Field Ops",
-      "type": "Sale",
-      "price": 187.82,
-      "shares": 200000,
-      "value_usd": 37563619,
-      "post_holding": 3818547
     }
   ],
   "ownership_breakdown": {

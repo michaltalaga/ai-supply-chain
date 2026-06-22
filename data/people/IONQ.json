@@ -21,7 +21,7 @@
       "name": "Thomas Kramer"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=IONQ",
@@ -117,36 +117,6 @@
       "shares": 5000,
       "value_usd": 23050,
       "post_holding": 65839
-    },
-    {
-      "date": "2025-12-22",
-      "name": "Chou Kathryn K.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 55,
-      "shares": 5000,
-      "value_usd": 275000,
-      "post_holding": 60839
-    },
-    {
-      "date": "2025-12-11",
-      "name": "Chou Kathryn K.",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 4.61,
-      "shares": 20000,
-      "value_usd": 92200,
-      "post_holding": 80839
-    },
-    {
-      "date": "2025-12-11",
-      "name": "Chou Kathryn K.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 51.4,
-      "shares": 20000,
-      "value_usd": 1027980,
-      "post_holding": 60839
     }
   ],
   "top_holders": [

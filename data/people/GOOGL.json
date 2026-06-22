@@ -35,13 +35,23 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-15",
+      "name": "Hennessy John L.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 368.63,
+      "shares": 1050,
+      "value_usd": 387063,
+      "post_holding": 1481
+    },
     {
       "date": "2026-05-29",
       "name": "ARNOLD FRANCES",
@@ -161,26 +171,6 @@
       "shares": 32500,
       "value_usd": 9859694,
       "post_holding": 1674560
-    },
-    {
-      "date": "2026-03-03",
-      "name": "O'Toole Amie Thuener",
-      "role": "VP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 298,
-      "shares": 955,
-      "value_usd": 284590,
-      "post_holding": 9918
-    },
-    {
-      "date": "2026-03-02",
-      "name": "ARNOLD FRANCES",
-      "role": "Director",
-      "type": "Sale",
-      "price": 302.99,
-      "shares": 112,
-      "value_usd": 33935,
-      "post_holding": 18418
     }
   ],
   "top_holders": [

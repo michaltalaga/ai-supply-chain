@@ -15,13 +15,43 @@
       "name": "Charlie Kawwas"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AVGO",
     "top_holders": "https://finance.yahoo.com/quote/AVGO/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-17",
+      "name": "Brazeal Mark David",
+      "role": "Chief Legal & Corp Affairs Ofc",
+      "type": "Sale",
+      "price": 394.91,
+      "shares": 4825,
+      "value_usd": 1905454,
+      "post_holding": 269989
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Brazeal Mark David",
+      "role": "Chief Legal & Corp Affairs Ofc",
+      "type": "Sale",
+      "price": 381.87,
+      "shares": 3327,
+      "value_usd": 1270465,
+      "post_holding": 274814
+    },
+    {
+      "date": "2026-06-11",
+      "name": "You Harry L.",
+      "role": "Director",
+      "type": "Buy",
+      "price": 373.57,
+      "shares": 1000,
+      "value_usd": 373570,
+      "post_holding": 38466
+    },
     {
       "date": "2026-04-10",
       "name": "Velaga S. Ram",
@@ -123,16 +153,6 @@
       "post_holding": 74626
     },
     {
-      "date": "2026-03-17",
-      "name": "Brazeal Mark David",
-      "role": "Chief Legal & Corp Affairs Ofc",
-      "type": "Sale",
-      "price": 321.6,
-      "shares": 50488,
-      "value_usd": 16236990,
-      "post_holding": 278141
-    },
-    {
       "date": "2026-03-16",
       "name": "Velaga S. Ram",
       "role": "President, ISG",
@@ -151,26 +171,6 @@
       "shares": 23862,
       "value_usd": 7781144,
       "post_holding": 364052
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Kawwas Charlie B",
-      "role": "President, SSG",
-      "type": "Sale",
-      "price": 326.1,
-      "shares": 25718,
-      "value_usd": 8386722,
-      "post_holding": 113742
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Brazeal Mark David",
-      "role": "Chief Legal & Corp Affairs Ofc",
-      "type": "Sale",
-      "price": 326.1,
-      "shares": 33194,
-      "value_usd": 10824704,
-      "post_holding": 328629
     }
   ],
   "top_holders": [

@@ -20,13 +20,43 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-16",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 240,
+      "shares": 2986,
+      "value_usd": 716640,
+      "post_holding": 405652
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Raghunathan Vivek",
+      "role": "SVP, Engineering",
+      "type": "Sale",
+      "price": 240,
+      "shares": 3876,
+      "value_usd": 930240,
+      "post_holding": 258689
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 240,
+      "shares": 8066,
+      "value_usd": 1935840,
+      "post_holding": 28535
+    },
     {
       "date": "2026-06-09",
       "name": "Kleinerman Christian",
@@ -165,46 +195,6 @@
       "price": 233.42,
       "shares": 400000,
       "value_usd": 93366579,
-      "post_holding": 38046
-    },
-    {
-      "date": "2026-05-26",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 8.88,
-      "shares": 55350,
-      "value_usd": 491508,
-      "post_holding": 93396
-    },
-    {
-      "date": "2026-05-26",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 176.52,
-      "shares": 55350,
-      "value_usd": 9770456,
-      "post_holding": 38046
-    },
-    {
-      "date": "2026-05-19",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 8.88,
-      "shares": 144650,
-      "value_usd": 1284492,
-      "post_holding": 182696
-    },
-    {
-      "date": "2026-05-19",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 175.45,
-      "shares": 144650,
-      "value_usd": 25378395,
       "post_holding": 38046
     }
   ],

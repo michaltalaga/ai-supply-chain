@@ -30,13 +30,33 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-15",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 600,
+      "shares": 1258,
+      "value_usd": 754800,
+      "post_holding": 1973
+    },
+    {
+      "date": "2026-06-15",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 600,
+      "shares": 140,
+      "value_usd": 84000,
+      "post_holding": 12846
+    },
     {
       "date": "2026-06-01",
       "name": "KIMMITT ROBERT M",
@@ -246,36 +266,6 @@
       "shares": 709,
       "value_usd": 0,
       "post_holding": 1420
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Arnold John Douglas",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 767,
-      "value_usd": 0,
-      "post_holding": 3162
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Andreessen Marc L",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 480,
-      "value_usd": 0,
-      "post_holding": 49253
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Xu Tony",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 600,
-      "value_usd": 0,
-      "post_holding": 8269
     }
   ],
   "top_holders": [

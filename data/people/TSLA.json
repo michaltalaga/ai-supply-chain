@@ -24,13 +24,23 @@
       "note": "leads FSD"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSLA",
     "top_holders": "https://finance.yahoo.com/quote/TSLA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-16",
+      "name": "Musk Elon",
+      "role": "CEO",
+      "type": "Option Exercise",
+      "price": 23.34,
+      "shares": 303960630,
+      "value_usd": 7094441104,
+      "post_holding": 727704534
+    },
     {
       "date": "2026-06-08",
       "name": "Taneja Vaibhav",

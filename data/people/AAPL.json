@@ -32,13 +32,23 @@
       "name": "John Giannandrea"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AAPL",
     "top_holders": "https://finance.yahoo.com/quote/AAPL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-16",
+      "name": "Borders Ben",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 295.14,
+      "shares": 116,
+      "value_usd": 34236,
+      "post_holding": 38713
+    },
     {
       "date": "2026-05-27",
       "name": "LEVINSON ARTHUR D",

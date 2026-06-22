@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-22",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,86 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-06-17",
+      "name": "Venturo Brian M",
+      "role": "Chief Strategy Officer",
+      "type": "Sale",
+      "price": 118.48,
+      "shares": 76924,
+      "value_usd": 9114110,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 116.65,
+      "shares": 200000,
+      "value_usd": 23330521,
+      "post_holding": 3476815
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 116.65,
+      "shares": 107692,
+      "value_usd": 12562551,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Agrawal Nitin",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 116.7,
+      "shares": 58429,
+      "value_usd": 6818584,
+      "post_holding": 193771
+    },
+    {
+      "date": "2026-06-15",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 107.3,
+      "shares": 52500,
+      "value_usd": 5633030,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-06-15",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 107.3,
+      "shares": 144000,
+      "value_usd": 15450607,
+      "post_holding": 258852
+    },
+    {
+      "date": "2026-06-15",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 107.3,
+      "shares": 53500,
+      "value_usd": 5740325,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-06-15",
+      "name": "Goldberg Chen",
+      "role": "EVP, Product & Engineering",
+      "type": "Sale",
+      "price": 107.29,
+      "shares": 5541,
+      "value_usd": 594472,
+      "post_holding": 59368
+    },
     {
       "date": "2026-06-11",
       "name": "Agrawal Nitin",
@@ -85,96 +165,6 @@
       "shares": 55500,
       "value_usd": 5652017,
       "post_holding": 0
-    },
-    {
-      "date": "2026-06-08",
-      "name": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "type": "Sale",
-      "price": 101.84,
-      "shares": 144000,
-      "value_usd": 14664710,
-      "post_holding": 258852
-    },
-    {
-      "date": "2026-06-08",
-      "name": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "type": "Sale",
-      "price": 101.84,
-      "shares": 50500,
-      "value_usd": 5142824,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-06-03",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 112.51,
-      "shares": 15385,
-      "value_usd": 1730905,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-06-03",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 112.51,
-      "shares": 61539,
-      "value_usd": 6923524,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-06-03",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 112.51,
-      "shares": 54474,
-      "value_usd": 6128667,
-      "post_holding": 174605
-    },
-    {
-      "date": "2026-06-02",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 122.38,
-      "shares": 200000,
-      "value_usd": 24475694,
-      "post_holding": 3876815
-    },
-    {
-      "date": "2026-06-02",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 122.38,
-      "shares": 107692,
-      "value_usd": 13179179,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-06-02",
-      "name": "Magnetar Financial LLC",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 130.56,
-      "shares": 112111,
-      "value_usd": 14636919,
-      "post_holding": 241920
-    },
-    {
-      "date": "2026-06-01",
-      "name": "Jain Sachin",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 120,
-      "shares": 3798,
-      "value_usd": 455760,
-      "post_holding": 127629
     }
   ],
   "top_holders": [
