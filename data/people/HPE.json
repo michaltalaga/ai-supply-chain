@@ -15,13 +15,23 @@
       "name": "Fidelma Russo"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=HPE",
     "top_holders": "https://finance.yahoo.com/quote/HPE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-22",
+      "name": "Karros Kirt P",
+      "role": "SVP, Treasurer, Corp Dev",
+      "type": "Sale",
+      "price": 48.5,
+      "shares": 18785,
+      "value_usd": 911072,
+      "post_holding": 0
+    },
     {
       "date": "2026-06-03",
       "name": "REINER GARY M",

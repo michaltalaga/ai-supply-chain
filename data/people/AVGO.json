@@ -15,13 +15,23 @@
       "name": "Charlie Kawwas"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AVGO",
     "top_holders": "https://finance.yahoo.com/quote/AVGO/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-24",
+      "name": "SAMUELI HENRY",
+      "role": "Director",
+      "type": "Sale",
+      "price": 382.13,
+      "shares": 654241,
+      "value_usd": 250005852,
+      "post_holding": 30247943
+    },
     {
       "date": "2026-06-17",
       "name": "Brazeal Mark David",
@@ -121,56 +131,6 @@
       "shares": 781967,
       "value_usd": 250000302,
       "post_holding": 30897799
-    },
-    {
-      "date": "2026-03-17",
-      "name": "Velaga S. Ram",
-      "role": "President, ISG",
-      "type": "Sale",
-      "price": 321.6,
-      "shares": 38841,
-      "value_usd": 12491272,
-      "post_holding": 96147
-    },
-    {
-      "date": "2026-03-17",
-      "name": "Spears Kirsten M.",
-      "role": "CFO & Chief Accounting Officer",
-      "type": "Sale",
-      "price": 321.6,
-      "shares": 36292,
-      "value_usd": 11671572,
-      "post_holding": 327760
-    },
-    {
-      "date": "2026-03-17",
-      "name": "Kawwas Charlie B",
-      "role": "President, SSG",
-      "type": "Sale",
-      "price": 321.61,
-      "shares": 39116,
-      "value_usd": 12579953,
-      "post_holding": 74626
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Velaga S. Ram",
-      "role": "President, ISG",
-      "type": "Sale",
-      "price": 326.1,
-      "shares": 25538,
-      "value_usd": 8327831,
-      "post_holding": 134988
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Spears Kirsten M.",
-      "role": "CFO & Chief Accounting Officer",
-      "type": "Sale",
-      "price": 326.09,
-      "shares": 23862,
-      "value_usd": 7781144,
-      "post_holding": 364052
     }
   ],
   "top_holders": [

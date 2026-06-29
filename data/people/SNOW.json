@@ -20,13 +20,63 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-24",
+      "name": "Ho Emily",
+      "role": "Chief Accounting Officer",
+      "type": "Sale",
+      "price": 232.25,
+      "shares": 1860,
+      "value_usd": 431976,
+      "post_holding": 41283
+    },
+    {
+      "date": "2026-06-23",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 228.45,
+      "shares": 2621,
+      "value_usd": 598767,
+      "post_holding": 400379
+    },
+    {
+      "date": "2026-06-22",
+      "name": "Beaulier Jonathan Mead",
+      "role": "Chief Revenue Officer",
+      "type": "Sale",
+      "price": 231.98,
+      "shares": 9367,
+      "value_usd": 2172957,
+      "post_holding": 234791
+    },
+    {
+      "date": "2026-06-18",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 200000,
+      "value_usd": 1776000,
+      "post_holding": 228535
+    },
+    {
+      "date": "2026-06-18",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 224.27,
+      "shares": 200000,
+      "value_usd": 44854036,
+      "post_holding": 28535
+    },
     {
       "date": "2026-06-16",
       "name": "Kleinerman Christian",
@@ -156,46 +206,6 @@
       "shares": 100000,
       "value_usd": 25000200,
       "post_holding": 8801
-    },
-    {
-      "date": "2026-05-28",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 236.77,
-      "shares": 5000,
-      "value_usd": 1183850,
-      "post_holding": 528494
-    },
-    {
-      "date": "2026-05-28",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 236.77,
-      "shares": 100,
-      "value_usd": 23677,
-      "post_holding": 4986
-    },
-    {
-      "date": "2026-05-28",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 8.88,
-      "shares": 400000,
-      "value_usd": 3552000,
-      "post_holding": 438046
-    },
-    {
-      "date": "2026-05-28",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 233.42,
-      "shares": 400000,
-      "value_usd": 93366579,
-      "post_holding": 38046
     }
   ],
   "top_holders": [

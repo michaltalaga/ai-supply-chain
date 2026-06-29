@@ -21,13 +21,43 @@
       "name": "Thomas Kramer"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=IONQ",
     "top_holders": "https://finance.yahoo.com/quote/IONQ/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-18",
+      "name": "TOLEDANO GABRIELLE B",
+      "role": "Director",
+      "type": "Sale",
+      "price": 55.01,
+      "shares": 2757,
+      "value_usd": 151663,
+      "post_holding": 11154
+    },
+    {
+      "date": "2026-06-18",
+      "name": "Chou Kathryn K.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 55.02,
+      "shares": 2757,
+      "value_usd": 151690,
+      "post_holding": 62608
+    },
+    {
+      "date": "2026-06-18",
+      "name": "Raymond John w",
+      "role": "Special Advisor",
+      "type": "Sale",
+      "price": 55.01,
+      "shares": 3815,
+      "value_usd": 209863,
+      "post_holding": 80148
+    },
     {
       "date": "2026-05-06",
       "name": "Cardillo Robert T.",
@@ -107,16 +137,6 @@
       "shares": 616,
       "value_usd": 19096,
       "post_holding": 9385
-    },
-    {
-      "date": "2025-12-22",
-      "name": "Chou Kathryn K.",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 4.61,
-      "shares": 5000,
-      "value_usd": 23050,
-      "post_holding": 65839
     }
   ],
   "top_holders": [

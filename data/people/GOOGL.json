@@ -35,7 +35,7 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
@@ -161,16 +161,6 @@
       "shares": 1050,
       "value_usd": 318579,
       "post_holding": 4631
-    },
-    {
-      "date": "2026-03-04",
-      "name": "Pichai Sundar",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 303.38,
-      "shares": 32500,
-      "value_usd": 9859694,
-      "post_holding": 1674560
     }
   ],
   "top_holders": [

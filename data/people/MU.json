@@ -16,7 +16,7 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
@@ -172,16 +172,6 @@
       "shares": 11600,
       "value_usd": 3910012,
       "post_holding": 14310
-    },
-    {
-      "date": "2026-01-06",
-      "name": "ALLEN SCOTT R.",
-      "role": "CVP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 337.5,
-      "shares": 2000,
-      "value_usd": 675000,
-      "post_holding": 38237
     }
   ],
   "top_holders": [

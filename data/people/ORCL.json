@@ -23,13 +23,33 @@
       "name": "Edward Screven"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ORCL",
     "top_holders": "https://finance.yahoo.com/quote/ORCL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-24",
+      "name": "HENLEY JEFFREY",
+      "role": "Vice Chairman",
+      "type": "Option Exercise",
+      "price": 40.93,
+      "shares": 400000,
+      "value_usd": 16372000,
+      "post_holding": 400000
+    },
+    {
+      "date": "2026-06-24",
+      "name": "HENLEY JEFFREY",
+      "role": "Vice Chairman",
+      "type": "Sale",
+      "price": 159.16,
+      "shares": 400000,
+      "value_usd": 63664040,
+      "post_holding": 0
+    },
     {
       "date": "2026-04-16",
       "name": "Levey Stuart",
@@ -159,36 +179,6 @@
       "shares": 2222,
       "value_usd": 641958,
       "post_holding": 29225
-    },
-    {
-      "date": "2025-09-23",
-      "name": "Sicilia Michael D.",
-      "role": "President, Industries",
-      "type": "Sale",
-      "price": 321.16,
-      "shares": 33845,
-      "value_usd": 10869660,
-      "post_holding": 132656
-    },
-    {
-      "date": "2025-09-20",
-      "name": "Sicilia Michael D.",
-      "role": "President, Industries",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 73411,
-      "value_usd": 0,
-      "post_holding": 201996
-    },
-    {
-      "date": "2025-09-19",
-      "name": "Sicilia Michael D.",
-      "role": "President, Industries",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 35801,
-      "value_usd": 0,
-      "post_holding": 145895
     }
   ],
   "top_holders": [

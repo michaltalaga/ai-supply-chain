@@ -15,13 +15,23 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-06-22",
+  "as_of": "2026-06-29",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
     "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-23",
+      "name": "Durn Daniel",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 281.01,
+      "shares": 2250,
+      "value_usd": 632272,
+      "post_holding": 6902
+    },
     {
       "date": "2026-06-16",
       "name": "Bharathi Sandeep",
@@ -201,26 +211,6 @@
       "shares": 83018,
       "value_usd": 0,
       "post_holding": 84495
-    },
-    {
-      "date": "2026-04-15",
-      "name": "MURPHY MATTHEW J",
-      "role": "Chairman of the Board and CEO",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 938324,
-      "value_usd": 0,
-      "post_holding": 1065841
-    },
-    {
-      "date": "2026-04-15",
-      "name": "MURPHY MATTHEW J",
-      "role": "Chairman of the Board and CEO",
-      "type": "Sale",
-      "price": 134.46,
-      "shares": 7500,
-      "value_usd": 1008450,
-      "post_holding": 302606
     }
   ],
   "top_holders": [
