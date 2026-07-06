@@ -35,13 +35,43 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-06-29",
+  "as_of": "2026-07-06",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-30",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 351.28,
+      "shares": 112,
+      "value_usd": 39343,
+      "post_holding": 18833
+    },
+    {
+      "date": "2026-06-29",
+      "name": "WALKER JOHN KENT",
+      "role": "President, Global Affairs, CLO",
+      "type": "Sale",
+      "price": 349.29,
+      "shares": 8998,
+      "value_usd": 3142916,
+      "post_holding": 75290
+    },
+    {
+      "date": "2026-06-26",
+      "name": "Saraci Marsida",
+      "role": "VP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 341.72,
+      "shares": 449,
+      "value_usd": 153432,
+      "post_holding": 27348
+    },
     {
       "date": "2026-06-15",
       "name": "Hennessy John L.",

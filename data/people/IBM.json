@@ -23,13 +23,23 @@
       "name": "Kareem Yusuf"
     }
   ],
-  "as_of": "2026-06-29",
+  "as_of": "2026-07-06",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=IBM",
     "top_holders": "https://finance.yahoo.com/quote/IBM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-01",
+      "name": "Robinson Anne",
+      "role": "Senior Vice President",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 7295,
+      "value_usd": 0,
+      "post_holding": 16271
+    },
     {
       "date": "2026-02-25",
       "name": "HOWARD MICHELLE J",
@@ -199,16 +209,6 @@
       "shares": 2742,
       "value_usd": 0,
       "post_holding": 15523
-    },
-    {
-      "date": "2025-07-01",
-      "name": "Robinson Anne",
-      "role": "Senior Vice President",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 10237,
-      "value_usd": 0,
-      "post_holding": 10404
     }
   ],
   "top_holders": [

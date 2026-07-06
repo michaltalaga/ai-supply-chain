@@ -20,13 +20,53 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-06-29",
+  "as_of": "2026-07-06",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-29",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 99900,
+      "value_usd": 887112,
+      "post_holding": 128435
+    },
+    {
+      "date": "2026-06-29",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 251.73,
+      "shares": 99900,
+      "value_usd": 25147562,
+      "post_holding": 28535
+    },
+    {
+      "date": "2026-06-26",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 100,
+      "value_usd": 888,
+      "post_holding": 28635
+    },
+    {
+      "date": "2026-06-26",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 250,
+      "shares": 100,
+      "value_usd": 25000,
+      "post_holding": 28535
+    },
     {
       "date": "2026-06-24",
       "name": "Ho Emily",
@@ -136,76 +176,6 @@
       "shares": 403,
       "value_usd": 98818,
       "post_holding": 22106
-    },
-    {
-      "date": "2026-06-01",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 8.88,
-      "shares": 162924,
-      "value_usd": 1446765,
-      "post_holding": 200970
-    },
-    {
-      "date": "2026-06-01",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 263.7,
-      "shares": 162924,
-      "value_usd": 42962775,
-      "post_holding": 38046
-    },
-    {
-      "date": "2026-06-01",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 272,
-      "shares": 10000,
-      "value_usd": 2720000,
-      "post_holding": 418494
-    },
-    {
-      "date": "2026-05-29",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 8.88,
-      "shares": 437076,
-      "value_usd": 3881235,
-      "post_holding": 475122
-    },
-    {
-      "date": "2026-05-29",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 252.43,
-      "shares": 437076,
-      "value_usd": 110332853,
-      "post_holding": 38046
-    },
-    {
-      "date": "2026-05-29",
-      "name": "GARRETT MARK",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 3.74,
-      "shares": 100000,
-      "value_usd": 374000,
-      "post_holding": 108801
-    },
-    {
-      "date": "2026-05-29",
-      "name": "GARRETT MARK",
-      "role": "Director",
-      "type": "Sale",
-      "price": 250,
-      "shares": 100000,
-      "value_usd": 25000200,
-      "post_holding": 8801
     }
   ],
   "top_holders": [

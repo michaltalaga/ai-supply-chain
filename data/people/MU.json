@@ -16,13 +16,43 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-06-29",
+  "as_of": "2026-07-06",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
     "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-06-30",
+      "name": "Dugle Lynn A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 1150.43,
+      "shares": 1300,
+      "value_usd": 1495559,
+      "post_holding": 17728
+    },
+    {
+      "date": "2026-06-26",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 1180.96,
+      "shares": 11494,
+      "value_usd": 13573977,
+      "post_holding": 344503
+    },
+    {
+      "date": "2026-06-26",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 1149.28,
+      "shares": 28506,
+      "value_usd": 32761315,
+      "post_holding": 355997
+    },
     {
       "date": "2026-05-29",
       "name": "MEHROTRA SANJAY",
@@ -132,46 +162,6 @@
       "shares": 12268,
       "value_usd": 5025987,
       "post_holding": 74675
-    },
-    {
-      "date": "2026-01-22",
-      "name": "BHATIA MANISH H",
-      "role": "EVP, Global Operations",
-      "type": "Sale",
-      "price": 391.04,
-      "shares": 26623,
-      "value_usd": 10410771,
-      "post_holding": 323486
-    },
-    {
-      "date": "2026-01-19",
-      "name": "ALLEN SCOTT R.",
-      "role": "CVP, Chief Accounting Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 269,
-      "value_usd": 0,
-      "post_holding": 37569
-    },
-    {
-      "date": "2026-01-14",
-      "name": "Liu Teyin M",
-      "role": "Director",
-      "type": "Buy",
-      "price": 337.22,
-      "shares": 11600,
-      "value_usd": 3911711,
-      "post_holding": 25910
-    },
-    {
-      "date": "2026-01-13",
-      "name": "Liu Teyin M",
-      "role": "Director",
-      "type": "Buy",
-      "price": 337.07,
-      "shares": 11600,
-      "value_usd": 3910012,
-      "post_holding": 14310
     }
   ],
   "top_holders": [

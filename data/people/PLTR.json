@@ -23,7 +23,7 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-06-29",
+  "as_of": "2026-07-06",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
@@ -209,16 +209,6 @@
       "shares": 19988,
       "value_usd": 2672765,
       "post_holding": 219421
-    },
-    {
-      "date": "2026-02-20",
-      "name": "Glazer David A.",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 133.72,
-      "shares": 17438,
-      "value_usd": 2331782,
-      "post_holding": 392370
     }
   ],
   "top_holders": [

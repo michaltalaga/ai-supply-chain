@@ -30,7 +30,7 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-06-29",
+  "as_of": "2026-07-06",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
@@ -256,16 +256,6 @@
       "shares": 600,
       "value_usd": 0,
       "post_holding": 4447
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Elkann John",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 709,
-      "value_usd": 0,
-      "post_holding": 1420
     }
   ],
   "top_holders": [
