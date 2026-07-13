@@ -19,7 +19,7 @@
       "name": "Frank Yeary"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=INTC",
@@ -66,16 +66,6 @@
       "shares": 5882,
       "value_usd": 249985,
       "post_holding": 247392
-    },
-    {
-      "date": "2025-07-11",
-      "name": "INTEL CORP",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 16.05,
-      "shares": 63731985,
-      "value_usd": 1022662551,
-      "post_holding": 50000000
     }
   ],
   "top_holders": [

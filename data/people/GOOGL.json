@@ -35,7 +35,7 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
@@ -171,26 +171,6 @@
       "shares": 8993,
       "value_usd": 2481117,
       "post_holding": 51808
-    },
-    {
-      "date": "2026-03-18",
-      "name": "Pichai Sundar",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 307.89,
-      "shares": 32500,
-      "value_usd": 10006385,
-      "post_holding": 1642060
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Hennessy John L.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 303.41,
-      "shares": 1050,
-      "value_usd": 318579,
-      "post_holding": 4631
     }
   ],
   "top_holders": [

@@ -15,13 +15,33 @@
       "name": "Charlie Kawwas"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AVGO",
     "top_holders": "https://finance.yahoo.com/quote/AVGO/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-08",
+      "name": "DELLY GAYLA J",
+      "role": "Director",
+      "type": "Sale",
+      "price": 385.38,
+      "shares": 1890,
+      "value_usd": 728368,
+      "post_holding": 31326
+    },
+    {
+      "date": "2026-07-08",
+      "name": "Brazeal Mark David",
+      "role": "Chief Legal & Corp Affairs Ofc",
+      "type": "Sale",
+      "price": 379.19,
+      "shares": 25000,
+      "value_usd": 9479700,
+      "post_holding": 219989
+    },
     {
       "date": "2026-06-29",
       "name": "PAGE JUSTINE",
@@ -131,16 +151,6 @@
       "shares": 10000,
       "value_usd": 3452270,
       "post_holding": 787184
-    },
-    {
-      "date": "2026-03-25",
-      "name": "SAMUELI HENRY",
-      "role": "Director",
-      "type": "Sale",
-      "price": 319.71,
-      "shares": 781967,
-      "value_usd": 250000302,
-      "post_holding": 30897799
     }
   ],
   "top_holders": [

@@ -58,7 +58,7 @@ AAON,2026-03,82.75,USD,1,82.75,,https://stockanalysis.com/api/symbol/s/aaon/hist
 AAON,2026-04,93.31,USD,1,93.31,,https://stockanalysis.com/api/symbol/s/aaon/history?range=5Y&period=Monthly
 AAON,2026-05,140.2,USD,1,140.2,,https://stockanalysis.com/api/symbol/s/aaon/history?range=5Y&period=Monthly
 AAON,2026-06,126.86,USD,1,126.86,,https://stockanalysis.com/api/symbol/s/aaon/history?range=5Y&period=Monthly
-AAON,2026-07,107.62,USD,1,107.62,,https://stockanalysis.com/api/symbol/s/aaon/history?range=5Y&period=Monthly
+AAON,2026-07,114.16,USD,1,114.16,,https://stockanalysis.com/api/symbol/s/aaon/history?range=5Y&period=Monthly
 AAPL,2021-08,151.83,USD,1,151.83,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
 AAPL,2021-09,141.5,USD,1,141.5,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
 AAPL,2021-10,149.8,USD,1,149.8,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
@@ -118,7 +118,7 @@ AAPL,2026-03,253.79,USD,1,253.79,,https://stockanalysis.com/api/symbol/s/aapl/hi
 AAPL,2026-04,271.35,USD,1,271.35,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
 AAPL,2026-05,312.06,USD,1,312.06,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
 AAPL,2026-06,289.36,USD,1,289.36,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
-AAPL,2026-07,308.63,USD,1,308.63,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
+AAPL,2026-07,315.32,USD,1,315.32,,https://stockanalysis.com/api/symbol/s/aapl/history?range=5Y&period=Monthly
 ACM,2021-08,65.56,USD,1,65.56,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
 ACM,2021-09,63.15,USD,1,63.15,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
 ACM,2021-10,68.37,USD,1,68.37,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
@@ -178,7 +178,7 @@ ACM,2026-03,84.82,USD,1,84.82,,https://stockanalysis.com/api/symbol/s/acm/histor
 ACM,2026-04,84.1,USD,1,84.1,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
 ACM,2026-05,69.37,USD,1,69.37,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
 ACM,2026-06,69.8,USD,1,69.8,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
-ACM,2026-07,67.74,USD,1,67.74,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
+ACM,2026-07,68.25,USD,1,68.25,,https://stockanalysis.com/api/symbol/s/acm/history?range=5Y&period=Monthly
 ACMR,2021-08,29.717,USD,1,29.717,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
 ACMR,2021-09,36.667,USD,1,36.667,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
 ACMR,2021-10,35.39,USD,1,35.39,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
@@ -238,7 +238,7 @@ ACMR,2026-03,39.35,USD,1,39.35,,https://stockanalysis.com/api/symbol/s/acmr/hist
 ACMR,2026-04,51.69,USD,1,51.69,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
 ACMR,2026-05,86.56,USD,1,86.56,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
 ACMR,2026-06,126.89,USD,1,126.89,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
-ACMR,2026-07,97.77,USD,1,97.77,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
+ACMR,2026-07,103,USD,1,103,,https://stockanalysis.com/api/symbol/s/acmr/history?range=5Y&period=Monthly
 ADBE,2021-08,663.7,USD,1,663.7,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
 ADBE,2021-09,575.72,USD,1,575.72,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
 ADBE,2021-10,650.36,USD,1,650.36,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
@@ -298,7 +298,7 @@ ADBE,2026-03,243.08,USD,1,243.08,,https://stockanalysis.com/api/symbol/s/adbe/hi
 ADBE,2026-04,246.1,USD,1,246.1,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
 ADBE,2026-05,259.21,USD,1,259.21,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
 ADBE,2026-06,205.02,USD,1,205.02,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
-ADBE,2026-07,219.72,USD,1,219.72,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
+ADBE,2026-07,223.64,USD,1,223.64,,https://stockanalysis.com/api/symbol/s/adbe/history?range=5Y&period=Monthly
 ADI,2021-08,162.95,USD,1,162.95,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
 ADI,2021-09,167.48,USD,1,167.48,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
 ADI,2021-10,173.49,USD,1,173.49,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
@@ -358,7 +358,7 @@ ADI,2026-03,318.14,USD,1,318.14,,https://stockanalysis.com/api/symbol/s/adi/hist
 ADI,2026-04,402.26,USD,1,402.26,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
 ADI,2026-05,413.85,USD,1,413.85,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
 ADI,2026-06,397.17,USD,1,397.17,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
-ADI,2026-07,377.16,USD,1,377.16,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
+ADI,2026-07,395.65,USD,1,395.65,,https://stockanalysis.com/api/symbol/s/adi/history?range=5Y&period=Monthly
 AEHR,2021-08,7.46,USD,1,7.46,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
 AEHR,2021-09,13.65,USD,1,13.65,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
 AEHR,2021-10,22.62,USD,1,22.62,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
@@ -418,7 +418,7 @@ AEHR,2026-03,37.08,USD,1,37.08,,https://stockanalysis.com/api/symbol/s/aehr/hist
 AEHR,2026-04,90.56,USD,1,90.56,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
 AEHR,2026-05,92.33,USD,1,92.33,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
 AEHR,2026-06,96.06,USD,1,96.06,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
-AEHR,2026-07,69.96,USD,1,69.96,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
+AEHR,2026-07,72.6,USD,1,72.6,,https://stockanalysis.com/api/symbol/s/aehr/history?range=5Y&period=Monthly
 AEP,2021-08,89.57,USD,1,89.57,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
 AEP,2021-09,81.18,USD,1,81.18,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
 AEP,2021-10,84.71,USD,1,84.71,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
@@ -478,7 +478,7 @@ AEP,2026-03,131.08,USD,1,131.08,,https://stockanalysis.com/api/symbol/s/aep/hist
 AEP,2026-04,137.11,USD,1,137.11,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
 AEP,2026-05,126.67,USD,1,126.67,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
 AEP,2026-06,136.81,USD,1,136.81,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
-AEP,2026-07,138.51,USD,1,138.51,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
+AEP,2026-07,135.43,USD,1,135.43,,https://stockanalysis.com/api/symbol/s/aep/history?range=5Y&period=Monthly
 AGX,2021-08,46.3,USD,1,46.3,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
 AGX,2021-09,43.67,USD,1,43.67,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
 AGX,2021-10,41.26,USD,1,41.26,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
@@ -538,7 +538,7 @@ AGX,2026-03,544.65,USD,1,544.65,,https://stockanalysis.com/api/symbol/s/agx/hist
 AGX,2026-04,669.98,USD,1,669.98,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
 AGX,2026-05,667.02,USD,1,667.02,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
 AGX,2026-06,798.55,USD,1,798.55,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
-AGX,2026-07,706.15,USD,1,706.15,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
+AGX,2026-07,630.32,USD,1,630.32,,https://stockanalysis.com/api/symbol/s/agx/history?range=5Y&period=Monthly
 AI,2021-08,51.54,USD,1,51.54,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
 AI,2021-09,46.34,USD,1,46.34,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
 AI,2021-10,45.12,USD,1,45.12,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
@@ -598,7 +598,7 @@ AI,2026-03,8.42,USD,1,8.42,,https://stockanalysis.com/api/symbol/s/ai/history?ra
 AI,2026-04,8.83,USD,1,8.83,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
 AI,2026-05,10.77,USD,1,10.77,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
 AI,2026-06,9.09,USD,1,9.09,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
-AI,2026-07,9.06,USD,1,9.06,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
+AI,2026-07,8.95,USD,1,8.95,,https://stockanalysis.com/api/symbol/s/ai/history?range=5Y&period=Monthly
 ALAB,2024-04,84.76,USD,1,84.76,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
 ALAB,2024-05,64.54,USD,1,64.54,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
 ALAB,2024-06,60.51,USD,1,60.51,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
@@ -626,7 +626,7 @@ ALAB,2026-03,109.6,USD,1,109.6,,https://stockanalysis.com/api/symbol/s/alab/hist
 ALAB,2026-04,194.74,USD,1,194.74,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
 ALAB,2026-05,342.85,USD,1,342.85,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
 ALAB,2026-06,483.02,USD,1,483.02,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
-ALAB,2026-07,406.42,USD,1,406.42,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
+ALAB,2026-07,412.97,USD,1,412.97,,https://stockanalysis.com/api/symbol/s/alab/history?range=5Y&period=Monthly
 ALB,2021-08,236.74,USD,1,236.74,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
 ALB,2021-09,218.97,USD,1,218.97,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
 ALB,2021-10,250.47,USD,1,250.47,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
@@ -686,7 +686,7 @@ ALB,2026-03,179.53,USD,1,179.53,,https://stockanalysis.com/api/symbol/s/alb/hist
 ALB,2026-04,196.7,USD,1,196.7,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
 ALB,2026-05,176.42,USD,1,176.42,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
 ALB,2026-06,135.03,USD,1,135.03,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
-ALB,2026-07,135.56,USD,1,135.56,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
+ALB,2026-07,126.05,USD,1,126.05,,https://stockanalysis.com/api/symbol/s/alb/history?range=5Y&period=Monthly
 AMAT,2021-08,135.13,USD,1,135.13,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
 AMAT,2021-09,128.73,USD,1,128.73,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
 AMAT,2021-10,136.65,USD,1,136.65,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
@@ -746,7 +746,7 @@ AMAT,2026-03,341.79,USD,1,341.79,,https://stockanalysis.com/api/symbol/s/amat/hi
 AMAT,2026-04,394.49,USD,1,394.49,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
 AMAT,2026-05,450.06,USD,1,450.06,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
 AMAT,2026-06,723,USD,1,723,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
-AMAT,2026-07,603.04,USD,1,603.04,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
+AMAT,2026-07,602.5,USD,1,602.5,,https://stockanalysis.com/api/symbol/s/amat/history?range=5Y&period=Monthly
 AMD,2021-08,110.72,USD,1,110.72,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
 AMD,2021-09,102.9,USD,1,102.9,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
 AMD,2021-10,120.23,USD,1,120.23,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
@@ -806,7 +806,7 @@ AMD,2026-03,203.43,USD,1,203.43,,https://stockanalysis.com/api/symbol/s/amd/hist
 AMD,2026-04,354.49,USD,1,354.49,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
 AMD,2026-05,516.1,USD,1,516.1,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
 AMD,2026-06,580.91,USD,1,580.91,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
-AMD,2026-07,517.82,USD,1,517.82,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
+AMD,2026-07,557.89,USD,1,557.89,,https://stockanalysis.com/api/symbol/s/amd/history?range=5Y&period=Monthly
 AMKR,2021-08,27.47,USD,1,27.47,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
 AMKR,2021-09,24.95,USD,1,24.95,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
 AMKR,2021-10,21.92,USD,1,21.92,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
@@ -866,7 +866,7 @@ AMKR,2026-03,45.03,USD,1,45.03,,https://stockanalysis.com/api/symbol/s/amkr/hist
 AMKR,2026-04,69.75,USD,1,69.75,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
 AMKR,2026-05,69.56,USD,1,69.56,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
 AMKR,2026-06,86.23,USD,1,86.23,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
-AMKR,2026-07,69.65,USD,1,69.65,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
+AMKR,2026-07,70.47,USD,1,70.47,,https://stockanalysis.com/api/symbol/s/amkr/history?range=5Y&period=Monthly
 AMZN,2021-08,173.54,USD,1,173.54,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
 AMZN,2021-09,164.252,USD,1,164.252,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
 AMZN,2021-10,168.622,USD,1,168.622,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
@@ -926,7 +926,7 @@ AMZN,2026-03,208.27,USD,1,208.27,,https://stockanalysis.com/api/symbol/s/amzn/hi
 AMZN,2026-04,265.06,USD,1,265.06,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
 AMZN,2026-05,270.64,USD,1,270.64,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
 AMZN,2026-06,238.34,USD,1,238.34,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
-AMZN,2026-07,242.67,USD,1,242.67,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
+AMZN,2026-07,245.34,USD,1,245.34,,https://stockanalysis.com/api/symbol/s/amzn/history?range=5Y&period=Monthly
 ANET,2021-08,23.096,USD,1,23.096,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
 ANET,2021-09,21.478,USD,1,21.478,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
 ANET,2021-10,25.606,USD,1,25.606,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
@@ -986,7 +986,7 @@ ANET,2026-03,122.78,USD,1,122.78,,https://stockanalysis.com/api/symbol/s/anet/hi
 ANET,2026-04,172.71,USD,1,172.71,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
 ANET,2026-05,159.47,USD,1,159.47,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
 ANET,2026-06,169.88,USD,1,169.88,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
-ANET,2026-07,159.99,USD,1,159.99,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
+ANET,2026-07,186.96,USD,1,186.96,,https://stockanalysis.com/api/symbol/s/anet/history?range=5Y&period=Monthly
 ANSS,2020-08,339.01,USD,,339.01,,https://stockanalysis.com/api/symbol/s/anss/history?range=5Y&period=Monthly
 ANSS,2020-09,327.23,USD,,327.23,,https://stockanalysis.com/api/symbol/s/anss/history?range=5Y&period=Monthly
 ANSS,2020-10,304.37,USD,,304.37,,https://stockanalysis.com/api/symbol/s/anss/history?range=5Y&period=Monthly
@@ -1106,7 +1106,7 @@ AOSL,2026-03,22.16,USD,1,22.16,,https://stockanalysis.com/api/symbol/s/aosl/hist
 AOSL,2026-04,43.43,USD,1,43.43,,https://stockanalysis.com/api/symbol/s/aosl/history?range=5Y&period=Monthly
 AOSL,2026-05,45.35,USD,1,45.35,,https://stockanalysis.com/api/symbol/s/aosl/history?range=5Y&period=Monthly
 AOSL,2026-06,47.33,USD,1,47.33,,https://stockanalysis.com/api/symbol/s/aosl/history?range=5Y&period=Monthly
-AOSL,2026-07,37.11,USD,1,37.11,,https://stockanalysis.com/api/symbol/s/aosl/history?range=5Y&period=Monthly
+AOSL,2026-07,37.56,USD,1,37.56,,https://stockanalysis.com/api/symbol/s/aosl/history?range=5Y&period=Monthly
 APD,2021-08,269.51,USD,1,269.51,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
 APD,2021-09,256.11,USD,1,256.11,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
 APD,2021-10,299.81,USD,1,299.81,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
@@ -1166,7 +1166,7 @@ APD,2026-03,290.49,USD,1,290.49,,https://stockanalysis.com/api/symbol/s/apd/hist
 APD,2026-04,300.05,USD,1,300.05,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
 APD,2026-05,278.62,USD,1,278.62,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
 APD,2026-06,293.18,USD,1,293.18,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
-APD,2026-07,314.19,USD,1,314.19,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
+APD,2026-07,299.53,USD,1,299.53,,https://stockanalysis.com/api/symbol/s/apd/history?range=5Y&period=Monthly
 APLD,2021-08,9.06,USD,1,9.06,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
 APLD,2021-09,12,USD,1,12,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
 APLD,2021-10,28.14,USD,1,28.14,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
@@ -1226,7 +1226,7 @@ APLD,2026-03,23.74,USD,1,23.74,,https://stockanalysis.com/api/symbol/s/apld/hist
 APLD,2026-04,34.25,USD,1,34.25,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
 APLD,2026-05,47.28,USD,1,47.28,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
 APLD,2026-06,37.3,USD,1,37.3,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
-APLD,2026-07,33.06,USD,1,33.06,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
+APLD,2026-07,31.15,USD,1,31.15,,https://stockanalysis.com/api/symbol/s/apld/history?range=5Y&period=Monthly
 ARM,2023-10,49.29,USD,1,49.29,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
 ARM,2023-11,61.5,USD,1,61.5,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
 ARM,2023-12,75.145,USD,1,75.145,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
@@ -1260,7 +1260,7 @@ ARM,2026-03,151.28,USD,1,151.28,,https://stockanalysis.com/api/symbol/s/arm/hist
 ARM,2026-04,210.32,USD,1,210.32,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
 ARM,2026-05,353.29,USD,1,353.29,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
 ARM,2026-06,354.57,USD,1,354.57,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
-ARM,2026-07,315.28,USD,1,315.28,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
+ARM,2026-07,323.39,USD,1,323.39,,https://stockanalysis.com/api/symbol/s/arm/history?range=5Y&period=Monthly
 ARQQ,2021-08,248.75,USD,1,248.75,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
 ARQQ,2021-09,501.75,USD,1,501.75,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
 ARQQ,2021-10,546.75,USD,1,546.75,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
@@ -1320,7 +1320,7 @@ ARQQ,2026-03,13.25,USD,1,13.25,,https://stockanalysis.com/api/symbol/s/arqq/hist
 ARQQ,2026-04,14.36,USD,1,14.36,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
 ARQQ,2026-05,16.51,USD,1,16.51,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
 ARQQ,2026-06,29.72,USD,1,29.72,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
-ARQQ,2026-07,23.515,USD,1,23.515,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
+ARQQ,2026-07,19.08,USD,1,19.08,,https://stockanalysis.com/api/symbol/s/arqq/history?range=5Y&period=Monthly
 ASML,2021-08,833.04,USD,1,833.04,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
 ASML,2021-09,745.11,USD,1,745.11,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
 ASML,2021-10,812.88,USD,1,812.88,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
@@ -1380,7 +1380,7 @@ ASML,2026-03,1320.83,USD,1,1320.83,,https://stockanalysis.com/api/symbol/s/asml/
 ASML,2026-04,1438.99,USD,1,1438.99,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
 ASML,2026-05,1612.76,USD,1,1612.76,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
 ASML,2026-06,1989.44,USD,1,1989.44,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
-ASML,2026-07,1769.32,USD,1,1769.32,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
+ASML,2026-07,1797.32,USD,1,1797.32,,https://stockanalysis.com/api/symbol/s/asml/history?range=5Y&period=Monthly
 ASX,2021-08,9.27,USD,1,9.27,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
 ASX,2021-09,7.85,USD,1,7.85,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
 ASX,2021-10,7.12,USD,1,7.12,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
@@ -1440,7 +1440,7 @@ ASX,2026-03,21.68,USD,1,21.68,,https://stockanalysis.com/api/symbol/s/asx/histor
 ASX,2026-04,31.41,USD,1,31.41,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
 ASX,2026-05,38.35,USD,1,38.35,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
 ASX,2026-06,45.12,USD,1,45.12,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
-ASX,2026-07,41.87,USD,1,41.87,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
+ASX,2026-07,42.66,USD,1,42.66,,https://stockanalysis.com/api/symbol/s/asx/history?range=5Y&period=Monthly
 AVGO,2021-08,49.721,USD,1,49.721,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
 AVGO,2021-09,48.493,USD,1,48.493,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
 AVGO,2021-10,53.167,USD,1,53.167,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
@@ -1500,7 +1500,7 @@ AVGO,2026-03,309.51,USD,1,309.51,,https://stockanalysis.com/api/symbol/s/avgo/hi
 AVGO,2026-04,417.43,USD,1,417.43,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
 AVGO,2026-05,446.77,USD,1,446.77,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
 AVGO,2026-06,377.75,USD,1,377.75,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
-AVGO,2026-07,360.45,USD,1,360.45,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
+AVGO,2026-07,399.97,USD,1,399.97,,https://stockanalysis.com/api/symbol/s/avgo/history?range=5Y&period=Monthly
 BDC,2021-08,57.25,USD,1,57.25,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
 BDC,2021-09,58.26,USD,1,58.26,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
 BDC,2021-10,60.21,USD,1,60.21,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
@@ -1560,7 +1560,7 @@ BDC,2026-03,114.83,USD,1,114.83,,https://stockanalysis.com/api/symbol/s/bdc/hist
 BDC,2026-04,112.48,USD,1,112.48,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
 BDC,2026-05,105.08,USD,1,105.08,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
 BDC,2026-06,119.91,USD,1,119.91,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
-BDC,2026-07,115.41,USD,1,115.41,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
+BDC,2026-07,106.96,USD,1,106.96,,https://stockanalysis.com/api/symbol/s/bdc/history?range=5Y&period=Monthly
 BHP,2021-08,66.14,USD,1,66.14,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
 BHP,2021-09,53.52,USD,1,53.52,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
 BHP,2021-10,54.84,USD,1,54.84,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
@@ -1620,7 +1620,7 @@ BHP,2026-03,72.74,USD,1,72.74,,https://stockanalysis.com/api/symbol/s/bhp/histor
 BHP,2026-04,79.3,USD,1,79.3,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
 BHP,2026-05,88.91,USD,1,88.91,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
 BHP,2026-06,83.31,USD,1,83.31,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
-BHP,2026-07,83.33,USD,1,83.33,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
+BHP,2026-07,81.68,USD,1,81.68,,https://stockanalysis.com/api/symbol/s/bhp/history?range=5Y&period=Monthly
 BRZE,2021-12,77.16,USD,1,77.16,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
 BRZE,2022-01,50.02,USD,1,50.02,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
 BRZE,2022-02,42.19,USD,1,42.19,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
@@ -1676,7 +1676,7 @@ BRZE,2026-03,23.61,USD,1,23.61,,https://stockanalysis.com/api/symbol/s/brze/hist
 BRZE,2026-04,22.03,USD,1,22.03,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
 BRZE,2026-05,25.63,USD,1,25.63,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
 BRZE,2026-06,21.69,USD,1,21.69,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
-BRZE,2026-07,23.81,USD,1,23.81,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
+BRZE,2026-07,25.13,USD,1,25.13,,https://stockanalysis.com/api/symbol/s/brze/history?range=5Y&period=Monthly
 BTDR,2021-08,9.87,USD,1,9.87,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
 BTDR,2021-09,9.9,USD,1,9.9,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
 BTDR,2021-10,9.92,USD,1,9.92,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
@@ -1736,7 +1736,7 @@ BTDR,2026-03,8.65,USD,1,8.65,,https://stockanalysis.com/api/symbol/s/btdr/histor
 BTDR,2026-04,11.29,USD,1,11.29,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
 BTDR,2026-05,17.49,USD,1,17.49,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
 BTDR,2026-06,15.87,USD,1,15.87,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
-BTDR,2026-07,13.85,USD,1,13.85,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
+BTDR,2026-07,13.29,USD,1,13.29,,https://stockanalysis.com/api/symbol/s/btdr/history?range=5Y&period=Monthly
 BWXT,2021-08,57.43,USD,1,57.43,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
 BWXT,2021-09,53.86,USD,1,53.86,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
 BWXT,2021-10,56.74,USD,1,56.74,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
@@ -1796,7 +1796,7 @@ BWXT,2026-03,204.49,USD,1,204.49,,https://stockanalysis.com/api/symbol/s/bwxt/hi
 BWXT,2026-04,216.39,USD,1,216.39,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
 BWXT,2026-05,195.88,USD,1,195.88,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
 BWXT,2026-06,194.65,USD,1,194.65,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
-BWXT,2026-07,191.06,USD,1,191.06,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
+BWXT,2026-07,186,USD,1,186,,https://stockanalysis.com/api/symbol/s/bwxt/history?range=5Y&period=Monthly
 CDNS,2021-08,163.48,USD,1,163.48,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
 CDNS,2021-09,151.44,USD,1,151.44,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
 CDNS,2021-10,173.11,USD,1,173.11,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
@@ -1856,7 +1856,7 @@ CDNS,2026-03,277.87,USD,1,277.87,,https://stockanalysis.com/api/symbol/s/cdns/hi
 CDNS,2026-04,329.59,USD,1,329.59,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
 CDNS,2026-05,374.93,USD,1,374.93,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
 CDNS,2026-06,375.32,USD,1,375.32,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
-CDNS,2026-07,373.14,USD,1,373.14,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
+CDNS,2026-07,384.17,USD,1,384.17,,https://stockanalysis.com/api/symbol/s/cdns/history?range=5Y&period=Monthly
 CE,2021-08,158.6,USD,1,158.6,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
 CE,2021-09,150.64,USD,1,150.64,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
 CE,2021-10,161.51,USD,1,161.51,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
@@ -1916,7 +1916,7 @@ CE,2026-03,65.77,USD,1,65.77,,https://stockanalysis.com/api/symbol/s/ce/history?
 CE,2026-04,67.76,USD,1,67.76,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
 CE,2026-05,53.13,USD,1,53.13,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
 CE,2026-06,46,USD,1,46,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
-CE,2026-07,47.68,USD,1,47.68,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
+CE,2026-07,46.92,USD,1,46.92,,https://stockanalysis.com/api/symbol/s/ce/history?range=5Y&period=Monthly
 CEG,2022-02,45.98,USD,1,45.98,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
 CEG,2022-03,56.25,USD,1,56.25,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
 CEG,2022-04,59.21,USD,1,59.21,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
@@ -1970,7 +1970,7 @@ CEG,2026-03,279.25,USD,1,279.25,,https://stockanalysis.com/api/symbol/s/ceg/hist
 CEG,2026-04,313,USD,1,313,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
 CEG,2026-05,287.75,USD,1,287.75,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
 CEG,2026-06,248.37,USD,1,248.37,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
-CEG,2026-07,239.25,USD,1,239.25,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
+CEG,2026-07,251.38,USD,1,251.38,,https://stockanalysis.com/api/symbol/s/ceg/history?range=5Y&period=Monthly
 CIEN,2021-08,57.13,USD,1,57.13,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
 CIEN,2021-09,51.35,USD,1,51.35,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
 CIEN,2021-10,54.29,USD,1,54.29,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
@@ -2030,7 +2030,7 @@ CIEN,2026-03,388.23,USD,1,388.23,,https://stockanalysis.com/api/symbol/s/cien/hi
 CIEN,2026-04,527.58,USD,1,527.58,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
 CIEN,2026-05,580.23,USD,1,580.23,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
 CIEN,2026-06,490.56,USD,1,490.56,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
-CIEN,2026-07,422.46,USD,1,422.46,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
+CIEN,2026-07,460.72,USD,1,460.72,,https://stockanalysis.com/api/symbol/s/cien/history?range=5Y&period=Monthly
 COHR,2021-08,62.98,USD,1,62.98,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
 COHR,2021-09,59.36,USD,1,59.36,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
 COHR,2021-10,60.51,USD,1,60.51,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
@@ -2090,7 +2090,7 @@ COHR,2026-03,238.21,USD,1,238.21,,https://stockanalysis.com/api/symbol/s/cohr/hi
 COHR,2026-04,319.71,USD,1,319.71,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
 COHR,2026-05,361.47,USD,1,361.47,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
 COHR,2026-06,394.47,USD,1,394.47,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
-COHR,2026-07,333.36,USD,1,333.36,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
+COHR,2026-07,324.5,USD,1,324.5,,https://stockanalysis.com/api/symbol/s/cohr/history?range=5Y&period=Monthly
 CRDO,2022-02,16.9,USD,1,16.9,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
 CRDO,2022-03,15.23,USD,1,15.23,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
 CRDO,2022-04,11.04,USD,1,11.04,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
@@ -2144,7 +2144,7 @@ CRDO,2026-03,93.87,USD,1,93.87,,https://stockanalysis.com/api/symbol/s/crdo/hist
 CRDO,2026-04,174.01,USD,1,174.01,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
 CRDO,2026-05,236.03,USD,1,236.03,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
 CRDO,2026-06,271.95,USD,1,271.95,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
-CRDO,2026-07,241.91,USD,1,241.91,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
+CRDO,2026-07,257.79,USD,1,257.79,,https://stockanalysis.com/api/symbol/s/crdo/history?range=5Y&period=Monthly
 CRM,2021-08,265.27,USD,1,265.27,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
 CRM,2021-09,271.22,USD,1,271.22,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
 CRM,2021-10,299.69,USD,1,299.69,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
@@ -2204,7 +2204,7 @@ CRM,2026-03,186.67,USD,1,186.67,,https://stockanalysis.com/api/symbol/s/crm/hist
 CRM,2026-04,176.53,USD,1,176.53,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
 CRM,2026-05,191.1,USD,1,191.1,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
 CRM,2026-06,156.66,USD,1,156.66,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
-CRM,2026-07,166.11,USD,1,166.11,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
+CRM,2026-07,163.32,USD,1,163.32,,https://stockanalysis.com/api/symbol/s/crm/history?range=5Y&period=Monthly
 CRWD,2021-08,70.25,USD,1,70.25,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
 CRWD,2021-09,61.445,USD,1,61.445,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
 CRWD,2021-10,70.45,USD,1,70.45,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
@@ -2264,7 +2264,7 @@ CRWD,2026-03,97.603,USD,1,97.603,,https://stockanalysis.com/api/symbol/s/crwd/hi
 CRWD,2026-04,111.438,USD,1,111.438,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
 CRWD,2026-05,182.75,USD,1,182.75,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
 CRWD,2026-06,190.785,USD,1,190.785,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
-CRWD,2026-07,193.98,USD,1,193.98,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
+CRWD,2026-07,187.18,USD,1,187.18,,https://stockanalysis.com/api/symbol/s/crwd/history?range=5Y&period=Monthly
 CRWV,2025-04,41.3,USD,1,41.3,,https://stockanalysis.com/api/symbol/s/crwv/history?range=5Y&period=Monthly
 CRWV,2025-05,111.31,USD,1,111.31,,https://stockanalysis.com/api/symbol/s/crwv/history?range=5Y&period=Monthly
 CRWV,2025-06,163.06,USD,1,163.06,,https://stockanalysis.com/api/symbol/s/crwv/history?range=5Y&period=Monthly
@@ -2338,7 +2338,7 @@ CSCO,2026-03,77.59,USD,1,77.59,,https://stockanalysis.com/api/symbol/s/csco/hist
 CSCO,2026-04,91.5,USD,1,91.5,,https://stockanalysis.com/api/symbol/s/csco/history?range=5Y&period=Monthly
 CSCO,2026-05,120.42,USD,1,120.42,,https://stockanalysis.com/api/symbol/s/csco/history?range=5Y&period=Monthly
 CSCO,2026-06,117.46,USD,1,117.46,,https://stockanalysis.com/api/symbol/s/csco/history?range=5Y&period=Monthly
-CSCO,2026-07,112.69,USD,1,112.69,,https://stockanalysis.com/api/symbol/s/csco/history?range=5Y&period=Monthly
+CSCO,2026-07,121.31,USD,1,121.31,,https://stockanalysis.com/api/symbol/s/csco/history?range=5Y&period=Monthly
 CWST,2021-08,73.99,USD,1,73.99,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
 CWST,2021-09,75.94,USD,1,75.94,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
 CWST,2021-10,86.72,USD,1,86.72,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
@@ -2398,7 +2398,7 @@ CWST,2026-03,79.34,USD,1,79.34,,https://stockanalysis.com/api/symbol/s/cwst/hist
 CWST,2026-04,79.25,USD,1,79.25,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
 CWST,2026-05,82.17,USD,1,82.17,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
 CWST,2026-06,96.97,USD,1,96.97,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
-CWST,2026-07,97.49,USD,1,97.49,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
+CWST,2026-07,96.82,USD,1,96.82,,https://stockanalysis.com/api/symbol/s/cwst/history?range=5Y&period=Monthly
 D,2021-08,77.84,USD,1,77.84,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
 D,2021-09,73.02,USD,1,73.02,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
 D,2021-10,75.93,USD,1,75.93,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
@@ -2458,7 +2458,7 @@ D,2026-03,61.82,USD,1,61.82,,https://stockanalysis.com/api/symbol/s/d/history?ra
 D,2026-04,64.5,USD,1,64.5,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
 D,2026-05,66.94,USD,1,66.94,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
 D,2026-06,68.29,USD,1,68.29,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
-D,2026-07,69.75,USD,1,69.75,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
+D,2026-07,70.08,USD,1,70.08,,https://stockanalysis.com/api/symbol/s/d/history?range=5Y&period=Monthly
 DD,2021-08,222.062,USD,1,222.062,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
 DD,2021-09,203.972,USD,1,203.972,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
 DD,2021-10,208.802,USD,1,208.802,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
@@ -2518,7 +2518,7 @@ DD,2026-03,137.401,USD,1,137.401,,https://stockanalysis.com/api/symbol/s/dd/hist
 DD,2026-04,136.981,USD,1,136.981,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
 DD,2026-05,145.261,USD,1,145.261,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
 DD,2026-06,135.64,USD,1,135.64,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
-DD,2026-07,139.91,USD,1,139.91,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
+DD,2026-07,134.68,USD,1,134.68,,https://stockanalysis.com/api/symbol/s/dd/history?range=5Y&period=Monthly
 DDOG,2021-08,137.8,USD,1,137.8,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
 DDOG,2021-09,141.35,USD,1,141.35,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
 DDOG,2021-10,167.05,USD,1,167.05,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
@@ -2578,7 +2578,7 @@ DDOG,2026-03,118.05,USD,1,118.05,,https://stockanalysis.com/api/symbol/s/ddog/hi
 DDOG,2026-04,132.19,USD,1,132.19,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
 DDOG,2026-05,247.35,USD,1,247.35,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
 DDOG,2026-06,260.36,USD,1,260.36,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
-DDOG,2026-07,260.36,USD,1,260.36,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
+DDOG,2026-07,257.54,USD,1,257.54,,https://stockanalysis.com/api/symbol/s/ddog/history?range=5Y&period=Monthly
 DELL,2021-08,49.397,USD,1,49.397,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
 DELL,2021-09,52.732,USD,1,52.732,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
 DELL,2021-10,55.748,USD,1,55.748,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
@@ -2638,7 +2638,7 @@ DELL,2026-03,164.13,USD,1,164.13,,https://stockanalysis.com/api/symbol/s/dell/hi
 DELL,2026-04,208.95,USD,1,208.95,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
 DELL,2026-05,420.91,USD,1,420.91,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
 DELL,2026-06,431.46,USD,1,431.46,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
-DELL,2026-07,394.32,USD,1,394.32,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
+DELL,2026-07,434.97,USD,1,434.97,,https://stockanalysis.com/api/symbol/s/dell/history?range=5Y&period=Monthly
 DLR,2021-08,163.91,USD,1,163.91,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
 DLR,2021-09,144.45,USD,1,144.45,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
 DLR,2021-10,157.81,USD,1,157.81,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
@@ -2698,7 +2698,7 @@ DLR,2026-03,180.21,USD,1,180.21,,https://stockanalysis.com/api/symbol/s/dlr/hist
 DLR,2026-04,200.94,USD,1,200.94,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
 DLR,2026-05,190,USD,1,190,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
 DLR,2026-06,179.58,USD,1,179.58,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
-DLR,2026-07,173.3,USD,1,173.3,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
+DLR,2026-07,180.41,USD,1,180.41,,https://stockanalysis.com/api/symbol/s/dlr/history?range=5Y&period=Monthly
 DOW,2021-08,62.9,USD,1,62.9,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
 DOW,2021-09,57.56,USD,1,57.56,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
 DOW,2021-10,55.97,USD,1,55.97,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
@@ -2758,7 +2758,7 @@ DOW,2026-03,41.65,USD,1,41.65,,https://stockanalysis.com/api/symbol/s/dow/histor
 DOW,2026-04,40.49,USD,1,40.49,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
 DOW,2026-05,33.75,USD,1,33.75,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
 DOW,2026-06,27.36,USD,1,27.36,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
-DOW,2026-07,27.71,USD,1,27.71,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
+DOW,2026-07,29.03,USD,1,29.03,,https://stockanalysis.com/api/symbol/s/dow/history?range=5Y&period=Monthly
 DUK,2021-08,104.66,USD,1,104.66,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
 DUK,2021-09,97.59,USD,1,97.59,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
 DUK,2021-10,102.01,USD,1,102.01,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
@@ -2818,7 +2818,7 @@ DUK,2026-03,130.94,USD,1,130.94,,https://stockanalysis.com/api/symbol/s/duk/hist
 DUK,2026-04,129.55,USD,1,129.55,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
 DUK,2026-05,122.73,USD,1,122.73,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
 DUK,2026-06,126.58,USD,1,126.58,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
-DUK,2026-07,129.6,USD,1,129.6,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
+DUK,2026-07,125.48,USD,1,125.48,,https://stockanalysis.com/api/symbol/s/duk/history?range=5Y&period=Monthly
 DY,2021-08,75.33,USD,1,75.33,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
 DY,2021-09,71.24,USD,1,71.24,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
 DY,2021-10,79.42,USD,1,79.42,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
@@ -2878,7 +2878,7 @@ DY,2026-03,338.82,USD,1,338.82,,https://stockanalysis.com/api/symbol/s/dy/histor
 DY,2026-04,414.1,USD,1,414.1,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
 DY,2026-05,510,USD,1,510,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
 DY,2026-06,505.59,USD,1,505.59,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
-DY,2026-07,437.76,USD,1,437.76,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
+DY,2026-07,425.72,USD,1,425.72,,https://stockanalysis.com/api/symbol/s/dy/history?range=5Y&period=Monthly
 ECL,2021-08,225.36,USD,1,225.36,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
 ECL,2021-09,208.62,USD,1,208.62,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
 ECL,2021-10,222.22,USD,1,222.22,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
@@ -2938,7 +2938,7 @@ ECL,2026-03,266.02,USD,1,266.02,,https://stockanalysis.com/api/symbol/s/ecl/hist
 ECL,2026-04,260.6,USD,1,260.6,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
 ECL,2026-05,256,USD,1,256,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
 ECL,2026-06,278.61,USD,1,278.61,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
-ECL,2026-07,283.36,USD,1,283.36,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
+ECL,2026-07,274.31,USD,1,274.31,,https://stockanalysis.com/api/symbol/s/ecl/history?range=5Y&period=Monthly
 EME,2021-08,121.5,USD,1,121.5,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
 EME,2021-09,115.38,USD,1,115.38,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
 EME,2021-10,121.49,USD,1,121.49,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
@@ -2998,7 +2998,7 @@ EME,2026-03,738.31,USD,1,738.31,,https://stockanalysis.com/api/symbol/s/eme/hist
 EME,2026-04,891.67,USD,1,891.67,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
 EME,2026-05,826.82,USD,1,826.82,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
 EME,2026-06,829.88,USD,1,829.88,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
-EME,2026-07,774.66,USD,1,774.66,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
+EME,2026-07,781.78,USD,1,781.78,,https://stockanalysis.com/api/symbol/s/eme/history?range=5Y&period=Monthly
 ENS,2021-08,84.59,USD,1,84.59,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
 ENS,2021-09,74.44,USD,1,74.44,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
 ENS,2021-10,80.04,USD,1,80.04,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
@@ -3058,7 +3058,7 @@ ENS,2026-03,173.72,USD,1,173.72,,https://stockanalysis.com/api/symbol/s/ens/hist
 ENS,2026-04,213.26,USD,1,213.26,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
 ENS,2026-05,227.97,USD,1,227.97,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
 ENS,2026-06,233.82,USD,1,233.82,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
-ENS,2026-07,206.68,USD,1,206.68,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
+ENS,2026-07,205.68,USD,1,205.68,,https://stockanalysis.com/api/symbol/s/ens/history?range=5Y&period=Monthly
 ENTG,2021-08,120.14,USD,1,120.14,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
 ENTG,2021-09,125.9,USD,1,125.9,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
 ENTG,2021-10,140.78,USD,1,140.78,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
@@ -3118,7 +3118,7 @@ ENTG,2026-03,117.24,USD,1,117.24,,https://stockanalysis.com/api/symbol/s/entg/hi
 ENTG,2026-04,141.38,USD,1,141.38,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
 ENTG,2026-05,138.79,USD,1,138.79,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
 ENTG,2026-06,179.86,USD,1,179.86,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
-ENTG,2026-07,146.66,USD,1,146.66,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
+ENTG,2026-07,145.35,USD,1,145.35,,https://stockanalysis.com/api/symbol/s/entg/history?range=5Y&period=Monthly
 EQIX,2021-08,843.45,USD,1,843.45,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
 EQIX,2021-09,790.13,USD,1,790.13,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
 EQIX,2021-10,837.07,USD,1,837.07,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
@@ -3178,7 +3178,7 @@ EQIX,2026-03,980.24,USD,1,980.24,,https://stockanalysis.com/api/symbol/s/eqix/hi
 EQIX,2026-04,1082.83,USD,1,1082.83,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
 EQIX,2026-05,1068.04,USD,1,1068.04,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
 EQIX,2026-06,1042.39,USD,1,1042.39,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
-EQIX,2026-07,1002.02,USD,1,1002.02,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
+EQIX,2026-07,1051.21,USD,1,1051.21,,https://stockanalysis.com/api/symbol/s/eqix/history?range=5Y&period=Monthly
 ESTC,2021-08,159.55,USD,1,159.55,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
 ESTC,2021-09,148.99,USD,1,148.99,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
 ESTC,2021-10,173.51,USD,1,173.51,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
@@ -3238,7 +3238,7 @@ ESTC,2026-03,49.99,USD,1,49.99,,https://stockanalysis.com/api/symbol/s/estc/hist
 ESTC,2026-04,46.43,USD,1,46.43,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
 ESTC,2026-05,64.7,USD,1,64.7,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
 ESTC,2026-06,57.02,USD,1,57.02,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
-ESTC,2026-07,58.04,USD,1,58.04,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
+ESTC,2026-07,60.24,USD,1,60.24,,https://stockanalysis.com/api/symbol/s/estc/history?range=5Y&period=Monthly
 ETN,2021-08,168.36,USD,1,168.36,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
 ETN,2021-09,149.31,USD,1,149.31,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
 ETN,2021-10,164.76,USD,1,164.76,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
@@ -3298,7 +3298,7 @@ ETN,2026-03,357.67,USD,1,357.67,,https://stockanalysis.com/api/symbol/s/etn/hist
 ETN,2026-04,433.01,USD,1,433.01,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
 ETN,2026-05,400.6,USD,1,400.6,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
 ETN,2026-06,426.12,USD,1,426.12,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
-ETN,2026-07,398.52,USD,1,398.52,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
+ETN,2026-07,407.28,USD,1,407.28,,https://stockanalysis.com/api/symbol/s/etn/history?range=5Y&period=Monthly
 ETR,2021-08,55.305,USD,1,55.305,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
 ETR,2021-09,49.655,USD,1,49.655,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
 ETR,2021-10,51.51,USD,1,51.51,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
@@ -3358,7 +3358,7 @@ ETR,2026-03,112.36,USD,1,112.36,,https://stockanalysis.com/api/symbol/s/etr/hist
 ETR,2026-04,117.91,USD,1,117.91,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
 ETR,2026-05,109.05,USD,1,109.05,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
 ETR,2026-06,114.86,USD,1,114.86,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
-ETR,2026-07,115.11,USD,1,115.11,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
+ETR,2026-07,115.05,USD,1,115.05,,https://stockanalysis.com/api/symbol/s/etr/history?range=5Y&period=Monthly
 FCX,2021-08,36.39,USD,1,36.39,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
 FCX,2021-09,32.53,USD,1,32.53,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
 FCX,2021-10,37.72,USD,1,37.72,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
@@ -3418,7 +3418,7 @@ FCX,2026-03,58.78,USD,1,58.78,,https://stockanalysis.com/api/symbol/s/fcx/histor
 FCX,2026-04,57.78,USD,1,57.78,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
 FCX,2026-05,65.71,USD,1,65.71,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
 FCX,2026-06,62.89,USD,1,62.89,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
-FCX,2026-07,60.97,USD,1,60.97,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
+FCX,2026-07,61.52,USD,1,61.52,,https://stockanalysis.com/api/symbol/s/fcx/history?range=5Y&period=Monthly
 FLNC,2021-11,31.69,USD,1,31.69,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
 FLNC,2021-12,35.56,USD,1,35.56,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
 FLNC,2022-01,18.7,USD,1,18.7,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
@@ -3475,7 +3475,7 @@ FLNC,2026-03,13.76,USD,1,13.76,,https://stockanalysis.com/api/symbol/s/flnc/hist
 FLNC,2026-04,12.18,USD,1,12.18,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
 FLNC,2026-05,18.88,USD,1,18.88,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
 FLNC,2026-06,19.88,USD,1,19.88,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
-FLNC,2026-07,17,USD,1,17,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
+FLNC,2026-07,16.16,USD,1,16.16,,https://stockanalysis.com/api/symbol/s/flnc/history?range=5Y&period=Monthly
 FLR,2021-08,16.66,USD,1,16.66,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
 FLR,2021-09,15.97,USD,1,15.97,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
 FLR,2021-10,19.44,USD,1,19.44,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
@@ -3535,7 +3535,7 @@ FLR,2026-03,46.65,USD,1,46.65,,https://stockanalysis.com/api/symbol/s/flr/histor
 FLR,2026-04,53.35,USD,1,53.35,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
 FLR,2026-05,45.76,USD,1,45.76,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
 FLR,2026-06,52.39,USD,1,52.39,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
-FLR,2026-07,49.45,USD,1,49.45,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
+FLR,2026-07,50.74,USD,1,50.74,,https://stockanalysis.com/api/symbol/s/flr/history?range=5Y&period=Monthly
 GEV,2024-04,153.71,USD,1,153.71,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
 GEV,2024-05,175.9,USD,1,175.9,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
 GEV,2024-06,171.51,USD,1,171.51,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
@@ -3563,7 +3563,7 @@ GEV,2026-03,872.9,USD,1,872.9,,https://stockanalysis.com/api/symbol/s/gev/histor
 GEV,2026-04,1083.46,USD,1,1083.46,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
 GEV,2026-05,968.32,USD,1,968.32,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
 GEV,2026-06,1174.86,USD,1,1174.86,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
-GEV,2026-07,1113.11,USD,1,1113.11,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
+GEV,2026-07,1091.57,USD,1,1091.57,,https://stockanalysis.com/api/symbol/s/gev/history?range=5Y&period=Monthly
 GFL,2021-08,35.19,USD,1,35.19,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
 GFL,2021-09,37.15,USD,1,37.15,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
 GFL,2021-10,41.15,USD,1,41.15,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
@@ -3623,7 +3623,7 @@ GFL,2026-03,41.72,USD,1,41.72,,https://stockanalysis.com/api/symbol/s/gfl/histor
 GFL,2026-04,40.11,USD,1,40.11,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
 GFL,2026-05,33.54,USD,1,33.54,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
 GFL,2026-06,36.79,USD,1,36.79,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
-GFL,2026-07,37.48,USD,1,37.48,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
+GFL,2026-07,39.75,USD,1,39.75,,https://stockanalysis.com/api/symbol/s/gfl/history?range=5Y&period=Monthly
 GFS,2021-11,69.24,USD,1,69.24,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
 GFS,2021-12,64.97,USD,1,64.97,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
 GFS,2022-01,49.34,USD,1,49.34,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
@@ -3680,7 +3680,7 @@ GFS,2026-03,44.48,USD,1,44.48,,https://stockanalysis.com/api/symbol/s/gfs/histor
 GFS,2026-04,64.6,USD,1,64.6,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
 GFS,2026-05,79.97,USD,1,79.97,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
 GFS,2026-06,82.41,USD,1,82.41,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
-GFS,2026-07,69.84,USD,1,69.84,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
+GFS,2026-07,68.97,USD,1,68.97,,https://stockanalysis.com/api/symbol/s/gfs/history?range=5Y&period=Monthly
 GLW,2021-08,39.99,USD,1,39.99,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
 GLW,2021-09,36.49,USD,1,36.49,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
 GLW,2021-10,35.57,USD,1,35.57,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
@@ -3740,7 +3740,7 @@ GLW,2026-03,135.97,USD,1,135.97,,https://stockanalysis.com/api/symbol/s/glw/hist
 GLW,2026-04,164.24,USD,1,164.24,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
 GLW,2026-05,181.16,USD,1,181.16,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
 GLW,2026-06,255.43,USD,1,255.43,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
-GLW,2026-07,196.79,USD,1,196.79,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
+GLW,2026-07,190.89,USD,1,190.89,,https://stockanalysis.com/api/symbol/s/glw/history?range=5Y&period=Monthly
 GOOGL,2021-08,144.698,USD,1,144.698,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
 GOOGL,2021-09,133.676,USD,1,133.676,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
 GOOGL,2021-10,148.046,USD,1,148.046,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
@@ -3800,7 +3800,7 @@ GOOGL,2026-03,287.56,USD,1,287.56,,https://stockanalysis.com/api/symbol/s/googl/
 GOOGL,2026-04,384.8,USD,1,384.8,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
 GOOGL,2026-05,380.34,USD,1,380.34,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
 GOOGL,2026-06,357.37,USD,1,357.37,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
-GOOGL,2026-07,359.91,USD,1,359.91,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
+GOOGL,2026-07,357.18,USD,1,357.18,,https://stockanalysis.com/api/symbol/s/googl/history?range=5Y&period=Monthly
 HON,2021-08,463.82,USD,1,463.82,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
 HON,2021-09,424.56,USD,1,424.56,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
 HON,2021-10,437.24,USD,1,437.24,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
@@ -3860,7 +3860,7 @@ HON,2026-03,452.06,USD,1,452.06,,https://stockanalysis.com/api/symbol/s/hon/hist
 HON,2026-04,428.66,USD,1,428.66,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
 HON,2026-05,475.72,USD,1,475.72,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
 HON,2026-06,223.9,USD,1,223.9,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
-HON,2026-07,229.86,USD,1,229.86,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
+HON,2026-07,226.42,USD,1,226.42,,https://stockanalysis.com/api/symbol/s/hon/history?range=5Y&period=Monthly
 HPE,2021-08,15.46,USD,1,15.46,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
 HPE,2021-09,14.25,USD,1,14.25,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
 HPE,2021-10,14.65,USD,1,14.65,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
@@ -3920,7 +3920,7 @@ HPE,2026-03,23.81,USD,1,23.81,,https://stockanalysis.com/api/symbol/s/hpe/histor
 HPE,2026-04,28.77,USD,1,28.77,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
 HPE,2026-05,43.04,USD,1,43.04,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
 HPE,2026-06,45.11,USD,1,45.11,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
-HPE,2026-07,41.23,USD,1,41.23,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
+HPE,2026-07,48.54,USD,1,48.54,,https://stockanalysis.com/api/symbol/s/hpe/history?range=5Y&period=Monthly
 HUBB,2021-08,206.11,USD,1,206.11,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
 HUBB,2021-09,180.67,USD,1,180.67,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
 HUBB,2021-10,199.37,USD,1,199.37,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
@@ -3980,7 +3980,7 @@ HUBB,2026-03,490.74,USD,1,490.74,,https://stockanalysis.com/api/symbol/s/hubb/hi
 HUBB,2026-04,508.17,USD,1,508.17,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
 HUBB,2026-05,473.61,USD,1,473.61,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
 HUBB,2026-06,523.2,USD,1,523.2,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
-HUBB,2026-07,487.1,USD,1,487.1,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
+HUBB,2026-07,490.94,USD,1,490.94,,https://stockanalysis.com/api/symbol/s/hubb/history?range=5Y&period=Monthly
 IBM,2021-08,134.168,USD,1,134.168,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
 IBM,2021-09,132.82,USD,1,132.82,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
 IBM,2021-10,119.598,USD,1,119.598,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
@@ -4040,7 +4040,7 @@ IBM,2026-03,242.39,USD,1,242.39,,https://stockanalysis.com/api/symbol/s/ibm/hist
 IBM,2026-04,230.98,USD,1,230.98,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
 IBM,2026-05,297.8,USD,1,297.8,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
 IBM,2026-06,281.21,USD,1,281.21,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
-IBM,2026-07,289.52,USD,1,289.52,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
+IBM,2026-07,287.56,USD,1,287.56,,https://stockanalysis.com/api/symbol/s/ibm/history?range=5Y&period=Monthly
 ICHR,2021-08,44.31,USD,1,44.31,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
 ICHR,2021-09,41.09,USD,1,41.09,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
 ICHR,2021-10,43.72,USD,1,43.72,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
@@ -4100,7 +4100,7 @@ ICHR,2026-03,46.61,USD,1,46.61,,https://stockanalysis.com/api/symbol/s/ichr/hist
 ICHR,2026-04,65.97,USD,1,65.97,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
 ICHR,2026-05,71.52,USD,1,71.52,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
 ICHR,2026-06,112.28,USD,1,112.28,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
-ICHR,2026-07,98.22,USD,1,98.22,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
+ICHR,2026-07,100.3,USD,1,100.3,,https://stockanalysis.com/api/symbol/s/ichr/history?range=5Y&period=Monthly
 IESC,2021-08,48.9,USD,1,48.9,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
 IESC,2021-09,45.69,USD,1,45.69,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
 IESC,2021-10,49.85,USD,1,49.85,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
@@ -4160,7 +4160,7 @@ IESC,2026-03,476.47,USD,1,476.47,,https://stockanalysis.com/api/symbol/s/iesc/hi
 IESC,2026-04,644.08,USD,1,644.08,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
 IESC,2026-05,678.35,USD,1,678.35,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
 IESC,2026-06,734.66,USD,1,734.66,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
-IESC,2026-07,654,USD,1,654,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
+IESC,2026-07,625.54,USD,1,625.54,,https://stockanalysis.com/api/symbol/s/iesc/history?range=5Y&period=Monthly
 IFF,2021-08,151.5,USD,1,151.5,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
 IFF,2021-09,133.72,USD,1,133.72,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
 IFF,2021-10,147.45,USD,1,147.45,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
@@ -4220,7 +4220,7 @@ IFF,2026-03,72.55,USD,1,72.55,,https://stockanalysis.com/api/symbol/s/iff/histor
 IFF,2026-04,70.2,USD,1,70.2,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
 IFF,2026-05,76.05,USD,1,76.05,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
 IFF,2026-06,79.22,USD,1,79.22,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
-IFF,2026-07,83.83,USD,1,83.83,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
+IFF,2026-07,77.53,USD,1,77.53,,https://stockanalysis.com/api/symbol/s/iff/history?range=5Y&period=Monthly
 INTC,2021-08,54.06,USD,1,54.06,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
 INTC,2021-09,53.28,USD,1,53.28,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
 INTC,2021-10,49,USD,1,49,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
@@ -4280,7 +4280,7 @@ INTC,2026-03,44.13,USD,1,44.13,,https://stockanalysis.com/api/symbol/s/intc/hist
 INTC,2026-04,94.48,USD,1,94.48,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
 INTC,2026-05,114.68,USD,1,114.68,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
 INTC,2026-06,139.63,USD,1,139.63,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
-INTC,2026-07,120.35,USD,1,120.35,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
+INTC,2026-07,109.84,USD,1,109.84,,https://stockanalysis.com/api/symbol/s/intc/history?range=5Y&period=Monthly
 IONQ,2021-08,9.99,USD,1,9.99,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
 IONQ,2021-09,10.4,USD,1,10.4,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
 IONQ,2021-10,15.04,USD,1,15.04,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
@@ -4340,7 +4340,7 @@ IONQ,2026-03,28.83,USD,1,28.83,,https://stockanalysis.com/api/symbol/s/ionq/hist
 IONQ,2026-04,45.12,USD,1,45.12,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
 IONQ,2026-05,72.07,USD,1,72.07,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
 IONQ,2026-06,53.26,USD,1,53.26,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
-IONQ,2026-07,49.12,USD,1,49.12,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
+IONQ,2026-07,42.86,USD,1,42.86,,https://stockanalysis.com/api/symbol/s/ionq/history?range=5Y&period=Monthly
 IOT,2022-01,18.1,USD,1,18.1,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
 IOT,2022-02,17.48,USD,1,17.48,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
 IOT,2022-03,16.02,USD,1,16.02,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
@@ -4395,7 +4395,7 @@ IOT,2026-03,31.69,USD,1,31.69,,https://stockanalysis.com/api/symbol/s/iot/histor
 IOT,2026-04,28.74,USD,1,28.74,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
 IOT,2026-05,34.99,USD,1,34.99,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
 IOT,2026-06,32.43,USD,1,32.43,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
-IOT,2026-07,35.93,USD,1,35.93,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
+IOT,2026-07,36.72,USD,1,36.72,,https://stockanalysis.com/api/symbol/s/iot/history?range=5Y&period=Monthly
 IPGP,2021-08,170.68,USD,1,170.68,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
 IPGP,2021-09,158.4,USD,1,158.4,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
 IPGP,2021-10,159.01,USD,1,159.01,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
@@ -4455,7 +4455,7 @@ IPGP,2026-03,114.59,USD,1,114.59,,https://stockanalysis.com/api/symbol/s/ipgp/hi
 IPGP,2026-04,118.92,USD,1,118.92,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
 IPGP,2026-05,114.52,USD,1,114.52,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
 IPGP,2026-06,117.32,USD,1,117.32,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
-IPGP,2026-07,105.27,USD,1,105.27,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
+IPGP,2026-07,107.73,USD,1,107.73,,https://stockanalysis.com/api/symbol/s/ipgp/history?range=5Y&period=Monthly
 IREN,2021-12,16.17,USD,1,16.17,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
 IREN,2022-01,13.17,USD,1,13.17,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
 IREN,2022-02,14.97,USD,1,14.97,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
@@ -4511,7 +4511,7 @@ IREN,2026-03,34.28,USD,1,34.28,,https://stockanalysis.com/api/symbol/s/iren/hist
 IREN,2026-04,45.51,USD,1,45.51,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
 IREN,2026-05,63.54,USD,1,63.54,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
 IREN,2026-06,45.73,USD,1,45.73,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
-IREN,2026-07,38.82,USD,1,38.82,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
+IREN,2026-07,41.14,USD,1,41.14,,https://stockanalysis.com/api/symbol/s/iren/history?range=5Y&period=Monthly
 IRM,2021-08,47.75,USD,1,47.75,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
 IRM,2021-09,43.45,USD,1,43.45,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
 IRM,2021-10,45.64,USD,1,45.64,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
@@ -4571,7 +4571,7 @@ IRM,2026-03,102.14,USD,1,102.14,,https://stockanalysis.com/api/symbol/s/irm/hist
 IRM,2026-04,125.99,USD,1,125.99,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
 IRM,2026-05,128.25,USD,1,128.25,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
 IRM,2026-06,126.31,USD,1,126.31,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
-IRM,2026-07,117.16,USD,1,117.16,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
+IRM,2026-07,121.51,USD,1,121.51,,https://stockanalysis.com/api/symbol/s/irm/history?range=5Y&period=Monthly
 J,2021-08,134.96,USD,1,134.96,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
 J,2021-09,132.53,USD,1,132.53,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
 J,2021-10,140.42,USD,1,140.42,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
@@ -4631,7 +4631,7 @@ J,2026-03,127.28,USD,1,127.28,,https://stockanalysis.com/api/symbol/s/j/history?
 J,2026-04,129.41,USD,1,129.41,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
 J,2026-05,119.86,USD,1,119.86,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
 J,2026-06,126,USD,1,126,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
-J,2026-07,127.89,USD,1,127.89,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
+J,2026-07,125.83,USD,1,125.83,,https://stockanalysis.com/api/symbol/s/j/history?range=5Y&period=Monthly
 JCI,2021-08,74.8,USD,1,74.8,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
 JCI,2021-09,68.08,USD,1,68.08,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
 JCI,2021-10,73.37,USD,1,73.37,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
@@ -4691,7 +4691,7 @@ JCI,2026-03,130.95,USD,1,130.95,,https://stockanalysis.com/api/symbol/s/jci/hist
 JCI,2026-04,146.03,USD,1,146.03,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
 JCI,2026-05,134.06,USD,1,134.06,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
 JCI,2026-06,146.11,USD,1,146.11,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
-JCI,2026-07,140.76,USD,1,140.76,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
+JCI,2026-07,142.81,USD,1,142.81,,https://stockanalysis.com/api/symbol/s/jci/history?range=5Y&period=Monthly
 JNPR,2020-08,25,USD,,25,,https://stockanalysis.com/api/symbol/s/jnpr/history?range=5Y&period=Monthly
 JNPR,2020-09,21.5,USD,,21.5,,https://stockanalysis.com/api/symbol/s/jnpr/history?range=5Y&period=Monthly
 JNPR,2020-10,19.72,USD,,19.72,,https://stockanalysis.com/api/symbol/s/jnpr/history?range=5Y&period=Monthly
@@ -4811,7 +4811,7 @@ KBR,2026-03,36.86,USD,1,36.86,,https://stockanalysis.com/api/symbol/s/kbr/histor
 KBR,2026-04,37.49,USD,1,37.49,,https://stockanalysis.com/api/symbol/s/kbr/history?range=5Y&period=Monthly
 KBR,2026-05,34.95,USD,1,34.95,,https://stockanalysis.com/api/symbol/s/kbr/history?range=5Y&period=Monthly
 KBR,2026-06,34.53,USD,1,34.53,,https://stockanalysis.com/api/symbol/s/kbr/history?range=5Y&period=Monthly
-KBR,2026-07,36.41,USD,1,36.41,,https://stockanalysis.com/api/symbol/s/kbr/history?range=5Y&period=Monthly
+KBR,2026-07,35.47,USD,1,35.47,,https://stockanalysis.com/api/symbol/s/kbr/history?range=5Y&period=Monthly
 KEYS,2021-08,179.38,USD,1,179.38,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
 KEYS,2021-09,164.29,USD,1,164.29,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
 KEYS,2021-10,180.02,USD,1,180.02,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
@@ -4871,7 +4871,7 @@ KEYS,2026-03,282.37,USD,1,282.37,,https://stockanalysis.com/api/symbol/s/keys/hi
 KEYS,2026-04,349.91,USD,1,349.91,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
 KEYS,2026-05,338.33,USD,1,338.33,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
 KEYS,2026-06,350.07,USD,1,350.07,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
-KEYS,2026-07,313.86,USD,1,313.86,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
+KEYS,2026-07,322.05,USD,1,322.05,,https://stockanalysis.com/api/symbol/s/keys/history?range=5Y&period=Monthly
 KLAC,2021-08,33.996,USD,1,33.996,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
 KLAC,2021-09,33.451,USD,1,33.451,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
 KLAC,2021-10,37.276,USD,1,37.276,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
@@ -4931,7 +4931,7 @@ KLAC,2026-03,147.241,USD,1,147.241,,https://stockanalysis.com/api/symbol/s/klac/
 KLAC,2026-04,175.035,USD,1,175.035,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
 KLAC,2026-05,192.171,USD,1,192.171,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
 KLAC,2026-06,301.71,USD,1,301.71,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
-KLAC,2026-07,235.55,USD,1,235.55,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
+KLAC,2026-07,231.52,USD,1,231.52,,https://stockanalysis.com/api/symbol/s/klac/history?range=5Y&period=Monthly
 KLIC,2021-08,70.19,USD,1,70.19,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
 KLIC,2021-09,58.28,USD,1,58.28,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
 KLIC,2021-10,57,USD,1,57,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
@@ -4991,7 +4991,7 @@ KLIC,2026-03,65.72,USD,1,65.72,,https://stockanalysis.com/api/symbol/s/klic/hist
 KLIC,2026-04,85.5,USD,1,85.5,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
 KLIC,2026-05,101.89,USD,1,101.89,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
 KLIC,2026-06,133.76,USD,1,133.76,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
-KLIC,2026-07,121.33,USD,1,121.33,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
+KLIC,2026-07,113.41,USD,1,113.41,,https://stockanalysis.com/api/symbol/s/klic/history?range=5Y&period=Monthly
 KMI,2021-08,16.27,USD,1,16.27,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
 KMI,2021-09,16.73,USD,1,16.73,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
 KMI,2021-10,16.75,USD,1,16.75,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
@@ -5051,7 +5051,7 @@ KMI,2026-03,33.53,USD,1,33.53,,https://stockanalysis.com/api/symbol/s/kmi/histor
 KMI,2026-04,32.87,USD,1,32.87,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
 KMI,2026-05,31.08,USD,1,31.08,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
 KMI,2026-06,31.97,USD,1,31.97,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
-KMI,2026-07,32.06,USD,1,32.06,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
+KMI,2026-07,32.12,USD,1,32.12,,https://stockanalysis.com/api/symbol/s/kmi/history?range=5Y&period=Monthly
 LASR,2021-08,27.61,USD,1,27.61,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
 LASR,2021-09,28.19,USD,1,28.19,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
 LASR,2021-10,28.12,USD,1,28.12,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
@@ -5111,7 +5111,7 @@ LASR,2026-03,57.02,USD,1,57.02,,https://stockanalysis.com/api/symbol/s/lasr/hist
 LASR,2026-04,69.85,USD,1,69.85,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
 LASR,2026-05,74.12,USD,1,74.12,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
 LASR,2026-06,69.62,USD,1,69.62,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
-LASR,2026-07,63.25,USD,1,63.25,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
+LASR,2026-07,72.05,USD,1,72.05,,https://stockanalysis.com/api/symbol/s/lasr/history?range=5Y&period=Monthly
 LII,2021-08,335.18,USD,1,335.18,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
 LII,2021-09,294.17,USD,1,294.17,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
 LII,2021-10,299.28,USD,1,299.28,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
@@ -5171,7 +5171,7 @@ LII,2026-03,464.13,USD,1,464.13,,https://stockanalysis.com/api/symbol/s/lii/hist
 LII,2026-04,534.89,USD,1,534.89,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
 LII,2026-05,502.16,USD,1,502.16,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
 LII,2026-06,572.95,USD,1,572.95,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
-LII,2026-07,570.03,USD,1,570.03,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
+LII,2026-07,552.03,USD,1,552.03,,https://stockanalysis.com/api/symbol/s/lii/history?range=5Y&period=Monthly
 LIN,2021-08,314.59,USD,1,314.59,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
 LIN,2021-09,293.38,USD,1,293.38,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
 LIN,2021-10,319.2,USD,1,319.2,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
@@ -5231,7 +5231,7 @@ LIN,2026-03,495.76,USD,1,495.76,,https://stockanalysis.com/api/symbol/s/lin/hist
 LIN,2026-04,501.14,USD,1,501.14,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
 LIN,2026-05,497.69,USD,1,497.69,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
 LIN,2026-06,518.94,USD,1,518.94,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
-LIN,2026-07,546.64,USD,1,546.64,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
+LIN,2026-07,529.79,USD,1,529.79,,https://stockanalysis.com/api/symbol/s/lin/history?range=5Y&period=Monthly
 LITE,2021-08,86.64,USD,1,86.64,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
 LITE,2021-09,83.54,USD,1,83.54,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
 LITE,2021-10,82.58,USD,1,82.58,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
@@ -5291,7 +5291,7 @@ LITE,2026-03,702.76,USD,1,702.76,,https://stockanalysis.com/api/symbol/s/lite/hi
 LITE,2026-04,902.32,USD,1,902.32,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
 LITE,2026-05,854.96,USD,1,854.96,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
 LITE,2026-06,858.06,USD,1,858.06,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
-LITE,2026-07,728.32,USD,1,728.32,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
+LITE,2026-07,802.01,USD,1,802.01,,https://stockanalysis.com/api/symbol/s/lite/history?range=5Y&period=Monthly
 LNG,2021-08,87.46,USD,1,87.46,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
 LNG,2021-09,97.67,USD,1,97.67,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
 LNG,2021-10,103.4,USD,1,103.4,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
@@ -5351,7 +5351,7 @@ LNG,2026-03,283.76,USD,1,283.76,,https://stockanalysis.com/api/symbol/s/lng/hist
 LNG,2026-04,274.95,USD,1,274.95,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
 LNG,2026-05,224.86,USD,1,224.86,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
 LNG,2026-06,239.01,USD,1,239.01,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
-LNG,2026-07,245.97,USD,1,245.97,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
+LNG,2026-07,258.64,USD,1,258.64,,https://stockanalysis.com/api/symbol/s/lng/history?range=5Y&period=Monthly
 LRCX,2021-08,60.482,USD,1,60.482,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
 LRCX,2021-09,56.915,USD,1,56.915,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
 LRCX,2021-10,56.357,USD,1,56.357,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
@@ -5411,7 +5411,7 @@ LRCX,2026-03,213.66,USD,1,213.66,,https://stockanalysis.com/api/symbol/s/lrcx/hi
 LRCX,2026-04,257.86,USD,1,257.86,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
 LRCX,2026-05,318.18,USD,1,318.18,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
 LRCX,2026-06,433.33,USD,1,433.33,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
-LRCX,2026-07,351.41,USD,1,351.41,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
+LRCX,2026-07,350.33,USD,1,350.33,,https://stockanalysis.com/api/symbol/s/lrcx/history?range=5Y&period=Monthly
 LSCC,2021-08,62.12,USD,1,62.12,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
 LSCC,2021-09,64.65,USD,1,64.65,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
 LSCC,2021-10,69.44,USD,1,69.44,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
@@ -5471,7 +5471,7 @@ LSCC,2026-03,92.76,USD,1,92.76,,https://stockanalysis.com/api/symbol/s/lscc/hist
 LSCC,2026-04,122.28,USD,1,122.28,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
 LSCC,2026-05,147.08,USD,1,147.08,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
 LSCC,2026-06,152.96,USD,1,152.96,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
-LSCC,2026-07,136.53,USD,1,136.53,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
+LSCC,2026-07,137.44,USD,1,137.44,,https://stockanalysis.com/api/symbol/s/lscc/history?range=5Y&period=Monthly
 MBLY,2022-11,28.51,USD,1,28.51,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
 MBLY,2022-12,35.06,USD,1,35.06,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
 MBLY,2023-01,38.6,USD,1,38.6,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
@@ -5516,7 +5516,7 @@ MBLY,2026-03,6.87,USD,1,6.87,,https://stockanalysis.com/api/symbol/s/mbly/histor
 MBLY,2026-04,8.69,USD,1,8.69,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
 MBLY,2026-05,10.34,USD,1,10.34,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
 MBLY,2026-06,9.68,USD,1,9.68,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
-MBLY,2026-07,9.57,USD,1,9.57,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
+MBLY,2026-07,9.55,USD,1,9.55,,https://stockanalysis.com/api/symbol/s/mbly/history?range=5Y&period=Monthly
 MCHP,2021-08,78.68,USD,1,78.68,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
 MCHP,2021-09,76.745,USD,1,76.745,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
 MCHP,2021-10,74.09,USD,1,74.09,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
@@ -5576,7 +5576,7 @@ MCHP,2026-03,64.61,USD,1,64.61,,https://stockanalysis.com/api/symbol/s/mchp/hist
 MCHP,2026-04,92.91,USD,1,92.91,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
 MCHP,2026-05,94.65,USD,1,94.65,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
 MCHP,2026-06,91.2,USD,1,91.2,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
-MCHP,2026-07,84.64,USD,1,84.64,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
+MCHP,2026-07,88.59,USD,1,88.59,,https://stockanalysis.com/api/symbol/s/mchp/history?range=5Y&period=Monthly
 MDB,2021-08,391.83,USD,1,391.83,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
 MDB,2021-09,471.51,USD,1,471.51,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
 MDB,2021-10,521.29,USD,1,521.29,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
@@ -5636,7 +5636,7 @@ MDB,2026-03,244.77,USD,1,244.77,,https://stockanalysis.com/api/symbol/s/mdb/hist
 MDB,2026-04,250.83,USD,1,250.83,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
 MDB,2026-05,335.55,USD,1,335.55,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
 MDB,2026-06,335.9,USD,1,335.9,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
-MDB,2026-07,354.88,USD,1,354.88,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
+MDB,2026-07,342.08,USD,1,342.08,,https://stockanalysis.com/api/symbol/s/mdb/history?range=5Y&period=Monthly
 META,2021-08,379.38,USD,1,379.38,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
 META,2021-09,339.39,USD,1,339.39,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
 META,2021-10,323.57,USD,1,323.57,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
@@ -5696,7 +5696,7 @@ META,2026-03,572.13,USD,1,572.13,,https://stockanalysis.com/api/symbol/s/meta/hi
 META,2026-04,611.91,USD,1,611.91,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
 META,2026-05,632.51,USD,1,632.51,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
 META,2026-06,563.29,USD,1,563.29,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
-META,2026-07,582.9,USD,1,582.9,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
+META,2026-07,669.21,USD,1,669.21,,https://stockanalysis.com/api/symbol/s/meta/history?range=5Y&period=Monthly
 MOD,2021-08,12.44,USD,1,12.44,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
 MOD,2021-09,11.33,USD,1,11.33,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
 MOD,2021-10,11,USD,1,11,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
@@ -5756,7 +5756,7 @@ MOD,2026-03,216.71,USD,1,216.71,,https://stockanalysis.com/api/symbol/s/mod/hist
 MOD,2026-04,254.63,USD,1,254.63,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
 MOD,2026-05,278.91,USD,1,278.91,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
 MOD,2026-06,267.02,USD,1,267.02,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
-MOD,2026-07,230.97,USD,1,230.97,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
+MOD,2026-07,245.91,USD,1,245.91,,https://stockanalysis.com/api/symbol/s/mod/history?range=5Y&period=Monthly
 MP,2021-08,33.57,USD,1,33.57,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
 MP,2021-09,32.23,USD,1,32.23,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
 MP,2021-10,33.85,USD,1,33.85,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
@@ -5816,7 +5816,7 @@ MP,2026-03,48.26,USD,1,48.26,,https://stockanalysis.com/api/symbol/s/mp/history?
 MP,2026-04,66.04,USD,1,66.04,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
 MP,2026-05,64.7,USD,1,64.7,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
 MP,2026-06,56.01,USD,1,56.01,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
-MP,2026-07,53.31,USD,1,53.31,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
+MP,2026-07,52.21,USD,1,52.21,,https://stockanalysis.com/api/symbol/s/mp/history?range=5Y&period=Monthly
 MPWR,2021-08,494.93,USD,1,494.93,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
 MPWR,2021-09,484.68,USD,1,484.68,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
 MPWR,2021-10,525.46,USD,1,525.46,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
@@ -5876,7 +5876,7 @@ MPWR,2026-03,1093.35,USD,1,1093.35,,https://stockanalysis.com/api/symbol/s/mpwr/
 MPWR,2026-04,1614.41,USD,1,1614.41,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
 MPWR,2026-05,1566.21,USD,1,1566.21,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
 MPWR,2026-06,1382.36,USD,1,1382.36,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
-MPWR,2026-07,1288.16,USD,1,1288.16,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
+MPWR,2026-07,1352.74,USD,1,1352.74,,https://stockanalysis.com/api/symbol/s/mpwr/history?range=5Y&period=Monthly
 MRVL,2021-08,61.19,USD,1,61.19,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
 MRVL,2021-09,60.31,USD,1,60.31,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
 MRVL,2021-10,68.5,USD,1,68.5,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
@@ -5936,7 +5936,7 @@ MRVL,2026-03,99.05,USD,1,99.05,,https://stockanalysis.com/api/symbol/s/mrvl/hist
 MRVL,2026-04,165.15,USD,1,165.15,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
 MRVL,2026-05,205,USD,1,205,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
 MRVL,2026-06,297.89,USD,1,297.89,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
-MRVL,2026-07,245.29,USD,1,245.29,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
+MRVL,2026-07,235.81,USD,1,235.81,,https://stockanalysis.com/api/symbol/s/mrvl/history?range=5Y&period=Monthly
 MSFT,2021-08,301.88,USD,1,301.88,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
 MSFT,2021-09,281.92,USD,1,281.92,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
 MSFT,2021-10,331.62,USD,1,331.62,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
@@ -5996,7 +5996,7 @@ MSFT,2026-03,370.17,USD,1,370.17,,https://stockanalysis.com/api/symbol/s/msft/hi
 MSFT,2026-04,407.78,USD,1,407.78,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
 MSFT,2026-05,450.24,USD,1,450.24,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
 MSFT,2026-06,373.02,USD,1,373.02,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
-MSFT,2026-07,390.49,USD,1,390.49,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
+MSFT,2026-07,385.1,USD,1,385.1,,https://stockanalysis.com/api/symbol/s/msft/history?range=5Y&period=Monthly
 MTSI,2021-08,60.71,USD,1,60.71,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
 MTSI,2021-09,64.87,USD,1,64.87,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
 MTSI,2021-10,69.82,USD,1,69.82,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
@@ -6056,7 +6056,7 @@ MTSI,2026-03,222.07,USD,1,222.07,,https://stockanalysis.com/api/symbol/s/mtsi/hi
 MTSI,2026-04,281.61,USD,1,281.61,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
 MTSI,2026-05,364.64,USD,1,364.64,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
 MTSI,2026-06,380.37,USD,1,380.37,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
-MTSI,2026-07,322.26,USD,1,322.26,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
+MTSI,2026-07,308.52,USD,1,308.52,,https://stockanalysis.com/api/symbol/s/mtsi/history?range=5Y&period=Monthly
 MTZ,2021-08,91.44,USD,1,91.44,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
 MTZ,2021-09,86.28,USD,1,86.28,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
 MTZ,2021-10,89.13,USD,1,89.13,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
@@ -6116,7 +6116,7 @@ MTZ,2026-03,321.74,USD,1,321.74,,https://stockanalysis.com/api/symbol/s/mtz/hist
 MTZ,2026-04,394.05,USD,1,394.05,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
 MTZ,2026-05,378.37,USD,1,378.37,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
 MTZ,2026-06,416.06,USD,1,416.06,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
-MTZ,2026-07,373.43,USD,1,373.43,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
+MTZ,2026-07,372.89,USD,1,372.89,,https://stockanalysis.com/api/symbol/s/mtz/history?range=5Y&period=Monthly
 MU,2021-08,73.7,USD,1,73.7,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
 MU,2021-09,70.98,USD,1,70.98,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
 MU,2021-10,69.1,USD,1,69.1,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
@@ -6176,7 +6176,7 @@ MU,2026-03,337.84,USD,1,337.84,,https://stockanalysis.com/api/symbol/s/mu/histor
 MU,2026-04,517.16,USD,1,517.16,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
 MU,2026-05,971,USD,1,971,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
 MU,2026-06,1154.29,USD,1,1154.29,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
-MU,2026-07,975.56,USD,1,975.56,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
+MU,2026-07,979.3,USD,1,979.3,,https://stockanalysis.com/api/symbol/s/mu/history?range=5Y&period=Monthly
 NEE,2021-08,83.99,USD,1,83.99,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
 NEE,2021-09,78.52,USD,1,78.52,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
 NEE,2021-10,85.33,USD,1,85.33,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
@@ -6236,7 +6236,7 @@ NEE,2026-03,92.88,USD,1,92.88,,https://stockanalysis.com/api/symbol/s/nee/histor
 NEE,2026-04,97.88,USD,1,97.88,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
 NEE,2026-05,87.01,USD,1,87.01,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
 NEE,2026-06,87.77,USD,1,87.77,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
-NEE,2026-07,88.34,USD,1,88.34,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
+NEE,2026-07,87.96,USD,1,87.96,,https://stockanalysis.com/api/symbol/s/nee/history?range=5Y&period=Monthly
 NET,2021-08,120.74,USD,1,120.74,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
 NET,2021-09,112.65,USD,1,112.65,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
 NET,2021-10,194.72,USD,1,194.72,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
@@ -6296,7 +6296,7 @@ NET,2026-03,206.34,USD,1,206.34,,https://stockanalysis.com/api/symbol/s/net/hist
 NET,2026-04,204.97,USD,1,204.97,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
 NET,2026-05,241.82,USD,1,241.82,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
 NET,2026-06,245.28,USD,1,245.28,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
-NET,2026-07,242.41,USD,1,242.41,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
+NET,2026-07,268.4,USD,1,268.4,,https://stockanalysis.com/api/symbol/s/net/history?range=5Y&period=Monthly
 NNE,2024-06,23.44,USD,1,23.44,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
 NNE,2024-07,11.81,USD,1,11.81,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
 NNE,2024-08,10.12,USD,1,10.12,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
@@ -6322,7 +6322,7 @@ NNE,2026-03,20.48,USD,1,20.48,,https://stockanalysis.com/api/symbol/s/nne/histor
 NNE,2026-04,23.38,USD,1,23.38,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
 NNE,2026-05,28.88,USD,1,28.88,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
 NNE,2026-06,21.14,USD,1,21.14,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
-NNE,2026-07,20.03,USD,1,20.03,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
+NNE,2026-07,18.86,USD,1,18.86,,https://stockanalysis.com/api/symbol/s/nne/history?range=5Y&period=Monthly
 NOW,2021-08,128.728,USD,1,128.728,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
 NOW,2021-09,124.454,USD,1,124.454,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
 NOW,2021-10,139.552,USD,1,139.552,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
@@ -6382,7 +6382,7 @@ NOW,2026-03,104.55,USD,1,104.55,,https://stockanalysis.com/api/symbol/s/now/hist
 NOW,2026-04,88.31,USD,1,88.31,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
 NOW,2026-05,124.37,USD,1,124.37,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
 NOW,2026-06,99.28,USD,1,99.28,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
-NOW,2026-07,106.32,USD,1,106.32,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
+NOW,2026-07,107.71,USD,1,107.71,,https://stockanalysis.com/api/symbol/s/now/history?range=5Y&period=Monthly
 NVDA,2021-08,22.385,USD,1,22.385,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
 NVDA,2021-09,20.716,USD,1,20.716,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
 NVDA,2021-10,25.567,USD,1,25.567,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
@@ -6442,7 +6442,7 @@ NVDA,2026-03,174.4,USD,1,174.4,,https://stockanalysis.com/api/symbol/s/nvda/hist
 NVDA,2026-04,199.57,USD,1,199.57,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
 NVDA,2026-05,211.14,USD,1,211.14,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
 NVDA,2026-06,200.09,USD,1,200.09,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
-NVDA,2026-07,194.83,USD,1,194.83,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
+NVDA,2026-07,210.96,USD,1,210.96,,https://stockanalysis.com/api/symbol/s/nvda/history?range=5Y&period=Monthly
 NVT,2021-08,34.36,USD,1,34.36,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
 NVT,2021-09,32.33,USD,1,32.33,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
 NVT,2021-10,35.45,USD,1,35.45,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
@@ -6502,7 +6502,7 @@ NVT,2026-03,118.28,USD,1,118.28,,https://stockanalysis.com/api/symbol/s/nvt/hist
 NVT,2026-04,142.9,USD,1,142.9,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
 NVT,2026-05,166.99,USD,1,166.99,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
 NVT,2026-06,169.61,USD,1,169.61,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
-NVT,2026-07,152.15,USD,1,152.15,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
+NVT,2026-07,160.72,USD,1,160.72,,https://stockanalysis.com/api/symbol/s/nvt/history?range=5Y&period=Monthly
 NVTS,2021-08,9.97,USD,1,9.97,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
 NVTS,2021-09,9.98,USD,1,9.98,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
 NVTS,2021-10,12.08,USD,1,12.08,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
@@ -6562,7 +6562,7 @@ NVTS,2026-03,8.77,USD,1,8.77,,https://stockanalysis.com/api/symbol/s/nvts/histor
 NVTS,2026-04,16.5,USD,1,16.5,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
 NVTS,2026-05,26.6,USD,1,26.6,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
 NVTS,2026-06,17.92,USD,1,17.92,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
-NVTS,2026-07,14.46,USD,1,14.46,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
+NVTS,2026-07,13.47,USD,1,13.47,,https://stockanalysis.com/api/symbol/s/nvts/history?range=5Y&period=Monthly
 OKE,2021-08,52.52,USD,1,52.52,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
 OKE,2021-09,57.99,USD,1,57.99,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
 OKE,2021-10,63.62,USD,1,63.62,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
@@ -6622,7 +6622,7 @@ OKE,2026-03,90.39,USD,1,90.39,,https://stockanalysis.com/api/symbol/s/oke/histor
 OKE,2026-04,92.46,USD,1,92.46,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
 OKE,2026-05,83.94,USD,1,83.94,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
 OKE,2026-06,86.94,USD,1,86.94,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
-OKE,2026-07,87.83,USD,1,87.83,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
+OKE,2026-07,89.92,USD,1,89.92,,https://stockanalysis.com/api/symbol/s/oke/history?range=5Y&period=Monthly
 OKLO,2021-08,9.83,USD,1,9.83,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
 OKLO,2021-09,9.83,USD,1,9.83,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
 OKLO,2021-10,10.16,USD,1,10.16,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
@@ -6682,7 +6682,7 @@ OKLO,2026-03,49.59,USD,1,49.59,,https://stockanalysis.com/api/symbol/s/oklo/hist
 OKLO,2026-04,72.5,USD,1,72.5,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
 OKLO,2026-05,66.88,USD,1,66.88,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
 OKLO,2026-06,52.33,USD,1,52.33,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
-OKLO,2026-07,52.36,USD,1,52.36,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
+OKLO,2026-07,48.85,USD,1,48.85,,https://stockanalysis.com/api/symbol/s/oklo/history?range=5Y&period=Monthly
 ON,2021-08,44.36,USD,1,44.36,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
 ON,2021-09,45.77,USD,1,45.77,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
 ON,2021-10,48.07,USD,1,48.07,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
@@ -6742,7 +6742,7 @@ ON,2026-03,61.92,USD,1,61.92,,https://stockanalysis.com/api/symbol/s/on/history?
 ON,2026-04,100.81,USD,1,100.81,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
 ON,2026-05,120.62,USD,1,120.62,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
 ON,2026-06,94.54,USD,1,94.54,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
-ON,2026-07,91.22,USD,1,91.22,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
+ON,2026-07,95.96,USD,1,95.96,,https://stockanalysis.com/api/symbol/s/on/history?range=5Y&period=Monthly
 ONTO,2021-08,74.13,USD,1,74.13,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
 ONTO,2021-09,72.25,USD,1,72.25,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
 ONTO,2021-10,79.21,USD,1,79.21,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
@@ -6802,7 +6802,7 @@ ONTO,2026-03,205.07,USD,1,205.07,,https://stockanalysis.com/api/symbol/s/onto/hi
 ONTO,2026-04,295.06,USD,1,295.06,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
 ONTO,2026-05,258.24,USD,1,258.24,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
 ONTO,2026-06,378.45,USD,1,378.45,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
-ONTO,2026-07,307.58,USD,1,307.58,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
+ONTO,2026-07,321.44,USD,1,321.44,,https://stockanalysis.com/api/symbol/s/onto/history?range=5Y&period=Monthly
 ORCL,2021-08,89.13,USD,1,89.13,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
 ORCL,2021-09,87.13,USD,1,87.13,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
 ORCL,2021-10,95.94,USD,1,95.94,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
@@ -6862,7 +6862,7 @@ ORCL,2026-03,147.11,USD,1,147.11,,https://stockanalysis.com/api/symbol/s/orcl/hi
 ORCL,2026-04,161.39,USD,1,161.39,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
 ORCL,2026-05,225.78,USD,1,225.78,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
 ORCL,2026-06,146.55,USD,1,146.55,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
-ORCL,2026-07,140.27,USD,1,140.27,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
+ORCL,2026-07,140.64,USD,1,140.64,,https://stockanalysis.com/api/symbol/s/orcl/history?range=5Y&period=Monthly
 OUST,2021-08,84,USD,1,84,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
 OUST,2021-09,73.2,USD,1,73.2,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
 OUST,2021-10,61.6,USD,1,61.6,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
@@ -6922,7 +6922,7 @@ OUST,2026-03,18.37,USD,1,18.37,,https://stockanalysis.com/api/symbol/s/oust/hist
 OUST,2026-04,26.96,USD,1,26.96,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
 OUST,2026-05,46.05,USD,1,46.05,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
 OUST,2026-06,62.52,USD,1,62.52,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
-OUST,2026-07,49.84,USD,1,49.84,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
+OUST,2026-07,43.28,USD,1,43.28,,https://stockanalysis.com/api/symbol/s/oust/history?range=5Y&period=Monthly
 PANW,2021-08,76.84,USD,1,76.84,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
 PANW,2021-09,79.833,USD,1,79.833,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
 PANW,2021-10,84.848,USD,1,84.848,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
@@ -6982,7 +6982,7 @@ PANW,2026-03,160.32,USD,1,160.32,,https://stockanalysis.com/api/symbol/s/panw/hi
 PANW,2026-04,179.32,USD,1,179.32,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
 PANW,2026-05,281.69,USD,1,281.69,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
 PANW,2026-06,341.02,USD,1,341.02,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
-PANW,2026-07,348.06,USD,1,348.06,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
+PANW,2026-07,325.91,USD,1,325.91,,https://stockanalysis.com/api/symbol/s/panw/history?range=5Y&period=Monthly
 PATH,2021-08,63.2,USD,1,63.2,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
 PATH,2021-09,52.61,USD,1,52.61,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
 PATH,2021-10,50.25,USD,1,50.25,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
@@ -7042,7 +7042,7 @@ PATH,2026-03,11.1,USD,1,11.1,,https://stockanalysis.com/api/symbol/s/path/histor
 PATH,2026-04,10.3,USD,1,10.3,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
 PATH,2026-05,11.72,USD,1,11.72,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
 PATH,2026-06,10.87,USD,1,10.87,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
-PATH,2026-07,11.71,USD,1,11.71,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
+PATH,2026-07,11.68,USD,1,11.68,,https://stockanalysis.com/api/symbol/s/path/history?range=5Y&period=Monthly
 PLTR,2021-08,26.34,USD,1,26.34,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
 PLTR,2021-09,24.04,USD,1,24.04,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
 PLTR,2021-10,25.88,USD,1,25.88,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
@@ -7102,7 +7102,7 @@ PLTR,2026-03,146.28,USD,1,146.28,,https://stockanalysis.com/api/symbol/s/pltr/hi
 PLTR,2026-04,139.11,USD,1,139.11,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
 PLTR,2026-05,156.54,USD,1,156.54,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
 PLTR,2026-06,116.67,USD,1,116.67,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
-PLTR,2026-07,129.3,USD,1,129.3,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
+PLTR,2026-07,126.79,USD,1,126.79,,https://stockanalysis.com/api/symbol/s/pltr/history?range=5Y&period=Monthly
 POET,2021-08,8.45,USD,1,8.45,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
 POET,2021-09,8.18,USD,1,8.18,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
 POET,2021-10,8.35,USD,1,8.35,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
@@ -7162,7 +7162,7 @@ POET,2026-03,5.94,USD,1,5.94,,https://stockanalysis.com/api/symbol/s/poet/histor
 POET,2026-04,7.12,USD,1,7.12,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
 POET,2026-05,12.29,USD,1,12.29,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
 POET,2026-06,10.28,USD,1,10.28,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
-POET,2026-07,8.76,USD,1,8.76,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
+POET,2026-07,8.31,USD,1,8.31,,https://stockanalysis.com/api/symbol/s/poet/history?range=5Y&period=Monthly
 POWI,2021-08,108.64,USD,1,108.64,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
 POWI,2021-09,98.99,USD,1,98.99,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
 POWI,2021-10,103.21,USD,1,103.21,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
@@ -7222,7 +7222,7 @@ POWI,2026-03,51.2,USD,1,51.2,,https://stockanalysis.com/api/symbol/s/powi/histor
 POWI,2026-04,72.71,USD,1,72.71,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
 POWI,2026-05,84,USD,1,84,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
 POWI,2026-06,83.76,USD,1,83.76,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
-POWI,2026-07,72.99,USD,1,72.99,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
+POWI,2026-07,72.07,USD,1,72.07,,https://stockanalysis.com/api/symbol/s/powi/history?range=5Y&period=Monthly
 POWL,2021-08,8.433,USD,1,8.433,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
 POWL,2021-09,8.19,USD,1,8.19,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
 POWL,2021-10,8.62,USD,1,8.62,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
@@ -7282,7 +7282,7 @@ POWL,2026-03,180.36,USD,1,180.36,,https://stockanalysis.com/api/symbol/s/powl/hi
 POWL,2026-04,277.27,USD,1,277.27,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
 POWL,2026-05,284.42,USD,1,284.42,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
 POWL,2026-06,286.36,USD,1,286.36,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
-POWL,2026-07,246.33,USD,1,246.33,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
+POWL,2026-07,232.19,USD,1,232.19,,https://stockanalysis.com/api/symbol/s/powl/history?range=5Y&period=Monthly
 PRIM,2021-08,25.7,USD,1,25.7,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
 PRIM,2021-09,24.49,USD,1,24.49,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
 PRIM,2021-10,26.95,USD,1,26.95,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
@@ -7342,7 +7342,7 @@ PRIM,2026-03,143.04,USD,1,143.04,,https://stockanalysis.com/api/symbol/s/prim/hi
 PRIM,2026-04,181.15,USD,1,181.15,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
 PRIM,2026-05,125.78,USD,1,125.78,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
 PRIM,2026-06,99.12,USD,1,99.12,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
-PRIM,2026-07,88.2,USD,1,88.2,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
+PRIM,2026-07,86.6,USD,1,86.6,,https://stockanalysis.com/api/symbol/s/prim/history?range=5Y&period=Monthly
 PWR,2021-08,102.1,USD,1,102.1,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
 PWR,2021-09,113.82,USD,1,113.82,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
 PWR,2021-10,121.28,USD,1,121.28,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
@@ -7402,7 +7402,7 @@ PWR,2026-03,549.02,USD,1,549.02,,https://stockanalysis.com/api/symbol/s/pwr/hist
 PWR,2026-04,727.77,USD,1,727.77,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
 PWR,2026-05,711.73,USD,1,711.73,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
 PWR,2026-06,720.04,USD,1,720.04,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
-PWR,2026-07,668.31,USD,1,668.31,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
+PWR,2026-07,658.56,USD,1,658.56,,https://stockanalysis.com/api/symbol/s/pwr/history?range=5Y&period=Monthly
 QBTS,2021-08,9.77,USD,1,9.77,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
 QBTS,2021-09,9.77,USD,1,9.77,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
 QBTS,2021-10,9.82,USD,1,9.82,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
@@ -7462,7 +7462,7 @@ QBTS,2026-03,14.43,USD,1,14.43,,https://stockanalysis.com/api/symbol/s/qbts/hist
 QBTS,2026-04,20.28,USD,1,20.28,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
 QBTS,2026-05,30.14,USD,1,30.14,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
 QBTS,2026-06,23.99,USD,1,23.99,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
-QBTS,2026-07,22.53,USD,1,22.53,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
+QBTS,2026-07,20.09,USD,1,20.09,,https://stockanalysis.com/api/symbol/s/qbts/history?range=5Y&period=Monthly
 QCOM,2021-08,146.69,USD,1,146.69,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
 QCOM,2021-09,128.98,USD,1,128.98,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
 QCOM,2021-10,133.04,USD,1,133.04,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
@@ -7522,7 +7522,7 @@ QCOM,2026-03,128.78,USD,1,128.78,,https://stockanalysis.com/api/symbol/s/qcom/hi
 QCOM,2026-04,179.58,USD,1,179.58,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
 QCOM,2026-05,251.02,USD,1,251.02,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
 QCOM,2026-06,184.79,USD,1,184.79,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
-QCOM,2026-07,176.25,USD,1,176.25,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
+QCOM,2026-07,189.16,USD,1,189.16,,https://stockanalysis.com/api/symbol/s/qcom/history?range=5Y&period=Monthly
 QUBT,2021-08,7.56,USD,1,7.56,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
 QUBT,2021-09,6.225,USD,1,6.225,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
 QUBT,2021-10,6.25,USD,1,6.25,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
@@ -7582,7 +7582,7 @@ QUBT,2026-03,6.85,USD,1,6.85,,https://stockanalysis.com/api/symbol/s/qubt/histor
 QUBT,2026-04,9.02,USD,1,9.02,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
 QUBT,2026-05,11.96,USD,1,11.96,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
 QUBT,2026-06,9.7,USD,1,9.7,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
-QUBT,2026-07,9.05,USD,1,9.05,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
+QUBT,2026-07,8.66,USD,1,8.66,,https://stockanalysis.com/api/symbol/s/qubt/history?range=5Y&period=Monthly
 RGTI,2021-08,9.685,USD,1,9.685,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
 RGTI,2021-09,9.77,USD,1,9.77,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
 RGTI,2021-10,10.52,USD,1,10.52,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
@@ -7642,7 +7642,7 @@ RGTI,2026-03,14.04,USD,1,14.04,,https://stockanalysis.com/api/symbol/s/rgti/hist
 RGTI,2026-04,17.45,USD,1,17.45,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
 RGTI,2026-05,25.54,USD,1,25.54,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
 RGTI,2026-06,19.32,USD,1,19.32,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
-RGTI,2026-07,17.94,USD,1,17.94,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
+RGTI,2026-07,16.54,USD,1,16.54,,https://stockanalysis.com/api/symbol/s/rgti/history?range=5Y&period=Monthly
 RIO,2021-08,75.07,USD,1,75.07,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
 RIO,2021-09,66.82,USD,1,66.82,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
 RIO,2021-10,63.27,USD,1,63.27,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
@@ -7702,7 +7702,7 @@ RIO,2026-03,93.29,USD,1,93.29,,https://stockanalysis.com/api/symbol/s/rio/histor
 RIO,2026-04,100.48,USD,1,100.48,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
 RIO,2026-05,106.39,USD,1,106.39,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
 RIO,2026-06,94.93,USD,1,94.93,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
-RIO,2026-07,94.42,USD,1,94.42,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
+RIO,2026-07,90.54,USD,1,90.54,,https://stockanalysis.com/api/symbol/s/rio/history?range=5Y&period=Monthly
 RMBS,2021-08,23.8,USD,1,23.8,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
 RMBS,2021-09,22.2,USD,1,22.2,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
 RMBS,2021-10,23.27,USD,1,23.27,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
@@ -7762,7 +7762,7 @@ RMBS,2026-03,86.03,USD,1,86.03,,https://stockanalysis.com/api/symbol/s/rmbs/hist
 RMBS,2026-04,115.11,USD,1,115.11,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
 RMBS,2026-05,145.46,USD,1,145.46,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
 RMBS,2026-06,132.74,USD,1,132.74,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
-RMBS,2026-07,112.92,USD,1,112.92,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
+RMBS,2026-07,112.1,USD,1,112.1,,https://stockanalysis.com/api/symbol/s/rmbs/history?range=5Y&period=Monthly
 ROK,2021-08,325.45,USD,1,325.45,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
 ROK,2021-09,294.04,USD,1,294.04,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
 ROK,2021-10,319.4,USD,1,319.4,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
@@ -7822,7 +7822,7 @@ ROK,2026-03,358.88,USD,1,358.88,,https://stockanalysis.com/api/symbol/s/rok/hist
 ROK,2026-04,408.91,USD,1,408.91,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
 ROK,2026-05,451.06,USD,1,451.06,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
 ROK,2026-06,495.08,USD,1,495.08,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
-ROK,2026-07,471.7,USD,1,471.7,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
+ROK,2026-07,472.12,USD,1,472.12,,https://stockanalysis.com/api/symbol/s/rok/history?range=5Y&period=Monthly
 RSG,2021-08,124.13,USD,1,124.13,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
 RSG,2021-09,120.06,USD,1,120.06,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
 RSG,2021-10,134.6,USD,1,134.6,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
@@ -7882,7 +7882,7 @@ RSG,2026-03,219.02,USD,1,219.02,,https://stockanalysis.com/api/symbol/s/rsg/hist
 RSG,2026-04,209.22,USD,1,209.22,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
 RSG,2026-05,200.44,USD,1,200.44,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
 RSG,2026-06,213.08,USD,1,213.08,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
-RSG,2026-07,217.34,USD,1,217.34,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
+RSG,2026-07,219.2,USD,1,219.2,,https://stockanalysis.com/api/symbol/s/rsg/history?range=5Y&period=Monthly
 SAP,2021-08,150.14,USD,1,150.14,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
 SAP,2021-09,135.04,USD,1,135.04,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
 SAP,2021-10,144.78,USD,1,144.78,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
@@ -7942,7 +7942,7 @@ SAP,2026-03,171.21,USD,1,171.21,,https://stockanalysis.com/api/symbol/s/sap/hist
 SAP,2026-04,169.49,USD,1,169.49,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
 SAP,2026-05,181.79,USD,1,181.79,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
 SAP,2026-06,154.11,USD,1,154.11,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
-SAP,2026-07,162.59,USD,1,162.59,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
+SAP,2026-07,157.86,USD,1,157.86,,https://stockanalysis.com/api/symbol/s/sap/history?range=5Y&period=Monthly
 SCCO,2021-08,58,USD,1,58,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
 SCCO,2021-09,52.023,USD,1,52.023,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
 SCCO,2021-10,55.591,USD,1,55.591,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
@@ -8002,7 +8002,7 @@ SCCO,2026-03,170.356,USD,1,170.356,,https://stockanalysis.com/api/symbol/s/scco/
 SCCO,2026-04,169.99,USD,1,169.99,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
 SCCO,2026-05,191.3,USD,1,191.3,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
 SCCO,2026-06,174.26,USD,1,174.26,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
-SCCO,2026-07,172.01,USD,1,172.01,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
+SCCO,2026-07,175.83,USD,1,175.83,,https://stockanalysis.com/api/symbol/s/scco/history?range=5Y&period=Monthly
 SMCI,2021-08,3.654,USD,1,3.654,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
 SMCI,2021-09,3.657,USD,1,3.657,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
 SMCI,2021-10,3.539,USD,1,3.539,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
@@ -8062,7 +8062,7 @@ SMCI,2026-03,22.77,USD,1,22.77,,https://stockanalysis.com/api/symbol/s/smci/hist
 SMCI,2026-04,27.4,USD,1,27.4,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
 SMCI,2026-05,46.09,USD,1,46.09,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
 SMCI,2026-06,29.33,USD,1,29.33,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
-SMCI,2026-07,27.22,USD,1,27.22,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
+SMCI,2026-07,28.31,USD,1,28.31,,https://stockanalysis.com/api/symbol/s/smci/history?range=5Y&period=Monthly
 SMR,2021-08,8.77,USD,1,8.77,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
 SMR,2021-09,8.69,USD,1,8.69,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
 SMR,2021-10,9.96,USD,1,9.96,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
@@ -8122,7 +8122,7 @@ SMR,2026-03,10.84,USD,1,10.84,,https://stockanalysis.com/api/symbol/s/smr/histor
 SMR,2026-04,12.46,USD,1,12.46,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
 SMR,2026-05,12.67,USD,1,12.67,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
 SMR,2026-06,10.03,USD,1,10.03,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
-SMR,2026-07,9.76,USD,1,9.76,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
+SMR,2026-07,9.04,USD,1,9.04,,https://stockanalysis.com/api/symbol/s/smr/history?range=5Y&period=Monthly
 SNOW,2021-08,304.35,USD,1,304.35,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
 SNOW,2021-09,302.43,USD,1,302.43,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
 SNOW,2021-10,353.84,USD,1,353.84,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
@@ -8182,7 +8182,7 @@ SNOW,2026-03,150.82,USD,1,150.82,,https://stockanalysis.com/api/symbol/s/snow/hi
 SNOW,2026-04,136.47,USD,1,136.47,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
 SNOW,2026-05,255.55,USD,1,255.55,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
 SNOW,2026-06,254.5,USD,1,254.5,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
-SNOW,2026-07,260.15,USD,1,260.15,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
+SNOW,2026-07,261.45,USD,1,261.45,,https://stockanalysis.com/api/symbol/s/snow/history?range=5Y&period=Monthly
 SNPS,2021-08,332.24,USD,1,332.24,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
 SNPS,2021-09,299.41,USD,1,299.41,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
 SNPS,2021-10,333.18,USD,1,333.18,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
@@ -8242,7 +8242,7 @@ SNPS,2026-03,396.48,USD,1,396.48,,https://stockanalysis.com/api/symbol/s/snps/hi
 SNPS,2026-04,482.6,USD,1,482.6,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
 SNPS,2026-05,475.62,USD,1,475.62,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
 SNPS,2026-06,446.07,USD,1,446.07,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
-SNPS,2026-07,437.16,USD,1,437.16,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
+SNPS,2026-07,445.5,USD,1,445.5,,https://stockanalysis.com/api/symbol/s/snps/history?range=5Y&period=Monthly
 SO,2021-08,65.73,USD,1,65.73,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
 SO,2021-09,61.97,USD,1,61.97,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
 SO,2021-10,62.32,USD,1,62.32,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
@@ -8302,7 +8302,7 @@ SO,2026-03,96.52,USD,1,96.52,,https://stockanalysis.com/api/symbol/s/so/history?
 SO,2026-04,96.7,USD,1,96.7,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
 SO,2026-05,92.05,USD,1,92.05,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
 SO,2026-06,95.71,USD,1,95.71,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
-SO,2026-07,97.98,USD,1,97.98,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
+SO,2026-07,95.61,USD,1,95.61,,https://stockanalysis.com/api/symbol/s/so/history?range=5Y&period=Monthly
 STRL,2021-08,23.06,USD,1,23.06,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
 STRL,2021-09,22.67,USD,1,22.67,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
 STRL,2021-10,24.04,USD,1,24.04,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
@@ -8362,7 +8362,7 @@ STRL,2026-03,407.27,USD,1,407.27,,https://stockanalysis.com/api/symbol/s/strl/hi
 STRL,2026-04,515.62,USD,1,515.62,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
 STRL,2026-05,860.84,USD,1,860.84,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
 STRL,2026-06,839.36,USD,1,839.36,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
-STRL,2026-07,700.75,USD,1,700.75,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
+STRL,2026-07,682.29,USD,1,682.29,,https://stockanalysis.com/api/symbol/s/strl/history?range=5Y&period=Monthly
 STX,2021-08,87.59,USD,1,87.59,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
 STX,2021-09,82.52,USD,1,82.52,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
 STX,2021-10,89.07,USD,1,89.07,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
@@ -8422,7 +8422,7 @@ STX,2026-03,391.76,USD,1,391.76,,https://stockanalysis.com/api/symbol/s/stx/hist
 STX,2026-04,673.64,USD,1,673.64,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
 STX,2026-05,879.8,USD,1,879.8,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
 STX,2026-06,965,USD,1,965,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
-STX,2026-07,820.16,USD,1,820.16,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
+STX,2026-07,910.34,USD,1,910.34,,https://stockanalysis.com/api/symbol/s/stx/history?range=5Y&period=Monthly
 TEM,2024-07,43.28,USD,1,43.28,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
 TEM,2024-08,59.38,USD,1,59.38,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
 TEM,2024-09,56.6,USD,1,56.6,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
@@ -8447,7 +8447,7 @@ TEM,2026-03,45.22,USD,1,45.22,,https://stockanalysis.com/api/symbol/s/tem/histor
 TEM,2026-04,55.48,USD,1,55.48,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
 TEM,2026-05,50.47,USD,1,50.47,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
 TEM,2026-06,57.93,USD,1,57.93,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
-TEM,2026-07,60.27,USD,1,60.27,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
+TEM,2026-07,58.23,USD,1,58.23,,https://stockanalysis.com/api/symbol/s/tem/history?range=5Y&period=Monthly
 TER,2021-08,121.44,USD,1,121.44,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
 TER,2021-09,109.17,USD,1,109.17,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
 TER,2021-10,138.24,USD,1,138.24,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
@@ -8507,7 +8507,7 @@ TER,2026-03,296.46,USD,1,296.46,,https://stockanalysis.com/api/symbol/s/ter/hist
 TER,2026-04,343.47,USD,1,343.47,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
 TER,2026-05,374.31,USD,1,374.31,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
 TER,2026-06,483.84,USD,1,483.84,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
-TER,2026-07,369.09,USD,1,369.09,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
+TER,2026-07,359.6,USD,1,359.6,,https://stockanalysis.com/api/symbol/s/ter/history?range=5Y&period=Monthly
 TLN,2023-07,54.25,USD,1,54.25,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
 TLN,2023-08,55.25,USD,1,55.25,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
 TLN,2023-09,52.9,USD,1,52.9,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
@@ -8544,7 +8544,7 @@ TLN,2026-03,319.23,USD,1,319.23,,https://stockanalysis.com/api/symbol/s/tln/hist
 TLN,2026-04,372.42,USD,1,372.42,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
 TLN,2026-05,386.8,USD,1,386.8,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
 TLN,2026-06,384.26,USD,1,384.26,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
-TLN,2026-07,364.67,USD,1,364.67,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
+TLN,2026-07,385.8,USD,1,385.8,,https://stockanalysis.com/api/symbol/s/tln/history?range=5Y&period=Monthly
 TRGP,2021-08,43.92,USD,1,43.92,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
 TRGP,2021-09,49.21,USD,1,49.21,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
 TRGP,2021-10,54.67,USD,1,54.67,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
@@ -8604,7 +8604,7 @@ TRGP,2026-03,250.73,USD,1,250.73,,https://stockanalysis.com/api/symbol/s/trgp/hi
 TRGP,2026-04,260.08,USD,1,260.08,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
 TRGP,2026-05,255.07,USD,1,255.07,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
 TRGP,2026-06,268.14,USD,1,268.14,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
-TRGP,2026-07,258.88,USD,1,258.88,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
+TRGP,2026-07,273.35,USD,1,273.35,,https://stockanalysis.com/api/symbol/s/trgp/history?range=5Y&period=Monthly
 TSLA,2021-08,245.24,USD,1,245.24,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
 TSLA,2021-09,258.493,USD,1,258.493,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
 TSLA,2021-10,371.333,USD,1,371.333,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
@@ -8664,7 +8664,7 @@ TSLA,2026-03,371.75,USD,1,371.75,,https://stockanalysis.com/api/symbol/s/tsla/hi
 TSLA,2026-04,381.63,USD,1,381.63,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
 TSLA,2026-05,435.79,USD,1,435.79,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
 TSLA,2026-06,420.6,USD,1,420.6,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
-TSLA,2026-07,393.45,USD,1,393.45,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
+TSLA,2026-07,407.76,USD,1,407.76,,https://stockanalysis.com/api/symbol/s/tsla/history?range=5Y&period=Monthly
 TSM,2021-08,119.01,USD,1,119.01,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
 TSM,2021-09,111.65,USD,1,111.65,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
 TSM,2021-10,113.7,USD,1,113.7,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
@@ -8724,7 +8724,7 @@ TSM,2026-03,337.95,USD,1,337.95,,https://stockanalysis.com/api/symbol/s/tsm/hist
 TSM,2026-04,396.06,USD,1,396.06,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
 TSM,2026-05,418.45,USD,1,418.45,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
 TSM,2026-06,477.57,USD,1,477.57,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
-TSM,2026-07,434.16,USD,1,434.16,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
+TSM,2026-07,434.11,USD,1,434.11,,https://stockanalysis.com/api/symbol/s/tsm/history?range=5Y&period=Monthly
 TT,2021-08,198.5,USD,1,198.5,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
 TT,2021-09,172.65,USD,1,172.65,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
 TT,2021-10,180.93,USD,1,180.93,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
@@ -8784,7 +8784,7 @@ TT,2026-03,416.74,USD,1,416.74,,https://stockanalysis.com/api/symbol/s/tt/histor
 TT,2026-04,492.54,USD,1,492.54,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
 TT,2026-05,451.3,USD,1,451.3,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
 TT,2026-06,491.16,USD,1,491.16,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
-TT,2026-07,478.13,USD,1,478.13,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
+TT,2026-07,479.7,USD,1,479.7,,https://stockanalysis.com/api/symbol/s/tt/history?range=5Y&period=Monthly
 TXN,2021-08,190.91,USD,1,190.91,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
 TXN,2021-09,192.21,USD,1,192.21,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
 TXN,2021-10,187.48,USD,1,187.48,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
@@ -8844,7 +8844,7 @@ TXN,2026-03,194.14,USD,1,194.14,,https://stockanalysis.com/api/symbol/s/txn/hist
 TXN,2026-04,281.08,USD,1,281.08,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
 TXN,2026-05,305.68,USD,1,305.68,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
 TXN,2026-06,298.07,USD,1,298.07,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
-TXN,2026-07,293.08,USD,1,293.08,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
+TXN,2026-07,311.46,USD,1,311.46,,https://stockanalysis.com/api/symbol/s/txn/history?range=5Y&period=Monthly
 UCTT,2021-08,46.24,USD,1,46.24,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
 UCTT,2021-09,42.6,USD,1,42.6,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
 UCTT,2021-10,49.57,USD,1,49.57,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
@@ -8904,7 +8904,7 @@ UCTT,2026-03,62.18,USD,1,62.18,,https://stockanalysis.com/api/symbol/s/uctt/hist
 UCTT,2026-04,78.15,USD,1,78.15,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
 UCTT,2026-05,85.57,USD,1,85.57,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
 UCTT,2026-06,142.59,USD,1,142.59,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
-UCTT,2026-07,106.475,USD,1,106.475,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
+UCTT,2026-07,106.27,USD,1,106.27,,https://stockanalysis.com/api/symbol/s/uctt/history?range=5Y&period=Monthly
 UMC,2021-08,11.37,USD,1,11.37,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
 UMC,2021-09,11.43,USD,1,11.43,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
 UMC,2021-10,10.27,USD,1,10.27,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
@@ -8964,7 +8964,7 @@ UMC,2026-03,8.98,USD,1,8.98,,https://stockanalysis.com/api/symbol/s/umc/history?
 UMC,2026-04,13.06,USD,1,13.06,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
 UMC,2026-05,22.18,USD,1,22.18,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
 UMC,2026-06,27.21,USD,1,27.21,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
-UMC,2026-07,24.54,USD,1,24.54,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
+UMC,2026-07,24.34,USD,1,24.34,,https://stockanalysis.com/api/symbol/s/umc/history?range=5Y&period=Monthly
 UUUU,2021-08,5.41,USD,1,5.41,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
 UUUU,2021-09,7.02,USD,1,7.02,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
 UUUU,2021-10,7.84,USD,1,7.84,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
@@ -9024,7 +9024,7 @@ UUUU,2026-03,18.25,USD,1,18.25,,https://stockanalysis.com/api/symbol/s/uuuu/hist
 UUUU,2026-04,21.64,USD,1,21.64,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
 UUUU,2026-05,18.22,USD,1,18.22,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
 UUUU,2026-06,14.5,USD,1,14.5,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
-UUUU,2026-07,13.81,USD,1,13.81,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
+UUUU,2026-07,13.58,USD,1,13.58,,https://stockanalysis.com/api/symbol/s/uuuu/history?range=5Y&period=Monthly
 VECO,2021-08,22.79,USD,1,22.79,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
 VECO,2021-09,22.21,USD,1,22.21,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
 VECO,2021-10,24.29,USD,1,24.29,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
@@ -9084,7 +9084,7 @@ VECO,2026-03,33.86,USD,1,33.86,,https://stockanalysis.com/api/symbol/s/veco/hist
 VECO,2026-04,49.85,USD,1,49.85,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
 VECO,2026-05,57.64,USD,1,57.64,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
 VECO,2026-06,75.8,USD,1,75.8,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
-VECO,2026-07,57.49,USD,1,57.49,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
+VECO,2026-07,57.4,USD,1,57.4,,https://stockanalysis.com/api/symbol/s/veco/history?range=5Y&period=Monthly
 VICR,2021-08,123.37,USD,1,123.37,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
 VICR,2021-09,134.16,USD,1,134.16,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
 VICR,2021-10,151.59,USD,1,151.59,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
@@ -9144,7 +9144,7 @@ VICR,2026-03,161,USD,1,161,,https://stockanalysis.com/api/symbol/s/vicr/history?
 VICR,2026-04,269.27,USD,1,269.27,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
 VICR,2026-05,334.84,USD,1,334.84,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
 VICR,2026-06,379.78,USD,1,379.78,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
-VICR,2026-07,282.95,USD,1,282.95,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
+VICR,2026-07,272.05,USD,1,272.05,,https://stockanalysis.com/api/symbol/s/vicr/history?range=5Y&period=Monthly
 VMI,2021-08,248.86,USD,1,248.86,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
 VMI,2021-09,235.12,USD,1,235.12,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
 VMI,2021-10,238.96,USD,1,238.96,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
@@ -9204,7 +9204,7 @@ VMI,2026-03,399.57,USD,1,399.57,,https://stockanalysis.com/api/symbol/s/vmi/hist
 VMI,2026-04,508.04,USD,1,508.04,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
 VMI,2026-05,519.81,USD,1,519.81,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
 VMI,2026-06,577.6,USD,1,577.6,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
-VMI,2026-07,555.35,USD,1,555.35,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
+VMI,2026-07,546.83,USD,1,546.83,,https://stockanalysis.com/api/symbol/s/vmi/history?range=5Y&period=Monthly
 VRT,2021-08,28.17,USD,1,28.17,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
 VRT,2021-09,24.09,USD,1,24.09,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
 VRT,2021-10,25.68,USD,1,25.68,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
@@ -9264,7 +9264,7 @@ VRT,2026-03,250.58,USD,1,250.58,,https://stockanalysis.com/api/symbol/s/vrt/hist
 VRT,2026-04,328.49,USD,1,328.49,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
 VRT,2026-05,315.71,USD,1,315.71,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
 VRT,2026-06,334.82,USD,1,334.82,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
-VRT,2026-07,300.53,USD,1,300.53,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
+VRT,2026-07,318.86,USD,1,318.86,,https://stockanalysis.com/api/symbol/s/vrt/history?range=5Y&period=Monthly
 VST,2021-08,19.09,USD,1,19.09,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
 VST,2021-09,17.1,USD,1,17.1,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
 VST,2021-10,19.59,USD,1,19.59,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
@@ -9324,7 +9324,7 @@ VST,2026-03,150.33,USD,1,150.33,,https://stockanalysis.com/api/symbol/s/vst/hist
 VST,2026-04,157.84,USD,1,157.84,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
 VST,2026-05,160.23,USD,1,160.23,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
 VST,2026-06,158.63,USD,1,158.63,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
-VST,2026-07,151.05,USD,1,151.05,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
+VST,2026-07,158.86,USD,1,158.86,,https://stockanalysis.com/api/symbol/s/vst/history?range=5Y&period=Monthly
 WCN,2021-08,129.21,USD,1,129.21,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
 WCN,2021-09,125.93,USD,1,125.93,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
 WCN,2021-10,136.01,USD,1,136.01,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
@@ -9384,7 +9384,7 @@ WCN,2026-03,162.44,USD,1,162.44,,https://stockanalysis.com/api/symbol/s/wcn/hist
 WCN,2026-04,164.72,USD,1,164.72,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
 WCN,2026-05,149.02,USD,1,149.02,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
 WCN,2026-06,166.69,USD,1,166.69,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
-WCN,2026-07,168.82,USD,1,168.82,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
+WCN,2026-07,171.07,USD,1,171.07,,https://stockanalysis.com/api/symbol/s/wcn/history?range=5Y&period=Monthly
 WDC,2021-08,63.2,USD,1,63.2,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
 WDC,2021-09,56.44,USD,1,56.44,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
 WDC,2021-10,52.29,USD,1,52.29,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
@@ -9444,7 +9444,7 @@ WDC,2026-03,270.49,USD,1,270.49,,https://stockanalysis.com/api/symbol/s/wdc/hist
 WDC,2026-04,434.52,USD,1,434.52,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
 WDC,2026-05,531.21,USD,1,531.21,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
 WDC,2026-06,638.72,USD,1,638.72,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
-WDC,2026-07,539,USD,1,539,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
+WDC,2026-07,582.585,USD,1,582.585,,https://stockanalysis.com/api/symbol/s/wdc/history?range=5Y&period=Monthly
 WM,2021-08,155.11,USD,1,155.11,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
 WM,2021-09,149.36,USD,1,149.36,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
 WM,2021-10,160.23,USD,1,160.23,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
@@ -9504,7 +9504,7 @@ WM,2026-03,229.79,USD,1,229.79,,https://stockanalysis.com/api/symbol/s/wm/histor
 WM,2026-04,232.55,USD,1,232.55,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
 WM,2026-05,211.46,USD,1,211.46,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
 WM,2026-06,222.88,USD,1,222.88,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
-WM,2026-07,230.4,USD,1,230.4,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
+WM,2026-07,233.33,USD,1,233.33,,https://stockanalysis.com/api/symbol/s/wm/history?range=5Y&period=Monthly
 WMB,2021-08,24.69,USD,1,24.69,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
 WMB,2021-09,25.94,USD,1,25.94,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
 WMB,2021-10,28.09,USD,1,28.09,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
@@ -9564,7 +9564,7 @@ WMB,2026-03,72.78,USD,1,72.78,,https://stockanalysis.com/api/symbol/s/wmb/histor
 WMB,2026-04,76.31,USD,1,76.31,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
 WMB,2026-05,71.39,USD,1,71.39,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
 WMB,2026-06,74.34,USD,1,74.34,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
-WMB,2026-07,73.14,USD,1,73.14,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
+WMB,2026-07,75.02,USD,1,75.02,,https://stockanalysis.com/api/symbol/s/wmb/history?range=5Y&period=Monthly
 WOLF,2025-10,26.32,USD,1,26.32,,https://stockanalysis.com/api/symbol/s/wolf/history?range=5Y&period=Monthly
 WOLF,2025-11,20.28,USD,1,20.28,,https://stockanalysis.com/api/symbol/s/wolf/history?range=5Y&period=Monthly
 WOLF,2025-12,17.41,USD,1,17.41,,https://stockanalysis.com/api/symbol/s/wolf/history?range=5Y&period=Monthly
@@ -9632,7 +9632,7 @@ WTS,2026-03,290.29,USD,1,290.29,,https://stockanalysis.com/api/symbol/s/wts/hist
 WTS,2026-04,300.16,USD,1,300.16,,https://stockanalysis.com/api/symbol/s/wts/history?range=5Y&period=Monthly
 WTS,2026-05,308.98,USD,1,308.98,,https://stockanalysis.com/api/symbol/s/wts/history?range=5Y&period=Monthly
 WTS,2026-06,391.45,USD,1,391.45,,https://stockanalysis.com/api/symbol/s/wts/history?range=5Y&period=Monthly
-WTS,2026-07,368.55,USD,1,368.55,,https://stockanalysis.com/api/symbol/s/wts/history?range=5Y&period=Monthly
+WTS,2026-07,352.36,USD,1,352.36,,https://stockanalysis.com/api/symbol/s/wts/history?range=5Y&period=Monthly
 ZS,2021-08,278.34,USD,1,278.34,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly
 ZS,2021-09,262.22,USD,1,262.22,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly
 ZS,2021-10,318.86,USD,1,318.86,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly
@@ -9692,4 +9692,4 @@ ZS,2026-03,140.29,USD,1,140.29,,https://stockanalysis.com/api/symbol/s/zs/histor
 ZS,2026-04,130.68,USD,1,130.68,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly
 ZS,2026-05,139.73,USD,1,139.73,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly
 ZS,2026-06,141.15,USD,1,141.15,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly
-ZS,2026-07,147.33,USD,1,147.33,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly
+ZS,2026-07,139.27,USD,1,139.27,,https://stockanalysis.com/api/symbol/s/zs/history?range=5Y&period=Monthly

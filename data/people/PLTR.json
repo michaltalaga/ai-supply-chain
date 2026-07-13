@@ -23,13 +23,33 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-02",
+      "name": "Sankar Shyam",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 130,
+      "shares": 150000,
+      "value_usd": 19500000,
+      "post_holding": 599899
+    },
+    {
+      "date": "2026-07-02",
+      "name": "Sankar Shyam",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 130,
+      "shares": 35000,
+      "value_usd": 4550000,
+      "post_holding": 642786
+    },
     {
       "date": "2026-06-15",
       "name": "Moore Alexander D.",
@@ -181,16 +201,6 @@
       "post_holding": 13733625
     },
     {
-      "date": "2026-02-24",
-      "name": "Buckley Jeffrey",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 129.08,
-      "shares": 1232,
-      "value_usd": 159027,
-      "post_holding": 43108
-    },
-    {
       "date": "2026-02-20",
       "name": "Buckley Jeffrey",
       "role": "See Remarks",
@@ -199,16 +209,6 @@
       "shares": 2704,
       "value_usd": 361575,
       "post_holding": 44340
-    },
-    {
-      "date": "2026-02-20",
-      "name": "Taylor Ryan D.",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 133.72,
-      "shares": 19988,
-      "value_usd": 2672765,
-      "post_holding": 219421
     }
   ],
   "top_holders": [

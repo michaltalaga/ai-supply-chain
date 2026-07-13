@@ -20,13 +20,113 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-06",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 257.91,
+      "shares": 840,
+      "value_usd": 216642,
+      "post_holding": 26876
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 257.91,
+      "shares": 2520,
+      "value_usd": 649926,
+      "post_holding": 26876
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 257.91,
+      "shares": 46978,
+      "value_usd": 12115927,
+      "post_holding": 415120
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 257.92,
+      "shares": 403,
+      "value_usd": 103940,
+      "post_holding": 22976
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Briggs Teresa",
+      "role": "Director",
+      "type": "Sale",
+      "price": 255.11,
+      "shares": 343,
+      "value_usd": 87503,
+      "post_holding": 5060
+    },
+    {
+      "date": "2026-07-02",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0.74,
+      "shares": 256035,
+      "value_usd": 189466,
+      "post_holding": 321777
+    },
+    {
+      "date": "2026-07-02",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 254.64,
+      "shares": 140819,
+      "value_usd": 35858150,
+      "post_holding": 180958
+    },
+    {
+      "date": "2026-07-02",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 254.64,
+      "shares": 50000,
+      "value_usd": 12732000,
+      "post_holding": 2951555
+    },
+    {
+      "date": "2026-07-02",
+      "name": "Briggs Teresa",
+      "role": "Director",
+      "type": "Sale",
+      "price": 254.64,
+      "shares": 344,
+      "value_usd": 87596,
+      "post_holding": 5403
+    },
+    {
+      "date": "2026-07-01",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 258.56,
+      "shares": 2500,
+      "value_usd": 646400,
+      "post_holding": 397879
+    },
     {
       "date": "2026-06-29",
       "name": "Slootman Frank",
@@ -116,66 +216,6 @@
       "shares": 200000,
       "value_usd": 44854036,
       "post_holding": 28535
-    },
-    {
-      "date": "2026-06-16",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 240,
-      "shares": 2986,
-      "value_usd": 716640,
-      "post_holding": 405652
-    },
-    {
-      "date": "2026-06-16",
-      "name": "Raghunathan Vivek",
-      "role": "SVP, Engineering",
-      "type": "Sale",
-      "price": 240,
-      "shares": 3876,
-      "value_usd": 930240,
-      "post_holding": 258689
-    },
-    {
-      "date": "2026-06-16",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 240,
-      "shares": 8066,
-      "value_usd": 1935840,
-      "post_holding": 28535
-    },
-    {
-      "date": "2026-06-09",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 239,
-      "shares": 2729,
-      "value_usd": 652231,
-      "post_holding": 413002
-    },
-    {
-      "date": "2026-06-05",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 245.21,
-      "shares": 50338,
-      "value_usd": 12343180,
-      "post_holding": 27716
-    },
-    {
-      "date": "2026-06-05",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 245.21,
-      "shares": 403,
-      "value_usd": 98818,
-      "post_holding": 22106
     }
   ],
   "top_holders": [

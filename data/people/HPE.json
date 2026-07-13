@@ -15,13 +15,33 @@
       "name": "Fidelma Russo"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=HPE",
     "top_holders": "https://finance.yahoo.com/quote/HPE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-03",
+      "name": "rahim rami",
+      "role": "EVP, Pres GM Networking",
+      "type": "Option Exercise",
+      "price": 41.23,
+      "shares": 1072381,
+      "value_usd": 44214269,
+      "post_holding": 761427
+    },
+    {
+      "date": "2026-07-02",
+      "name": "rahim rami",
+      "role": "EVP, Pres GM Networking",
+      "type": "Option Exercise",
+      "price": 41.23,
+      "shares": 49984,
+      "value_usd": 2060840,
+      "post_holding": 49984
+    },
     {
       "date": "2026-06-22",
       "name": "Karros Kirt P",
@@ -231,16 +251,6 @@
       "shares": 264432,
       "value_usd": 6658629,
       "post_holding": 1837329
-    },
-    {
-      "date": "2026-03-25",
-      "name": "MacDonald Neil B",
-      "role": "EVP, GM, Server",
-      "type": "Sale",
-      "price": 25.09,
-      "shares": 112652,
-      "value_usd": 2826604,
-      "post_holding": 56494
     }
   ],
   "top_holders": [

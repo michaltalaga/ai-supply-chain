@@ -30,13 +30,43 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-06",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 600.97,
+      "shares": 3348,
+      "value_usd": 2012056,
+      "post_holding": 9498
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 600.62,
+      "shares": 1887,
+      "value_usd": 1133366,
+      "post_holding": 1802
+    },
+    {
+      "date": "2026-07-01",
+      "name": "KIMMITT ROBERT M",
+      "role": "Director",
+      "type": "Sale",
+      "price": 607.75,
+      "shares": 500,
+      "value_usd": 303875,
+      "post_holding": 3443
+    },
     {
       "date": "2026-06-15",
       "name": "Olivan Javier",
@@ -216,46 +246,6 @@
       "shares": 13956,
       "value_usd": 0,
       "post_holding": 29302
-    },
-    {
-      "date": "2026-05-15",
-      "name": "LI SUSAN J",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 618.43,
-      "shares": 2127,
-      "value_usd": 1315401,
-      "post_holding": 15346
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Anderson Aaron",
-      "role": "Chief Accounting Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 2451,
-      "value_usd": 0,
-      "post_holding": 9497
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Songhurst Charles",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 709,
-      "value_usd": 0,
-      "post_holding": 1372
-    },
-    {
-      "date": "2026-05-15",
-      "name": "KIMMITT ROBERT M",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 600,
-      "value_usd": 0,
-      "post_holding": 4447
     }
   ],
   "top_holders": [

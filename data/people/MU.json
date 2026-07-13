@@ -16,13 +16,23 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-13",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
     "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-01",
+      "name": "ARNZEN APRIL S",
+      "role": "EVP and Chief People Officer",
+      "type": "Sale",
+      "price": 1083.94,
+      "shares": 40000,
+      "value_usd": 43357473,
+      "post_holding": 85737
+    },
     {
       "date": "2026-06-30",
       "name": "Dugle Lynn A",
