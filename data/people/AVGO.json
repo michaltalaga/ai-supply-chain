@@ -15,13 +15,23 @@
       "name": "Charlie Kawwas"
     }
   ],
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AVGO",
     "top_holders": "https://finance.yahoo.com/quote/AVGO/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-10",
+      "name": "Brazeal Mark David",
+      "role": "Chief Legal & Corp Affairs Ofc",
+      "type": "Sale",
+      "price": 401.33,
+      "shares": 25000,
+      "value_usd": 10033225,
+      "post_holding": 194989
+    },
     {
       "date": "2026-07-08",
       "name": "DELLY GAYLA J",

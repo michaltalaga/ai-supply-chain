@@ -20,13 +20,33 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
     "top_holders": "https://finance.yahoo.com/quote/TSM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-14",
+      "name": "Chen Chih-Ho",
+      "role": "Controller",
+      "type": "Sale",
+      "price": 75.22,
+      "shares": 50,
+      "value_usd": 3761,
+      "post_holding": 363
+    },
+    {
+      "date": "2026-07-13",
+      "name": "Chen Chih-Ho",
+      "role": "Controller",
+      "type": "Buy",
+      "price": 74.6,
+      "shares": 50,
+      "value_usd": 3730,
+      "post_holding": 413
+    },
     {
       "date": "2026-07-07",
       "name": "Wang Ying-Lang",
@@ -296,26 +316,6 @@
       "shares": 54,
       "value_usd": 4137,
       "post_holding": 6662
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Lu Lee-Chung",
-      "role": "VP",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 49,
-      "value_usd": 3754,
-      "post_holding": 6382
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Lin Shyue-Shyh",
-      "role": "VP",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 44,
-      "value_usd": 3371,
-      "post_holding": 249
     }
   ],
   "top_holders": [

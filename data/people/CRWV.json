@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,66 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-07-14",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 80.85,
+      "shares": 200000,
+      "value_usd": 16170108,
+      "post_holding": 2676815
+    },
+    {
+      "date": "2026-07-14",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 80.85,
+      "shares": 107692,
+      "value_usd": 8706942,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-13",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 84.64,
+      "shares": 53000,
+      "value_usd": 4486099,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-13",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 84.64,
+      "shares": 144000,
+      "value_usd": 12188755,
+      "post_holding": 323263
+    },
+    {
+      "date": "2026-07-13",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 84.64,
+      "shares": 53000,
+      "value_usd": 4486132,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-13",
+      "name": "Agrawal Nitin",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 84.74,
+      "shares": 65055,
+      "value_usd": 5512786,
+      "post_holding": 128716
+    },
     {
       "date": "2026-07-08",
       "name": "Intrator Michael N",
@@ -105,86 +165,6 @@
       "shares": 53000,
       "value_usd": 4564861,
       "post_holding": 0
-    },
-    {
-      "date": "2026-07-01",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 86.99,
-      "shares": 76912,
-      "value_usd": 6690605,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-06-30",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 95.69,
-      "shares": 65493,
-      "value_usd": 6267025,
-      "post_holding": 235883
-    },
-    {
-      "date": "2026-06-30",
-      "name": "McVeety Kristen J",
-      "role": "GC and Secretary",
-      "type": "Sale",
-      "price": 95.69,
-      "shares": 4,
-      "value_usd": 383,
-      "post_holding": 121718
-    },
-    {
-      "date": "2026-06-30",
-      "name": "Jain Sachin",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 95.69,
-      "shares": 3,
-      "value_usd": 287,
-      "post_holding": 127633
-    },
-    {
-      "date": "2026-06-30",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 97.43,
-      "shares": 278560,
-      "value_usd": 27140545,
-      "post_holding": 3138612
-    },
-    {
-      "date": "2026-06-30",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 98.12,
-      "shares": 107692,
-      "value_usd": 10566277,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-06-30",
-      "name": "Goldberg Chen",
-      "role": "EVP, Product & Engineering",
-      "type": "Sale",
-      "price": 95.69,
-      "shares": 4,
-      "value_usd": 383,
-      "post_holding": 59371
-    },
-    {
-      "date": "2026-06-30",
-      "name": "Baker Jeff",
-      "role": "Principal Accounting Officer",
-      "type": "Sale",
-      "price": 95.69,
-      "shares": 4,
-      "value_usd": 383,
-      "post_holding": 1122
     }
   ],
   "top_holders": [

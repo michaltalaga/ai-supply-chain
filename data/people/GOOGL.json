@@ -35,13 +35,33 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-16",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 18.73,
+      "shares": 19595,
+      "value_usd": 367008,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-15",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 19.66,
+      "shares": 74492,
+      "value_usd": 1464685,
+      "post_holding": 0
+    },
     {
       "date": "2026-06-30",
       "name": "ARNOLD FRANCES",

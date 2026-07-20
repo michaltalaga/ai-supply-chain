@@ -30,13 +30,33 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-13",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 660.98,
+      "shares": 1534,
+      "value_usd": 1013936,
+      "post_holding": 7964
+    },
+    {
+      "date": "2026-07-13",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 661.13,
+      "shares": 629,
+      "value_usd": 415851,
+      "post_holding": 1745
+    },
     {
       "date": "2026-07-06",
       "name": "Olivan Javier",
@@ -168,26 +188,6 @@
       "post_holding": 2201
     },
     {
-      "date": "2026-05-18",
-      "name": "Bosworth Andrew",
-      "role": "Chief Technology Officer",
-      "type": "Sale",
-      "price": 607.83,
-      "shares": 7847,
-      "value_usd": 4769642,
-      "post_holding": 414
-    },
-    {
-      "date": "2026-05-18",
-      "name": "LI SUSAN J",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 607.84,
-      "shares": 9195,
-      "value_usd": 5589133,
-      "post_holding": 13186
-    },
-    {
       "date": "2026-05-15",
       "name": "Powell Dina H.",
       "role": "President and Vice Chairman",
@@ -236,16 +236,6 @@
       "shares": 16388,
       "value_usd": 0,
       "post_holding": 16388
-    },
-    {
-      "date": "2026-05-15",
-      "name": "LI SUSAN J",
-      "role": "Chief Financial Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 13956,
-      "value_usd": 0,
-      "post_holding": 29302
     }
   ],
   "top_holders": [

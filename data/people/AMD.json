@@ -23,13 +23,33 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-07-13",
+  "as_of": "2026-07-20",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-15",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Option Exercise",
+      "price": 84.85,
+      "shares": 6000,
+      "value_usd": 509100,
+      "post_holding": 1239687
+    },
+    {
+      "date": "2026-07-15",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 556.43,
+      "shares": 6000,
+      "value_usd": 3338580,
+      "post_holding": 1233687
+    },
     {
       "date": "2026-06-15",
       "name": "GUIDO PHILIP",
@@ -189,26 +209,6 @@
       "shares": 31320,
       "value_usd": 10962000,
       "post_holding": 1236037
-    },
-    {
-      "date": "2026-04-16",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Sale",
-      "price": 275,
-      "shares": 27109,
-      "value_usd": 7454975,
-      "post_holding": 1267357
-    },
-    {
-      "date": "2026-04-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Option Exercise",
-      "price": 84.85,
-      "shares": 6000,
-      "value_usd": 509100,
-      "post_holding": 1300466
     }
   ],
   "top_holders": [
