@@ -16,7 +16,7 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-27",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
@@ -162,16 +162,6 @@
       "shares": 25000,
       "value_usd": 10747266,
       "post_holding": 248021
-    },
-    {
-      "date": "2026-01-27",
-      "name": "RAY MICHAEL CHARLES",
-      "role": "SVP, Chief Legal Officer",
-      "type": "Sale",
-      "price": 409.68,
-      "shares": 12268,
-      "value_usd": 5025987,
-      "post_holding": 74675
     }
   ],
   "top_holders": [

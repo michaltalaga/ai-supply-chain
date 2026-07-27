@@ -15,13 +15,33 @@
       "name": "Fidelma Russo"
     }
   ],
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-27",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=HPE",
     "top_holders": "https://finance.yahoo.com/quote/HPE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-22",
+      "name": "Karros Kirt P",
+      "role": "SVP, Treasurer, Corp Dev",
+      "type": "Sale",
+      "price": 47.02,
+      "shares": 23675,
+      "value_usd": 1113198,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Karros Kirt P",
+      "role": "SVP, Treasurer, Corp Dev",
+      "type": "Option Exercise",
+      "price": 44.56,
+      "shares": 40282,
+      "value_usd": 1794966,
+      "post_holding": 40282
+    },
     {
       "date": "2026-07-03",
       "name": "rahim rami",
@@ -231,26 +251,6 @@
       "shares": 14500,
       "value_usd": 347710,
       "post_holding": 176400
-    },
-    {
-      "date": "2026-03-25",
-      "name": "RUSSO FIDELMA",
-      "role": "EVP, GM, Hybrid Cloud & CTO",
-      "type": "Sale",
-      "price": 25.08,
-      "shares": 34001,
-      "value_usd": 852746,
-      "post_holding": 17001
-    },
-    {
-      "date": "2026-03-25",
-      "name": "Neri Antonio F",
-      "role": "President and CEO",
-      "type": "Sale",
-      "price": 25.18,
-      "shares": 264432,
-      "value_usd": 6658629,
-      "post_holding": 1837329
     }
   ],
   "top_holders": [

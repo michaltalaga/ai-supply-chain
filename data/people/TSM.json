@@ -20,13 +20,73 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-27",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
     "top_holders": "https://finance.yahoo.com/quote/TSM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-21",
+      "name": "Tien Bor-Zen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 74.39,
+      "shares": 3000,
+      "value_usd": 223170,
+      "post_holding": 4000
+    },
+    {
+      "date": "2026-07-21",
+      "name": "Tien Bor-Zen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 74.13,
+      "shares": 1000,
+      "value_usd": 74130,
+      "post_holding": 13051
+    },
+    {
+      "date": "2026-07-21",
+      "name": "Lin Shyue-Shyh",
+      "role": "VP",
+      "type": "Buy",
+      "price": 74.13,
+      "shares": 1000,
+      "value_usd": 74130,
+      "post_holding": 30269
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Lin Shyue-Shyh",
+      "role": "VP",
+      "type": "Buy",
+      "price": 72.65,
+      "shares": 1000,
+      "value_usd": 72650,
+      "post_holding": 29269
+    },
+    {
+      "date": "2026-07-19",
+      "name": "Lin Shyue-Shyh",
+      "role": "VP",
+      "type": "Buy",
+      "price": 71.71,
+      "shares": 2000,
+      "value_usd": 143420,
+      "post_holding": 28269
+    },
+    {
+      "date": "2026-07-19",
+      "name": "Lin Shyue-Shyh",
+      "role": "VP",
+      "type": "Buy",
+      "price": 71.94,
+      "shares": 1000,
+      "value_usd": 71940,
+      "post_holding": 5000
+    },
     {
       "date": "2026-07-14",
       "name": "Chen Chih-Ho",
@@ -256,66 +316,6 @@
       "shares": 68,
       "value_usd": 5210,
       "post_holding": 8027
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Yeap Choh Fei",
-      "role": "SVP",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 53,
-      "value_usd": 4061,
-      "post_holding": 6436
-    },
-    {
-      "date": "2026-07-07",
-      "name": "He Jun",
-      "role": "VP",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 45,
-      "value_usd": 3448,
-      "post_holding": 5315
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Huang Jen-Chau",
-      "role": "SVP and CFO",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 28,
-      "value_usd": 2145,
-      "post_holding": 3524
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Lu Chin-Sheng",
-      "role": "VP",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 37,
-      "value_usd": 2835,
-      "post_holding": 74
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Chuang Tzu-Sou",
-      "role": "VP",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 45,
-      "value_usd": 3448,
-      "post_holding": 5759
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Cao Min",
-      "role": "VP",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 54,
-      "value_usd": 4137,
-      "post_holding": 6662
     }
   ],
   "top_holders": [

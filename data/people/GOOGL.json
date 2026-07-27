@@ -35,13 +35,53 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-27",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-22",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 19.23,
+      "shares": 49582,
+      "value_usd": 953467,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-21",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 19.06,
+      "shares": 22900,
+      "value_usd": 436368,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-20",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 18.87,
+      "shares": 18386,
+      "value_usd": 346859,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-17",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 18.68,
+      "shares": 20534,
+      "value_usd": 383614,
+      "post_holding": 0
+    },
     {
       "date": "2026-07-16",
       "name": "GV 2019 GP, L.L.C.",
@@ -161,36 +201,6 @@
       "shares": 1050,
       "value_usd": 348232,
       "post_holding": 3581
-    },
-    {
-      "date": "2026-04-01",
-      "name": "O'Toole Amie Thuener",
-      "role": "VP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 289.63,
-      "shares": 617,
-      "value_usd": 178702,
-      "post_holding": 10093
-    },
-    {
-      "date": "2026-03-30",
-      "name": "ARNOLD FRANCES",
-      "role": "Director",
-      "type": "Sale",
-      "price": 275.19,
-      "shares": 102,
-      "value_usd": 28069,
-      "post_holding": 18316
-    },
-    {
-      "date": "2026-03-27",
-      "name": "WALKER JOHN KENT",
-      "role": "President, Global Affairs, CLO",
-      "type": "Sale",
-      "price": 275.89,
-      "shares": 8993,
-      "value_usd": 2481117,
-      "post_holding": 51808
     }
   ],
   "top_holders": [

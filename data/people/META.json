@@ -30,13 +30,33 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-27",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-20",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 645.85,
+      "shares": 837,
+      "value_usd": 540576,
+      "post_holding": 7127
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 645.85,
+      "shares": 629,
+      "value_usd": 406240,
+      "post_holding": 1688
+    },
     {
       "date": "2026-07-13",
       "name": "Olivan Javier",
@@ -206,36 +226,6 @@
       "shares": 16388,
       "value_usd": 0,
       "post_holding": 23241
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Mahoney Curtis J.",
-      "role": "Chief Legal Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 6342,
-      "value_usd": 0,
-      "post_holding": 6342
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Cox Christopher K",
-      "role": "Chief Product Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 16388,
-      "value_usd": 0,
-      "post_holding": 264382
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Bosworth Andrew",
-      "role": "Chief Technology Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 16388,
-      "value_usd": 0,
-      "post_holding": 16388
     }
   ],
   "top_holders": [

@@ -19,13 +19,33 @@
       "name": "Bill Scannell"
     }
   ],
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-27",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
     "top_holders": "https://finance.yahoo.com/quote/DELL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-22",
+      "name": "Radakovich Lynn Vojvodich",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 31.14,
+      "shares": 2022,
+      "value_usd": 62965,
+      "post_holding": 27289
+    },
+    {
+      "date": "2026-07-22",
+      "name": "Radakovich Lynn Vojvodich",
+      "role": "Director",
+      "type": "Sale",
+      "price": 413.77,
+      "shares": 2022,
+      "value_usd": 836643,
+      "post_holding": 25267
+    },
     {
       "date": "2026-07-09",
       "name": "Silver Lake Technology Investo",
