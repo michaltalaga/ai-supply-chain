@@ -30,13 +30,33 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-07-27",
+  "as_of": "2026-08-03",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-27",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 607.85,
+      "shares": 837,
+      "value_usd": 508770,
+      "post_holding": 6290
+    },
+    {
+      "date": "2026-07-27",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 607.85,
+      "shares": 629,
+      "value_usd": 382338,
+      "post_holding": 1631
+    },
     {
       "date": "2026-07-20",
       "name": "Olivan Javier",
@@ -186,46 +206,6 @@
       "shares": 629,
       "value_usd": 383048,
       "post_holding": 2144
-    },
-    {
-      "date": "2026-05-18",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 609.35,
-      "shares": 837,
-      "value_usd": 510026,
-      "post_holding": 14660
-    },
-    {
-      "date": "2026-05-18",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 609.35,
-      "shares": 629,
-      "value_usd": 383281,
-      "post_holding": 2201
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Powell Dina H.",
-      "role": "President and Vice Chairman",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 9635,
-      "value_usd": 0,
-      "post_holding": 10996
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 16388,
-      "value_usd": 0,
-      "post_holding": 23241
     }
   ],
   "top_holders": [

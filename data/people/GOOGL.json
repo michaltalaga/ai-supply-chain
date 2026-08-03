@@ -35,13 +35,73 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-07-27",
+  "as_of": "2026-08-03",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-30",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 333.39,
+      "shares": 82,
+      "value_usd": 27338,
+      "post_holding": 18914
+    },
+    {
+      "date": "2026-07-29",
+      "name": "Saraci Marsida",
+      "role": "VP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 333.2,
+      "shares": 449,
+      "value_usd": 149607,
+      "post_holding": 27386
+    },
+    {
+      "date": "2026-07-28",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 18.9,
+      "shares": 118138,
+      "value_usd": 2232761,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-27",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 19.46,
+      "shares": 196931,
+      "value_usd": 3832848,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-24",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 18.88,
+      "shares": 23417,
+      "value_usd": 442001,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-07-23",
+      "name": "GV 2019 GP, L.L.C.",
+      "role": "10% Owner",
+      "type": "Sale",
+      "price": 19.06,
+      "shares": 63297,
+      "value_usd": 1206270,
+      "post_holding": 0
+    },
     {
       "date": "2026-07-22",
       "name": "GV 2019 GP, L.L.C.",
@@ -161,46 +221,6 @@
       "shares": 1050,
       "value_usd": 412920,
       "post_holding": 2531
-    },
-    {
-      "date": "2026-05-15",
-      "name": "GV 2019 GP, L.L.C.",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 23.75,
-      "shares": 87475,
-      "value_usd": 2077479,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-05-14",
-      "name": "GV 2019 GP, L.L.C.",
-      "role": "10% Owner",
-      "type": "Sale",
-      "price": 23.01,
-      "shares": 60077,
-      "value_usd": 1382330,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-04-30",
-      "name": "ARNOLD FRANCES",
-      "role": "Director",
-      "type": "Sale",
-      "price": 371,
-      "shares": 102,
-      "value_usd": 37842,
-      "post_holding": 18621
-    },
-    {
-      "date": "2026-04-15",
-      "name": "Hennessy John L.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 331.65,
-      "shares": 1050,
-      "value_usd": 348232,
-      "post_holding": 3581
     }
   ],
   "top_holders": [

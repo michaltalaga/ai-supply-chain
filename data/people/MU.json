@@ -16,13 +16,43 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-07-27",
+  "as_of": "2026-08-03",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
     "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-07-24",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 951.72,
+      "shares": 8715,
+      "value_usd": 8294275,
+      "post_holding": 304503
+    },
+    {
+      "date": "2026-07-24",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 926.83,
+      "shares": 31285,
+      "value_usd": 28995816,
+      "post_holding": 313218
+    },
+    {
+      "date": "2026-07-23",
+      "name": "ALLEN SCOTT R.",
+      "role": "CVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 1000,
+      "shares": 879,
+      "value_usd": 879000,
+      "post_holding": 34958
+    },
     {
       "date": "2026-07-01",
       "name": "ARNZEN APRIL S",
@@ -142,26 +172,6 @@
       "shares": 3407,
       "value_usd": 1433700,
       "post_holding": 47466
-    },
-    {
-      "date": "2026-04-01",
-      "name": "ARNZEN APRIL S",
-      "role": "EVP and Chief People Officer",
-      "type": "Sale",
-      "price": 347.39,
-      "shares": 40000,
-      "value_usd": 13895762,
-      "post_holding": 125737
-    },
-    {
-      "date": "2026-02-02",
-      "name": "Sadana Sumit",
-      "role": "EVP and Chief Business Officer",
-      "type": "Sale",
-      "price": 429.89,
-      "shares": 25000,
-      "value_usd": 10747266,
-      "post_holding": 248021
     }
   ],
   "top_holders": [
