@@ -30,13 +30,43 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-10",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-04",
+      "name": "Andreessen Marc L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 588.98,
+      "shares": 426,
+      "value_usd": 250907,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-08-03",
+      "name": "KIMMITT ROBERT M",
+      "role": "Director",
+      "type": "Sale",
+      "price": 561.56,
+      "shares": 500,
+      "value_usd": 280780,
+      "post_holding": 2943
+    },
+    {
+      "date": "2026-07-31",
+      "name": "Alford Peggy",
+      "role": "Director",
+      "type": "Sale",
+      "price": 543.56,
+      "shares": 464,
+      "value_usd": 252212,
+      "post_holding": 2840
+    },
     {
       "date": "2026-07-27",
       "name": "Olivan Javier",
@@ -186,26 +216,6 @@
       "shares": 2079,
       "value_usd": 1268024,
       "post_holding": 1118
-    },
-    {
-      "date": "2026-05-26",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 608.98,
-      "shares": 837,
-      "value_usd": 509716,
-      "post_holding": 13823
-    },
-    {
-      "date": "2026-05-26",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 608.98,
-      "shares": 629,
-      "value_usd": 383048,
-      "post_holding": 2144
     }
   ],
   "top_holders": [

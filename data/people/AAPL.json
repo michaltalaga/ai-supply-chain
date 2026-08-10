@@ -32,7 +32,7 @@
       "name": "John Giannandrea"
     }
   ],
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-10",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AAPL",
@@ -168,16 +168,6 @@
       "shares": 90000,
       "value_usd": 20886300,
       "post_holding": 4069576
-    },
-    {
-      "date": "2025-08-08",
-      "name": "O'BRIEN DEIRDRE",
-      "role": "Senior Vice President",
-      "type": "Sale",
-      "price": 223.2,
-      "shares": 34821,
-      "value_usd": 7772047,
-      "post_holding": 136687
     }
   ],
   "top_holders": [

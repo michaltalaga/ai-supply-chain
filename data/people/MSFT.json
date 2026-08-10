@@ -26,13 +26,33 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-10",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-05",
+      "name": "Althoff Judson",
+      "role": "CEO Microsoft Commercial",
+      "type": "Sale",
+      "price": 487.89,
+      "shares": 10000,
+      "value_usd": 4878930,
+      "post_holding": 100447
+    },
+    {
+      "date": "2026-08-04",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 496.48,
+      "shares": 4810,
+      "value_usd": 2388244,
+      "post_holding": 42677
+    },
     {
       "date": "2026-06-10",
       "name": "Numoto Takeshi",

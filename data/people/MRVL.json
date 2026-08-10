@@ -15,13 +15,23 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-10",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
     "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-03",
+      "name": "Koopmans Chris",
+      "role": "President and COO",
+      "type": "Sale",
+      "price": 180.5,
+      "shares": 10000,
+      "value_usd": 1805000,
+      "post_holding": 227941
+    },
     {
       "date": "2026-07-16",
       "name": "Bharathi Sandeep",
@@ -221,16 +231,6 @@
       "shares": 10000,
       "value_usd": 2058700,
       "post_holding": 237392
-    },
-    {
-      "date": "2026-05-20",
-      "name": "Koopmans Chris",
-      "role": "President and COO",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 18744,
-      "value_usd": 0,
-      "post_holding": 256686
     }
   ],
   "top_holders": [

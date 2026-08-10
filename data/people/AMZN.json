@@ -23,13 +23,33 @@
       "name": "Jeff Bezos"
     }
   ],
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-10",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMZN",
     "top_holders": "https://finance.yahoo.com/quote/AMZN/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-03",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 278.39,
+      "shares": 1000,
+      "value_usd": 278390,
+      "post_holding": 483527
+    },
+    {
+      "date": "2026-08-03",
+      "name": "BEZOS JEFFREY P",
+      "role": "Executive Chair",
+      "type": "Sale",
+      "price": 286.41,
+      "shares": 1209649,
+      "value_usd": 346453514,
+      "post_holding": 879739004
+    },
     {
       "date": "2026-07-01",
       "name": "Herrington Douglas J",
@@ -219,26 +239,6 @@
       "shares": 1984,
       "value_usd": 0,
       "post_holding": 3968
-    },
-    {
-      "date": "2026-05-15",
-      "name": "NOOYI INDRA K",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 1602,
-      "value_usd": 0,
-      "post_holding": 31942
-    },
-    {
-      "date": "2026-05-04",
-      "name": "Jassy Andrew R",
-      "role": "President and CEO",
-      "type": "Sale",
-      "price": 275,
-      "shares": 31352,
-      "value_usd": 8621800,
-      "post_holding": 2175766
     }
   ],
   "top_holders": [

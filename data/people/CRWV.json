@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-10",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,96 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-08-05",
+      "name": "Goldberg Chen",
+      "role": "EVP, Product & Engineering",
+      "type": "Sale",
+      "price": 92.29,
+      "shares": 19208,
+      "value_usd": 1772706,
+      "post_holding": 71266
+    },
+    {
+      "date": "2026-08-04",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 91.8,
+      "shares": 200000,
+      "value_usd": 18359793,
+      "post_holding": 2076815
+    },
+    {
+      "date": "2026-08-04",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 91.8,
+      "shares": 107692,
+      "value_usd": 9886022,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-08-04",
+      "name": "Goldberg Chen",
+      "role": "EVP, Product & Engineering",
+      "type": "Sale",
+      "price": 90,
+      "shares": 6397,
+      "value_usd": 575736,
+      "post_holding": 52974
+    },
+    {
+      "date": "2026-08-03",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 83.63,
+      "shares": 10536,
+      "value_usd": 881123,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-08-03",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 82.15,
+      "shares": 44564,
+      "value_usd": 3661076,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-08-03",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 82.94,
+      "shares": 33216,
+      "value_usd": 2754776,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-08-03",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 82.37,
+      "shares": 144000,
+      "value_usd": 11861030,
+      "post_holding": 323263
+    },
+    {
+      "date": "2026-08-03",
+      "name": "McBee Brannin",
+      "role": "Chief Development Officer",
+      "type": "Sale",
+      "price": 81.09,
+      "shares": 17684,
+      "value_usd": 1433940,
+      "post_holding": 7316
+    },
     {
       "date": "2026-07-29",
       "name": "Baker Jeff",
@@ -84,56 +174,6 @@
       "price": 71.04,
       "shares": 93000,
       "value_usd": 6606615,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-07-21",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 78.23,
-      "shares": 200000,
-      "value_usd": 15646624,
-      "post_holding": 2476815
-    },
-    {
-      "date": "2026-07-21",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 78.23,
-      "shares": 107692,
-      "value_usd": 8425077,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-07-20",
-      "name": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "type": "Sale",
-      "price": 75.13,
-      "shares": 55500,
-      "value_usd": 4169809,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-07-20",
-      "name": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "type": "Sale",
-      "price": 75.13,
-      "shares": 144000,
-      "value_usd": 10819059,
-      "post_holding": 323263
-    },
-    {
-      "date": "2026-07-20",
-      "name": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "type": "Sale",
-      "price": 75.13,
-      "shares": 50500,
-      "value_usd": 3794287,
       "post_holding": 0
     }
   ],

@@ -20,13 +20,23 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-10",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
     "top_holders": "https://finance.yahoo.com/quote/TSM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-03",
+      "name": "Tien Bor-Zen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 73.06,
+      "shares": 1000,
+      "value_usd": 73060,
+      "post_holding": 14051
+    },
     {
       "date": "2026-07-28",
       "name": "Tien Bor-Zen",
@@ -306,16 +316,6 @@
       "shares": 48,
       "value_usd": 3678,
       "post_holding": 6241
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Fang Shu-Hua",
-      "role": "SVP and GC",
-      "type": "Buy",
-      "price": 76.62,
-      "shares": 54,
-      "value_usd": 4137,
-      "post_holding": 6595
     }
   ],
   "top_holders": [

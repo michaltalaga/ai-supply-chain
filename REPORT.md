@@ -73,12 +73,12 @@ The most upstream public exposure: copper for cabling/transformers, rare earths 
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [RIO](https://stockanalysis.com/stocks/rio/) | Rio Tinto plc | $57.64B | $10.25B | 6.08 | -2% | +29% |
-| [BHP](https://stockanalysis.com/stocks/bhp/) | BHP Group Ltd | $53.99B | $10.24B | 4.03 | -8% | +28% |
-| [FCX](https://stockanalysis.com/stocks/fcx/) | Freeport-McMoRan | $25.91B | $2.20B | 1.52 | +3% | +72% |
-| [SCCO](https://stockanalysis.com/stocks/scco/) | Southern Copper | $13.42B | $4.33B | 5.24 | +5% | +215% |
-| [MP](https://stockanalysis.com/stocks/mp/) | MP Materials | $224.4M | $-85.9M | -0.50 | -9% | +23% |
-| [UUUU](https://stockanalysis.com/stocks/uuuu/) | Energy Fuels | $65.9M | $-85.6M | -0.38 | — | +111% |
+| [RIO](https://stockanalysis.com/stocks/rio/) | Rio Tinto plc | $57.64B | $10.25B | 6.08 | -2% | +51% |
+| [BHP](https://stockanalysis.com/stocks/bhp/) | BHP Group Ltd | $53.99B | $10.24B | 4.03 | -8% | +69% |
+| [FCX](https://stockanalysis.com/stocks/fcx/) | Freeport-McMoRan | $25.91B | $2.20B | 1.52 | +3% | +114% |
+| [SCCO](https://stockanalysis.com/stocks/scco/) | Southern Copper | $13.42B | $4.33B | 5.24 | +5% | +283% |
+| [MP](https://stockanalysis.com/stocks/mp/) | MP Materials | $224.4M | $-85.9M | -0.50 | -9% | +59% |
+| [UUUU](https://stockanalysis.com/stocks/uuuu/) | Energy Fuels | $65.9M | $-85.6M | -0.38 | — | +101% |
 | [LYSDY](https://stockanalysis.com/stocks/lysdy/) | Lynas Rare Earths | — | — | — | — | — |
 
 ### Specialty gases & chemicals (10 tickers)
@@ -87,14 +87,14 @@ Fabs run on industrial gases (LIN/APD/AIQUY) — neon for excimer lasers, ultra-
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [DOW](https://stockanalysis.com/stocks/dow/) | Dow Inc | $39.97B | $-2.62B | -3.70 | -8% | -52% |
-| [LIN](https://stockanalysis.com/stocks/lin/) | Linde plc | $33.99B | $6.90B | 14.61 | +2% | +52% |
-| [ECL](https://stockanalysis.com/stocks/ecl/) | Ecolab Inc | $16.08B | $2.08B | 7.28 | +6% | +23% |
-| [APD](https://stockanalysis.com/stocks/apd/) | Air Products & Chemicals | $12.46B | $2.11B | 9.45 | -0% | +9% |
-| [IFF](https://stockanalysis.com/stocks/iff/) | International Flavors & Fragrances | $10.89B | $-361.0M | -1.41 | -2% | -48% |
-| [CE](https://stockanalysis.com/stocks/ce/) | Celanese Corp | $9.54B | $-1.17B | -10.64 | +3% | -72% |
-| [DD](https://stockanalysis.com/stocks/dd/) | DuPont de Nemours | $6.85B | $-779.0M | -1.86 | -14% | -38% |
-| [ALB](https://stockanalysis.com/stocks/alb/) | Albemarle Corp | $1.23B | $416.0M | -5.76 | -15% | -50% |
+| [DOW](https://stockanalysis.com/stocks/dow/) | Dow Inc | $39.97B | $-2.62B | -3.70 | -8% | -49% |
+| [LIN](https://stockanalysis.com/stocks/lin/) | Linde plc | $33.99B | $6.90B | 14.61 | +2% | +67% |
+| [ECL](https://stockanalysis.com/stocks/ecl/) | Ecolab Inc | $16.08B | $2.08B | 7.28 | +6% | +37% |
+| [APD](https://stockanalysis.com/stocks/apd/) | Air Products & Chemicals | $12.46B | $2.11B | 9.45 | -0% | +18% |
+| [IFF](https://stockanalysis.com/stocks/iff/) | International Flavors & Fragrances | $10.89B | $-361.0M | -1.41 | -2% | -36% |
+| [CE](https://stockanalysis.com/stocks/ce/) | Celanese Corp | $9.54B | $-1.17B | -10.64 | +3% | -71% |
+| [DD](https://stockanalysis.com/stocks/dd/) | DuPont de Nemours | $6.85B | $-779.0M | -1.86 | -14% | -30% |
+| [ALB](https://stockanalysis.com/stocks/alb/) | Albemarle Corp | $1.23B | $416.0M | -5.76 | -15% | -40% |
 | [AIQUY](https://stockanalysis.com/stocks/aiquy/) | Air Liquide SA | — | — | — | — | — |
 | [AKZOY](https://stockanalysis.com/stocks/akzoy/) | Akzo Nobel NV | — | — | — | — | — |
 
@@ -115,19 +115,19 @@ ASML's EUV monopoly enables sub-7nm. AMAT/LRCX/KLAC cover deposition/etch/inspec
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ASML](https://stockanalysis.com/stocks/asml/) | ASML Holding NV | $34.18B | $10.69B | 27.48 | +13% | +96% |
-| [AMAT](https://stockanalysis.com/stocks/amat/) | Applied Materials | $28.21B | $7.84B | 9.77 | +2% | +276% |
-| [LRCX](https://stockanalysis.com/stocks/lrcx/) | Lam Research | $21.68B | $6.71B | 5.30 | +6% | +385% |
-| [KLAC](https://stockanalysis.com/stocks/klac/) | KLA Corp | $13.10B | $4.67B | 35.33 | +9% | +438% |
-| [ENTG](https://stockanalysis.com/stocks/entg/) | Entegris Inc | $3.20B | $236.6M | 1.55 | +9% | -1% |
-| [TER](https://stockanalysis.com/stocks/ter/) | Teradyne Inc | $3.19B | $554.0M | 3.47 | -4% | +203% |
-| [UCTT](https://stockanalysis.com/stocks/uctt/) | Ultra Clean Holdings | $2.05B | $-181.2M | -4.00 | -1% | +80% |
-| [ONTO](https://stockanalysis.com/stocks/onto/) | Onto Innovation | $1.03B | $106.4M | 2.14 | +1% | +249% |
-| [ICHR](https://stockanalysis.com/stocks/ichr/) | Ichor Holdings | $947.6M | $-52.8M | -1.54 | -4% | +70% |
-| [ACMR](https://stockanalysis.com/stocks/acmr/) | ACM Research | $901.3M | $94.1M | 1.37 | +36% | +164% |
-| [KLIC](https://stockanalysis.com/stocks/klic/) | Kulicke & Soffa Industries | $687.6M | $-64.6M | -1.21 | -18% | +27% |
-| [VECO](https://stockanalysis.com/stocks/veco/) | Veeco Instruments | $664.3M | $35.4M | 0.59 | +3% | +119% |
-| [AEHR](https://stockanalysis.com/stocks/aehr/) | Aehr Test Systems | $45.3M | $-11.4M | -0.38 | -3% | +972% |
+| [ASML](https://stockanalysis.com/stocks/asml/) | ASML Holding NV | $34.18B | $10.69B | 27.48 | +13% | +134% |
+| [AMAT](https://stockanalysis.com/stocks/amat/) | Applied Materials | $28.21B | $7.84B | 9.77 | +2% | +319% |
+| [LRCX](https://stockanalysis.com/stocks/lrcx/) | Lam Research | $21.68B | $6.71B | 5.30 | +6% | +447% |
+| [KLAC](https://stockanalysis.com/stocks/klac/) | KLA Corp | $13.10B | $4.67B | 35.33 | +9% | +492% |
+| [ENTG](https://stockanalysis.com/stocks/entg/) | Entegris Inc | $3.20B | $236.6M | 1.55 | +9% | +21% |
+| [TER](https://stockanalysis.com/stocks/ter/) | Teradyne Inc | $3.19B | $554.0M | 3.47 | -4% | +247% |
+| [UCTT](https://stockanalysis.com/stocks/uctt/) | Ultra Clean Holdings | $2.05B | $-181.2M | -4.00 | -1% | +105% |
+| [ONTO](https://stockanalysis.com/stocks/onto/) | Onto Innovation | $1.03B | $106.4M | 2.14 | +1% | +327% |
+| [ICHR](https://stockanalysis.com/stocks/ichr/) | Ichor Holdings | $947.6M | $-52.8M | -1.54 | -4% | +66% |
+| [ACMR](https://stockanalysis.com/stocks/acmr/) | ACM Research | $901.3M | $94.1M | 1.37 | +36% | +129% |
+| [KLIC](https://stockanalysis.com/stocks/klic/) | Kulicke & Soffa Industries | $687.6M | $-64.6M | -1.21 | -18% | +57% |
+| [VECO](https://stockanalysis.com/stocks/veco/) | Veeco Instruments | $664.3M | $35.4M | 0.59 | +3% | +138% |
+| [AEHR](https://stockanalysis.com/stocks/aehr/) | Aehr Test Systems | $45.3M | $-11.4M | -0.38 | -3% | +655% |
 | [ASMIY](https://stockanalysis.com/stocks/asmiy/) | ASM International | — | — | — | — | — |
 | [BESIY](https://stockanalysis.com/stocks/besiy/) | BE Semiconductor Industries | — | — | — | — | — |
 
@@ -137,12 +137,12 @@ Chip design impossible without SNPS/CDNS tools + ARM cores. ANSS being absorbed 
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [SNPS](https://stockanalysis.com/stocks/snps/) | Synopsys Inc | $8.01B | $1.10B | 6.44 | +15% | +17% |
-| [KEYS](https://stockanalysis.com/stocks/keys/) | Keysight Technologies | $5.68B | $981.0M | 5.55 | +1% | +78% |
-| [CDNS](https://stockanalysis.com/stocks/cdns/) | Cadence Design Systems | $5.30B | $1.11B | 4.06 | +15% | +108% |
-| [ARM](https://stockanalysis.com/stocks/arm/) | ARM Holdings PLC | $4.92B | $904.0M | 0.85 | +16% | +386% |
+| [SNPS](https://stockanalysis.com/stocks/snps/) | Synopsys Inc | $8.01B | $1.10B | 6.44 | +15% | +39% |
+| [KEYS](https://stockanalysis.com/stocks/keys/) | Keysight Technologies | $5.68B | $981.0M | 5.55 | +1% | +108% |
+| [CDNS](https://stockanalysis.com/stocks/cdns/) | Cadence Design Systems | $5.30B | $1.11B | 4.06 | +15% | +124% |
+| [ARM](https://stockanalysis.com/stocks/arm/) | ARM Holdings PLC | $4.92B | $904.0M | 0.85 | +16% | +473% |
 | [ANSS](https://stockanalysis.com/stocks/anss/) | Ansys Inc | $2.54B | $575.7M | 6.55 | — | +10% |
-| [RMBS](https://stockanalysis.com/stocks/rmbs/) | Rambus Inc | $707.6M | $230.5M | 2.11 | +21% | +280% |
+| [RMBS](https://stockanalysis.com/stocks/rmbs/) | Rambus Inc | $707.6M | $230.5M | 2.11 | +21% | +357% |
 
 ### Foundry & OSAT (5 tickers)
 
@@ -150,11 +150,11 @@ TSM ~62% of foundry; GFS/UMC mature nodes; INTC pivoting to external foundry. OS
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [TSM](https://stockanalysis.com/stocks/tsm/) | Taiwan Semiconductor Manufacturing | $117.28B | $52.27B | 10.08 | +20% | +240% |
-| [ASX](https://stockanalysis.com/stocks/asx/) | ASE Technology Holding | $19.87B | $1.23B | 0.54 | -1% | +279% |
-| [UMC](https://stockanalysis.com/stocks/umc/) | United Microelectronics | $7.31B | $1.24B | 0.50 | -1% | +67% |
-| [GFS](https://stockanalysis.com/stocks/gfs/) | GlobalFoundries | $6.79B | $885.0M | 1.59 | +1% | -28% |
-| [AMKR](https://stockanalysis.com/stocks/amkr/) | Amkor Technology | $6.71B | $373.9M | 1.50 | +2% | +82% |
+| [TSM](https://stockanalysis.com/stocks/tsm/) | Taiwan Semiconductor Manufacturing | $117.28B | $52.27B | 10.08 | +20% | +276% |
+| [ASX](https://stockanalysis.com/stocks/asx/) | ASE Technology Holding | $19.87B | $1.23B | 0.54 | -1% | +376% |
+| [UMC](https://stockanalysis.com/stocks/umc/) | United Microelectronics | $7.31B | $1.24B | 0.50 | -1% | +64% |
+| [GFS](https://stockanalysis.com/stocks/gfs/) | GlobalFoundries | $6.79B | $885.0M | 1.59 | +1% | -22% |
+| [AMKR](https://stockanalysis.com/stocks/amkr/) | Amkor Technology | $6.71B | $373.9M | 1.50 | +2% | +122% |
 
 ### Memory & storage (4 tickers)
 
@@ -163,9 +163,9 @@ HBM is the new gold: MU + Samsung (SSNLF) + SK Hynix (KRX-only) supply NVDA. WDC
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
 | [SSNLF](https://stockanalysis.com/stocks/ssnlf/) | Samsung Electronics Co Ltd | $227.85B | $30.23B | 4.51 | -1% | — |
-| [MU](https://stockanalysis.com/stocks/mu/) | Micron Technology | $58.12B | $24.11B | 21.39 | +17% | +1017% |
-| [WDC](https://stockanalysis.com/stocks/wdc/) | Western Digital | $11.78B | $6.51B | 16.67 | -11% | +762% |
-| [STX](https://stockanalysis.com/stocks/stx/) | Seagate Technology | $11.01B | $2.38B | 10.54 | -1% | +877% |
+| [MU](https://stockanalysis.com/stocks/mu/) | Micron Technology | $58.12B | $24.11B | 21.39 | +17% | +1136% |
+| [WDC](https://stockanalysis.com/stocks/wdc/) | Western Digital | $11.78B | $6.51B | 16.67 | -11% | +669% |
+| [STX](https://stockanalysis.com/stocks/stx/) | Seagate Technology | $11.01B | $2.38B | 10.54 | -1% | +885% |
 
 ### AI chip design + adjacent semis (18 tickers)
 
@@ -173,24 +173,24 @@ NVDA's ~90% AI training GPU share + AMD MI300/350 + AVGO/MRVL custom AI ASICs fo
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [NVDA](https://stockanalysis.com/stocks/nvda/) | NVIDIA Corp | $215.94B | $120.07B | 4.90 | +68% | +797% |
-| [INTC](https://stockanalysis.com/stocks/intc/) | Intel Corp | $52.85B | $-267.0M | -0.06 | -10% | +67% |
-| [QCOM](https://stockanalysis.com/stocks/qcom/) | Qualcomm Inc | $44.28B | $5.54B | 5.01 | +7% | +1% |
-| [AMD](https://stockanalysis.com/stocks/amd/) | Advanced Micro Devices | $34.64B | $4.33B | 2.67 | +20% | +330% |
-| [TXN](https://stockanalysis.com/stocks/txn/) | Texas Instruments | $17.68B | $5.00B | 5.45 | -1% | +44% |
-| [ADI](https://stockanalysis.com/stocks/adi/) | Analog Devices | $11.76B | $2.71B | 5.47 | -1% | +125% |
-| [ON](https://stockanalysis.com/stocks/on/) | ON Semiconductor | $6.00B | $121.0M | 0.29 | -3% | +84% |
-| [MCHP](https://stockanalysis.com/stocks/mchp/) | Microchip Technology | $4.71B | $118.8M | 0.22 | -9% | -6% |
-| [MPWR](https://stockanalysis.com/stocks/mpwr/) | Monolithic Power Systems | $2.79B | $621.5M | 12.86 | +23% | +188% |
-| [MBLY](https://stockanalysis.com/stocks/mbly/) | Mobileye Global | $1.89B | $-392.0M | -0.48 | +8% | -72% |
-| [ALAB](https://stockanalysis.com/stocks/alab/) | Astera Labs Inc | $852.5M | $219.1M | 1.22 | +120% | +267% |
-| [AOSL](https://stockanalysis.com/stocks/aosl/) | Alpha & Omega Semi | $696.2M | $-19.2M | -3.30 | +1% | +9% |
-| [LSCC](https://stockanalysis.com/stocks/lscc/) | Lattice Semiconductor | $574.0M | $19.9M | 0.14 | -3% | +100% |
-| [POWI](https://stockanalysis.com/stocks/powi/) | Power Integrations | $443.5M | $22.1M | 0.39 | -11% | -44% |
-| [CRDO](https://stockanalysis.com/stocks/crdo/) | Credo Technology Group | $436.8M | $52.2M | 0.29 | +60% | +1125% |
-| [VICR](https://stockanalysis.com/stocks/vicr/) | Vicor Corp | $407.7M | $118.6M | 2.61 | +3% | +68% |
-| [OUST](https://stockanalysis.com/stocks/oust/) | Ouster Inc | $169.4M | $-60.4M | -1.07 | +50% | -54% |
-| [NVTS](https://stockanalysis.com/stocks/nvts/) | Navitas Semiconductor | $45.9M | $-118.1M | -0.57 | +18% | +9% |
+| [NVDA](https://stockanalysis.com/stocks/nvda/) | NVIDIA Corp | $215.94B | $120.07B | 4.90 | +68% | +981% |
+| [INTC](https://stockanalysis.com/stocks/intc/) | Intel Corp | $52.85B | $-267.0M | -0.06 | -10% | +91% |
+| [QCOM](https://stockanalysis.com/stocks/qcom/) | Qualcomm Inc | $44.28B | $5.54B | 5.01 | +7% | +30% |
+| [AMD](https://stockanalysis.com/stocks/amd/) | Advanced Micro Devices | $34.64B | $4.33B | 2.67 | +20% | +370% |
+| [TXN](https://stockanalysis.com/stocks/txn/) | Texas Instruments | $17.68B | $5.00B | 5.45 | -1% | +49% |
+| [ADI](https://stockanalysis.com/stocks/adi/) | Analog Devices | $11.76B | $2.71B | 5.47 | -1% | +133% |
+| [ON](https://stockanalysis.com/stocks/on/) | ON Semiconductor | $6.00B | $121.0M | 0.29 | -3% | +77% |
+| [MCHP](https://stockanalysis.com/stocks/mchp/) | Microchip Technology | $4.71B | $118.8M | 0.22 | -9% | +10% |
+| [MPWR](https://stockanalysis.com/stocks/mpwr/) | Monolithic Power Systems | $2.79B | $621.5M | 12.86 | +23% | +189% |
+| [MBLY](https://stockanalysis.com/stocks/mbly/) | Mobileye Global | $1.89B | $-392.0M | -0.48 | +8% | -69% |
+| [ALAB](https://stockanalysis.com/stocks/alab/) | Astera Labs Inc | $852.5M | $219.1M | 1.22 | +120% | +294% |
+| [AOSL](https://stockanalysis.com/stocks/aosl/) | Alpha & Omega Semi | $696.2M | $-19.2M | -3.30 | +1% | +15% |
+| [LSCC](https://stockanalysis.com/stocks/lscc/) | Lattice Semiconductor | $574.0M | $19.9M | 0.14 | -3% | +101% |
+| [POWI](https://stockanalysis.com/stocks/powi/) | Power Integrations | $443.5M | $22.1M | 0.39 | -11% | -35% |
+| [CRDO](https://stockanalysis.com/stocks/crdo/) | Credo Technology Group | $436.8M | $52.2M | 0.29 | +60% | +1379% |
+| [VICR](https://stockanalysis.com/stocks/vicr/) | Vicor Corp | $407.7M | $118.6M | 2.61 | +3% | +65% |
+| [OUST](https://stockanalysis.com/stocks/oust/) | Ouster Inc | $169.4M | $-60.4M | -1.07 | +50% | -41% |
+| [NVTS](https://stockanalysis.com/stocks/nvts/) | Navitas Semiconductor | $45.9M | $-118.1M | -0.57 | +18% | +39% |
 
 ### Networking & photonics (12 tickers)
 
@@ -198,18 +198,18 @@ AI fabrics (ANET, AVGO/MRVL/CSCO silicon) + optical interconnect (COHR/LITE) + l
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [AVGO](https://stockanalysis.com/stocks/avgo/) | Broadcom Inc | $68.28B | $24.97B | 5.12 | +20% | +683% |
-| [CSCO](https://stockanalysis.com/stocks/csco/) | Cisco Systems | $59.05B | $11.08B | 2.85 | +3% | +97% |
-| [ANET](https://stockanalysis.com/stocks/anet/) | Arista Networks | $9.01B | $3.51B | 2.75 | +32% | +681% |
-| [MRVL](https://stockanalysis.com/stocks/mrvl/) | Marvell Technology | $8.20B | $2.67B | 3.07 | +16% | +207% |
-| [COHR](https://stockanalysis.com/stocks/cohr/) | Coherent Corp | $5.81B | $-80.6M | -0.52 | +17% | +317% |
-| [CIEN](https://stockanalysis.com/stocks/cien/) | Ciena Corp | $5.12B | $229.1M | 1.57 | +9% | +560% |
+| [AVGO](https://stockanalysis.com/stocks/avgo/) | Broadcom Inc | $68.28B | $24.97B | 5.12 | +20% | +782% |
+| [CSCO](https://stockanalysis.com/stocks/csco/) | Cisco Systems | $59.05B | $11.08B | 2.85 | +3% | +123% |
+| [ANET](https://stockanalysis.com/stocks/anet/) | Arista Networks | $9.01B | $3.51B | 2.75 | +32% | +778% |
+| [MRVL](https://stockanalysis.com/stocks/mrvl/) | Marvell Technology | $8.20B | $2.67B | 3.07 | +16% | +263% |
+| [COHR](https://stockanalysis.com/stocks/cohr/) | Coherent Corp | $5.81B | $-80.6M | -0.52 | +17% | +539% |
+| [CIEN](https://stockanalysis.com/stocks/cien/) | Ciena Corp | $5.12B | $229.1M | 1.57 | +9% | +703% |
 | [JNPR](https://stockanalysis.com/stocks/jnpr/) | Juniper Networks | $5.07B | $287.9M | 0.86 | — | +60% |
-| [LITE](https://stockanalysis.com/stocks/lite/) | Lumentum Holdings | $2.49B | $438.2M | 5.40 | +10% | +724% |
-| [MTSI](https://stockanalysis.com/stocks/mtsi/) | MACOM Technology Solutions | $1.07B | $176.8M | 2.31 | +12% | +314% |
-| [IPGP](https://stockanalysis.com/stocks/ipgp/) | IPG Photonics | $1.00B | $31.1M | 0.73 | -9% | -50% |
-| [LASR](https://stockanalysis.com/stocks/lasr/) | nLIGHT Inc | $261.3M | $-23.5M | -0.47 | -1% | +149% |
-| [POET](https://stockanalysis.com/stocks/poet/) | POET Technologies | $1.1M | $-63.0M | -0.68 | +50% | -17% |
+| [LITE](https://stockanalysis.com/stocks/lite/) | Lumentum Holdings | $2.49B | $438.2M | 5.40 | +10% | +966% |
+| [MTSI](https://stockanalysis.com/stocks/mtsi/) | MACOM Technology Solutions | $1.07B | $176.8M | 2.31 | +12% | +379% |
+| [IPGP](https://stockanalysis.com/stocks/ipgp/) | IPG Photonics | $1.00B | $31.1M | 0.73 | -9% | -43% |
+| [LASR](https://stockanalysis.com/stocks/lasr/) | nLIGHT Inc | $261.3M | $-23.5M | -0.47 | -1% | +99% |
+| [POET](https://stockanalysis.com/stocks/poet/) | POET Technologies | $1.1M | $-63.0M | -0.68 | +50% | +9% |
 
 ### AI server builders (4 tickers)
 
@@ -217,9 +217,9 @@ Where it all ends up: SMCI/DELL/HPE/LNVGY assemble the rack-scale GPU clusters. 
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [DELL](https://stockanalysis.com/stocks/dell/) | Dell Technologies | $113.54B | $5.94B | 8.68 | +3% | +721% |
-| [HPE](https://stockanalysis.com/stocks/hpe/) | Hewlett Packard Enterprise | $35.74B | $-234.0M | -0.19 | +6% | +210% |
-| [SMCI](https://stockanalysis.com/stocks/smci/) | Super Micro Computer | $33.70B | $1.25B | 1.89 | +60% | +677% |
+| [DELL](https://stockanalysis.com/stocks/dell/) | Dell Technologies | $113.54B | $5.94B | 8.68 | +3% | +761% |
+| [HPE](https://stockanalysis.com/stocks/hpe/) | Hewlett Packard Enterprise | $35.74B | $-234.0M | -0.19 | +6% | +273% |
+| [SMCI](https://stockanalysis.com/stocks/smci/) | Super Micro Computer | $33.70B | $1.25B | 1.89 | +60% | +751% |
 | [LNVGY](https://stockanalysis.com/stocks/lnvgy/) | Lenovo Group Ltd | — | — | — | — | — |
 
 ### Hyperscalers & end-users (11 tickers)
@@ -228,17 +228,17 @@ The buyers: MSFT/META/AMZN/GOOG dominate. ORCL/TSLA/AAPL/IBM/PLTR are large but 
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [AMZN](https://stockanalysis.com/stocks/amzn/) | Amazon.com Inc | $716.92B | $77.67B | 7.17 | +11% | +56% |
-| [AAPL](https://stockanalysis.com/stocks/aapl/) | Apple Inc | $451.44B | $122.58B | 8.27 | +3% | +103% |
-| [GOOGL](https://stockanalysis.com/stocks/googl/) | Alphabet Inc | $402.84B | $132.17B | 10.82 | +12% | +146% |
-| [MSFT](https://stockanalysis.com/stocks/msft/) | Microsoft Corp | $318.27B | $125.22B | 16.80 | +13% | +54% |
-| [META](https://stockanalysis.com/stocks/meta/) | Meta Platforms Inc | $200.97B | $60.46B | 23.49 | +14% | +47% |
+| [AMZN](https://stockanalysis.com/stocks/amzn/) | Amazon.com Inc | $716.92B | $77.67B | 7.17 | +11% | +67% |
+| [AAPL](https://stockanalysis.com/stocks/aapl/) | Apple Inc | $451.44B | $122.58B | 8.27 | +3% | +121% |
+| [GOOGL](https://stockanalysis.com/stocks/googl/) | Alphabet Inc | $402.84B | $132.17B | 10.82 | +12% | +165% |
+| [MSFT](https://stockanalysis.com/stocks/msft/) | Microsoft Corp | $318.27B | $125.22B | 16.80 | +13% | +77% |
+| [META](https://stockanalysis.com/stocks/meta/) | Meta Platforms Inc | $200.97B | $60.46B | 23.49 | +14% | +74% |
 | [TSLA](https://stockanalysis.com/stocks/tsla/) | Tesla Inc | $94.83B | $3.79B | 1.08 | +15% | +27% |
-| [IBM](https://stockanalysis.com/stocks/ibm/) | International Business Machines | $67.53B | $10.59B | 11.17 | +4% | +67% |
-| [ORCL](https://stockanalysis.com/stocks/orcl/) | Oracle Corp | $64.08B | $16.19B | 5.57 | +11% | +46% |
+| [IBM](https://stockanalysis.com/stocks/ibm/) | International Business Machines | $67.53B | $10.59B | 11.17 | +4% | +79% |
+| [ORCL](https://stockanalysis.com/stocks/orcl/) | Oracle Corp | $64.08B | $16.19B | 5.57 | +11% | +69% |
 | [CRWV](https://stockanalysis.com/stocks/crwv/) | CoreWeave Inc | $5.13B | $-1.20B | -2.81 | +587% | +161% |
-| [BTDR](https://stockanalysis.com/stocks/btdr/) | Bitdeer Technologies Group | $620.3M | $65.6M | -1.43 | +12% | +7% |
-| [IREN](https://stockanalysis.com/stocks/iren/) | IREN Limited | $501.0M | $86.9M | 0.39 | +104% | +128% |
+| [BTDR](https://stockanalysis.com/stocks/btdr/) | Bitdeer Technologies Group | $620.3M | $65.6M | -1.43 | +12% | +10% |
+| [IREN](https://stockanalysis.com/stocks/iren/) | IREN Limited | $501.0M | $86.9M | 0.39 | +104% | +155% |
 
 ### AI software, MLOps & security (19 tickers)
 
@@ -246,25 +246,25 @@ Software layer riding inferencing demand: PLTR (highest growth), SNOW/MDB/DDOG (
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [CRM](https://stockanalysis.com/stocks/crm/) | Salesforce Inc | $41.52B | $7.46B | 7.80 | +12% | -31% |
-| [SAP](https://stockanalysis.com/stocks/sap/) | SAP SE | $38.50B | $7.49B | 6.38 | +6% | +22% |
-| [ADBE](https://stockanalysis.com/stocks/adbe/) | Adobe Inc | $24.45B | $7.21B | 17.17 | +9% | -62% |
-| [NOW](https://stockanalysis.com/stocks/now/) | ServiceNow Inc | $13.28B | $1.75B | 1.67 | +23% | -14% |
-| [PANW](https://stockanalysis.com/stocks/panw/) | Palo Alto Networks | $9.89B | $1.28B | 1.81 | +16% | +332% |
-| [CRWD](https://stockanalysis.com/stocks/crwd/) | CrowdStrike Holdings | $4.81B | $-162.5M | -0.65 | +35% | +172% |
-| [SNOW](https://stockanalysis.com/stocks/snow/) | Snowflake Inc | $4.68B | $-1.33B | -3.95 | +40% | -4% |
-| [PLTR](https://stockanalysis.com/stocks/pltr/) | Palantir Technologies | $4.47B | $1.63B | 0.63 | +31% | +367% |
-| [DDOG](https://stockanalysis.com/stocks/ddog/) | Datadog Inc | $3.43B | $107.7M | 0.31 | +35% | +94% |
-| [ZS](https://stockanalysis.com/stocks/zs/) | Zscaler Inc | $3.00B | $-66.9M | -0.42 | +29% | -46% |
-| [MDB](https://stockanalysis.com/stocks/mdb/) | MongoDB Inc | $2.46B | $-71.2M | -0.88 | +30% | -14% |
-| [NET](https://stockanalysis.com/stocks/net/) | Cloudflare Inc | $2.17B | $-102.3M | -0.29 | +35% | +131% |
-| [ESTC](https://stockanalysis.com/stocks/estc/) | Elastic NV | $1.68B | $-84.5M | -0.80 | +18% | -59% |
-| [IOT](https://stockanalysis.com/stocks/iot/) | Samsara Inc | $1.62B | $-9.1M | -0.02 | +39% | +106% |
-| [PATH](https://stockanalysis.com/stocks/path/) | UiPath Inc | $1.61B | $282.3M | 0.52 | +16% | -80% |
-| [TEM](https://stockanalysis.com/stocks/tem/) | Tempus AI Inc | $1.27B | $-245.0M | -1.41 | +49% | +1% |
-| [BRZE](https://stockanalysis.com/stocks/brze/) | Braze Inc | $738.2M | $-131.3M | -1.22 | +33% | -68% |
-| [AI](https://stockanalysis.com/stocks/ai/) | C3.ai Inc | $307.4M | $-434.5M | -3.16 | +5% | -82% |
-| [APLD](https://stockanalysis.com/stocks/apld/) | Applied Digital Corp | $144.2M | $-233.7M | -1.16 | +156% | +202% |
+| [CRM](https://stockanalysis.com/stocks/crm/) | Salesforce Inc | $41.52B | $7.46B | 7.80 | +12% | -29% |
+| [SAP](https://stockanalysis.com/stocks/sap/) | SAP SE | $38.50B | $7.49B | 6.38 | +6% | +53% |
+| [ADBE](https://stockanalysis.com/stocks/adbe/) | Adobe Inc | $24.45B | $7.21B | 17.17 | +9% | -54% |
+| [NOW](https://stockanalysis.com/stocks/now/) | ServiceNow Inc | $13.28B | $1.75B | 1.67 | +23% | +0% |
+| [PANW](https://stockanalysis.com/stocks/panw/) | Palo Alto Networks | $9.89B | $1.28B | 1.81 | +16% | +356% |
+| [CRWD](https://stockanalysis.com/stocks/crwd/) | CrowdStrike Holdings | $4.81B | $-162.5M | -0.65 | +35% | +249% |
+| [SNOW](https://stockanalysis.com/stocks/snow/) | Snowflake Inc | $4.68B | $-1.33B | -3.95 | +40% | +9% |
+| [PLTR](https://stockanalysis.com/stocks/pltr/) | Palantir Technologies | $4.47B | $1.63B | 0.63 | +31% | +616% |
+| [DDOG](https://stockanalysis.com/stocks/ddog/) | Datadog Inc | $3.43B | $107.7M | 0.31 | +35% | +65% |
+| [ZS](https://stockanalysis.com/stocks/zs/) | Zscaler Inc | $3.00B | $-66.9M | -0.42 | +29% | -36% |
+| [MDB](https://stockanalysis.com/stocks/mdb/) | MongoDB Inc | $2.46B | $-71.2M | -0.88 | +30% | -15% |
+| [NET](https://stockanalysis.com/stocks/net/) | Cloudflare Inc | $2.17B | $-102.3M | -0.29 | +35% | +167% |
+| [ESTC](https://stockanalysis.com/stocks/estc/) | Elastic NV | $1.68B | $-84.5M | -0.80 | +18% | -50% |
+| [IOT](https://stockanalysis.com/stocks/iot/) | Samsara Inc | $1.62B | $-9.1M | -0.02 | +39% | +126% |
+| [PATH](https://stockanalysis.com/stocks/path/) | UiPath Inc | $1.61B | $282.3M | 0.52 | +16% | -71% |
+| [TEM](https://stockanalysis.com/stocks/tem/) | Tempus AI Inc | $1.27B | $-245.0M | -1.41 | +49% | +20% |
+| [BRZE](https://stockanalysis.com/stocks/brze/) | Braze Inc | $738.2M | $-131.3M | -1.22 | +33% | -66% |
+| [AI](https://stockanalysis.com/stocks/ai/) | C3.ai Inc | $307.4M | $-434.5M | -3.16 | +5% | -78% |
+| [APLD](https://stockanalysis.com/stocks/apld/) | Applied Digital Corp | $144.2M | $-233.7M | -1.16 | +156% | +144% |
 
 ### Data-center REITs (4 tickers)
 
@@ -272,10 +272,10 @@ Capacity is the bottleneck. DLR + EQIX dominate. IRM moving fast into data-cente
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EQIX](https://stockanalysis.com/stocks/eqix/) | Equinix Inc | $9.22B | $1.35B | 13.76 | +9% | +21% |
-| [IRM](https://stockanalysis.com/stocks/irm/) | Iron Mountain Inc | $6.90B | $144.6M | 0.49 | +11% | +156% |
-| [DLR](https://stockanalysis.com/stocks/dlr/) | Digital Realty Trust | $6.11B | $1.27B | 3.58 | +8% | +15% |
-| [FLNC](https://stockanalysis.com/stocks/flnc/) | Fluence Energy Inc | $2.26B | $-48.3M | -0.37 | +35% | -56% |
+| [EQIX](https://stockanalysis.com/stocks/eqix/) | Equinix Inc | $9.22B | $1.35B | 13.76 | +9% | +32% |
+| [IRM](https://stockanalysis.com/stocks/irm/) | Iron Mountain Inc | $6.90B | $144.6M | 0.49 | +11% | +179% |
+| [DLR](https://stockanalysis.com/stocks/dlr/) | Digital Realty Trust | $6.11B | $1.27B | 3.58 | +8% | +34% |
+| [FLNC](https://stockanalysis.com/stocks/flnc/) | Fluence Energy Inc | $2.26B | $-48.3M | -0.37 | +35% | -58% |
 
 ### Power & electrical equipment (10 tickers)
 
@@ -286,13 +286,13 @@ Grid + UPS + transformers + switchgear. GEV (just-spun-off) the biggest. VRT/ETN
 | [SBGSY](https://stockanalysis.com/stocks/sbgsy/) | Schneider Electric SE | $42.01B | $4.36B | 7.67 | +6% | — |
 | [GEV](https://stockanalysis.com/stocks/gev/) | GE Vernova | $38.07B | $4.88B | 17.69 | +4% | +544% |
 | [ABBNY](https://stockanalysis.com/stocks/abbny/) | ABB Ltd | $33.22B | $4.73B | 2.59 | +4% | — |
-| [ETN](https://stockanalysis.com/stocks/etn/) | Eaton Corp | $27.45B | $4.09B | 10.45 | +9% | +147% |
-| [VRT](https://stockanalysis.com/stocks/vrt/) | Vertiv Holdings | $10.23B | $1.33B | 3.41 | +20% | +758% |
-| [ROK](https://stockanalysis.com/stocks/rok/) | Rockwell Automation | $8.80B | $1.01B | 9.62 | +3% | +48% |
-| [HUBB](https://stockanalysis.com/stocks/hubb/) | Hubbell Inc | $5.84B | $887.0M | 16.54 | +9% | +129% |
-| [NVT](https://stockanalysis.com/stocks/nvt/) | nVent Electric plc | $3.89B | $710.2M | 4.31 | +12% | +348% |
-| [ENS](https://stockanalysis.com/stocks/ens/) | EnerSys | $3.74B | $312.8M | 8.07 | +3% | +120% |
-| [POWL](https://stockanalysis.com/stocks/powl/) | Powell Industries | $1.10B | $180.8M | 4.95 | +24% | +2375% |
+| [ETN](https://stockanalysis.com/stocks/etn/) | Eaton Corp | $27.45B | $4.09B | 10.45 | +9% | +201% |
+| [VRT](https://stockanalysis.com/stocks/vrt/) | Vertiv Holdings | $10.23B | $1.33B | 3.41 | +20% | +1031% |
+| [ROK](https://stockanalysis.com/stocks/rok/) | Rockwell Automation | $8.80B | $1.01B | 9.62 | +3% | +50% |
+| [HUBB](https://stockanalysis.com/stocks/hubb/) | Hubbell Inc | $5.84B | $887.0M | 16.54 | +9% | +184% |
+| [NVT](https://stockanalysis.com/stocks/nvt/) | nVent Electric plc | $3.89B | $710.2M | 4.31 | +12% | +409% |
+| [ENS](https://stockanalysis.com/stocks/ens/) | EnerSys | $3.74B | $312.8M | 8.07 | +3% | +158% |
+| [POWL](https://stockanalysis.com/stocks/powl/) | Powell Industries | $1.10B | $180.8M | 4.95 | +24% | +2483% |
 
 ### Utilities / IPP / SMR / nuclear (13 tickers)
 
@@ -300,19 +300,19 @@ Power generation is the AI build-out's bottleneck. CEG/VST/TLN signing 10-20yr n
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [DUK](https://stockanalysis.com/stocks/duk/) | Duke Energy | $32.24B | $4.91B | 6.31 | +7% | +20% |
-| [SO](https://stockanalysis.com/stocks/so/) | Southern Co | $29.55B | $4.34B | 3.92 | +6% | +44% |
-| [NEE](https://stockanalysis.com/stocks/nee/) | NextEra Energy | $27.41B | $6.83B | 3.30 | +13% | +3% |
-| [CEG](https://stockanalysis.com/stocks/ceg/) | Constellation Energy | $25.53B | $2.32B | 7.40 | +7% | +471% |
-| [AEP](https://stockanalysis.com/stocks/aep/) | American Electric Power | $21.88B | $3.58B | 6.62 | +7% | +43% |
-| [VST](https://stockanalysis.com/stocks/vst/) | Vistra Corp | $17.74B | $752.0M | 2.18 | +10% | +676% |
-| [D](https://stockanalysis.com/stocks/d/) | Dominion Energy | $16.51B | $3.00B | 3.45 | +10% | -11% |
-| [ETR](https://stockanalysis.com/stocks/etr/) | Entergy Corp | $12.95B | $1.76B | 3.91 | +2% | +95% |
-| [BWXT](https://stockanalysis.com/stocks/bwxt/) | BWX Technologies | $3.20B | $328.9M | 3.58 | +11% | +194% |
-| [TLN](https://stockanalysis.com/stocks/tln/) | Talen Energy | $2.58B | $-219.0M | -4.79 | +29% | +516% |
-| [SMR](https://stockanalysis.com/stocks/smr/) | NuScale Power | $31.5M | $-355.8M | -2.17 | +82% | -4% |
-| [OKLO](https://stockanalysis.com/stocks/oklo/) | Oklo Inc | — | $-105.7M | -0.72 | — | +295% |
-| [NNE](https://stockanalysis.com/stocks/nne/) | Nano Nuclear Energy | — | $-43.5M | -1.08 | — | -32% |
+| [DUK](https://stockanalysis.com/stocks/duk/) | Duke Energy | $32.24B | $4.91B | 6.31 | +7% | +28% |
+| [SO](https://stockanalysis.com/stocks/so/) | Southern Co | $29.55B | $4.34B | 3.92 | +6% | +50% |
+| [NEE](https://stockanalysis.com/stocks/nee/) | NextEra Energy | $27.41B | $6.83B | 3.30 | +13% | +8% |
+| [CEG](https://stockanalysis.com/stocks/ceg/) | Constellation Energy | $25.53B | $2.32B | 7.40 | +7% | +487% |
+| [AEP](https://stockanalysis.com/stocks/aep/) | American Electric Power | $21.88B | $3.58B | 6.62 | +7% | +55% |
+| [VST](https://stockanalysis.com/stocks/vst/) | Vistra Corp | $17.74B | $752.0M | 2.18 | +10% | +722% |
+| [D](https://stockanalysis.com/stocks/d/) | Dominion Energy | $16.51B | $3.00B | 3.45 | +10% | -8% |
+| [ETR](https://stockanalysis.com/stocks/etr/) | Entergy Corp | $12.95B | $1.76B | 3.91 | +2% | +116% |
+| [BWXT](https://stockanalysis.com/stocks/bwxt/) | BWX Technologies | $3.20B | $328.9M | 3.58 | +11% | +215% |
+| [TLN](https://stockanalysis.com/stocks/tln/) | Talen Energy | $2.58B | $-219.0M | -4.79 | +29% | +541% |
+| [SMR](https://stockanalysis.com/stocks/smr/) | NuScale Power | $31.5M | $-355.8M | -2.17 | +82% | +13% |
+| [OKLO](https://stockanalysis.com/stocks/oklo/) | Oklo Inc | — | $-105.7M | -0.72 | — | +393% |
+| [NNE](https://stockanalysis.com/stocks/nne/) | Nano Nuclear Energy | — | $-43.5M | -1.08 | — | -20% |
 
 ### Gas / LNG midstream (5 tickers)
 
@@ -320,11 +320,11 @@ Gas turbines power most new data-center additions. LNG/KMI/OKE/WMB/TRGP are the 
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [OKE](https://stockanalysis.com/stocks/oke/) | ONEOK Inc | $33.63B | $3.39B | 5.42 | +19% | +73% |
-| [LNG](https://stockanalysis.com/stocks/lng/) | Cheniere Energy | $19.98B | $5.33B | 24.13 | +6% | +201% |
-| [TRGP](https://stockanalysis.com/stocks/trgp/) | Targa Resources | $17.03B | $1.85B | 8.49 | +0% | +516% |
-| [KMI](https://stockanalysis.com/stocks/kmi/) | Kinder Morgan | $16.94B | $3.06B | 1.37 | +0% | +98% |
-| [WMB](https://stockanalysis.com/stocks/wmb/) | Williams Companies | $11.95B | $2.62B | 2.14 | +3% | +190% |
+| [OKE](https://stockanalysis.com/stocks/oke/) | ONEOK Inc | $33.63B | $3.39B | 5.42 | +19% | +49% |
+| [LNG](https://stockanalysis.com/stocks/lng/) | Cheniere Energy | $19.98B | $5.33B | 24.13 | +6% | +162% |
+| [TRGP](https://stockanalysis.com/stocks/trgp/) | Targa Resources | $17.03B | $1.85B | 8.49 | +0% | +422% |
+| [KMI](https://stockanalysis.com/stocks/kmi/) | Kinder Morgan | $16.94B | $3.06B | 1.37 | +0% | +84% |
+| [WMB](https://stockanalysis.com/stocks/wmb/) | Williams Companies | $11.95B | $2.62B | 2.14 | +3% | +171% |
 
 ### Cooling / HVAC (6 tickers)
 
@@ -332,12 +332,12 @@ Liquid cooling is forced by NVDA GB200/GB300. VRT + MOD + NVT + JCI are the pick
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [JCI](https://stockanalysis.com/stocks/jci/) | Johnson Controls | $24.43B | $3.53B | 5.59 | +4% | +96% |
-| [TT](https://stockanalysis.com/stocks/tt/) | Trane Technologies | $21.32B | $2.92B | 12.98 | +11% | +129% |
-| [LII](https://stockanalysis.com/stocks/lii/) | Lennox International | $5.20B | $805.8M | 22.79 | +5% | +24% |
-| [MOD](https://stockanalysis.com/stocks/mod/) | Modine Manufacturing | $2.58B | $184.0M | 3.42 | +8% | +1516% |
-| [WTS](https://stockanalysis.com/stocks/wts/) | Watts Water Technologies | $2.44B | $340.8M | 10.17 | +8% | +102% |
-| [AAON](https://stockanalysis.com/stocks/aaon/) | AAON Inc | $1.44B | $108.0M | 1.29 | +28% | +96% |
+| [JCI](https://stockanalysis.com/stocks/jci/) | Johnson Controls | $24.43B | $3.53B | 5.59 | +4% | +124% |
+| [TT](https://stockanalysis.com/stocks/tt/) | Trane Technologies | $21.32B | $2.92B | 12.98 | +11% | +179% |
+| [LII](https://stockanalysis.com/stocks/lii/) | Lennox International | $5.20B | $805.8M | 22.79 | +5% | +49% |
+| [MOD](https://stockanalysis.com/stocks/mod/) | Modine Manufacturing | $2.58B | $184.0M | 3.42 | +8% | +1626% |
+| [WTS](https://stockanalysis.com/stocks/wts/) | Watts Water Technologies | $2.44B | $340.8M | 10.17 | +8% | +133% |
+| [AAON](https://stockanalysis.com/stocks/aaon/) | AAON Inc | $1.44B | $108.0M | 1.29 | +28% | +118% |
 
 ### Construction / EPC / infra (13 tickers)
 
@@ -345,19 +345,19 @@ Building the data centers + the power that feeds them. PWR + MTZ dominate utilit
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [PWR](https://stockanalysis.com/stocks/pwr/) | Quanta Services | $28.48B | $1.03B | 6.80 | +22% | +554% |
-| [EME](https://stockanalysis.com/stocks/eme/) | EMCOR Group | $16.99B | $1.27B | 28.19 | +14% | +556% |
-| [ACM](https://stockanalysis.com/stocks/acm/) | AECOM | $16.14B | $562.0M | 4.21 | +7% | +10% |
-| [FLR](https://stockanalysis.com/stocks/flr/) | Fluor Corp | $15.50B | $-51.0M | -0.31 | +2% | +201% |
-| [MTZ](https://stockanalysis.com/stocks/mtz/) | MasTec Inc | $14.30B | $399.0M | 5.07 | +16% | +188% |
-| [J](https://stockanalysis.com/stocks/j/) | Jacobs Solutions | $13.18B | $381.0M | 3.25 | +8% | -0% |
-| [KBR](https://stockanalysis.com/stocks/kbr/) | KBR Inc | $7.69B | $400.0M | 3.14 | +4% | -6% |
-| [PRIM](https://stockanalysis.com/stocks/prim/) | Primoris Services | $7.58B | $274.9M | 5.02 | +21% | +228% |
-| [DY](https://stockanalysis.com/stocks/dy/) | Dycom Industries | $5.55B | $281.2M | 9.56 | +15% | +432% |
-| [VMI](https://stockanalysis.com/stocks/vmi/) | Valmont Industries | $4.10B | $350.0M | 16.79 | +4% | +94% |
-| [IESC](https://stockanalysis.com/stocks/iesc/) | IES Holdings Inc | $3.37B | $311.8M | 15.02 | +22% | +1423% |
-| [STRL](https://stockanalysis.com/stocks/strl/) | Sterling Infrastructure | $2.49B | $290.0M | 9.38 | +15% | +2488% |
-| [AGX](https://stockanalysis.com/stocks/agx/) | Argan Inc | $944.6M | $137.8M | 9.74 | +17% | +1132% |
+| [PWR](https://stockanalysis.com/stocks/pwr/) | Quanta Services | $28.48B | $1.03B | 6.80 | +22% | +490% |
+| [EME](https://stockanalysis.com/stocks/eme/) | EMCOR Group | $16.99B | $1.27B | 28.19 | +14% | +608% |
+| [ACM](https://stockanalysis.com/stocks/acm/) | AECOM | $16.14B | $562.0M | 4.21 | +7% | +20% |
+| [FLR](https://stockanalysis.com/stocks/flr/) | Fluor Corp | $15.50B | $-51.0M | -0.31 | +2% | +257% |
+| [MTZ](https://stockanalysis.com/stocks/mtz/) | MasTec Inc | $14.30B | $399.0M | 5.07 | +16% | +216% |
+| [J](https://stockanalysis.com/stocks/j/) | Jacobs Solutions | $13.18B | $381.0M | 3.25 | +8% | +9% |
+| [KBR](https://stockanalysis.com/stocks/kbr/) | KBR Inc | $7.69B | $400.0M | 3.14 | +4% | -3% |
+| [PRIM](https://stockanalysis.com/stocks/prim/) | Primoris Services | $7.58B | $274.9M | 5.02 | +21% | +237% |
+| [DY](https://stockanalysis.com/stocks/dy/) | Dycom Industries | $5.55B | $281.2M | 9.56 | +15% | +473% |
+| [VMI](https://stockanalysis.com/stocks/vmi/) | Valmont Industries | $4.10B | $350.0M | 16.79 | +4% | +110% |
+| [IESC](https://stockanalysis.com/stocks/iesc/) | IES Holdings Inc | $3.37B | $311.8M | 15.02 | +22% | +1569% |
+| [STRL](https://stockanalysis.com/stocks/strl/) | Sterling Infrastructure | $2.49B | $290.0M | 9.38 | +15% | +2313% |
+| [AGX](https://stockanalysis.com/stocks/agx/) | Argan Inc | $944.6M | $137.8M | 9.74 | +17% | +1268% |
 
 ### Fiber / cabling / glass (3 tickers)
 
@@ -365,8 +365,8 @@ GLW (Corning) for optical fiber + display glass; COMM + BEL for cabling. Quietly
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [GLW](https://stockanalysis.com/stocks/glw/) | Corning Inc | $15.63B | $1.60B | 1.83 | +3% | +246% |
-| [BDC](https://stockanalysis.com/stocks/bdc/) | Belden Inc | $2.71B | $237.5M | 5.91 | +4% | +117% |
+| [GLW](https://stockanalysis.com/stocks/glw/) | Corning Inc | $15.63B | $1.60B | 1.83 | +3% | +354% |
+| [BDC](https://stockanalysis.com/stocks/bdc/) | Belden Inc | $2.71B | $237.5M | 5.91 | +4% | +128% |
 | [COMM](https://stockanalysis.com/stocks/comm/) | CommScope Holding | $1.93B | $2.21B | 9.63 | -27% | — |
 
 ### Waste / recycling (7 tickers)
@@ -376,12 +376,12 @@ End-of-life: WM/RSG/WCN/CWST/GFL handle the waste streams; SMSMY/VEOEY specifica
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
 | [VEOEY](https://stockanalysis.com/stocks/veoey/) | Veolia Environnement | $46.45B | $1.27B | 1.61 | +9% | — |
-| [WM](https://stockanalysis.com/stocks/wm/) | Waste Management | $25.20B | $2.71B | 6.70 | +9% | +46% |
-| [RSG](https://stockanalysis.com/stocks/rsg/) | Republic Services | $16.59B | $2.14B | 6.85 | +10% | +70% |
-| [WCN](https://stockanalysis.com/stocks/wcn/) | Waste Connections | $9.47B | $1.08B | 4.17 | +11% | +30% |
+| [WM](https://stockanalysis.com/stocks/wm/) | Waste Management | $25.20B | $2.71B | 6.70 | +9% | +52% |
+| [RSG](https://stockanalysis.com/stocks/rsg/) | Republic Services | $16.59B | $2.14B | 6.85 | +10% | +79% |
+| [WCN](https://stockanalysis.com/stocks/wcn/) | Waste Connections | $9.47B | $1.08B | 4.17 | +11% | +32% |
 | [SMSMY](https://stockanalysis.com/stocks/smsmy/) | Sims Metal Management | $4.68B | $-11.8M | -0.06 | -10% | — |
-| [CWST](https://stockanalysis.com/stocks/cwst/) | Casella Waste | $1.84B | $7.9M | 0.12 | +20% | +21% |
-| [GFL](https://stockanalysis.com/stocks/gfl/) | GFL Environmental | — | — | 13.71 | — | +17% |
+| [CWST](https://stockanalysis.com/stocks/cwst/) | Casella Waste | $1.84B | $7.9M | 0.12 | +20% | +18% |
+| [GFL](https://stockanalysis.com/stocks/gfl/) | GFL Environmental | — | — | 13.71 | — | +11% |
 
 ### Quantum (pure-plays & diversified) (6 tickers)
 
@@ -389,12 +389,12 @@ End-of-life: WM/RSG/WCN/CWST/GFL handle the waste streams; SMSMY/VEOEY specifica
 
 | Ticker | Name | Rev (FY-latest) | Net inc | EPS | 5y Rev CAGR | 5y px return |
 | --- | --- | --- | --- | --- | --- | --- |
-| [HON](https://stockanalysis.com/stocks/hon/) | Honeywell International | $37.44B | $4.73B | 7.36 | +2% | +6% |
-| [IONQ](https://stockanalysis.com/stocks/ionq/) | IonQ Inc | $130.0M | $-510.4M | -1.82 | +181% | +265% |
-| [QBTS](https://stockanalysis.com/stocks/qbts/) | D-Wave Quantum | $24.6M | $-355.1M | -1.11 | +41% | +85% |
-| [RGTI](https://stockanalysis.com/stocks/rgti/) | Rigetti Computing | $7.1M | $-216.2M | -0.70 | — | +54% |
-| [QUBT](https://stockanalysis.com/stocks/qubt/) | Quantum Computing Inc | $680K | $-18.7M | -0.11 | — | +7% |
-| [ARQQ](https://stockanalysis.com/stocks/arqq/) | Arqit Quantum | $530K | $-35.3M | -2.56 | +80% | -93% |
+| [HON](https://stockanalysis.com/stocks/hon/) | Honeywell International | $37.44B | $4.73B | 7.36 | +2% | +17% |
+| [IONQ](https://stockanalysis.com/stocks/ionq/) | IonQ Inc | $130.0M | $-510.4M | -1.82 | +181% | +327% |
+| [QBTS](https://stockanalysis.com/stocks/qbts/) | D-Wave Quantum | $24.6M | $-355.1M | -1.11 | +41% | +112% |
+| [RGTI](https://stockanalysis.com/stocks/rgti/) | Rigetti Computing | $7.1M | $-216.2M | -0.70 | — | +84% |
+| [QUBT](https://stockanalysis.com/stocks/qubt/) | Quantum Computing Inc | $680K | $-18.7M | -0.11 | — | +47% |
+| [ARQQ](https://stockanalysis.com/stocks/arqq/) | Arqit Quantum | $530K | $-35.3M | -2.56 | +80% | -95% |
 
 ## Cross-cuts
 
