@@ -20,13 +20,63 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-08-10",
+  "as_of": "2026-08-17",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-12",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 335.7,
+      "shares": 50000,
+      "value_usd": 16785000,
+      "post_holding": 2751551
+    },
+    {
+      "date": "2026-08-07",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 325,
+      "shares": 25000,
+      "value_usd": 8125000,
+      "post_holding": 340379
+    },
+    {
+      "date": "2026-08-07",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 325,
+      "shares": 5000,
+      "value_usd": 1625000,
+      "post_holding": 28568
+    },
+    {
+      "date": "2026-08-07",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 324.06,
+      "shares": 50338,
+      "value_usd": 16312532,
+      "post_holding": 26036
+    },
+    {
+      "date": "2026-08-07",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 324.06,
+      "shares": 403,
+      "value_usd": 130596,
+      "post_holding": 22573
+    },
     {
       "date": "2026-08-03",
       "name": "Kleinerman Christian",
@@ -156,66 +206,6 @@
       "shares": 46978,
       "value_usd": 12115927,
       "post_holding": 415120
-    },
-    {
-      "date": "2026-07-06",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 257.92,
-      "shares": 403,
-      "value_usd": 103940,
-      "post_holding": 22976
-    },
-    {
-      "date": "2026-07-02",
-      "name": "Dageville Benoit",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0.74,
-      "shares": 256035,
-      "value_usd": 189466,
-      "post_holding": 321777
-    },
-    {
-      "date": "2026-07-02",
-      "name": "Dageville Benoit",
-      "role": "Director",
-      "type": "Sale",
-      "price": 254.64,
-      "shares": 140819,
-      "value_usd": 35858150,
-      "post_holding": 180958
-    },
-    {
-      "date": "2026-07-02",
-      "name": "Dageville Benoit",
-      "role": "Director",
-      "type": "Sale",
-      "price": 254.64,
-      "shares": 50000,
-      "value_usd": 12732000,
-      "post_holding": 2951555
-    },
-    {
-      "date": "2026-07-02",
-      "name": "Briggs Teresa",
-      "role": "Director",
-      "type": "Sale",
-      "price": 254.64,
-      "shares": 344,
-      "value_usd": 87596,
-      "post_holding": 5403
-    },
-    {
-      "date": "2026-07-01",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 258.56,
-      "shares": 2500,
-      "value_usd": 646400,
-      "post_holding": 397879
     }
   ],
   "top_holders": [

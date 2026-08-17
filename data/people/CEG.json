@@ -15,10 +15,11 @@
       "note": "operates the nuclear fleet"
     }
   ],
-  "as_of": "2026-05-13",
+  "as_of": "2026-08-17",
   "sources": {
     "leadership": "hand-curated",
-    "top_holders": "https://finance.yahoo.com/quote/CEG/holders/"
+    "top_holders": "https://finance.yahoo.com/quote/CEG/holders/",
+    "insider_trades": "https://finviz.com/quote.ashx?t=CEG"
   },
   "note": "Three Mile Island restart for MSFT PPA signed Sep 2024; targeting 2028 COD",
   "top_holders": [
@@ -170,5 +171,17 @@
     "% of Shares Held by Institutions": "79.61%",
     "% of Float Held by Institutions": "79.87%",
     "Number of Institutions Holding Shares": "2,495"
-  }
+  },
+  "insider_trades": [
+    {
+      "date": "2026-08-11",
+      "name": "CRANDALL ROGER W",
+      "role": "Director",
+      "type": "Buy",
+      "price": 278.62,
+      "shares": 1500,
+      "value_usd": 417931,
+      "post_holding": 1693
+    }
+  ]
 }

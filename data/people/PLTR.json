@@ -23,13 +23,23 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-08-10",
+  "as_of": "2026-08-17",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-06",
+      "name": "Sankar Shyam",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 155.7,
+      "shares": 35000,
+      "value_usd": 5449544,
+      "post_holding": 642786
+    },
     {
       "date": "2026-08-05",
       "name": "Stat Lauren Elaina Friedman",
@@ -189,16 +199,6 @@
       "shares": 16000,
       "value_usd": 2144663,
       "post_holding": 1124978
-    },
-    {
-      "date": "2026-04-15",
-      "name": "Moore Alexander D.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 139.41,
-      "shares": 16000,
-      "value_usd": 2230580,
-      "post_holding": 1140978
     }
   ],
   "top_holders": [

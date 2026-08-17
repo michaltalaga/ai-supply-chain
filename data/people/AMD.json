@@ -23,13 +23,103 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-08-10",
+  "as_of": "2026-08-17",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-11",
+      "name": "Hahn Ava",
+      "role": "SVP, GC & Corporate Secretary",
+      "type": "Sale",
+      "price": 474.75,
+      "shares": 143,
+      "value_usd": 67889,
+      "post_holding": 17644
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Hahn Ava",
+      "role": "SVP, GC & Corporate Secretary",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 1133,
+      "value_usd": 0,
+      "post_holding": 18349
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Hu Jean X.",
+      "role": "EVP, CFO and Treasurer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 5893,
+      "value_usd": 0,
+      "post_holding": 116620
+    },
+    {
+      "date": "2026-08-09",
+      "name": "GUIDO PHILIP",
+      "role": "EVP & Chief Commercial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 4586,
+      "value_usd": 0,
+      "post_holding": 87629
+    },
+    {
+      "date": "2026-08-09",
+      "name": "HUYNH JACK M",
+      "role": "SVP & GM, Computing & Graphics",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 5554,
+      "value_usd": 0,
+      "post_holding": 466529
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DESG",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 8605,
+      "value_usd": 0,
+      "post_holding": 333132
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 12633,
+      "value_usd": 0,
+      "post_holding": 1246320
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 16221,
+      "value_usd": 0,
+      "post_holding": 2883120
+    },
+    {
+      "date": "2026-08-09",
+      "name": "GRASBY PAUL DARREN",
+      "role": "EVP & CSO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 5640,
+      "value_usd": 0,
+      "post_holding": 110862
+    },
     {
       "date": "2026-07-15",
       "name": "Papermaster Mark D",
@@ -129,86 +219,6 @@
       "shares": 19487,
       "value_usd": 8406784,
       "post_holding": 324527
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Option Exercise",
-      "price": 84.85,
-      "shares": 6000,
-      "value_usd": 509100,
-      "post_holding": 1239687
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Sale",
-      "price": 433.79,
-      "shares": 6000,
-      "value_usd": 2602740,
-      "post_holding": 1233687
-    },
-    {
-      "date": "2026-05-14",
-      "name": "VANDERSLICE ELIZABETH W",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 2613,
-      "value_usd": 0,
-      "post_holding": 36728
-    },
-    {
-      "date": "2026-05-14",
-      "name": "HOUSEHOLDER JOSEPH A",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 2613,
-      "value_usd": 0,
-      "post_holding": 9066
-    },
-    {
-      "date": "2026-05-14",
-      "name": "Denzel Nora",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 2613,
-      "value_usd": 0,
-      "post_holding": 97620
-    },
-    {
-      "date": "2026-05-13",
-      "name": "Su Lisa T",
-      "role": "Chair, President & CEO",
-      "type": "Sale",
-      "price": 445.51,
-      "shares": 125000,
-      "value_usd": 55688359,
-      "post_holding": 3021899
-    },
-    {
-      "date": "2026-05-08",
-      "name": "GRASBY PAUL DARREN",
-      "role": "EVP & CSO",
-      "type": "Sale",
-      "price": 444.39,
-      "shares": 24376,
-      "value_usd": 10832451,
-      "post_holding": 105222
-    },
-    {
-      "date": "2026-04-24",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Sale",
-      "price": 350,
-      "shares": 31320,
-      "value_usd": 10962000,
-      "post_holding": 1236037
     }
   ],
   "top_holders": [
