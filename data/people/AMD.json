@@ -23,13 +23,153 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-20",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 471.87,
+      "shares": 28811,
+      "value_usd": 13595067,
+      "post_holding": 1261461
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Sale",
+      "price": 480.94,
+      "shares": 15000,
+      "value_usd": 7214067,
+      "post_holding": 3102156
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Hahn Ava",
+      "role": "SVP, GC & Corporate Secretary",
+      "type": "Sale",
+      "price": 488.69,
+      "shares": 2993,
+      "value_usd": 1462649,
+      "post_holding": 26623
+    },
+    {
+      "date": "2026-08-17",
+      "name": "GRASBY PAUL DARREN",
+      "role": "EVP & CSO",
+      "type": "Sale",
+      "price": 514.91,
+      "shares": 15000,
+      "value_usd": 7723650,
+      "post_holding": 117687
+    },
+    {
+      "date": "2026-08-15",
+      "name": "GRASBY PAUL DARREN",
+      "role": "EVP & CSO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 46185,
+      "value_usd": 0,
+      "post_holding": 154395
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DSG",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 88332,
+      "value_usd": 0,
+      "post_holding": 418077
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 396405,
+      "value_usd": 0,
+      "post_holding": 3273142
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Hahn Ava",
+      "role": "SVP, GC & Corporate Secretary",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 23747,
+      "value_usd": 0,
+      "post_holding": 41391
+    },
+    {
+      "date": "2026-08-15",
+      "name": "GUIDO PHILIP",
+      "role": "EVP & Chief Commercial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 81114,
+      "value_usd": 0,
+      "post_holding": 166937
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Hu Jean X.",
+      "role": "EVP, CFO and Treasurer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 101698,
+      "value_usd": 0,
+      "post_holding": 215998
+    },
+    {
+      "date": "2026-08-15",
+      "name": "HUYNH JACK M",
+      "role": "SVP & GM, Computing & Graphics",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 54686,
+      "value_usd": 0,
+      "post_holding": 519027
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 121976,
+      "value_usd": 0,
+      "post_holding": 1363323
+    },
+    {
+      "date": "2026-08-14",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Option Exercise",
+      "price": 84.85,
+      "shares": 7369,
+      "value_usd": 625260,
+      "post_holding": 1248716
+    },
+    {
+      "date": "2026-08-14",
+      "name": "Papermaster Mark D",
+      "role": "Chief Technology Officer & EVP",
+      "type": "Sale",
+      "price": 487.34,
+      "shares": 7369,
+      "value_usd": 3591208,
+      "post_holding": 1241347
+    },
     {
       "date": "2026-08-11",
       "name": "Hahn Ava",
@@ -119,106 +259,6 @@
       "shares": 5640,
       "value_usd": 0,
       "post_holding": 110862
-    },
-    {
-      "date": "2026-07-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Option Exercise",
-      "price": 84.85,
-      "shares": 6000,
-      "value_usd": 509100,
-      "post_holding": 1239687
-    },
-    {
-      "date": "2026-07-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Sale",
-      "price": 556.43,
-      "shares": 6000,
-      "value_usd": 3338580,
-      "post_holding": 1233687
-    },
-    {
-      "date": "2026-06-15",
-      "name": "GUIDO PHILIP",
-      "role": "EVP & Chief Commercial Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 7495,
-      "value_usd": 0,
-      "post_holding": 85993
-    },
-    {
-      "date": "2026-06-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Option Exercise",
-      "price": 84.85,
-      "shares": 6000,
-      "value_usd": 509100,
-      "post_holding": 1239687
-    },
-    {
-      "date": "2026-06-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Sale",
-      "price": 536.33,
-      "shares": 6000,
-      "value_usd": 3217980,
-      "post_holding": 1233687
-    },
-    {
-      "date": "2026-06-10",
-      "name": "Su Lisa T",
-      "role": "Chair, President & CEO",
-      "type": "Sale",
-      "price": 460.69,
-      "shares": 125000,
-      "value_usd": 57585715,
-      "post_holding": 2896899
-    },
-    {
-      "date": "2026-06-02",
-      "name": "Denzel Nora",
-      "role": "Director",
-      "type": "Sale",
-      "price": 522,
-      "shares": 8626,
-      "value_usd": 4502772,
-      "post_holding": 87173
-    },
-    {
-      "date": "2026-05-29",
-      "name": "Denzel Nora",
-      "role": "Director",
-      "type": "Sale",
-      "price": 522,
-      "shares": 1821,
-      "value_usd": 950562,
-      "post_holding": 95799
-    },
-    {
-      "date": "2026-05-20",
-      "name": "Norrod Forrest Eugene",
-      "role": "EVP & GM DESG",
-      "type": "Option Exercise",
-      "price": 34.19,
-      "shares": 8237,
-      "value_usd": 281623,
-      "post_holding": 344014
-    },
-    {
-      "date": "2026-05-20",
-      "name": "Norrod Forrest Eugene",
-      "role": "EVP & GM DESG",
-      "type": "Sale",
-      "price": 431.4,
-      "shares": 19487,
-      "value_usd": 8406784,
-      "post_holding": 324527
     }
   ],
   "top_holders": [

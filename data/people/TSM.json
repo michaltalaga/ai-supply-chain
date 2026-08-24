@@ -20,13 +20,43 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
     "top_holders": "https://finance.yahoo.com/quote/TSM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-19",
+      "name": "Yuan Lipen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 73.77,
+      "shares": 1000,
+      "value_usd": 73770,
+      "post_holding": 7000
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Yuan Lipen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 74.5,
+      "shares": 1000,
+      "value_usd": 74500,
+      "post_holding": 6000
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Yuan Lipen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 73.58,
+      "shares": 350,
+      "value_usd": 25753,
+      "post_holding": 2000
+    },
     {
       "date": "2026-08-07",
       "name": "Yeap Choh Fei",
@@ -286,36 +316,6 @@
       "shares": 54,
       "value_usd": 3959,
       "post_holding": 5428
-    },
-    {
-      "date": "2026-08-07",
-      "name": "Chen Chih-Ho",
-      "role": "Controller",
-      "type": "Buy",
-      "price": 73.31,
-      "shares": 33,
-      "value_usd": 2419,
-      "post_holding": 170
-    },
-    {
-      "date": "2026-08-07",
-      "name": "Chen Pei-Hung",
-      "role": "VP",
-      "type": "Buy",
-      "price": 73.31,
-      "shares": 46,
-      "value_usd": 3372,
-      "post_holding": 1349
-    },
-    {
-      "date": "2026-08-07",
-      "name": "Cao Min",
-      "role": "VP",
-      "type": "Buy",
-      "price": 73.31,
-      "shares": 55,
-      "value_usd": 4032,
-      "post_holding": 6717
     }
   ],
   "top_holders": [

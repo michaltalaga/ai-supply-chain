@@ -11,13 +11,73 @@
       "name": "Wajid Ali"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=LITE",
     "top_holders": "https://finance.yahoo.com/quote/LITE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-21",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 898.15,
+      "shares": 500,
+      "value_usd": 449075,
+      "post_holding": 93229
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 827.82,
+      "shares": 1500,
+      "value_usd": 1241730,
+      "post_holding": 100434
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Retort Vincent",
+      "role": "SEE REMARKS",
+      "type": "Sale",
+      "price": 827.82,
+      "shares": 2483,
+      "value_usd": 2055477,
+      "post_holding": 109438
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Kim Jae",
+      "role": "SVP, GENERAL COUNSEL",
+      "type": "Sale",
+      "price": 827.82,
+      "shares": 1904,
+      "value_usd": 1576169,
+      "post_holding": 42096
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Retort Vincent",
+      "role": "SEE REMARKS",
+      "type": "Sale",
+      "price": 909.43,
+      "shares": 3183,
+      "value_usd": 2894716,
+      "post_holding": 114495
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Kim Jae",
+      "role": "SVP, GENERAL COUNSEL",
+      "type": "Sale",
+      "price": 909.43,
+      "shares": 1366,
+      "value_usd": 1242281,
+      "post_holding": 45973
+    },
     {
       "date": "2026-06-02",
       "name": "Harris Isaac Hosojiro",
@@ -107,66 +167,6 @@
       "shares": 1577,
       "value_usd": 1582322,
       "post_holding": 8984
-    },
-    {
-      "date": "2026-05-11",
-      "name": "Lillie Brian",
-      "role": "Director",
-      "type": "Sale",
-      "price": 1004.34,
-      "shares": 49,
-      "value_usd": 49212,
-      "post_holding": 13910
-    },
-    {
-      "date": "2026-05-11",
-      "name": "Lillie Brian",
-      "role": "Director",
-      "type": "Sale",
-      "price": 981.64,
-      "shares": 11951,
-      "value_usd": 11731562,
-      "post_holding": 13959
-    },
-    {
-      "date": "2026-05-11",
-      "name": "Kim Jae",
-      "role": "SVP, GENERAL COUNSEL",
-      "type": "Sale",
-      "price": 950.99,
-      "shares": 1933,
-      "value_usd": 1838264,
-      "post_holding": 35114
-    },
-    {
-      "date": "2026-05-08",
-      "name": "Small Ian",
-      "role": "Director",
-      "type": "Sale",
-      "price": 911.17,
-      "shares": 3500,
-      "value_usd": 3189108,
-      "post_holding": 25962
-    },
-    {
-      "date": "2026-02-27",
-      "name": "Ali Wajid",
-      "role": "EVP & CHIEF FINANCIAL OFFICER",
-      "type": "Sale",
-      "price": 691.13,
-      "shares": 5302,
-      "value_usd": 3664387,
-      "post_holding": 66287
-    },
-    {
-      "date": "2026-02-17",
-      "name": "Wupen Yuen",
-      "role": "PRESIDENT, GLOBAL BUS. UNITS",
-      "type": "Sale",
-      "price": 538,
-      "shares": 3157,
-      "value_usd": 1698466,
-      "post_holding": 88439
     }
   ],
   "top_holders": [

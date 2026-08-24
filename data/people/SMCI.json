@@ -10,7 +10,7 @@
       "name": "David Weigand"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SMCI",
@@ -117,26 +117,6 @@
       "shares": 25000,
       "value_usd": 1007281,
       "post_holding": 100188
-    },
-    {
-      "date": "2025-08-22",
-      "name": "KAO GEORGE",
-      "role": "SVP, OPERATIONS",
-      "type": "Option Exercise",
-      "price": 2.69,
-      "shares": 40000,
-      "value_usd": 107800,
-      "post_holding": 61820
-    },
-    {
-      "date": "2025-08-22",
-      "name": "KAO GEORGE",
-      "role": "SVP, OPERATIONS",
-      "type": "Sale",
-      "price": 43.88,
-      "shares": 40000,
-      "value_usd": 1755200,
-      "post_holding": 21820
     }
   ],
   "top_holders": [

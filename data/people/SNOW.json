@@ -20,13 +20,53 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-19",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 48990,
+      "value_usd": 435031,
+      "post_holding": 77525
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 320.78,
+      "shares": 48990,
+      "value_usd": 15715004,
+      "post_holding": 28535
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 251010,
+      "value_usd": 2228969,
+      "post_holding": 279545
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 325.53,
+      "shares": 251010,
+      "value_usd": 81710061,
+      "post_holding": 28535
+    },
     {
       "date": "2026-08-12",
       "name": "Dageville Benoit",
@@ -176,36 +216,6 @@
       "shares": 2500,
       "value_usd": 687500,
       "post_holding": 395379
-    },
-    {
-      "date": "2026-07-06",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 257.91,
-      "shares": 840,
-      "value_usd": 216642,
-      "post_holding": 26876
-    },
-    {
-      "date": "2026-07-06",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 257.91,
-      "shares": 2520,
-      "value_usd": 649926,
-      "post_holding": 26876
-    },
-    {
-      "date": "2026-07-06",
-      "name": "Speiser Michael L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 257.91,
-      "shares": 46978,
-      "value_usd": 12115927,
-      "post_holding": 415120
     }
   ],
   "top_holders": [

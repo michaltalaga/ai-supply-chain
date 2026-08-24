@@ -23,13 +23,33 @@
       "name": "Jeff Bezos"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMZN",
     "top_holders": "https://finance.yahoo.com/quote/AMZN/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-17",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 262.76,
+      "shares": 3741,
+      "value_usd": 982993,
+      "post_holding": 467138
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 9352,
+      "value_usd": 0,
+      "post_holding": 470879
+    },
     {
       "date": "2026-08-03",
       "name": "Herrington Douglas J",
@@ -189,56 +209,6 @@
       "shares": 2363,
       "value_usd": 620003,
       "post_holding": 119780
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Garman Matthew S",
-      "role": "CEO Amazon Web Services",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 13500,
-      "value_usd": 0,
-      "post_holding": 22905
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Garman Matthew S",
-      "role": "CEO Amazon Web Services",
-      "type": "Sale",
-      "price": 262.66,
-      "shares": 11475,
-      "value_usd": 3013973,
-      "post_holding": 11430
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Herrington Douglas J",
-      "role": "CEO Worldwide Amazon Stores",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 9353,
-      "value_usd": 0,
-      "post_holding": 480714
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Herrington Douglas J",
-      "role": "CEO Worldwide Amazon Stores",
-      "type": "Sale",
-      "price": 262.59,
-      "shares": 3742,
-      "value_usd": 982602,
-      "post_holding": 476972
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Ng Andrew Y.",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 1984,
-      "value_usd": 0,
-      "post_holding": 3968
     }
   ],
   "top_holders": [

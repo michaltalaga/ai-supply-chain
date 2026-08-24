@@ -15,13 +15,33 @@
       "name": "Alex Katouzian"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=QCOM",
     "top_holders": "https://finance.yahoo.com/quote/QCOM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-21",
+      "name": "Grech Patricia Y",
+      "role": "SVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 162.85,
+      "shares": 625,
+      "value_usd": 101781,
+      "post_holding": 208
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Grech Patricia Y",
+      "role": "SVP, Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 1274,
+      "value_usd": 0,
+      "post_holding": 1274
+    },
     {
       "date": "2026-08-12",
       "name": "Palkhiwala Akash J.",
@@ -141,26 +161,6 @@
       "shares": 2500,
       "value_usd": 325854,
       "post_holding": 30684
-    },
-    {
-      "date": "2026-04-02",
-      "name": "Grech Patricia Y",
-      "role": "SVP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 125.5,
-      "shares": 85,
-      "value_usd": 10668,
-      "post_holding": 192
-    },
-    {
-      "date": "2026-03-12",
-      "name": "Grech Patricia Y",
-      "role": "SVP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 133.5,
-      "shares": 581,
-      "value_usd": 77564,
-      "post_holding": 192
     }
   ],
   "top_holders": [

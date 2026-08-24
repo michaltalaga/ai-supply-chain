@@ -16,13 +16,23 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
     "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-18",
+      "name": "Sadana Sumit",
+      "role": "EVP and Chief Business Officer",
+      "type": "Sale",
+      "price": 934.29,
+      "shares": 15000,
+      "value_usd": 14014350,
+      "post_holding": 191021
+    },
     {
       "date": "2026-07-24",
       "name": "MEHROTRA SANJAY",
@@ -162,16 +172,6 @@
       "shares": 24000,
       "value_usd": 10112400,
       "post_holding": 224021
-    },
-    {
-      "date": "2026-04-09",
-      "name": "CORDANO MICHAEL D",
-      "role": "EVP, Worldwide Sales",
-      "type": "Sale",
-      "price": 420.81,
-      "shares": 3407,
-      "value_usd": 1433700,
-      "post_holding": 47466
     }
   ],
   "top_holders": [

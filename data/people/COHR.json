@@ -16,13 +16,23 @@
       "note": "former CEO; led II-VI/COHR merger 2022"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=COHR",
     "top_holders": "https://finance.yahoo.com/quote/COHR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-18",
+      "name": "Luther Sherri R",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 324,
+      "shares": 3000,
+      "value_usd": 972000,
+      "post_holding": 64475
+    },
     {
       "date": "2026-07-22",
       "name": "Luther Sherri R",
@@ -162,16 +172,6 @@
       "shares": 4000,
       "value_usd": 870954,
       "post_holding": 72475
-    },
-    {
-      "date": "2025-12-10",
-      "name": "CORASANTI JOSEPH J",
-      "role": "Director",
-      "type": "Sale",
-      "price": 196.74,
-      "shares": 15000,
-      "value_usd": 2951100,
-      "post_holding": 79914
     }
   ],
   "top_holders": [

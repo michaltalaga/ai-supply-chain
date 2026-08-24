@@ -23,13 +23,23 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-24",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-17",
+      "name": "Moore Alexander D.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 174.28,
+      "shares": 16000,
+      "value_usd": 2788463,
+      "post_holding": 1079095
+    },
     {
       "date": "2026-08-06",
       "name": "Sankar Shyam",
@@ -189,16 +199,6 @@
       "shares": 319934,
       "value_usd": 43524501,
       "post_holding": 592
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Moore Alexander D.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 134.04,
-      "shares": 16000,
-      "value_usd": 2144663,
-      "post_holding": 1124978
     }
   ],
   "top_holders": [
