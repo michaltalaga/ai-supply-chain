@@ -11,13 +11,83 @@
       "name": "Wajid Ali"
     }
   ],
-  "as_of": "2026-08-24",
+  "as_of": "2026-08-31",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=LITE",
     "top_holders": "https://finance.yahoo.com/quote/LITE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-27",
+      "name": "HURLSTON MICHAEL E.",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 958.66,
+      "shares": 548,
+      "value_usd": 525346,
+      "post_holding": 186951
+    },
+    {
+      "date": "2026-08-27",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 958.66,
+      "shares": 500,
+      "value_usd": 479330,
+      "post_holding": 119127
+    },
+    {
+      "date": "2026-08-26",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 882.15,
+      "shares": 500,
+      "value_usd": 441075,
+      "post_holding": 91729
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Retort Vincent",
+      "role": "SEE REMARKS",
+      "type": "Sale",
+      "price": 852.59,
+      "shares": 38663,
+      "value_usd": 32963734,
+      "post_holding": 78440
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Kim Jae",
+      "role": "SVP, GENERAL COUNSEL",
+      "type": "Sale",
+      "price": 852.58,
+      "shares": 12000,
+      "value_usd": 10231015,
+      "post_holding": 37804
+    },
+    {
+      "date": "2026-08-25",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 856.64,
+      "shares": 500,
+      "value_usd": 428322,
+      "post_holding": 92229
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 824.24,
+      "shares": 500,
+      "value_usd": 412120,
+      "post_holding": 92729
+    },
     {
       "date": "2026-08-21",
       "name": "Wupen Yuen",
@@ -87,86 +157,6 @@
       "shares": 1416,
       "value_usd": 1416115,
       "post_holding": 6984
-    },
-    {
-      "date": "2026-05-29",
-      "name": "Harris Isaac Hosojiro",
-      "role": "Director",
-      "type": "Sale",
-      "price": 860,
-      "shares": 4000,
-      "value_usd": 3440000,
-      "post_holding": 8400
-    },
-    {
-      "date": "2026-05-21",
-      "name": "Small Ian",
-      "role": "Director",
-      "type": "Sale",
-      "price": 868.07,
-      "shares": 4954,
-      "value_usd": 4300419,
-      "post_holding": 21008
-    },
-    {
-      "date": "2026-05-18",
-      "name": "Wupen Yuen",
-      "role": "PRESIDENT, GLOBAL BUS. UNITS",
-      "type": "Sale",
-      "price": 953.95,
-      "shares": 3210,
-      "value_usd": 3062180,
-      "post_holding": 81488
-    },
-    {
-      "date": "2026-05-18",
-      "name": "Retort Vincent",
-      "role": "SEE REMARKS",
-      "type": "Sale",
-      "price": 953.95,
-      "shares": 3183,
-      "value_usd": 3036423,
-      "post_holding": 89563
-    },
-    {
-      "date": "2026-05-18",
-      "name": "Kim Jae",
-      "role": "SVP, GENERAL COUNSEL",
-      "type": "Sale",
-      "price": 953.95,
-      "shares": 1422,
-      "value_usd": 1356517,
-      "post_holding": 32333
-    },
-    {
-      "date": "2026-05-18",
-      "name": "Ali Wajid",
-      "role": "EVP & CHIEF FINANCIAL OFFICER",
-      "type": "Sale",
-      "price": 953.95,
-      "shares": 2487,
-      "value_usd": 2372474,
-      "post_holding": 60951
-    },
-    {
-      "date": "2026-05-15",
-      "name": "Fletcher Pamela",
-      "role": "Director",
-      "type": "Sale",
-      "price": 940.82,
-      "shares": 1578,
-      "value_usd": 1484614,
-      "post_holding": 7406
-    },
-    {
-      "date": "2026-05-14",
-      "name": "Fletcher Pamela",
-      "role": "Director",
-      "type": "Sale",
-      "price": 1003.38,
-      "shares": 1577,
-      "value_usd": 1582322,
-      "post_holding": 8984
     }
   ],
   "top_holders": [

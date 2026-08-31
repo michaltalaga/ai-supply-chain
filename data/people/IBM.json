@@ -23,13 +23,23 @@
       "name": "Kareem Yusuf"
     }
   ],
-  "as_of": "2026-08-24",
+  "as_of": "2026-08-31",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=IBM",
     "top_holders": "https://finance.yahoo.com/quote/IBM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-26",
+      "name": "Thomas Robert David",
+      "role": "Senior Vice President",
+      "type": "Sale",
+      "price": 230.32,
+      "shares": 25000,
+      "value_usd": 5758088,
+      "post_holding": 47800
+    },
     {
       "date": "2026-07-01",
       "name": "Robinson Anne",

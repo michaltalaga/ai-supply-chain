@@ -20,13 +20,23 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-08-24",
+  "as_of": "2026-08-31",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-26",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 309.44,
+      "shares": 50000,
+      "value_usd": 15472000,
+      "post_holding": 2684883
+    },
     {
       "date": "2026-08-19",
       "name": "Slootman Frank",
@@ -196,26 +206,6 @@
       "shares": 289685,
       "value_usd": 79486057,
       "post_holding": 28535
-    },
-    {
-      "date": "2026-07-15",
-      "name": "Dageville Benoit",
-      "role": "Director",
-      "type": "Sale",
-      "price": 276.53,
-      "shares": 50000,
-      "value_usd": 13826500,
-      "post_holding": 2884887
-    },
-    {
-      "date": "2026-07-14",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 275,
-      "shares": 2500,
-      "value_usd": 687500,
-      "post_holding": 395379
     }
   ],
   "top_holders": [

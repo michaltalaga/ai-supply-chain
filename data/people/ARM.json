@@ -20,7 +20,7 @@
       "note": "SoftBank owns ~90%"
     }
   ],
-  "as_of": "2026-08-24",
+  "as_of": "2026-08-31",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ARM",
@@ -216,16 +216,6 @@
       "shares": 9299,
       "value_usd": 1495783,
       "post_holding": 273680
-    },
-    {
-      "date": "2026-03-26",
-      "name": "Haas Rene A.",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 160.86,
-      "shares": 7986,
-      "value_usd": 1284603,
-      "post_holding": 282979
     },
     {
       "date": "2026-03-25",
