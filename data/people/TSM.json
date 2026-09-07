@@ -20,7 +20,7 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
@@ -308,14 +308,14 @@
       "post_holding": 6652
     },
     {
-      "date": "2026-08-07",
-      "name": "Chang Tzonz-Sheng",
-      "role": "SVP",
+      "date": "2026-07-02",
+      "name": "Fang Shu-Hua",
+      "role": "SVP and GC",
       "type": "Buy",
-      "price": 73.31,
-      "shares": 54,
-      "value_usd": 3959,
-      "post_holding": 5428
+      "price": 77.09,
+      "shares": 2000,
+      "value_usd": 154180,
+      "post_holding": 8206
     }
   ],
   "top_holders": [

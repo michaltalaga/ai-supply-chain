@@ -32,13 +32,23 @@
       "name": "John Giannandrea"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AAPL",
     "top_holders": "https://finance.yahoo.com/quote/AAPL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-01",
+      "name": "Newstead Jennifer",
+      "role": "SVP, GC and Government Affairs",
+      "type": "Sale",
+      "price": 317.01,
+      "shares": 1439,
+      "value_usd": 456177,
+      "post_holding": 35790
+    },
     {
       "date": "2026-08-25",
       "name": "Newstead Jennifer",

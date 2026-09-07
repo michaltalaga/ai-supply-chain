@@ -19,7 +19,7 @@
       "name": "Bill Scannell"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
@@ -145,46 +145,6 @@
       "shares": 1411,
       "value_usd": 602720,
       "post_holding": 0
-    },
-    {
-      "date": "2026-07-08",
-      "name": "Silver Lake Partners IV, L.P.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 427.15,
-      "shares": 72854,
-      "value_usd": 31119940,
-      "post_holding": 46192
-    },
-    {
-      "date": "2026-07-08",
-      "name": "Silver Lake Partners V DE (AIV",
-      "role": "Director",
-      "type": "Sale",
-      "price": 427.15,
-      "shares": 37003,
-      "value_usd": 15806016,
-      "post_holding": 29840
-    },
-    {
-      "date": "2026-07-06",
-      "name": "Silver Lake Technology Investo",
-      "role": "Director",
-      "type": "Sale",
-      "price": 410.51,
-      "shares": 636,
-      "value_usd": 261081,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-07-06",
-      "name": "SL SPV-2, L.P.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 410.52,
-      "shares": 63204,
-      "value_usd": 25946693,
-      "post_holding": 30167
     }
   ],
   "top_holders": [

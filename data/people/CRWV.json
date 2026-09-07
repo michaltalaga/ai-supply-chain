@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,46 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-09-01",
+      "name": "McVeety Kristen J",
+      "role": "GC and Secretary",
+      "type": "Option Exercise",
+      "price": 0.55,
+      "shares": 156000,
+      "value_usd": 85800,
+      "post_holding": 279313
+    },
+    {
+      "date": "2026-09-01",
+      "name": "McVeety Kristen J",
+      "role": "GC and Secretary",
+      "type": "Sale",
+      "price": 81.63,
+      "shares": 156000,
+      "value_usd": 12734129,
+      "post_holding": 123313
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 81.66,
+      "shares": 200000,
+      "value_usd": 16332810,
+      "post_holding": 1287129
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 81.66,
+      "shares": 107692,
+      "value_usd": 8794565,
+      "post_holding": 0
+    },
     {
       "date": "2026-08-26",
       "name": "McVeety Kristen J",
@@ -125,76 +165,6 @@
       "shares": 3610,
       "value_usd": 331687,
       "post_holding": 327691
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Jain Sachin",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 6339,
-      "value_usd": 582427,
-      "post_holding": 157091
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 13129,
-      "value_usd": 1206293,
-      "post_holding": 1687129
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Goldberg Chen",
-      "role": "EVP, Product & Engineering",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 8628,
-      "value_usd": 792741,
-      "post_holding": 72974
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Baker Jeff",
-      "role": "Principal Accounting Officer",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 1256,
-      "value_usd": 115401,
-      "post_holding": 8337
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Agrawal Nitin",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 10062,
-      "value_usd": 924497,
-      "post_holding": 138105
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 95.72,
-      "shares": 200000,
-      "value_usd": 19143027,
-      "post_holding": 1676815
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 95.72,
-      "shares": 107692,
-      "value_usd": 10307750,
-      "post_holding": 0
     }
   ],
   "top_holders": [

@@ -10,7 +10,7 @@
       "name": "David Weigand"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SMCI",
@@ -96,26 +96,6 @@
       "price": 45.14,
       "shares": 25000,
       "value_usd": 1128500,
-      "post_holding": 100188
-    },
-    {
-      "date": "2025-09-03",
-      "name": "WEIGAND DAVID E",
-      "role": "SVP, Chief Financial Officer",
-      "type": "Option Exercise",
-      "price": 5.3,
-      "shares": 25000,
-      "value_usd": 132600,
-      "post_holding": 125188
-    },
-    {
-      "date": "2025-09-03",
-      "name": "WEIGAND DAVID E",
-      "role": "SVP, Chief Financial Officer",
-      "type": "Sale",
-      "price": 40.29,
-      "shares": 25000,
-      "value_usd": 1007281,
       "post_holding": 100188
     }
   ],

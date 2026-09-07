@@ -35,13 +35,23 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-08-28",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 337.71,
+      "shares": 82,
+      "value_usd": 27692,
+      "post_holding": 18995
+    },
     {
       "date": "2026-07-30",
       "name": "ARNOLD FRANCES",

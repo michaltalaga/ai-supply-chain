@@ -26,13 +26,23 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-01",
+      "name": "Nadella Satya",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 501.46,
+      "shares": 86525,
+      "value_usd": 43388532,
+      "post_holding": 486763
+    },
     {
       "date": "2026-08-05",
       "name": "Althoff Judson",
@@ -142,16 +152,6 @@
       "shares": 38500,
       "value_usd": 19967707,
       "post_holding": 461597
-    },
-    {
-      "date": "2025-09-03",
-      "name": "Nadella Satya",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 504.78,
-      "shares": 149205,
-      "value_usd": 75315121,
-      "post_holding": 790852
     }
   ],
   "top_holders": [

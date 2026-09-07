@@ -23,13 +23,53 @@
       "name": "Manuvir Das"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/",
     "insider_trades": "https://finviz.com/quote.ashx?t=NVDA",
     "top_holders": "https://finance.yahoo.com/quote/NVDA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-02",
+      "name": "STEVENS MARK A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 223.33,
+      "shares": 1200000,
+      "value_usd": 268001520,
+      "post_holding": 3358770
+    },
+    {
+      "date": "2026-09-01",
+      "name": "STEVENS MARK A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 220.06,
+      "shares": 63501,
+      "value_usd": 13973960,
+      "post_holding": 4558770
+    },
+    {
+      "date": "2026-08-31",
+      "name": "STEVENS MARK A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 220.29,
+      "shares": 585000,
+      "value_usd": 128868190,
+      "post_holding": 4622271
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Teter Timothy S.",
+      "role": "EVP, General Counsel and Sec",
+      "type": "Sale",
+      "price": 217.88,
+      "shares": 30000,
+      "value_usd": 6536515,
+      "post_holding": 2687660
+    },
     {
       "date": "2026-06-18",
       "name": "STEVENS MARK A",
@@ -149,46 +189,6 @@
       "shares": 3004,
       "value_usd": 555440,
       "post_holding": 14788
-    },
-    {
-      "date": "2026-03-10",
-      "name": "Puri Ajay K",
-      "role": "EVP, Worldwide Field Ops",
-      "type": "Sale",
-      "price": 182.52,
-      "shares": 300000,
-      "value_usd": 54756044,
-      "post_holding": 3318547
-    },
-    {
-      "date": "2026-02-04",
-      "name": "Kress Colette",
-      "role": "EVP & Chief Financial Officer",
-      "type": "Sale",
-      "price": 175.72,
-      "shares": 27640,
-      "value_usd": 4856861,
-      "post_holding": 846772
-    },
-    {
-      "date": "2026-02-04",
-      "name": "Kress Colette",
-      "role": "EVP & Chief Financial Officer",
-      "type": "Sale",
-      "price": 175.72,
-      "shares": 20000,
-      "value_usd": 3514372,
-      "post_holding": 93060
-    },
-    {
-      "date": "2026-01-21",
-      "name": "Puri Ajay K",
-      "role": "EVP, Worldwide Field Ops",
-      "type": "Sale",
-      "price": 180.04,
-      "shares": 200000,
-      "value_usd": 36007160,
-      "post_holding": 3618547
     }
   ],
   "ownership_breakdown": {

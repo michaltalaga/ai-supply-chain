@@ -23,13 +23,23 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-01",
+      "name": "Stat Lauren Elaina Friedman",
+      "role": "Director",
+      "type": "Sale",
+      "price": 182.5,
+      "shares": 1342,
+      "value_usd": 244915,
+      "post_holding": 52765
+    },
     {
       "date": "2026-08-21",
       "name": "Buckley Jeffrey",
@@ -209,26 +219,6 @@
       "shares": 397744,
       "value_usd": 54109936,
       "post_holding": 6432258
-    },
-    {
-      "date": "2026-05-20",
-      "name": "Sankar Shyam",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 136.04,
-      "shares": 165514,
-      "value_usd": 22516876,
-      "post_holding": 642786
-    },
-    {
-      "date": "2026-05-20",
-      "name": "Cohen Stephen Andrew",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 136.04,
-      "shares": 319934,
-      "value_usd": 43524501,
-      "post_holding": 592
     }
   ],
   "top_holders": [

@@ -19,13 +19,23 @@
       "name": "Brian Millham"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRM",
     "top_holders": "https://finance.yahoo.com/quote/CRM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-04",
+      "name": "Conway Craig",
+      "role": "Director",
+      "type": "Sale",
+      "price": 260.61,
+      "shares": 4500,
+      "value_usd": 1172746,
+      "post_holding": 5437
+    },
     {
       "date": "2026-08-22",
       "name": "Milano Miguel",
@@ -275,26 +285,6 @@
       "shares": 442,
       "value_usd": 0,
       "post_holding": 13549
-    },
-    {
-      "date": "2026-05-22",
-      "name": "WEBB MAYNARD G JR",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 3674
-    },
-    {
-      "date": "2026-05-22",
-      "name": "Roos John Victor",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 16848
     }
   ],
   "top_holders": [

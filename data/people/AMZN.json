@@ -23,13 +23,23 @@
       "name": "Jeff Bezos"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMZN",
     "top_holders": "https://finance.yahoo.com/quote/AMZN/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-01",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 254.77,
+      "shares": 1000,
+      "value_usd": 254770,
+      "post_holding": 475681
+    },
     {
       "date": "2026-08-24",
       "name": "Zapolsky David",
@@ -199,16 +209,6 @@
       "shares": 1209649,
       "value_usd": 346453514,
       "post_holding": 879739004
-    },
-    {
-      "date": "2026-07-01",
-      "name": "Herrington Douglas J",
-      "role": "CEO Worldwide Amazon Stores",
-      "type": "Sale",
-      "price": 239.77,
-      "shares": 1000,
-      "value_usd": 239770,
-      "post_holding": 484527
     }
   ],
   "top_holders": [

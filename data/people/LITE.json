@@ -11,13 +11,73 @@
       "name": "Wajid Ali"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=LITE",
     "top_holders": "https://finance.yahoo.com/quote/LITE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-04",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 860,
+      "shares": 500,
+      "value_usd": 430000,
+      "post_holding": 116127
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 870.01,
+      "shares": 500,
+      "value_usd": 435005,
+      "post_holding": 116627
+    },
+    {
+      "date": "2026-09-02",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 864.49,
+      "shares": 500,
+      "value_usd": 432245,
+      "post_holding": 117127
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 901.04,
+      "shares": 500,
+      "value_usd": 450520,
+      "post_holding": 117627
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 895,
+      "shares": 500,
+      "value_usd": 447500,
+      "post_holding": 118127
+    },
+    {
+      "date": "2026-08-28",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 940.95,
+      "shares": 500,
+      "value_usd": 470475,
+      "post_holding": 118627
+    },
     {
       "date": "2026-08-27",
       "name": "HURLSTON MICHAEL E.",
@@ -107,56 +167,6 @@
       "shares": 1500,
       "value_usd": 1241730,
       "post_holding": 100434
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Retort Vincent",
-      "role": "SEE REMARKS",
-      "type": "Sale",
-      "price": 827.82,
-      "shares": 2483,
-      "value_usd": 2055477,
-      "post_holding": 109438
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Kim Jae",
-      "role": "SVP, GENERAL COUNSEL",
-      "type": "Sale",
-      "price": 827.82,
-      "shares": 1904,
-      "value_usd": 1576169,
-      "post_holding": 42096
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Retort Vincent",
-      "role": "SEE REMARKS",
-      "type": "Sale",
-      "price": 909.43,
-      "shares": 3183,
-      "value_usd": 2894716,
-      "post_holding": 114495
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Kim Jae",
-      "role": "SVP, GENERAL COUNSEL",
-      "type": "Sale",
-      "price": 909.43,
-      "shares": 1366,
-      "value_usd": 1242281,
-      "post_holding": 45973
-    },
-    {
-      "date": "2026-06-02",
-      "name": "Harris Isaac Hosojiro",
-      "role": "Director",
-      "type": "Sale",
-      "price": 1000.08,
-      "shares": 1416,
-      "value_usd": 1416115,
-      "post_holding": 6984
     }
   ],
   "top_holders": [

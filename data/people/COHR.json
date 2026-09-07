@@ -16,13 +16,63 @@
       "note": "former CEO; led II-VI/COHR merger 2022"
     }
   ],
-  "as_of": "2026-08-31",
+  "as_of": "2026-09-07",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=COHR",
     "top_holders": "https://finance.yahoo.com/quote/COHR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-02",
+      "name": "Neal-Graves Lisa",
+      "role": "Director",
+      "type": "Sale",
+      "price": 268.42,
+      "shares": 2200,
+      "value_usd": 590524,
+      "post_holding": 13033
+    },
+    {
+      "date": "2026-09-01",
+      "name": "Eng Julie Sheridan",
+      "role": "Chief Technology Officer",
+      "type": "Sale",
+      "price": 270.69,
+      "shares": 6030,
+      "value_usd": 1632246,
+      "post_holding": 41027
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Digirolomo Enrico",
+      "role": "Director",
+      "type": "Sale",
+      "price": 276.85,
+      "shares": 2272,
+      "value_usd": 628998,
+      "post_holding": 17238
+    },
+    {
+      "date": "2026-08-31",
+      "name": "SKAGGS STEPHEN A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 276.88,
+      "shares": 2272,
+      "value_usd": 629062,
+      "post_holding": 14592
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Eng Julie Sheridan",
+      "role": "Chief Technology Officer",
+      "type": "Sale",
+      "price": 276.83,
+      "shares": 7047,
+      "value_usd": 1950834,
+      "post_holding": 47057
+    },
     {
       "date": "2026-08-18",
       "name": "Luther Sherri R",
@@ -132,46 +182,6 @@
       "shares": 1454,
       "value_usd": 375394,
       "post_holding": 49436
-    },
-    {
-      "date": "2026-03-09",
-      "name": "SKAGGS STEPHEN A",
-      "role": "Director",
-      "type": "Sale",
-      "price": 243.13,
-      "shares": 3523,
-      "value_usd": 856550,
-      "post_holding": 16864
-    },
-    {
-      "date": "2026-03-06",
-      "name": "Digirolomo Enrico",
-      "role": "Director",
-      "type": "Sale",
-      "price": 241.5,
-      "shares": 3911,
-      "value_usd": 944506,
-      "post_holding": 17446
-    },
-    {
-      "date": "2026-03-02",
-      "name": "Eng Julie Sheridan",
-      "role": "Chief Technology Officer",
-      "type": "Sale",
-      "price": 291.42,
-      "shares": 2792,
-      "value_usd": 813646,
-      "post_holding": 50890
-    },
-    {
-      "date": "2026-02-12",
-      "name": "Luther Sherri R",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 217.74,
-      "shares": 4000,
-      "value_usd": 870954,
-      "post_holding": 72475
     }
   ],
   "top_holders": [
