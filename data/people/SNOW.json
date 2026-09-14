@@ -20,13 +20,73 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-09",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 335.72,
+      "shares": 2730,
+      "value_usd": 916516,
+      "post_holding": 319887
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 335.72,
+      "shares": 50000,
+      "value_usd": 16786000,
+      "post_holding": 2618215
+    },
+    {
+      "date": "2026-09-04",
+      "name": "GARRETT MARK",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 3.74,
+      "shares": 50000,
+      "value_usd": 187000,
+      "post_holding": 60074
+    },
+    {
+      "date": "2026-09-04",
+      "name": "GARRETT MARK",
+      "role": "Director",
+      "type": "Sale",
+      "price": 350,
+      "shares": 50000,
+      "value_usd": 17500000,
+      "post_holding": 10074
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 353.87,
+      "shares": 50338,
+      "value_usd": 17813158,
+      "post_holding": 25196
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Speiser Michael L",
+      "role": "Director",
+      "type": "Sale",
+      "price": 353.87,
+      "shares": 403,
+      "value_usd": 142610,
+      "post_holding": 22170
+    },
     {
       "date": "2026-09-03",
       "name": "Kleinerman Christian",
@@ -146,46 +206,6 @@
       "shares": 403,
       "value_usd": 130596,
       "post_holding": 22573
-    },
-    {
-      "date": "2026-08-03",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 297,
-      "shares": 10000,
-      "value_usd": 2969950,
-      "post_holding": 365379
-    },
-    {
-      "date": "2026-07-31",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 300,
-      "shares": 20000,
-      "value_usd": 6000000,
-      "post_holding": 375379
-    },
-    {
-      "date": "2026-07-31",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 300,
-      "shares": 9986,
-      "value_usd": 2995800,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-07-29",
-      "name": "Dageville Benoit",
-      "role": "Director",
-      "type": "Sale",
-      "price": 280,
-      "shares": 50000,
-      "value_usd": 14000000,
-      "post_holding": 2818219
     }
   ],
   "top_holders": [

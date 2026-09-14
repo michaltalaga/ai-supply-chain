@@ -11,13 +11,43 @@
       "name": "Wajid Ali"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=LITE",
     "top_holders": "https://finance.yahoo.com/quote/LITE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-10",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 961.44,
+      "shares": 500,
+      "value_usd": 480720,
+      "post_holding": 114627
+    },
+    {
+      "date": "2026-09-09",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 978.54,
+      "shares": 500,
+      "value_usd": 489270,
+      "post_holding": 115127
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Wupen Yuen",
+      "role": "PRESIDENT, GLOBAL BUS. UNITS",
+      "type": "Sale",
+      "price": 895.99,
+      "shares": 500,
+      "value_usd": 447995,
+      "post_holding": 115627
+    },
     {
       "date": "2026-09-04",
       "name": "Wupen Yuen",
@@ -147,26 +177,6 @@
       "shares": 500,
       "value_usd": 412120,
       "post_holding": 92729
-    },
-    {
-      "date": "2026-08-21",
-      "name": "Wupen Yuen",
-      "role": "PRESIDENT, GLOBAL BUS. UNITS",
-      "type": "Sale",
-      "price": 898.15,
-      "shares": 500,
-      "value_usd": 449075,
-      "post_holding": 93229
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Wupen Yuen",
-      "role": "PRESIDENT, GLOBAL BUS. UNITS",
-      "type": "Sale",
-      "price": 827.82,
-      "shares": 1500,
-      "value_usd": 1241730,
-      "post_holding": 100434
     }
   ],
   "top_holders": [

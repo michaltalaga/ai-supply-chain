@@ -16,13 +16,23 @@
       "note": "former CEO; led II-VI/COHR merger 2022"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=COHR",
     "top_holders": "https://finance.yahoo.com/quote/COHR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-09",
+      "name": "Beard Robert P",
+      "role": "Chief Strategy & Legal Officer",
+      "type": "Sale",
+      "price": 309.32,
+      "shares": 500,
+      "value_usd": 154660,
+      "post_holding": 51428
+    },
     {
       "date": "2026-09-02",
       "name": "Neal-Graves Lisa",
@@ -172,16 +182,6 @@
       "shares": 1000,
       "value_usd": 258000,
       "post_holding": 50298
-    },
-    {
-      "date": "2026-03-10",
-      "name": "Eng Julie Sheridan",
-      "role": "Chief Technology Officer",
-      "type": "Sale",
-      "price": 258.18,
-      "shares": 1454,
-      "value_usd": 375394,
-      "post_holding": 49436
     }
   ],
   "top_holders": [

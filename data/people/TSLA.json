@@ -24,13 +24,33 @@
       "note": "leads FSD"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSLA",
     "top_holders": "https://finance.yahoo.com/quote/TSLA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-08",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 360.13,
+      "shares": 2606,
+      "value_usd": 938419,
+      "post_holding": 25972
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Taneja Vaibhav",
+      "role": "Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 6539,
+      "value_usd": 0,
+      "post_holding": 28578
+    },
     {
       "date": "2026-06-16",
       "name": "Musk Elon",
@@ -210,16 +230,6 @@
       "shares": 6538,
       "value_usd": 0,
       "post_holding": 16394
-    },
-    {
-      "date": "2025-09-15",
-      "name": "MURDOCH JAMES R",
-      "role": "Director",
-      "type": "Sale",
-      "price": 422.68,
-      "shares": 60000,
-      "value_usd": 25360800,
-      "post_holding": 637031
     }
   ],
   "top_holders": [

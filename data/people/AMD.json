@@ -23,7 +23,7 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
@@ -209,26 +209,6 @@
       "shares": 143,
       "value_usd": 67889,
       "post_holding": 17644
-    },
-    {
-      "date": "2026-08-09",
-      "name": "Hahn Ava",
-      "role": "SVP, GC & Corporate Secretary",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 1133,
-      "value_usd": 0,
-      "post_holding": 18349
-    },
-    {
-      "date": "2026-08-09",
-      "name": "Hu Jean X.",
-      "role": "EVP, CFO and Treasurer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 5893,
-      "value_usd": 0,
-      "post_holding": 116620
     }
   ],
   "top_holders": [

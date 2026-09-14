@@ -19,7 +19,7 @@
       "name": "Bill Scannell"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
@@ -27,124 +27,184 @@
   },
   "insider_trades": [
     {
-      "date": "2026-08-24",
-      "name": "Radakovich Lynn Vojvodich",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 31.14,
-      "shares": 2022,
-      "value_usd": 62965,
-      "post_holding": 27289
-    },
-    {
-      "date": "2026-08-24",
-      "name": "Radakovich Lynn Vojvodich",
-      "role": "Director",
-      "type": "Sale",
-      "price": 438.21,
-      "shares": 2022,
-      "value_usd": 886061,
-      "post_holding": 25267
-    },
-    {
-      "date": "2026-07-22",
-      "name": "Radakovich Lynn Vojvodich",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 31.14,
-      "shares": 2022,
-      "value_usd": 62965,
-      "post_holding": 27289
-    },
-    {
-      "date": "2026-07-22",
-      "name": "Radakovich Lynn Vojvodich",
-      "role": "Director",
-      "type": "Sale",
-      "price": 413.77,
-      "shares": 2022,
-      "value_usd": 836643,
-      "post_holding": 25267
-    },
-    {
-      "date": "2026-07-09",
-      "name": "Silver Lake Technology Investo",
-      "role": "Director",
-      "type": "Sale",
-      "price": 453.54,
-      "shares": 1332,
-      "value_usd": 604114,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-07-09",
+      "date": "2026-09-09",
       "name": "Silver Lake Partners V DE (AIV",
       "role": "Director",
       "type": "Sale",
-      "price": 453.54,
-      "shares": 34869,
-      "value_usd": 15814436,
-      "post_holding": 43961
+      "price": 540.39,
+      "shares": 27629,
+      "value_usd": 14930330,
+      "post_holding": 24488
     },
     {
-      "date": "2026-07-09",
-      "name": "SL SPV-2, L.P.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 453.54,
-      "shares": 59492,
-      "value_usd": 26981925,
-      "post_holding": 89222
-    },
-    {
-      "date": "2026-07-09",
+      "date": "2026-09-09",
       "name": "Silver Lake Technology Investo",
       "role": "Director",
       "type": "Sale",
-      "price": 453.54,
-      "shares": 601,
-      "value_usd": 272579,
+      "price": 540.38,
+      "shares": 1075,
+      "value_usd": 580908,
       "post_holding": 0
     },
     {
-      "date": "2026-07-09",
+      "date": "2026-09-09",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 540.4,
+      "shares": 486,
+      "value_usd": 262634,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-09-09",
       "name": "Silver Lake Partners IV, L.P.",
       "role": "Director",
       "type": "Sale",
-      "price": 453.54,
-      "shares": 68706,
-      "value_usd": 31160825,
-      "post_holding": 67990
+      "price": 540.39,
+      "shares": 52708,
+      "value_usd": 28482698,
+      "post_holding": 41849
     },
     {
-      "date": "2026-07-08",
+      "date": "2026-09-09",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 534.45,
+      "shares": 1900,
+      "value_usd": 1015450,
+      "post_holding": 1397035
+    },
+    {
+      "date": "2026-09-09",
       "name": "SL SPV-2, L.P.",
       "role": "Director",
       "type": "Sale",
-      "price": 427.15,
-      "shares": 63095,
-      "value_usd": 26951337,
-      "post_holding": 60551
+      "price": 540.39,
+      "shares": 48097,
+      "value_usd": 25990974,
+      "post_holding": 47386
     },
     {
-      "date": "2026-07-08",
+      "date": "2026-09-08",
       "name": "Silver Lake Technology Investo",
       "role": "Director",
       "type": "Sale",
-      "price": 427.13,
-      "shares": 635,
-      "value_usd": 271229,
+      "price": 527.07,
+      "shares": 503,
+      "value_usd": 265117,
       "post_holding": 0
     },
     {
-      "date": "2026-07-08",
+      "date": "2026-09-08",
+      "name": "Silver Lake Partners V DE (AIV",
+      "role": "Director",
+      "type": "Sale",
+      "price": 527.07,
+      "shares": 28695,
+      "value_usd": 15124318,
+      "post_holding": 62733
+    },
+    {
+      "date": "2026-09-08",
       "name": "Silver Lake Technology Investo",
       "role": "Director",
       "type": "Sale",
-      "price": 427.16,
-      "shares": 1411,
-      "value_usd": 602720,
+      "price": 527.07,
+      "shares": 1119,
+      "value_usd": 589788,
       "post_holding": 0
+    },
+    {
+      "date": "2026-09-08",
+      "name": "SL SPV-2, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 527.07,
+      "shares": 49949,
+      "value_usd": 26326678,
+      "post_holding": 121449
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 527.07,
+      "shares": 54731,
+      "value_usd": 28847145,
+      "post_holding": 106837
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 529.09,
+      "shares": 2900,
+      "value_usd": 1534363,
+      "post_holding": 1398935
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Silver Lake Partners V DE (AIV",
+      "role": "Director",
+      "type": "Sale",
+      "price": 521.34,
+      "shares": 28696,
+      "value_usd": 14960339,
+      "post_holding": 50263
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 521.35,
+      "shares": 1120,
+      "value_usd": 583908,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 521.35,
+      "shares": 504,
+      "value_usd": 262758,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 521.34,
+      "shares": 54734,
+      "value_usd": 28534953,
+      "post_holding": 85520
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 520.71,
+      "shares": 37500,
+      "value_usd": 19526695,
+      "post_holding": 1356628
+    },
+    {
+      "date": "2026-09-04",
+      "name": "SL SPV-2, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 521.34,
+      "shares": 49946,
+      "value_usd": 26038782,
+      "post_holding": 97315
     }
   ],
   "top_holders": [

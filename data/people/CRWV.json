@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,56 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-09-08",
+      "name": "McVeety Kristen J",
+      "role": "GC and Secretary",
+      "type": "Option Exercise",
+      "price": 0.55,
+      "shares": 97500,
+      "value_usd": 53625,
+      "post_holding": 220813
+    },
+    {
+      "date": "2026-09-08",
+      "name": "McVeety Kristen J",
+      "role": "GC and Secretary",
+      "type": "Sale",
+      "price": 93.94,
+      "shares": 97500,
+      "value_usd": 9158766,
+      "post_holding": 123313
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 100.08,
+      "shares": 200000,
+      "value_usd": 20016467,
+      "post_holding": 1087129
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Intrator Michael N",
+      "role": "CEO and President",
+      "type": "Sale",
+      "price": 100.08,
+      "shares": 107692,
+      "value_usd": 10778075,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Goldberg Chen",
+      "role": "EVP, Product & Engineering",
+      "type": "Sale",
+      "price": 95.91,
+      "shares": 22424,
+      "value_usd": 2150715,
+      "post_holding": 50550
+    },
     {
       "date": "2026-09-01",
       "name": "McVeety Kristen J",
@@ -135,36 +185,6 @@
       "shares": 105500,
       "value_usd": 9021793,
       "post_holding": 0
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Venturo Brian M",
-      "role": "Chief Strategy Officer",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 5899,
-      "value_usd": 542000,
-      "post_holding": 241371
-    },
-    {
-      "date": "2026-08-20",
-      "name": "McVeety Kristen J",
-      "role": "GC and Secretary",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 3980,
-      "value_usd": 365682,
-      "post_holding": 125413
-    },
-    {
-      "date": "2026-08-20",
-      "name": "McBee Brannin",
-      "role": "Chief Development Officer",
-      "type": "Sale",
-      "price": 91.88,
-      "shares": 3610,
-      "value_usd": 331687,
-      "post_holding": 327691
     }
   ],
   "top_holders": [

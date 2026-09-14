@@ -21,13 +21,23 @@
       "name": "Thomas Kramer"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=IONQ",
     "top_holders": "https://finance.yahoo.com/quote/IONQ/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-10",
+      "name": "Raymond John w",
+      "role": "Special Advisor",
+      "type": "Sale",
+      "price": 37.21,
+      "shares": 2407,
+      "value_usd": 89564,
+      "post_holding": 77741
+    },
     {
       "date": "2026-06-18",
       "name": "TOLEDANO GABRIELLE B",
@@ -97,46 +107,6 @@
       "shares": 2800,
       "value_usd": 93352,
       "post_holding": 83963
-    },
-    {
-      "date": "2026-02-27",
-      "name": "TEUBER WILLIAM J JR",
-      "role": "Director",
-      "type": "Buy",
-      "price": 38.38,
-      "shares": 3000,
-      "value_usd": 115155,
-      "post_holding": 9413
-    },
-    {
-      "date": "2026-02-26",
-      "name": "Cardillo Robert T.",
-      "role": "Executive Chair, IonQ Federal",
-      "type": "Option Exercise",
-      "price": 11.24,
-      "shares": 2500,
-      "value_usd": 28100,
-      "post_holding": 117456
-    },
-    {
-      "date": "2026-02-26",
-      "name": "Cardillo Robert T.",
-      "role": "Executive Chair, IonQ Federal",
-      "type": "Sale",
-      "price": 39.44,
-      "shares": 5165,
-      "value_usd": 203685,
-      "post_holding": 112291
-    },
-    {
-      "date": "2026-02-24",
-      "name": "TOLEDANO GABRIELLE B",
-      "role": "Director",
-      "type": "Sale",
-      "price": 31,
-      "shares": 616,
-      "value_usd": 19096,
-      "post_holding": 9385
     }
   ],
   "top_holders": [

@@ -15,7 +15,7 @@
       "name": "Fidelma Russo"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=HPE",
@@ -241,16 +241,6 @@
       "shares": 14500,
       "value_usd": 347710,
       "post_holding": 14500
-    },
-    {
-      "date": "2026-04-01",
-      "name": "Ozzie Raymond E",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 23.98,
-      "shares": 14500,
-      "value_usd": 347710,
-      "post_holding": 176400
     }
   ],
   "top_holders": [

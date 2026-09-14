@@ -30,13 +30,53 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-09-07",
+  "as_of": "2026-09-14",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-09",
+      "name": "Cox Christopher K",
+      "role": "Chief Product Officer",
+      "type": "Sale",
+      "price": 650.28,
+      "shares": 20000,
+      "value_usd": 13005575,
+      "post_holding": 244516
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 616.71,
+      "shares": 2838,
+      "value_usd": 1750224,
+      "post_holding": 11662
+    },
+    {
+      "date": "2026-09-08",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 616.44,
+      "shares": 2516,
+      "value_usd": 1550951,
+      "post_holding": 1289
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Anderson Aaron",
+      "role": "Chief Accounting Officer",
+      "type": "Sale",
+      "price": 618.06,
+      "shares": 3240,
+      "value_usd": 2002508,
+      "post_holding": 6271
+    },
     {
       "date": "2026-08-18",
       "name": "Mahoney Curtis J.",
@@ -216,46 +256,6 @@
       "shares": 434,
       "value_usd": 261573,
       "post_holding": 5856
-    },
-    {
-      "date": "2026-08-04",
-      "name": "Andreessen Marc L",
-      "role": "Director",
-      "type": "Sale",
-      "price": 588.98,
-      "shares": 426,
-      "value_usd": 250907,
-      "post_holding": 0
-    },
-    {
-      "date": "2026-08-03",
-      "name": "KIMMITT ROBERT M",
-      "role": "Director",
-      "type": "Sale",
-      "price": 561.56,
-      "shares": 500,
-      "value_usd": 280780,
-      "post_holding": 2943
-    },
-    {
-      "date": "2026-07-31",
-      "name": "Alford Peggy",
-      "role": "Director",
-      "type": "Sale",
-      "price": 543.56,
-      "shares": 464,
-      "value_usd": 252212,
-      "post_holding": 2840
-    },
-    {
-      "date": "2026-07-27",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 607.85,
-      "shares": 837,
-      "value_usd": 508770,
-      "post_holding": 6290
     }
   ],
   "top_holders": [
