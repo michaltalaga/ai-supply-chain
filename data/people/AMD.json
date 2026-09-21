@@ -23,13 +23,53 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-21",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-15",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DSG",
+      "type": "Option Exercise",
+      "price": 84.85,
+      "shares": 7261,
+      "value_usd": 616096,
+      "post_holding": 380578
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DSG",
+      "type": "Sale",
+      "price": 503.05,
+      "shares": 17261,
+      "value_usd": 8683156,
+      "post_holding": 363317
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Sale",
+      "price": 506.8,
+      "shares": 70000,
+      "value_usd": 35475919,
+      "post_holding": 3032156
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Su Lisa T",
+      "role": "Chair, President & CEO",
+      "type": "Sale",
+      "price": 506.79,
+      "shares": 25000,
+      "value_usd": 12669747,
+      "post_holding": 74211
+    },
     {
       "date": "2026-08-25",
       "name": "Hu Jean X.",
@@ -189,26 +229,6 @@
       "shares": 7369,
       "value_usd": 625260,
       "post_holding": 1248716
-    },
-    {
-      "date": "2026-08-14",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Sale",
-      "price": 487.34,
-      "shares": 7369,
-      "value_usd": 3591208,
-      "post_holding": 1241347
-    },
-    {
-      "date": "2026-08-11",
-      "name": "Hahn Ava",
-      "role": "SVP, GC & Corporate Secretary",
-      "type": "Sale",
-      "price": 474.75,
-      "shares": 143,
-      "value_usd": 67889,
-      "post_holding": 17644
     }
   ],
   "top_holders": [

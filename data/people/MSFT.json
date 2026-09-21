@@ -26,13 +26,23 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-21",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-14",
+      "name": "Hood Amy",
+      "role": "EVP, Chief Financial Officer",
+      "type": "Sale",
+      "price": 498.27,
+      "shares": 41674,
+      "value_usd": 20764845,
+      "post_holding": 533624
+    },
     {
       "date": "2026-09-01",
       "name": "Nadella Satya",

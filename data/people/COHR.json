@@ -16,13 +16,23 @@
       "note": "former CEO; led II-VI/COHR merger 2022"
     }
   ],
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-21",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=COHR",
     "top_holders": "https://finance.yahoo.com/quote/COHR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-11",
+      "name": "Digirolomo Enrico",
+      "role": "Director",
+      "type": "Sale",
+      "price": 305.99,
+      "shares": 5315,
+      "value_usd": 1626310,
+      "post_holding": 11923
+    },
     {
       "date": "2026-09-09",
       "name": "Beard Robert P",
@@ -172,16 +182,6 @@
       "shares": 1000,
       "value_usd": 21670,
       "post_holding": 51298
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Xia Howard H.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 258,
-      "shares": 1000,
-      "value_usd": 258000,
-      "post_holding": 50298
     }
   ],
   "top_holders": [

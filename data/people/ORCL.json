@@ -23,13 +23,83 @@
       "name": "Edward Screven"
     }
   ],
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-21",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ORCL",
     "top_holders": "https://finance.yahoo.com/quote/ORCL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-16",
+      "name": "Sicilia Michael D.",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 139.94,
+      "shares": 10882,
+      "value_usd": 1522827,
+      "post_holding": 149084
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Smith Maria",
+      "role": "EVP, Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 13168,
+      "value_usd": 0,
+      "post_holding": 65527
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Sicilia Michael D.",
+      "role": "Chief Executive Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 52673,
+      "value_usd": 0,
+      "post_holding": 185434
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Magouyrk Clayton M.",
+      "role": "Chief Executive Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 61452,
+      "value_usd": 0,
+      "post_holding": 195570
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Levey Stuart",
+      "role": "EVP, Chief Legal Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 26337,
+      "value_usd": 0,
+      "post_holding": 29766
+    },
+    {
+      "date": "2026-09-15",
+      "name": "Hura Mark",
+      "role": "Pres., Global Field Operations",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 28531,
+      "value_usd": 0,
+      "post_holding": 262608
+    },
+    {
+      "date": "2026-09-15",
+      "name": "HENLEY JEFFREY",
+      "role": "Vice Chairman",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 19752,
+      "value_usd": 0,
+      "post_holding": 475662
+    },
     {
       "date": "2026-06-24",
       "name": "HENLEY JEFFREY",
@@ -149,36 +219,6 @@
       "shares": 5000,
       "value_usd": 1400000,
       "post_holding": 52083
-    },
-    {
-      "date": "2025-10-21",
-      "name": "Magouyrk Clayton M.",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 276.64,
-      "shares": 40000,
-      "value_usd": 11065508,
-      "post_holding": 154030
-    },
-    {
-      "date": "2025-10-10",
-      "name": "Levey Stuart",
-      "role": "EVP, Chief Legal Officer",
-      "type": "Sale",
-      "price": 300,
-      "shares": 19758,
-      "value_usd": 5927400,
-      "post_holding": 18429
-    },
-    {
-      "date": "2025-09-26",
-      "name": "SELIGMAN NAOMI O",
-      "role": "Director",
-      "type": "Sale",
-      "price": 288.91,
-      "shares": 2222,
-      "value_usd": 641958,
-      "post_holding": 29225
     }
   ],
   "top_holders": [

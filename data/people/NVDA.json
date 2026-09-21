@@ -23,13 +23,23 @@
       "name": "Manuvir Das"
     }
   ],
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-21",
   "sources": {
     "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/",
     "insider_trades": "https://finviz.com/quote.ashx?t=NVDA",
     "top_holders": "https://finance.yahoo.com/quote/NVDA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-17",
+      "name": "Kress Colette",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Sale",
+      "price": 219.05,
+      "shares": 34918,
+      "value_usd": 7648632,
+      "post_holding": 765103
+    },
     {
       "date": "2026-09-04",
       "name": "STEVENS MARK A",

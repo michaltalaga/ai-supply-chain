@@ -30,13 +30,43 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-21",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-15",
+      "name": "Cox Christopher K",
+      "role": "Chief Product Officer",
+      "type": "Sale",
+      "price": 675.23,
+      "shares": 20000,
+      "value_usd": 13504556,
+      "post_holding": 224516
+    },
+    {
+      "date": "2026-09-14",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 657.73,
+      "shares": 946,
+      "value_usd": 622213,
+      "post_holding": 10716
+    },
+    {
+      "date": "2026-09-14",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 657.73,
+      "shares": 629,
+      "value_usd": 413712,
+      "post_holding": 1232
+    },
     {
       "date": "2026-09-09",
       "name": "Cox Christopher K",
@@ -236,26 +266,6 @@
       "shares": 16388,
       "value_usd": 0,
       "post_holding": 22244
-    },
-    {
-      "date": "2026-08-10",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 600,
-      "shares": 1258,
-      "value_usd": 754800,
-      "post_holding": 1517
-    },
-    {
-      "date": "2026-08-10",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Sale",
-      "price": 602.7,
-      "shares": 434,
-      "value_usd": 261573,
-      "post_holding": 5856
     }
   ],
   "top_holders": [
