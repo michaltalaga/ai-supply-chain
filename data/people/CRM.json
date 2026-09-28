@@ -19,13 +19,63 @@
       "name": "Brian Millham"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRM",
     "top_holders": "https://finance.yahoo.com/quote/CRM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-22",
+      "name": "Harris Parker",
+      "role": "Co-Founder",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2541,
+      "value_usd": 0,
+      "post_holding": 165199
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Washington Robin L",
+      "role": "President and COFO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 1831,
+      "value_usd": 0,
+      "post_holding": 50658
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Niles Sabastian",
+      "role": "President and CLO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2032,
+      "value_usd": 0,
+      "post_holding": 19634
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Milano Miguel",
+      "role": "President and COO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 2541,
+      "value_usd": 0,
+      "post_holding": 34360
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Kirk David Blair",
+      "role": "Director",
+      "type": "Buy",
+      "price": 239.33,
+      "shares": 4176,
+      "value_usd": 999451,
+      "post_holding": 18748
+    },
     {
       "date": "2026-09-04",
       "name": "Conway Craig",
@@ -235,56 +285,6 @@
       "shares": 442,
       "value_usd": 0,
       "post_holding": 1732
-    },
-    {
-      "date": "2026-05-22",
-      "name": "Conway Craig",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 9496
-    },
-    {
-      "date": "2026-05-22",
-      "name": "DONALD ARNOLD W",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 5415
-    },
-    {
-      "date": "2026-05-22",
-      "name": "Kirk David Blair",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 14131
-    },
-    {
-      "date": "2026-05-22",
-      "name": "SACHIN J. MEHRA",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 4965
-    },
-    {
-      "date": "2026-05-22",
-      "name": "MUNOZ OSCAR",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 13549
     }
   ],
   "top_holders": [

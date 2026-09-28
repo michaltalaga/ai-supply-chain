@@ -20,13 +20,83 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-23",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 339.08,
+      "shares": 50000,
+      "value_usd": 16954000,
+      "post_holding": 2434879
+    },
+    {
+      "date": "2026-09-23",
+      "name": "Beaulier Jonathan Mead",
+      "role": "Chief Revenue Officer",
+      "type": "Sale",
+      "price": 336.36,
+      "shares": 755,
+      "value_usd": 253953,
+      "post_holding": 211619
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 344.5,
+      "shares": 2622,
+      "value_usd": 903279,
+      "post_holding": 328738
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 102791,
+      "value_usd": 912784,
+      "post_holding": 121815
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 335.22,
+      "shares": 102791,
+      "value_usd": 34457293,
+      "post_holding": 19024
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 197209,
+      "value_usd": 1751216,
+      "post_holding": 216233
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 334.1,
+      "shares": 197209,
+      "value_usd": 65888248,
+      "post_holding": 19024
+    },
     {
       "date": "2026-09-16",
       "name": "Beaulier Jonathan Mead",
@@ -136,46 +206,6 @@
       "shares": 403,
       "value_usd": 142610,
       "post_holding": 22170
-    },
-    {
-      "date": "2026-09-03",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 380,
-      "shares": 10000,
-      "value_usd": 3800000,
-      "post_holding": 18568
-    },
-    {
-      "date": "2026-09-01",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 325.57,
-      "shares": 15000,
-      "value_usd": 4883550,
-      "post_holding": 325379
-    },
-    {
-      "date": "2026-08-26",
-      "name": "Dageville Benoit",
-      "role": "Director",
-      "type": "Sale",
-      "price": 309.44,
-      "shares": 50000,
-      "value_usd": 15472000,
-      "post_holding": 2684883
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 8.88,
-      "shares": 251010,
-      "value_usd": 2228969,
-      "post_holding": 279545
     }
   ],
   "top_holders": [

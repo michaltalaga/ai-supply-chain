@@ -23,13 +23,33 @@
       "name": "Manuvir Das"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated; cross-check stockanalysis.com/stocks/nvda/people/",
     "insider_trades": "https://finviz.com/quote.ashx?t=NVDA",
     "top_holders": "https://finance.yahoo.com/quote/NVDA/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-21",
+      "name": "Teter Timothy S.",
+      "role": "EVP, General Counsel and Sec",
+      "type": "Sale",
+      "price": 222.8,
+      "shares": 30460,
+      "value_usd": 6786533,
+      "post_holding": 2687660
+    },
+    {
+      "date": "2026-09-18",
+      "name": "STEVENS MARK A",
+      "role": "Director",
+      "type": "Sale",
+      "price": 219.73,
+      "shares": 1366000,
+      "value_usd": 300147095,
+      "post_holding": 970531
+    },
     {
       "date": "2026-09-17",
       "name": "Kress Colette",

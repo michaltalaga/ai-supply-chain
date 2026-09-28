@@ -20,13 +20,23 @@
       "note": "SoftBank owns ~90%"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ARM",
     "top_holders": "https://finance.yahoo.com/quote/ARM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-21",
+      "name": "Child Jason",
+      "role": "Chief Financial Officer",
+      "type": "Sale",
+      "price": 300,
+      "shares": 10400,
+      "value_usd": 3120000,
+      "post_holding": 153442
+    },
     {
       "date": "2026-08-27",
       "name": "Child Jason",
@@ -216,16 +226,6 @@
       "shares": 21280,
       "value_usd": 3830400,
       "post_holding": 153426
-    },
-    {
-      "date": "2026-04-14",
-      "name": "Haas Rene A.",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 160.85,
-      "shares": 9299,
-      "value_usd": 1495783,
-      "post_holding": 273680
     }
   ],
   "top_holders": [

@@ -15,13 +15,23 @@
       "name": "Charlie Kawwas"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AVGO",
     "top_holders": "https://finance.yahoo.com/quote/AVGO/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-23",
+      "name": "SAMUELI HENRY",
+      "role": "Director",
+      "type": "Sale",
+      "price": 356.04,
+      "shares": 702190,
+      "value_usd": 250006184,
+      "post_holding": 29913822
+    },
     {
       "date": "2026-07-10",
       "name": "Brazeal Mark David",
@@ -131,36 +141,6 @@
       "shares": 17260,
       "value_usd": 6077564,
       "post_holding": 65932
-    },
-    {
-      "date": "2026-04-08",
-      "name": "Velaga S. Ram",
-      "role": "President, ISG",
-      "type": "Sale",
-      "price": 352.02,
-      "shares": 12955,
-      "value_usd": 4560449,
-      "post_holding": 83192
-    },
-    {
-      "date": "2026-04-08",
-      "name": "PAGE JUSTINE",
-      "role": "Director",
-      "type": "Sale",
-      "price": 353,
-      "shares": 2018,
-      "value_usd": 712354,
-      "post_holding": 18164
-    },
-    {
-      "date": "2026-04-08",
-      "name": "Kawwas Charlie B",
-      "role": "President, SSG",
-      "type": "Sale",
-      "price": 345.23,
-      "shares": 10000,
-      "value_usd": 3452270,
-      "post_holding": 787184
     }
   ],
   "top_holders": [

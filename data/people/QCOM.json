@@ -15,13 +15,33 @@
       "name": "Alex Katouzian"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=QCOM",
     "top_holders": "https://finance.yahoo.com/quote/QCOM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-25",
+      "name": "AMON CRISTIANO R",
+      "role": "President & CEO",
+      "type": "Sale",
+      "price": 200,
+      "shares": 10000,
+      "value_usd": 2000000,
+      "post_holding": 177568
+    },
+    {
+      "date": "2026-09-21",
+      "name": "AMON CRISTIANO R",
+      "role": "President & CEO",
+      "type": "Sale",
+      "price": 195,
+      "shares": 10000,
+      "value_usd": 1950000,
+      "post_holding": 187568
+    },
     {
       "date": "2026-09-11",
       "name": "Palkhiwala Akash J.",
@@ -161,16 +181,6 @@
       "shares": 3200,
       "value_usd": 569024,
       "post_holding": 39735
-    },
-    {
-      "date": "2026-04-30",
-      "name": "Grech Patricia Y",
-      "role": "SVP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 172,
-      "shares": 192,
-      "value_usd": 33024,
-      "post_holding": 0
     }
   ],
   "top_holders": [

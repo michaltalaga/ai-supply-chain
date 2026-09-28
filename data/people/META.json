@@ -30,13 +30,43 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-21",
+      "name": "Cox Christopher K",
+      "role": "Chief Product Officer",
+      "type": "Sale",
+      "price": 712.76,
+      "shares": 40000,
+      "value_usd": 28510260,
+      "post_holding": 184516
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 680.27,
+      "shares": 946,
+      "value_usd": 643535,
+      "post_holding": 9770
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 680.27,
+      "shares": 629,
+      "value_usd": 427890,
+      "post_holding": 1175
+    },
     {
       "date": "2026-09-15",
       "name": "Cox Christopher K",
@@ -216,56 +246,6 @@
       "shares": 16388,
       "value_usd": 0,
       "post_holding": 272643
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Collison Patrick",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 103,
-      "value_usd": 0,
-      "post_holding": 1166
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Bosworth Andrew",
-      "role": "Chief Technology Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 16389,
-      "value_usd": 0,
-      "post_holding": 16803
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Mahoney Curtis J.",
-      "role": "Chief Legal Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 4757,
-      "value_usd": 0,
-      "post_holding": 5875
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Songhurst Charles",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 110,
-      "value_usd": 0,
-      "post_holding": 1374
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Olivan Javier",
-      "role": "Chief Operating Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 16388,
-      "value_usd": 0,
-      "post_holding": 22244
     }
   ],
   "top_holders": [

@@ -23,13 +23,143 @@
       "name": "Edward Screven"
     }
   ],
-  "as_of": "2026-09-21",
+  "as_of": "2026-09-28",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ORCL",
     "top_holders": "https://finance.yahoo.com/quote/ORCL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-22",
+      "name": "Smith Maria",
+      "role": "EVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 151.7,
+      "shares": 2631,
+      "value_usd": 399123,
+      "post_holding": 64357
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Sicilia Michael D.",
+      "role": "Chief Executive Officer",
+      "type": "Sale",
+      "price": 151.59,
+      "shares": 22562,
+      "value_usd": 3420174,
+      "post_holding": 182929
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Smith Maria",
+      "role": "EVP, Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 5506,
+      "value_usd": 0,
+      "post_holding": 76093
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Sicilia Michael D.",
+      "role": "Chief Executive Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 73411,
+      "value_usd": 0,
+      "post_holding": 258297
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Magouyrk Clayton M.",
+      "role": "Chief Executive Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 88093,
+      "value_usd": 0,
+      "post_holding": 301250
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Hura Mark",
+      "role": "Pres., Global Field Operations",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 47717,
+      "value_usd": 0,
+      "post_holding": 317278
+    },
+    {
+      "date": "2026-09-20",
+      "name": "HENLEY JEFFREY",
+      "role": "Vice Chairman",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 33035,
+      "value_usd": 0,
+      "post_holding": 513488
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Smith Maria",
+      "role": "EVP, Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 11934,
+      "value_usd": 0,
+      "post_holding": 70587
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Sicilia Michael D.",
+      "role": "Chief Executive Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 35802,
+      "value_usd": 0,
+      "post_holding": 184886
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Magouyrk Clayton M.",
+      "role": "Chief Executive Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 41769,
+      "value_usd": 0,
+      "post_holding": 213157
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Levey Stuart",
+      "role": "EVP, Chief Legal Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 20885,
+      "value_usd": 0,
+      "post_holding": 38768
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Hura Mark",
+      "role": "Pres., Global Field Operations",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 19393,
+      "value_usd": 0,
+      "post_holding": 269561
+    },
+    {
+      "date": "2026-09-19",
+      "name": "HENLEY JEFFREY",
+      "role": "Vice Chairman",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 13426,
+      "value_usd": 0,
+      "post_holding": 480453
+    },
     {
       "date": "2026-09-16",
       "name": "Sicilia Michael D.",
@@ -129,96 +259,6 @@
       "shares": 15000,
       "value_usd": 2642850,
       "post_holding": 3429
-    },
-    {
-      "date": "2026-02-09",
-      "name": "Magouyrk Clayton M.",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 155.23,
-      "shares": 10000,
-      "value_usd": 1552318,
-      "post_holding": 134030
-    },
-    {
-      "date": "2026-01-15",
-      "name": "KEHRING DOUGLAS A",
-      "role": "EVP, Principal Financial Offcr",
-      "type": "Sale",
-      "price": 194.89,
-      "shares": 35000,
-      "value_usd": 6821150,
-      "post_holding": 33638
-    },
-    {
-      "date": "2025-12-24",
-      "name": "Hura Mark",
-      "role": "Pres., Global Field Operations",
-      "type": "Sale",
-      "price": 196.89,
-      "shares": 15000,
-      "value_usd": 2953314,
-      "post_holding": 234077
-    },
-    {
-      "date": "2025-12-23",
-      "name": "SELIGMAN NAOMI O",
-      "role": "Director",
-      "type": "Sale",
-      "price": 196.61,
-      "shares": 2223,
-      "value_usd": 437064,
-      "post_holding": 25596
-    },
-    {
-      "date": "2025-12-19",
-      "name": "Magouyrk Clayton M.",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 192.52,
-      "shares": 10000,
-      "value_usd": 1925152,
-      "post_holding": 144030
-    },
-    {
-      "date": "2025-12-05",
-      "name": "Smith Maria",
-      "role": "EVP, Chief Accounting Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 11016,
-      "value_usd": 0,
-      "post_holding": 58099
-    },
-    {
-      "date": "2025-10-28",
-      "name": "BERG JEFFREY",
-      "role": "Director",
-      "type": "Sale",
-      "price": 283.02,
-      "shares": 49365,
-      "value_usd": 13971267,
-      "post_holding": 151999
-    },
-    {
-      "date": "2025-10-23",
-      "name": "Smith Maria",
-      "role": "EVP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 280.62,
-      "shares": 5000,
-      "value_usd": 1403122,
-      "post_holding": 47083
-    },
-    {
-      "date": "2025-10-21",
-      "name": "Smith Maria",
-      "role": "EVP, Chief Accounting Officer",
-      "type": "Sale",
-      "price": 280,
-      "shares": 5000,
-      "value_usd": 1400000,
-      "post_holding": 52083
     }
   ],
   "top_holders": [
