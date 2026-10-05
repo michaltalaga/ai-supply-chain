@@ -23,13 +23,23 @@
       "name": "Edward Screven"
     }
   ],
-  "as_of": "2026-09-28",
+  "as_of": "2026-10-05",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ORCL",
     "top_holders": "https://finance.yahoo.com/quote/ORCL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-29",
+      "name": "RUSCKOWSKI STEPHEN H",
+      "role": "Director",
+      "type": "Buy",
+      "price": 139.35,
+      "shares": 25000,
+      "value_usd": 3483800,
+      "post_holding": 25390
+    },
     {
       "date": "2026-09-22",
       "name": "Smith Maria",
@@ -249,16 +259,6 @@
       "shares": 400000,
       "value_usd": 63664040,
       "post_holding": 0
-    },
-    {
-      "date": "2026-04-16",
-      "name": "Levey Stuart",
-      "role": "EVP, Chief Legal Officer",
-      "type": "Sale",
-      "price": 176.19,
-      "shares": 15000,
-      "value_usd": 2642850,
-      "post_holding": 3429
     }
   ],
   "top_holders": [

@@ -30,13 +30,43 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-09-28",
+  "as_of": "2026-10-05",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-09-28",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 750.42,
+      "shares": 946,
+      "value_usd": 709902,
+      "post_holding": 8824
+    },
+    {
+      "date": "2026-09-28",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 748.91,
+      "shares": 629,
+      "value_usd": 471064,
+      "post_holding": 1118
+    },
+    {
+      "date": "2026-09-24",
+      "name": "Zuckerberg Mark",
+      "role": "COB and CEO",
+      "type": "Sale",
+      "price": 777.44,
+      "shares": 27474,
+      "value_usd": 21359454,
+      "post_holding": 0
+    },
     {
       "date": "2026-09-21",
       "name": "Cox Christopher K",
@@ -206,46 +236,6 @@
       "shares": 110,
       "value_usd": 0,
       "post_holding": 1453
-    },
-    {
-      "date": "2026-08-15",
-      "name": "LI SUSAN J",
-      "role": "Chief Financial Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 13957,
-      "value_usd": 0,
-      "post_holding": 29304
-    },
-    {
-      "date": "2026-08-15",
-      "name": "LI SUSAN J",
-      "role": "Chief Financial Officer",
-      "type": "Sale",
-      "price": 689.85,
-      "shares": 2127,
-      "value_usd": 1467311,
-      "post_holding": 15347
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Anderson Aaron",
-      "role": "Chief Accounting Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 2448,
-      "value_usd": 0,
-      "post_holding": 10727
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Cox Christopher K",
-      "role": "Chief Product Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 16388,
-      "value_usd": 0,
-      "post_holding": 272643
     }
   ],
   "top_holders": [

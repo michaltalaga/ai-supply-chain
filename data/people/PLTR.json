@@ -23,7 +23,7 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-09-28",
+  "as_of": "2026-10-05",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
@@ -209,16 +209,6 @@
       "shares": 17128,
       "value_usd": 2330130,
       "post_holding": 375242
-    },
-    {
-      "date": "2026-05-20",
-      "name": "Taylor Ryan D.",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 136.04,
-      "shares": 19662,
-      "value_usd": 2674859,
-      "post_holding": 199759
     }
   ],
   "top_holders": [

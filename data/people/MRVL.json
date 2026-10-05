@@ -15,13 +15,23 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-09-28",
+  "as_of": "2026-10-05",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
     "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-01",
+      "name": "Koopmans Chris",
+      "role": "President and COO",
+      "type": "Sale",
+      "price": 262.05,
+      "shares": 10000,
+      "value_usd": 2620500,
+      "post_holding": 207941
+    },
     {
       "date": "2026-09-15",
       "name": "Durn Daniel",
@@ -203,16 +213,6 @@
       "post_holding": 60243
     },
     {
-      "date": "2026-06-15",
-      "name": "MURPHY MATTHEW J",
-      "role": "Chairman of the Board and CEO",
-      "type": "Sale",
-      "price": 298.76,
-      "shares": 7500,
-      "value_usd": 2240700,
-      "post_holding": 788009
-    },
-    {
       "date": "2026-06-13",
       "name": "House Rebecca W",
       "role": "Director",
@@ -221,16 +221,6 @@
       "shares": 3940,
       "value_usd": 0,
       "post_holding": 6191
-    },
-    {
-      "date": "2026-06-13",
-      "name": "Knight Marachel",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 3940,
-      "value_usd": 0,
-      "post_holding": 3940
     }
   ],
   "top_holders": [
