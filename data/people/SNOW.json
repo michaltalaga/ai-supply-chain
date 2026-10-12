@@ -20,13 +20,23 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-07",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 333.42,
+      "shares": 50000,
+      "value_usd": 16671000,
+      "post_holding": 2384879
+    },
     {
       "date": "2026-10-02",
       "name": "Speiser Michael L",
@@ -176,16 +186,6 @@
       "shares": 3876,
       "value_usd": 1234545,
       "post_holding": 240453
-    },
-    {
-      "date": "2026-09-09",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 335.72,
-      "shares": 2730,
-      "value_usd": 916516,
-      "post_holding": 319887
     }
   ],
   "top_holders": [

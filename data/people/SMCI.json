@@ -10,7 +10,7 @@
       "name": "David Weigand"
     }
   ],
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SMCI",
@@ -18,6 +18,26 @@
   },
   "note": "Resolved 2024 accounting scandal; Ernst & Young resigned as auditor; replaced with BDO USA",
   "insider_trades": [
+    {
+      "date": "2026-10-07",
+      "name": "Liu Liang Chiu-Chu Sara",
+      "role": "Director",
+      "type": "Sale",
+      "price": 45.02,
+      "shares": 100000,
+      "value_usd": 4502000,
+      "post_holding": 337506
+    },
+    {
+      "date": "2026-10-07",
+      "name": "Liang Charles",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 45.02,
+      "shares": 100000,
+      "value_usd": 4502000,
+      "post_holding": 337506
+    },
     {
       "date": "2026-09-04",
       "name": "Liang Charles",

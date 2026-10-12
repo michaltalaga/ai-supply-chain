@@ -15,13 +15,23 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
     "top_holders": "https://finance.yahoo.com/quote/MRVL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-08",
+      "name": "Scarpulla Justin",
+      "role": "SVP, Chief Accounting Officer",
+      "type": "Sale",
+      "price": 273.59,
+      "shares": 1100,
+      "value_usd": 300949,
+      "post_holding": 909
+    },
     {
       "date": "2026-10-01",
       "name": "Koopmans Chris",
@@ -193,16 +203,6 @@
       "post_holding": 6902
     },
     {
-      "date": "2026-06-16",
-      "name": "Bharathi Sandeep",
-      "role": "President, Data Center Group",
-      "type": "Sale",
-      "price": 299.13,
-      "shares": 2231,
-      "value_usd": 667359,
-      "post_holding": 55530
-    },
-    {
       "date": "2026-06-15",
       "name": "Bharathi Sandeep",
       "role": "President, Data Center Group",
@@ -211,16 +211,6 @@
       "shares": 4713,
       "value_usd": 0,
       "post_holding": 60243
-    },
-    {
-      "date": "2026-06-13",
-      "name": "House Rebecca W",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 3940,
-      "value_usd": 0,
-      "post_holding": 6191
     }
   ],
   "top_holders": [

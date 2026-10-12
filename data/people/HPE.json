@@ -15,13 +15,23 @@
       "name": "Fidelma Russo"
     }
   ],
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=HPE",
     "top_holders": "https://finance.yahoo.com/quote/HPE/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-05",
+      "name": "Neri Antonio F",
+      "role": "President and CEO",
+      "type": "Sale",
+      "price": 68.31,
+      "shares": 250000,
+      "value_usd": 17077550,
+      "post_holding": 1182393
+    },
     {
       "date": "2026-09-29",
       "name": "rahim rami",
@@ -205,16 +215,6 @@
     {
       "date": "2026-04-01",
       "name": "Hobby Jean M.",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 23.98,
-      "shares": 14499,
-      "value_usd": 347687,
-      "post_holding": 47491
-    },
-    {
-      "date": "2026-04-01",
-      "name": "DAMELIO FRANK A",
       "role": "Director",
       "type": "Option Exercise",
       "price": 23.98,

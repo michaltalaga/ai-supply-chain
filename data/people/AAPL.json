@@ -32,13 +32,53 @@
       "name": "John Giannandrea"
     }
   ],
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AAPL",
     "top_holders": "https://finance.yahoo.com/quote/AAPL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-06",
+      "name": "Newstead Jennifer",
+      "role": "SVP, GC and Government Affairs",
+      "type": "Sale",
+      "price": 332.01,
+      "shares": 2399,
+      "value_usd": 796492,
+      "post_holding": 39593
+    },
+    {
+      "date": "2026-10-02",
+      "name": "COOK TIMOTHY D",
+      "role": "Executive Chair",
+      "type": "Sale",
+      "price": 332.96,
+      "shares": 191753,
+      "value_usd": 63845841,
+      "post_holding": 3264168
+    },
+    {
+      "date": "2026-10-02",
+      "name": "O'BRIEN DEIRDRE",
+      "role": "Senior Vice President",
+      "type": "Sale",
+      "price": 333.42,
+      "shares": 46389,
+      "value_usd": 15466923,
+      "post_holding": 136810
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Ternus John",
+      "role": "CEO",
+      "type": "Sale",
+      "price": 332.94,
+      "shares": 25412,
+      "value_usd": 8460740,
+      "post_holding": 59567
+    },
     {
       "date": "2026-09-29",
       "name": "Newstead Jennifer",
@@ -188,26 +228,6 @@
       "shares": 64949,
       "value_usd": 16512198,
       "post_holding": 3280418
-    },
-    {
-      "date": "2025-11-07",
-      "name": "KONDO CHRIS",
-      "role": "Principal Accounting Officer",
-      "type": "Sale",
-      "price": 271.23,
-      "shares": 3752,
-      "value_usd": 1017655,
-      "post_holding": 15098
-    },
-    {
-      "date": "2025-10-16",
-      "name": "Parekh Kevan",
-      "role": "Senior Vice President, CFO",
-      "type": "Sale",
-      "price": 247.39,
-      "shares": 4199,
-      "value_usd": 1038787,
-      "post_holding": 8765
     }
   ],
   "top_holders": [

@@ -23,13 +23,23 @@
       "name": "Jeff Bezos"
     }
   ],
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMZN",
     "top_holders": "https://finance.yahoo.com/quote/AMZN/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-01",
+      "name": "Herrington Douglas J",
+      "role": "CEO Worldwide Amazon Stores",
+      "type": "Sale",
+      "price": 251.5,
+      "shares": 1000,
+      "value_usd": 251500,
+      "post_holding": 474681
+    },
     {
       "date": "2026-09-01",
       "name": "Herrington Douglas J",

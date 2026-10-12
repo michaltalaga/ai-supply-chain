@@ -30,13 +30,33 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-12",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-05",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 728.08,
+      "shares": 946,
+      "value_usd": 688764,
+      "post_holding": 7878
+    },
+    {
+      "date": "2026-10-05",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 728.08,
+      "shares": 629,
+      "value_usd": 457962,
+      "post_holding": 1061
+    },
     {
       "date": "2026-09-28",
       "name": "Olivan Javier",
@@ -206,36 +226,6 @@
       "shares": 7732,
       "value_usd": 0,
       "post_holding": 14344
-    },
-    {
-      "date": "2026-08-15",
-      "name": "White Dana",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 110,
-      "value_usd": 0,
-      "post_holding": 1504
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Arnold John Douglas",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 167,
-      "value_usd": 0,
-      "post_holding": 3329
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Elkann John",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 110,
-      "value_usd": 0,
-      "post_holding": 1453
     }
   ],
   "top_holders": [
