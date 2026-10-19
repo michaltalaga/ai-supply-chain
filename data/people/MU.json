@@ -16,13 +16,83 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-19",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
     "top_holders": "https://finance.yahoo.com/quote/MU/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-14",
+      "name": "RAY MICHAEL CHARLES",
+      "role": "SVP, Chief Legal Officer",
+      "type": "Sale",
+      "price": 947.29,
+      "shares": 40,
+      "value_usd": 37892,
+      "post_holding": 56248
+    },
+    {
+      "date": "2026-10-14",
+      "name": "RAY MICHAEL CHARLES",
+      "role": "SVP, Chief Legal Officer",
+      "type": "Sale",
+      "price": 929.64,
+      "shares": 6288,
+      "value_usd": 5845568,
+      "post_holding": 56288
+    },
+    {
+      "date": "2026-10-13",
+      "name": "MEHROTRA SANJAY",
+      "role": "President and CEO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 235666,
+      "value_usd": 0,
+      "post_holding": 389584
+    },
+    {
+      "date": "2026-10-13",
+      "name": "Murphy Mark J.",
+      "role": "EVP & Chief Financial Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 64880,
+      "value_usd": 0,
+      "post_holding": 191823
+    },
+    {
+      "date": "2026-10-13",
+      "name": "BHATIA MANISH H",
+      "role": "President and COO",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 68697,
+      "value_usd": 0,
+      "post_holding": 353474
+    },
+    {
+      "date": "2026-10-13",
+      "name": "Deboer Scott J",
+      "role": "Pres. & Chief Tech & Prod Offr",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 55338,
+      "value_usd": 0,
+      "post_holding": 183035
+    },
+    {
+      "date": "2026-10-13",
+      "name": "ARNZEN APRIL S",
+      "role": "EVP and Chief People Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 38166,
+      "value_usd": 0,
+      "post_holding": 103834
+    },
     {
       "date": "2026-08-21",
       "name": "MEHROTRA SANJAY",
@@ -142,56 +212,6 @@
       "shares": 37439,
       "value_usd": 35955527,
       "post_holding": 387064
-    },
-    {
-      "date": "2026-05-11",
-      "name": "GOMO STEVEN J",
-      "role": "Director",
-      "type": "Sale",
-      "price": 787.03,
-      "shares": 2000,
-      "value_usd": 1574070,
-      "post_holding": 17139
-    },
-    {
-      "date": "2026-05-01",
-      "name": "MEHROTRA SANJAY",
-      "role": "President and CEO",
-      "type": "Sale",
-      "price": 536.26,
-      "shares": 40000,
-      "value_usd": 21450555,
-      "post_holding": 424503
-    },
-    {
-      "date": "2026-05-01",
-      "name": "RAY MICHAEL CHARLES",
-      "role": "SVP, Chief Legal Officer",
-      "type": "Sale",
-      "price": 534.3,
-      "shares": 7601,
-      "value_usd": 4061207,
-      "post_holding": 67227
-    },
-    {
-      "date": "2026-04-14",
-      "name": "CORDANO MICHAEL D",
-      "role": "EVP, Worldwide Sales",
-      "type": "Sale",
-      "price": 435,
-      "shares": 3407,
-      "value_usd": 1482045,
-      "post_holding": 44059
-    },
-    {
-      "date": "2026-04-10",
-      "name": "Sadana Sumit",
-      "role": "EVP and Chief Business Officer",
-      "type": "Sale",
-      "price": 421.35,
-      "shares": 24000,
-      "value_usd": 10112400,
-      "post_holding": 224021
     }
   ],
   "top_holders": [

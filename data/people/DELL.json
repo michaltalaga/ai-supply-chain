@@ -19,13 +19,73 @@
       "name": "Bill Scannell"
     }
   ],
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-19",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
     "top_holders": "https://finance.yahoo.com/quote/DELL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-09",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 582.31,
+      "shares": 450,
+      "value_usd": 262040,
+      "post_holding": 0
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Silver Lake Partners V DE (AIV",
+      "role": "Director",
+      "type": "Sale",
+      "price": 582.3,
+      "shares": 25494,
+      "value_usd": 14845272,
+      "post_holding": 22686
+    },
+    {
+      "date": "2026-10-09",
+      "name": "SL SPV-2, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 582.3,
+      "shares": 44408,
+      "value_usd": 25858975,
+      "post_holding": 43740
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 582.3,
+      "shares": 48654,
+      "value_usd": 28331436,
+      "post_holding": 38747
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Silver Lake Partners IV, L.P.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 586.4,
+      "shares": 1800,
+      "value_usd": 1055520,
+      "post_holding": 1404569
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Silver Lake Technology Investo",
+      "role": "Director",
+      "type": "Sale",
+      "price": 582.3,
+      "shares": 996,
+      "value_usd": 579972,
+      "post_holding": 0
+    },
     {
       "date": "2026-10-06",
       "name": "Silver Lake Partners V DE (AIV",
@@ -115,16 +175,6 @@
       "shares": 2022,
       "value_usd": 1142996,
       "post_holding": 25267
-    },
-    {
-      "date": "2026-09-21",
-      "name": "Silver Lake Partners IV, L.P.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 569.77,
-      "shares": 7994,
-      "value_usd": 4554738,
-      "post_holding": 0
     }
   ],
   "top_holders": [

@@ -26,13 +26,23 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-19",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-13",
+      "name": "Hood Amy",
+      "role": "EVP, Chief Financial Officer",
+      "type": "Sale",
+      "price": 545.42,
+      "shares": 7305,
+      "value_usd": 3984303,
+      "post_holding": 555396
+    },
     {
       "date": "2026-09-14",
       "name": "Hood Amy",

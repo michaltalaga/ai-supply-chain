@@ -23,7 +23,7 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-19",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
@@ -209,16 +209,6 @@
       "shares": 54686,
       "value_usd": 0,
       "post_holding": 519027
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 121976,
-      "value_usd": 0,
-      "post_holding": 1363323
     },
     {
       "date": "2026-08-14",

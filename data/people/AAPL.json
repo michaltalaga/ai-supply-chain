@@ -32,13 +32,23 @@
       "name": "John Giannandrea"
     }
   ],
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-19",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AAPL",
     "top_holders": "https://finance.yahoo.com/quote/AAPL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-13",
+      "name": "Newstead Jennifer",
+      "role": "SVP, GC and Government Affairs",
+      "type": "Sale",
+      "price": 345,
+      "shares": 2399,
+      "value_usd": 827655,
+      "post_holding": 37194
+    },
     {
       "date": "2026-10-06",
       "name": "Newstead Jennifer",
@@ -208,26 +218,6 @@
       "shares": 1534,
       "value_usd": 421850,
       "post_holding": 13366
-    },
-    {
-      "date": "2026-04-02",
-      "name": "O'BRIEN DEIRDRE",
-      "role": "Senior Vice President",
-      "type": "Sale",
-      "price": 255.35,
-      "shares": 30002,
-      "value_usd": 7660875,
-      "post_holding": 136810
-    },
-    {
-      "date": "2026-04-02",
-      "name": "COOK TIMOTHY D",
-      "role": "Chief Executive Officer",
-      "type": "Sale",
-      "price": 254.23,
-      "shares": 64949,
-      "value_usd": 16512198,
-      "post_holding": 3280418
     }
   ],
   "top_holders": [

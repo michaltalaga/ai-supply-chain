@@ -23,13 +23,43 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-19",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-09",
+      "name": "Woersching Eric H.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 205,
+      "shares": 1000,
+      "value_usd": 205000,
+      "post_holding": 3465
+    },
+    {
+      "date": "2026-10-08",
+      "name": "Stat Lauren Elaina Friedman",
+      "role": "Director",
+      "type": "Sale",
+      "price": 199,
+      "shares": 5026,
+      "value_usd": 1000174,
+      "post_holding": 46402
+    },
+    {
+      "date": "2026-10-08",
+      "name": "Taylor Ryan D.",
+      "role": "See Remarks",
+      "type": "Sale",
+      "price": 201.15,
+      "shares": 18000,
+      "value_usd": 3620700,
+      "post_holding": 274667
+    },
     {
       "date": "2026-10-01",
       "name": "Stat Lauren Elaina Friedman",
@@ -159,36 +189,6 @@
       "shares": 16000,
       "value_usd": 2133605,
       "post_holding": 1111095
-    },
-    {
-      "date": "2026-06-11",
-      "name": "Buckley Jeffrey",
-      "role": "See Remarks",
-      "type": "Sale",
-      "price": 128.8,
-      "shares": 1481,
-      "value_usd": 190753,
-      "post_holding": 60226
-    },
-    {
-      "date": "2026-06-01",
-      "name": "Stat Lauren Elaina Friedman",
-      "role": "Director",
-      "type": "Sale",
-      "price": 160,
-      "shares": 1598,
-      "value_usd": 255680,
-      "post_holding": 55022
-    },
-    {
-      "date": "2026-05-29",
-      "name": "Stat Lauren Elaina Friedman",
-      "role": "Director",
-      "type": "Sale",
-      "price": 150,
-      "shares": 1667,
-      "value_usd": 250050,
-      "post_holding": 56620
     }
   ],
   "top_holders": [
