@@ -19,13 +19,23 @@
       "name": "Brian Millham"
     }
   ],
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-26",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRM",
     "top_holders": "https://finance.yahoo.com/quote/CRM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-22",
+      "name": "Harris Parker",
+      "role": "Co-Founder",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 1785,
+      "value_usd": 0,
+      "post_holding": 166353
+    },
     {
       "date": "2026-09-22",
       "name": "Harris Parker",
@@ -275,16 +285,6 @@
       "shares": 442,
       "value_usd": 0,
       "post_holding": 9972
-    },
-    {
-      "date": "2026-05-22",
-      "name": "Chang Amy",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 442,
-      "value_usd": 0,
-      "post_holding": 1732
     }
   ],
   "top_holders": [

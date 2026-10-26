@@ -23,13 +23,23 @@
       "name": "Shyam Sankar"
     }
   ],
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-26",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=PLTR",
     "top_holders": "https://finance.yahoo.com/quote/PLTR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-15",
+      "name": "Moore Alexander D.",
+      "role": "Director",
+      "type": "Sale",
+      "price": 197.99,
+      "shares": 16000,
+      "value_usd": 3167867,
+      "post_holding": 1047095
+    },
     {
       "date": "2026-10-09",
       "name": "Woersching Eric H.",
@@ -179,16 +189,6 @@
       "shares": 35000,
       "value_usd": 4550000,
       "post_holding": 642786
-    },
-    {
-      "date": "2026-06-15",
-      "name": "Moore Alexander D.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 133.35,
-      "shares": 16000,
-      "value_usd": 2133605,
-      "post_holding": 1111095
     }
   ],
   "top_holders": [

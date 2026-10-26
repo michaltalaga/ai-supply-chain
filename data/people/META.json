@@ -30,13 +30,33 @@
       "name": "Chris Cox"
     }
   ],
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-26",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=META",
     "top_holders": "https://finance.yahoo.com/quote/META/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-19",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 707.2,
+      "shares": 946,
+      "value_usd": 669011,
+      "post_holding": 5986
+    },
+    {
+      "date": "2026-10-19",
+      "name": "Olivan Javier",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 707.2,
+      "shares": 629,
+      "value_usd": 444829,
+      "post_holding": 947
+    },
     {
       "date": "2026-10-12",
       "name": "Olivan Javier",
@@ -196,26 +216,6 @@
       "shares": 2516,
       "value_usd": 1550951,
       "post_holding": 1289
-    },
-    {
-      "date": "2026-09-03",
-      "name": "Anderson Aaron",
-      "role": "Chief Accounting Officer",
-      "type": "Sale",
-      "price": 618.06,
-      "shares": 3240,
-      "value_usd": 2002508,
-      "post_holding": 6271
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Mahoney Curtis J.",
-      "role": "Chief Legal Officer",
-      "type": "Sale",
-      "price": 558,
-      "shares": 1559,
-      "value_usd": 869922,
-      "post_holding": 1957
     }
   ],
   "top_holders": [

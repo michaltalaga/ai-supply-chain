@@ -32,13 +32,43 @@
       "name": "John Giannandrea"
     }
   ],
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-26",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AAPL",
     "top_holders": "https://finance.yahoo.com/quote/AAPL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-20",
+      "name": "Newstead Jennifer",
+      "role": "SVP, GC and Government Affairs",
+      "type": "Sale",
+      "price": 339.62,
+      "shares": 2399,
+      "value_usd": 814748,
+      "post_holding": 34795
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Borders Ben",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 345.4,
+      "shares": 1280,
+      "value_usd": 442108,
+      "post_holding": 38288
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Parekh Kevan",
+      "role": "Senior Vice President, CFO",
+      "type": "Sale",
+      "price": 345.05,
+      "shares": 1392,
+      "value_usd": 480315,
+      "post_holding": 17539
+    },
     {
       "date": "2026-10-13",
       "name": "Newstead Jennifer",
@@ -208,16 +238,6 @@
       "shares": 250000,
       "value_usd": 71189722,
       "post_holding": 3819576
-    },
-    {
-      "date": "2026-04-23",
-      "name": "Parekh Kevan",
-      "role": "Senior Vice President, CFO",
-      "type": "Sale",
-      "price": 275,
-      "shares": 1534,
-      "value_usd": 421850,
-      "post_holding": 13366
     }
   ],
   "top_holders": [

@@ -19,7 +19,7 @@
       "name": "Bill Scannell"
     }
   ],
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-26",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
@@ -165,16 +165,6 @@
       "shares": 2022,
       "value_usd": 62965,
       "post_holding": 27289
-    },
-    {
-      "date": "2026-09-22",
-      "name": "Radakovich Lynn Vojvodich",
-      "role": "Director",
-      "type": "Sale",
-      "price": 565.28,
-      "shares": 2022,
-      "value_usd": 1142996,
-      "post_holding": 25267
     }
   ],
   "top_holders": [

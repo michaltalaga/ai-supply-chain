@@ -23,13 +23,33 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-26",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-15",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DSG",
+      "type": "Option Exercise",
+      "price": 84.85,
+      "shares": 7262,
+      "value_usd": 616181,
+      "post_holding": 370579
+    },
+    {
+      "date": "2026-10-15",
+      "name": "Norrod Forrest Eugene",
+      "role": "EVP & GM DSG",
+      "type": "Sale",
+      "price": 540.7,
+      "shares": 17262,
+      "value_usd": 9333585,
+      "post_holding": 353317
+    },
     {
       "date": "2026-09-15",
       "name": "Norrod Forrest Eugene",
@@ -209,16 +229,6 @@
       "shares": 54686,
       "value_usd": 0,
       "post_holding": 519027
-    },
-    {
-      "date": "2026-08-14",
-      "name": "Papermaster Mark D",
-      "role": "Chief Technology Officer & EVP",
-      "type": "Option Exercise",
-      "price": 84.85,
-      "shares": 7369,
-      "value_usd": 625260,
-      "post_holding": 1248716
     }
   ],
   "top_holders": [

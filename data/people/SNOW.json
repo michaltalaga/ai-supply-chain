@@ -20,13 +20,43 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-26",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-21",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 321.74,
+      "shares": 50000,
+      "value_usd": 16087000,
+      "post_holding": 2301543
+    },
+    {
+      "date": "2026-10-19",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 8.88,
+      "shares": 300000,
+      "value_usd": 2664000,
+      "post_holding": 319024
+    },
+    {
+      "date": "2026-10-19",
+      "name": "Slootman Frank",
+      "role": "Director",
+      "type": "Sale",
+      "price": 316.43,
+      "shares": 300000,
+      "value_usd": 94930176,
+      "post_holding": 19024
+    },
     {
       "date": "2026-10-07",
       "name": "Dageville Benoit",
@@ -166,26 +196,6 @@
       "shares": 2986,
       "value_usd": 951071,
       "post_holding": 334013
-    },
-    {
-      "date": "2026-09-16",
-      "name": "Slootman Frank",
-      "role": "Director",
-      "type": "Sale",
-      "price": 318.51,
-      "shares": 8191,
-      "value_usd": 2608915,
-      "post_holding": 19024
-    },
-    {
-      "date": "2026-09-16",
-      "name": "Raghunathan Vivek",
-      "role": "SVP, Engineering",
-      "type": "Sale",
-      "price": 318.51,
-      "shares": 3876,
-      "value_usd": 1234545,
-      "post_holding": 240453
     }
   ],
   "top_holders": [
