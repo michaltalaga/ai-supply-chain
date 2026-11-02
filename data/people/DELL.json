@@ -19,13 +19,33 @@
       "name": "Bill Scannell"
     }
   ],
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=DELL",
     "top_holders": "https://finance.yahoo.com/quote/DELL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-22",
+      "name": "Radakovich Lynn Vojvodich",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 31.14,
+      "shares": 2022,
+      "value_usd": 62965,
+      "post_holding": 27708
+    },
+    {
+      "date": "2026-10-22",
+      "name": "Radakovich Lynn Vojvodich",
+      "role": "Director",
+      "type": "Sale",
+      "price": 460,
+      "shares": 2022,
+      "value_usd": 930120,
+      "post_holding": 25686
+    },
     {
       "date": "2026-10-09",
       "name": "Silver Lake Technology Investo",
@@ -145,26 +165,6 @@
       "shares": 46323,
       "value_usd": 26655778,
       "post_holding": 22254
-    },
-    {
-      "date": "2026-09-23",
-      "name": "Durban Egon",
-      "role": "Director",
-      "type": "Sale",
-      "price": 548.4,
-      "shares": 1850,
-      "value_usd": 1014540,
-      "post_holding": 1405236
-    },
-    {
-      "date": "2026-09-22",
-      "name": "Radakovich Lynn Vojvodich",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 31.14,
-      "shares": 2022,
-      "value_usd": 62965,
-      "post_holding": 27289
     }
   ],
   "top_holders": [

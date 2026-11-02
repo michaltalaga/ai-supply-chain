@@ -35,13 +35,23 @@
       "note": "back active on AI projects since 2023"
     }
   ],
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=GOOGL",
     "top_holders": "https://finance.yahoo.com/quote/GOOGL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-29",
+      "name": "ARNOLD FRANCES",
+      "role": "Director",
+      "type": "Sale",
+      "price": 284,
+      "shares": 82,
+      "value_usd": 23288,
+      "post_holding": 19157
+    },
     {
       "date": "2026-09-30",
       "name": "ARNOLD FRANCES",
@@ -151,16 +161,6 @@
       "shares": 102,
       "value_usd": 37842,
       "post_holding": 18621
-    },
-    {
-      "date": "2026-04-15",
-      "name": "Hennessy John L.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 331.65,
-      "shares": 1050,
-      "value_usd": 348232,
-      "post_holding": 3581
     }
   ],
   "top_holders": [

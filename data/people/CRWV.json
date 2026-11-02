@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,16 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-10-29",
+      "name": "Baker Jeff",
+      "role": "Principal Accounting Officer",
+      "type": "Sale",
+      "price": 61.16,
+      "shares": 6670,
+      "value_usd": 407947,
+      "post_holding": 14170
+    },
     {
       "date": "2026-10-13",
       "name": "Jones Jonathan",
@@ -165,16 +175,6 @@
       "shares": 107692,
       "value_usd": 9331610,
       "post_holding": 0
-    },
-    {
-      "date": "2026-09-22",
-      "name": "Intrator Michael N",
-      "role": "CEO and President",
-      "type": "Sale",
-      "price": 86.82,
-      "shares": 200000,
-      "value_usd": 17363708,
-      "post_holding": 687129
     }
   ],
   "top_holders": [

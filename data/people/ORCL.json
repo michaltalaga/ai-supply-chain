@@ -23,13 +23,53 @@
       "name": "Edward Screven"
     }
   ],
-  "as_of": "2026-10-26",
+  "as_of": "2026-11-02",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=ORCL",
     "top_holders": "https://finance.yahoo.com/quote/ORCL/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-10-23",
+      "name": "Smith Maria",
+      "role": "EVP, Chief Accounting Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 8926,
+      "value_usd": 0,
+      "post_holding": 73283
+    },
+    {
+      "date": "2026-10-23",
+      "name": "HENLEY JEFFREY",
+      "role": "Vice Chairman",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 8033,
+      "value_usd": 0,
+      "post_holding": 501175
+    },
+    {
+      "date": "2026-10-23",
+      "name": "CATZ SAFRA",
+      "role": "Chief Executive Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 8033,
+      "value_usd": 0,
+      "post_holding": 1126625
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Levey Stuart",
+      "role": "EVP, Chief Legal Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 12497,
+      "value_usd": 0,
+      "post_holding": 41020
+    },
     {
       "date": "2026-09-29",
       "name": "RUSCKOWSKI STEPHEN H",
@@ -239,26 +279,6 @@
       "shares": 19752,
       "value_usd": 0,
       "post_holding": 475662
-    },
-    {
-      "date": "2026-06-24",
-      "name": "HENLEY JEFFREY",
-      "role": "Vice Chairman",
-      "type": "Option Exercise",
-      "price": 40.93,
-      "shares": 400000,
-      "value_usd": 16372000,
-      "post_holding": 400000
-    },
-    {
-      "date": "2026-06-24",
-      "name": "HENLEY JEFFREY",
-      "role": "Vice Chairman",
-      "type": "Sale",
-      "price": 159.16,
-      "shares": 400000,
-      "value_usd": 63664040,
-      "post_holding": 0
     }
   ],
   "top_holders": [
