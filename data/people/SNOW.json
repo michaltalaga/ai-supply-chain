@@ -20,13 +20,33 @@
       "note": "former CEO"
     }
   ],
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-09",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=SNOW",
     "top_holders": "https://finance.yahoo.com/quote/SNOW/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-11-04",
+      "name": "Dageville Benoit",
+      "role": "Director",
+      "type": "Sale",
+      "price": 292.35,
+      "shares": 50000,
+      "value_usd": 14617500,
+      "post_holding": 2234875
+    },
+    {
+      "date": "2026-11-02",
+      "name": "Kleinerman Christian",
+      "role": "EVP, Product Management",
+      "type": "Sale",
+      "price": 306.01,
+      "shares": 10000,
+      "value_usd": 3060100,
+      "post_holding": 303738
+    },
     {
       "date": "2026-10-21",
       "name": "Dageville Benoit",
@@ -166,36 +186,6 @@
       "shares": 197209,
       "value_usd": 65888248,
       "post_holding": 19024
-    },
-    {
-      "date": "2026-09-16",
-      "name": "Beaulier Jonathan Mead",
-      "role": "Chief Revenue Officer",
-      "type": "Sale",
-      "price": 336.12,
-      "shares": 12292,
-      "value_usd": 4131636,
-      "post_holding": 213085
-    },
-    {
-      "date": "2026-09-16",
-      "name": "Ho Emily",
-      "role": "Chief Accounting Officer",
-      "type": "Sale",
-      "price": 332.93,
-      "shares": 768,
-      "value_usd": 255693,
-      "post_holding": 39958
-    },
-    {
-      "date": "2026-09-16",
-      "name": "Kleinerman Christian",
-      "role": "EVP, Product Management",
-      "type": "Sale",
-      "price": 318.51,
-      "shares": 2986,
-      "value_usd": 951071,
-      "post_holding": 334013
     }
   ],
   "top_holders": [

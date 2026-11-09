@@ -20,13 +20,33 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-09",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
     "top_holders": "https://finance.yahoo.com/quote/TSM/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-11-05",
+      "name": "SPLINTER MICHAEL R",
+      "role": "Director",
+      "type": "Buy",
+      "price": 357,
+      "shares": 840,
+      "value_usd": 299880,
+      "post_holding": 8405
+    },
+    {
+      "date": "2026-11-01",
+      "name": "Yuan Lipen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 71.49,
+      "shares": 1000,
+      "value_usd": 71490,
+      "post_holding": 8000
+    },
     {
       "date": "2026-10-07",
       "name": "Yuan Lipen",
@@ -296,26 +316,6 @@
       "shares": 53,
       "value_usd": 4208,
       "post_holding": 6761
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Chuang Juiping",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 46,
-      "value_usd": 3652,
-      "post_holding": 48
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Chen Pei-Hung",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 43,
-      "value_usd": 3414,
-      "post_holding": 1438
     }
   ],
   "top_holders": [

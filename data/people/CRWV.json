@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-09",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,26 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-11-05",
+      "name": "Goldberg Chen",
+      "role": "EVP, Product & Engineering",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 37500,
+      "value_usd": 0,
+      "post_holding": 88053
+    },
+    {
+      "date": "2026-11-05",
+      "name": "Goldberg Chen",
+      "role": "EVP, Product & Engineering",
+      "type": "Sale",
+      "price": 46.5,
+      "shares": 19904,
+      "value_usd": 925505,
+      "post_holding": 68149
+    },
     {
       "date": "2026-10-29",
       "name": "Baker Jeff",

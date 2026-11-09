@@ -19,7 +19,7 @@
       "name": "Frank Yeary"
     }
   ],
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-09",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=INTC",
@@ -27,6 +27,16 @@
   },
   "note": "Pat Gelsinger out Dec 2024 amid foundry losses; Lip-Bu Tan named CEO Mar 2025",
   "insider_trades": [
+    {
+      "date": "2026-11-02",
+      "name": "TAN LIP BU",
+      "role": "CEO",
+      "type": "Buy",
+      "price": 64.73,
+      "shares": 150000,
+      "value_usd": 9709680,
+      "post_holding": 1464669
+    },
     {
       "date": "2026-08-11",
       "name": "TAN LIP BU",
