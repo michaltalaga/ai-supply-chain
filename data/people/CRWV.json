@@ -18,7 +18,7 @@
       "name": "Nitin Agrawal"
     }
   ],
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=CRWV",
@@ -26,6 +26,36 @@
   },
   "note": "IPO 2025-03-28; founders pre-AI ran crypto-mining business CoreScientific spinoff",
   "insider_trades": [
+    {
+      "date": "2026-11-10",
+      "name": "HUTCHINS GLENN H",
+      "role": "Director",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 1440,
+      "value_usd": 0,
+      "post_holding": 13083
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Jain Sachin",
+      "role": "Chief Operating Officer",
+      "type": "Sale",
+      "price": 46.23,
+      "shares": 13611,
+      "value_usd": 629237,
+      "post_holding": 177224
+    },
+    {
+      "date": "2026-11-08",
+      "name": "Jain Sachin",
+      "role": "Chief Operating Officer",
+      "type": "Option Exercise",
+      "price": 0,
+      "shares": 33740,
+      "value_usd": 0,
+      "post_holding": 190835
+    },
     {
       "date": "2026-11-05",
       "name": "Goldberg Chen",

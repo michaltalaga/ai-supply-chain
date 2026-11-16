@@ -23,13 +23,23 @@
       "name": "Phil Guido"
     }
   ],
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=AMD",
     "top_holders": "https://finance.yahoo.com/quote/AMD/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-11-11",
+      "name": "Denzel Nora",
+      "role": "Director",
+      "type": "Sale",
+      "price": 564.88,
+      "shares": 9000,
+      "value_usd": 5083920,
+      "post_holding": 78173
+    },
     {
       "date": "2026-10-15",
       "name": "Norrod Forrest Eugene",
@@ -209,26 +219,6 @@
       "shares": 81114,
       "value_usd": 0,
       "post_holding": 166937
-    },
-    {
-      "date": "2026-08-15",
-      "name": "Hu Jean X.",
-      "role": "EVP, CFO and Treasurer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 101698,
-      "value_usd": 0,
-      "post_holding": 215998
-    },
-    {
-      "date": "2026-08-15",
-      "name": "HUYNH JACK M",
-      "role": "SVP & GM, Computing & Graphics",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 54686,
-      "value_usd": 0,
-      "post_holding": 519027
     }
   ],
   "top_holders": [

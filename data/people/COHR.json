@@ -16,13 +16,33 @@
       "note": "former CEO; led II-VI/COHR merger 2022"
     }
   ],
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=COHR",
     "top_holders": "https://finance.yahoo.com/quote/COHR/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-11-10",
+      "name": "Digirolomo Enrico",
+      "role": "Director",
+      "type": "Buy",
+      "price": 222.88,
+      "shares": 1000,
+      "value_usd": 222885,
+      "post_holding": 11644
+    },
+    {
+      "date": "2026-11-09",
+      "name": "ANDERSON JAMES ROBERT",
+      "role": "CEO",
+      "type": "Buy",
+      "price": 199.48,
+      "shares": 5000,
+      "value_usd": 997400,
+      "post_holding": 190287
+    },
     {
       "date": "2026-09-11",
       "name": "Digirolomo Enrico",
@@ -162,26 +182,6 @@
       "shares": 3240,
       "value_usd": 70211,
       "post_holding": 53538
-    },
-    {
-      "date": "2026-03-17",
-      "name": "Xia Howard H.",
-      "role": "Director",
-      "type": "Sale",
-      "price": 241.65,
-      "shares": 3240,
-      "value_usd": 782943,
-      "post_holding": 50298
-    },
-    {
-      "date": "2026-03-16",
-      "name": "Xia Howard H.",
-      "role": "Director",
-      "type": "Option Exercise",
-      "price": 21.67,
-      "shares": 1000,
-      "value_usd": 21670,
-      "post_holding": 51298
     }
   ],
   "top_holders": [

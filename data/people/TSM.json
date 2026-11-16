@@ -20,7 +20,7 @@
       "note": "leads N2/N1.4 nodes"
     }
   ],
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=TSM",
@@ -28,294 +28,294 @@
   },
   "insider_trades": [
     {
-      "date": "2026-11-05",
-      "name": "SPLINTER MICHAEL R",
-      "role": "Director",
-      "type": "Buy",
-      "price": 357,
-      "shares": 840,
-      "value_usd": 299880,
-      "post_holding": 8405
-    },
-    {
-      "date": "2026-11-01",
-      "name": "Yuan Lipen",
-      "role": "VP",
-      "type": "Buy",
-      "price": 71.49,
-      "shares": 1000,
-      "value_usd": 71490,
-      "post_holding": 8000
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Yuan Lipen",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 40,
-      "value_usd": 3176,
-      "post_holding": 1341
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Yeap Choh Fei",
-      "role": "SVP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 52,
-      "value_usd": 4128,
-      "post_holding": 53
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Zhang Kevin Xiaoqiang",
-      "role": "SVP and Deputy Co-COO",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 59,
-      "value_usd": 4684,
-      "post_holding": 7406
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Yoo Chue-San",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 50,
-      "value_usd": 3970,
-      "post_holding": 6744
-    },
-    {
-      "date": "2026-10-07",
+      "date": "2026-11-06",
       "name": "Wu Shien-Yang",
       "role": "SVP",
       "type": "Buy",
-      "price": 79.39,
-      "shares": 53,
-      "value_usd": 4208,
-      "post_holding": 6915
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Wei Che-Chia",
-      "role": "Chairman and CEO",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 144,
-      "value_usd": 11432,
-      "post_holding": 18280
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Wu Yi-Huang",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 39,
-      "value_usd": 3096,
-      "post_holding": 199
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Wang Ying-Lang",
-      "role": "SVP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 52,
-      "value_usd": 4128,
-      "post_holding": 6551
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Mii Yuh-Jier",
-      "role": "EVP and Co-COO",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 68,
-      "value_usd": 5399,
-      "post_holding": 8238
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Tien Bor-Zen",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 47,
-      "value_usd": 3731,
-      "post_holding": 353
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Lu Chin-Sheng",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 36,
-      "value_usd": 2858,
-      "post_holding": 187
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Lu Lee-Chung",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 49,
-      "value_usd": 3890,
-      "post_holding": 6534
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Lin Shyue-Shyh",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 44,
-      "value_usd": 3493,
-      "post_holding": 384
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Lin Chris Horng-Dar",
-      "role": "VP and CIO",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 44,
-      "value_usd": 3493,
-      "post_holding": 45
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Lee Chun-Hsien",
-      "role": "SVP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 51,
-      "value_usd": 4049,
-      "post_holding": 6092
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Ku Yao-Ching",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 46,
-      "value_usd": 3652,
-      "post_holding": 234
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Hwang Yuan-Ko",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 39,
-      "value_usd": 3096,
-      "post_holding": 338
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Huang Jen-Chau",
-      "role": "SVP and CFO",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 28,
-      "value_usd": 2223,
-      "post_holding": 3611
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Jang Syun-Ming",
-      "role": "VP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 46,
-      "value_usd": 3652,
-      "post_holding": 5988
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Hou Yung-Chin",
-      "role": "SVP and Deputy Co-COO",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 60,
-      "value_usd": 4763,
+      "price": 70.5,
+      "shares": 59,
+      "value_usd": 4160,
       "post_holding": 60
     },
     {
-      "date": "2026-10-07",
-      "name": "Hsu Kuo-Chin",
+      "date": "2026-11-06",
+      "name": "Yoo Chue-San",
       "role": "VP",
       "type": "Buy",
-      "price": 79.39,
-      "shares": 52,
-      "value_usd": 4128,
-      "post_holding": 6781
+      "price": 70.5,
+      "shares": 54,
+      "value_usd": 3807,
+      "post_holding": 6798
     },
     {
-      "date": "2026-10-07",
-      "name": "He Jun",
+      "date": "2026-11-06",
+      "name": "Yeap Choh Fei",
+      "role": "SVP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 57,
+      "value_usd": 4018,
+      "post_holding": 110
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Zhang Kevin Xiaoqiang",
+      "role": "SVP and Deputy Co-COO",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 65,
+      "value_usd": 4582,
+      "post_holding": 7471
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Wu Yi-Huang",
       "role": "VP",
       "type": "Buy",
-      "price": 79.39,
+      "price": 70.5,
+      "shares": 41,
+      "value_usd": 2890,
+      "post_holding": 240
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Yuan Lipen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
       "shares": 43,
-      "value_usd": 3414,
-      "post_holding": 45
+      "value_usd": 3032,
+      "post_holding": 1384
     },
     {
-      "date": "2026-10-07",
+      "date": "2026-11-06",
+      "name": "Tien Bor-Zen",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 49,
+      "value_usd": 3454,
+      "post_holding": 396
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Lin Chris Horng-Dar",
+      "role": "VP and CIO",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 50,
+      "value_usd": 3525,
+      "post_holding": 95
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Hwang Yuan-Ko",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 41,
+      "value_usd": 2890,
+      "post_holding": 379
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Wei Che-Chia",
+      "role": "Chairman and CEO",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 155,
+      "value_usd": 10928,
+      "post_holding": 18435
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Jang Syun-Ming",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 51,
+      "value_usd": 3596,
+      "post_holding": 6039
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Ku Yao-Ching",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 48,
+      "value_usd": 3384,
+      "post_holding": 282
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Lu Chin-Sheng",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 40,
+      "value_usd": 2820,
+      "post_holding": 227
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Wang Ying-Lang",
+      "role": "SVP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 56,
+      "value_usd": 3948,
+      "post_holding": 58
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Lin Shyue-Shyh",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 47,
+      "value_usd": 3314,
+      "post_holding": 431
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Lu Lee-Chung",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 53,
+      "value_usd": 3736,
+      "post_holding": 6587
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Lee Chun-Hsien",
+      "role": "SVP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 54,
+      "value_usd": 3807,
+      "post_holding": 6146
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Mii Yuh-Jier",
+      "role": "EVP and Co-COO",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 73,
+      "value_usd": 5146,
+      "post_holding": 8311
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Huang Jen-Chau",
+      "role": "SVP and CFO",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 30,
+      "value_usd": 2115,
+      "post_holding": 3641
+    },
+    {
+      "date": "2026-11-06",
       "name": "Chuang Tzu-Sou",
       "role": "VP",
       "type": "Buy",
-      "price": 79.39,
-      "shares": 46,
-      "value_usd": 3652,
-      "post_holding": 47
+      "price": 70.5,
+      "shares": 48,
+      "value_usd": 3384,
+      "post_holding": 95
     },
     {
-      "date": "2026-10-07",
-      "name": "Cao Min",
+      "date": "2026-11-06",
+      "name": "Hsu Kuo-Chin",
       "role": "VP",
       "type": "Buy",
-      "price": 79.39,
-      "shares": 51,
-      "value_usd": 4049,
-      "post_holding": 6824
+      "price": 70.5,
+      "shares": 56,
+      "value_usd": 3948,
+      "post_holding": 6837
     },
     {
-      "date": "2026-10-07",
-      "name": "Chin Yung-Pei",
-      "role": "EVP and Co-COO",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 67,
-      "value_usd": 5319,
-      "post_holding": 8573
-    },
-    {
-      "date": "2026-10-07",
-      "name": "Chang Tzonz-Sheng",
-      "role": "SVP",
-      "type": "Buy",
-      "price": 79.39,
-      "shares": 51,
-      "value_usd": 4049,
-      "post_holding": 52
-    },
-    {
-      "date": "2026-10-07",
+      "date": "2026-11-06",
       "name": "Fang Shu-Hua",
       "role": "SVP and GC",
       "type": "Buy",
-      "price": 79.39,
-      "shares": 53,
-      "value_usd": 4208,
-      "post_holding": 6761
+      "price": 70.5,
+      "shares": 58,
+      "value_usd": 4089,
+      "post_holding": 6819
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Hou Yung-Chin",
+      "role": "SVP and Deputy Co-COO",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 64,
+      "value_usd": 4512,
+      "post_holding": 124
+    },
+    {
+      "date": "2026-11-06",
+      "name": "He Jun",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 47,
+      "value_usd": 3314,
+      "post_holding": 92
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Chuang Juiping",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 50,
+      "value_usd": 3525,
+      "post_holding": 98
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Chen Pei-Hung",
+      "role": "VP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 48,
+      "value_usd": 3384,
+      "post_holding": 1486
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Chen Chih-Ho",
+      "role": "Controller",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 33,
+      "value_usd": 2326,
+      "post_holding": 266
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Chang Tzonz-Sheng",
+      "role": "SVP",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 55,
+      "value_usd": 3878,
+      "post_holding": 107
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Chin Yung-Pei",
+      "role": "EVP and Co-COO",
+      "type": "Buy",
+      "price": 70.5,
+      "shares": 73,
+      "value_usd": 5146,
+      "post_holding": 8646
     }
   ],
   "top_holders": [

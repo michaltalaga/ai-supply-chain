@@ -26,13 +26,33 @@
       "name": "Rajesh Jha"
     }
   ],
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MSFT",
     "top_holders": "https://finance.yahoo.com/quote/MSFT/holders/"
   },
   "insider_trades": [
+    {
+      "date": "2026-11-10",
+      "name": "Numoto Takeshi",
+      "role": "EVP, Chief Marketing Officer",
+      "type": "Sale",
+      "price": 531,
+      "shares": 5000,
+      "value_usd": 2655000,
+      "post_holding": 54412
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Hood Amy",
+      "role": "EVP, Chief Financial Officer",
+      "type": "Sale",
+      "price": 544.37,
+      "shares": 7305,
+      "value_usd": 3976633,
+      "post_holding": 548091
+    },
     {
       "date": "2026-10-13",
       "name": "Hood Amy",

@@ -16,7 +16,7 @@
       "note": "leads HBM strategy"
     }
   ],
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MU",
@@ -202,16 +202,6 @@
       "shares": 28506,
       "value_usd": 32761315,
       "post_holding": 355997
-    },
-    {
-      "date": "2026-05-29",
-      "name": "MEHROTRA SANJAY",
-      "role": "President and CEO",
-      "type": "Sale",
-      "price": 975.63,
-      "shares": 2561,
-      "value_usd": 2498589,
-      "post_holding": 384503
     }
   ],
   "top_holders": [

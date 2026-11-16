@@ -15,7 +15,7 @@
       "name": "Raghib Hussain"
     }
   ],
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "sources": {
     "leadership": "hand-curated",
     "insider_trades": "https://finviz.com/quote.ashx?t=MRVL",
@@ -221,16 +221,6 @@
       "shares": 21519,
       "value_usd": 0,
       "post_holding": 242259
-    },
-    {
-      "date": "2026-07-15",
-      "name": "Scarpulla Justin",
-      "role": "SVP, Chief Accounting Officer",
-      "type": "Option Exercise",
-      "price": 0,
-      "shares": 510,
-      "value_usd": 0,
-      "post_holding": 666
     }
   ],
   "top_holders": [
